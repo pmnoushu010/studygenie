@@ -141,7 +141,7 @@ export async function POST(req: NextRequest) {
               responseMimeType: "application/json"
             }
           });
-          return response.text();
+          return response.text;
         } catch (err: any) {
           const isQuotaError = err.status === 429 || (err.message && (err.message.includes('429') || err.message.includes('RESOURCE_EXHAUSTED') || err.message.includes('quota')));
           const isServerError = err.status === 503 || err.status === 500 || (err.message && err.message.includes('503'));

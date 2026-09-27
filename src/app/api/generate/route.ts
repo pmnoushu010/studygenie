@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
       }
     });
 
-    const jsonText = response.text();
+    const jsonText = response.text;
     if (!jsonText) {
        return NextResponse.json({ error: 'Failed to generate questions.' }, { status: 500 });
     }
