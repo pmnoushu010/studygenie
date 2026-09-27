@@ -1,0 +1,179 @@
+[Page 9]
+functions forms tissues. Different tissues are organised to form an organ and several organs work together to form organ systems. Such as, nasal pores, nasal cavity, trachea and lungs form respiratory system.
+Even when cells are organised into tissues, organs, and organ systems the cell remains the fundamental unit of structure and function in all living organisms. This makes us wonder how such tiny cells perform so many different activities. What are the different components of a cell? How do cells in our body communicate with each other? Do cells live forever, or do they die? In this chapter, we will explore the answers to these questions as we enter the fascinating world of cells!
+
+2.1 How to Study Cells?
+What do we call the ability of the human eye to see two very close objects as separate and distinct? Imagine two tiny dots drawn on a piece of paper. As the dots are moved closer, there comes a point at which they can no longer be seen as separate. When viewed from about 25 cm (the near point of human eye), two points separated by about 0.1 mm can be seen as distinct; otherwise, they appear as a single point. This is called the limit of resolution of the human eye, which is 0.1 mm.
+A cell is usually too small to be seen by the unaided eye. This raises an important question - how have cell biologists studied the structure and function of cells that are much smaller than the limit of resolution of the human eye?
+You have learnt about convex lens. A convex lens or a combination of lenses, i.e., an objective lens and an eyepiece are used for the magnification of an object to make it appear larger.
+Robert Hooke was the first person to observe a cell in 1665 using a self-designed microscope (capable of about 200-300X magnification). While examining a thin slice of cork, he observed small box-like compartments and named them 'cells'. In school laboratories, light microscopes are used to observe objects using
+
+[Page 10]
+different objective lenses (e.g., 10X, 40X) to achieve better magnification and resolution under visible light. Explore different parts of a microscope in your school laboratory and use it to observe fine structures of various materials. Under the microscope, you will see a magnified image of an object. Can you estimate its actual size?
+
+Activity 2.1: Let us estimate the size of a cell
+1. Take a transparent ruler with millimetre (mm) markings.
+2. Place the ruler on the stage of microscope, focus on it using the adjustment knob and observe the diameter of the circular field of view through the eyepiece and measure it in mm.
+3. Convert the diameter from mm to micrometre (μm). Suppose the diameter of the visible field is 5 mm, meaning 5 x 1000 = 5000 μm.
+4. Remove the ruler and place an onion peel slide on the stage of the microscope.
+5. Focus on the slide and count the number of cells present along the diameter of the field of view in one straight line.
+6. Estimate the real size of the cell using the formula:
+Estimated size of the onion peel cell = Diameter of the visible field in micrometre / Number of cells along the diameter
+Suppose, 25 cells are seen along the diameter. In that case, the size of one onion cell would be 5000 μm / 25 = 200 μm.
+
+If the estimated size of an onion peel cell is 200 μm, how much does a light microscope magnify this cell? The total magnification of a microscope depends on its magnifying power of the eyepiece and the objective lens. If both the eyepiece and the objective lens have the magnifying power of 10X, then the total magnification will be 100X. This means that a cell with an estimated size of 200 μm will appear 100 times larger.
+Thus, a microscope allows us to see very small structures clearly and is an essential tool for studying the cell structure. Over the years, scientists have improved the microscope by improving its three main features - resolution (measure of clarity), contrast (the difference in brightness between various
+
+[Page 11]
+parts of an object), and magnification. These improvements have turned microscope into a powerful tool for studying cells.
+
+2.2 Structure of a Cell
+You have learnt that cells are organised into specialised tissues and organs, and collectively perform specific function. For these cells to function as units, they must be able to interact with one another and with their surroundings. These interactions occur at the cell boundary, where substances move between the cells and their external environment. Even single-celled organisms exchange materials and respond to their environment through cell membrane.
+
+2.2.1 Cell membrane - The universal feature of a cell
+The cell membrane is a thin boundary that surrounds a cell and protects its contents. It defines the individuality of a cell and is also called the plasma membrane. The cell membrane is selectively permeable, which means it allows some substances to pass through it while blocking others. You have learnt how oxygen and carbon dioxide move across the membranes of alveoli in the lungs. How does the structure of the cell membrane in the cells of alveoli control the movement of substances across it?
+
+Activity 2.2: Let us experiment
+1. With the help of a kitchen knife, carefully cut a potato into two pieces of roughly equal size.
+2. Measure and record the initial weight of both the pieces using a weighing balance.
+3. Put one piece of the potato in Beaker A with plain water.
+4. Put the other piece of the potato in Beaker B with 20 per cent salt or sugar solution.
+5. Leave them undisturbed for about an hour or until you notice a visible change in the size of the pieces.
+6. Measure and record the final weight of each piece.
+7. Calculate the difference between the initial and their final weights.
+What do you observe? You may observe that -
+Beaker A - The potato piece swells.
+Beaker B - The potato piece shrinks.
+
+[Page 12]
+What do you infer? What do you expect in terms of changes in their weight? The weight of the potato piece in Beaker A has increased, while the weight of the potato piece in Beaker B has decreased. This happens because the cell membrane allows water to move in and out of the cell but not the sugar or salt molecules. Water moves from an area with more water and less solute (dilute solution) to an area with less water and more solute (concentrated solution) until the concentrations in the two areas become equal. This movement of water through a selectively permeable membrane is called osmosis. You have learnt in Activities 7.8 (dye spreading in water) and 7.9 (fragrance spreading in air) in Grade 8 that particles of matter intermix, due to a difference in their concentrations, also called a concentration gradient. Diffusion is the net movement of particles from a higher to a lower concentration (which occurs even without a membrane). Osmosis is the diffusion of water across a selectively permeable membrane. In plants, water from the soil enters root cells by this process of osmosis.
+
+What if... a cell is kept in salt or sugar solutions of different concentrations?
+- Solute concentration of extracellular medium = Solute concentration of intracellular medium - Isotonic solution.
+- Solute concentration of extracellular medium < Solute concentration of intracellular medium - Hypotonic solution.
+- Solute concentration of extracellular medium > Solute concentration of intracellular medium - Hypertonic solution.
+
+Structurally, the cell membrane is extremely thin, about 7 to 10 nanometres (nm) thick (1 nanometre = 0.000001 mm). It is made up of lipids (fats) and proteins. The fluid-mosaic model explains its structure:
+- The membrane has a lipid bilayer (two layers of special fat molecules with water attracting heads outwards and water repelling tails inwards) with proteins embedded in them.
+- The molecules can move sideways, flip and rotate within the membrane. Hence, it is fluid.
+- Proteins in the membrane act like gatekeepers in helping substances pass through.
+
+[Page 13]
+- Since the molecules are arranged like tiles in a mosaic, it is called the 'mosaic' model.
+All living cells communicate with their surroundings and their neighbouring cells through the cell membrane. However, cells of plant, fungi, and bacteria have an additional layer around the cell membrane, called the cell wall. What do you think is the necessity of the cell wall in these cells?
+
+Activity 2.3: Let us investigate
+1. Prepare temporary slides of a thin peel of an onion leaf or a Rhoeo (Cradle lily) leaf and mount it with safranin using cover slip to observe plant cells under a microscope.
+2. Similarly, prepare a temporary slide of cheek cells by gently scraping the inner side of your cheek with a cotton swab or the blunt end of a toothpick.
+3. Spread the cheek cells on a clean glass slide.
+4. Add a drop of water followed by a few drops of methylene blue stain and carefully place a coverslip.
+5. Observe both the slides under a microscope.
+What do you observe? Onion peel cells or Rhoeo leaf peel cells are box-shaped and regularly arranged, whereas cheek cells are irregularly arranged. Why do you think this difference exists?
+Prepare two slides of a Rhoeo leaf peel and human cheek cells again, and put 20 per cent sugar solution on them. Observe them under a microscope after half an hour. What do you observe? You must have observed that the boundaries of the plant cells remain the same but their inner content shrinks, and the space between the inner and outer boundaries increases. You may observe that the cheek cells, on the other hand, have shrunk considerably.
+
+2.2.2 Cell wall - The outer covering of cells
+In general, plants cannot move from place to place, so they need a rigid structure to withstand environmental stresses like wind and rain. Therefore, plant cells have an additional covering outside the cell membrane called a cell wall. The cell wall also helps leaves and flowers remain firm, and maintain their shapes and help plants stay upright. Although rigid the cell wall is permeable, which means water and some dissolved minerals can pass through it. Along with the selective permeability of the cell membrane, the permeability of the cell wall helps plant roots absorb water and nutrients from the soil.
+When we place a Rhoeo leaf or an onion peel in a concentrated sugar solution the plant cells lose water due to osmosis. However, the cells do not shrink in size because their rigid cell wall maintains their shape. The inner content of a cell shrinks as the cell membrane pulls away from the cell wall. This shows that the cell wall helps plant cells remain firm in their original shape.
+Animal cells, such as cheek cells do not have a cell wall. Therefore, when placed in a concentrated sugar solution, they lose water and shrink.
+[Page 21]
+What do you observe? Do you observe the cells of the onion root tip? Are they similar in structure? Do you find any structural differences in these cells? If yes, why is it so?
+This is because the cells of a growing tip of root of onion divide continuously. This process is called cell division. Therefore, these cells exhibit different structures corresponding to different stages of cell division.
+Every day, an estimated hundreds of billions of cells in our body are replaced. Both prokaryotic and eukaryotic cells divide, but eukaryotic cells divide in a more controlled and orderly manner by a process called the cell cycle.
+
+2.4.1 Cell division
+Cell division is the process by which new cells are formed from pre-existing cells. It allows living organisms to grow, repair damaged tissues and reproduce. Some cells, such as skin cells divide continuously to replace cells that are lost regularly. There are two major types of cell division - mitosis and meiosis. Mitosis is important for normal growth, repair, maintenance and asexual reproduction, while meiosis is important for sexual reproduction for creation of genetic diversity.
+
+Mitosis
+Every human begins life as a single fertilised egg. This one cell divides repeatedly to form trillions of cells in the body. Cells increase in number through mitosis, which is the most common type of cell division.
+Mitosis produces two genetically identical daughter cells from one parent cell. Each new cell gets the same DNA and the same number of chromosomes as the parent cell. This ensures that genetic information is largely maintained across body cells.
+
+[Page 17]
+Ribosomes - The protein factories
+These are tiny structures may be present either freely in the cytoplasm or attached to the endoplasmic reticulum. Ribosomes are the sites of protein synthesis.
+
+Endoplasmic Reticulum (ER) - Manufacturing factory
+The Endoplasmic Reticulum (ER) is a large organelle that spreads like a network within the cytoplasm of the cell. The ER is continuous with the outer membrane of nuclear envelop. The ER plays a key role in the synthesis and transport of proteins, fats (lipids), and some hormones. There are two types of ER:
+- Rough Endoplasmic Reticulum (RER): It looks rough under an electron microscope because it has ribosomes attached to its surface, and is mainly involved in protein synthesis and protein secretion (for example, in gland cells, such as pancreatic cells).
+- Smooth Endoplasmic Reticulum (SER): It does not have ribosomes on its surface, and therefore, looks smooth. It is involved in the synthesis, and storage of fats and hormones.
+
+Golgi apparatus - The packaging and shipping centres
+It is functionally linked to the ER, the cell membrane and the other cell organelles. The Golgi apparatus acts like the cell's post office. It modifies, sorts, and packages proteins and/or lipids into vesicles for transport, secretion, or lysosome formation.
+The Golgi apparatus was first observed in 1898 by an Italian scientist, Camillo Golgi, in the nerve cells of a barn owl.
+
+Lysosomes - The clean-up system
+Cells produce waste materials and damaged, worn-out organelles during their activities.
+Lysosomes are single membrane-bound sacs filled with enzymes, which can break down unwanted proteins, carbohydrates, fats, and even
+
+[Page 19]
+by them during photosynthesis. The sugars synthesised in this process are stored in stroma, along with the starch granules.
+Mitochondria and plastids have some features that are similar to certain bacteria. For example, they both have their own DNA and ribosomes, and thus, they can make some of their own proteins. These characteristics suggest that both mitochondria and plastids share an evolutionary history with these single-celled organisms.
+
+In flower petals and fruits, plastids contain pigments other than chlorophyll. These plastids are called chromoplasts. Their pigments are the source of bright colours in such flowers and fruits. Such bright colours help in attracting pollinators for pollination and fruit-eating animals that help in seed dispersal.
+Some plastids lack pigments and are thus, colourless. These are called leucoplasts. Leucoplasts store food material, such as starch, oils or proteins.
+
+Vacuoles - The organelles for storage and support
+In a mature plant cell, there is usually one large central vacuole surrounded by a single selectively permeable membrane. The vacuole is filled with a watery fluid called cell sap. The vacuole stores water, minerals, sugars and waste material. By storing large amounts of water, the vacuole helps maintain pressure inside the cell, which keeps a plant cell firm. When a plant does not get enough water, the vacuole loses water, the cells become less firm, and the plant gets wilted.
+In animal cells, vacuoles are sometimes present. Although they are not as large as plant vacuoles, they help in the temporary storage of materials.
+
+[Page 20]
+[Threads of Curiosity box]
+In 2010, scientist J. Craig Venter and his team made an important discovery in the field of synthetic biology. They inserted the synthetic DNA into a cell. After this, the cell started to grow and divide, following the instructions from the newly inserted synthetic DNA. This experiment showed that DNA controls the structure and activities of a cell.
+
+2.4 How do Normal Cells Grow and Divide?
+When you get a small cut on your skin, it heals after a few days. When hair fall out, new hair grow back. It happens because cells in our body can grow and divide to replace the old, dead, or damaged cells. Cells can grow only up to a certain size but growth happens because cells divide to form new cells. Let us study freshly growing root tips of an onion to understand how cells divide.
+
+Activity 2.5: Let us enhance our skills
+(Steps to observe growing root tips of an onion)
+
+[Page 18]
+damaged parts of the cell, keeping it clean and healthy. The products formed by the breakdown are released into the cytoplasm, where they may be reused in other cellular processes.
+Human sperm cells contain lysosomal enzymes. When a sperm meets an egg, these enzymes help break down the outer layer of the egg, allowing fertilisation to take place.
+
+Mitochondria - The powerhouse of the cell
+Mitochondria are often called the 'powerhouses of the cell' because they supply the energy needed for most cellular activities. Each mitochondrion is surrounded by two membranes:
+- The outer membrane is smooth and porous.
+- The inner membrane is folded into finger-like projections called cristae, which increase the surface area for chemical reactions and facilitate energy production.
+In mitochondria, the glucose and other molecules are broken down to release energy during a process called cellular respiration. The energy released is stored in the form of a molecule called Adenosine Triphosphate (ATP), which acts as the energy currency.
+
+Plastids - Centre for food synthesis in the plant cells and beyond
+Plants synthesise food in the presence of sunlight. Plants use special organelles called plastids for food synthesis and storage.
+A green pigment called chlorophyll, which is present in the chloroplast (a type of plastid) absorbs sunlight. Chloroplasts are double-membrane-bound organelles, like mitochondria. Inside the chloroplast, there is a semi-fluid substance called the stroma. Within the stroma are disc-shaped membrane structures that contain chlorophyll. Light energy is absorbed
+[Page 27]
+14. The cell membrane of a cell is made up of proteins and lipids. Which cell organelles help in the synthesis of cell membrane? Write the path of these compounds from their site of synthesis to the cell membrane.
+15. What would happen if gametes are formed by mitotic divisions?
+16. A farmer used traditional methods like adding salt, sugar, or jaggery to preserve amla and lemons to make pickles and sharbat, extending their shelf life.
+(i) Which scientific concept has the farmer applied? (Osmosis/Plasmolysis)
+(ii) How does high salt/sugar prevent growth of bacteria? (By causing them to lose water and die due to exosmosis)
+
+[Page 23]
+2.5 Cell Theory - The Unifying Principle of Biology
+In 1838, Matthias Schleiden reported that all plants are made up of cells. In 1839, Theodor Schwann found that all animals are made up of cells. In 1855, Rudolf Virchow expanded the Cell Theory by stating that new cells are formed only from pre-existing cells.
+Classical Cell Theory:
+- All living organisms are made up of one or more cells.
+- The cell is the basic unit of structure and function in living beings.
+- All cells arise from pre-existing cells.
+2.5.1 Do cells grow and reproduce forever?
+In many animal cells, cell division usually stops when cells come in contact with neighbouring cells. This process is called contact inhibition. Cancer cells lose this control and keep dividing uncontrollably. Plant cells grow differently and do not show contact inhibition.
+In 1902, Gottlieb Haberlandt proposed that any living plant cell can develop into a complete plant. This ability is called totipotency.
+
+[Page 26]
+8. Carrot in plain water stays stiff (endosmosis), but in concentrated salt solution becomes rubbery (exosmosis).
+9. Bacterial cells lack a nucleus, mitochondria, and golgi complex, but have a chromosome. Animal cells have a nucleus, mitochondria, and golgi, but lack chromoplasts.
+10. Potato cups experiment (Osmosis). Boiled potato (Cup D) does not show osmosis because its cells are dead.
+11. Incorrect match: (ii) SER - Lipid and cellulose synthesis. (SER synthesises lipids, not cellulose).
+13. Contact inhibition inhibits tumour formation.
+
+[Page 25]
+Cell X in pure water swells (water moved into Cell X), Cell Y in concentrated salt solution shrinks (water moved out of Cell Y).
+3. Identify parts of cell: Nucleus controls activities. Mitochondrion is site of cellular respiration. Vacuole stores and provides rigidity. Cell Membrane separates contents. Cell Wall provides structural rigidity. Golgi packs and stores. Chloroplast manufactures food.
+4. Correct option for present in plant cells and absent in animal cells: (i) Leucoplast and Cell wall.
+5. Are plastids present in roots? Yes, leucoplasts (a type of plastid) are present in roots to store food (like starch).
+7. Which organelles contain DNA? (ii) Mitochondria, Nucleus. (Chloroplasts also contain DNA).
+
+[Page 24]
+At a Glance
+- Prokaryotic cells do not have a well-defined nucleus, their genetic material is in a nucleoid.
+- Eukaryotic cells are larger and more complex with a well-defined nucleus and membrane-bound organelles.
+- The nucleus contains chromosomes (DNA and proteins).
+- Mitosis produces two identical daughter cells.
+- Meiosis is a two-step process producing four daughter cells with half the chromosomes.

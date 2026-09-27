@@ -1,0 +1,116 @@
+{
+  "oneword": [
+    {
+      "q": "What is the tendency of objects to resist a change in their state of motion called?",
+      "a": "Inertia"
+    },
+    {
+      "q": "What is the SI unit of force?",
+      "a": "Newton (N)"
+    },
+    {
+      "q": "Which scientist first conceptualized the idea of inertia through thought experiments?",
+      "a": "Galileo Galilei"
+    },
+    {
+      "q": "What is the standard value of acceleration due to gravitational force on Earth (g)?",
+      "a": "9.8 m/s^2"
+    },
+    {
+      "q": "The product of an object's mass and its velocity is known as its what?",
+      "a": "Momentum"
+    },
+    {
+      "q": "In which direction does the force of friction always act relative to the object's motion?",
+      "a": "Opposite direction"
+    },
+    {
+      "q": "What force causes a moving bicycle to eventually slow down and stop when you stop pedaling?",
+      "a": "Friction"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Define balanced and unbalanced forces.",
+      "a": "Balanced forces are equal in magnitude but opposite in direction resulting in a net force of zero. Unbalanced forces are unequal, resulting in a non-zero net force that changes the object's state of motion."
+    },
+    {
+      "q": "Why does a cricket fielder gradually pull his hands backward while catching a fast-moving ball?",
+      "a": "By pulling the hands backward, the fielder increases the time duration over which the high velocity of the ball reduces to zero. This decreases the acceleration and thus reduces the force exerted on the hands, minimizing injury."
+    },
+    {
+      "q": "How do airbags in vehicles help minimize passenger injuries during a sudden collision?",
+      "a": "Airbags increase the time over which the passenger's momentum is brought to zero. According to Newton's second law, a longer time results in a smaller force exerted on the person."
+    },
+    {
+      "q": "Explain how a person is able to walk forward on the ground.",
+      "a": "When walking, a person pushes the ground backward with their feet (action force). According to Newton's third law, the ground pushes the person forward with an equal and opposite reaction force, aided by friction."
+    },
+    {
+      "q": "Why are grooves provided on the soles of footwear?",
+      "a": "Grooves are provided to increase the force of friction between the footwear and the ground, which prevents slipping and allows for a better grip."
+    }
+  ],
+  "fill": [
+    {
+      "q": "An object at rest remains at rest unless acted upon by an ________ force.",
+      "a": "unbalanced"
+    },
+    {
+      "q": "The rate of change of momentum is proportional to the ________ applied to the object.",
+      "a": "net force"
+    },
+    {
+      "q": "Whenever one object exerts a force on a second object, the second object exerts an ________ and ________ force on the first.",
+      "a": "equal, opposite"
+    },
+    {
+      "q": "Newton's second law of motion is mathematically expressed as F = ________.",
+      "a": "ma"
+    },
+    {
+      "q": "The acceleration due to gravity by the Earth (g) does not depend on the ________ of the object.",
+      "a": "mass"
+    }
+  ],
+  "match": [
+    {
+      "q": "Newton's First Law",
+      "a": "Law of Inertia"
+    },
+    {
+      "q": "Newton's Second Law",
+      "a": "F = ma"
+    },
+    {
+      "q": "Newton's Third Law",
+      "a": "Action and Reaction Pairs"
+    },
+    {
+      "q": "Momentum",
+      "a": "Mass \u00d7 Velocity"
+    },
+    {
+      "q": "Weight",
+      "a": "Gravitational Force (mg)"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Two boxes of masses m1 = 5 kg and m2 = 3 kg are placed on a frictionless horizontal surface and connected by a string. A horizontal force F = 16 N pulls Box 1 to the right. Calculate the acceleration of the system.",
+      "a": "To find the acceleration, we treat the two boxes and the string as a single system. The total mass of the system is m1 + m2 = 5 kg + 3 kg = 8 kg. The internal tension forces cancel out, leaving the external applied force F = 16 N as the net force. Using Newton's second law (F = ma), we have a = F / total_mass = 16 N / 8 kg = 2 m/s^2. Therefore, the system accelerates at 2 m/s^2."
+    },
+    {
+      "q": "A bullet of mass 50 g moving with a speed of 100 m/s enters a heavy stationary wooden block and stops after penetrating a distance of 50 cm. Estimate the stopping force acting on the bullet.",
+      "a": "First, convert all units to standard SI units: mass m = 50 g = 0.05 kg, distance s = 50 cm = 0.5 m, initial velocity u = 100 m/s, final velocity v = 0 m/s. Using the kinematic equation v^2 - u^2 = 2as, we get 0 - (100)^2 = 2 * a * 0.5. This simplifies to -10000 = 1 * a, so acceleration a = -10000 m/s^2. Now, using Newton's second law F = ma, the stopping force is F = 0.05 kg * -10000 m/s^2 = -500 N. The negative sign indicates the force is opposing the motion. The magnitude of the stopping force is 500 N."
+    },
+    {
+      "q": "An object of mass 2 kg moving with a constant velocity of 10 m/s encounters a rough patch where the force of friction is 7 N. At the same time, an additional constant force of 3 N opposing the motion is applied. After entering the rough patch, how much distance does the object travel before coming to rest?",
+      "a": "The total opposing force acting on the object is the sum of friction and the additional force: F_net = 7 N + 3 N = 10 N. Since this force opposes motion, F = -10 N. Using F = ma, the acceleration is a = F / m = -10 N / 2 kg = -5 m/s^2. We know initial velocity u = 10 m/s and final velocity v = 0 m/s. Using v^2 - u^2 = 2as, we have 0^2 - (10)^2 = 2 * (-5) * s. This simplifies to -100 = -10 * s, which gives s = 10 meters. The object travels 10 meters before stopping."
+    },
+    {
+      "q": "State Newton's three laws of motion and provide one real-life example for each.",
+      "a": "1. Newton's First Law (Law of Inertia): An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force. Example: A book resting on a table stays there unless pushed. \n2. Newton's Second Law: The acceleration of an object as produced by a net force is directly proportional to the magnitude of the net force, in the same direction as the net force, and inversely proportional to the mass of the object (F=ma). Example: It requires more force to push a loaded shopping cart than an empty one. \n3. Newton's Third Law: For every action, there is an equal and opposite reaction. Example: When rowing a boat, pushing the water backward with an oar causes the boat to move forward."
+    }
+  ]
+}

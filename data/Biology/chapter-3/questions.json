@@ -1,0 +1,47 @@
+{
+  "oneword": [
+    { "q": "What is the outermost protective layer of the plant body?", "a": "Epidermis" },
+    { "q": "Which permanent tissue provides flexibility to plant parts like tendrils?", "a": "Collenchyma" },
+    { "q": "Name the tissue responsible for transporting water and minerals in plants.", "a": "Xylem" },
+    { "q": "Which specialised plant tissue helps aquatic plants to float?", "a": "Parenchyma" },
+    { "q": "What type of connective tissue connects muscles to bones?", "a": "Tendon" },
+    { "q": "Name the bacteria that causes crown gall disease in plants.", "a": "Agrobacterium tumefaciens" },
+    { "q": "Which type of joint allows movement in only one direction, like the elbow?", "a": "Hinge joint" }
+  ],
+  "sa": [
+    { "q": "Define a tissue.", "a": "A tissue is a group of similar cells that work together to perform a specific function." },
+    { "q": "What is the function of the intercalary meristem?", "a": "It is located at the base of leaves or internodes and helps plants, such as grasses, regenerate after being cut or grazed." },
+    { "q": "Differentiate between tendons and ligaments.", "a": "Tendons connect muscles to bones and transmit force for movement. Ligaments connect bones to other bones, providing stability and preventing excessive movement." },
+    { "q": "Why do meristematic cells lack vacuoles?", "a": "Meristematic cells are actively dividing and need dense cytoplasm and prominent nuclei; they do not need to store food or waste, which is the primary function of vacuoles." },
+    { "q": "Describe the function of cardiac muscles.", "a": "Cardiac muscles are found only in the heart. They work tirelessly and rhythmically, enabling the heart to beat continuously throughout life without fatigue." }
+  ],
+  "fill": [
+    { "q": "The process by which meristematic tissue becomes specialised to perform specific functions is called ________.", "a": "differentiation" },
+    { "q": "The ________ joint connects the skull to the backbone and allows the head to move side to side.", "a": "pivot" },
+    { "q": "The waxy covering on the epidermis of leaves that reduces water loss is called the ________.", "a": "cuticle" },
+    { "q": "Sclerenchyma cells have thick walls due to the deposition of ________, which makes them hard and strong.", "a": "lignin" },
+    { "q": "The cells of the nervous tissue are called ________, which are specialised to receive and transmit messages.", "a": "neurons" },
+    { "q": "The increase in the girth of a stem is caused by the ________ meristem.", "a": "lateral" }
+  ],
+  "match": [
+    { "q": "Xylem", "a": "Transports water and minerals" },
+    { "q": "Phloem", "a": "Transports food materials" },
+    { "q": "Epidermis", "a": "Protection and reduction of water loss" },
+    { "q": "Ball and socket joint", "a": "Shoulder joint allowing free movement" },
+    { "q": "Fixed joint", "a": "Bones of the skull" }
+  ],
+  "essay": [
+    {
+      "q": "Explain the different types of meristematic tissues in plants, their locations, and their functions.",
+      "a": "Plants have three main types of meristematic tissues responsible for growth:\\n1. Apical Meristem: Located at the tips of roots and shoots. Its primary function is to increase the length of the plant.\\n2. Lateral Meristem: Located along the circumference of stems. It is responsible for increasing the diameter or girth of the plant.\\n3. Intercalary Meristem: Located at the base of internodes or just above the nodes. It helps plants, especially grasses, regenerate after cutting or grazing.\\nThese tissues contain actively dividing cells with thin walls, dense cytoplasm, and lack vacuoles."
+    },
+    {
+      "q": "Describe the complex permanent tissues found in plants and their respective roles in transportation.",
+      "a": "Complex permanent tissues are made up of more than one type of cell working together. The two main types are Xylem and Phloem:\\n1. Xylem: Transports water and minerals from the roots to the rest of the plant. It consists of tracheids, vessels, xylem parenchyma, and xylem fibres. Most of its cells are dead and thick-walled, which also provides structural strength to the plant.\\n2. Phloem: Transports food prepared in the leaves to other parts of the plant. It consists of sieve tubes, companion cells, phloem parenchyma, and phloem fibres. Unlike xylem, phloem is mostly made of living cells."
+    },
+    {
+      "q": "Differentiate between the three types of muscular tissue found in the human body based on their structure and function.",
+      "a": "The human body has three types of muscular tissues:\\n1. Skeletal Muscles: These are voluntary muscles attached to the skeleton, helping in conscious movements. Their cells are long, cylindrical, unbranched, multinucleate, and striated.\\n2. Smooth Muscles: These are involuntary muscles found in internal organs like the stomach, helping in slow, continuous movements like digestion. Their cells are spindle-shaped, uninucleate, and lack striations.\\n3. Cardiac Muscles: Found exclusively in the heart. These are involuntary muscles that work tirelessly and rhythmically. Their cells are cylindrical, branched, uninucleate, and faintly striated."
+    }
+  ]
+}

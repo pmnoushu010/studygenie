@@ -1,0 +1,47 @@
+{
+  "oneword": [
+    { "q": "Who was the first person to observe a cell in 1665?", "a": "Robert Hooke" },
+    { "q": "What is the selectively permeable outer boundary of an animal cell called?", "a": "Cell membrane (or Plasma membrane)" },
+    { "q": "Name the process by which water moves across a selectively permeable membrane.", "a": "Osmosis" },
+    { "q": "Which cell organelle is known as the 'powerhouse of the cell'?", "a": "Mitochondria" },
+    { "q": "What is the green pigment present in chloroplasts called?", "a": "Chlorophyll" },
+    { "q": "Name the phenomenon where cell division stops when cells come in contact with neighbouring cells.", "a": "Contact inhibition" },
+    { "q": "What term did Gottlieb Haberlandt use for a plant cell's ability to develop into a complete plant?", "a": "Totipotency" }
+  ],
+  "sa": [
+    { "q": "What is the limit of resolution of the human eye?", "a": "The limit of resolution of the human eye is about 0.1 mm. It is the ability to see two very close objects as separate and distinct." },
+    { "q": "Why does a plant cell not burst when placed in a hypotonic solution?", "a": "Plant cells have a rigid outer covering called the cell wall. When water enters the cell by osmosis and it swells, the cell wall exerts an equal pressure against the swollen cell, preventing it from bursting." },
+    { "q": "State the three main postulates of the classical Cell Theory.", "a": "1. All living organisms are made up of one or more cells. 2. The cell is the basic unit of structure and function in living beings. 3. All cells arise from pre-existing cells." },
+    { "q": "What is the difference between Rough Endoplasmic Reticulum (RER) and Smooth Endoplasmic Reticulum (SER)?", "a": "RER has ribosomes attached to its surface making it look rough, and is involved in protein synthesis. SER does not have ribosomes, looks smooth, and is involved in lipid and hormone synthesis." },
+    { "q": "Why are lysosomes known as the 'clean-up system' of the cell?", "a": "Lysosomes are sacs filled with digestive enzymes. They break down waste materials, unwanted proteins, and damaged, worn-out organelles, keeping the cell clean." }
+  ],
+  "fill": [
+    { "q": "The ________ model explains the structure of the cell membrane, showing it as a lipid bilayer with embedded proteins.", "a": "fluid-mosaic" },
+    { "q": "When a cell is kept in a ________ solution, the solute concentration outside is higher than inside, causing the cell to shrink.", "a": "hypertonic" },
+    { "q": "Plastids that lack pigments and are used to store starch, oils, or proteins are called ________.", "a": "leucoplasts" },
+    { "q": "During cellular respiration, the energy released is stored in the form of ________, which acts as the energy currency of the cell.", "a": "ATP (Adenosine Triphosphate)" },
+    { "q": "In eukaryotic cells, the genetic material is contained within a well-defined ________.", "a": "nucleus" },
+    { "q": "The type of cell division that is important for growth, repair, and asexual reproduction, producing two identical daughter cells, is called ________.", "a": "mitosis" }
+  ],
+  "match": [
+    { "q": "Nucleus", "a": "Controls all activities of a cell" },
+    { "q": "Golgi apparatus", "a": "Packaging and shipping centre" },
+    { "q": "Ribosomes", "a": "Sites of protein synthesis" },
+    { "q": "Vacuole", "a": "Storage organelle filled with cell sap" },
+    { "q": "Chloroplast", "a": "Site of photosynthesis" }
+  ],
+  "essay": [
+    {
+      "q": "Explain the concepts of osmosis and diffusion. How do cells react when placed in isotonic, hypotonic, and hypertonic solutions?",
+      "a": "Diffusion is the net movement of particles from an area of higher concentration to an area of lower concentration. Osmosis is a special type of diffusion involving the movement of water molecules across a selectively permeable membrane from a region of higher water concentration to a region of lower water concentration.\\nWhen a cell is placed in different solutions:\\n1. Isotonic solution: The concentration inside and outside the cell is the same. Water moves in and out at equal rates, so the cell size remains unchanged.\\n2. Hypotonic solution: The surrounding medium has a higher water concentration (dilute). Water enters the cell through endosmosis, causing the cell to swell.\\n3. Hypertonic solution: The surrounding medium has a lower water concentration (concentrated). Water leaves the cell through exosmosis, causing the cell to shrink."
+    },
+    {
+      "q": "Compare and contrast mitosis and meiosis in terms of their purpose and outcomes.",
+      "a": "Mitosis and Meiosis are two major types of cell division.\\nMitosis:\\n1. Purpose: It is essential for normal growth, repair of damaged tissues, cell replacement, and asexual reproduction.\\n2. Outcome: It involves a single division resulting in two daughter cells.\\n3. Genetics: The daughter cells are genetically identical to the parent cell, containing the exact same number of chromosomes.\\nMeiosis:\\n1. Purpose: It is specifically meant for sexual reproduction to create genetic diversity (formation of gametes).\\n2. Outcome: It is a two-step division process resulting in four daughter cells.\\n3. Genetics: The daughter cells contain only half the number of chromosomes as the parent cell, ensuring the chromosome number remains constant after fertilization."
+    },
+    {
+      "q": "Describe the structure and function of mitochondria and plastids. How do they suggest an evolutionary link to bacteria?",
+      "a": "Mitochondria:\\n1. Structure: They are double-membrane organelles. The outer membrane is smooth, while the inner membrane is deeply folded into cristae to increase surface area.\\n2. Function: Known as the 'powerhouses of the cell', they break down glucose during cellular respiration to release energy stored as ATP.\\nPlastids:\\n1. Structure: Found only in plant cells, they are also double-membrane bound. Chloroplasts (a type of plastid) contain a stroma with disc-shaped structures containing chlorophyll.\\n2. Function: Chloroplasts perform photosynthesis; chromoplasts provide colour to flowers/fruits; leucoplasts store starch, oils, or proteins.\\nEvolutionary Link: Both mitochondria and plastids have their own DNA and ribosomes, allowing them to synthesize some of their own proteins. This similarity to certain bacteria suggests they share an evolutionary history with single-celled prokaryotic organisms."
+    }
+  ]
+}

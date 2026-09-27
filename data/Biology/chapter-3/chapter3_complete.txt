@@ -1,0 +1,177 @@
+[Page 33]
+c. Sclerenchyma
+Sclerenchyma cells have thick walls due to deposition of lignin, making them hard and strong (forms the woody structure). Most of these cells are dead. This tissue is found in stems, leaf veins, and hard coverings of seeds and nuts, such as coconut husk and walnut shell.
+(iii) Conducting tissues - Complex permanent tissues
+How does water reach the leaves of tall trees? How does food prepared in leaves reach other parts of the plant?
+Plants have specialised conducting tissues called xylem and phloem, together known as complex permanent tissues, because they are made up of different types of cells working together. Xylem is the tissue that transports water and minerals from the roots to other parts of the plant. It also provides strength to the plant. Xylem consists of tracheids, vessels, xylem parenchyma and xylem fibres. Tracheids and vessels are tubular and thick-walled. Xylem parenchyma are the only living component of xylem while tracheids, vessels, and xylem fibres are primarily sclerenchymatous. Unlike the xylem, phloem is mostly made up of living cells. It consists of sieve tubes, companion cells, phloem parenchyma and phloem fibres. Some cells are long and tubular, joined end to end by perforated walls. These cells form sieve tubes. Sieve tubes transport food from leaves to other parts of the plant. The cellular functions of the sieve tube cells are regulated by companion cells. Companion cells are specialised parenchyma cells. Main function of companion cells is to monitor loading and unloading of sugars in sieve tubes. Phloem parenchyma store food materials, and resin, tannins and latex. The sieve tubes are also supported by phloem fibres which are primarily sclerenchymatous and provide strength.
+So far, we have studied different types of plant tissues based on their functions - protection, support and conduction. In a plant body, these tissues do not work alone. They are organised together into larger groups called tissue systems.
+Plant tissues are organised into three tissue systems -
+1. Dermal tissue system: This forms the outer covering of the plant. It protects the inner parts and reduces water loss.
+
+[Page 29]
+Division of labour.
+In animals, muscle tissue enables movement and nervous tissue carries messages to different parts of the body. In plants, conducting tissues, such as xylem transports water and minerals, while phloem transports food.
+
+3.1 Why are Plant and Animal Tissues Different?
+In Chapter 2, Cell: The Building Block of Life, you compared plant and animal cells, and studied the major differences between them. Most plants are fixed in one place and do not move from place to place like animals. They need support to stay firm and upright. Plant cells have a cell wall that provides rigidity and strength. In general, animals can move (although some, such as sponges, are immobile). Without a rigid cell wall, animal cells can change shape easily. This cellular flexibility eventually helps make their bodies suitable for locomotion.
+Another major difference between plants and animals is their mode of nutrition. Animals have tissues that help them digest food obtained from different food sources, while plants have tissues that help them utilise solar energy for synthesising the food components through photosynthesis. Plants and animals have distinct tissues for transporting food and water to different parts of the body. The growth patterns in plants and animals also vary because the tissues responsible for growth differ in structure and function. In this chapter, we will learn how the structures of plant and animal tissues relate to their specific functions.
+
+3.2 Tissues for Growth in Plants
+You must have observed that a small seedling grows into a tall tree, roots grow deep into the soil, stems become thicker with time and grass grows again after being eaten by grazing animals. Which tissues are responsible for these changes?
+Plants grow in different ways -
+- increase in length (height of stem and depth of roots),
+- increase in girth (thickness of stem), and
+- regrowth after cutting the branches or grazing by animals.
+This growth require actively dividing cells that together form a tissue called a meristematic tissue.
+Let us explore different kinds of meristematic tissues.
+
+3.2.1. Apical meristem - How do plants grow in length?
+Let us study the growth of roots in an onion bulb.
+Activity 3.1: Let us design experiments
+1. Take two glass jars or coupling jars and fill them with water.
+2. Now, take two onion bulbs and place one in each jar.
+3. Observe the growth of roots in both bulbs for a few days.
+4. Measure the length of roots on days 1, 2 and 3.
+5. On day 3, cut the root tips of the onion bulb in Jar B by about 1 cm. After this, observe the growth of roots in both the jars, measure their lengths
+
+[Page 30]
+for four more days (day 4 onwards), and record your observations in Table 3.1.
+What trend do you observe in the data you recorded in Table 3.1? Are your observations similar to those presented in the graphical representation? What do you infer?
+- Roots in Jar A continue to grow in length.
+- Roots in Jar B stop growing after the tips are cut.
+This shows that roots grow only from their tips. The tips consist of cells which divide continuously.
+You may recall observing mitosis in onion root tips in Chapter 2, Cell: The Building Block of Life. This observation confirms that root tips contain actively dividing cells. Similarly, shoot tips also contain actively dividing cells that help the shoots to grow in length. Thus, we conclude that plants have growth zones at the tips of their roots and shoots, called the apical meristems, which help the plants grow in length.
+
+3.2.2 Lateral meristem - How do plants grow in girth?
+Look at your surroundings. You must have observed that the stems of dicot plants not only grow in length but also increase in diameter or girth over time. What causes this increase in girth? One possible explanation may be the activity of meristematic tissues. If you have visited a timber yard or observed the cut trunk of a tree, you may have noticed several ring-like patterns on the cut surface of the wood. These are annual growth rings. Some annual rings are wide and some are narrow, reflecting the favourable or unfavourable growth conditions during a particular year. By counting these annual rings, scientists can estimate the age of a tree and also understand the climatic conditions under which it grew.
+
+[Page 31]
+The increase in girth occurs due to the presence of actively dividing cells arranged in a ring in the stem. These cells divide and produce new cells inside and outside in a concentric manner, leading to an increase in diameter of stem. This meristematic tissue is called the lateral meristem.
+
+3.2.3 Intercalary meristem - How do plants grow after being cut?
+We have learnt that meristematic tissues are present at the tips of roots and shoots. What do you think happens to the growth of the plant if the tip of a young stem is cut? The stem stops growing in length but new branches arise from the nodes of stem. The intercalary meristem is located at the base of internode or just above the node. The node is point on plant stem where branches or leaves arise. The part of stem between the two nodes is called internode. You may also have observed that when the hedge around a garden is cut, after sometime more branches appear again, giving the hedge a bushy appearance. Grass also appear after sometime being mowed and/or grazed by animals. This happens because of the presence of intercalary meristem at the nodes of its stem. These meristematic tissues are called intercalary meristems.
+
+Thus, plants have three types of meristematic tissues - apical, lateral and intercalary. The apical meristem, located at the root and shoot tips, increases its length. The lateral meristem located along the circumference of stems increases girth. The intercalary meristem located at the base of certain plants, such as grasses, helps them regenerate after cutting. Together, these meristems account for growth in length, girth and branching in plants.
+
+The cells of the meristematic tissues are small, have thin cell walls, a large and prominent nucleus, and dense cytoplasm with many organelles. Vacuoles are generally absent and the cells are tightly packed with little or no intercellular space. These characteristics of meristematic tissue allow them continuous and rapid cell division. Why do you think that the cell of meristematic tissues lack vacuoles?
+
+Due to continuous cell division, meristematic tissue adds new cells to the plant body. Some of the newly formed cells remain meristematic while others lose the ability to divide. The cells that loose the ability to divide undergo changes in structure and function, and become permanent tissues. These cells become specialised to perform specific functions, such as support, transport or storage. This process, by which meristematic tissue becomes specialised to perform specific functions, is called differentiation. Meristematic tissue becomes permanent by the process of differentiation.
+
+3.2.4 Permanent tissues
+Examine the Transverse Section(s) (T.S.) of the root and/or stem, and/or the Vertical Section (V.S.) of the leaf of any herbaceous plant under a microscope. The internal structure of a T.S. of a sunflower stem as seen under a microscope is shown. What do you observe? Are all the cells similar in shape and size? How many different types of tissues can you identify? What differences do you notice among them? What might be
+
+[Page 32]
+the reason for the presence of different types of cells and tissues? You can see that different groups of cells are present and each tissue is specialised to perform a specific function. These are permanent tissues. Permanent tissues can be simple (composed of only one type of cell) or complex (composed of more than one types of cells).
+
+Observe the types of tissues given based on pointers provided as follows:
+(i) Protective tissue - Epidermis
+What protects plants from mechanical injury, water loss, harmful microorganisms and extreme environmental conditions?
+The epidermis forms the outermost layer of the plant body. It consists of a tightly packed, single layer of flat and rectangular cells. It protects all parts of the plants. These cells are covered with a waxy layer of cutin called cuticle. In some plants, living in very dry habitat, the epidermis may be covered by a thick layer of cuticle to reduce the water loss in the process of transpiration by stomata. The cuticle also provides protection against mechanical injury and invasion by parasites. In many plants, hair-like projections arise from epidermal cells. In roots, these projections are called root hair, which increase the surface area for absorption of water and minerals from the soil. In leaves, the epidermis contains pores called stomata, which apart from gaseous exchange helps in transpiration, i.e., evaporation of water vapours through stomata. Thus, transpiration helps in water transportation by creating a transpiration pull in xylem. Transpiration also helps in elimination of wastes from the plant body.
+
+(ii) Supporting tissue - Simple permanent tissues
+What keeps a plant upright? Why does a fresh twig bend but a dry twig break? Why are seed coats hard and how do aquatic plants float? These functions are carried out by supporting tissues. There are three types of supporting tissues or simple permanent tissues - parenchyma, collenchyma and sclerenchyma. Each differs in structure and performs supporting functions.
+a. Parenchyma
+Parenchyma consists of living cells with thin walls. These cells are loosely packed with intercellular spaces. Parenchyma mainly stores food but also performs photosynthesis in the green parts of the plants. In aquatic plants, specialised parenchyma forms air spaces, which help them float.
+b. Collenchyma
+Collenchyma consists of living cells with unevenly thickened corners due to pectin (a chemical that gives flexibility like rubber) deposition.
+[Page 37]
+Functions of other connective tissues as experienced through different actions.
+Table 3.4: Connective tissues
+- Touch your elbow gently: A hard and rigid structure. Gives strength, support and protection. Identified connective tissue: Bone.
+- Press and fold your ear or gently press your nose and stop: A soft and flexible structure that retains shape again. Provides flexibility and cushions the ends of bones for shock absorption. Identified connective tissue: Cartilage.
+- Touch your forearm muscles and wiggle your fingers: Feel movement in the forearm even though fingers are far away. Connects muscle to bone, and thus, brings about movement. Identified connective tissue: Tendon.
+- Sit on a chair and move your leg upwards till your knee allows: The joint does not go beyond a limit. Connects bone to bone and provides stability, limits movement, and helps prevent dislocation. Identified connective tissue: Ligament.
+
+Bones have a rigid matrix containing calcium and phosphorus compounds, giving them strength and rigidity. In contrast, cartilage has a soft, jelly-like matrix, and provides flexibility and cushioning. Other connective tissues include tendons and ligaments. Tendons connect muscles to bones, while ligaments connect bones to bones and prevent excessive movement.
+
+3.3.3 Can we control movement in our body?
+Some movements are under our conscious control, such as running, writing or lifting objects. These are called voluntary movements and are carried out by skeletal muscles, which are attached to the skeleton. They are made up of bundles of long, cylindrical cells called muscle fibres, which are unbranched, multinucleate (having many nuclei) and striated (showing light and dark bands).
+Are there involuntary movements in the body? Yes, many body movements occur automatically without conscious control, for example the movement of food in the intestine and the beating of the heart. These are called involuntary movements. The muscles responsible for these
+
+[Page 41]
+3.6 Skeletal System
+The skeletal system consists of a framework of bones that provides strength and protects delicate internal organs. It includes the skull, vertebral column and rib cage. From the base of the skull, it extends a flexible column called the backbone or vertebral column (spine), made up of a series of small bones called vertebrae. It supports the body and helps us stand upright. Between each vertebra is a cartilage disc, which acts as a cushion and allows flexibility, so we can bend and twist without injuring the internal spinal cord.
+Can you feel the bones under your chest? These are your ribs. You have 12 pairs of ribs and together they form the rib cage. The rib cage acts like a protective cage to protect vital organs, such as the heart and lungs. But you may wonder, "How can such a strong cage move? And why does it need to move?". The ribs are attached to the spine at the back and to the breast bone (sternum) in the front. They are joined by flexible cartilage. This flexibility allows the rib cage to expand and contract during breathing. This movement increases and decreases space in the chest, allowing air to move in and out of the lungs. Injury to the ribs can make breathing painful and difficult.
+Yoga, described in ancient Indian texts includes physical postures, breathing and meditation. Research shows it improves flexibility, posture and breathing, reduces stress, and helps prevent lifestyle diseases. Every year, 21st June is observed as the International Yoga Day.
+
+[Page 39]
+Activity 3.4: Let us investigate
+What percentage of total body weight comes from bones and muscles?
+On average, adult males have about 40-50 per cent muscle, and adult females have ~30-40 per cent muscle, although bone mass is about 12-15 per cent for all adults.
+
+3.4.1 The musculoskeletal system in action
+Table 3.5: Different types of movements our body can make
+You may have noticed that some parts of our body can move easily in many directions, while others move only in a single direction. Why does this happen? The difference is due to the types of joints present. A joint is a junction between two or more bones. Joints allow movement but they cannot move the bones on their own. So, what actually causes the bones to move?
+
+[Page 40]
+3.5 Types of Joints
+3.5.1 Ball and socket joint
+The shoulder joint allows free movement of the arm. This is because the rounded top of the upper arm bone fits into a shallow hollow of the shoulder bone, forming the ball and socket joint. Together with the collarbone, the shoulder forms the shoulder girdle, which connects the arm to the skeleton. This joint allows forward, backwards, sideways and circular movements.
+3.5.2 Hinge joint
+Unlike the shoulder, the elbow bends and straightens in one direction only like a door hinge. This type of joint is called a hinge joint. A similar hinge joint is present in the knee, where a small bone called the kneecap protects the joint.
+3.5.3 Pivot joint
+Now, try shaking your head 'no.' Place your hand at the back of your neck and feel the gentle movement. How does the neck move so freely? The skull is connected to the backbone through a pivot joint, which allows the head to move side to side like a doorknob turning in its socket.
+3.5.4 Fixed joints
+The skull is a hard case of flat bones joined together to protect the brain, eyes and ears. The bones of the skull are connected by fixed joints, which means the bones of the skull cannot move. This keeps the brain safe even when the body moves.
+Stem cells in the bone marrow are special cells that can divide and make new cells. In a bone marrow transplant, stem cells from a healthy person are given to patients who have blood cancers like Leukemia or disorders, such as Thalassemia.
+
+[Page 38]
+movements include smooth muscles, which are found in organs like the stomach and intestines. Their cells are spindle-shaped, have a single nucleus and lack striations. They help in slow, continuous movements like digestion.
+The cardiac muscles are found only in the heart. Their fibres are cylindrical and branched with a single nucleus, and have faint striations. Cardiac muscles work tirelessly and rhythmically, enabling the heart to beat throughout life without fatigue.
+3.3.4 How does the body sense, communicate and respond?
+Have you noticed how quickly you pull your hand away from something hot, or how you remember the lyrics of a song learned long ago? These actions are controlled by nervous tissue, which forms the body's control and coordination network. The brain acts as the control centre; coordinating activities, memory and responses across the body. Muscles, both voluntary and involuntary, cannot function independently. They receive instructions from the nervous tissue. For example, during exercise, the brain signals the heart to beat faster to meet the body's increased oxygen demand.
+The cells of nervous tissue are called neurons or nerve cells, which are specialised to receive, process and transmit messages. Each neuron has three main parts - the cell body, which contains the nucleus and controls cell activities; dendrites, which receive signals from other neurons; and an axon, a long fibre that carries messages from the cell and ends at axon terminals. The axon terminals transmit the messages to other cells.
+3.4 The Musculoskeletal System
+The musculoskeletal system is made up of bones, muscles, joints, cartilage, tendons and ligaments. This system helps us stand upright, move, maintain posture and protect delicate organs. The musculoskeletal system functions under the control of the nervous system. Muscles pull on bones to produce movement. They are attached to bones by strong, flexible bands called tendons. When a muscle contracts, the tendon transmits this force to the bone, resulting in movement at a joint. Have you wondered how much of your body weight comes from bones? On an average, the adult human skeleton makes up about 12-15 per cent of body weight, though this can vary with age, gender and body composition.
+[Page 47]
+The Journey Beyond
+- Visit a doctor and find out what happens in ligament rupture, cartilage rupture and fracture of bones. How can we reduce the risk by changing our lifestyle and nutritional balance?
+- Perform the following activity: Sit with your feet flat on the floor, place fingers on the back of your ankle, point toes down and up to feel the tendon moving. Tendons are designed to withstand huge pulling forces.
+- Reflect on physical practices like yoga or kabaddi and how they support bone and muscle health.
+- Reflect on gardening methods like pruning or grafting and how they support plant tissues.
+The Quest Continues...
+Will it be possible to obtain a complete animal from an animal cell like plants?
+
+[Page 46]
+9. Aamrapali observed that a young mango sapling's stem bends flexibly during monsoon winds and does not break. Which tissue is responsible for this flexibility? (Collenchyma)
+11. Rohan says "A tissue is a group of similar cells performing similar functions". Rajiv argues "this is true in case of simple tissues but little different in case of complex tissues". (Complex tissues have different types of cells working together, e.g., xylem/phloem).
+12. Coconut husk fibres are used for mats which are tough and fibrous. Which tissue has structural features suitable for providing this strength? (Sclerenchyma)
+
+[Page 45]
+C. Assertion: Tendons connect bone to bone and allow joint movement. (False - ligaments connect bone to bone).
+Reason: Tendons are made of tough connective tissue that transmits force from muscle to bone. (True).
+D. Assertion: In a hinge joint, movement occurs primarily in one plane. (True)
+Reason: The bone ends are shaped to allow sliding in all directions. (False)
+7. Plot a graph between the age of a tree and the diameter of the tree.
+(iii) Which specialised tissue is responsible for the girth of the stem and where is it located? (Lateral meristem)
+8. A tree was severely debarked by an elephant.
+(ii) Which plant tissue would be affected by further damage to the tree trunk even after debarking? (Phloem)
+
+[Page 44]
+Revise, Reflect, Refine
+1. Meristematic tissues divide repeatedly. What property allows them to do this?
+Answer: (iii) They have thin walls, dense cytoplasm and large prominent nucleus.
+2. If a plant is unable to transport food from leaves to roots which tissue is malfunctioning?
+Answer: (ii) Phloem
+3. Why are the epithelial tissues that line an animal's internal organs usually only one or a few cells thick?
+Answer: (iii) To allow quick exchange of materials across them.
+5. Which type of joint is involved when you bend your knees and ankles?
+Answer: (ii) Hinge
+6. A. Assertion: Epithelium is well-suited for gas exchange in the lungs.
+Reason: It consists of multiple layers of tall cells that slow down diffusion. (False)
+
+[Page 43]
+Bridging Science and Society
+In nature, plant pathologists have observed a disease in plants called crown gall disease. In this disease, tumour-like swellings develop on the stems due to rapid and uncontrolled cell division. The disease is caused by a bacterium called Agrobacterium tumefaciens. Today, Agrobacterium is used as a tool to introduce useful genes into plants.
+
+At a Glance
+- Tissues are groups of similar cells that work together to perform specific functions.
+- Plant tissues are broadly classified into meristematic and permanent tissues.
+- Simple permanent tissues include parenchyma, collenchyma and sclerenchyma.
+- Complex permanent tissues include xylem and phloem.
+- Animal tissues are mainly of four types; epithelial, connective, muscular and nervous tissues.
+- Epithelial tissue forms the outer protective lining.
+- Connective tissue connects and supports various organs.
+- Muscular tissue produces voluntary and involuntary movements.
+- Nervous tissue consists of neurons to receive and transmit impulses.
+- In our body, movement occurs by the coordination of muscles and bones (musculoskeletal system), under the control of the nervous system.
