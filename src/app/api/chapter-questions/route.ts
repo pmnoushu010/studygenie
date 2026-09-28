@@ -20,6 +20,20 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ error: 'Invalid path' }, { status: 400 });
     }
 
+    const folderPath = path.join(BASE_DIR, subject, folder);
+    const questionsPath = path.join(folderPath, 'questions.json');
+
+    // 1. First, check the file system (which gets updated via GitHub)
+    if (fs.existsSync(questionsPath)) {
+      try {
+        const data = fs.readFileSync(questionsPath, 'utf8');
+        return NextResponse.json(JSON.parse(data));
+      } catch (fileError) {
+        console.error('Error reading from filesystem, falling back to MongoDB:', fileError);
+      }
+    }
+
+    // 2. If file system doesn't have it (or fails), fallback to MongoDB
     try {
       await connectToDatabase();
       const doc = await ChapterQuestion.findOne({ subject, folder });
@@ -30,21 +44,7 @@ export async function GET(req: NextRequest) {
       console.error('Error fetching from MongoDB:', dbError);
     }
 
-    const folderPath = path.join(BASE_DIR, subject, folder);
-    const questionsPath = path.join(folderPath, 'questions.json');
-
-    if (!fs.existsSync(folderPath)) {
-      // If folder doesn't exist locally, we can't do filesystem fallback
-      // but if we had it in DB we would have returned early
-      return NextResponse.json(null);
-    }
-
-    if (fs.existsSync(questionsPath)) {
-      const data = fs.readFileSync(questionsPath, 'utf8');
-      return NextResponse.json(JSON.parse(data));
-    } else {
-      return NextResponse.json(null);
-    }
+    return NextResponse.json(null);
   } catch (error: any) {
     console.error('Error reading questions:', error);
     return NextResponse.json({ error: error.message || 'Internal Server Error' }, { status: 500 });
