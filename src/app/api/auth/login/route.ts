@@ -44,6 +44,6 @@ export async function POST(req: Request) {
     });
   } catch (error: any) {
     console.error("Login API Error:", error);
-    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+    return NextResponse.json({ error: error.message || error.toString() || "Internal Server Error" }, { status: 500 });
   }
 }
