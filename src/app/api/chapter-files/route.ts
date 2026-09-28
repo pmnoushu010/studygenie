@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-const BASE_DIR = 'C:/Users/noushad.meethal/Downloads/9th STD';
+const BASE_DIR = path.join(process.cwd(), 'data');
 
 export async function GET(req: NextRequest) {
   const url = new URL(req.url);

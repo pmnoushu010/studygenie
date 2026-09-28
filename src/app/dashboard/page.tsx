@@ -349,6 +349,12 @@ export default function Home() {
               {isProcessing && <div className="upload-zone"><div className="loader"></div><p>Processing...</p></div>}
               {questions && (
                 <div style={{ marginTop: "2rem" }}>
+                  {questions.summary && (
+                    <div style={{ padding: "1.5rem", background: "rgba(16, 185, 129, 0.1)", borderRadius: "12px", borderLeft: "4px solid #10b981", marginBottom: "2rem" }}>
+                      <h4 style={{ color: "#10b981", marginBottom: "1rem", fontSize: "1.2rem" }}>📖 Chapter Summary & Important Details</h4>
+                      <p style={{ whiteSpace: "pre-wrap", lineHeight: "1.6", color: "#e2e8f0" }}>{questions.summary}</p>
+                    </div>
+                  )}
                   <div className="question-tabs">
                     {QUESTION_TYPES.map((qt) => (
                       <button key={qt.id} className={`q-tab ${activeQType === qt.id ? "active" : ""}`} onClick={() => setActiveQType(qt.id)}>
@@ -391,6 +397,12 @@ export default function Home() {
                 <p>Please generate questions first in the Question Generator tab.</p>
               ) : (
                 <>
+                  {questions.summary && !examSubmitted && (
+                    <div style={{ padding: "1.5rem", background: "rgba(16, 185, 129, 0.1)", borderRadius: "12px", borderLeft: "4px solid #10b981", marginBottom: "2rem" }}>
+                      <h4 style={{ color: "#10b981", marginBottom: "1rem", fontSize: "1.2rem" }}>📖 Study Guide / Important Details</h4>
+                      <p style={{ whiteSpace: "pre-wrap", lineHeight: "1.6", color: "#e2e8f0" }}>{questions.summary}</p>
+                    </div>
+                  )}
                   {examSubmitted && (
                     <div style={{ padding: "2rem", background: "rgba(139, 92, 246, 0.2)", borderRadius: "12px", marginBottom: "2rem", textAlign: "center", border: "1px solid #8b5cf6" }}>
                       <h2>Exam Completed!</h2>

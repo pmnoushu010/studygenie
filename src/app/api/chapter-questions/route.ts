@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import connectToDatabase from '@/lib/mongodb';
+import ChapterQuestion from '@/models/ChapterQuestion';
 
-const BASE_DIR = 'C:/Users/noushad.meethal/Downloads/9th STD';
+const BASE_DIR = path.join(process.cwd(), 'data');
 
 export async function GET(req: NextRequest) {
   try {
@@ -18,11 +20,23 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ error: 'Invalid path' }, { status: 400 });
     }
 
+    try {
+      await connectToDatabase();
+      const doc = await ChapterQuestion.findOne({ subject, folder });
+      if (doc && doc.data) {
+        return NextResponse.json(doc.data);
+      }
+    } catch (dbError) {
+      console.error('Error fetching from MongoDB:', dbError);
+    }
+
     const folderPath = path.join(BASE_DIR, subject, folder);
     const questionsPath = path.join(folderPath, 'questions.json');
 
     if (!fs.existsSync(folderPath)) {
-      return NextResponse.json({ error: 'Folder not found' }, { status: 404 });
+      // If folder doesn't exist locally, we can't do filesystem fallback
+      // but if we had it in DB we would have returned early
+      return NextResponse.json(null);
     }
 
     if (fs.existsSync(questionsPath)) {

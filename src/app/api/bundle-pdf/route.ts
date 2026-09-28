@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-const ROOT_DIR = 'C:/Users/noushad.meethal/Downloads/9th STD';
+const ROOT_DIR = path.join(process.cwd(), 'data');
 
 export async function POST(req: NextRequest) {
   try {

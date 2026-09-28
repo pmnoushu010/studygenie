@@ -2,8 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import { GoogleGenAI } from '@google/genai';
 import fs from 'fs';
 import path from 'path';
+import connectToDatabase from '@/lib/mongodb';
+import ChapterQuestion from '@/models/ChapterQuestion';
 
-const ROOT_DIR = 'C:/Users/noushad.meethal/Downloads/9th STD';
+const ROOT_DIR = path.join(process.cwd(), 'data');
 
 export async function POST(req: NextRequest) {
   try {
@@ -49,6 +51,7 @@ export async function POST(req: NextRequest) {
       Extract the core concepts and create the following types of questions.
       You MUST respond ONLY with a valid JSON object matching this exact structure, with no markdown formatting or backticks around it:
       {
+        "summary": "A detailed overview of the important details, core concepts, and main content to read and understand before answering questions.",
         "oneword": [
           { "q": "Question text here", "a": "Answer here" }
         ],
@@ -65,7 +68,7 @@ export async function POST(req: NextRequest) {
           { "q": "Very important 5-mark essay question here", "a": "Detailed multi-point answer here" }
         ]
       }
-      Generate 7 to 10 questions for the "oneword" category if the chapter is large enough. For all other categories, generate at least 3 questions (including at least 3 essay questions). Make sure they are accurate and based ON THE PROVIDED IMAGES/DOCUMENTS.
+      Generate a thorough summary of the material. Then, generate 7 to 10 questions for the "oneword" category if the chapter is large enough. For all other categories, generate at least 3 questions (including at least 3 essay questions). Make sure they are accurate and based ON THE PROVIDED IMAGES/DOCUMENTS.
     `;
     
     const fileParts: any[] = [];
@@ -110,6 +113,7 @@ export async function POST(req: NextRequest) {
     }
 
     const mergedData: any = {
+      summary: "",
       oneword: [],
       sa: [],
       fill: [],
@@ -170,6 +174,9 @@ export async function POST(req: NextRequest) {
          const jsonText = await processPartWithRetry(part);
          if (jsonText) {
             const parsed = JSON.parse(jsonText);
+            if (parsed.summary) {
+              mergedData.summary += (mergedData.summary ? "\n\n" : "") + parsed.summary;
+            }
             if (parsed.oneword) mergedData.oneword.push(...parsed.oneword);
             if (parsed.sa) mergedData.sa.push(...parsed.sa);
             if (parsed.fill) mergedData.fill.push(...parsed.fill);
@@ -192,9 +199,25 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Failed to generate questions. Model may be unavailable or out of quota.' }, { status: 500 });
     }
 
+    // Save to MongoDB
+    try {
+      await connectToDatabase();
+      await ChapterQuestion.findOneAndUpdate(
+        { subject, folder },
+        { subject, folder, data: mergedData },
+        { upsert: true, new: true }
+      );
+    } catch (dbError) {
+      console.error('Error saving to MongoDB:', dbError);
+    }
+
     // Save to local file system
     const questionsPath = path.join(folderPath, 'questions.json');
-    fs.writeFileSync(questionsPath, JSON.stringify(mergedData, null, 2));
+    try {
+      fs.writeFileSync(questionsPath, JSON.stringify(mergedData, null, 2));
+    } catch (fsError) {
+      console.error('Error saving to filesystem:', fsError);
+    }
 
     return NextResponse.json({ success: true, data: mergedData });
 
