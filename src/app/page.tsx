@@ -13,7 +13,12 @@ export default function LandingPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (loginForm.username === "admin" && loginForm.password === "admin") {
+    if (loginForm.username === "pmnoushu010" && loginForm.password === "Shanumon@12345$$") {
+      localStorage.setItem("userRole", "superadmin");
+      setLoginError("");
+      router.push("/dashboard");
+    } else if (loginForm.username === "admin" && loginForm.password === "admin") {
+      localStorage.setItem("userRole", "student");
       setLoginError("");
       router.push("/dashboard");
     } else {

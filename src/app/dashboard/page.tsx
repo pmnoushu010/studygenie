@@ -14,6 +14,7 @@ const SUBJECTS = ["Biology", "Chemistry", "Physics", "Maths", "English"];
 
 export default function Home() {
   const [mainTab, setMainTab] = useState("generator");
+  const [userRole, setUserRole] = useState<string>("student");
   
   const [activeSubject, setActiveSubject] = useState(SUBJECTS[0]);
   const [folders, setFolders] = useState<string[]>([]);
@@ -41,6 +42,9 @@ export default function Home() {
 
   // Fetch folders on load & when subject changes
   useEffect(() => {
+    const role = localStorage.getItem("userRole") || "student";
+    setUserRole(role);
+    
     const fetchFolders = async () => {
       setIsLoadingFolders(true);
       try {
@@ -298,9 +302,9 @@ export default function Home() {
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", width: "100%" }}>
         <div>
           <h1>StudyGenie 9th Std</h1>
-          <p>Local Chapter Question Generator</p>
+          <p>Local Chapter Question Generator {userRole === "superadmin" ? "(Admin)" : "(Student)"}</p>
         </div>
-        <div style={{ display: "flex", gap: "1rem" }}>
+        <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
           <button 
             className={`btn ${mainTab === "generator" ? "" : "secondary"}`}
             onClick={() => setMainTab("generator")}
@@ -315,6 +319,16 @@ export default function Home() {
             style={mainTab === "exam" ? { background: "#8b5cf6" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
           >
             🎓 Take Exam
+          </button>
+          <button
+            className="btn secondary"
+            onClick={() => {
+              localStorage.removeItem("userRole");
+              window.location.href = "/";
+            }}
+            style={{ background: "rgba(239, 68, 68, 0.2)", border: "1px solid rgba(239, 68, 68, 0.4)", color: "white", padding: "0.5rem 1rem", fontSize: "0.9rem" }}
+          >
+            🚪 Logout
           </button>
         </div>
       </header>
@@ -351,13 +365,15 @@ export default function Home() {
             <p style={{ color: "#94a3b8", fontSize: "0.9rem" }}>No chapters found for {activeSubject}.</p>
           ) : (
             <ul className="chapter-list">
-              <li
-                className={`chapter-item ${activeFolder === null ? "active" : ""}`}
-                onClick={() => { setActiveFolder(null); setQuestions(null); setError(""); }}
-                style={{ fontWeight: 'bold', color: '#10b981' }}
-              >
-                ➕ Create New Chapter
-              </li>
+              {userRole === "superadmin" && (
+                <li
+                  className={`chapter-item ${activeFolder === null ? "active" : ""}`}
+                  onClick={() => { setActiveFolder(null); setQuestions(null); setError(""); }}
+                  style={{ fontWeight: 'bold', color: '#10b981' }}
+                >
+                  ➕ Create New Chapter
+                </li>
+              )}
               {folders.map((folder) => (
                 <li
                   key={folder}
@@ -373,7 +389,7 @@ export default function Home() {
 
         <section className="content-area">
           {/* Upload View */}
-          {!activeFolder && (
+          {!activeFolder && userRole === "superadmin" && (
             <div className="glass-panel">
               <h3 style={{ marginBottom: "1rem", fontSize: "1.25rem" }}>Upload to {activeSubject}</h3>
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem", maxWidth: "400px" }}>
@@ -398,19 +414,40 @@ export default function Home() {
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", flexWrap: "wrap", gap: "1rem" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
                   <h3 style={{ fontSize: "1.25rem", margin: 0 }}>{activeSubject} - {activeFolder}</h3>
-                  <button onClick={handleRenameChapter} title="Rename Chapter" style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)", borderRadius: "6px", cursor: "pointer", fontSize: "1rem", padding: "0.25rem 0.5rem", color: "white" }}>✏️</button>
-                  <button onClick={handleDeleteChapter} title="Delete Chapter" style={{ background: "rgba(239, 68, 68, 0.2)", border: "1px solid rgba(239, 68, 68, 0.4)", borderRadius: "6px", cursor: "pointer", fontSize: "1rem", padding: "0.25rem 0.5rem", color: "white" }}>🗑️</button>
+                  {userRole === "superadmin" && (
+                    <>
+                      <button onClick={handleRenameChapter} title="Rename Chapter" style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)", borderRadius: "6px", cursor: "pointer", fontSize: "1rem", padding: "0.25rem 0.5rem", color: "white" }}>✏️</button>
+                      <button onClick={handleDeleteChapter} title="Delete Chapter" style={{ background: "rgba(239, 68, 68, 0.2)", border: "1px solid rgba(239, 68, 68, 0.4)", borderRadius: "6px", cursor: "pointer", fontSize: "1rem", padding: "0.25rem 0.5rem", color: "white" }}>🗑️</button>
+                    </>
+                  )}
                 </div>
-                {questions && (
+                {questions && userRole === "superadmin" && (
                   <button className="btn secondary" onClick={handleProcessChapter} disabled={isProcessing} style={{ fontSize: "0.8rem", padding: "0.5rem 1rem", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)" }}>
                     🔄 Regenerate
                   </button>
                 )}
               </div>
-              {!questions && !isProcessing && (
+              
+              {error && (
+                <div style={{ padding: "1rem", background: "rgba(239, 68, 68, 0.1)", borderLeft: "4px solid #ef4444", borderRadius: "8px", marginBottom: "1.5rem", color: "#ef4444" }}>
+                  <strong>Error:</strong> {error}
+                </div>
+              )}
+
+              {!questions && !isProcessing && !error && (
                 <div className="upload-zone" style={{ cursor: 'default' }}>
                   <p>Questions not yet generated for this chapter.</p>
-                  <button className="btn" style={{ marginTop: "1rem" }} onClick={handleProcessChapter}>✨ Generate Questions</button>
+                  {userRole === "superadmin" && (
+                    <button className="btn" style={{ marginTop: "1rem" }} onClick={handleProcessChapter}>✨ Generate Questions</button>
+                  )}
+                </div>
+              )}
+              {!questions && !isProcessing && error && (
+                <div className="upload-zone" style={{ cursor: 'default', borderColor: '#ef4444' }}>
+                  <p style={{color: '#ef4444'}}>Failed to load or generate questions. Please try again later.</p>
+                  {userRole === "superadmin" && (
+                    <button className="btn" style={{ marginTop: "1rem" }} onClick={handleProcessChapter}>✨ Try Again</button>
+                  )}
                 </div>
               )}
               {isProcessing && <div className="upload-zone"><div className="loader"></div><p>Processing...</p></div>}
