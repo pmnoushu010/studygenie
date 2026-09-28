@@ -1,0 +1,49 @@
+import { NextResponse } from "next/server";
+import connectToDatabase from "@/lib/mongodb";
+import Session from "@/models/Session";
+import crypto from "crypto";
+
+export async function POST(req: Request) {
+  try {
+    const { username, password } = await req.json();
+
+    let role = "";
+    if (username === "pmnoushu010" && password === "Shanumon@12345$$") {
+      role = "superadmin";
+    } else if (username === "admin" && password === "admin") {
+      role = "student";
+    } else {
+      return NextResponse.json({ error: "Invalid username or password" }, { status: 401 });
+    }
+
+    await connectToDatabase();
+
+    // Get IP address
+    const forwardedFor = req.headers.get("x-forwarded-for");
+    const ipAddress = forwardedFor ? forwardedFor.split(",")[0] : "127.0.0.1";
+    const userAgent = req.headers.get("user-agent") || "Unknown";
+
+    const sessionId = crypto.randomUUID();
+
+    const newSession = new Session({
+      sessionId,
+      username,
+      role,
+      ipAddress,
+      userAgent,
+      lastActive: new Date(),
+    });
+
+    await newSession.save();
+
+    return NextResponse.json({
+      success: true,
+      sessionId,
+      username,
+      role,
+    });
+  } catch (error: any) {
+    console.error("Login API Error:", error);
+    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+  }
+}

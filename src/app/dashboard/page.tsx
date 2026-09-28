@@ -40,6 +40,31 @@ export default function Home() {
   const [onewordOptions, setOnewordOptions] = useState<Record<number, string[]>>({});
   const [matchOptions, setMatchOptions] = useState<string[]>([]);
 
+  // Active Users State
+  const [activeUsers, setActiveUsers] = useState<any[]>([]);
+  const [isLoadingNetwork, setIsLoadingNetwork] = useState(false);
+
+  // Ping heartbeat every 60 seconds
+  useEffect(() => {
+    const pingServer = async () => {
+      const sessionId = localStorage.getItem("sessionId");
+      if (!sessionId) return;
+      try {
+        await fetch("/api/auth/ping", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ sessionId })
+        });
+      } catch (err) {
+        console.error("Failed to ping server");
+      }
+    };
+
+    pingServer(); // Initial ping
+    const interval = setInterval(pingServer, 60000);
+    return () => clearInterval(interval);
+  }, []);
+
   // Fetch folders on load & when subject changes
   useEffect(() => {
     const role = localStorage.getItem("userRole") || "student";
@@ -67,6 +92,31 @@ export default function Home() {
     };
     fetchFolders();
   }, [activeSubject]);
+
+  // Fetch active users when tab switches to network
+  useEffect(() => {
+    if (mainTab === "network" && userRole === "superadmin") {
+      const fetchActiveUsers = async () => {
+        setIsLoadingNetwork(true);
+        try {
+          const res = await fetch("/api/auth/active-users");
+          const data = await res.json();
+          if (data.success) {
+            setActiveUsers(data.activeUsers);
+          }
+        } catch (err) {
+          console.error("Failed to fetch active users");
+        } finally {
+          setIsLoadingNetwork(false);
+        }
+      };
+      fetchActiveUsers();
+      
+      // Auto-refresh every 30 seconds while on the tab
+      const interval = setInterval(fetchActiveUsers, 30000);
+      return () => clearInterval(interval);
+    }
+  }, [mainTab, userRole]);
 
   const generateOptions = (qIndex: number, correctAns: string, allQuestions: any[]) => {
     if (!allQuestions || allQuestions.length < 3) return [correctAns, "Option A", "Option B"].sort(() => Math.random() - 0.5);
@@ -320,6 +370,15 @@ export default function Home() {
           >
             🎓 Take Exam
           </button>
+          {userRole === "superadmin" && (
+            <button 
+              className={`btn ${mainTab === "network" ? "" : "secondary"}`}
+              onClick={() => setMainTab("network")}
+              style={mainTab === "network" ? { background: "#3b82f6" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
+            >
+              👥 Active Users
+            </button>
+          )}
           <button
             className="btn secondary"
             onClick={() => {
@@ -388,8 +447,39 @@ export default function Home() {
         </aside>
 
         <section className="content-area">
+          {/* Active Users Network View */}
+          {mainTab === "network" && userRole === "superadmin" && (
+            <div className="glass-panel">
+              <h3 style={{ marginBottom: "1rem", fontSize: "1.5rem", color: "#3b82f6" }}>👥 Live Student Connections</h3>
+              <p style={{ color: "#94a3b8", marginBottom: "2rem" }}>Showing students who have been active in the last 5 minutes.</p>
+              
+              {isLoadingNetwork && activeUsers.length === 0 ? (
+                <div className="upload-zone"><div className="loader"></div><p>Loading active users...</p></div>
+              ) : activeUsers.length === 0 ? (
+                <div style={{ padding: "2rem", textAlign: "center", background: "rgba(0,0,0,0.2)", borderRadius: "12px", border: "1px dashed rgba(255,255,255,0.2)" }}>
+                  <p style={{ color: "#94a3b8", fontSize: "1.1rem" }}>No students are currently active.</p>
+                </div>
+              ) : (
+                <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                  {activeUsers.map((u, i) => (
+                    <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1rem 1.5rem", background: "rgba(59, 130, 246, 0.1)", borderRadius: "12px", borderLeft: "4px solid #3b82f6" }}>
+                      <div>
+                        <p style={{ fontSize: "1.2rem", fontWeight: "bold", margin: 0, color: "white" }}>👤 {u.username}</p>
+                        <p style={{ fontSize: "0.9rem", color: "#94a3b8", margin: "0.25rem 0 0 0" }}>IP: {u.ipAddress} • Browser: {u.userAgent?.split(" ")[0] || "Unknown"}</p>
+                      </div>
+                      <div style={{ textAlign: "right" }}>
+                        <span style={{ display: "inline-block", padding: "0.25rem 0.75rem", background: "#10b981", color: "white", borderRadius: "99px", fontSize: "0.8rem", fontWeight: "bold" }}>Online</span>
+                        <p style={{ fontSize: "0.8rem", color: "#94a3b8", margin: "0.25rem 0 0 0" }}>Last ping: {new Date(u.lastActive).toLocaleTimeString()}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
           {/* Upload View */}
-          {!activeFolder && userRole === "superadmin" && (
+          {!activeFolder && userRole === "superadmin" && mainTab !== "network" && (
             <div className="glass-panel">
               <h3 style={{ marginBottom: "1rem", fontSize: "1.25rem" }}>Upload to {activeSubject}</h3>
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem", maxWidth: "400px" }}>

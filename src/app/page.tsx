@@ -11,18 +11,32 @@ export default function LandingPage() {
   const [loginError, setLoginError] = useState("");
   const [enquirySuccess, setEnquirySuccess] = useState(false);
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (loginForm.username === "pmnoushu010" && loginForm.password === "Shanumon@12345$$") {
-      localStorage.setItem("userRole", "superadmin");
-      setLoginError("");
-      router.push("/dashboard");
-    } else if (loginForm.username === "admin" && loginForm.password === "admin") {
-      localStorage.setItem("userRole", "student");
-      setLoginError("");
-      router.push("/dashboard");
-    } else {
-      setLoginError("Invalid username or password.");
+    if (!loginForm.username || !loginForm.password) {
+      setLoginError("Please enter username and password.");
+      return;
+    }
+
+    try {
+      const res = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(loginForm),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        localStorage.setItem("userRole", data.role);
+        localStorage.setItem("sessionId", data.sessionId);
+        setLoginError("");
+        router.push("/dashboard");
+      } else {
+        setLoginError(data.error || "Invalid username or password.");
+      }
+    } catch (err) {
+      setLoginError("An error occurred during login. Please try again.");
     }
   };
 
