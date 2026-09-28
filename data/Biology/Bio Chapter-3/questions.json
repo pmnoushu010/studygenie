@@ -1,0 +1,97 @@
+{
+  "summary": "This educational material covers the structural and functional organization of plant and animal tissues. Plant tissues are categorized into Meristematic (growth-oriented) and Permanent tissues. Meristematic tissues include Apical (length), Lateral (girth), and Intercalary (regrowth) meristems. Permanent tissues are split into Simple (Parenchyma for storage, Collenchyma for flexibility, and Sclerenchyma for strength) and Complex (Xylem for water transport and Phloem for food transport). Animal tissues are classified into Epithelial (protection), Connective (Bone, Cartilage, Tendons, and Ligaments), Muscular (Skeletal, Smooth, and Cardiac), and Nervous tissues (Neurons). The text also explains the musculoskeletal system, detailing various joints like ball and socket, hinge, and pivot joints, and the protective role of the skeletal system, including the 12 pairs of ribs forming the rib cage. The process of differentiation is highlighted as the method by which meristematic cells become specialized permanent tissues.",
+  "oneword": [
+    {
+      "q": "What chemical is deposited in the walls of sclerenchyma cells to make them hard?",
+      "a": "Lignin"
+    },
+    {
+      "q": "Which component is the only living part of the xylem tissue?",
+      "a": "Xylem parenchyma"
+    },
+    {
+      "q": "What is the process called when meristematic cells lose the ability to divide and take on specific functions?",
+      "a": "Differentiation"
+    },
+    {
+      "q": "Which tissue connects bone to bone and provides stability to joints?",
+      "a": "Ligament"
+    },
+    {
+      "q": "What type of joint allows the head to move from side to side?",
+      "a": "Pivot joint"
+    },
+    {
+      "q": "Which specific bacterium is mentioned as a tool to introduce useful genes into plants?",
+      "a": "Agrobacterium tumefaciens"
+    },
+    {
+      "q": "How many pairs of ribs are found in the human rib cage?",
+      "a": "12 pairs"
+    },
+    {
+      "q": "Which day of the year is observed as International Yoga Day?",
+      "a": "21st June"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Why do meristematic cells lack vacuoles?",
+      "a": "Meristematic cells are characterized by continuous and rapid cell division; they have dense cytoplasm and thin walls. Vacuoles are generally absent because these cells are primarily focused on division rather than storage."
+    },
+    {
+      "q": "Distinguish between voluntary and involuntary movements with examples.",
+      "a": "Voluntary movements are under conscious control, such as running or writing, carried out by skeletal muscles. Involuntary movements occur automatically, such as the beating of the heart (cardiac muscle) or the movement of food in the intestine (smooth muscle)."
+    },
+    {
+      "q": "Explain the role of guard cells and stomata in the epidermis.",
+      "a": "The epidermis contains pores called stomata which are involved in gaseous exchange and transpiration. Transpiration helps in water transportation by creating a pull in the xylem and aids in the elimination of wastes."
+    }
+  ],
+  "fill": [
+    {
+      "q": "The flexible corners of collenchyma cells are thickened due to the deposition of ___.",
+      "a": "Pectin"
+    },
+    {
+      "q": "___ connect skeletal muscles to bones to produce movement.",
+      "a": "Tendons"
+    },
+    {
+      "q": "The outer covering of the plant that protects inner parts and reduces water loss is the ___ tissue system.",
+      "a": "Dermal"
+    }
+  ],
+  "match": [
+    {
+      "q": "Sclerenchyma",
+      "a": "Coconut husk and walnut shells"
+    },
+    {
+      "q": "Hinge Joint",
+      "a": "Elbow and knee movement"
+    },
+    {
+      "q": "Apical Meristem",
+      "a": "Growth in length of roots and shoots"
+    },
+    {
+      "q": "Cardiac Muscle",
+      "a": "Cylindrical, branched, and striated"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Compare the three types of meristematic tissues based on their location and function in plants.",
+      "a": "Plants have three types of meristematic tissues: 1. Apical Meristem: Located at the tips of roots and shoots, it is responsible for the increase in the length of the plant. 2. Lateral Meristem: Located along the circumference or ring in the stem, it is responsible for the increase in girth or diameter (secondary growth), creating annual growth rings. 3. Intercalary Meristem: Located at the base of nodes or internodes, it helps in the regrowth of parts after they are cut or grazed, such as in grasses or hedges."
+    },
+    {
+      "q": "Describe the structure and components of the nervous tissue (neuron).",
+      "a": "The nervous tissue consists of specialized cells called neurons or nerve cells. Each neuron has three main parts: 1. Cell Body: This contains the nucleus and controls the cell's activities. 2. Dendrites: These are short branched structures that receive signals from other neurons. 3. Axon: A long fiber that carries messages away from the cell body toward the axon terminals. The axon terminals then transmit these messages to other cells or muscles, allowing the body to sense, communicate, and respond to stimuli."
+    },
+    {
+      "q": "Explain the composition and functions of complex permanent tissues in plants.",
+      "a": "Complex permanent tissues are made of different types of cells working together to perform a common function. They include Xylem and Phloem: 1. Xylem: Transports water and minerals from roots to the rest of the plant. It consists of tracheids, vessels, xylem parenchyma (living), and xylem fibres. It also provides structural strength. 2. Phloem: Transports food (sugars) from leaves to other parts. It consists of sieve tubes (long tubular cells with perforated walls), companion cells (which regulate sieve tube functions), phloem parenchyma (storage), and phloem fibres (strength). Phloem is mostly made up of living cells."
+    }
+  ]
+}
