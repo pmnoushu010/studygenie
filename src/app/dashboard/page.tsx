@@ -184,6 +184,62 @@ export default function Home() {
     }
   };
 
+  const handleRenameChapter = async () => {
+    if (!activeFolder) return;
+    const newName = window.prompt("Enter new name for the chapter:", activeFolder);
+    if (!newName || newName.trim() === "" || newName === activeFolder) return;
+
+    try {
+      const res = await fetch("/api/rename-chapter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ subject: activeSubject, oldFolder: activeFolder, newFolder: newName }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Failed to rename chapter");
+
+      // Refresh folders list
+      const folderRes = await fetch(`/api/chapters?subject=${encodeURIComponent(activeSubject)}`);
+      const folderData = await folderRes.json();
+      if (folderData.folders) setFolders(folderData.folders);
+
+      setActiveFolder(newName);
+    } catch (err: any) {
+      alert(err.message);
+    }
+  };
+
+  const handleDeleteChapter = async () => {
+    if (!activeFolder) return;
+    const confirm = window.confirm(`Are you sure you want to delete the chapter "${activeFolder}"? This cannot be undone.`);
+    if (!confirm) return;
+
+    try {
+      const res = await fetch("/api/delete-chapter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ subject: activeSubject, folder: activeFolder }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Failed to delete chapter");
+
+      // Refresh folders list
+      const folderRes = await fetch(`/api/chapters?subject=${encodeURIComponent(activeSubject)}`);
+      const folderData = await folderRes.json();
+      if (folderData.folders) {
+        setFolders(folderData.folders);
+        if (folderData.folders.length > 0) {
+          handleFolderSelect(folderData.folders[0]);
+        } else {
+          setActiveFolder(null);
+          setQuestions(null);
+        }
+      }
+    } catch (err: any) {
+      alert(err.message);
+    }
+  };
+
   const handleSubmitExam = () => {
     let earned = 0;
     let totalWeight = 0;
@@ -339,8 +395,12 @@ export default function Home() {
           {/* Generator View */}
           {activeFolder && mainTab === "generator" && (
             <div className="glass-panel">
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
-                <h3 style={{ fontSize: "1.25rem", margin: 0 }}>{activeSubject} - {activeFolder}</h3>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", flexWrap: "wrap", gap: "1rem" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+                  <h3 style={{ fontSize: "1.25rem", margin: 0 }}>{activeSubject} - {activeFolder}</h3>
+                  <button onClick={handleRenameChapter} title="Rename Chapter" style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)", borderRadius: "6px", cursor: "pointer", fontSize: "1rem", padding: "0.25rem 0.5rem", color: "white" }}>✏️</button>
+                  <button onClick={handleDeleteChapter} title="Delete Chapter" style={{ background: "rgba(239, 68, 68, 0.2)", border: "1px solid rgba(239, 68, 68, 0.4)", borderRadius: "6px", cursor: "pointer", fontSize: "1rem", padding: "0.25rem 0.5rem", color: "white" }}>🗑️</button>
+                </div>
                 {questions && (
                   <button className="btn secondary" onClick={handleProcessChapter} disabled={isProcessing} style={{ fontSize: "0.8rem", padding: "0.5rem 1rem", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)" }}>
                     🔄 Regenerate
