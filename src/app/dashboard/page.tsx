@@ -339,7 +339,14 @@ export default function Home() {
           {/* Generator View */}
           {activeFolder && mainTab === "generator" && (
             <div className="glass-panel">
-              <h3 style={{ marginBottom: "1rem", fontSize: "1.25rem" }}>{activeSubject} - {activeFolder}</h3>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
+                <h3 style={{ fontSize: "1.25rem", margin: 0 }}>{activeSubject} - {activeFolder}</h3>
+                {questions && (
+                  <button className="btn secondary" onClick={handleProcessChapter} disabled={isProcessing} style={{ fontSize: "0.8rem", padding: "0.5rem 1rem", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)" }}>
+                    🔄 Regenerate
+                  </button>
+                )}
+              </div>
               {!questions && !isProcessing && (
                 <div className="upload-zone" style={{ cursor: 'default' }}>
                   <p>Questions not yet generated for this chapter.</p>
@@ -397,12 +404,6 @@ export default function Home() {
                 <p>Please generate questions first in the Question Generator tab.</p>
               ) : (
                 <>
-                  {questions.summary && !examSubmitted && (
-                    <div style={{ padding: "1.5rem", background: "rgba(16, 185, 129, 0.1)", borderRadius: "12px", borderLeft: "4px solid #10b981", marginBottom: "2rem" }}>
-                      <h4 style={{ color: "#10b981", marginBottom: "1rem", fontSize: "1.2rem" }}>📖 Study Guide / Important Details</h4>
-                      <p style={{ whiteSpace: "pre-wrap", lineHeight: "1.6", color: "#e2e8f0" }}>{questions.summary}</p>
-                    </div>
-                  )}
                   {examSubmitted && (
                     <div style={{ padding: "2rem", background: "rgba(139, 92, 246, 0.2)", borderRadius: "12px", marginBottom: "2rem", textAlign: "center", border: "1px solid #8b5cf6" }}>
                       <h2>Exam Completed!</h2>
