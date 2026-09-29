@@ -45,8 +45,27 @@ export async function POST(req: NextRequest) {
 
     const parts: any[] = [];
     
-    const prompt = `
-      You are an expert teacher. Analyze this educational material (from a 9th standard textbook, which may span multiple pages/images) and generate a question paper based on its combined contents.
+    let prompt = "";
+    if (subject === "Basic Mechanical Engineering") {
+      prompt = `
+      You are an expert Engineering Professor. Analyze this educational material for B.Tech Basic Mechanical Engineering and generate a university-style question paper based on its contents.
+      
+      Extract the core concepts and create the following types of questions based strictly on the provided material.
+      You MUST respond ONLY with a valid JSON object matching this exact structure, with no markdown formatting or backticks around it:
+      {
+        "summary": "A detailed overview of the important details, core concepts, and main content to read and understand before answering questions.",
+        "sa": [
+          { "q": "Part A (3 Marks): Question text here (e.g. Write a note on... or How are... classified?)", "a": "Answer here" }
+        ],
+        "essay": [
+          { "q": "Part B (12 Marks): Question text here (e.g. With the help of a neat sketch explain...)", "a": "Detailed multi-point answer here" }
+        ]
+      }
+      Generate a thorough summary of the material. Then, generate 5-8 questions for the "sa" (Part A, 3 Marks) category and 3-5 questions for the "essay" (Part B, 12 Marks) category. Make sure they are accurate and based ON THE PROVIDED IMAGES/DOCUMENTS.
+      `;
+    } else {
+      prompt = `
+      You are an expert teacher. Analyze this educational material (from a textbook, which may span multiple pages/images) and generate a question paper based on its combined contents.
       
       Extract the core concepts and create the following types of questions.
       You MUST respond ONLY with a valid JSON object matching this exact structure, with no markdown formatting or backticks around it:
@@ -69,7 +88,8 @@ export async function POST(req: NextRequest) {
         ]
       }
       Generate a thorough summary of the material. Then, generate 7 to 10 questions for the "oneword" category if the chapter is large enough. For all other categories, generate at least 3 questions (including at least 3 essay questions). Make sure they are accurate and based ON THE PROVIDED IMAGES/DOCUMENTS.
-    `;
+      `;
+    }
     
     const fileParts: any[] = [];
     

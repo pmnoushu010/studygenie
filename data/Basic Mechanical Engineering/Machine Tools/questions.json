@@ -1,0 +1,38 @@
+{
+  "summary": "This module covers the basic concepts of Machine Tools, including the different types of machine tools and their operations. The focus is on the working principles and components of the Lathe, Drilling Machine, and Milling Machine. It also explains the various operations performed on these machines such as turning, facing, drilling, boring, and milling.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): What is a machine tool?",
+      "a": "A machine tool is a machine that performs material removal operations with tools to produce the desired shape and size of a work-piece."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between live centre and dead centre in a lathe.",
+      "a": "A live centre is connected to the headstock and rotates with the spindle, while a dead centre is connected to the tailstock and does not rotate; it only supports the work piece."
+    },
+    {
+      "q": "Part A (3 Marks): Briefly explain the boring operation.",
+      "a": "Boring is the operation of enlarging an already existing hole by means of an adjustable single-point tool traversed through the hole parallel to the axis of rotation."
+    },
+    {
+      "q": "Part A (3 Marks): Name any three operations that can be performed on a Lathe.",
+      "a": "Turning, Facing, and Thread Cutting."
+    },
+    {
+      "q": "Part A (3 Marks): What is a reaming operation?",
+      "a": "Reaming is the operation of finishing and sizing an already existing hole using a multiple cutting edge tool called a reamer."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): With the help of a neat sketch, explain the main components of a Lathe and their functions.",
+      "a": "The main components of a Lathe include:\n1. Bed: The base foundation of the lathe, typically made of cast iron, providing strength and rigidity. It has guideways for the carriage and tailstock.\n2. Headstock: Permanently mounted on the left end of the bed. It supports the spindle, which holds the workpiece and provides the rotational drive through a motor and gearbox.\n3. Tailstock: Mounted on the right end of the bed and can slide along it. It supports the other end of the workpiece and can also hold tools for drilling or reaming.\n4. Carriage: Moves along the bed ways and supports the cutting tool, controlling its feeding motion (longitudinal, cross, or angular).\n5. Lathe Centres: Tapered components in the headstock (live centre) and tailstock (dead centre) that align and support the workpiece.\n6. Feed Mechanism: The mechanism used to provide automatic or manual movement of the tool relative to the workpiece."
+    },
+    {
+      "q": "Part B (12 Marks): Explain the working principle of a Milling Machine and classify the different types of milling operations.",
+      "a": "Working Principle:\nMilling is a machining process that removes metal by feeding the work piece against a rotating multi-point cutter. As the cutter rotates, each cutting edge removes a small amount of material from the work piece in the form of chips.\n\nTypes of Milling Operations:\n1. Plane Milling: The production of flat surfaces with the milling cutter axis parallel to the surface being milled. A plain milling cutter is used.\n2. Slot Milling: Used for cutting slots (like T-slots). First, a plain slot is cut using an end milling cutter, and then a T-slot cutter is fed from one end to create the neck portion.\n3. Gear Milling: The process by which gears are produced using gear cutters. The profile of the cutter corresponds exactly to the tooth space of the gear to be manufactured."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

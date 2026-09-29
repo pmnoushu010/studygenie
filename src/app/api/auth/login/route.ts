@@ -11,14 +11,19 @@ export async function POST(req: Request) {
     await connectToDatabase();
 
     let role = "";
+    let stream = "9th"; // default
+
     if (username === "pmnoushu010" && password === "Shanumon@12345$$") {
       role = "superadmin";
+      stream = "all";
     } else if (username === "admin" && password === "admin") {
       role = "student";
+      stream = "9th";
     } else {
       const user = await User.findOne({ username, password });
       if (user) {
         role = user.role || "student";
+        stream = user.stream || "9th";
       } else {
         return NextResponse.json({ error: "Invalid username or password" }, { status: 401 });
       }
@@ -47,6 +52,7 @@ export async function POST(req: Request) {
       sessionId,
       username,
       role,
+      stream,
     });
   } catch (error: any) {
     console.error("Login API Error:", error);

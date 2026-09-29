@@ -4,14 +4,11 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 const QUESTION_TYPES = [
-  { id: "oneword", label: "One Word" },
-  { id: "sa", label: "Short Answer" },
-  { id: "fill", label: "Fill in the Blanks" },
-  { id: "match", label: "Match Type" },
-  { id: "essay", label: "5 Marks (Essay)" },
+  { id: "sa", label: "Part A (3 Marks)" },
+  { id: "essay", label: "Part B (12 Marks)" },
 ];
 
-const SUBJECTS = ["Biology", "Chemistry", "Physics", "Maths", "English"];
+const SUBJECTS = ["Basic Mechanical Engineering"];
 
 export default function Home() {
   const router = useRouter();
@@ -49,7 +46,7 @@ export default function Home() {
 
   // User Management State
   const [newUserForm, setNewUserForm] = useState({
-    username: "", password: "", name: "", email: "", mobileNumber: "", whatsappNumber: "", studentId: "", parentName: "", stream: "9th"
+    username: "", password: "", name: "", email: "", mobileNumber: "", whatsappNumber: "", studentId: "", parentName: "", stream: "mech"
   });
   const [isCreatingUser, setIsCreatingUser] = useState(false);
   const [userCreationMessage, setUserCreationMessage] = useState({ text: "", type: "" });
@@ -67,7 +64,7 @@ export default function Home() {
       const data = await res.json();
       if (res.ok) {
         setUserCreationMessage({ text: "User created successfully!", type: "success" });
-        setNewUserForm({ username: "", password: "", name: "", email: "", mobileNumber: "", whatsappNumber: "", studentId: "", parentName: "", stream: "9th" });
+        setNewUserForm({ username: "", password: "", name: "", email: "", mobileNumber: "", whatsappNumber: "", studentId: "", parentName: "", stream: "mech" });
       } else {
         setUserCreationMessage({ text: data.error || "Failed to create user", type: "error" });
       }
@@ -374,12 +371,12 @@ export default function Home() {
     }
     if (questions.sa) {
       questions.sa.forEach((q: any, i: number) => {
-        checkEssay(examAnswers[`sa_${i}`] || "", 2); // 2 marks each
+        checkEssay(examAnswers[`sa_${i}`] || "", 3); // 3 marks each (Part A)
       });
     }
     if (questions.essay) {
       questions.essay.forEach((q: any, i: number) => {
-        checkEssay(examAnswers[`essay_${i}`] || "", 5); // 5 marks each
+        checkEssay(examAnswers[`essay_${i}`] || "", 12); // 12 marks each (Part B)
       });
     }
 
@@ -397,7 +394,7 @@ export default function Home() {
     <main className="app-container">
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", width: "100%" }}>
         <div>
-          <h1>StudyGenie 9th Std</h1>
+          <h1>StudyGenie Mechanical Engineering</h1>
           <p>Local Chapter Question Generator {userRole === "superadmin" ? "(Admin)" : "(Student)"}</p>
         </div>
         <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
@@ -434,10 +431,10 @@ export default function Home() {
               </button>
               <button 
                 className="btn secondary"
-                onClick={() => router.push("/mech-dashboard")}
-                style={{ background: "transparent", border: "1px solid rgba(255,255,255,0.2)", color: "#f59e0b" }}
+                onClick={() => router.push("/dashboard")}
+                style={{ background: "transparent", border: "1px solid rgba(255,255,255,0.2)", color: "#10b981" }}
               >
-                ⚙️ Mech Dashboard
+                🏫 9th Std Dashboard
               </button>
             </>
           )}

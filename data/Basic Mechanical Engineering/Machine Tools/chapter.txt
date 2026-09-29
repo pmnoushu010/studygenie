@@ -1,0 +1,71 @@
+23-200-0105A
+Basic Mechanical Engineering
+Module 3
+Machine Tools
+
+Syllabus
+Introduction: Role of Mechanical Engineering in Industries and Society...
+Introduction to power consuming devices: Refrigerator, types and properties of refrigerants...
+Module II
+Introduction to power transmission systems: Belts, chain, and Gear drives...
+Module III
+Introduction to engineering materials: composite and smart materials.
+Joining Processes: Soldering, Brazing and Welding, Definitions, classification of welding process, Arc welding, Gas welding and types of flames.
+Machine Tool Operations: Working Principle of lathe, Lathe operations: Turning, facing, knurling. Working principles of Drilling Machine, drilling operations: drilling, boring, reaming. Working of Milling Machine, Milling operations: plane milling and slot milling.
+Introduction to Advanced Manufacturing Systems: Introduction, components of CNC...
+
+Machine Tool Operations
+A machine, which performs the material removal operations with tools, to produce desired shape and size of the work-piece is known as machine tool.
+Types of Machine Tools:
+1. Lathe
+2. Shaping machine
+3. Drilling machine
+4. Milling machine
+5. Grinding machine
+6. Slotting machine
+7. Planer machine
+
+Tools used:
+- Single Point Cutting Tool: One cutting edge (used in lathe)
+- Multipoint Cutting Tool: Number of teeth or cutting edges on the periphery
+
+LATHE
+It is a general purpose machine tool, which removes excess material from the work piece, in the form of chips, by rotating the work piece against a single point cutting tool.
+
+Working Principle:
+- Hold the work piece and rotate it about an axis.
+- Cutting tool is fed either parallel or perpendicular to the axis of the work piece.
+- Tool moved parallel to axis gives cylindrical surface.
+- Tool moved perpendicular to axis gives a flat surface.
+
+Components of Lathe:
+1. Bed
+2. Headstock
+3. Tailstock
+4. Carriage
+5. Lathe centre
+6. Feed mechanism
+
+1. Bed: Base foundation of the lathe, provides strength & rigidity. Material - Cast Iron.
+2. Headstock: Permanently mounted on the bed at the left end. Spindle is a hollow cylindrical shaft supported by bearings. Spindle is driven by a motor.
+3. Tailstock: Mounted on the bed at the right end and can be clamped at any convenient position. Supports one end of the work piece and used for holding tools for drilling/reaming.
+4. Carriage: Consists of several parts that serves to support the cutting tool and control its action. Moved along bed ways.
+5. Lathe Centre: Tapered components fit into spindles in headstock (live centre) and tailstock (dead centre).
+6. Feed mechanism: Movement of tool relative to work piece. Longitudinal feed, cross feed, angular feed.
+
+Lathe Operations:
+Turning, Facing, Chamfering, Thread Cutting, Spinning, Grooving, Drilling, Parting-off, Boring, Knurling.
+
+Drilling Operation:
+- Operation of making holes in a workpiece by forcing a rotating tool called a drill against it.
+- Drill is a multipoint cutting tool (cylindrical bar with helical grooves).
+- Drilling Machine has drill chuck and key. Operations: Drilling, Boring, Reaming.
+- Boring Operation: Enlarging an already existing hole by means of an adjustable single-point tool.
+- Reaming Operation: Operation of finishing and sizing an already existing hole using a multiple cutting edges tool called reamer.
+
+Milling Operation:
+- Process of removal of metal by feeding the work piece against rotating multi-point cutter.
+- Types of Milling: Plane Milling, Slot Milling, Gear Milling.
+- Plane Milling: Production of flat surfaces with milling cutter axis parallel to the surface.
+- Slot Milling: T-slot cutter is used. Plain slot is cut first using an end milling cutter.
+- Gear Milling: Process by which gears are produced using gear cutters. Profile of the cutter corresponds to the tooth space of the gear.

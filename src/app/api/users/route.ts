@@ -24,7 +24,8 @@ export async function POST(req: Request) {
 
     const newUser = new User({
       ...body,
-      role: "student" // By default all created users are students
+      role: "student", // By default all created users are students
+      stream: body.stream || "9th"
     });
 
     await newUser.save();

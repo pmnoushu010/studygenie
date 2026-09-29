@@ -11,6 +11,7 @@ const UserSchema = new mongoose.Schema(
     studentId: { type: String },
     parentName: { type: String },
     role: { type: String, default: "student" },
+    stream: { type: String, default: "9th" },
   },
   { timestamps: true }
 );

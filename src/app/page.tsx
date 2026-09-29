@@ -30,8 +30,13 @@ export default function LandingPage() {
       if (res.ok) {
         localStorage.setItem("userRole", data.role);
         localStorage.setItem("sessionId", data.sessionId);
+        localStorage.setItem("userStream", data.stream);
         setLoginError("");
-        router.push("/dashboard");
+        if (data.role === "student" && data.stream === "mech") {
+          router.push("/mech-dashboard");
+        } else {
+          router.push("/dashboard");
+        }
       } else {
         setLoginError(data.error || "Invalid username or password.");
       }
