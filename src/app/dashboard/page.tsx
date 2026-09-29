@@ -47,6 +47,37 @@ export default function Home() {
   const [activeUsers, setActiveUsers] = useState<any[]>([]);
   const [isLoadingNetwork, setIsLoadingNetwork] = useState(false);
 
+  // User Management State
+  const [newUserForm, setNewUserForm] = useState({
+    username: "", password: "", name: "", email: "", mobileNumber: "", whatsappNumber: "", studentId: "", parentName: ""
+  });
+  const [isCreatingUser, setIsCreatingUser] = useState(false);
+  const [userCreationMessage, setUserCreationMessage] = useState({ text: "", type: "" });
+
+  const handleCreateUser = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsCreatingUser(true);
+    setUserCreationMessage({ text: "", type: "" });
+    try {
+      const res = await fetch("/api/users", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newUserForm)
+      });
+      const data = await res.json();
+      if (res.ok) {
+        setUserCreationMessage({ text: "User created successfully!", type: "success" });
+        setNewUserForm({ username: "", password: "", name: "", email: "", mobileNumber: "", whatsappNumber: "", studentId: "", parentName: "" });
+      } else {
+        setUserCreationMessage({ text: data.error || "Failed to create user", type: "error" });
+      }
+    } catch (err: any) {
+      setUserCreationMessage({ text: "An error occurred", type: "error" });
+    } finally {
+      setIsCreatingUser(false);
+    }
+  };
+
   // Ping heartbeat every 60 seconds
   useEffect(() => {
     const pingServer = async () => {
@@ -386,13 +417,22 @@ export default function Home() {
             🎓 Take Exam
           </button>
           {userRole === "superadmin" && (
-            <button 
-              className={`btn ${mainTab === "network" ? "" : "secondary"}`}
-              onClick={() => setMainTab("network")}
-              style={mainTab === "network" ? { background: "#3b82f6" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
-            >
-              👥 Active Users
-            </button>
+            <>
+              <button 
+                className={`btn ${mainTab === "network" ? "" : "secondary"}`}
+                onClick={() => setMainTab("network")}
+                style={mainTab === "network" ? { background: "#3b82f6" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
+              >
+                👥 Active Users
+              </button>
+              <button 
+                className={`btn ${mainTab === "users" ? "" : "secondary"}`}
+                onClick={() => setMainTab("users")}
+                style={mainTab === "users" ? { background: "#10b981" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
+              >
+                🧑‍🎓 Manage Users
+              </button>
+            </>
           )}
           <button
             className="btn secondary"
@@ -494,8 +534,59 @@ export default function Home() {
             </div>
           )}
 
+          {/* Manage Users View */}
+          {mainTab === "users" && userRole === "superadmin" && (
+            <div className="glass-panel">
+              <h3 style={{ marginBottom: "1rem", fontSize: "1.5rem", color: "#10b981" }}>🧑‍🎓 Create New User</h3>
+              <form onSubmit={handleCreateUser} style={{ display: "grid", gap: "1rem", gridTemplateColumns: "1fr 1fr", maxWidth: "800px" }}>
+                <div>
+                  <label style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>Username *</label>
+                  <input type="text" value={newUserForm.username} onChange={e => setNewUserForm({...newUserForm, username: e.target.value})} required style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.2)", color: "white" }} />
+                </div>
+                <div>
+                  <label style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>Password *</label>
+                  <input type="password" value={newUserForm.password} onChange={e => setNewUserForm({...newUserForm, password: e.target.value})} required style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.2)", color: "white" }} />
+                </div>
+                <div>
+                  <label style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>Name *</label>
+                  <input type="text" value={newUserForm.name} onChange={e => setNewUserForm({...newUserForm, name: e.target.value})} required style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.2)", color: "white" }} />
+                </div>
+                <div>
+                  <label style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>Email Address *</label>
+                  <input type="email" value={newUserForm.email} onChange={e => setNewUserForm({...newUserForm, email: e.target.value})} required style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.2)", color: "white" }} />
+                </div>
+                <div>
+                  <label style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>Mobile Number (with country code) *</label>
+                  <input type="text" value={newUserForm.mobileNumber} onChange={e => setNewUserForm({...newUserForm, mobileNumber: e.target.value})} required style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.2)", color: "white" }} />
+                </div>
+                <div>
+                  <label style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>WhatsApp Number</label>
+                  <input type="text" value={newUserForm.whatsappNumber} onChange={e => setNewUserForm({...newUserForm, whatsappNumber: e.target.value})} style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.2)", color: "white" }} />
+                </div>
+                <div>
+                  <label style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>Student ID</label>
+                  <input type="text" value={newUserForm.studentId} onChange={e => setNewUserForm({...newUserForm, studentId: e.target.value})} style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.2)", color: "white" }} />
+                </div>
+                <div>
+                  <label style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>Parent Name</label>
+                  <input type="text" value={newUserForm.parentName} onChange={e => setNewUserForm({...newUserForm, parentName: e.target.value})} style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.2)", color: "white" }} />
+                </div>
+                <div style={{ gridColumn: "1 / -1", marginTop: "1rem" }}>
+                  <button type="submit" className="btn" disabled={isCreatingUser} style={{ background: "#10b981", width: "100%", maxWidth: "200px" }}>
+                    {isCreatingUser ? "Creating..." : "➕ Create User"}
+                  </button>
+                  {userCreationMessage.text && (
+                    <p style={{ marginTop: "1rem", color: userCreationMessage.type === "error" ? "#ef4444" : "#10b981", fontWeight: "bold" }}>
+                      {userCreationMessage.text}
+                    </p>
+                  )}
+                </div>
+              </form>
+            </div>
+          )}
+
           {/* Upload View */}
-          {!activeFolder && userRole === "superadmin" && mainTab !== "network" && (
+          {!activeFolder && userRole === "superadmin" && mainTab === "generator" && (
             <div className="glass-panel">
               <h3 style={{ marginBottom: "1rem", fontSize: "1.25rem" }}>Upload to {activeSubject}</h3>
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem", maxWidth: "400px" }}>

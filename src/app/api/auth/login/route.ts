@@ -1,11 +1,14 @@
 import { NextResponse } from "next/server";
 import connectToDatabase from "@/lib/mongodb";
 import Session from "@/models/Session";
+import User from "@/models/User";
 import crypto from "crypto";
 
 export async function POST(req: Request) {
   try {
     const { username, password } = await req.json();
+
+    await connectToDatabase();
 
     let role = "";
     if (username === "pmnoushu010" && password === "Shanumon@12345$$") {
@@ -13,10 +16,13 @@ export async function POST(req: Request) {
     } else if (username === "admin" && password === "admin") {
       role = "student";
     } else {
-      return NextResponse.json({ error: "Invalid username or password" }, { status: 401 });
+      const user = await User.findOne({ username, password });
+      if (user) {
+        role = user.role || "student";
+      } else {
+        return NextResponse.json({ error: "Invalid username or password" }, { status: 401 });
+      }
     }
-
-    await connectToDatabase();
 
     // Get IP address
     const forwardedFor = req.headers.get("x-forwarded-for");
