@@ -48,6 +48,9 @@ export default function Home() {
   const [isLoadingNetwork, setIsLoadingNetwork] = useState(false);
 
   // User Management State
+  const [allUsers, setAllUsers] = useState<any[]>([]);
+  const [isLoadingUsers, setIsLoadingUsers] = useState(false);
+
   const [newUserForm, setNewUserForm] = useState({
     username: "", password: "", name: "", email: "", mobileNumber: "", whatsappNumber: "", studentId: "", parentName: "", stream: "9th"
   });
@@ -68,6 +71,7 @@ export default function Home() {
       if (res.ok) {
         setUserCreationMessage({ text: "User created successfully!", type: "success" });
         setNewUserForm({ username: "", password: "", name: "", email: "", mobileNumber: "", whatsappNumber: "", studentId: "", parentName: "", stream: "9th" });
+        fetchUsers(); // Refresh list
       } else {
         setUserCreationMessage({ text: data.error || "Failed to create user", type: "error" });
       }
@@ -138,7 +142,35 @@ export default function Home() {
   // Fetch active users when tab switches to network
   useEffect(() => {
     if (mainTab === "network" && userRole === "superadmin") {
-      const fetchActiveUsers = async () => {
+      useEffect(() => {
+    if (mainTab === "users" && userRole === "superadmin") {
+      fetchUsers();
+    }
+  }, [mainTab, userRole]);
+
+  const fetchUsers = async () => {
+    setIsLoadingUsers(true);
+    try {
+      const res = await fetch("/api/users");
+      const data = await res.json();
+      if (res.ok) setAllUsers(data.users || []);
+    } catch (e) {
+      console.error(e);
+    }
+    setIsLoadingUsers(false);
+  };
+
+  const handleDeleteUser = async (id: string) => {
+    if (!confirm("Are you sure you want to delete this user?")) return;
+    try {
+      const res = await fetch(`/api/users?id=${id}`, { method: "DELETE" });
+      if (res.ok) fetchUsers();
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const fetchActiveUsers = async () => {
         setIsLoadingNetwork(true);
         try {
           const res = await fetch("/api/auth/active-users");
@@ -596,6 +628,41 @@ export default function Home() {
                   )}
                 </div>
               </form>
+              
+              <div style={{ marginTop: "3rem" }}>
+                <h3 style={{ marginBottom: "1rem", fontSize: "1.25rem", color: "#3b82f6" }}>📋 All Registered Users</h3>
+                {isLoadingUsers ? <p>Loading users...</p> : (
+                  <div style={{ overflowX: "auto" }}>
+                    <table style={{ width: "100%", textAlign: "left", borderCollapse: "collapse" }}>
+                      <thead>
+                        <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.2)" }}>
+                          <th style={{ padding: "0.75rem" }}>Username</th>
+                          <th style={{ padding: "0.75rem" }}>Name</th>
+                          <th style={{ padding: "0.75rem" }}>Stream</th>
+                          <th style={{ padding: "0.75rem" }}>Role</th>
+                          <th style={{ padding: "0.75rem" }}>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {allUsers.map((u, i) => (
+                          <tr key={i} style={{ borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
+                            <td style={{ padding: "0.75rem" }}>{u.username}</td>
+                            <td style={{ padding: "0.75rem" }}>{u.name}</td>
+                            <td style={{ padding: "0.75rem" }}>{u.stream === 'mech' ? 'Mechanical' : '9th Standard'}</td>
+                            <td style={{ padding: "0.75rem" }}>{u.role}</td>
+                            <td style={{ padding: "0.75rem" }}>
+                              <button onClick={() => handleDeleteUser(u._id)} style={{ background: "#ef4444", color: "white", padding: "0.25rem 0.75rem", borderRadius: "4px", border: "none", cursor: "pointer" }}>Delete</button>
+                            </td>
+                          </tr>
+                        ))}
+                        {allUsers.length === 0 && (
+                          <tr><td colSpan={5} style={{ padding: "1rem", textAlign: "center", color: "#94a3b8" }}>No users found.</td></tr>
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </div>
             </div>
           )}
 

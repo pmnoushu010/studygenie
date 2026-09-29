@@ -36,3 +36,29 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: error.message || "Internal Server Error" }, { status: 500 });
   }
 }
+
+export async function GET() {
+  try {
+    await connectToDatabase();
+    const users = await User.find({}).select('-password').sort({ createdAt: -1 });
+    return NextResponse.json({ users });
+  } catch (error: any) {
+    console.error("Get Users API Error:", error);
+    return NextResponse.json({ error: error.message || "Internal Server Error" }, { status: 500 });
+  }
+}
+
+export async function DELETE(req: Request) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const id = searchParams.get('id');
+    if (!id) return NextResponse.json({ error: "Missing ID" }, { status: 400 });
+    
+    await connectToDatabase();
+    await User.findByIdAndDelete(id);
+    return NextResponse.json({ success: true, message: "User deleted successfully" });
+  } catch (error: any) {
+    console.error("Delete User API Error:", error);
+    return NextResponse.json({ error: error.message || "Internal Server Error" }, { status: 500 });
+  }
+}
