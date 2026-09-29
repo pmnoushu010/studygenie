@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 const QUESTION_TYPES = [
   { id: "oneword", label: "One Word" },
@@ -13,8 +14,10 @@ const QUESTION_TYPES = [
 const SUBJECTS = ["Biology", "Chemistry", "Physics", "Maths", "English"];
 
 export default function Home() {
+  const router = useRouter();
   const [mainTab, setMainTab] = useState("generator");
   const [userRole, setUserRole] = useState<string>("student");
+  const [isAuthorized, setIsAuthorized] = useState(false);
   
   const [activeSubject, setActiveSubject] = useState(SUBJECTS[0]);
   const [folders, setFolders] = useState<string[]>([]);
@@ -67,8 +70,16 @@ export default function Home() {
 
   // Fetch folders on load & when subject changes
   useEffect(() => {
-    const role = localStorage.getItem("userRole") || "student";
+    const role = localStorage.getItem("userRole");
+    const sessionId = localStorage.getItem("sessionId");
+    
+    if (!role || !sessionId) {
+      router.push("/");
+      return;
+    }
+    
     setUserRole(role);
+    setIsAuthorized(true);
     
     const fetchFolders = async () => {
       setIsLoadingFolders(true);
@@ -347,6 +358,10 @@ export default function Home() {
     window.scrollTo(0, 0);
   };
 
+  if (!isAuthorized) {
+    return null; // or a loading spinner while redirecting
+  }
+
   return (
     <main className="app-container">
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", width: "100%" }}>
@@ -383,6 +398,7 @@ export default function Home() {
             className="btn secondary"
             onClick={() => {
               localStorage.removeItem("userRole");
+              localStorage.removeItem("sessionId");
               window.location.href = "/";
             }}
             style={{ background: "rgba(239, 68, 68, 0.2)", border: "1px solid rgba(239, 68, 68, 0.4)", color: "white", padding: "0.5rem 1rem", fontSize: "0.9rem" }}
