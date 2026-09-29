@@ -1,0 +1,58 @@
+{
+  "summary": "This chapter provides a comprehensive overview of Mechanical Power Transmission. It covers the four main methods: Belt Drives, Chain Drives, and Gear Drives, along with mechanisms for connection and disconnection: Couplings and Clutches.\n\nBelt Drives rely on friction and are suited for long distances. Types include flat, V-belt, circular, and timing belts. Drives can be open, crossed, compound, etc. Belt selection depends on velocity, tension, arc of contact, and conditions.\n\nChain Drives use sprockets and endless chains (roller or silent). They provide a positive drive (no slip) with high efficiency but require lubrication and careful mounting.\n\nGear Drives use toothed wheels for a positive, no-slip drive. They are classified by shaft axes: Parallel (Spur, Helical, Herringbone, Rack & Pinion), Intersecting (Bevel), Perpendicular/Non-Intersecting (Worm Gear), and Skew (Crossed Helical).\n\nCouplings connect two shafts permanently to transmit power while allowing slight misalignment (Rigid vs Flexible). Clutches connect or disconnect a driven shaft from a driving shaft instantaneously while it is running (e.g., Single plate, Multi plate, Cone, Centrifugal).",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): What are the factors on which the amount of power transmission by a belt depends?",
+      "a": "The amount of power transmitted by a belt depends on: 1. The velocity of the belt. 2. The tension under which the belt is placed on the pulleys. 3. The arc of contact between the belt and the smaller pulley. 4. The conditions under which the belt is used."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between an open belt drive and a crossed belt drive.",
+      "a": "An open belt drive connects parallel shafts rotating in the same direction, with the slack side on top. A crossed belt drive connects parallel shafts rotating in opposite directions. Crossed belts suffer from wear at the cross point and are used for shorter distances."
+    },
+    {
+      "q": "Part A (3 Marks): Mention the desirable properties of materials used for belts.",
+      "a": "The desirable properties of belt materials include: 1. High coefficient of friction. 2. Flexibility. 3. Durability. 4. High strength. Common materials are leather, fabric, rubber, and polyester."
+    },
+    {
+      "q": "Part A (3 Marks): What are the advantages of a chain drive over a belt drive?",
+      "a": "Advantages of a chain drive include: 1. It is a positive drive with no slip, ensuring a perfect velocity ratio. 2. High transmission efficiency (up to 98%). 3. It occupies less width space than a belt drive. 4. It exerts less load on the shafts."
+    },
+    {
+      "q": "Part A (3 Marks): Define a gear and state its primary functions.",
+      "a": "A gear is a mechanical element with progressive projections called teeth, used to transmit power and rotary motion. Gears are used to increase/decrease speed, change torque, move rotational motion to a different axis, or reverse the direction of rotation."
+    },
+    {
+      "q": "Part A (3 Marks): What are herringbone gears? Why are they used?",
+      "a": "Herringbone gears consist of two identical helical gears of opposite hands cut on the same blank. They are used because they eliminate the axial thrust load that is normally present in standard single helical gears during operation."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between a coupling and a clutch.",
+      "a": "A coupling is a device used to permanently join two shafts at their ends to transmit power, and it can accommodate slight misalignment. A clutch is a device used to connect or instantaneously disconnect a driven shaft from a driving shaft at the operator's will, without stopping the prime mover."
+    },
+    {
+      "q": "Part A (3 Marks): Write down the velocity ratio equation of a belt drive and explain the terms.",
+      "a": "The velocity ratio is N2 / N1 = d1 / d2. Where N1 and N2 are the speeds (rpm) of the driver and driven pulleys respectively, and d1 and d2 are the diameters of the driver and driven pulleys."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Explain the different types of belt drives with their specific applications. (8 marks)\n(b) Explain the working of Fast and Loose Pulley drive. (4 marks)",
+      "a": "(a) Types of belt drives include:\n1. Open Belt Drive: Used for parallel shafts rotating in the same direction.\n2. Crossed Belt Drive: Used for parallel shafts rotating in opposite directions.\n3. Open Belt Drive with Idler Pulley: Used when the open belt cannot be used due to a small angle of contact on the smaller pulley; the idler adjusts tension.\n4. Quarter Turn Belt Drive: Used for shafts that are perpendicular and non-intersecting.\n5. Compound Belt Drive: Transmits power through intermediate pulleys for a high reduction ratio.\n6. Stepped or Cone Pulley: Used to change the speed of the driven shaft while the driving shaft runs at constant speed (e.g., in Lathes).\n\n(b) Fast and Loose Pulley Drive: It is used when the driven shaft needs to be stopped or started without stopping the driving shaft. When the driven shaft is to be stopped, the belt is pushed from the 'fast' (fixed) pulley onto the 'loose' (freely rotating) pulley by means of a shifting fork."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Compare belt drive and chain drive. (6 marks)\n(b) What are the main requirements of a good clutch? (6 marks)",
+      "a": "(a) Comparison between Belt and Chain Drives:\n1. Slip: Belt drives are non-positive (slip occurs); Chain drives are positive (no slip).\n2. Efficiency: Belt drives have lower efficiency; Chain drives have high efficiency (up to 98%).\n3. Space: Belt drives require more space; Chain drives require less space.\n4. Lubrication: Belt drives do not require lubrication; Chain drives require lubrication.\n5. Initial Tension: Belt drives require initial tension; Chain drives do not.\n\n(b) Requirements of a Clutch:\n1. Torque Transmission capacity to handle engine power.\n2. Gradual Engagement to avoid jerks.\n3. Heat Dissipation to handle friction heat.\n4. Dynamic Balancing for smooth high-speed operation.\n5. Vibration Damping.\n6. Compact Size and low Inertia.\n7. Ease of operation for the driver."
+    },
+    {
+      "q": "Part B (12 Marks): (a) With neat sketches, explain the various types of gears based on the orientation of their shaft axes. (8 marks)\n(b) Explain the working of a Rack & Pinion gear pair. (4 marks)",
+      "a": "(a) Gears are classified by shaft axes:\n1. Parallel Axis Gears: Include Spur gears (straight teeth parallel to axis), Helical gears (teeth cut at a helix angle), and Herringbone gears (double helical). Used for reducing ratios up to 6:1.\n2. Intersecting Axis Gears: Include Bevel gears (straight or spiral). The shaft angle is typically 90 degrees.\n3. Non-Intersecting and Perpendicular Axis: Include Worm and Worm gear. The worm is the driver and worm wheel is the driven. Provides compact, high reduction ratios up to 70:1.\n4. Non-Intersecting and Non-Parallel Axis: Crossed Helical gears. They have point contact and are used only for transmitting small powers.\n\n(b) Rack and Pinion: It consists of a circular gear (pinion) engaging with a linear gear (rack). It is used to convert the rotary motion of the pinion into linear motion of the rack, or vice versa."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Describe the working principle of a friction clutch and explain the components of a Single Plate Clutch. (8 marks)\n(b) Explain the purpose of couplings and classify them into rigid and flexible types. (4 marks)",
+      "a": "(a) Friction Clutches work on the principle that friction is caused when two rotating discs come into contact with each other, allowing a spinning engine to smoothly engage a non-spinning transmission by controlling slippage. A Single Plate Clutch requires three main parts:\n1. The engine flywheel (driving member).\n2. A friction disc called the clutch plate (driven member).\n3. A pressure plate that presses the clutch plate against the flywheel using spring force.\n\n(b) A Coupling connects two shafts together at their ends permanently to transmit power. Its primary purpose is to join rotating equipment while permitting some degree of misalignment or end movement. \nClassification:\n1. Rigid Couplings: Cannot tolerate misalignment (e.g., Sleeve or Muff, Split or Clamp, Flange couplings).\n2. Flexible Couplings: Can accommodate misalignment (e.g., Bush Pin, Oldhams, Universal or Hookes Joint)."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

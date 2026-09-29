@@ -1,0 +1,53 @@
+Module: Power Transmission
+Subject: Basic Mechanical Engineering
+
+Power transmission devices transmit power from a driver shaft to a driven shaft.
+The main methods of mechanical drives are:
+1. Belt Drive
+2. Chain Drive
+3. Gear Drive
+
+BELT DRIVES
+Used for power transmission over a considerable distance. It consists of a driving pulley, driven pulley, and an endless belt. Power is transmitted via frictional resistance, which means some slip can occur.
+Types of belts:
+- Flat Belt: Moderate power, up to 8m distance.
+- V-Belt: Large power, ideal distance 1.25 to 1.5 times the diameter of the larger pulley.
+- Circular Belt / Timing Belt
+Types of Belt Drives:
+- Open Belt Drive: Shafts are parallel and rotate in the same direction.
+- Crossed Belt Drive: Shafts are parallel but rotate in opposite directions. Wear happens at the cross point.
+
+CHAIN DRIVES
+Endless chain running over special toothed wheels called sprockets. The smaller sprocket is called a Pinion, and the larger is called a Wheel.
+Types: Roller Chain, Silent Chain.
+Advantages over belt drive:
+- Positive drive (no slip), giving a perfect velocity ratio.
+- High transmission efficiency (up to 98%).
+- Occupies less space in width than belts.
+Disadvantages:
+- Higher production cost.
+- Needs accurate mounting and lubrication/maintenance.
+
+GEAR DRIVES
+Transmits motion and power by successive engagement of teeth. It is a positive drive with no slip.
+Types of Gears:
+1. Parallel Axis:
+   - Spur Gear: Cylindrical, teeth parallel to axis.
+   - Helical Gear: Teeth cut at an angle (helix angle). Offers more strength and lower noise.
+   - Double Helical / Herringbone Gear: Two identical helical gears of opposite hands to eliminate thrust load.
+   - Rack and Pinion: Converts rotary motion to linear motion.
+2. Intersecting Axis:
+   - Bevel Gears: Shaft axes intersect (usually at 90 degrees). Includes straight and spiral bevel gears.
+3. Non-Intersecting and Perpendicular Axis:
+   - Worm and Worm Gear: High reduction ratios up to 70:1 in a compact arrangement.
+4. Non-Intersecting and Non-Parallel Axis:
+   - Crossed Helical gears.
+
+COUPLINGS AND CLUTCHES
+Coupling: A device used to permanently connect two shafts together at their ends to transmit power. It permits some degree of misalignment. Types include Rigid (Sleeve, Flange) and Flexible (Bush pin, Universal joint).
+Clutch: A device used to connect and disconnect a driven shaft from a driving shaft instantaneously, as desired by the operator, without stopping the driving shaft (e.g., stopping a car without killing the engine).
+Types of Clutches:
+- Single Plate (Friction) Clutch
+- Multi Plate Clutch
+- Cone Clutch
+- Centrifugal Clutch

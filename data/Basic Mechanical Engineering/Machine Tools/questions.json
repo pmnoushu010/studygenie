@@ -1,35 +1,51 @@
 {
-  "summary": "This module covers the basic concepts of Machine Tools, including the different types of machine tools and their operations. The focus is on the working principles and components of the Lathe, Drilling Machine, and Milling Machine. It also explains the various operations performed on these machines such as turning, facing, drilling, boring, and milling.",
+  "summary": "This module covers the basic concepts of Machine Tools, including the different types of machine tools and their operations. The focus is on the working principles and components of the Lathe, Drilling Machine, and Milling Machine. It also explains the various operations performed on these machines such as turning, facing, drilling, boring, reaming, plane milling, slot milling, and gear milling.",
   "sa": [
     {
-      "q": "Part A (3 Marks): What is a machine tool?",
-      "a": "A machine tool is a machine that performs material removal operations with tools to produce the desired shape and size of a work-piece."
+      "q": "Part A (3 Marks): What is a machine tool? List any four types of machine tools.",
+      "a": "A machine tool is a machine that performs material removal operations with tools to produce the desired shape and size of a work-piece. Four types are: 1. Lathe, 2. Drilling machine, 3. Milling machine, 4. Shaping machine."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between a single point and a multipoint cutting tool with examples.",
+      "a": "A single point cutting tool has only one cutting edge and is used in machines like a lathe. A multipoint cutting tool has a number of teeth or cutting edges on its periphery and is used in machines like a drilling machine (drill bit) or milling machine (milling cutter)."
+    },
+    {
+      "q": "Part A (3 Marks): State the working principle of a lathe.",
+      "a": "The working principle of a lathe involves holding the work piece and rotating it about an axis, while a single point cutting tool is fed either parallel or perpendicular to the axis of rotation to remove excess material in the form of chips."
     },
     {
       "q": "Part A (3 Marks): Differentiate between live centre and dead centre in a lathe.",
       "a": "A live centre is connected to the headstock and rotates with the spindle, while a dead centre is connected to the tailstock and does not rotate; it only supports the work piece."
     },
     {
-      "q": "Part A (3 Marks): Briefly explain the boring operation.",
-      "a": "Boring is the operation of enlarging an already existing hole by means of an adjustable single-point tool traversed through the hole parallel to the axis of rotation."
+      "q": "Part A (3 Marks): What are the functions of the headstock and tailstock in a lathe?",
+      "a": "The headstock is mounted on the left end of the bed and houses the spindle, gear box, and motor to drive the workpiece. The tailstock is mounted on the right end to support the other end of the workpiece and can also hold tools for drilling or reaming."
     },
     {
-      "q": "Part A (3 Marks): Name any three operations that can be performed on a Lathe.",
-      "a": "Turning, Facing, and Thread Cutting."
+      "q": "Part A (3 Marks): Define boring and reaming operations.",
+      "a": "Boring is the operation of enlarging an already existing hole using an adjustable single-point tool. Reaming is the operation of finishing and sizing an already existing hole using a multiple cutting edge tool called a reamer."
     },
     {
-      "q": "Part A (3 Marks): What is a reaming operation?",
-      "a": "Reaming is the operation of finishing and sizing an already existing hole using a multiple cutting edge tool called a reamer."
+      "q": "Part A (3 Marks): What is milling? Name the different types of milling operations.",
+      "a": "Milling is a machining process that removes metal by feeding the work piece against a rotating multi-point cutter. Types of milling operations include Plane Milling, Slot Milling, and Gear Milling."
+    },
+    {
+      "q": "Part A (3 Marks): Explain the process of gear milling.",
+      "a": "Gear milling is the process by which gears are produced using gear cutters. The profile of the rotating cutter corresponds exactly to the tooth space of the gear being manufactured."
     }
   ],
   "essay": [
     {
-      "q": "Part B (12 Marks): With the help of a neat sketch, explain the main components of a Lathe and their functions.",
-      "a": "The main components of a Lathe include:\n1. Bed: The base foundation of the lathe, typically made of cast iron, providing strength and rigidity. It has guideways for the carriage and tailstock.\n2. Headstock: Permanently mounted on the left end of the bed. It supports the spindle, which holds the workpiece and provides the rotational drive through a motor and gearbox.\n3. Tailstock: Mounted on the right end of the bed and can slide along it. It supports the other end of the workpiece and can also hold tools for drilling or reaming.\n4. Carriage: Moves along the bed ways and supports the cutting tool, controlling its feeding motion (longitudinal, cross, or angular).\n5. Lathe Centres: Tapered components in the headstock (live centre) and tailstock (dead centre) that align and support the workpiece.\n6. Feed Mechanism: The mechanism used to provide automatic or manual movement of the tool relative to the workpiece."
+      "q": "Part B (12 Marks): (a) With the help of a neat sketch, explain the main components of a Lathe and their functions. (8 marks)\n(b) Explain any two operations performed on a lathe. (4 marks)",
+      "a": "(a) The main components of a Lathe include:\n1. Bed: The base foundation, typically cast iron, providing strength and rigidity. It has guideways for the carriage and tailstock.\n2. Headstock: Mounted on the left end, it supports the spindle, which holds the workpiece and provides rotational drive through a motor and gearbox.\n3. Tailstock: Mounted on the right end, it supports the other end of the workpiece and holds tools for drilling/reaming.\n4. Carriage: Moves along the bed ways and supports the cutting tool, controlling its feeding motion.\n5. Lathe Centres: Tapered components (live and dead centres) that align the workpiece.\n6. Feed Mechanism: Mechanism used to provide movement (longitudinal, cross, or angular) of the tool relative to the workpiece.\n\n(b) Two operations on a lathe are:\n1. Turning: The tool is moved parallel to the axis of rotation of the workpiece to produce a cylindrical surface and reduce the diameter.\n2. Facing: The tool is moved perpendicular to the axis of rotation to produce a flat surface at the end of the workpiece."
     },
     {
-      "q": "Part B (12 Marks): Explain the working principle of a Milling Machine and classify the different types of milling operations.",
-      "a": "Working Principle:\nMilling is a machining process that removes metal by feeding the work piece against a rotating multi-point cutter. As the cutter rotates, each cutting edge removes a small amount of material from the work piece in the form of chips.\n\nTypes of Milling Operations:\n1. Plane Milling: The production of flat surfaces with the milling cutter axis parallel to the surface being milled. A plain milling cutter is used.\n2. Slot Milling: Used for cutting slots (like T-slots). First, a plain slot is cut using an end milling cutter, and then a T-slot cutter is fed from one end to create the neck portion.\n3. Gear Milling: The process by which gears are produced using gear cutters. The profile of the cutter corresponds exactly to the tooth space of the gear to be manufactured."
+      "q": "Part B (12 Marks): (a) Explain the working principle of a drilling machine and describe any three operations that can be performed on it. (6 marks)\n(b) Describe the different types of feed mechanisms in a lathe. (6 marks)",
+      "a": "(a) Working Principle of a Drilling Machine: It operates by forcing a rotating multi-point tool (drill bit) against a stationary workpiece to produce a circular hole by removing metal in the form of chips. \nThree operations include:\n1. Drilling: Making a new hole in a workpiece.\n2. Boring: Enlarging an already existing hole using a single-point tool.\n3. Reaming: Finishing and sizing an already existing hole using a reamer to achieve high accuracy and smooth finish.\n\n(b) Types of feed mechanisms in a lathe (movement of tool relative to workpiece):\n1. Longitudinal feed: The tool is moved parallel to the axis of rotation of the work piece (used for turning).\n2. Cross feed: The tool is moved perpendicular to the axis of rotation of the work piece (used for facing).\n3. Angular feed: The tool is moved at an angle to the axis of rotation of the work piece (used for taper turning)."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Explain the working principle of a Milling Machine and classify the different types of milling operations. (8 marks)\n(b) Explain the difference between boring and drilling operations. (4 marks)",
+      "a": "(a) Working Principle: Milling is a process of removing metal by feeding the work piece against a rotating multi-point cutter. As the cutter rotates, each cutting edge removes a small amount of material from the work piece in the form of chips.\nTypes of Milling Operations:\n1. Plane Milling: Production of flat surfaces with the milling cutter axis parallel to the surface being milled. A plain milling cutter is used.\n2. Slot Milling: Used for cutting slots (like T-slots). First, a plain slot is cut using an end milling cutter, and then a T-slot cutter is fed from one end to create the neck portion.\n3. Gear Milling: Producing gears using gear cutters where the profile of the cutter corresponds exactly to the tooth space of the gear.\n\n(b) Difference between Boring and Drilling:\n- Drilling is the operation of creating a completely new hole in a solid workpiece using a rotating multi-point tool called a drill bit.\n- Boring is the operation of enlarging an already existing (drilled or cast) hole using a single-point cutting tool to achieve precise dimensions and a better finish."
     }
   ],
   "oneword": [],
