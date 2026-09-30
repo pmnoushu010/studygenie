@@ -4,6 +4,8 @@ import path from 'path';
 import connectToDatabase from '@/lib/mongodb';
 import ChapterQuestion from '@/models/ChapterQuestion';
 
+export const dynamic = 'force-dynamic';
+
 const BASE_DIR = path.join(process.cwd(), 'data');
 
 export async function GET(req: NextRequest) {
