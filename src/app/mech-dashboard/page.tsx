@@ -174,6 +174,28 @@ export default function Home() {
     }
   };
 
+  const handleUpdatePassword = async (id: string, username: string) => {
+    const newPassword = prompt(`Enter new password for ${username}:`);
+    if (!newPassword || newPassword.trim() === "") return;
+    
+    try {
+      const res = await fetch("/api/users", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, newPassword: newPassword.trim() })
+      });
+      if (res.ok) {
+        alert("Password updated successfully!");
+        fetchUsers();
+      } else {
+        alert("Failed to update password.");
+      }
+    } catch (e) {
+      console.error(e);
+      alert("Error updating password.");
+    }
+  };
+
   const handleSendMessage = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
     if (!chatInput.trim() || !activeFolder) return;
@@ -731,6 +753,7 @@ export default function Home() {
                           <th style={{ padding: "0.75rem" }}>Name</th>
                           <th style={{ padding: "0.75rem" }}>Stream</th>
                           <th style={{ padding: "0.75rem" }}>Role</th>
+                          <th style={{ padding: "0.75rem" }}>Password</th>
                           <th style={{ padding: "0.75rem" }}>Action</th>
                         </tr>
                       </thead>
@@ -741,7 +764,9 @@ export default function Home() {
                             <td style={{ padding: "0.75rem" }}>{u.name}</td>
                             <td style={{ padding: "0.75rem" }}>{u.stream === 'mech' ? 'Mechanical' : '9th Standard'}</td>
                             <td style={{ padding: "0.75rem" }}>{u.role}</td>
-                            <td style={{ padding: "0.75rem" }}>
+                            <td style={{ padding: "0.75rem", fontFamily: "monospace", color: "#a78bfa" }}>{u.password}</td>
+                            <td style={{ padding: "0.75rem", display: "flex", gap: "0.5rem" }}>
+                              <button onClick={() => handleUpdatePassword(u._id, u.username)} style={{ background: "#3b82f6", color: "white", padding: "0.25rem 0.75rem", borderRadius: "4px", border: "none", cursor: "pointer" }}>Change PWD</button>
                               <button onClick={() => handleDeleteUser(u._id)} style={{ background: "#ef4444", color: "white", padding: "0.25rem 0.75rem", borderRadius: "4px", border: "none", cursor: "pointer" }}>Delete</button>
                             </td>
                           </tr>

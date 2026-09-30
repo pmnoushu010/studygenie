@@ -12,6 +12,9 @@ export async function POST(req: Request) {
       if (!body[field]) {
         return NextResponse.json({ error: `Missing required field: ${field}` }, { status: 400 });
       }
+      if (typeof body[field] === 'string') {
+        body[field] = body[field].trim();
+      }
     }
 
     await connectToDatabase();
@@ -40,7 +43,7 @@ export async function POST(req: Request) {
 export async function GET() {
   try {
     await connectToDatabase();
-    const users = await User.find({}).select('-password').sort({ createdAt: -1 });
+    const users = await User.find({}).sort({ createdAt: -1 });
     return NextResponse.json({ users });
   } catch (error: any) {
     console.error("Get Users API Error:", error);
@@ -59,6 +62,27 @@ export async function DELETE(req: Request) {
     return NextResponse.json({ success: true, message: "User deleted successfully" });
   } catch (error: any) {
     console.error("Delete User API Error:", error);
+    return NextResponse.json({ error: error.message || "Internal Server Error" }, { status: 500 });
+  }
+}
+
+export async function PUT(req: Request) {
+  try {
+    const { id, newPassword } = await req.json();
+    if (!id || !newPassword) {
+      return NextResponse.json({ error: "Missing ID or newPassword" }, { status: 400 });
+    }
+    
+    await connectToDatabase();
+    const updatedUser = await User.findByIdAndUpdate(id, { password: newPassword }, { new: true });
+    
+    if (!updatedUser) {
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
+    }
+    
+    return NextResponse.json({ success: true, message: "Password updated successfully" });
+  } catch (error: any) {
+    console.error("Update User API Error:", error);
     return NextResponse.json({ error: error.message || "Internal Server Error" }, { status: 500 });
   }
 }

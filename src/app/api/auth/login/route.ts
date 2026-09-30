@@ -6,7 +6,9 @@ import crypto from "crypto";
 
 export async function POST(req: Request) {
   try {
-    const { username, password } = await req.json();
+    const body = await req.json();
+    const username = (body.username || "").trim();
+    const password = (body.password || "").trim();
 
     await connectToDatabase();
 
