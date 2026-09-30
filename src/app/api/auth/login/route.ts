@@ -39,8 +39,6 @@ export async function POST(req: NextRequest) {
     let ipAddress = "127.0.0.1";
     if (cfIp) {
       ipAddress = cfIp.trim();
-    } else if (req.ip) {
-      ipAddress = req.ip;
     } else if (forwardedFor) {
       ipAddress = forwardedFor.split(",")[0].trim();
     } else if (realIp) {
