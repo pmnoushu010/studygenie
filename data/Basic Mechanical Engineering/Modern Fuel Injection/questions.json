@@ -1,0 +1,50 @@
+{
+  "summary": "This module explores modern fuel injection systems used in internal combustion engines. It details the components, working principles, and advantages of Common Rail Direct Injection (CRDI) in Compression Ignition (CI) engines and Multi-Point Fuel Injection (MPFI) in Spark Ignition (SI) engines, highlighting their superiority over traditional methods in terms of efficiency, performance, and emission control. Basic concepts of engine cooling and lubrication systems are also introduced.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): What is the primary purpose of a fuel injection system in an IC engine?",
+      "a": "The primary purpose of a fuel injection system is to deliver fuel efficiently to the engine's combustion chamber in a highly controlled and precise manner, ensuring optimal combustion, better fuel economy, and lower emissions."
+    },
+    {
+      "q": "Part A (3 Marks): List any four advantages of modern fuel injection systems.",
+      "a": "1. Precision in fuel delivery enhancing combustion efficiency.\n2. Better emission control by reducing harmful pollutants like NOx.\n3. Improved fuel economy through better atomization and timing.\n4. Enhanced performance providing smoother acceleration."
+    },
+    {
+      "q": "Part A (3 Marks): What is CRDI? In which type of engine is it commonly used?",
+      "a": "CRDI stands for Common Rail Direct Injection. It is a modern fuel injection system commonly used in Compression Ignition (CI) or diesel engines to supply high-pressure fuel directly into the combustion chamber."
+    },
+    {
+      "q": "Part A (3 Marks): Name the main components of a CRDI system.",
+      "a": "The main components include a common rail (high-pressure fuel reservoir), a high-pressure fuel pump, fuel injectors, various sensors (like rail pressure and temperature sensors), and an Engine Control Unit (ECU)."
+    },
+    {
+      "q": "Part A (3 Marks): State the function of the ECU in an MPFI system.",
+      "a": "The Engine Control Unit (ECU) takes inputs from various engine sensors to determine the exact amount and timing of fuel delivery required, and it controls the fuel injectors to inject the precise fuel quantity."
+    },
+    {
+      "q": "Part A (3 Marks): How does MPFI improve upon traditional carburetors?",
+      "a": "MPFI (Multi-Point Fuel Injection) injects fuel into the intake manifold near each intake valve. It provides much better fuel distribution to individual cylinders and quicker engine responsiveness compared to a central carburetor."
+    },
+    {
+      "q": "Part A (3 Marks): Briefly explain the function of an engine's cooling system.",
+      "a": "The cooling system prevents the engine from overheating by removing excess heat. It circulates coolant through water jackets in the engine block, taking heat away, which is then dissipated into the air via the radiator."
+    },
+    {
+      "q": "Part A (3 Marks): What is the role of a lubrication system in an IC engine?",
+      "a": "The lubrication system reduces friction and wear between the engine's moving parts (like pistons, bearings, and the camshaft) by continuously forcing oil under pressure across them, which also helps in cooling and cleaning the components."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Explain the working principle of the Common Rail Direct Injection (CRDI) system in CI engines. (8 marks)\n(b) List any four advantages of a CRDI system over conventional diesel injection systems. (4 marks)",
+      "a": "(a) Working Principle of CRDI:\nIn a CRDI system, a high-pressure fuel pump continuously supplies fuel to a single common tube or 'common rail', which acts as a high-pressure reservoir. This common rail is connected to individual fuel injectors for each cylinder. The Engine Control Unit (ECU) constantly monitors engine parameters via sensors and calculates the optimal fuel injection timing and quantity. The ECU electronically controls the opening and closing of the injectors, allowing fuel to be injected directly into the combustion chamber at very high pressures (up to 2500 bar). It can also perform multiple short injections per cycle to optimize the combustion process.\n\n(b) Advantages of CRDI:\n1. Precise fuel delivery improves overall combustion efficiency.\n2. Significantly lower emissions of pollutants compared to conventional mechanical systems.\n3. Enhanced power output and torque across varying RPMs.\n4. Noticeably reduced engine noise and smoother operation."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Explain the working principle of a Multi-Point Fuel Injection (MPFI) system in SI engines and its main components. (8 marks)\n(b) What are the environmental and economic impacts of adopting modern fuel injection systems? (4 marks)",
+      "a": "(a) Working Principle and Components of MPFI:\nAn MPFI system is used in gasoline (SI) engines to inject fuel into the intake manifold right just before the intake valves of each cylinder. \nComponents: It consists of a fuel pump, fuel rail, individual injectors for each cylinder, various sensors (throttle position, manifold pressure, oxygen), and an ECU.\nWorking: The fuel pump supplies pressurized fuel to the injectors via a fuel rail. The ECU reads data from the sensors to understand engine load, speed, and air intake. It then calculates the perfect air-fuel ratio and sends electrical pulses to open the fuel injectors for a precisely calculated duration. This ensures each cylinder gets an equal and optimal amount of fuel, improving distribution over a single carburetor.\n\n(b) Environmental and Economic Impacts:\n- Environmental: Modern systems provide highly controlled combustion and accurate air-fuel mixtures, leading to a significant reduction in harmful exhaust emissions like unburned hydrocarbons, carbon monoxide, and NOx.\n- Economic: By improving atomization and ensuring precise timing, these systems drastically improve fuel efficiency and economy, offering long-term cost-effectiveness over traditional carburetor or mechanical injection systems despite their higher initial manufacturing costs."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

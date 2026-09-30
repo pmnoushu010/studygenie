@@ -1,0 +1,101 @@
+23-200-0105A
+Basic Mechanical Engineering
+Module IV
+Automation and IoT
+
+Syllabus
+Automation in industry: Definition, types – Fixed, programmable and flexible automation, basic elements with block diagrams, advantages.
+Introduction to IOT: Definition and Characteristics, Physical design, protocols, Logical design of IoT, Functional blocks, and communication models.
+
+Automation
+Automation can be defined as the technology by which a process or procedure is accomplished without human assistance. It is concerned with the application of mechanical, electronics, and computer-based systems to operate and control production to improve products.
+It includes:
+- Automated machine tools
+- Automated assembly machines
+- Industrial robots
+- Automated material handling and storage systems
+- Automated inspection for quality control
+- Feedback control and computer process control
+- Computer integrated system for planning, data collection, and decision making
+
+Applications of Automation:
+- Processing
+- Assembly
+- Material handling and storage
+- Inspection and testing
+- Control
+
+Reasons for Automation (Advantages):
+- Increased productivity due to competition
+- High cost of labor
+- Labor shortage
+- Safety
+- Improved product quality
+- Reduced manufacturing lead time
+
+Elements of an Automated System:
+1. Power
+2. Program of instructions
+3. Control systems
+
+Types of Automation
+1. Fixed Automation:
+- A system in which the sequence of processing (or assembly) operations is fixed by the equipment configurations.
+- Each operation in the sequence is usually simple.
+- Examples: Automated assembly machines, chemical manufacturing processes, material handling conveyor systems, paint and coating automation processes, machining transfer lines.
+
+2. Programmable Automation:
+- The production equipment is designed with the capability to change the sequence of operations to accommodate different product configurations.
+- The operation sequence is controlled by a program, a set of instructions coded to be read and interpreted by the system.
+- New programs can be prepared and entered to produce new products. The physical setup must be changed for new products, which takes time.
+- Examples: Numerical control (NC) machine tools, industrial robots, and PLCs.
+
+3. Flexible Automation:
+- An extension of programmable automation.
+- Capable of producing a variety of parts/products with virtually no time lost for changeovers from one part style to the next.
+- Features: High investment for custom-engineered system, continuous production of variable mixtures of products, medium production rates, flexibility to deal with product design variations.
+- Examples: Robotics, Assembly systems.
+
+Internet of Things (IoT)
+The Internet of Things (IoT) describes the network of physical objects— "things" —that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.
+- "Things" in IoT usually refers to IoT devices which have unique identities and can perform remote sensing, actuating, and monitoring capabilities.
+IoT devices can:
+- Exchange data with other connected devices and applications.
+- Collect data from other devices and process the data.
+- Send the data to centralized servers or cloud-based application back-ends for processing.
+- Perform some tasks locally and other tasks within the IoT infrastructure.
+
+Components of IoT:
+1. Sensors/Devices (Collecting data)
+2. Connectivity (Sending data to cloud)
+3. Data Processing (Making data useful)
+4. User Interface
+
+Components of an IoT Device:
+An IoT device may consist of several interfaces for connections to other devices, both wired and wireless.
+- I/O interfaces for sensors
+- Interfaces for Internet connectivity
+- Memory and storage interfaces
+- Audio/video interfaces
+
+Characteristics of IoT:
+- Dynamic & Self-Adapting
+- Self-Configuring
+- Interoperable Communication Protocols
+- Unique Identity
+- Integrated into Information Network
+
+Limitations (Disadvantages) of IoT:
+- Insufficient testing and updating
+- Concern regarding data security and privacy
+- Software complexity
+- Data volumes and interpretation
+- Integration with AI and automation
+- Devices require a constant power supply which is difficult
+- Interaction and short-range communication
+
+Layers and IoT Protocols:
+- Application Layer: HTTP, CoAP, WebSockets, MQTT, XMPP, DDS, AMQP
+- Transport Layer: TCP, UDP
+- Network Layer: IPv4, IPv6, 6LoWPAN
+- Link Layer: 802.3 (Ethernet), 802.16 (WiMax), 2G/3G/LTE Cellular, 802.11 (WiFi), 802.15.4 (LR-WPAN)

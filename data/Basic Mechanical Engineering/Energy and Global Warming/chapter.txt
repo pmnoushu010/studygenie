@@ -1,0 +1,63 @@
+23-200-0105A
+Basic Mechanical Engineering
+Module II
+Energy and Global Warming
+
+Syllabus
+Energy: Introduction and applications of Energy sources like Fossil fuels, nuclear fuels, Hydel, Solar, wind, and bio-fuels, Environmental issues like Global warming and Ozone depletion.
+
+Introduction to Energy
+- Definition: Energy is the capacity to do work. It is essential for all human activities, from running machines to supporting life processes.
+- Forms of Energy: Mechanical, thermal, chemical, electrical, nuclear, etc.
+- Types of Energy Sources:
+  - Non-Renewable: Fossil fuels, nuclear fuels.
+  - Renewable: Solar, wind, hydropower, biofuels.
+
+Applications of Energy Sources
+
+1. Fossil Fuels
+- Description: Includes coal, oil, and natural gas, formed from ancient organic matter over millions of years.
+- Applications: Power generation in thermal power plants, fuel for transportation (petrol, diesel), industrial heating and production.
+- Limitations: Non-renewable and finite. Contributes heavily to pollution and greenhouse gas emissions.
+
+2. Nuclear Fuels
+- Description: Uses uranium or thorium to generate energy through nuclear fission.
+- Applications: Electricity generation in nuclear power plants, medical uses (radiation therapy), research and defense applications.
+- Limitations: High initial costs and risks of radiation. Produces long-lived radioactive waste.
+
+3. Hydropower (Hydel Energy)
+- Description: Uses the potential energy of water stored in dams or flowing rivers.
+- Applications: Electricity generation in hydro-electric power plants, water supply and irrigation.
+- Limitations: Environmental impact on aquatic ecosystems. High cost of dam construction.
+
+4. Solar Energy
+- Description: Captures sunlight to generate electricity or heat.
+- Applications: Solar panels for electricity, solar water heaters and cookers.
+- Advantages: Clean, renewable, and widely available.
+- Challenges: Dependency on sunlight and high setup costs.
+
+5. Wind Energy
+- Description: Converts kinetic energy from wind into electricity using wind turbines.
+- Applications: Wind farms for large-scale power generation.
+- Advantages: Renewable and produces no direct emissions.
+- Challenges: Requires windy locations and large land areas.
+
+6. Biofuels
+- Description: Derived from organic materials like plants and animal waste.
+- Applications: Alternative fuel for vehicles (ethanol, biodiesel), heat and electricity generation.
+- Advantages: Renewable and reduces waste.
+- Challenges: Can compete with food production.
+
+Environmental Issues
+
+Global Warming
+- Definition: The gradual increase in Earth's average surface temperature due to the buildup of greenhouse gases like carbon dioxide, methane, and nitrous oxide.
+- Causes: Burning of fossil fuels, deforestation, and industrial activities.
+- Effects: Melting polar ice caps, rising sea levels, extreme weather patterns, and biodiversity loss.
+- Mitigation: Transition to renewable energy sources, enhancing energy efficiency, and reforestation.
+
+Ozone Layer Depletion
+- Definition: Thinning of the ozone layer in the stratosphere, primarily caused by chlorofluorocarbons (CFCs) and other ozone-depleting substances.
+- Importance of Ozone Layer: Protects Earth from harmful ultraviolet (UV) radiation.
+- Effects of Depletion: Increased UV radiation leading to skin cancer and cataracts. Damage to ecosystems and marine life.
+- Mitigation: Phasing out ozone-depleting substances and promoting alternatives to CFCs.

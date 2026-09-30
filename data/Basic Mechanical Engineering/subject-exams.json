@@ -1,0 +1,110 @@
+{
+  "level1": {
+    "sa": [
+      {
+        "q": "Part A (3 Marks): Write a note on thermodynamic property. Why work is not considered as a property?",
+        "a": "A thermodynamic property is any observable characteristic of a system in equilibrium, such as pressure, temperature, or volume. It depends only on the state, not the path taken to reach it (point function). Work is not a property because it is a path function; the amount of work done depends on the specific process or path taken between two states, not just the states themselves."
+      },
+      {
+        "q": "Part A (3 Marks): Explain the difference between positive displacement and rotodynamic pump. Give examples.",
+        "a": "Positive displacement pumps move fluid by trapping a fixed amount and forcing it into the discharge pipe (e.g., reciprocating pump, gear pump). They deliver a constant volume per cycle regardless of pressure. Rotodynamic pumps use a spinning impeller to impart kinetic energy to the fluid, which is then converted to pressure (e.g., centrifugal pump). Their flow rate varies with the system pressure."
+      },
+      {
+        "q": "Part A (3 Marks): What is heat treatment? What are the purposes of heat treatment?",
+        "a": "Heat treatment involves heating and cooling a metal in a controlled manner to alter its physical and mechanical properties without changing its shape. Purposes include: increasing hardness (hardening), improving toughness and reducing brittleness (tempering), relieving internal stresses (annealing), and improving machinability."
+      },
+      {
+        "q": "Part A (3 Marks): What are the classifications of gears? Explain.",
+        "a": "Gears are classified based on shaft arrangement: 1) Parallel shafts: Spur gears (straight teeth), Helical gears (angled teeth). 2) Intersecting shafts: Bevel gears (conical shape for changing direction). 3) Non-parallel, non-intersecting shafts: Worm and worm wheel (used for high speed reduction)."
+      },
+      {
+        "q": "Part A (3 Marks): Define Numerical Control (NC). What are its basic components?",
+        "a": "Numerical Control (NC) is a method of automation where machine tool functions are controlled by recorded information (letters, numbers, symbols). Its three basic components are: the Program of instructions, the Machine Control Unit (MCU), and the Processing equipment."
+      },
+      {
+        "q": "Part A (3 Marks): What is Mechatronics? Mention any two applications.",
+        "a": "Mechatronics is a multidisciplinary field that synergistically integrates mechanical engineering, electronics, computer science, and control systems to design smart products and systems. Applications include: Anti-lock Braking Systems (ABS) in cars, and industrial robots."
+      },
+      {
+        "q": "Part A (3 Marks): Differentiate between heat pump and a refrigerator.",
+        "a": "Both operate on the reversed Carnot cycle but have different objectives. A refrigerator removes heat from a low-temperature space (to keep it cold) and rejects it to the surroundings. A heat pump absorbs heat from the surroundings and supplies it to a high-temperature space (to keep it warm)."
+      },
+      {
+        "q": "Part A (3 Marks): What is the function of a carburetor in an SI engine?",
+        "a": "A carburetor atomizes liquid fuel (petrol) and mixes it with air in the correct proportions to form a combustible mixture, which is then supplied to the engine cylinder for combustion."
+      }
+    ],
+    "essay": [
+      {
+        "q": "Part B (12 Marks): Explain the working of a 2-stroke SI engine. What are its advantages and disadvantages over a 4-stroke engine?",
+        "a": "Working: A 2-stroke SI engine completes one cycle in two strokes of the piston (one revolution of the crankshaft). It uses ports (inlet, exhaust, transfer) instead of valves. \nUpward stroke: Piston compresses the mixture in the cylinder while uncovering the inlet port to draw fresh charge into the crankcase. Spark ignites the compressed mixture.\nDownward stroke: The expanding gases push the piston down (power). As it descends, it uncovers the exhaust port (releasing burnt gases) and then the transfer port (allowing the fresh charge from the crankcase to enter the cylinder and push out remaining exhaust - scavenging).\n\nAdvantages over 4-stroke: Lighter and more compact, mechanically simpler (no valves), gives one power stroke per revolution (more uniform torque).\nDisadvantages: Lower thermal efficiency, higher fuel consumption, poor scavenging leads to exhaust mixing with fresh charge, higher wear and tear."
+      },
+      {
+        "q": "Part B (12 Marks): Describe the working of a thermal power plant with a suitable layout diagram. What are its advantages over a hydroelectric plant?",
+        "a": "Working: A thermal power plant converts heat energy from fuel (coal) into electrical energy. Coal is burnt in a boiler to produce high-pressure steam. This steam expands in a steam turbine, rotating its blades. The turbine is coupled to a generator that produces electricity. The exhaust steam from the turbine is condensed back into water in a condenser and pumped back to the boiler, completing the cycle.\n\nAdvantages over hydroelectric: Lower initial capital cost, can be located anywhere (near load centers or coal mines) unlike hydro plants which require specific geographical features, shorter construction time, and power generation is not dependent on rainfall or seasons."
+      },
+      {
+        "q": "Part B (12 Marks): Explain the process of gas welding using suitable diagrams. Discuss its advantages and disadvantages.",
+        "a": "Gas Welding Process: It uses a flame produced by the combustion of a fuel gas (usually acetylene) mixed with oxygen to melt the metal at the joint. The oxygen and acetylene are drawn from high-pressure cylinders through regulators and mixed in a welding torch. The intense heat (around 3200°C) melts the base metal and a filler rod (if used) to form a weld pool, which solidifies to form the joint.\n\nAdvantages: Simple and portable equipment, relatively low cost, versatile (can weld various metals and be used for cutting), allows good control over temperature and filler metal deposition.\nDisadvantages: Slower welding speed compared to arc welding, large heat-affected zone (HAZ) which can cause distortion, not suitable for very thick sections."
+      },
+      {
+        "q": "Part B (12 Marks): Derive an expression for the length of belt for an open belt drive.",
+        "a": "Consider an open belt drive with two pulleys. Let r1 and r2 be the radii of the larger and smaller pulleys respectively, and x be the distance between their centers. The belt wraps around a portion of both pulleys and has two straight segments between them.\n\nThe total length of the belt (L) is the sum of the arcs of contact on both pulleys plus the lengths of the two straight segments.\nAngle of lap on large pulley = pi + 2*alpha\nAngle of lap on small pulley = pi - 2*alpha\nWhere sin(alpha) = (r1 - r2) / x.\nFor small angles, alpha is approx (r1 - r2) / x.\n\nLength of straight portion = sqrt(x^2 - (r1 - r2)^2). By binomial expansion, this is approx x - (r1 - r2)^2 / (2x).\nSumming the arcs and straight portions yields:\nL = pi(r1 + r2) + 2x + (r1 - r2)^2 / x.\nThis is the required expression."
+      }
+    ]
+  },
+  "level2": {
+    "sa": [
+      {
+        "q": "Part A (3 Marks): Write a note on Carnot cycle and state why it is impractical.",
+        "a": "The Carnot cycle is an ideal, reversible thermodynamic cycle consisting of two isothermal processes (heat addition and rejection) and two adiabatic processes (expansion and compression). It yields the maximum possible efficiency between two temperature limits. It is impractical because reversible processes must be infinitely slow, and it requires isothermal heat transfer at varying volumes, which cannot be achieved in real engines."
+      },
+      {
+        "q": "Part A (3 Marks): Compare MPFI and carburetted engines.",
+        "a": "Carburetted engines use a mechanical device to mix air and fuel before the intake manifold, which can lead to unequal distribution among cylinders and lower efficiency. MPFI (Multi-Point Fuel Injection) uses electronic injectors for each cylinder, precisely controlling fuel delivery based on sensor data. MPFI offers better fuel economy, lower emissions, and improved power compared to carburetors."
+      },
+      {
+        "q": "Part A (3 Marks): How are hydraulic turbines classified?",
+        "a": "Hydraulic turbines are classified by: 1) Energy available at inlet: Impulse (kinetic energy only, e.g., Pelton), Reaction (kinetic + pressure energy, e.g., Francis, Kaplan). 2) Direction of flow: Tangential (Pelton), Radial (old Francis), Axial (Kaplan), Mixed (modern Francis). 3) Head: High head (Pelton), Medium head (Francis), Low head (Kaplan)."
+      },
+      {
+        "q": "Part A (3 Marks): Differentiate between Brazing and Soldering process. How do these differ from arc welding?",
+        "a": "Brazing and soldering join metals using a filler metal without melting the base metals. Soldering uses filler metals melting below 450°C, while brazing uses filler metals melting above 450°C. Arc welding differs because it melts the base metals themselves to fuse them together, resulting in a much stronger joint."
+      },
+      {
+        "q": "Part A (3 Marks): How is the hardening heat treatment process done? Which heat treatment follows it?",
+        "a": "Hardening involves heating steel above its critical temperature, holding it there, and then rapidly cooling (quenching) it in water or oil. This traps carbon in the microstructure, making it very hard but brittle. To reduce this brittleness, tempering must follow, which involves reheating the hardened steel to a lower temperature and cooling it slowly."
+      },
+      {
+        "q": "Part A (3 Marks): State any two applications of the rolling process. Explain two different rolling arrangements.",
+        "a": "Applications: Producing I-beams, railway tracks, and metal sheets. \nArrangements: 1) Two-high mill: Has two heavy rollers rotating in opposite directions; the metal passes between them. 2) Three-high mill: Has three rollers; metal passes one way through the bottom gap and returns through the top gap, eliminating the need to reverse roller direction."
+      },
+      {
+        "q": "Part A (3 Marks): Differentiate between boiler mountings and accessories and state their functions.",
+        "a": "Boiler mountings are essential safety and control components fitted directly on the boiler shell (e.g., safety valve, water level indicator). Boiler accessories are auxiliary devices installed to improve the overall efficiency of the plant (e.g., economizer to preheat water, superheater to heat steam, air preheater)."
+      },
+      {
+        "q": "Part A (3 Marks): Compare NC and CNC machines regarding program editing.",
+        "a": "In NC (Numerical Control), the program is hard-coded on punched tapes. Editing requires punching a completely new tape, making changes difficult. In CNC (Computer Numerical Control), the program is stored in a computer's memory. It can be instantly viewed, edited, and optimized using a keyboard and screen before or during machining."
+      }
+    ],
+    "essay": [
+      {
+        "q": "Part B (12 Marks): Derive the air standard efficiency of a Diesel cycle with the help of a neat P-V and T-S diagram.",
+        "a": "The Diesel cycle consists of: 1-2 isentropic compression, 2-3 constant pressure heat addition, 3-4 isentropic expansion, and 4-1 constant volume heat rejection.\nLet r = compression ratio (V1/V2) and rc = cut-off ratio (V3/V2).\nHeat added (Qin) = Cp(T3 - T2)\nHeat rejected (Qout) = Cv(T4 - T1)\nEfficiency (n) = 1 - (Qout / Qin) = 1 - [Cv(T4 - T1) / Cp(T3 - T2)]\nSubstituting gamma (y) = Cp/Cv: n = 1 - [(T4 - T1) / y(T3 - T2)]\nExpressing temperatures in terms of T1 using isentropic relations and r, rc:\nT2 = T1 * r^(y-1)\nT3 = T2 * rc = T1 * rc * r^(y-1)\nT4 = T3 * (V3/V4)^(y-1) = T3 * (rc/r)^(y-1) = T1 * rc^y\nSubstituting these into the efficiency equation yields:\nAir Standard Efficiency = 1 - (1 / r^(y-1)) * [(rc^y - 1) / (y * (rc - 1))]"
+      },
+      {
+        "q": "Part B (12 Marks): Draw a general layout of a hydro-electric power plant using a reaction turbine and explain the functions of the Scroll casing, Runner, and Draft tube.",
+        "a": "Layout: A dam stores water, which flows through a penstock to the turbine house. The water drives a reaction turbine coupled to a generator, and then exits to the tailrace.\nFunctions:\n1. Scroll Casing: A spiral-shaped casing with decreasing cross-section area. It distributes water evenly around the entire circumference of the turbine runner at a constant velocity.\n2. Runner: The rotating part of the turbine with curved blades. As water flows through it, both pressure and kinetic energy are converted into mechanical rotational energy.\n3. Draft Tube: A gradually expanding pipe connecting the runner exit to the tailrace. It allows the turbine to be set above the tailwater level without losing head and converts kinetic energy of exiting water into pressure energy, improving efficiency."
+      },
+      {
+        "q": "Part B (12 Marks): Explain the function of the following elements of a sand casting mould: Pattern, Core, Riser, Runner, Sprue, Pouring basin.",
+        "a": "1. Pattern: A replica of the final object to be cast, used to create the mould cavity in the sand.\n2. Core: A sand shape inserted into the mould to create internal hollow cavities or holes in the casting.\n3. Riser: A reservoir of molten metal built into the mould to feed liquid metal to the casting as it shrinks during solidification, preventing shrinkage cavities.\n4. Runner: The horizontal channel in the mould that distributes molten metal from the sprue to the gates and into the mould cavity.\n5. Sprue: The vertical passage through which molten metal travels downwards from the pouring basin to the runner.\n6. Pouring Basin: A funnel-shaped cavity at the top of the mould to receive the molten metal from the ladle and direct it into the sprue without splashing."
+      },
+      {
+        "q": "Part B (12 Marks): Explain a simple vapour compression refrigeration system with the help of a neat figure.",
+        "a": "The Vapour Compression Refrigeration (VCR) system uses a circulating liquid refrigerant as the medium which absorbs and removes heat from the space to be cooled and subsequently rejects that heat elsewhere.\nComponents and Working:\n1. Compressor: Sucks low-pressure, low-temperature refrigerant vapour from the evaporator and compresses it into high-pressure, high-temperature vapour.\n2. Condenser: This hot vapour passes through the condenser coils, rejecting heat to the surrounding air/water, condensing into a high-pressure liquid.\n3. Expansion Valve (Throttling Valve): The high-pressure liquid passes through this valve, where its pressure and temperature suddenly drop, turning it into a low-temperature liquid-vapour mixture.\n4. Evaporator: This cold mixture flows through the evaporator coils located in the refrigerated space. It absorbs heat from the space, completely vaporizing, and then returns to the compressor to repeat the cycle."
+      }
+    ]
+  }
+}

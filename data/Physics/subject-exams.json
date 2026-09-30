@@ -1,0 +1,298 @@
+{
+  "level1": {
+    "oneword": [
+      {
+        "q": "What is the SI unit of force?",
+        "a": "Newton (N)"
+      },
+      {
+        "q": "What physical quantity is increased by a sand bed to reduce the force of impact on a high jumper?",
+        "a": "Time"
+      },
+      {
+        "q": "Which scientist first conceptualized the idea that objects resist a change in their state of motion using the term 'inertia'?",
+        "a": "Galileo"
+      },
+      {
+        "q": "What is the net force acting on a toy car moving at a constant velocity?",
+        "a": "Zero"
+      },
+      {
+        "q": "What is the net force on a block with 5N pushing right and 4N pushing left?",
+        "a": "1N"
+      },
+      {
+        "q": "What is the standard value of acceleration due to gravity (g) used for weight calculations on Earth?",
+        "a": "9.8 m/s²"
+      },
+      {
+        "q": "What happens to the motion of a bicycle when you stop pedaling due to external forces?",
+        "a": "It slows down and stops"
+      },
+      {
+        "q": "What is the net force acting on an object when the forces are balanced?",
+        "a": "Zero"
+      },
+      {
+        "q": "Which law of motion states that for every action there is an equal and opposite reaction?",
+        "a": "Newton's Third Law of Motion"
+      },
+      {
+        "q": "What feature is added to vehicle tires to increase friction and prevent slipping?",
+        "a": "Treads"
+      }
+    ],
+    "sa": [
+      {
+        "q": "Describe the direction of the force of friction relative to an object's movement.",
+        "a": "The force of friction always acts in the direction opposite to the direction of motion (or the direction in which the object tends to move)."
+      },
+      {
+        "q": "Calculate the weight of an object with a mass of 5 kg near the Earth's surface.",
+        "a": "Weight (W) = mass (m) × gravity (g). W = 5 kg × 9.8 m/s² = 49 N."
+      },
+      {
+        "q": "Define one newton (1 N) of force.",
+        "a": "One newton is defined as the amount of force that produces an acceleration of 1 m/s² in an object of mass 1 kg."
+      },
+      {
+        "q": "How do you calculate the net force when two people push a car in the same direction?",
+        "a": "The net force is calculated by adding the magnitudes of the individual forces applied by both people, as they are acting in the same direction."
+      },
+      {
+        "q": "Why are grooves provided on the soles of footwear?",
+        "a": "Grooves are provided to increase the friction between the sole and the ground, providing better grip and preventing slipping."
+      },
+      {
+        "q": "Why does a magnetic compass needle move visibly when a bar magnet is brought near it, while the magnet stays still?",
+        "a": "According to Newton's Second Law (a = F/m), since the mass of the needle is much smaller than the bar magnet, the same force causes a much larger, visible acceleration in the needle."
+      }
+    ],
+    "fill": [
+      {
+        "q": "When rowing a canoe, pushing the water backward is the action, and the boat moving forward is the ____.",
+        "a": "reaction"
+      },
+      {
+        "q": "The property of an object to resist any change in its state of motion is called ____.",
+        "a": "inertia"
+      },
+      {
+        "q": "An ____ force is required to change the state of rest or motion of an object.",
+        "a": "unbalanced"
+      },
+      {
+        "q": "When 95 oarsmen row forward and 5 row backward, each applying 200 N, the total net force is _____ N.",
+        "a": "18000"
+      },
+      {
+        "q": "If two forces of 15 N and 8 N act on a block in opposite directions, the net force is ____ N.",
+        "a": "7"
+      },
+      {
+        "q": "Airbags in vehicles help minimize injuries by increasing the ____ of the collision, which reduces the force.",
+        "a": "time"
+      },
+      {
+        "q": "On a perfectly smooth, frictionless surface, an object's velocity will _____ if no net force is applied.",
+        "a": "remain constant"
+      },
+      {
+        "q": "An object of mass 10 kg accelerating from 10 m/s to 30 m/s in 8 seconds experiences a net force of _____ N.",
+        "a": "25"
+      },
+      {
+        "q": "Newton's Second Law of motion can be mathematically expressed as F = ____.",
+        "a": "ma"
+      }
+    ],
+    "match": [
+      {
+        "q": "Friction",
+        "a": "Opposes motion"
+      },
+      {
+        "q": "Momentum",
+        "a": "Mass × Velocity"
+      },
+      {
+        "q": "Newton's First Law",
+        "a": "Law of Inertia"
+      },
+      {
+        "q": "Soft landing mat",
+        "a": "Increased impact time"
+      },
+      {
+        "q": "Newton's Second Law",
+        "a": "F = ma"
+      },
+      {
+        "q": "Galileo",
+        "a": "Thought experiment on inclined planes"
+      },
+      {
+        "q": "Newton's Third Law",
+        "a": "Action and Reaction"
+      },
+      {
+        "q": "Unbalanced Force",
+        "a": "Produces acceleration"
+      },
+      {
+        "q": "Constant velocity",
+        "a": "Zero net force"
+      },
+      {
+        "q": "Bubble wrap",
+        "a": "Increases impact time to protect fragile items"
+      }
+    ],
+    "essay": [
+      {
+        "q": "Describe the physics of walking on the ground and identify the action and reaction forces involved.",
+        "a": "Walking is a practical application of Newton's Third Law of Motion, which states that for every action, there is an equal and opposite reaction. When a person walks, their foot exerts a force on the ground in the backward direction; this is the 'Action'. Simultaneously, the ground exerts an equal and opposite force on the person's foot in the forward direction; this is the 'Reaction'. It is this forward reaction force from the ground that allows the person to move forward. Without sufficient friction (the interaction between the foot and the ground), this action-reaction pair cannot be effectively maintained, which is why it is difficult to walk on slippery surfaces."
+      },
+      {
+        "q": "A 2000 kg truck's velocity increases from 0 m/s to 20 m/s in 10 s. Calculate the acceleration and the net force acting on the truck.",
+        "a": "1. To find acceleration (a), use the formula a = (v - u) / t. Given: initial velocity (u) = 0 m/s, final velocity (v) = 20 m/s, and time (t) = 10 s. a = (20 - 0) / 10 = 2 m/s². 2. To find the net force (F), use Newton's Second Law: F = m × a. Given: mass (m) = 2000 kg and acceleration (a) = 2 m/s². F = 2000 kg × 2 m/s² = 4000 N. The truck's acceleration is 2 m/s² and the force acting on it is 4000 N."
+      },
+      {
+        "q": "Describe the physics of a bullet stopping in a wooden block. Calculate the stopping force for a 50g bullet moving at 100 m/s that stops after 50 cm.",
+        "a": "First, convert all units to SI: mass = 0.05 kg, u = 100 m/s, v = 0 m/s, s = 0.5 m. Using the kinematic equation v^2 = u^2 + 2as: 0 = (100)^2 + 2(a)(0.5), which gives 0 = 10000 + 1a, so acceleration (a) = -10,000 m/s^2. Then, apply Newton's Second Law: F = ma = 0.05 kg * (-10,000 m/s^2) = -500 N. The negative sign indicates the force is acting in the opposite direction of motion, effectively stopping the bullet."
+      },
+      {
+        "q": "Explain how the time of contact affects the force imparted on an object, using the example of a football penalty kick.",
+        "a": "Force is defined as the rate of change of momentum (F = m * Δv / t). In a penalty kick, the football (0.4 kg) changes velocity from 0 to 30 m/s (108 km/h). The change in momentum is 0.4 * 30 = 12 kg·m/s. If the force imparted is 800 N, the time of contact can be found by t = Δp / F. Thus, t = 12 / 800 = 0.015 seconds. This demonstrates that for a fixed change in momentum, a shorter contact time requires a much larger force, while a longer contact time (as seen with cushioned landings) results in a smaller force."
+      }
+    ]
+  },
+  "level2": {
+    "oneword": [
+      {
+        "q": "If an object moves in a straight line with a speed that does not change, what is its velocity called?",
+        "a": "Constant velocity"
+      },
+      {
+        "q": "In a spring balance experiment, if a block just starts moving at a reading of 7 N, what is the magnitude of the static friction?",
+        "a": "7 N"
+      },
+      {
+        "q": "What is the product of an object's mass and its velocity called?",
+        "a": "Momentum"
+      },
+      {
+        "q": "If two identical carts collide, how do the magnitudes of the forces they exert on each other compare?",
+        "a": "They are equal"
+      },
+      {
+        "q": "What value is 108 km/h when converted to meters per second?",
+        "a": "30 m/s"
+      },
+      {
+        "q": "What is the mass in kilograms of a 50g bullet?",
+        "a": "0.05 kg"
+      },
+      {
+        "q": "If a force of 150 N is applied to the East against a wall, in what direction is the reaction force?",
+        "a": "West"
+      },
+      {
+        "q": "If a sailor jumps forward out of a boat, in which direction does the boat move?",
+        "a": "Backward"
+      },
+      {
+        "q": "What type of force is required to change the velocity of an object?",
+        "a": "Unbalanced force"
+      },
+      {
+        "q": "Which force always acts in the direction opposite to the motion of an object?",
+        "a": "Friction"
+      }
+    ],
+    "sa": [
+      {
+        "q": "A table is moved across a floor at a constant velocity using a horizontal force F. What is the magnitude of the frictional force?",
+        "a": "The frictional force is equal to the applied force F because the net force must be zero for the velocity to remain constant."
+      },
+      {
+        "q": "Define balanced forces and explain their effect on a stationary object.",
+        "a": "Balanced forces are forces acting on an object that are equal in magnitude and opposite in direction, resulting in a net force of zero. They do not change the state of rest or uniform motion of the object."
+      },
+      {
+        "q": "Define the 'system' approach for calculating the acceleration of two connected boxes.",
+        "a": "The two boxes are treated as a single object with a combined mass (m1 + m2). The internal tension forces cancel out, allowing acceleration to be calculated as Net External Force divided by Total Mass."
+      },
+      {
+        "q": "How do two identical spring balances behave when pulled hook-to-hook in opposite directions?",
+        "a": "Both spring balances will show the same reading, demonstrating that the action and reaction forces are equal in magnitude."
+      }
+    ],
+    "fill": [
+      {
+        "q": "When rowing a canoe, pushing the water backward is the action, and the boat moving forward is the ____.",
+        "a": "reaction"
+      },
+      {
+        "q": "Newton's Second Law of motion can be mathematically expressed as F = ____.",
+        "a": "ma"
+      },
+      {
+        "q": "An ____ force is required to change the state of rest or motion of an object.",
+        "a": "unbalanced"
+      },
+      {
+        "q": "The property of an object to resist any change in its state of motion is called ____.",
+        "a": "inertia"
+      },
+      {
+        "q": "If two forces of 15 N and 8 N act on a block in opposite directions, the net force is ____ N.",
+        "a": "7"
+      },
+      {
+        "q": "An object of mass 10 kg accelerating from 10 m/s to 30 m/s in 8 seconds experiences a net force of _____ N.",
+        "a": "25"
+      },
+      {
+        "q": "On a perfectly smooth, frictionless surface, an object's velocity will _____ if no net force is applied.",
+        "a": "remain constant"
+      },
+      {
+        "q": "When 95 oarsmen row forward and 5 row backward, each applying 200 N, the total net force is _____ N.",
+        "a": "18000"
+      },
+      {
+        "q": "Airbags in vehicles help minimize injuries by increasing the ____ of the collision, which reduces the force.",
+        "a": "time"
+      }
+    ],
+    "match": [
+      {
+        "q": "Newton's Third Law",
+        "a": "Action and reaction pairs"
+      },
+      {
+        "q": "Spring Balance",
+        "a": "Measures force"
+      }
+    ],
+    "essay": [
+      {
+        "q": "Discuss the motion of an object encountering multiple opposing forces. Calculate the stopping distance for a 2 kg object at 10 m/s hitting a patch with 7 N friction and 3 N opposing force.",
+        "a": "When an object encounters multiple opposing forces, the total net force is the sum of these forces. Here, Total Opposing Force = 7 N (friction) + 3 N (applied) = 10 N. Since it opposes motion, Net Force = -10 N. Using F = ma, the acceleration a = -10 N / 2 kg = -5 m/s^2. To find the stopping distance, use v^2 = u^2 + 2as: 0 = (10)^2 + 2(-5)(s). This simplifies to 0 = 100 - 10s, which means 10s = 100, so the stopping distance s = 10 meters."
+      },
+      {
+        "q": "Explain why a cricket fielder gradually pulls his hands backward while catching a fast-moving ball using Newton's second law.",
+        "a": "According to Newton's Second Law, force is the rate of change of momentum (F = Δp / t). A fast-moving cricket ball has high momentum. If the fielder stops the ball instantly, the time (t) is very small, resulting in a very large force being exerted on the hands, which could cause injury. By pulling the hands backward, the fielder increases the time taken to reduce the ball's velocity to zero. As the time increases, the rate of change of momentum decreases, and therefore the impact force on the fielder's hands is significantly reduced."
+      },
+      {
+        "q": "Discuss the four main forces acting on a heavy box being pushed across a floor and the conditions required to make it move.",
+        "a": "When a heavy box is pushed horizontally across a floor, four main forces are at play: 1. The applied force (push) exerted by the person. 2. The force of friction acting in the opposite direction of the push. 3. The force of gravity acting vertically downwards. 4. The upward reaction force from the floor. To move the box, the applied force must be greater than the force of friction. If the push is small, the friction balances it (net force is zero) and the box stays still. As the push increases and exceeds the maximum frictional force, the forces become unbalanced, creating a net force in the direction of the push, which causes the box to accelerate and move."
+      },
+      {
+        "q": "Explain Galileo's thought experiment and how it led to the understanding of uniform motion.",
+        "a": "Galileo studied the motion of objects on inclined planes. He observed that a ball rolling down an inclined plane gains speed, and when it rolls up another inclined plane, its speed decreases. He argued that if the two planes have the same inclination, the ball will reach the same height it started from. If the angle of the second plane is reduced, the ball must travel a longer distance to reach the same height. Finally, if the second plane is made horizontal, the ball should continue to move forever in an attempt to reach the original height. This experiment proved that an unbalanced force is needed to change motion, but no net force is required to sustain the uniform motion of an object."
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "This module introduces the concept of Mechatronics, a synergistic integration of mechanical engineering, electronics, control engineering, and computer science. It covers the core modules and components of a mechatronic system, including sensors, actuators, and controllers. The module also details the differences between open-loop and closed-loop control systems, highlighting their respective advantages, disadvantages, and real-world applications.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): Define Mechatronics.",
+      "a": "Mechatronics is the synergistic integration of mechanical engineering, electronics engineering, control engineering, and computer science to design and manufacture computer-controlled mechanical systems."
+    },
+    {
+      "q": "Part A (3 Marks): List the three primary modules of a mechatronic system.",
+      "a": "The three primary modules of a mechatronic system are: 1. Sensing (sensors, signal conditioning, ADCs), 2. Control (open loop and closed loop), and 3. Action (drive circuits, actuators, motors)."
+    },
+    {
+      "q": "Part A (3 Marks): What is the function of sensors and actuators in a mechatronic system?",
+      "a": "Sensors gather information about the state of the system and its environment to send to the controller. Actuators are devices that receive command signals from the controller and convert electrical energy into mechanical energy to perform an action."
+    },
+    {
+      "q": "Part A (3 Marks): Define an open-loop control system.",
+      "a": "An open-loop control system is a system in which the output is dependent on the input, but the input or controlling action is independent of the output. It does not utilize any feedback information from sensors."
+    },
+    {
+      "q": "Part A (3 Marks): State any two advantages and two disadvantages of an open-loop control system.",
+      "a": "Advantages: It is relatively simple, low cost, and easy to understand. Disadvantages: It can be inaccurate, slow in response, and relies heavily on good calibration because it cannot correct for disturbances."
+    },
+    {
+      "q": "Part A (3 Marks): How does a closed-loop control system overcome the disadvantages of an open-loop system?",
+      "a": "A closed-loop system uses a feedback path to measure the output response and compare it to the input at a summing junction. This allows the system to compensate for disturbances and noise, resulting in greater accuracy without requiring precise calibration."
+    },
+    {
+      "q": "Part A (3 Marks): List four applications of mechatronic systems.",
+      "a": "1. Smart consumer products (e.g., microwave ovens, dishwashers).\n2. Automotive (e.g., antilock brakes, airbags).\n3. Medical (e.g., implant devices, assisted surgery).\n4. Defence (e.g., unmanned aerial vehicles, jet engines)."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Explain the various components of a typical mechatronic system with their functions. (8 marks)\n(b) Explain the role of signal conditioning and Analog-to-Digital converters (ADC) in a mechatronic system. (4 marks)",
+      "a": "(a) A typical mechatronic system includes the following components:\n1. Mechanical System: The core physical setup that needs to be commanded or controlled.\n2. Sensors: Devices that obtain information about the state of the system and send it to the controller.\n3. Controller: The 'mind' of the system (often a PC or MCU) that processes user commands and sensed signals to generate appropriate output commands.\n4. Actuators: Devices that receive commands from the controller and convert electrical energy to mechanical energy to perform actions.\n5. User Interface: Devices (like GUIs or touch screens) that allow a user to input commands into the system.\n\n(b) The signals produced by sensors are often continuous, weak, or noisy, and not in a form ready to be read by a digital controller. Signal conditioning operations (like filtering and amplification) are performed to clean up the signals. Then, an Analog-to-Digital Converter (ADC) translates these conditioned analog signals into a digital format that the computer or microcontroller can process."
+    },
+    {
+      "q": "Part B (12 Marks): Compare open-loop and closed-loop control systems based on their working principle, advantages, and disadvantages. Provide suitable examples.",
+      "a": "Working Principle:\n- Open-Loop: The command signals are sent to the actuators without utilizing any feedback from the sensors. The control action is entirely independent of the system's output.\n- Closed-Loop: Command signals sent to actuators utilize feedback information from sensors. The output is measured, fed back, and compared with the input to correct any errors.\n\nAdvantages:\n- Open-Loop: Simple in construction, low cost, easy to maintain, and highly stable if calibrated correctly.\n- Closed-Loop: High accuracy, less sensitive to environmental noise or disturbances, and does not require frequent calibration.\n\nDisadvantages:\n- Open-Loop: Inaccurate if disturbances occur, slow response, and requires precise calibration between input and output.\n- Closed-Loop: Complex in design, more expensive, and can potentially become unstable due to the feedback loop if not tuned properly.\n\nExamples:\n- Open-Loop: A basic toaster where the heating time is set by the user, but the toaster doesn't check if the bread is actually toasted.\n- Closed-Loop: A modern climate control unit (AC) that constantly measures the room temperature using a thermostat (sensor) and adjusts the cooling (actuator) to maintain the desired set temperature."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

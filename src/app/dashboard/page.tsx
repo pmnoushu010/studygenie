@@ -18,6 +18,7 @@ export default function Home() {
   const [mainTab, setMainTab] = useState("generator");
   const [userRole, setUserRole] = useState<string>("student");
   const [isAuthorized, setIsAuthorized] = useState(false);
+  const [userName, setUserName] = useState<string>("Student");
   
   const [activeSubject, setActiveSubject] = useState(SUBJECTS[0]);
   const [folders, setFolders] = useState<string[]>([]);
@@ -42,6 +43,12 @@ export default function Home() {
   const [examScore, setExamScore] = useState(0);
   const [onewordOptions, setOnewordOptions] = useState<Record<number, string[]>>({});
   const [matchOptions, setMatchOptions] = useState<string[]>([]);
+  const [isSubjectExam, setIsSubjectExam] = useState(false);
+
+  // Chat State
+  const [chatMessages, setChatMessages] = useState<{role: string, text: string}[]>([]);
+  const [chatInput, setChatInput] = useState("");
+  const [isChatting, setIsChatting] = useState(false);
 
   // Active Users State
   const [activeUsers, setActiveUsers] = useState<any[]>([]);
@@ -107,6 +114,7 @@ export default function Home() {
   useEffect(() => {
     const role = localStorage.getItem("userRole");
     const sessionId = localStorage.getItem("sessionId");
+    const name = localStorage.getItem("userName") || "Student";
     
     if (!role || !sessionId) {
       router.push("/");
@@ -114,6 +122,7 @@ export default function Home() {
     }
     
     setUserRole(role);
+    setUserName(name);
     setIsAuthorized(true);
     
     const fetchFolders = async () => {
@@ -139,10 +148,63 @@ export default function Home() {
     fetchFolders();
   }, [activeSubject]);
 
+  const handleStartSubjectExam = async (level: string) => {
+    setIsSubjectExam(true);
+    setExamAnswers({});
+    setExamSubmitted(false);
+    
+    try {
+      const res = await fetch(`/api/subject-exams?subject=${encodeURIComponent(activeSubject)}`);
+      const data = await res.json();
+      if (res.ok && data && data[level]) {
+        setQuestions(data[level]);
+        setMainTab("exam");
+      } else {
+        alert("Failed to load subject exam. Please ensure it exists for this subject.");
+        setIsSubjectExam(false);
+      }
+    } catch (err) {
+      alert("Error loading subject exam.");
+      setIsSubjectExam(false);
+    }
+  };
+
+  const handleSendMessage = async (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    if (!chatInput.trim()) return;
+
+    const newUserMsg = { role: "user", text: chatInput };
+    const updatedMessages = [...chatMessages, newUserMsg];
+    
+    setChatMessages(updatedMessages);
+    setChatInput("");
+    setIsChatting(true);
+
+    try {
+      const res = await fetch("/api/chapter-chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          subject: activeSubject,
+          folder: "", // Always subject-wide
+          messages: updatedMessages
+        })
+      });
+      const data = await res.json();
+      if (res.ok) {
+        setChatMessages([...updatedMessages, { role: "bot", text: data.reply }]);
+      } else {
+        setChatMessages([...updatedMessages, { role: "bot", text: `Error: ${data.error}` }]);
+      }
+    } catch (err) {
+      setChatMessages([...updatedMessages, { role: "bot", text: "Failed to connect to the tutor." }]);
+    } finally {
+      setIsChatting(false);
+    }
+  };
+
   // Fetch active users when tab switches to network
   useEffect(() => {
-    if (mainTab === "network" && userRole === "superadmin") {
-      useEffect(() => {
     if (mainTab === "users" && userRole === "superadmin") {
       fetchUsers();
     }
@@ -170,7 +232,9 @@ export default function Home() {
     }
   };
 
-  const fetchActiveUsers = async () => {
+  useEffect(() => {
+    if (mainTab === "network" && userRole === "superadmin") {
+      const fetchActiveUsers = async () => {
         setIsLoadingNetwork(true);
         try {
           const res = await fetch("/api/auth/active-users");
@@ -427,10 +491,10 @@ export default function Home() {
 
   return (
     <main className="app-container">
-      <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", width: "100%" }}>
-        <div>
-          <h1>StudyGenie 9th Std</h1>
-          <p>Local Chapter Question Generator {userRole === "superadmin" ? "(Admin)" : "(Student)"}</p>
+      <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", width: "100%", paddingBottom: "1rem", borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
+        <div style={{ textAlign: "left" }}>
+          <h1 style={{ marginBottom: "0.2rem" }}>StudyGenie 9th Std</h1>
+          <p>Module {userRole === "superadmin" ? "(Admin)" : "(Student)"}</p>
         </div>
         <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
           <button 
@@ -439,14 +503,29 @@ export default function Home() {
             disabled={mainTab === "exam"}
             style={mainTab === "generator" ? {} : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)", opacity: mainTab === "exam" ? 0.5 : 1, cursor: mainTab === "exam" ? "not-allowed" : "pointer" }}
           >
-            📝 Question Generator
+            📝 Module
           </button>
           <button 
-            className={`btn ${mainTab === "exam" ? "" : "secondary"}`}
-            onClick={() => setMainTab("exam")}
-            style={mainTab === "exam" ? { background: "#8b5cf6" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
+            className={`btn ${mainTab === "chat" ? "" : "secondary"}`}
+            onClick={() => setMainTab("chat")}
+            disabled={mainTab === "exam"}
+            style={mainTab === "chat" ? { background: "#f59e0b" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)", opacity: (mainTab === "exam") ? 0.5 : 1, cursor: (mainTab === "exam") ? "not-allowed" : "pointer" }}
           >
-            🎓 Take Exam
+            💬 SG Tutor
+          </button>
+          <button 
+            className={`btn ${(mainTab === "exam" && !isSubjectExam) ? "" : "secondary"}`}
+            onClick={() => setMainTab("exam")}
+            style={(mainTab === "exam" && !isSubjectExam) ? { background: "#8b5cf6" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
+          >
+            🎓 Take Chapter Exam
+          </button>
+          <button 
+            className={`btn ${(mainTab === "subject-exam" || (mainTab === "exam" && isSubjectExam)) ? "" : "secondary"}`}
+            onClick={() => { setMainTab("subject-exam"); setIsSubjectExam(false); }}
+            style={(mainTab === "subject-exam" || (mainTab === "exam" && isSubjectExam)) ? { background: "#eab308" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
+          >
+            🏆 Subject Exam
           </button>
           {userRole === "superadmin" && (
             <>
@@ -473,17 +552,28 @@ export default function Home() {
               </button>
             </>
           )}
-          <button
-            className="btn secondary"
-            onClick={() => {
-              localStorage.removeItem("userRole");
-              localStorage.removeItem("sessionId");
-              window.location.href = "/";
-            }}
-            style={{ background: "rgba(239, 68, 68, 0.2)", border: "1px solid rgba(239, 68, 68, 0.4)", color: "white", padding: "0.5rem 1rem", fontSize: "0.9rem" }}
-          >
-            🚪 Logout
-          </button>
+          
+          <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginLeft: "1rem", paddingLeft: "1rem", borderLeft: "1px solid rgba(255,255,255,0.2)" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+              <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "linear-gradient(135deg, #3b82f6, #8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold", fontSize: "1.2rem", boxShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>
+                👤
+              </div>
+              <span style={{ fontWeight: 500, fontSize: "1.05rem" }}>{userName}</span>
+            </div>
+            
+            <button
+              className="btn secondary"
+              onClick={() => {
+                localStorage.removeItem("userRole");
+                localStorage.removeItem("sessionId");
+                localStorage.removeItem("userName");
+                window.location.href = "/";
+              }}
+              style={{ background: "rgba(239, 68, 68, 0.2)", border: "1px solid rgba(239, 68, 68, 0.4)", color: "white", padding: "0.5rem 1rem", fontSize: "0.9rem", boxShadow: "none" }}
+            >
+              🚪 Logout
+            </button>
+          </div>
         </div>
       </header>
 
@@ -759,15 +849,91 @@ export default function Home() {
             </div>
           )}
 
+          {/* CHAT VIEW */}
+          {mainTab === "chat" && (
+            <div className="glass-panel" style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 200px)" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
+                <h3 style={{ fontSize: "1.5rem", color: "#f59e0b" }}>💬 SG Tutor: {activeSubject}</h3>
+              </div>
+              
+              <div style={{ flex: 1, overflowY: "auto", padding: "1rem", background: "rgba(0,0,0,0.2)", borderRadius: "12px", border: "1px solid rgba(255,255,255,0.1)", display: "flex", flexDirection: "column", gap: "1rem" }}>
+                {chatMessages.length === 0 ? (
+                  <div style={{ textAlign: "center", color: "#94a3b8", marginTop: "2rem" }}>
+                    <p style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>👋 Hello! I am your SG Tutor for <strong>{activeSubject}</strong>.</p>
+                    <p>Ask me any question about the concepts covered in this subject!</p>
+                  </div>
+                ) : (
+                  chatMessages.map((msg, i) => (
+                    <div key={i} style={{ display: "flex", justifyContent: msg.role === "user" ? "flex-end" : "flex-start" }}>
+                      <div style={{ 
+                        maxWidth: "80%", 
+                        padding: "1rem", 
+                        borderRadius: "12px", 
+                        background: msg.role === "user" ? "#3b82f6" : "rgba(245, 158, 11, 0.2)",
+                        border: msg.role === "bot" ? "1px solid rgba(245, 158, 11, 0.4)" : "none",
+                        color: "white"
+                      }}>
+                        <p style={{ margin: 0, whiteSpace: "pre-wrap", lineHeight: "1.5" }}>
+                          {msg.role === "bot" ? "🤖 " : "👤 "}{msg.text}
+                        </p>
+                      </div>
+                    </div>
+                  ))
+                )}
+                {isChatting && (
+                  <div style={{ display: "flex", justifyContent: "flex-start" }}>
+                    <div style={{ padding: "1rem", borderRadius: "12px", background: "rgba(245, 158, 11, 0.1)", border: "1px solid rgba(245, 158, 11, 0.2)", color: "#cbd5e1" }}>
+                      <p style={{ margin: 0 }}>🤖 Thinking...</p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              <form onSubmit={handleSendMessage} style={{ display: "flex", gap: "0.5rem", marginTop: "1rem" }}>
+                <input 
+                  type="text" 
+                  value={chatInput} 
+                  onChange={e => setChatInput(e.target.value)} 
+                  placeholder={`Ask a question about this subject...`}
+                  disabled={isChatting}
+                  style={{ flex: 1, padding: "1rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.3)", color: "white", fontSize: "1rem" }}
+                />
+                <button type="submit" className="btn" disabled={isChatting || !chatInput.trim()} style={{ background: "#f59e0b", padding: "0 2rem", fontSize: "1.1rem" }}>
+                  Send
+                </button>
+              </form>
+            </div>
+          )}
+
+          {/* SUBJECT EXAM SELECTOR */}
+          {mainTab === "subject-exam" && (
+            <div className="glass-panel" style={{ textAlign: "center", padding: "3rem" }}>
+              <h2 style={{ fontSize: "2rem", marginBottom: "1rem", color: "#eab308" }}>🏆 {activeSubject} - Subject Exam</h2>
+              <p style={{ color: "#94a3b8", marginBottom: "3rem", fontSize: "1.1rem" }}>Select the difficulty level for the comprehensive subject exam. The exam contains questions from all important chapters.</p>
+              <div style={{ display: "flex", gap: "2rem", justifyContent: "center" }}>
+                <button className="btn" onClick={() => handleStartSubjectExam("level1")} style={{ background: "#10b981", fontSize: "1.2rem", padding: "1rem 2rem" }}>🟢 Level 1 Exam</button>
+                <button className="btn" onClick={() => handleStartSubjectExam("level2")} style={{ background: "#ef4444", fontSize: "1.2rem", padding: "1rem 2rem" }}>🔴 Level 2 Exam</button>
+              </div>
+            </div>
+          )}
+
           {/* EXAM MODE VIEW */}
-          {activeFolder && mainTab === "exam" && (
+          {(activeFolder || isSubjectExam) && mainTab === "exam" && (
             <div className="glass-panel">
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
-                <h3 style={{ fontSize: "1.5rem", color: "#8b5cf6" }}>📝 {activeSubject} Exam: {activeFolder}</h3>
+                <h3 style={{ fontSize: "1.5rem", color: "#8b5cf6" }}>📝 {activeSubject} Exam: {isSubjectExam ? "Comprehensive (All Chapters)" : activeFolder}</h3>
                 {!examSubmitted && (
                   <button 
                     className="btn secondary" 
-                    onClick={() => { setMainTab("generator"); window.scrollTo(0,0); }} 
+                    onClick={() => { 
+                      if (isSubjectExam) {
+                        setIsSubjectExam(false);
+                        setMainTab("subject-exam");
+                      } else {
+                        setMainTab("generator");
+                      }
+                      window.scrollTo(0,0); 
+                    }} 
                     style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)", fontSize: "0.9rem" }}
                   >
                     🔙 Cancel Exam

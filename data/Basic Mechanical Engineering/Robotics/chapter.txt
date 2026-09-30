@@ -1,0 +1,63 @@
+23-200-0105A
+Basic Mechanical Engineering
+Module IV
+Robotics
+
+Syllabus
+Introduction to Mechatronics and Robotics: open-loop and closed-loop mechatronic systems. Classification based on robotics configuration: polar cylindrical, Cartesian coordinate and spherical. Application, Advantages and disadvantages.
+
+What is a Robot?
+"A Robot is a programmable, multi-function manipulator designed to move material, parts, tools or special devices through variable programmed motions for performance of variety of tasks."
+
+Why Robots?
+- Economical and practical.
+- Hazardous and uncomfortable working conditions (e.g., spray painting chambers).
+- Repetitive tasks (e.g., pick and place operations, machine loading and unloading).
+- Difficult handling (e.g., heavy work parts).
+- Multishift operations: Robots can work 24x7.
+
+Selecting Right Applications
+Criteria for finding practical and economic robot applications:
+- Simple repetitive operations.
+- Cycle times are greater than 5 seconds.
+- Parts can be delivered in proper location and orientation.
+- No inspection required.
+- Setups and changeovers are not frequent.
+
+Applications of Robots
+- Material handling and transfer: Moving work parts, simple pick and place, transfer between conveyors, palletizing, stacking.
+- Machine loading/unloading: Supplying a production machine with raw parts or unloading finished parts (e.g., Die casting, injection molding, hot forging, stamping).
+- Welding: Spot welding (localized) and Arc welding (continuous). Advantages: Higher productivity, improved safety, more consistent welds.
+- Spray coating/painting: Protects humans from fumes, mist, noise, fire hazards. Advantages: Safety, coating consistency, lower material usage, greater productivity.
+- Assembly and inspection: Used in assembly plants due to programmability and adaptability. Inspection using mechanical probes or optical sensing capabilities.
+- Machining.
+
+Elements of a Robot System
+A Robot is a system consisting of the following integrated elements:
+1. Manipulator / Rover: This is the main body of the robot and consists of links, joints, and structural elements.
+2. End Effector: The part that generally handles objects, makes connections to other machines, or performs the required tasks (e.g., a gripper or a spray nozzle).
+3. Actuators: The 'muscles' of the manipulators. Common types are servomotors, stepper motors, and pneumatic cylinders.
+4. Sensors: Used to collect information about the internal state of the robot or to communicate with the outside environment (e.g., vision systems, touch sensors).
+5. Controller: Receives data from the computer, controls the motions of the actuator, and coordinates these motions with the sensory feedback information.
+
+Robot Configurations (Kinematic Configurations)
+Specifies the possible movements provided by different robots:
+1. Cartesian Manipulator:
+   - Manipulator that can move in x, y, and z directions.
+   - Simple design.
+   - Also known as Gantry robots (similar to overhead gantry cranes).
+   - Disadvantage: An application must lie "inside" the robot. Structure limits the size and placement of fixtures and sensors.
+   - Applications: Assembly plants.
+2. Cylindrical Manipulator: Consists of a vertical column and a slide that can be moved up and down along the column.
+3. Spherical Manipulator: Uses polar coordinates. Arm can pivot and rotate to cover a spherical work envelope.
+4. SCARA (Selective Compliance Assembly Robot Arm): They have two revolute joints that are parallel and allow the robot to move in a horizontal plane, plus an additional prismatic joint that moves vertically.
+5. Articulated Robot.
+
+Control Loops of Robotic System
+- Open-loop control systems: The output has no effect upon the input. Example: A constant voltage applied to an electric motor. If the load changes, the shaft speed decreases, but the input voltage remains unaffected by the speed variation.
+- Closed-loop control systems: Outputs affect the input to the controlled element. Output is sensed and fed back to be compared with input variables. Example: Motor speed is measured with a tachometer and compared with the input voltage; corrective actions are taken to adjust the input voltage.
+
+Wrist Motions
+- Roll (R) axis: Involves rotation of the wrist mechanism about the arm axis.
+- Pitch (P) axis: Involves up or down rotation of the wrist.
+- Yaw (Y) axis: Involves right or left rotation of the wrist.

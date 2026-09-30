@@ -1,0 +1,43 @@
+{
+  "summary": "This chapter covers Numerical Control (NC) and Computer Numerical Control (CNC) machines. It explains the definition of NC, its three basic components (Program of instructions, Machine Control Unit, and Processing equipment), and the role of a part programmer. It highlights the differences between NC and CNC, specifically the integration of a computer for program storage and editing in CNC. The chapter also outlines the advantages and disadvantages of both NC and CNC systems, and lists common examples like CNC Lathe and CNC Milling machines.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): Define Numerical Control (NC) as per the Electronic Industries Association (EIA).",
+      "a": "NC equipment has been defined by the EIA as 'A system in which actions are controlled by the direct insertion of numerical data at some point.'"
+    },
+    {
+      "q": "Part A (3 Marks): What are the three basic components of an NC system?",
+      "a": "The three basic components are: 1) Program of instructions, 2) Machine Control Unit (MCU), and 3) Processing equipment."
+    },
+    {
+      "q": "Part A (3 Marks): What is the function of the Machine Control Unit (MCU) in an NC system?",
+      "a": "The MCU translates the program of instructions into electrical signals. These signals operate a servo system which controls the motion of the tool, work piece, and related auxiliaries."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between NC and CNC machines regarding program editing.",
+      "a": "In an NC machine, editing a program often requires a new punched tape. In a CNC machine, the program is stored in a computer's memory and can be easily called and edited through a keyboard to incorporate changes, eliminating repeated use of tape."
+    },
+    {
+      "q": "Part A (3 Marks): List any three advantages of CNC machines.",
+      "a": "1) High accuracy in machining, 2) Program can be edited, 3) Storage of more than one program."
+    },
+    {
+      "q": "Part A (3 Marks): What are the disadvantages of an NC system?",
+      "a": "The main disadvantages are higher investment cost and higher maintenance effort."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): Explain the concept of Numerical Control (NC). Discuss its basic components and list its advantages and disadvantages.",
+      "a": "Numerical Control (NC) is a method of automation in which machine tool functions are controlled by recorded information on punched tape or cards using letters, numbers, and symbols.\n\nBasic Components:\n1. Program of Instructions: Detailed step-by-step commands (x, y, z movements) recorded on tape.\n2. Machine Control Unit (MCU): Consists of a tape reader and control hardware. It translates commands into electrical signals that operate servo systems.\n3. Processing Equipment: Performs the actual work via the servo system.\n\nAdvantages:\n- Greater accuracy\n- Lower scrap rates\n- Complex part geometries possible\n- Operator skill level required is less\n- Higher production rate\n\nDisadvantages:\n- Higher investment cost\n- Higher maintenance effort"
+    },
+    {
+      "q": "Part B (12 Marks): What is Computer Numerical Control (CNC)? How does it improve upon standard NC, and what are its advantages and disadvantages?",
+      "a": "Computer Numerical Control (CNC) involves using a computer to prepare and control the operations of the machine tool. A computer is directly joined to the NC machine.\n\nImprovements over NC:\n- Programs are entered via keyboard/disc and stored in memory.\n- Programs can be called from memory whenever needed.\n- Programs can be easily edited to incorporate changes without needing new tapes.\n\nAdvantages:\n- High accuracy and repeatability.\n- Storage of multiple programs.\n- Short production time.\n- Greater manufacturing flexibility and better quality control.\n\nDisadvantages:\n- High cost.\n- Requires skilled programmers."
+    },
+    {
+      "q": "Part B (12 Marks): Discuss the role and required qualifications of a part programmer for NC machine tools.",
+      "a": "A part programmer is responsible for preparing the part program that directs the NC machine tool.\n\nRequired Qualifications & Role:\n- Must possess deep knowledge and experience in mechanical engineering fields.\n- Needs expertise in cutting tools, cutting fluids, fixture design techniques, and use of machinability data.\n- Must understand process engineering to decide on the optimal sequence of operations.\n- Familiarity with the specific functions of NC machine tools.\n- They write programs either manually or using computer-assisted languages like APT (Automatically Programmed Tool)."
+    }
+  ]
+}

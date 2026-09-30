@@ -1,0 +1,50 @@
+{
+  "summary": "This module introduces the fundamentals of Industrial Robotics. It covers the basic definition of a robot, criteria for selecting robotic applications, and the main components of a robotic system (manipulator, end effector, actuators, sensors, and controller). It details the different kinematic configurations of robots, including Cartesian, Cylindrical, Spherical, and SCARA, and concludes with a discussion on open and closed-loop control systems and wrist motions.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): Define a Robot.",
+      "a": "A Robot is a programmable, multi-function manipulator designed to move material, parts, tools, or special devices through variable programmed motions for the performance of a variety of tasks."
+    },
+    {
+      "q": "Part A (3 Marks): List any four criteria for selecting the right applications for robots.",
+      "a": "1. Simple repetitive operations. 2. Cycle times are greater than 5 seconds. 3. Parts can be delivered in proper location and orientation. 4. Setups and changeovers are not frequent."
+    },
+    {
+      "q": "Part A (3 Marks): What is the function of an 'End Effector' in a robot?",
+      "a": "The end effector is the part of the robot that interacts directly with the environment. It handles objects, makes connections to other machines, or performs required tasks, such as a gripping tool or a spray painting nozzle."
+    },
+    {
+      "q": "Part A (3 Marks): Name the three types of wrist motions in a robot.",
+      "a": "The three wrist motions are: 1. Roll (rotation of the wrist mechanism about the arm axis), 2. Pitch (up or down rotation of the wrist), and 3. Yaw (right or left rotation of the wrist)."
+    },
+    {
+      "q": "Part A (3 Marks): What is a Cartesian Manipulator? State one disadvantage.",
+      "a": "A Cartesian manipulator (or gantry robot) is a robot that can move strictly in linear x, y, and z directions. A major disadvantage is that the application must lie 'inside' the robot's structure, which limits the size and placement of fixtures."
+    },
+    {
+      "q": "Part A (3 Marks): Briefly explain the SCARA configuration.",
+      "a": "SCARA stands for Selective Compliance Assembly Robot Arm. It features two revolute joints that are parallel and allow the robot to move rapidly in a horizontal plane, plus an additional prismatic joint that moves vertically."
+    },
+    {
+      "q": "Part A (3 Marks): Why are robots preferred for spray painting applications?",
+      "a": "Robots are preferred for spray painting because the process poses severe health hazards to human operators, such as toxic fumes, mist, noise, and fire hazards. Robots provide better safety, consistent coating, and greater productivity."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between an open-loop and a closed-loop robotic control system.",
+      "a": "In an open-loop system, the robot's output (like arm speed) has no effect on its input (like supplied voltage). In a closed-loop system, the output is sensed by sensors and fed back to the controller to compare with the desired input and correct any errors."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Explain the main elements of a robot system in detail. (8 marks)\n(b) Discuss the reasons why robots are widely used in the modern manufacturing industry. (4 marks)",
+      "a": "(a) A Robot is an integrated system consisting of five main elements:\n1. Manipulator/Rover: The main structural body of the robot consisting of mechanical links and joints that provide the robot with physical motion.\n2. End Effector: The tooling attached to the end of the manipulator arm. It is designed to interact with the environment, such as grippers to hold parts or welding torches to join metals.\n3. Actuators: These act as the 'muscles' of the robot, providing the force to move the manipulator joints. Common types include electric servomotors, stepper motors, and pneumatic/hydraulic cylinders.\n4. Sensors: Devices that collect internal state data (like joint positions) or external environmental data (like vision or touch sensors) to feed back to the controller.\n5. Controller: The 'brain' or computer of the robot. It receives the programmed instructions and sensory feedback, computes the necessary movements, and sends command signals to the actuators.\n\n(b) Reasons for using robots in industry:\n- Economical and practical for high-volume production.\n- Excellent for hazardous or uncomfortable working conditions where human safety is at risk (e.g., spray painting, arc welding).\n- They excel at boring, repetitive tasks without suffering from fatigue.\n- Capable of difficult handling, such as lifting extremely heavy work parts.\n- Capable of multishift operations, working 24x7 without breaks."
+    },
+    {
+      "q": "Part B (12 Marks): Explain the different kinematic configurations of robots with the help of examples. Discuss the basic movements possible in each configuration.",
+      "a": "Kinematic configurations specify the possible movements and the work envelope provided by different robots. The main types are:\n\n1. Cartesian (Rectangular) Manipulator: \n- Movements: Moves linearly along three orthogonal axes (x, y, z directions).\n- Structure: Simple, highly rigid design, often suspended over the workspace (Gantry robots or overhead cranes).\n- Applications: Heavy assembly, pick-and-place, and machining.\n\n2. Cylindrical Manipulator: \n- Movements: Consists of a vertical column and a slide that moves radially. It can rotate around the vertical axis and move linearly up/down and in/out.\n- Structure: Creates a cylindrical work envelope.\n- Applications: Assembly operations, handling machine tools.\n\n3. Spherical (Polar) Manipulator: \n- Movements: Uses polar coordinates. The arm can pivot vertically, rotate horizontally, and extend linearly.\n- Structure: Creates a spherical work envelope, allowing it to reach parts on the floor or high up.\n- Applications: Spot welding, material handling.\n\n4. SCARA (Selective Compliance Assembly Robot Arm):\n- Movements: Features two revolute joints that rotate in the same horizontal plane, providing high speed and compliance horizontally, and one prismatic joint for rigid vertical movement.\n- Structure: Resembles a human arm with a shoulder and elbow.\n- Applications: Highly preferred for rapid assembly and packaging operations.\n\n5. Articulated (Jointed-Arm) Robot:\n- Movements: Features rotary joints exclusively, closely mimicking the human arm with a shoulder, elbow, and wrist.\n- Structure: Offers maximum flexibility and a complex work envelope.\n- Applications: Complex arc welding, spray painting, and intricate assembly."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

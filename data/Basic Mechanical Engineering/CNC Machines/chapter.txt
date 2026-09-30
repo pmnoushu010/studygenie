@@ -1,0 +1,56 @@
+# CNC Machines
+
+## Numerical Control (NC)
+- Control of a machine tool by means of recorded information on punched tape or cards.
+- It is a method of automation in which various functions of machine tools are controlled by letters, numbers and symbols.
+- The system automatically interprets these data and converts them to output signals, which in turn control various machine components.
+- Controlling a machine tool by means of a prepared program is known as numerical control, or NC.
+- NC equipment has been defined by the Electronic Industries Association (EIA) as "A system in which actions are controlled by the direct insertion of numerical data at some point."
+- Compared with a conventional machine tool, the NC system replaces the manual actions of the operator.
+
+### 3 Basic Components of NC
+1. **Program of instructions**: Detailed step-by-step commands that direct the actions of the processing equipment. Co-ordinate information (x, y and z movements required for work and tool) regarding the component is recorded on a tape and is fed to the control unit.
+2. **Machine Control Unit (MCU)**: Consists of a tape reader, signal output channels, sequence control, and related control hardware that stores the program of instruction. The control unit translates it into electrical signals. These signals operate a servo system which controls the motion of the tool, work piece, and related auxiliaries.
+3. **Processing equipment**: Performs useful work with the help of a servo system.
+
+### Part Programming
+- Preparing the part program for an NC machine tool requires a part programmer.
+- The part programmer must possess knowledge and experience in mechanical engineering fields (knowledge of tools, cutting fluids, fixture design techniques, use of machinability data, and process engineering).
+- They must be familiar with the function of NC machine tools and machining processes to decide on the optimal sequence of operations.
+- They write the part program manually or by using a computer-assisted language, such as APT.
+
+### Advantages of NC
+- Greater accuracy
+- Lower scrap rates
+- More complex part geometries are possible
+- Less floor space is required
+- Operator skill level requirements are less
+- Higher production rate
+
+### Disadvantages of NC
+- Higher investment cost
+- Higher maintenance effort
+
+## Computer Numerical Control (CNC) Machines
+- A computer is used to prepare and control the operations of the machine tool.
+- CNC refers to a computer that is joined to the NC machine.
+- The program is entered into the computer through a keyboard or disc or tape and stored in its memory.
+- Whenever the part is to be machined, the program is called from its memory.
+- Also, if it is required to have a change in any dimension, the program can be called and edited to incorporate the changes (not possible in an NC machine). This eliminates the repeated use of tape.
+
+### Advantages of CNC
+- High accuracy in machining
+- Storage of more than one program
+- Program can be edited
+- Short production time
+- Greater manufacturing flexibility
+- Better quality control
+- Repeatability of accuracy is possible
+
+### Disadvantages of CNC
+- High cost
+- Requirement of skilled programmer
+
+### Examples of CNC Machines
+- CNC Lathe Machine
+- CNC Milling Machine

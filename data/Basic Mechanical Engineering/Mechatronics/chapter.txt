@@ -1,0 +1,60 @@
+23-200-0105A
+Basic Mechanical Engineering
+Module IV
+Mechatronics
+
+Syllabus
+Introduction to Mechatronics and Robotics: open-loop and closed-loop mechatronic systems. Classification based on robotics configuration: polar cylindrical, Cartesian coordinate and spherical. Application, Advantages and disadvantages.
+Automation in industry: Definition, types – Fixed, programmable and flexible automation, basic elements with block diagrams, advantages.
+Introduction to IOT: Definition and Characteristics, Physical design, protocols, Logical design of IoT, Functional blocks, and communication models.
+
+What is Mechatronics?
+The word Mechatronics is composed of "mecha" from mechanical and "tronics" from electronics.
+Mechanical + Electronics = Mechatronics.
+The term was coined by Tetsuro Mori, a senior Japanese engineer at Yasakawa Company in 1969.
+Mechatronics is the synergic integration of mechanical engineering, electronics engineering, control engineering, and computer science.
+A mechatronic system is a computer-controlled mechanical system.
+
+Modules of a Mechatronic System
+1. Sensing:
+   (a) Sensors
+   (b) Signal Conditioning
+   (c) Analog-to-Digital and Digital-to-Analog Conversion
+2. Control:
+   (a) Open Loop and Closed Loop Control
+3. Action:
+   (a) Drive Circuits
+   (b) Actuators
+   (c) Motors
+
+Components of a Mechatronic System
+- Mechanical, Electronics, Sensors, Actuators, Control, Computing.
+- Mechanical System: A mechatronic system has at its core a mechanical system which needs to be commanded or controlled by a controller.
+- Sensors: The controller needs information about the state of the system, obtained from sensors.
+- Signal Conditioning: Signals produced by sensors often need conditioning to be read by the controller.
+- ADC: Conditioned signals are converted to digital form by an Analog-to-Digital Convertor (ADC).
+- Controller: The 'mind' of the mechatronic system, which processes user commands and sensed signals to generate command signals for actuators.
+- Actuators: Devices that can convert electrical energy to mechanical energy.
+
+Basic Elements of Control System
+A control system consists of several elements where each performs a particular task, connected in sequence to facilitate signal flow.
+Main types of control systems:
+A. Open loop control system
+B. Closed loop control system
+
+Open Loop Control System
+- The output is dependent on the input, but the input or controlling action is independent of the output or change in the output (no feedback).
+- Advantages: Relatively simple, low cost, easy to understand, stability and reliability are relatively good.
+- Disadvantages: Inaccuracy, slow in response, no optimized control. Requires a good calibration between the input and output.
+
+Closed Loop System
+- The command signals sent to the actuators utilize feedback information from the sensors.
+- Compensates for disturbances by measuring the output response, feeding that measurement back through a feedback path, and comparing it to the input at a summing junction.
+- Advantages: Greater accuracy than open-loop systems, less sensitive to noise, disturbances, and changes in the environment. Does not require calibration information.
+
+Applications
+- Smart consumer products: Home security, cameras, microwave ovens, dishwashers, climate control units.
+- Medical: Implant devices, assisted surgery.
+- Defence: Unmanned air, ground, and underwater vehicles, jet engines.
+- Manufacturing: Robotics, machines, processes.
+- Automotive: Climate control, antilock brakes, active suspension, cruise control, airbags, engine management.

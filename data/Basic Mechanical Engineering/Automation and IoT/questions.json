@@ -1,0 +1,50 @@
+{
+  "summary": "This module introduces the concepts of Automation and the Internet of Things (IoT). It covers the definition, reasons, and types of automation in manufacturing, specifically Fixed, Programmable, and Flexible automation. It then explores the Internet of Things (IoT), defining its components, characteristics, layers, protocols, and the challenges associated with implementing IoT networks.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): Define Automation.",
+      "a": "Automation is defined as the technology by which a process or procedure is accomplished without human assistance, using a combination of mechanical, electronic, and computer-based systems to operate and control production."
+    },
+    {
+      "q": "Part A (3 Marks): List the three basic elements of an automated system.",
+      "a": "The three basic elements of an automated system are: 1. Power, 2. A program of instructions, and 3. Control systems."
+    },
+    {
+      "q": "Part A (3 Marks): State any four reasons for adopting automation in industries.",
+      "a": "Four reasons for adopting automation include: 1. Increased productivity to remain competitive, 2. High cost of labor, 3. To improve worker safety, and 4. Improved product quality and consistency."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between Fixed and Programmable Automation.",
+      "a": "In Fixed Automation, the sequence of operations is fixed by the physical equipment configuration (e.g., chemical manufacturing). In Programmable Automation, the equipment can change the sequence of operations through a program to accommodate different products (e.g., CNC machines), though changing the physical setup takes time."
+    },
+    {
+      "q": "Part A (3 Marks): What is Flexible Automation?",
+      "a": "Flexible Automation is an extension of programmable automation. It is capable of producing a variety of parts or products with virtually no time lost for changeovers from one part style to the next (e.g., advanced robotic assembly systems)."
+    },
+    {
+      "q": "Part A (3 Marks): Define the Internet of Things (IoT).",
+      "a": "The Internet of Things (IoT) describes the network of physical objects ('things') embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet."
+    },
+    {
+      "q": "Part A (3 Marks): List the four main components of IoT.",
+      "a": "The four main components of an IoT system are: 1. Sensors/Devices (collecting data), 2. Connectivity (transmitting data), 3. Data Processing (analyzing data), and 4. User Interface (presenting data to the user)."
+    },
+    {
+      "q": "Part A (3 Marks): Mention any three limitations or challenges of IoT.",
+      "a": "Three limitations of IoT are: 1. Concerns regarding data security and user privacy. 2. Software complexity and the massive volumes of data to be interpreted. 3. Devices often require a constant power supply, which can be difficult to maintain for remote sensors."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Classify automation into three types and explain each type with an example. (8 marks)\n(b) List the applications of automation in manufacturing. (4 marks)",
+      "a": "(a) The three types of automation are:\n1. Fixed Automation: A system in which the sequence of processing operations is strictly fixed by the equipment configuration. The operations are usually simple, and changeover is very difficult. Example: Material handling conveyor systems or automated assembly lines for a single product.\n2. Programmable Automation: The production equipment is designed with the capability to change the sequence of operations to accommodate different product configurations using a software program. However, changing the physical setup takes time. Example: Numerical control (NC) machine tools or industrial robots.\n3. Flexible Automation: An advanced form of programmable automation capable of producing a variety of parts with virtually no time lost for changeovers. It allows continuous production of variable mixtures of products. Example: Flexible manufacturing robotic assembly systems.\n\n(b) Applications of automation in manufacturing include:\n- Processing (e.g., automated machining)\n- Assembly (e.g., robotic arms assembling parts)\n- Material handling and storage (e.g., automated guided vehicles)\n- Inspection and testing (e.g., automated quality control vision systems)\n- Overall system control and planning."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Explain the characteristics and key capabilities of IoT devices. (8 marks)\n(b) Briefly describe the different layers and protocols involved in IoT architecture. (4 marks)",
+      "a": "(a) Characteristics of IoT Devices:\n- Dynamic & Self-Adapting: Devices can adapt to changing contexts or environmental conditions.\n- Self-Configuring: Devices can configure themselves and form networks autonomously.\n- Interoperable Communication: They use standard protocols to communicate across different platforms.\n- Unique Identity: Each 'thing' has a unique IP address or identifier.\n- Integrated into Information Network: Devices allow physical items to be seamlessly integrated into digital information networks.\nKey Capabilities: IoT devices can perform remote sensing, actuating, and monitoring. They exchange data with other devices, collect and process data locally, or send it to centralized servers/cloud back-ends for heavy processing.\n\n(b) IoT Architecture Layers and Protocols:\n- Application Layer: Handles high-level data formatting and user interaction (Protocols: HTTP, MQTT, CoAP, WebSockets).\n- Transport Layer: Ensures reliable or fast end-to-end data transmission (Protocols: TCP, UDP).\n- Network Layer: Handles routing and addressing of data packets (Protocols: IPv4, IPv6, 6LoWPAN).\n- Link Layer: Determines how data is physically transmitted over the network medium (Protocols: Ethernet, Wi-Fi (802.11), Cellular (LTE), LR-WPAN (802.15.4))."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

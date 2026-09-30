@@ -1,0 +1,50 @@
+{
+  "summary": "This module covers the basic concepts of Thermodynamics, including the zeroth, first, and second laws. It introduces power generating devices like Internal Combustion (IC) Engines (2-stroke and 4-stroke, petrol and diesel), Boilers, and Turbines. It also covers power consuming devices like Refrigerators and Air-conditioning systems, explaining their working principles and performance metrics.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): Define Thermodynamics and state the Zeroth Law of Thermodynamics.",
+      "a": "Thermodynamics is the science of energy transfer and its effect on the physical properties of substances. The Zeroth Law states: 'If two bodies are in thermal equilibrium with a third body, they are also in thermal equilibrium with each other.'"
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between extensive and intensive properties with examples.",
+      "a": "Extensive properties are those whose values depend on the size or extent of the system (e.g., mass, total volume). Intensive properties are independent of the size of the system (e.g., temperature, pressure, density)."
+    },
+    {
+      "q": "Part A (3 Marks): State the Kelvin-Planck and Clausius statements of the Second Law of Thermodynamics.",
+      "a": "Kelvin-Planck Statement: It is impossible for any device operating on a cycle to receive heat from a single reservoir and produce a net amount of work. Clausius Statement: It is impossible to construct a device that operates in a cycle and produces no effect other than the transfer of heat from a lower-temperature body to a higher-temperature body."
+    },
+    {
+      "q": "Part A (3 Marks): Define Ton of Refrigeration (TR).",
+      "a": "Ton of Refrigeration (TR) is a unit of refrigeration capacity. It is defined as the rate of heat removal required to freeze 1 ton (2000 lb) of liquid water at 0°C into ice at 0°C in 24 hours. 1 TR is equivalent to 3.5 kW."
+    },
+    {
+      "q": "Part A (3 Marks): Distinguish between a spark ignition (SI) engine and a compression ignition (CI) engine.",
+      "a": "In a Spark Ignition (SI) engine, an air-fuel mixture is compressed and ignited by a spark plug (uses Otto cycle). In a Compression Ignition (CI) engine, air alone is compressed to a high temperature, and fuel is injected into it, causing it to auto-ignite (uses Diesel cycle)."
+    },
+    {
+      "q": "Part A (3 Marks): Classify boilers based on the relative position of hot gases and water.",
+      "a": "Boilers can be classified into: 1. Water Tube Boilers, where water passes through the tubes and hot gases flow outside around them. 2. Fire Tube Boilers, where hot gases pass through the tubes that are surrounded by water."
+    },
+    {
+      "q": "Part A (3 Marks): What is an adiabatic system?",
+      "a": "An adiabatic system is a system in which there is no heat transfer across the boundary. This can happen if the system is well insulated or if the system and its surroundings are at the exact same temperature."
+    },
+    {
+      "q": "Part A (3 Marks): Briefly explain human comfort conditions in air conditioning.",
+      "a": "Human comfort conditions refer to the desirable indoor air parameters for comfort, which typically include a temperature of 22°C to 27°C, a relative humidity of 55% to 65%, and an air velocity of 0.2 to 0.5 m/s."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Explain the differences between a 4-stroke and a 2-stroke IC Engine. (8 marks)\n(b) Differentiate between Window AC and Split AC. (4 marks)",
+      "a": "(a) Differences between 4-stroke and 2-stroke engines:\n- A 4-stroke engine requires two revolutions of the crankshaft to complete one power stroke, whereas a 2-stroke engine requires only one revolution per power stroke.\n- 4-stroke engines use valves for the intake and exhaust of gases, while 2-stroke engines use ports that are covered and uncovered by the piston.\n- 4-stroke engines generally have a higher thermal efficiency compared to 2-stroke engines.\n- 2-stroke engines have a larger power-to-weight ratio, meaning they produce more power for their size, but they consume more lubricating oil and are noisier than 4-stroke engines.\n\n(b) Differences between Window AC and Split AC:\n- A Window AC is a single unit that houses all components (compressor, condenser, evaporator) and is typically mounted on a window frame. It is easier to install but tends to be noisier indoors.\n- A Split AC consists of two separate units: an indoor air handling unit and an outdoor unit containing the compressor and condenser. It is mounted on a wall and produces less indoor noise compared to a window AC."
+    },
+    {
+      "q": "Part B (12 Marks): (a) State the First Law of Thermodynamics and explain its significance for a thermodynamic cycle. (6 marks)\n(b) Explain the working principle of a Vapor Compression Refrigeration System (VCRS) with a neat block diagram. (6 marks)",
+      "a": "(a) The First Law of Thermodynamics is the conservation of energy principle, stating that energy can neither be created nor destroyed; it can only change forms. For a thermodynamic system, the change in the total energy during a process is equal to the net energy transfer to or from the system. For a closed system undergoing a thermodynamic cycle, the net heat transfer is equal to the net work transfer (Q_net = W_net), meaning all energy interactions must balance out.\n\n(b) Working principle of a Vapor Compression Refrigeration System (VCRS):\nThe VCRS consists of four main components: a compressor, a condenser, an expansion (or throttle) valve, and an evaporator. \n1. Compressor: The refrigerant enters as a low-pressure vapor and is compressed to a high-pressure, high-temperature vapor, requiring work input.\n2. Condenser: The hot vapor passes through the condenser coils, where it rejects heat to the warmer environment and condenses into a high-pressure liquid.\n3. Expansion Valve: The high-pressure liquid passes through a capillary tube or throttle valve, which drastically reduces its pressure and temperature.\n4. Evaporator: The cold, low-pressure refrigerant enters the evaporator coils in the refrigerated space. It absorbs heat from the space, vaporizes, and provides the cooling effect. The vapor then returns to the compressor to repeat the cycle."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

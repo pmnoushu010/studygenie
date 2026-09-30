@@ -31,6 +31,7 @@ export default function LandingPage() {
         localStorage.setItem("userRole", data.role);
         localStorage.setItem("sessionId", data.sessionId);
         localStorage.setItem("userStream", data.stream);
+        localStorage.setItem("userName", data.username);
         setLoginError("");
         if (data.role === "student" && data.stream === "mech") {
           router.push("/mech-dashboard");

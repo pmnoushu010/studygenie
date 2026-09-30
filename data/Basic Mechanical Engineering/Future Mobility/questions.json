@@ -1,0 +1,46 @@
+{
+  "summary": "This module explores the future of mobility, focusing on Electric Vehicles (EVs) and Hybrid Vehicles as sustainable transportation solutions. It details the primary components of both types of vehicles and discusses their respective advantages and disadvantages regarding environmental impact, cost, performance, and infrastructure requirements.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): What is the function of the inverter and the onboard charger in an Electric Vehicle (EV)?",
+      "a": "The onboard charger converts AC power from the electrical grid into DC power to recharge the battery. The inverter does the opposite during operation; it converts the DC power stored in the battery into AC power to drive the electric motor."
+    },
+    {
+      "q": "Part A (3 Marks): Briefly explain the concept of Regenerative Braking in EVs.",
+      "a": "Regenerative braking is a system that recaptures the kinetic energy normally lost as heat during braking and converts it back into electricity to recharge the vehicle's battery, thereby improving overall efficiency."
+    },
+    {
+      "q": "Part A (3 Marks): List any four main components of a Hybrid Vehicle.",
+      "a": "Four main components of a hybrid vehicle include: 1. Internal Combustion Engine (ICE), 2. Electric Motor, 3. Battery Pack, and 4. Power Split Device."
+    },
+    {
+      "q": "Part A (3 Marks): State three advantages of Electric Vehicles.",
+      "a": "1. Zero tailpipe emissions, which significantly reduces environmental pollution. 2. Lower fuel and maintenance costs over the vehicle's lifetime. 3. High energy efficiency compared to traditional internal combustion engines."
+    },
+    {
+      "q": "Part A (3 Marks): Mention three disadvantages of Electric Vehicles.",
+      "a": "1. High initial purchase cost due to expensive battery technology. 2. Limited driving range compared to traditional vehicles. 3. Long charging times and insufficient charging infrastructure in many areas."
+    },
+    {
+      "q": "Part A (3 Marks): What is the main advantage of a Hybrid Vehicle over a fully Electric Vehicle?",
+      "a": "The main advantage is extended range without range anxiety. Hybrid vehicles combine an ICE with an electric motor, meaning they are not solely dependent on electric charging infrastructure and can simply be refueled with gasoline for long trips."
+    },
+    {
+      "q": "Part A (3 Marks): State two disadvantages of Hybrid Vehicles.",
+      "a": "1. High complexity: Having dual powertrains (ICE and electric) makes them more complex and potentially harder to maintain. 2. Increased weight: The combination of two propulsion systems makes the vehicle heavier, which can offset some efficiency gains."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) With a block diagram/list, explain the main components of a fully Electric Vehicle (EV). (8 marks)\n(b) Discuss the environmental and economic benefits of adopting Electric Vehicles. (4 marks)",
+      "a": "(a) An Electric Vehicle operates entirely on electrical energy. Its main components include:\n1. Electric Motor: Powers the wheels using electrical energy.\n2. Battery Pack: Typically made of lithium-ion cells, it stores the electrical energy required to run the motor.\n3. Inverter: Converts the Direct Current (DC) from the battery into Alternating Current (AC) required by the electric motor.\n4. Onboard Charger: Takes AC power from the external grid and converts it to DC to safely charge the battery.\n5. Power Electronics Controller: Manages the flow of electrical energy and optimizes the performance and speed of the motor.\n6. Thermal Management System: Crucial for regulating the temperature of the battery pack and electronics to ensure safety and efficiency.\n7. Regenerative Braking System: A mechanism that recovers energy during deceleration and feeds it back to the battery.\n\n(b) Environmental benefits: EVs produce zero tailpipe emissions, leading to vastly improved urban air quality and a reduction in greenhouse gases, especially if charged via renewable energy. Economic benefits: Although the initial cost is high, EVs offer significant long-term savings through lower electricity 'fuel' costs, dramatically reduced maintenance (fewer moving parts, no oil changes), and various government incentives or tax rebates."
+    },
+    {
+      "q": "Part B (12 Marks): Compare Electric Vehicles (EVs) and Hybrid Vehicles in terms of their power sources, advantages, and limitations.",
+      "a": "Power Sources:\n- EVs: Rely solely on a large battery pack and an electric motor for propulsion. They must be plugged into an electrical grid to recharge.\n- Hybrid Vehicles: Utilize a dual system consisting of a traditional Internal Combustion Engine (ICE) and a smaller electric motor with a supplemental battery pack. They usually recharge their batteries through regenerative braking and the ICE itself.\n\nAdvantages:\n- EVs: Provide zero emissions, unmatched energy efficiency, very smooth performance, and lower long-term maintenance costs. They also enable total integration with renewable energy sources.\n- Hybrids: Offer excellent fuel efficiency compared to traditional cars while completely eliminating 'range anxiety' since they can be refueled at any standard gas station. They provide an extended range without relying on plug-in infrastructure.\n\nLimitations:\n- EVs: Suffer from high initial purchase costs, limited driving range per charge, long recharging times, and a reliance on potentially sparse charging infrastructure. Battery degradation over time is also a concern.\n- Hybrids: Highly complex mechanical and electrical systems make them harder and more expensive to repair. The dual system adds significant weight to the vehicle. Furthermore, they still consume fossil fuels and emit greenhouse gases, making them less environmentally friendly than fully electric vehicles."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

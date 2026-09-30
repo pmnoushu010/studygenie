@@ -1,0 +1,50 @@
+{
+  "summary": "This module covers the primary metal joining processes in manufacturing: Welding, Soldering, and Brazing. It explains the differences between plastic and fusion welding, detailing the equipment, flame types, advantages, and defects associated with Gas Welding and Arc Welding. It also defines soldering and brazing, comparing their applications and filler metals.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): Define Welding.",
+      "a": "Welding is a manufacturing process used to make a permanent joint by establishing inter-atomic bonds between two or more pieces of metal through the application of heat, or a combination of heat and pressure."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between Plastic Welding and Fusion Welding.",
+      "a": "In Plastic (Pressure) Welding, metals are heated to a plastic state and forced together by external pressure without using a filler material. In Fusion Welding, the metals are heated to a molten state without pressure, and a joint is formed upon solidification, often with the addition of a filler material."
+    },
+    {
+      "q": "Part A (3 Marks): List any three common welding defects.",
+      "a": "Three common welding defects are: 1. Weld cracks, 2. Porosity, and 3. Slag inclusion."
+    },
+    {
+      "q": "Part A (3 Marks): Name the three types of flames used in Oxy-Acetylene gas welding.",
+      "a": "The three types of flames in Oxy-Acetylene welding are: 1. Neutral flame, 2. Oxidizing flame, and 3. Carburizing (Reducing) flame."
+    },
+    {
+      "q": "Part A (3 Marks): What is the function of a flux in welding?",
+      "a": "Flux is used during the welding process to resist oxidation, protect the molten weld pool from the atmosphere, and remove impurities from the joint."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between consumable and non-consumable electrodes in arc welding.",
+      "a": "Consumable electrodes melt during the welding operation and act as a filler material for the joint. Non-consumable electrodes (made of carbon or tungsten) do not melt; they only serve to establish and maintain the electric arc."
+    },
+    {
+      "q": "Part A (3 Marks): Define Soldering and name the common filler metal used.",
+      "a": "Soldering is a joining process where two or more metal items are joined by melting a filler metal into the joint via capillary action, without melting the base metals. The common filler metal used is Solder, which is a lead-tin alloy."
+    },
+    {
+      "q": "Part A (3 Marks): How does Brazing differ from Soldering?",
+      "a": "Both processes use capillary action without melting the base metals. However, Brazing uses a filler metal (Spelter) that melts at a higher temperature (above 450°C) than solder, resulting in a much stronger joint."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Explain the working principle and equipment used in Oxy-Acetylene Gas Welding. (8 marks)\n(b) List the advantages and disadvantages of Gas Welding. (4 marks)",
+      "a": "(a) Oxy-Acetylene Gas Welding is a fusion welding process that joins metals by burning a mixture of oxygen and acetylene gas to produce an intense flame (3000°C to 3400°C) that melts the edges of the parts to be joined. The equipment includes:\n1. Gas Cylinders: Separate high-pressure cylinders for Oxygen and Acetylene.\n2. Pressure Regulators: Used to reduce the high cylinder pressures to safe working pressures and ensure a steady gas flow.\n3. Welding Torch (Blow Pipe): The device where oxygen and acetylene are mixed in correct proportions and ignited at the nozzle to form the flame.\n4. Filler Rods and Flux: Added to the weld pool to supply extra metal and remove impurities, respectively.\n\n(b) Advantages: The equipment is highly portable and relatively low cost. The flame is easily controlled, and the torch can also be used for heating and cutting. It is highly suitable for welding thin sheets.\nDisadvantages: It cannot be used for joining heavy/thick sections effectively. The process is slower and causes more thermal distortion in the workpiece compared to electric arc welding. The fluxes can produce irritating fumes."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Describe the Shielded Metal Arc Welding (SMAW) process. (6 marks)\n(b) With the help of explanations, differentiate between the Neutral, Oxidizing, and Carburizing flames used in gas welding. (6 marks)",
+      "a": "(a) Shielded Metal Arc Welding (SMAW), often called manual metal arc welding, uses an electric current from a power supply to strike an arc between the base metal and a consumable flux-coated electrode. The intense heat of the arc (6000°C - 7000°C) melts both the base metal and the electrode, forming a weld pool. As the flux coating on the electrode decomposes due to the heat, it creates an inactive gas shield that protects the weld pool from atmospheric contamination. The melted flux also forms a layer of slag over the solidifying weld, providing further protection.\n\n(b) Types of Flames:\n1. Neutral Flame: Produced by mixing equal volumes of oxygen and acetylene. It has a sharp inner cone and operates around 3260°C. It is the most common flame, used for welding mild steel, stainless steel, aluminum, and copper.\n2. Oxidizing Flame: Produced when the oxygen proportion is higher than acetylene. It has the highest temperature (about 3482°C) and a shorter, pointed inner cone. It is exclusively used for copper and brass but avoided for steels as excess oxygen oxidizes the metal.\n3. Carburizing (Reducing) Flame: Produced when the acetylene proportion is higher. It burns at a slightly lower temperature (about 3037°C) and features three distinct zones, including a whitish intermediate feather. It is used for surface hardening and welding low alloy steels."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

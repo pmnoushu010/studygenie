@@ -1,0 +1,278 @@
+{
+  "level1": {
+    "oneword": [
+      {
+        "q": "Name the primary energy molecule produced by cellular respiration in mitochondria.",
+        "a": "ATP"
+      },
+      {
+        "q": "Which specific bacterium is mentioned as a tool to introduce useful genes into plants?",
+        "a": "Agrobacterium tumefaciens"
+      },
+      {
+        "q": "What chemical is deposited in the walls of sclerenchyma cells to make them hard?",
+        "a": "Lignin"
+      },
+      {
+        "q": "Name the phenomenon where normal animal cells stop dividing when they touch each other.",
+        "a": "Contact inhibition"
+      },
+      {
+        "q": "How many pairs of ribs are found in the human rib cage?",
+        "a": "12 pairs"
+      },
+      {
+        "q": "What is the inherent capacity of a plant cell to develop into an entire whole plant called?",
+        "a": "Totipotency"
+      },
+      {
+        "q": "Which component is the only living part of the xylem tissue?",
+        "a": "Xylem parenchyma"
+      },
+      {
+        "q": "Who was the first person to observe cells in a thin slice of cork in 1665?",
+        "a": "Robert Hooke"
+      },
+      {
+        "q": "Which type of plastid is colourless and responsible for storing food like starch, oils, or proteins?",
+        "a": "Leucoplast"
+      },
+      {
+        "q": "What type of joint allows the head to move from side to side?",
+        "a": "Pivot joint"
+      }
+    ],
+    "sa": [
+      {
+        "q": "Distinguish between voluntary and involuntary movements with examples.",
+        "a": "Voluntary movements are under conscious control, such as running or writing, carried out by skeletal muscles. Involuntary movements occur automatically, such as the beating of the heart (cardiac muscle) or the movement of food in the intestine (smooth muscle)."
+      },
+      {
+        "q": "What happens to a plant cell and an animal cell when placed in a concentrated (hypertonic) salt solution?",
+        "a": "Both cells lose water by exosmosis. In the animal cell, the entire cell shrinks and shrivels. In the plant cell, the rigid cell wall maintains the outer shape while the inner contents (cytoplasm and cell membrane) shrink away from the cell wall."
+      },
+      {
+        "q": "Why do meristematic cells lack vacuoles?",
+        "a": "Meristematic cells are characterized by continuous and rapid cell division; they have dense cytoplasm and thin walls. Vacuoles are generally absent because these cells are primarily focused on division rather than storage."
+      },
+      {
+        "q": "Why are mitochondria and chloroplasts described as semi-autonomous organelles?",
+        "a": "Mitochondria and chloroplasts have features similar to certain bacteria: they contain their own circular DNA and ribosomes. Because of this, they can replicate independently of the nucleus to an extent and synthesize some of their own proteins."
+      },
+      {
+        "q": "Explain the role of guard cells and stomata in the epidermis.",
+        "a": "The epidermis contains pores called stomata which are involved in gaseous exchange and transpiration. Transpiration helps in water transportation by creating a pull in the xylem and aids in the elimination of wastes."
+      },
+      {
+        "q": "Distinguish between Rough Endoplasmic Reticulum (RER) and Smooth Endoplasmic Reticulum (SER) in terms of structure and function.",
+        "a": "RER has ribosomes attached to its outer surface, giving it a rough appearance, and is primarily involved in protein synthesis and secretion. SER lacks ribosomes, appears smooth, and functions in the synthesis and storage of lipids (fats) and hormones."
+      }
+    ],
+    "fill": [
+      {
+        "q": "The flexible corners of collenchyma cells are thickened due to the deposition of ___.",
+        "a": "Pectin"
+      },
+      {
+        "q": "The movement of water molecules across a selectively permeable membrane along a concentration gradient is known as _______.",
+        "a": "osmosis"
+      },
+      {
+        "q": "The fluid-mosaic model states that the cell membrane is composed of a _______ bilayer with embedded proteins.",
+        "a": "lipid"
+      },
+      {
+        "q": "___ connect skeletal muscles to bones to produce movement.",
+        "a": "Tendons"
+      },
+      {
+        "q": "In plant cells, the large central vacuole is filled with a watery fluid known as _______.",
+        "a": "cell sap"
+      },
+      {
+        "q": "The green photosynthetic pigment present inside chloroplasts is called _______.",
+        "a": "chlorophyll"
+      },
+      {
+        "q": "The outer covering of the plant that protects inner parts and reduces water loss is the ___ tissue system.",
+        "a": "Dermal"
+      },
+      {
+        "q": "Cell division by _______ produces two genetically identical daughter cells with the same chromosome number as the parent cell.",
+        "a": "mitosis"
+      }
+    ],
+    "match": [
+      {
+        "q": "Golgi apparatus",
+        "a": "Packaging, sorting, and dispatching cellular materials"
+      },
+      {
+        "q": "Lysosomes",
+        "a": "Digestive enzymes and cellular cleanup"
+      },
+      {
+        "q": "Sclerenchyma",
+        "a": "Coconut husk and walnut shells"
+      },
+      {
+        "q": "Chromoplasts",
+        "a": "Bright pigments in flowers and fruits"
+      },
+      {
+        "q": "Ribosomes",
+        "a": "Protein synthesis"
+      },
+      {
+        "q": "Hinge Joint",
+        "a": "Elbow and knee movement"
+      },
+      {
+        "q": "Mitochondria",
+        "a": "Cellular respiration and ATP synthesis"
+      },
+      {
+        "q": "Cardiac Muscle",
+        "a": "Cylindrical, branched, and striated"
+      },
+      {
+        "q": "Apical Meristem",
+        "a": "Growth in length of roots and shoots"
+      }
+    ],
+    "essay": [
+      {
+        "q": "Compare the three types of meristematic tissues based on their location and function in plants.",
+        "a": "Plants have three types of meristematic tissues: 1. Apical Meristem: Located at the tips of roots and shoots, it is responsible for the increase in the length of the plant. 2. Lateral Meristem: Located along the circumference or ring in the stem, it is responsible for the increase in girth or diameter (secondary growth), creating annual growth rings. 3. Intercalary Meristem: Located at the base of nodes or internodes, it helps in the regrowth of parts after they are cut or grazed, such as in grasses or hedges."
+      },
+      {
+        "q": "Describe the structure and components of the nervous tissue (neuron).",
+        "a": "The nervous tissue consists of specialized cells called neurons or nerve cells. Each neuron has three main parts: 1. Cell Body: This contains the nucleus and controls the cell's activities. 2. Dendrites: These are short branched structures that receive signals from other neurons. 3. Axon: A long fiber that carries messages away from the cell body toward the axon terminals. The axon terminals then transmit these messages to other cells or muscles, allowing the body to sense, communicate, and respond to stimuli."
+      },
+      {
+        "q": "Explain the Fluid-Mosaic Model of the cell membrane. Describe its composition, physical nature, and functions in maintaining cellular homeostasis.",
+        "a": "The Fluid-Mosaic Model describes the ultra-structure of the cell membrane (plasma membrane):\n1. Composition and Structure: The membrane is about 7 to 10 nm thick and is predominantly made of a bilayer of lipids (phospholipids) and embedded proteins. The lipid molecules possess hydrophilic (water-attracting) heads oriented outward and hydrophobic (water-repelling) tails facing inward toward each other.\n2. Fluid Nature: The lipid and protein molecules can rotate, move laterally, and flip within the layer. This dynamic, flexible nature gives the membrane its fluidity.\n3. Mosaic Appearance: Proteins are embedded within or attached to the lipid bilayer like tiles in a mosaic pattern.\n4. Membrane Proteins: These proteins act as channels, carriers, and gatekeepers regulating the transit of ions and polar nutrients that cannot pass freely through the lipid bilayer.\n5. Selective Permeability and Homeostasis: The membrane controls entry and exit of substances via diffusion and osmosis, maintaining the internal composition required for life processes, and facilitates cell-to-cell communication."
+      },
+      {
+        "q": "Explain the composition and functions of complex permanent tissues in plants.",
+        "a": "Complex permanent tissues are made of different types of cells working together to perform a common function. They include Xylem and Phloem: 1. Xylem: Transports water and minerals from roots to the rest of the plant. It consists of tracheids, vessels, xylem parenchyma (living), and xylem fibres. It also provides structural strength. 2. Phloem: Transports food (sugars) from leaves to other parts. It consists of sieve tubes (long tubular cells with perforated walls), companion cells (which regulate sieve tube functions), phloem parenchyma (storage), and phloem fibres (strength). Phloem is mostly made up of living cells."
+      }
+    ]
+  },
+  "level2": {
+    "oneword": [
+      {
+        "q": "Which tissue connects bone to bone and provides stability to joints?",
+        "a": "Ligament"
+      },
+      {
+        "q": "What is the limit of resolution of the unaided human eye?",
+        "a": "0.1 mm"
+      },
+      {
+        "q": "Which day of the year is observed as International Yoga Day?",
+        "a": "21st June"
+      },
+      {
+        "q": "What is the inward-folded finger-like structure of the inner mitochondrial membrane called?",
+        "a": "Cristae"
+      },
+      {
+        "q": "What is the process called when meristematic cells lose the ability to divide and take on specific functions?",
+        "a": "Differentiation"
+      },
+      {
+        "q": "Which scientist discovered the Golgi apparatus in the nerve cells of a barn owl?",
+        "a": "Camillo Golgi"
+      }
+    ],
+    "sa": [
+      {
+        "q": "State the three key postulates of the classical Cell Theory and name the scientists who formulated it.",
+        "a": "The classical Cell Theory was formulated by Matthias Schleiden (1838), Theodor Schwann (1839), and expanded by Rudolf Virchow (1855). Its three main postulates are: (1) All living organisms are composed of one or more cells. (2) The cell is the basic unit of structure and function in living beings. (3) All cells arise from pre-existing cells."
+      }
+    ],
+    "fill": [
+      {
+        "q": "In plant cells, the large central vacuole is filled with a watery fluid known as _______.",
+        "a": "cell sap"
+      },
+      {
+        "q": "___ connect skeletal muscles to bones to produce movement.",
+        "a": "Tendons"
+      },
+      {
+        "q": "The movement of water molecules across a selectively permeable membrane along a concentration gradient is known as _______.",
+        "a": "osmosis"
+      },
+      {
+        "q": "The green photosynthetic pigment present inside chloroplasts is called _______.",
+        "a": "chlorophyll"
+      },
+      {
+        "q": "Cell division by _______ produces two genetically identical daughter cells with the same chromosome number as the parent cell.",
+        "a": "mitosis"
+      },
+      {
+        "q": "The fluid-mosaic model states that the cell membrane is composed of a _______ bilayer with embedded proteins.",
+        "a": "lipid"
+      },
+      {
+        "q": "The outer covering of the plant that protects inner parts and reduces water loss is the ___ tissue system.",
+        "a": "Dermal"
+      },
+      {
+        "q": "The flexible corners of collenchyma cells are thickened due to the deposition of ___.",
+        "a": "Pectin"
+      }
+    ],
+    "match": [
+      {
+        "q": "Lysosomes",
+        "a": "Digestive enzymes and cellular cleanup"
+      },
+      {
+        "q": "Sclerenchyma",
+        "a": "Coconut husk and walnut shells"
+      },
+      {
+        "q": "Cardiac Muscle",
+        "a": "Cylindrical, branched, and striated"
+      },
+      {
+        "q": "Hinge Joint",
+        "a": "Elbow and knee movement"
+      },
+      {
+        "q": "Golgi apparatus",
+        "a": "Packaging, sorting, and dispatching cellular materials"
+      },
+      {
+        "q": "Apical Meristem",
+        "a": "Growth in length of roots and shoots"
+      },
+      {
+        "q": "Chromoplasts",
+        "a": "Bright pigments in flowers and fruits"
+      },
+      {
+        "q": "Mitochondria",
+        "a": "Cellular respiration and ATP synthesis"
+      },
+      {
+        "q": "Ribosomes",
+        "a": "Protein synthesis"
+      }
+    ],
+    "essay": [
+      {
+        "q": "Describe the structure and functions of Mitochondria and Chloroplasts, highlighting why they are essential for cellular metabolism.",
+        "a": "Mitochondria:\n- Structure: Double-membrane-bound organelle. The outer membrane is smooth and porous, while the inner membrane is thrown into numerous folds called cristae, which vastly increase the surface area for ATP production. It contains its own matrix, DNA, and ribosomes.\n- Function: Serves as the 'powerhouse of the cell' where glucose is oxidized during cellular respiration to synthesize ATP (Adenosine Triphosphate), the cellular energy currency.\n\nChloroplasts:\n- Structure: Double-membrane-bound plastid containing a semi-fluid ground substance called the stroma and chlorophyll-bearing disc-shaped membrane systems (thylakoids/grana). They also possess their own circular DNA and ribosomes.\n- Function: Captures solar energy via chlorophyll to carry out photosynthesis, converting carbon dioxide and water into glucose and starch, thereby sustaining plant metabolism.\n\nBoth organelles are vital energy transformers: chloroplasts capture and convert radiant energy into chemical energy, and mitochondria break down chemical energy into usable metabolic power (ATP)."
+      },
+      {
+        "q": "Compare Mitosis and Meiosis. Discuss their distinct biological purposes and explain what would happen if sex cells (gametes) were formed through mitosis instead of meiosis.",
+        "a": "Comparison of Mitosis and Meiosis:\n1. Number of Divisions: Mitosis involves a single nuclear division; meiosis involves two sequential nuclear divisions (Meiosis I and Meiosis II).\n2. Number of Daughter Cells: Mitosis produces two daughter cells; meiosis produces four daughter cells.\n3. Genetic Composition and Chromosome Number: Mitosis produces genetically identical diploid cells with the same number of chromosomes as the parent cell. Meiosis produces genetically diverse haploid daughter cells, each having half the original chromosome number.\n4. Purpose: Mitosis occurs in somatic cells for growth, tissue repair, maintenance, and asexual reproduction. Meiosis occurs in germ cells to produce gametes for sexual reproduction and generates genetic diversity.\n\nConsequence if gametes were formed by mitosis:\nIf gametes were produced by mitosis, each gamete would retain the full diploid set of chromosomes (e.g., 46 in humans). Upon fertilization, the resulting zygote would receive double the normal chromosome number (tetraploid, 92 chromosomes). With each successive generation, the chromosome number would continuously double (46 -> 92 -> 184), completely disrupting cellular physiology, genetic stability, and causing the species to become non-viable."
+      }
+    ]
+  }
+}

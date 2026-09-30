@@ -1,0 +1,91 @@
+23-200-0105A
+Basic Mechanical Engineering
+Module I
+Thermodynamics and Power Devices
+
+Syllabus
+Introduction: Role of Mechanical Engineering in Industries and Society.
+Introduction to thermodynamic laws, power generating devices: Boilers, Turbines (Steam & Gas), IC engines: Components and Working Principles of two stroke petrol engine and 4-Strokes Petrol and Diesel Engines, Application of IC Engines.
+Introduction to power consuming devices: Refrigerator, types and properties of refrigerants, working of domestic refrigerators, Air-conditioning systems, Windows and Split systems.
+
+Thermodynamics
+Thermodynamics is the science of energy transfer and its effect on the physical properties of substances. It is based upon observations of common experience which have been formulated into thermodynamic laws.
+- System: Quantity of matter or a region of space chosen for study.
+- Surrounding: Mass or region outside the system.
+- Boundary: Real/imaginary surface that separates system from its surrounding (fixed or movable).
+
+Energy Interactions
+- Heat: Form of energy that is transferred between two systems (or system and surrounding) by virtue of a temperature difference. Heat is energy in transition.
+- Adiabatic system: A system with no heat transfer (either well insulated or at the same temperature as surroundings).
+- Work: Energy transfer associated with a force acting through a distance (e.g., rising piston, rotating shaft).
+
+Properties of a System
+Characteristics of a system are known as Properties (e.g., Pressure P, Temperature T, Volume V).
+- Extensive properties: Value depends on the size/extent of the system (e.g., mass, total volume).
+- Intensive properties: Independent of size (e.g., temperature, pressure, density).
+
+State and Equilibrium
+- State: When a system is not undergoing any change, its properties are fixed.
+- Equilibrium: A state of balance, no unbalanced potential within the system. Types include Thermal (temperature does not change), Mechanical (no unbalanced force), Chemical, and Phase equilibrium.
+- Thermodynamic Process: The successive change of state of the system due to energy or mass transfer. A process changes from one equilibrium state to another.
+
+Zeroth Law of Thermodynamics
+"If two bodies are in thermal equilibrium with a third body, they are also in thermal equilibrium with each other."
+This law serves as the basis for the validity of temperature measurement.
+
+First Law of Thermodynamics
+- Conservation of energy principle.
+- The change in the total energy of a system during a process is equal to the net energy transfer to/from the system. Total energy entering - Total energy leaving = Change in total energy of the system.
+- For a cycle, the net heat transfer is equal to the net work transfer: Q_net = W_net.
+
+Second Law of Thermodynamics
+Satisfying the first law does not ensure a process can actually occur. The second law asserts that energy has quality as well as quantity.
+- Kelvin-Planck Statement: It is impossible for any device that operates on a cycle to receive heat from a single reservoir and produce a net amount of work. (No heat engine can have a thermal efficiency of 100%).
+- Clausius Statement: It is impossible to construct a device that operates in a cycle and produces no effect other than the transfer of heat from a lower-temperature body to a higher-temperature body. (A refrigerator needs external power).
+
+Heat Engines
+Devices which convert heat to work.
+Characteristics:
+- They receive heat from a higher temperature source.
+- They convert part of this heat to work.
+- They reject the remaining waste heat to a low-temperature sink.
+- They operate in a cycle.
+Thermal Efficiency: The fraction of heat input that is converted to net work output.
+
+Refrigeration and Heat Pumps
+- Refrigeration: Transfer of heat from a lower temperature region to a higher temperature region. 
+- Refrigerator: Maintains a refrigerated space at a low temperature by removing heat from it.
+- Heat Pump: Maintains a space at a high temperature by absorbing heat from a low-temperature source and supplying it to a warmer medium.
+- Unit of Refrigeration Capacity: Ton of Refrigeration (TR). The rate of heat removal that can freeze 1 ton (2000 lb) of liquid water at 0°C into ice at 0°C in 24 hours. (1 TR = 3.5 kW).
+
+Internal Combustion (IC) Engines
+Working fluid is gas/air. Energy is provided by burning fuel within the boundary.
+Terminology: Top Dead Center (TDC), Bottom Dead Center (BDC), Bore, Stroke, Clearance volume.
+Types:
+- Spark Ignition (SI) Engine: Air-fuel mixture is compressed and combustion is initiated with the help of a spark plug (Otto Cycle).
+- Compression Ignition (CI) Engine: Air is compressed to a high temperature and fuel is injected into it, igniting automatically (Diesel Cycle).
+4-Stroke vs 2-Stroke:
+- 4-Stroke: Two revolutions of crankshaft per power stroke. Uses valves. Higher thermal efficiency. Less noisy. Heavier.
+- 2-Stroke: One revolution of crankshaft per power stroke. Uses ports instead of valves. Lesser thermal efficiency. Lighter and noisy.
+
+Power Plants
+An industrial facility used to generate electric power.
+- Conventional: Fossil fuel, Nuclear, Hydroelectric.
+- Non-Conventional: Wind, Solar, Geothermal, Biomass.
+
+Boilers / Steam Generators
+Equipment used for producing steam.
+- Water Tube Boilers: Water passes through the tubes and hot gases flow outside.
+- Fire Tube Boilers: Hot gases pass through the tubes surrounded by water.
+- Internally fired: Furnace provided inside the boiler shell.
+- Externally fired: Furnace provided outside/under the boiler.
+
+Turbines
+Machines to extract fluid power from flowing fluids. E.g., Steam turbines, Gas turbines, Water turbines, Wind turbines.
+Gas Turbines have a great power-to-weight ratio but are expensive and consume more fuel when idling.
+
+Air-Conditioning
+Treatment of indoor air to control conditions required for human comfort.
+Desirable conditions: Temperature (22-27°C), Relative Humidity (55-65%), Air Velocity (0.2-0.5 m/s).
+- Window AC: Single unit including all components. Easy to install but noisier.
+- Split AC: Two units (indoor air handling unit and outdoor unit). Less noise.

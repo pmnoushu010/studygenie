@@ -1,0 +1,50 @@
+{
+  "summary": "This module introduces various forms and sources of energy, distinguishing between renewable and non-renewable sources. It covers the applications and limitations of fossil fuels, nuclear power, hydropower, solar energy, wind energy, and biofuels. The module also addresses critical environmental issues, specifically detailing the causes, effects, and mitigation strategies for global warming and ozone layer depletion.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): Classify energy sources into two main types with examples.",
+      "a": "Energy sources are broadly classified into: 1. Non-Renewable sources, which are finite and will eventually deplete (e.g., Fossil fuels, Nuclear fuels). 2. Renewable sources, which are naturally replenished (e.g., Solar, Wind, Hydropower, Biofuels)."
+    },
+    {
+      "q": "Part A (3 Marks): Mention two applications and two limitations of Fossil Fuels.",
+      "a": "Applications: Power generation in thermal plants and fuel for transportation. Limitations: They are non-renewable and their combustion significantly contributes to air pollution and greenhouse gas emissions."
+    },
+    {
+      "q": "Part A (3 Marks): Briefly explain Hydel Energy (Hydropower) and its major limitation.",
+      "a": "Hydel energy utilizes the potential energy of water stored in high-altitude dams or flowing rivers to generate electricity. Its major limitations include the high cost of dam construction and significant environmental impacts on aquatic ecosystems."
+    },
+    {
+      "q": "Part A (3 Marks): What are biofuels? Give an example.",
+      "a": "Biofuels are renewable energy sources derived from organic materials like plants and animal waste. Examples include ethanol and biodiesel, which can be used as alternative fuels for vehicles."
+    },
+    {
+      "q": "Part A (3 Marks): Define Global Warming.",
+      "a": "Global warming is the gradual increase in the Earth's average surface temperature. It is primarily caused by the buildup of greenhouse gases like carbon dioxide, methane, and nitrous oxide in the atmosphere."
+    },
+    {
+      "q": "Part A (3 Marks): List any three effects of global warming.",
+      "a": "Three effects of global warming are: 1. Melting of polar ice caps. 2. Rising sea levels. 3. Extreme weather patterns and subsequent loss of biodiversity."
+    },
+    {
+      "q": "Part A (3 Marks): What causes the depletion of the ozone layer?",
+      "a": "The thinning of the ozone layer in the stratosphere is primarily caused by the release of chlorofluorocarbons (CFCs) and other ozone-depleting substances into the atmosphere."
+    },
+    {
+      "q": "Part A (3 Marks): Why is the ozone layer important for life on Earth?",
+      "a": "The ozone layer is crucial because it acts as a protective shield, absorbing the majority of the sun's harmful ultraviolet (UV) radiation, which can otherwise cause skin cancer, cataracts, and severe damage to ecosystems."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Discuss the various renewable energy sources highlighting their applications, advantages, and challenges. (8 marks)\n(b) Differentiate between fossil fuels and nuclear fuels as non-renewable energy sources. (4 marks)",
+      "a": "(a) Renewable Energy Sources:\n1. Solar Energy: Captures sunlight using panels or mirrors. Applications include electricity generation and solar water heating. Advantage: Clean and widely available. Challenge: Dependent on sunlight availability and high initial setup costs.\n2. Wind Energy: Converts kinetic energy of wind into electricity using turbines. Applications: Large-scale wind farms. Advantage: Produces no direct emissions. Challenge: Requires consistently windy locations and vast land areas.\n3. Hydropower: Uses the potential energy of stored water. Applications: Large-scale electricity generation. Advantage: Highly reliable renewable source. Challenge: Massive environmental impact on local ecosystems and high construction costs.\n4. Biofuels: Derived from organic matter. Applications: Alternative transportation fuels. Advantage: Reduces waste. Challenge: Can compete with agricultural land meant for food production.\n\n(b) Fossil fuels (coal, oil, natural gas) are formed from ancient organic matter over millions of years and generate energy via combustion, which heavily pollutes the atmosphere with greenhouse gases. Nuclear fuels (uranium, thorium) generate massive amounts of energy through nuclear fission without emitting greenhouse gases during operation; however, they pose high risks of radiation leaks and produce long-lived radioactive waste."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Explain the causes, effects, and mitigation strategies for Global Warming. (6 marks)\n(b) Explain the causes, effects, and mitigation strategies for Ozone Layer Depletion. (6 marks)",
+      "a": "(a) Global Warming:\n- Causes: It is driven by the rapid buildup of greenhouse gases (CO2, methane, nitrous oxide) in the atmosphere, primarily due to the burning of fossil fuels, rampant deforestation, and heavy industrial activities.\n- Effects: This trapped heat leads to melting polar ice caps, rising sea levels threatening coastal cities, highly extreme and unpredictable weather patterns, and severe loss of biodiversity.\n- Mitigation: Solutions include transitioning rapidly from fossil fuels to renewable energy sources, enhancing overall energy efficiency, and engaging in large-scale reforestation to act as carbon sinks.\n\n(b) Ozone Layer Depletion:\n- Causes: The ozone layer in the stratosphere is thinned by the emission of manufactured chemicals, most notably chlorofluorocarbons (CFCs), halons, and other ozone-depleting substances.\n- Effects: The depletion allows harmful Ultraviolet (UV) radiation from the sun to reach the Earth's surface. This increases the incidence of skin cancer and cataracts in humans, and causes extensive damage to terrestrial ecosystems and sensitive marine life like phytoplankton.\n- Mitigation: The primary strategy is the strict phasing out and global ban of ozone-depleting substances (like the Montreal Protocol) and actively promoting the use of safe alternative chemicals."
+    }
+  ],
+  "oneword": [],
+  "fill": [],
+  "match": []
+}

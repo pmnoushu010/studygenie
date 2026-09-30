@@ -1,0 +1,81 @@
+23-200-0105A
+Basic Mechanical Engineering
+Module II
+Modern Fuel Injection Systems in CI and SI Engines
+
+Syllabus
+Modern fuel injection systems in CI and SI engines: CRDi, MPFI systems, cooling and lubricating systems in two stroke and four stroke engines. (Only elementary ideas with block diagrams).
+
+Introduction
+Fuel injection systems are critical for delivering fuel to the engine's combustion chamber in a controlled and efficient manner. Modern systems in Compression Ignition (CI) and Spark Ignition (SI) engines have undergone significant advancements to improve performance, fuel efficiency, and emissions compliance.
+- Purpose: Delivering fuel efficiently to the combustion chamber.
+- Components: Injector, fuel pump, fuel rail, sensors, and control unit.
+
+Advantages of Modern Fuel Injection Systems
+- Precision: Advanced systems ensure accurate fuel delivery, enhancing combustion efficiency.
+- Emission Control: Modern injectors help reduce harmful pollutants like NOx and particulate matter.
+- Fuel Economy: Improved atomization and timing lead to better mileage.
+- Performance: These systems provide smoother acceleration and engine responsiveness.
+
+Fuel Injection in CI Engines (Diesel Engines)
+CI engines rely on high compression to ignite the fuel. Modern CI engines use Common Rail Direct Injection (CRDI).
+Common Rail Direct Injection (CRDI):
+- Uses a common rail connected to all injectors, supplying high-pressure fuel.
+- Provides precise fuel metering, leading to improved combustion and reduced emissions.
+- Operates at high pressures up to 2500 bar for better atomization.
+
+Components of CRDI System:
+- Common rail (high-pressure fuel reservoir)
+- High-pressure fuel pump
+- Injectors
+- Engine Control Unit (ECU)
+- Sensors (e.g., rail pressure sensor, temperature sensors)
+
+Working Principle of CRDI:
+- High-pressure fuel is stored in the common rail.
+- The ECU calculates optimal fuel injection timing and quantity.
+- Fuel is injected directly into the combustion chamber at high pressure (up to 2500 bar).
+- Multiple injections per cycle are used to optimize combustion.
+
+Advantages of CRDI:
+- Precise fuel delivery improves combustion efficiency.
+- Lower emissions compared to conventional systems.
+- Enhanced power output and torque.
+- Reduced engine noise.
+- Compatible with bio-diesel and alternative fuels.
+
+Fuel Injection in SI Engines (Gasoline Engines)
+SI engines typically rely on spark ignition to combust the air-fuel mixture. Older SI engines used carburetors, but modern engines use Multi-Point Fuel Injection (MPFI).
+Multi-Point Fuel Injection (MPFI):
+- Injects fuel into the intake manifold near the intake valve.
+- Improves fuel distribution and engine responsiveness compared to carburetors.
+
+Components of MPFI System:
+- Fuel pump
+- Injectors
+- Engine Control Unit (ECU)
+- Sensors (throttle position, manifold pressure, oxygen sensor, etc.)
+
+Working Principle of MPFI:
+- Fuel is injected at multiple points in the intake manifold.
+- The ECU determines the amount and timing of fuel delivery.
+- The process involves:
+  - Sensing engine parameters.
+  - Calculating the air-fuel mixture.
+  - Injecting precise fuel quantity.
+
+Advantages of MPFI:
+- Improved fuel efficiency.
+- Enhanced power output.
+- Better throttle response.
+- Reduced emissions.
+- Smooth engine performance.
+
+Modern Advancements
+- CI Advancements: High-pressure common rail systems, piezoelectric injectors for precision, emission reduction technologies, improved fuel atomization.
+- SI Advancements: Direct injection for higher efficiency, enhanced combustion control via ECU.
+- Environmental & Economic Impact: Contribution to reduced emissions, fuel efficiency improvements, cost-effectiveness over traditional systems.
+
+Engine Cooling and Lubrication Systems
+- Cooling System: Removes excess heat from the engine. Uses a water pump to circulate coolant through the engine's water jackets and a radiator to cool the fluid using a fan and airflow. A thermostat regulates the flow based on temperature.
+- Lubrication System: Reduces friction and wear between moving parts. An oil pump forces oil under pressure from the oil pan (sump) through an oil filter to the main bearings, camshaft, and other moving parts.
