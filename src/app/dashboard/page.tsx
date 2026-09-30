@@ -672,7 +672,22 @@ export default function Home() {
                         <p style={{ fontSize: "0.9rem", color: "#94a3b8", margin: "0.25rem 0 0 0" }}>IP: {u.ipAddress} • Browser: {u.userAgent?.split(" ")[0] || "Unknown"}</p>
                       </div>
                       <div style={{ textAlign: "right" }}>
-                        <span style={{ display: "inline-block", padding: "0.25rem 0.75rem", background: "#10b981", color: "white", borderRadius: "99px", fontSize: "0.8rem", fontWeight: "bold" }}>Online</span>
+                        {(() => {
+                          const isOnline = Date.now() - new Date(u.lastActive).getTime() <= 65000;
+                          return (
+                            <span style={{ 
+                              display: "inline-block", 
+                              padding: "0.25rem 0.75rem", 
+                              background: isOnline ? "#10b981" : "#f59e0b", 
+                              color: "white", 
+                              borderRadius: "99px", 
+                              fontSize: "0.8rem", 
+                              fontWeight: "bold" 
+                            }}>
+                              {isOnline ? "Online" : "Idle"}
+                            </span>
+                          );
+                        })()}
                         <p style={{ fontSize: "0.8rem", color: "#94a3b8", margin: "0.25rem 0 0 0" }}>Last ping: {new Date(u.lastActive).toLocaleTimeString()}</p>
                       </div>
                     </div>

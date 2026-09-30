@@ -1,10 +1,10 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import connectToDatabase from "@/lib/mongodb";
 import Session from "@/models/Session";
 import User from "@/models/User";
 import crypto from "crypto";
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const username = (body.username || "").trim();
@@ -31,9 +31,22 @@ export async function POST(req: Request) {
       }
     }
 
-    // Get IP address
+    // Get IP address reliably
+    const cfIp = req.headers.get("cf-connecting-ip");
     const forwardedFor = req.headers.get("x-forwarded-for");
-    const ipAddress = forwardedFor ? forwardedFor.split(",")[0] : "127.0.0.1";
+    const realIp = req.headers.get("x-real-ip");
+    
+    let ipAddress = "127.0.0.1";
+    if (cfIp) {
+      ipAddress = cfIp.trim();
+    } else if (req.ip) {
+      ipAddress = req.ip;
+    } else if (forwardedFor) {
+      ipAddress = forwardedFor.split(",")[0].trim();
+    } else if (realIp) {
+      ipAddress = realIp.trim();
+    }
+    
     const userAgent = req.headers.get("user-agent") || "Unknown";
 
     const sessionId = crypto.randomUUID();
