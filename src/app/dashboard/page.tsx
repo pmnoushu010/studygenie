@@ -491,89 +491,86 @@ export default function Home() {
 
   return (
     <main className="app-container">
-      <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", width: "100%", paddingBottom: "1rem", borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
-        <div style={{ textAlign: "left" }}>
-          <h1 style={{ marginBottom: "0.2rem" }}>StudyGenie 9th Std</h1>
-          <p>Module {userRole === "superadmin" ? "(Admin)" : "(Student)"}</p>
+      <header style={{ display: "flex", flexDirection: "column", gap: "1rem", marginBottom: "2rem", width: "100%" }}>
+        
+        {/* Top Row: Title & Profile */}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid rgba(255,255,255,0.1)", paddingBottom: "1rem" }}>
+          <div style={{ textAlign: "left" }}>
+            <h1 style={{ marginBottom: "0.2rem", fontSize: "2rem", background: "linear-gradient(to right, #60a5fa, #a78bfa)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>StudyGenie 9th Std</h1>
+            <p style={{ color: "#94a3b8" }}>Module {userRole === "superadmin" ? "(Admin)" : "(Student)"}</p>
+          </div>
+          
+          <button
+            className="profile-pill"
+            onClick={() => {
+              localStorage.removeItem("userRole");
+              localStorage.removeItem("sessionId");
+              localStorage.removeItem("userName");
+              window.location.href = "/";
+            }}
+          >
+            <div className="avatar">👤</div>
+            <div className="user-info">
+              <span className="username">{userName}</span>
+              <span className="role">{userRole === "superadmin" ? "admin" : "student"}</span>
+            </div>
+            <span className="logout-text">Logout</span>
+          </button>
         </div>
-        <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
+
+        {/* Bottom Row: Navigation Tabs */}
+        <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", flexWrap: "wrap" }}>
           <button 
-            className={`btn ${mainTab === "generator" ? "" : "secondary"}`}
+            className={`nav-tab ${mainTab === "generator" ? "active" : ""}`}
             onClick={() => setMainTab("generator")}
             disabled={mainTab === "exam"}
-            style={mainTab === "generator" ? {} : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)", opacity: mainTab === "exam" ? 0.5 : 1, cursor: mainTab === "exam" ? "not-allowed" : "pointer" }}
           >
             📝 Module
           </button>
           <button 
-            className={`btn ${mainTab === "chat" ? "" : "secondary"}`}
+            className={`nav-tab ${mainTab === "chat" ? "active chat" : ""}`}
             onClick={() => setMainTab("chat")}
             disabled={mainTab === "exam"}
-            style={mainTab === "chat" ? { background: "#f59e0b" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)", opacity: (mainTab === "exam") ? 0.5 : 1, cursor: (mainTab === "exam") ? "not-allowed" : "pointer" }}
           >
             💬 SG Tutor
           </button>
           <button 
-            className={`btn ${(mainTab === "exam" && !isSubjectExam) ? "" : "secondary"}`}
+            className={`nav-tab ${(mainTab === "exam" && !isSubjectExam) ? "active exam" : ""}`}
             onClick={() => setMainTab("exam")}
-            style={(mainTab === "exam" && !isSubjectExam) ? { background: "#8b5cf6" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
           >
             🎓 Take Chapter Exam
           </button>
           <button 
-            className={`btn ${(mainTab === "subject-exam" || (mainTab === "exam" && isSubjectExam)) ? "" : "secondary"}`}
+            className={`nav-tab ${(mainTab === "subject-exam" || (mainTab === "exam" && isSubjectExam)) ? "active subject-exam" : ""}`}
             onClick={() => { setMainTab("subject-exam"); setIsSubjectExam(false); }}
-            style={(mainTab === "subject-exam" || (mainTab === "exam" && isSubjectExam)) ? { background: "#eab308" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
           >
             🏆 Subject Exam
           </button>
+
           {userRole === "superadmin" && (
             <>
+              <div style={{ width: "1px", height: "24px", background: "rgba(255,255,255,0.2)", margin: "0 0.5rem" }} />
               <button 
-                className={`btn ${mainTab === "network" ? "" : "secondary"}`}
+                className={`nav-tab ${mainTab === "network" ? "active admin-network" : ""}`}
                 onClick={() => setMainTab("network")}
-                style={mainTab === "network" ? { background: "#3b82f6" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
               >
                 👥 Active Users
               </button>
               <button 
-                className={`btn ${mainTab === "users" ? "" : "secondary"}`}
+                className={`nav-tab ${mainTab === "users" ? "active admin-users" : ""}`}
                 onClick={() => setMainTab("users")}
-                style={mainTab === "users" ? { background: "#10b981" } : { background: "transparent", border: "1px solid rgba(255,255,255,0.2)" }}
               >
                 🧑‍🎓 Manage Users
               </button>
               <button 
-                className="btn secondary"
+                className="nav-tab"
                 onClick={() => router.push("/mech-dashboard")}
-                style={{ background: "transparent", border: "1px solid rgba(255,255,255,0.2)", color: "#f59e0b" }}
+                style={{ color: "#f59e0b", borderColor: "rgba(245, 158, 11, 0.3)" }}
               >
                 ⚙️ Mech Dashboard
               </button>
             </>
           )}
-          
-          <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginLeft: "1rem", paddingLeft: "1rem", borderLeft: "1px solid rgba(255,255,255,0.2)" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
-              <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "linear-gradient(135deg, #3b82f6, #8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold", fontSize: "1.2rem", boxShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>
-                👤
-              </div>
-              <span style={{ fontWeight: 500, fontSize: "1.05rem" }}>{userName}</span>
-            </div>
-            
-            <button
-              className="btn secondary"
-              onClick={() => {
-                localStorage.removeItem("userRole");
-                localStorage.removeItem("sessionId");
-                localStorage.removeItem("userName");
-                window.location.href = "/";
-              }}
-              style={{ background: "rgba(239, 68, 68, 0.2)", border: "1px solid rgba(239, 68, 68, 0.4)", color: "white", padding: "0.5rem 1rem", fontSize: "0.9rem", boxShadow: "none" }}
-            >
-              🚪 Logout
-            </button>
-          </div>
         </div>
       </header>
 
