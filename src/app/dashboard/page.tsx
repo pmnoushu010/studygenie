@@ -64,6 +64,13 @@ export default function Home() {
   const [isCreatingUser, setIsCreatingUser] = useState(false);
   const [userCreationMessage, setUserCreationMessage] = useState({ text: "", type: "" });
 
+  // Direct Messaging (Inbox) State
+  const [adminInboxUser, setAdminInboxUser] = useState<string | null>(null);
+  const [inboxMessages, setInboxMessages] = useState<any[]>([]);
+  const [inboxInput, setInboxInput] = useState("");
+  const [isSendingInbox, setIsSendingInbox] = useState(false);
+
+
   const handleCreateUser = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsCreatingUser(true);
@@ -88,6 +95,63 @@ export default function Home() {
       setIsCreatingUser(false);
     }
   };
+
+  const fetchInboxMessages = async (otherUser: string) => {
+    try {
+      const myUsername = localStorage.getItem("userName");
+      if (!myUsername) return;
+      const res = await fetch(`/api/messages?user1=${encodeURIComponent(myUsername)}&user2=${encodeURIComponent(otherUser)}`);
+      const data = await res.json();
+      if (res.ok) setInboxMessages(data.messages || []);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const handleSendInboxMessage = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!inboxInput.trim()) return;
+    
+    const myUsername = localStorage.getItem("userName");
+    if (!myUsername) return;
+    
+    const receiverId = userRole === "superadmin" ? adminInboxUser : "pmnoushu010";
+    if (!receiverId) return;
+
+    setIsSendingInbox(true);
+    try {
+      const res = await fetch("/api/messages", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          senderId: myUsername,
+          senderRole: userRole,
+          receiverId: receiverId,
+          text: inboxInput
+        })
+      });
+      if (res.ok) {
+        setInboxInput("");
+        fetchInboxMessages(receiverId);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+    setIsSendingInbox(false);
+  };
+
+  // Poll inbox messages if tab is open
+  useEffect(() => {
+    let interval: any;
+    if (mainTab === "inbox") {
+      const otherUser = userRole === "superadmin" ? adminInboxUser : "pmnoushu010";
+      if (otherUser) {
+        fetchInboxMessages(otherUser);
+        interval = setInterval(() => fetchInboxMessages(otherUser), 3000); // Poll every 3s
+      }
+    }
+    return () => clearInterval(interval);
+  }, [mainTab, adminInboxUser, userRole]);
 
   // Ping heartbeat every 60 seconds
   useEffect(() => {
@@ -568,6 +632,18 @@ export default function Home() {
           >
             🏆 Subject Exam
           </button>
+          <button 
+            className={`nav-tab ${mainTab === "inbox" ? "active" : ""}`}
+            onClick={() => {
+              setMainTab("inbox");
+              if (userRole === "superadmin") {
+                fetchUsers(); // To populate student list
+              }
+            }}
+            style={mainTab === "inbox" ? { background: "#ec4899", borderColor: "#ec4899", boxShadow: "0 4px 12px rgba(236, 72, 153, 0.4)" } : {}}
+          >
+            📬 Inbox
+          </button>
 
           {userRole === "superadmin" && (
             <>
@@ -939,6 +1015,79 @@ export default function Home() {
                   Send
                 </button>
               </form>
+            </div>
+          )}
+
+          {/* INBOX VIEW */}
+          {mainTab === "inbox" && (
+            <div className="glass-panel" style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 200px)" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
+                <h3 style={{ fontSize: "1.5rem", color: "#ec4899" }}>📬 Direct Messages</h3>
+              </div>
+              
+              <div style={{ display: "flex", gap: "1rem", flex: 1, overflow: "hidden" }}>
+                {userRole === "superadmin" && (
+                  <div style={{ width: "250px", overflowY: "auto", background: "rgba(0,0,0,0.2)", borderRadius: "12px", border: "1px solid rgba(255,255,255,0.1)", display: "flex", flexDirection: "column" }}>
+                    <div style={{ padding: "1rem", borderBottom: "1px solid rgba(255,255,255,0.1)", fontWeight: "bold" }}>Students</div>
+                    {allUsers.filter(u => u.role === "student").map(u => (
+                      <div 
+                        key={u.username} 
+                        onClick={() => setAdminInboxUser(u.username)}
+                        style={{ padding: "1rem", cursor: "pointer", background: adminInboxUser === u.username ? "rgba(236, 72, 153, 0.2)" : "transparent", borderBottom: "1px solid rgba(255,255,255,0.05)", borderLeft: adminInboxUser === u.username ? "4px solid #ec4899" : "4px solid transparent" }}
+                      >
+                        {u.name || u.username}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                
+                <div style={{ flex: 1, display: "flex", flexDirection: "column", background: "rgba(0,0,0,0.2)", borderRadius: "12px", border: "1px solid rgba(255,255,255,0.1)" }}>
+                  {(!adminInboxUser && userRole === "superadmin") ? (
+                    <div style={{ margin: "auto", color: "#94a3b8" }}>Select a student to start chatting</div>
+                  ) : (
+                    <>
+                      <div style={{ padding: "1rem", borderBottom: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.02)", fontWeight: "bold", display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                        👤 Chatting with {userRole === "superadmin" ? adminInboxUser : "Admin"}
+                      </div>
+                      <div style={{ flex: 1, overflowY: "auto", padding: "1rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+                        {inboxMessages.length === 0 ? (
+                          <div style={{ textAlign: "center", color: "#94a3b8", marginTop: "2rem" }}>No messages yet. Send a message to start the conversation!</div>
+                        ) : (
+                          inboxMessages.map((msg, i) => (
+                            <div key={i} style={{ display: "flex", justifyContent: msg.senderId === userName ? "flex-end" : "flex-start" }}>
+                              <div style={{ 
+                                maxWidth: "70%", 
+                                padding: "0.75rem 1rem", 
+                                borderRadius: "12px", 
+                                background: msg.senderId === userName ? "#ec4899" : "rgba(255,255,255,0.1)",
+                                color: "white"
+                              }}>
+                                <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>{msg.text}</p>
+                                <span style={{ fontSize: "0.7rem", opacity: 0.7, display: "block", marginTop: "0.25rem", textAlign: msg.senderId === userName ? "right" : "left" }}>
+                                  {new Date(msg.createdAt).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+                                </span>
+                              </div>
+                            </div>
+                          ))
+                        )}
+                      </div>
+                      <form onSubmit={handleSendInboxMessage} style={{ display: "flex", gap: "0.5rem", padding: "1rem", borderTop: "1px solid rgba(255,255,255,0.1)" }}>
+                        <input 
+                          type="text" 
+                          value={inboxInput} 
+                          onChange={e => setInboxInput(e.target.value)} 
+                          placeholder="Type your message..."
+                          disabled={isSendingInbox}
+                          style={{ flex: 1, padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.3)", color: "white", fontSize: "1rem" }}
+                        />
+                        <button type="submit" className="btn" disabled={isSendingInbox || !inboxInput.trim()} style={{ background: "#ec4899" }}>
+                          Send
+                        </button>
+                      </form>
+                    </>
+                  )}
+                </div>
+              </div>
             </div>
           )}
 
