@@ -645,3 +645,72 @@ header p {
   background: linear-gradient(135deg, #ef4444, #b91c1c);
   transform: scale(0.9);
 }
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .main-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .glass-panel {
+    padding: 1.25rem;
+  }
+
+  .question-item {
+    padding: 1rem;
+  }
+  
+  .tabs-container, .question-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  
+  .tabs-container::-webkit-scrollbar, .question-tabs::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .tab {
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .q-tab {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .nav-tab {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+  
+  header > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .profile-pill {
+    align-self: flex-start;
+  }
+}
+
