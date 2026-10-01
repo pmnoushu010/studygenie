@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import EmojiPicker from 'emoji-picker-react';
 
 const QUESTION_TYPES = [
   { id: "oneword", label: "One Word" },
@@ -71,6 +72,7 @@ export default function Home() {
   const [isSendingInbox, setIsSendingInbox] = useState(false);
   const [unreadCount, setUnreadCount] = useState(0);
   const [unreadSenders, setUnreadSenders] = useState<string[]>([]);
+  const [showEmojiPicker, setShowEmojiPicker] = useState(false);
 
 
   const handleCreateUser = async (e: React.FormEvent) => {
@@ -674,7 +676,7 @@ export default function Home() {
             }}
             style={mainTab === "inbox" ? { background: "#ec4899", borderColor: "#ec4899", boxShadow: "0 4px 12px rgba(236, 72, 153, 0.4)", position: "relative" } : { position: "relative" }}
           >
-            📬 Inbox
+            📬 SG Chat
             {unreadCount > 0 && (
               <span style={{ position: "absolute", top: "-5px", right: "-10px", background: "#ef4444", color: "white", borderRadius: "50%", padding: "2px 6px", fontSize: "0.75rem", fontWeight: "bold" }}>
                 {unreadCount}
@@ -1059,7 +1061,7 @@ export default function Home() {
           {mainTab === "inbox" && (
             <div className="glass-panel" style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 200px)" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
-                <h3 style={{ fontSize: "1.5rem", color: "#ec4899" }}>📬 Direct Messages</h3>
+                <h3 style={{ fontSize: "1.5rem", color: "#ec4899" }}>📬 SG Chat</h3>
               </div>
               
               <div style={{ display: "flex", gap: "1rem", flex: 1, overflow: "hidden" }}>
@@ -1094,16 +1096,18 @@ export default function Home() {
                           <div style={{ textAlign: "center", color: "#94a3b8", marginTop: "2rem" }}>No messages yet. Send a message to start the conversation!</div>
                         ) : (
                           inboxMessages.map((msg, i) => (
-                            <div key={i} style={{ display: "flex", justifyContent: msg.senderId === userName ? "flex-end" : "flex-start" }}>
-                              <div style={{ 
-                                maxWidth: "70%", 
-                                padding: "0.75rem 1rem", 
-                                borderRadius: "12px", 
-                                background: msg.senderId === userName ? "#ec4899" : "rgba(255,255,255,0.1)",
-                                color: "white"
-                              }}>
-                                <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>{msg.text}</p>
-                                <span style={{ fontSize: "0.7rem", opacity: 0.7, display: "block", marginTop: "0.25rem", textAlign: msg.senderId === userName ? "right" : "left" }}>
+                            <div key={i} style={{ display: "flex", justifyContent: msg.senderId === userName ? "flex-end" : "flex-start", marginBottom: "0.5rem" }}>
+                              <div style={{ display: "flex", flexDirection: "column", alignItems: msg.senderId === userName ? "flex-end" : "flex-start", maxWidth: "70%" }}>
+                                <div style={{ 
+                                  padding: "0.5rem 0.75rem", 
+                                  borderRadius: msg.senderId === userName ? "12px 12px 0 12px" : "12px 12px 12px 0", 
+                                  background: msg.senderId === userName ? "#ec4899" : "rgba(255,255,255,0.1)",
+                                  color: "white",
+                                  fontSize: "0.95rem"
+                                }}>
+                                  <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>{msg.text}</p>
+                                </div>
+                                <span style={{ fontSize: "0.7rem", opacity: 0.7, marginTop: "0.25rem" }}>
                                   {new Date(msg.createdAt).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
                                 </span>
                               </div>
@@ -1111,19 +1115,37 @@ export default function Home() {
                           ))
                         )}
                       </div>
-                      <form onSubmit={handleSendInboxMessage} style={{ display: "flex", gap: "0.5rem", padding: "1rem", borderTop: "1px solid rgba(255,255,255,0.1)" }}>
-                        <input 
-                          type="text" 
-                          value={inboxInput} 
-                          onChange={e => setInboxInput(e.target.value)} 
-                          placeholder="Type your message..."
-                          disabled={isSendingInbox}
-                          style={{ flex: 1, padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.3)", color: "white", fontSize: "1rem" }}
-                        />
-                        <button type="submit" className="btn" disabled={isSendingInbox || !inboxInput.trim()} style={{ background: "#ec4899" }}>
-                          Send
-                        </button>
-                      </form>
+                      <div style={{ position: "relative" }}>
+                        {showEmojiPicker && (
+                          <div style={{ position: "absolute", bottom: "100%", left: "1rem", zIndex: 50, marginBottom: "0.5rem" }}>
+                            <EmojiPicker 
+                              onEmojiClick={(emojiData) => setInboxInput(prev => prev + emojiData.emoji)} 
+                              theme={"dark" as any}
+                            />
+                          </div>
+                        )}
+                        <form onSubmit={handleSendInboxMessage} style={{ display: "flex", gap: "0.5rem", padding: "1rem", borderTop: "1px solid rgba(255,255,255,0.1)" }}>
+                          <button 
+                            type="button"
+                            onClick={() => setShowEmojiPicker(!showEmojiPicker)}
+                            style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)", borderRadius: "8px", padding: "0 1rem", fontSize: "1.2rem", cursor: "pointer" }}
+                          >
+                            😀
+                          </button>
+                          <input 
+                            type="text" 
+                            value={inboxInput} 
+                            onChange={e => setInboxInput(e.target.value)} 
+                            onFocus={() => setShowEmojiPicker(false)}
+                            placeholder="Type your message..."
+                            disabled={isSendingInbox}
+                            style={{ flex: 1, padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.3)", color: "white", fontSize: "0.95rem" }}
+                          />
+                          <button type="submit" className="btn" disabled={isSendingInbox || !inboxInput.trim()} style={{ background: "#ec4899", padding: "0 1.5rem" }} onClick={() => setShowEmojiPicker(false)}>
+                            Send
+                          </button>
+                        </form>
+                      </div>
                     </>
                   )}
                 </div>
