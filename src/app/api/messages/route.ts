@@ -57,3 +57,25 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }
+
+export async function PUT(req: NextRequest) {
+  try {
+    const { receiverId, senderId } = await req.json();
+
+    if (!receiverId || !senderId) {
+      return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+    }
+
+    await connectToDatabase();
+
+    await Message.updateMany(
+      { receiverId, senderId, read: false },
+      { $set: { read: true } }
+    );
+
+    return NextResponse.json({ success: true });
+  } catch (error: any) {
+    console.error("Messages PUT Error:", error);
+    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+  }
+}

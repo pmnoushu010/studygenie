@@ -69,6 +69,8 @@ export default function Home() {
   const [inboxMessages, setInboxMessages] = useState<any[]>([]);
   const [inboxInput, setInboxInput] = useState("");
   const [isSendingInbox, setIsSendingInbox] = useState(false);
+  const [unreadCount, setUnreadCount] = useState(0);
+  const [unreadSenders, setUnreadSenders] = useState<string[]>([]);
 
 
   const handleCreateUser = async (e: React.FormEvent) => {
@@ -100,6 +102,14 @@ export default function Home() {
     try {
       const myUsername = localStorage.getItem("userName");
       if (!myUsername) return;
+
+      // Mark messages as read
+      await fetch('/api/messages', {
+        method: 'PUT',
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ receiverId: myUsername, senderId: otherUser })
+      });
+
       const res = await fetch(`/api/messages?user1=${encodeURIComponent(myUsername)}&user2=${encodeURIComponent(otherUser)}`);
       const data = await res.json();
       if (res.ok) setInboxMessages(data.messages || []);
@@ -152,6 +162,28 @@ export default function Home() {
     }
     return () => clearInterval(interval);
   }, [mainTab, adminInboxUser, userRole]);
+
+  // Poll for unread messages globally
+  useEffect(() => {
+    const fetchUnread = async () => {
+      const myUsername = localStorage.getItem("userName");
+      if (!myUsername) return;
+      try {
+        const res = await fetch(`/api/messages/unread?user=${encodeURIComponent(myUsername)}`);
+        const data = await res.json();
+        if (data.success) {
+          setUnreadCount(data.unreadCount);
+          setUnreadSenders(data.senders);
+        }
+      } catch (e) {
+        console.error("Failed to fetch unread messages");
+      }
+    };
+    
+    fetchUnread();
+    const interval = setInterval(fetchUnread, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   // Ping heartbeat every 60 seconds
   useEffect(() => {
@@ -640,9 +672,14 @@ export default function Home() {
                 fetchUsers(); // To populate student list
               }
             }}
-            style={mainTab === "inbox" ? { background: "#ec4899", borderColor: "#ec4899", boxShadow: "0 4px 12px rgba(236, 72, 153, 0.4)" } : {}}
+            style={mainTab === "inbox" ? { background: "#ec4899", borderColor: "#ec4899", boxShadow: "0 4px 12px rgba(236, 72, 153, 0.4)", position: "relative" } : { position: "relative" }}
           >
             📬 Inbox
+            {unreadCount > 0 && (
+              <span style={{ position: "absolute", top: "-5px", right: "-10px", background: "#ef4444", color: "white", borderRadius: "50%", padding: "2px 6px", fontSize: "0.75rem", fontWeight: "bold" }}>
+                {unreadCount}
+              </span>
+            )}
           </button>
 
           {userRole === "superadmin" && (
@@ -1033,9 +1070,12 @@ export default function Home() {
                       <div 
                         key={u.username} 
                         onClick={() => setAdminInboxUser(u.username)}
-                        style={{ padding: "1rem", cursor: "pointer", background: adminInboxUser === u.username ? "rgba(236, 72, 153, 0.2)" : "transparent", borderBottom: "1px solid rgba(255,255,255,0.05)", borderLeft: adminInboxUser === u.username ? "4px solid #ec4899" : "4px solid transparent" }}
+                        style={{ padding: "1rem", cursor: "pointer", background: adminInboxUser === u.username ? "rgba(236, 72, 153, 0.2)" : "transparent", borderBottom: "1px solid rgba(255,255,255,0.05)", borderLeft: adminInboxUser === u.username ? "4px solid #ec4899" : "4px solid transparent", display: "flex", justifyContent: "space-between", alignItems: "center" }}
                       >
-                        {u.name || u.username}
+                        <span>{u.name || u.username}</span>
+                        {unreadSenders.includes(u.username) && (
+                          <span style={{ width: "10px", height: "10px", background: "#ef4444", borderRadius: "50%", display: "inline-block" }} title="New Message"></span>
+                        )}
                       </div>
                     ))}
                   </div>
