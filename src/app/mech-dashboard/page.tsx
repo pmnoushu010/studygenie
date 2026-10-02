@@ -642,6 +642,25 @@ export default function Home() {
           </button>
         </div>
 
+        {/* Stream/App Tabs (Admin Only) */}
+        {userRole === "superadmin" && (
+          <div style={{ display: "flex", gap: "0.5rem", marginBottom: "-0.5rem" }}>
+            <button 
+              className="nav-tab"
+              onClick={() => router.push("/dashboard")}
+              style={{ background: "transparent", color: "#3b82f6", borderColor: "rgba(59, 130, 246, 0.3)", padding: "0.5rem 1rem", fontSize: "1rem" }}
+            >
+              🏫 9th Std
+            </button>
+            <button 
+              className="nav-tab active"
+              style={{ background: "#f59e0b", color: "white", borderColor: "#f59e0b", padding: "0.5rem 1rem", fontSize: "1rem", fontWeight: "bold" }}
+            >
+              ⚙️ Mech Dashboard
+            </button>
+          </div>
+        )}
+
         {/* Bottom Row: Navigation Tabs */}
         <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", flexWrap: "wrap" }}>
           <button 
@@ -702,13 +721,6 @@ export default function Home() {
                 onClick={() => setMainTab("users")}
               >
                 🧑‍🎓 Manage Users
-              </button>
-              <button 
-                className="nav-tab"
-                onClick={() => router.push("/dashboard")}
-                style={{ color: "#10b981", borderColor: "rgba(16, 185, 129, 0.3)" }}
-              >
-                🏫 9th Std Dashboard
               </button>
             </>
           )}
