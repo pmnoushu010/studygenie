@@ -704,7 +704,7 @@ export default function Home() {
           </button>
 
           {userRole === "superadmin" && (
-            <>
+            <div style={{ display: "flex", gap: "0.5rem", marginLeft: "auto", alignItems: "center" }}>
               <div style={{ width: "1px", height: "24px", background: "rgba(255,255,255,0.2)", margin: "0 0.5rem" }} />
               <button 
                 className={`nav-tab ${mainTab === "network" ? "active admin-network" : ""}`}
@@ -718,7 +718,7 @@ export default function Home() {
               >
                 🧑‍🎓 Manage Users
               </button>
-            </>
+            </div>
           )}
         </div>
       </header>

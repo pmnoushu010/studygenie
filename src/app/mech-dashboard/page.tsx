@@ -9,7 +9,10 @@ const QUESTION_TYPES = [
   { id: "essay", label: "Part B (12 Marks)" },
 ];
 
-const SUBJECTS = ["Basic Mechanical Engineering"];
+const SEMESTERS = [
+  { id: "sem-2", label: "Sem-2", subjects: ["Basic Mechanical Engineering"] },
+  { id: "sem-3", label: "Sem-3", subjects: [] }
+];
 
 export default function Home() {
   const router = useRouter();
@@ -18,7 +21,9 @@ export default function Home() {
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [userName, setUserName] = useState<string>("Student");
   
-  const [activeSubject, setActiveSubject] = useState(SUBJECTS[0]);
+  const [activeSemester, setActiveSemester] = useState(SEMESTERS[0].id);
+  const activeSemesterData = SEMESTERS.find(s => s.id === activeSemester) || SEMESTERS[0];
+  const [activeSubject, setActiveSubject] = useState(SEMESTERS[0].subjects[0] || "");
   const [folders, setFolders] = useState<string[]>([]);
   const [activeFolder, setActiveFolder] = useState<string | null>(null);
   const [activeQType, setActiveQType] = useState(QUESTION_TYPES[0].id);
@@ -708,7 +713,7 @@ export default function Home() {
           </button>
 
           {userRole === "superadmin" && (
-            <>
+            <div style={{ display: "flex", gap: "0.5rem", marginLeft: "auto", alignItems: "center" }}>
               <div style={{ width: "1px", height: "24px", background: "rgba(255,255,255,0.2)", margin: "0 0.5rem" }} />
               <button 
                 className={`nav-tab ${mainTab === "network" ? "active admin-network" : ""}`}
@@ -722,33 +727,67 @@ export default function Home() {
               >
                 🧑‍🎓 Manage Users
               </button>
-            </>
+            </div>
           )}
         </div>
       </header>
 
-      {/* Subject Tabs */}
-      <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1.5rem", overflowX: "auto", paddingBottom: "0.5rem", pointerEvents: mainTab === "exam" ? "none" : "auto", opacity: mainTab === "exam" ? 0.5 : 1 }}>
-        {SUBJECTS.map(subject => (
+      {/* Semester Tabs */}
+      <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1rem", borderBottom: "1px solid rgba(255,255,255,0.1)", paddingBottom: "1rem" }}>
+        {SEMESTERS.map(sem => (
           <button
-            key={subject}
-            onClick={() => setActiveSubject(subject)}
+            key={sem.id}
+            onClick={() => {
+              setActiveSemester(sem.id);
+              if (sem.subjects.length > 0) {
+                setActiveSubject(sem.subjects[0]);
+              } else {
+                setActiveSubject("");
+              }
+            }}
             style={{
-              padding: "0.75rem 2rem",
-              borderRadius: "99px",
-              border: activeSubject === subject ? "none" : "1px solid rgba(255,255,255,0.2)",
-              background: activeSubject === subject ? "#10b981" : "transparent",
-              color: "white",
+              padding: "0.5rem 1.5rem",
+              borderRadius: "8px",
+              background: activeSemester === sem.id ? "#3b82f6" : "transparent",
+              color: activeSemester === sem.id ? "white" : "#94a3b8",
+              border: activeSemester === sem.id ? "none" : "1px solid rgba(255,255,255,0.2)",
               cursor: "pointer",
-              fontSize: "1.1rem",
-              fontWeight: activeSubject === subject ? "bold" : "normal",
-              whiteSpace: "nowrap"
+              fontWeight: activeSemester === sem.id ? "bold" : "normal"
             }}
           >
-            {subject}
+            {sem.label}
           </button>
         ))}
       </div>
+
+      {/* Subject Tabs */}
+      {activeSemesterData.subjects.length > 0 ? (
+        <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1.5rem", overflowX: "auto", paddingBottom: "0.5rem", pointerEvents: mainTab === "exam" ? "none" : "auto", opacity: mainTab === "exam" ? 0.5 : 1 }}>
+          {activeSemesterData.subjects.map(subject => (
+            <button
+              key={subject}
+              onClick={() => setActiveSubject(subject)}
+              style={{
+                padding: "0.75rem 2rem",
+                borderRadius: "99px",
+                border: activeSubject === subject ? "none" : "1px solid rgba(255,255,255,0.2)",
+                background: activeSubject === subject ? "#10b981" : "transparent",
+                color: "white",
+                cursor: "pointer",
+                fontSize: "1.1rem",
+                fontWeight: activeSubject === subject ? "bold" : "normal",
+                whiteSpace: "nowrap"
+              }}
+            >
+              {subject}
+            </button>
+          ))}
+        </div>
+      ) : (
+        <div style={{ padding: "1rem", color: "#94a3b8", fontStyle: "italic", marginBottom: "1.5rem" }}>
+          No subjects added for this semester yet.
+        </div>
+      )}
 
       <div className="main-content">
         <aside className="sidebar" style={{ opacity: mainTab === "exam" ? 0.5 : 1, pointerEvents: mainTab === "exam" ? "none" : "auto" }}>
