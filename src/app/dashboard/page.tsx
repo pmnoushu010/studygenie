@@ -677,7 +677,7 @@ export default function Home() {
             className={`nav-tab ${(mainTab === "exam" && !isSubjectExam) ? "active exam" : ""}`}
             onClick={() => setMainTab("exam")}
           >
-            🎓 Take Chapter Exam
+            🎓 Chapter Exam
           </button>
           <button 
             className={`nav-tab ${(mainTab === "subject-exam" || (mainTab === "exam" && isSubjectExam)) ? "active subject-exam" : ""}`}
@@ -704,8 +704,8 @@ export default function Home() {
           </button>
 
           {userRole === "superadmin" && (
-            <div style={{ display: "flex", gap: "0.5rem", marginLeft: "auto", alignItems: "center" }}>
-              <div style={{ width: "1px", height: "24px", background: "rgba(255,255,255,0.2)", margin: "0 0.5rem" }} />
+            <>
+              <div style={{ width: "1px", height: "24px", background: "rgba(255,255,255,0.2)", margin: "0 0.5rem", marginLeft: "auto" }} />
               <button 
                 className={`nav-tab ${mainTab === "network" ? "active admin-network" : ""}`}
                 onClick={() => setMainTab("network")}
@@ -718,7 +718,7 @@ export default function Home() {
               >
                 🧑‍🎓 Manage Users
               </button>
-            </div>
+            </>
           )}
         </div>
       </header>

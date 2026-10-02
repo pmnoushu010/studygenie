@@ -686,7 +686,7 @@ export default function Home() {
             className={`nav-tab ${(mainTab === "exam" && !isSubjectExam) ? "active exam" : ""}`}
             onClick={() => setMainTab("exam")}
           >
-            🎓 Take Chapter Exam
+            🎓 Chapter Exam
           </button>
           <button 
             className={`nav-tab ${(mainTab === "subject-exam" || (mainTab === "exam" && isSubjectExam)) ? "active subject-exam" : ""}`}
@@ -713,8 +713,8 @@ export default function Home() {
           </button>
 
           {userRole === "superadmin" && (
-            <div style={{ display: "flex", gap: "0.5rem", marginLeft: "auto", alignItems: "center" }}>
-              <div style={{ width: "1px", height: "24px", background: "rgba(255,255,255,0.2)", margin: "0 0.5rem" }} />
+            <>
+              <div style={{ width: "1px", height: "24px", background: "rgba(255,255,255,0.2)", margin: "0 0.5rem", marginLeft: "auto" }} />
               <button 
                 className={`nav-tab ${mainTab === "network" ? "active admin-network" : ""}`}
                 onClick={() => setMainTab("network")}
@@ -727,7 +727,7 @@ export default function Home() {
               >
                 🧑‍🎓 Manage Users
               </button>
-            </div>
+            </>
           )}
         </div>
       </header>
@@ -761,7 +761,7 @@ export default function Home() {
       </div>
 
       {/* Subject Tabs */}
-      {activeSemesterData.subjects.length > 0 ? (
+      {activeSemesterData.subjects.length > 0 && (
         <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1.5rem", overflowX: "auto", paddingBottom: "0.5rem", pointerEvents: mainTab === "exam" ? "none" : "auto", opacity: mainTab === "exam" ? 0.5 : 1 }}>
           {activeSemesterData.subjects.map(subject => (
             <button
@@ -783,13 +783,9 @@ export default function Home() {
             </button>
           ))}
         </div>
-      ) : (
-        <div style={{ padding: "1rem", color: "#94a3b8", fontStyle: "italic", marginBottom: "1.5rem" }}>
-          No subjects added for this semester yet.
-        </div>
       )}
 
-      <div className="main-content">
+      <div className="main-content" style={activeSemesterData.subjects.length === 0 ? { display: 'none' } : undefined}>
         <aside className="sidebar" style={{ opacity: mainTab === "exam" ? 0.5 : 1, pointerEvents: mainTab === "exam" ? "none" : "auto" }}>
           <h2>{activeSubject} Chapters</h2>
           {isLoadingFolders ? (
