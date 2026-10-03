@@ -1,0 +1,39 @@
+{
+  "summary": "This chapter covers the impact of jets and jet propulsion. It details the calculation of force exerted by a jet of fluid on various types of plates: stationary and moving, flat (vertical or inclined), and curved. It explains the impulse-momentum equation, work done by the jet on moving plates, and conditions for maximum efficiency. Furthermore, it delves into the principles of jet propulsion for tanks with orifices and for ships, covering different intake and discharge configurations and calculating their propelling force and propulsion efficiency.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): Define the term 'Impact of Jets'.",
+      "a": "The force exerted by a jet of liquid (like water) on a plate, which may be stationary or moving, is known as the impact of jet. This force is determined using Newton's second law of motion or the impulse-momentum equation, which states that the force is equal to the rate of change of momentum of the jet."
+    },
+    {
+      "q": "Part A (3 Marks): What is the force exerted by a jet on a stationary vertical plate?",
+      "a": "When a jet of fluid strikes a stationary vertical plate normally, the force exerted by the jet in the direction of flow is given by Fx = ρaV², where ρ is the density of the fluid, a is the cross-sectional area of the jet, and V is the velocity of the jet."
+    },
+    {
+      "q": "Part A (3 Marks): How do you calculate the force exerted by a jet on a series of flat plates mounted on the periphery of a wheel?",
+      "a": "The force exerted in the direction of motion is Fx = ρaV(V - u), where V is the absolute velocity of the jet and u is the velocity of the vanes. The mass of water striking the series of plates per second is ρaV, unlike a single moving plate."
+    },
+    {
+      "q": "Part A (3 Marks): What is the condition for maximum efficiency of a series of moving flat plates?",
+      "a": "For a given jet velocity V, the efficiency of a series of flat plates is maximum when the velocity of the wheel/plates (u) is half of the velocity of the jet (V). Thus, u = V/2. The maximum efficiency under this condition is 50%."
+    },
+    {
+      "q": "Part A (3 Marks): Define jet propulsion and state its application.",
+      "a": "Jet propulsion is the propulsion or movement of bodies such as ships, aircrafts, and rockets with the help of a jet. It works on the principle of Newton's third law of motion: the reaction of the jet coming out from an orifice provided in the body exerts an equal and opposite force that propels the body."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) Derive the expression for the force exerted by a jet of water on a stationary curved plate when the jet strikes tangentially at one end and the plate is unsymmetrical. (8 marks)\n(b) A jet of water of diameter 50 mm strikes a fixed plate in such a way that the angle between the plate and the jet is 30°. The force exerted in the direction of the jet is 1471.5 N. Determine the rate of flow of water. (4 marks)",
+      "a": "(a) Consider a jet striking an unsymmetrical stationary curved plate tangentially at one end. Let V be the velocity of jet, θ and φ be the angles made by the tangents at inlet and outlet respectively with the x-axis. The inlet velocity components are V1x = V cos θ and V1y = V sin θ. The outlet velocity components are V2x = -V cos φ and V2y = V sin φ (assuming smooth plate, V2 = V1 = V). The force in x-direction is Fx = mass/sec × (V1x - V2x) = ρaV(V cos θ - (-V cos φ)) = ρaV²(cos θ + cos φ). The force in y-direction is Fy = ρaV(V sin θ - V sin φ) = ρaV²(sin θ - sin φ).\n\n(b) Given: d = 50 mm = 0.05 m, Area a = (π/4)(0.05)² = 0.001963 m². Angle θ = 30°. Force Fx = 1471.5 N. For a stationary inclined plate, Fx = ρaV² sin²θ. So, 1471.5 = 1000 × 0.001963 × V² × (sin 30°)². This gives V² = 1471.5 / (1000 × 0.001963 × 0.25) = 3000. Hence V = 54.77 m/s. Discharge Q = a × V = 0.001963 × 54.77 = 0.1075 m³/s or 107.5 liters/s."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Prove that the work done per second on a series of moving curved vanes by a jet of water striking at one of the tips of the vane is given by: Work done/sec = ρaV1[Vw1 ± Vw2]u. (8 marks)\n(b) A nozzle of 50 mm diameter delivers a stream of water at 20 m/s perpendicular to a plate that moves away from the jet at 5 m/s. Find the force on the plate and the work done. (4 marks)",
+      "a": "(a) Let a series of curved vanes move with velocity u. Jet strikes with absolute velocity V1. Mass of water striking per second is ρaV1. The force exerted in the direction of motion is Fx = (mass/sec) × (initial velocity of jet in direction of motion - final velocity). Initial velocity component is Vw1 (velocity of whirl at inlet). Final velocity component is ±Vw2 (velocity of whirl at outlet, positive if in same direction, negative if opposite). So, Fx = ρaV1(Vw1 ± Vw2). Work done per second = Fx × u = ρaV1(Vw1 ± Vw2) × u.\n\n(b) Given d = 0.05 m, a = 0.001963 m², V = 20 m/s, u = 5 m/s. For a single flat vertical plate moving in direction of jet, Force Fx = ρa(V - u)². Fx = 1000 × 0.001963 × (20 - 5)² = 441.78 N. Work done per second = Fx × u = 441.78 × 5 = 2208.9 Nm/s (or Watts)."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Obtain an expression for the efficiency of jet propulsion of a ship when the inlet orifices are at right angles to the direction of motion of the ship. (6 marks)\n(b) Find the propelling force and efficiency of a jet propelled boat moving at 30 km/hr in sea water. The water is drawn amid-ship and discharged at the back with absolute velocity of 20 m/s. Area of jet is 0.02 m². (6 marks)",
+      "a": "(a) Let V = absolute velocity of jet, u = velocity of ship. The relative velocity of the jet with respect to the ship is Vr = V + u. Water is drawn at right angles, so initial velocity in direction of ship is zero. Mass of water issued = ρaVr = ρa(V + u). Propelling force F = (Mass/sec) × (Change in velocity) = ρa(V + u) × V. Work done per second = F × u = ρa(V + u) × V × u. Kinetic energy supplied = 1/2 × mass × Vr² = 1/2 × ρa(V + u) × (V + u)². Efficiency η = (Work done/sec) / (K.E. supplied) = [ρa(V + u)Vu] / [1/2 ρa(V+u)³] = 2Vu / (V+u)².\n\n(b) Given u = 30 km/hr = 8.33 m/s, V = 20 m/s, a = 0.02 m². Density of sea water ρ ≈ 1000 kg/m³ (assuming standard unless specified). Water drawn amid-ship implies inlet at right angles. Propelling force F = ρa(V+u)V = 1000 × 0.02 × (20 + 8.33) × 20 = 11332 N. Efficiency η = (2Vu) / (V+u)² = (2 × 20 × 8.33) / (20 + 8.33)² = 333.2 / 802.58 = 0.415 or 41.5%."
+    }
+  ]
+}

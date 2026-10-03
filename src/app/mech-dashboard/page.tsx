@@ -11,7 +11,7 @@ const QUESTION_TYPES = [
 
 const SEMESTERS = [
   { id: "sem-2", label: "Sem-2", subjects: ["Basic Mechanical Engineering"] },
-  { id: "sem-3", label: "Sem-3", subjects: [] }
+  { id: "sem-3", label: "Sem-3", subjects: ["Mechanical Engineering"] }
 ];
 
 export default function Home() {
