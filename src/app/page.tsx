@@ -35,6 +35,8 @@ export default function LandingPage() {
         setLoginError("");
         if (data.role === "student" && data.stream === "mech") {
           router.push("/mech-dashboard");
+        } else if (data.role === "student" && data.stream === "ca") {
+          router.push("/ca-dashboard");
         } else {
           router.push("/dashboard");
         }
