@@ -1002,8 +1002,8 @@ export default function Home() {
                     {questions[activeQType]?.length > 0 ? (
                       questions[activeQType].map((q: any, i: number) => (
                         <div key={i} className="question-item">
-                          <p className="q">Q: {q.q}</p>
-                          <p className="a">A: {q.a}</p>
+                          <p className="q" style={{ whiteSpace: "pre-wrap" }}>Q: {q.q}</p>
+                          <p className="a" style={{ whiteSpace: "pre-wrap" }}>A: {q.a}</p>
                         </div>
                       ))
                     ) : <p style={{ color: "#94a3b8" }}>No questions generated for this type.</p>}
@@ -1294,7 +1294,7 @@ export default function Home() {
                                   {examSubmitted && (
                                     <div style={{ padding: "1rem", background: "rgba(0,0,0,0.4)", borderRadius: "8px", borderLeft: "4px solid #8b5cf6" }}>
                                       <p style={{ marginBottom: "0.5rem", color: "#cbd5e1" }}><strong>Your Answer:</strong> <br/>{examAnswers[key] || <em style={{color:"#ef4444"}}>No answer provided</em>}</p>
-                                      <p style={{ color: "#10b981" }}><strong>Correct Answer:</strong> <br/>{q.a}</p>
+                                      <p style={{ color: "#10b981", whiteSpace: "pre-wrap" }}><strong>Correct Answer:</strong> <br/>{q.a}</p>
                                     </div>
                                   )}
                                 </div>
