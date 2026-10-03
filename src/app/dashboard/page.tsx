@@ -654,6 +654,13 @@ export default function Home() {
             >
               ⚙️ Mech Dashboard
             </button>
+            <button 
+              className="nav-tab"
+              onClick={() => router.push("/ca-dashboard")}
+              style={{ background: "transparent", color: "#10b981", borderColor: "rgba(16, 185, 129, 0.3)", padding: "0.5rem 1rem", fontSize: "1rem" }}
+            >
+              📊 CA Dashboard
+            </button>
           </div>
         )}
 

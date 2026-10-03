@@ -658,10 +658,17 @@ export default function Home() {
               🏫 9th Std
             </button>
             <button 
-              className="nav-tab active"
-              style={{ background: "#f59e0b", color: "white", borderColor: "#f59e0b", padding: "0.5rem 1rem", fontSize: "1rem", fontWeight: "bold" }}
+              className="nav-tab"
+              onClick={() => router.push("/mech-dashboard")}
+              style={{ background: "transparent", color: "#f59e0b", borderColor: "rgba(245, 158, 11, 0.3)", padding: "0.5rem 1rem", fontSize: "1rem" }}
             >
               ⚙️ Mech Dashboard
+            </button>
+            <button 
+              className="nav-tab active"
+              style={{ background: "#10b981", color: "white", borderColor: "#10b981", padding: "0.5rem 1rem", fontSize: "1rem", fontWeight: "bold" }}
+            >
+              📊 CA Dashboard
             </button>
           </div>
         )}
