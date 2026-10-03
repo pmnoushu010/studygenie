@@ -23,7 +23,7 @@ export default function Home() {
   
   const [activeSemester, setActiveSemester] = useState(SEMESTERS[0].id);
   const activeSemesterData = SEMESTERS.find(s => s.id === activeSemester) || SEMESTERS[0];
-  const [activeSubject, setActiveSubject] = useState(SEMESTERS[0].subjects[0] || "");
+  const [activeSubject, setActiveSubject] = useState<string>(SEMESTERS[0].subjects[0] || "");
   const [folders, setFolders] = useState<string[]>([]);
   const [activeFolder, setActiveFolder] = useState<string | null>(null);
   const [activeQType, setActiveQType] = useState(QUESTION_TYPES[0].id);
