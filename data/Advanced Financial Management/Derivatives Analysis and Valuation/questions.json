@@ -1,0 +1,453 @@
+{
+  "summary": "This chapter covers Derivatives Analysis and Valuation for CA Final Advanced Financial Management (AFM). It encompasses the foundational mechanics of Forward Contracts and Futures Contracts, the Cost of Carry pricing model (simple and continuous compounding with discrete and continuous dividend yields), and the concept of Basis (Contango vs. Backwardation and Convergence). It details Exchange Margin Architecture (Initial Margin based on μ + 3σ, Maintenance Margin, and Daily Mark-to-Market P&L accounting), Portfolio Beta Hedging, and Target Beta management using Index Futures. In Options, it explores option payoffs, the Binomial Model (one-step and multi-step trees with hedge ratio Delta), Risk-Neutral Valuation, the Black-Scholes Formula, Put-Call Parity, Option Greeks (Delta, Gamma, Theta, Vega, Rho), and Exotic Options. Finally, it analyzes Credit Derivatives (CDOs and CDS), Real Options in capital budgeting (Growth, Abandonment, and Timing options), Commodity/Weather/Electricity derivatives, and historic derivative mishaps (Orange County, Barings Bank, P&G) with treasury risk management lessons.",
+  "oneword": [
+    {
+      "q": "In a futures market, what is the term used to describe a condition where the spot price of an asset exceeds its futures price, resulting in a positive basis?\n(a) Contango Market\n(b) Backwardation (Inverted) Market\n(c) Convergence Market\n(d) Delta-Neutral Market",
+      "a": "(b) Backwardation (Inverted) Market"
+    },
+    {
+      "q": "The stock of XYZ Ltd. is trading at ₹ 220 in the cash market. The 3-month borrowing rate is 15% p.a., and an annual dividend of 25% on face value of ₹ 10 is payable before expiry. Under the Cost of Carry model, what is the theoretical arbitrage-free 3-month futures price?\n(a) ₹ 230.00\n(b) ₹ 225.75\n(c) ₹ 228.25\n(d) ₹ 232.50",
+      "a": "(b) ₹ 225.75"
+    },
+    {
+      "q": "An investor holds a stock futures position. If the daily absolute price changes have a mean (μ) of ₹ 10,000 and a standard deviation (σ) of ₹ 2,000, what is the Initial Margin requirement based on the standard 99% Value at Risk (μ + 3σ) rule?\n(a) ₹ 12,000\n(b) ₹ 16,000\n(c) ₹ 14,000\n(d) ₹ 10,000",
+      "a": "(b) ₹ 16,000"
+    },
+    {
+      "q": "An equity portfolio worth ₹ 90 Crores has a Beta of 1.1. If Nifty index futures are trading at 4,300 with a lot size of 50 units, how many contracts must be shorted to achieve a perfect market hedge?\n(a) 4,605 contracts\n(b) 4,186 contracts\n(c) 5,066 contracts\n(d) 3,800 contracts",
+      "a": "(a) 4,605 contracts"
+    },
+    {
+      "q": "Which Option Greek measures the sensitivity of the Option Delta itself to a unit change in the underlying stock price (i.e., the curvature of the option price curve)?\n(a) Vega\n(b) Theta\n(c) Gamma\n(d) Rho",
+      "a": "(c) Gamma"
+    },
+    {
+      "q": "According to the Put-Call Parity relationship for European options on a non-dividend paying stock, what is the formula to synthesize a Long Put position?\n(a) Long Put = Long Call + PV of Strike Price - Spot Stock\n(b) Long Put = Long Call - PV of Strike Price + Spot Stock\n(c) Long Put = Short Call + Spot Stock\n(d) Long Put = Long Call - Spot Stock",
+      "a": "(a) Long Put = Long Call + PV of Strike Price - Spot Stock"
+    },
+    {
+      "q": "Unlike traditional financial derivatives that hedge asset price volatility, what specific type of risk is hedged primarily by Weather Derivatives?\n(a) Interest rate credit risk\n(b) Volumetric risk (volume of demand impacted by weather)\n(c) Foreign exchange counterparty risk\n(d) Catastrophic property earthquake risk",
+      "a": "(b) Volumetric risk (volume of demand impacted by weather)"
+    },
+    {
+      "q": "Which critical operational risk failure enabled Nick Leeson to conceal massive unauthorized derivative trading losses that caused the collapse of Barings Bank in 1995?\n(a) Failure to maintain initial margin with the stock exchange\n(b) Lack of structural separation (firewall) between Front Office trading and Back Office settlement/accounting\n(c) Sudden increase in Japanese corporate tax rates\n(d) Strict enforcement of European style options",
+      "a": "(b) Lack of structural separation (firewall) between Front Office trading and Back Office settlement/accounting"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Differentiate between Forward Contracts and Futures Contracts across: (a) Trading Venue, (b) Contract Standardization, (c) Counterparty Risk & Clearing, and (d) Settlement & Margin Requirements.",
+      "a": "Comparison between Forward and Futures Contracts:\n\n1. Trading Venue:\n• Forward Contracts: Traded Over-The-Counter (OTC) on a private, bilateral basis over telephone or electronic dealer networks.\n• Futures Contracts: Traded on formal, organized, and government-regulated exchanges with centralized electronic order matching.\n\n2. Contract Standardization:\n• Forward Contracts: Individually customized in terms of quantity, quality specifications, delivery date, and location.\n• Futures Contracts: Highly standardized in terms of lot size, grade of underlying asset, and cyclical expiration dates.\n\n3. Counterparty Risk & Clearing:\n• Forward Contracts: Both parties are exposed to bilateral credit (default) risk of each other.\n• Futures Contracts: Counterparty default risk is virtually eliminated through the Exchange Clearing House, which acts as the legal counterparty to every trade (Novation).\n\n4. Settlement & Margin Architecture:\n• Forward Contracts: Settle in a single lump sum on the agreed future maturity date; no interim daily cash flows or margins required.\n• Futures Contracts: Settle daily through Mark-to-Market (MTM) margin debits/credits; participants must maintain initial and maintenance margins."
+    },
+    {
+      "q": "Explain the Cost of Carry Model for pricing stock futures and index futures. Distinguish between a Contango Market and a Backwardation Market.",
+      "a": "1. The Cost of Carry Model:\nThe arbitrage-free theoretical futures price equals the current spot price plus the net carrying cost (cost of financing and storage) incurred to carry the asset until maturity, less any interim income earned:\n$$\\text{Futures Price} = \\text{Spot Price} + \\text{Carrying Cost} - \\text{Interim Returns}$$\n• Discrete Cash Dividend: $F = S_0 + S_0 \\times r \\times t - D$\n• Continuous Compounding with Continuous Dividend Yield ($y$):\n  $$F = S_0 e^{(r - y)t}$$\n  Where $S_0$ = Current Spot Price, $r$ = Risk-free rate, $y$ = Dividend yield, $t$ = Time to expiration.\n\n2. Contango vs. Backwardation Market:\n• Contango Market (Normal Market): Futures Price > Spot Price $\\implies$ Basis ($\text{Spot} - \text{Futures}$) is NEGATIVE. The price premium reflects the full cost of carry.\n• Backwardation Market (Inverted Market): Spot Price > Futures Price $\\implies$ Basis is POSITIVE. Arises during severe physical shortages of the underlying asset or when dividend/convenience yields exceed financing interest costs.\n• Convergence: On expiration date ($t = 0$), carrying costs drop to zero, and the futures price converges perfectly to the spot price ($F_T = S_T$)."
+    },
+    {
+      "q": "Explain the Black-Scholes Option Pricing Model. State its mathematical formulation for a European Call Option and outline its core underlying assumptions.",
+      "a": "1. Model Formulation:\nDeveloped by Fischer Black and Myron Scholes (1973), the model calculates the theoretical equilibrium fair price of a European call option:\n$$C_0 = S_0 N(d_1) - X e^{-rt} N(d_2)$$\nWhere:\n$$d_1 = \\frac{\\ln(S_0 / X) + (r + \\sigma^2 / 2) t}{\\sigma \\sqrt{t}} \\quad \\text{and} \\quad d_2 = d_1 - \\sigma \\sqrt{t}$$\n• $S_0$ = Current stock price; $X$ = Strike price; $t$ = Time to expiry in years\n• $r$ = Continuously compounded risk-free rate; $\\sigma$ = Annualized volatility of returns\n• $N(d_1)$ represents the option Delta (hedge ratio); $N(d_2)$ represents the risk-neutral probability of the option expiring in-the-money.\n\n2. Key Assumptions:\n• The option is European style (exercisable only at expiration).\n• The underlying stock pays no dividends during the option's lifespan.\n• Markets are frictionless with zero transaction costs and no taxes.\n• The risk-free interest rate ($r$) and volatility ($\\sigma$) remain constant.\n• Stock price movements follow a continuous geometric Brownian motion with lognormally distributed returns."
+    },
+    {
+      "q": "Define the primary Option Greeks: Delta, Gamma, Theta, Vega, and Rho. How is Delta utilized to construct a Delta-Neutral hedge?",
+      "a": "Option Greeks measure the sensitivity of an option's market price to changes in fundamental pricing variables:\n\n1. Delta ($\\Delta = \\frac{\\partial C}{\\partial S}$): Measures the rate of change in option price per unit change in underlying stock price ($0 \\le \\Delta_C \\le 1$ for Calls; $-1 \\le \\Delta_P \\le 0$ for Puts).\n2. Gamma ($\\Gamma = \\frac{\\partial \\Delta}{\\partial S}$): Measures the rate of change of Delta for a unit shift in stock price (curvature of option price curve).\n3. Theta ($\\Theta = \\frac{\\partial C}{\\partial t}$): Measures the rate of option price erosion due to the passage of time (Time Decay); always negative for long option positions.\n4. Vega ($\\nu = \\frac{\\partial C}{\\partial \\sigma}$): Measures sensitivity of option price to a 1% change in underlying volatility.\n5. Rho ($\\rho = \\frac{\\partial C}{\\partial r}$): Measures sensitivity of option price to a 1% change in the risk-free interest rate.\n\nDelta-Neutral Hedging:\nA portfolio is 'Delta-Neutral' when its net delta equals zero. For example, a trader who writes 100 call options with a Delta of 0.60 must buy $100 \\times 0.60 = 60$ shares of the underlying stock. Any small upward move in the stock is perfectly offset by losses on the short calls."
+    },
+    {
+      "q": "Contrast Financial Options with Real Options. Explain how the Abandonment Option in capital budgeting is analogous to an American Put Option.",
+      "a": "1. Financial Options vs. Real Options:\n• Underlying Asset: Financial options are written on traded financial securities (equities, indices, commodities); Real options are embedded in physical, non-traded capital investment projects.\n• Payoff Determination: Financial option payoffs are contractually fixed; Real option payoffs depend on realized operational project cash flows.\n• Time Horizon: Financial options typically have short maturities (months); Real options span multi-year strategic business horizons.\n\n2. Abandonment Option as an American Put Option:\nIn traditional capital budgeting, once capital is committed, NPV analysis assumes the project operates until terminal life. However, management retains the managerial flexibility to abandon an underperforming project and sell off plant, equipment, or land for salvage value ($S$).\n• Strike Price ($X$) = Net Salvage/Liquidation Value of project assets.\n• Underlying Asset Value ($S_t$) = Present value of continuing future operating cash flows.\n• Decision Rule: If $S_t < X$, management exercises its 'Put Option' to abandon the project, limiting downside losses and truncating the left tail of negative project outcomes."
+    },
+    {
+      "q": "Discuss the primary corporate governance and internal control lessons that emerged from classic derivative disasters such as Barings Bank and Orange County.",
+      "a": "Major risk management lessons from historical derivative mishaps:\n\n1. Do Not Trade Products Management Does Not Understand:\nNon-financial corporations and municipalities must not enter into complex, leveraged, or exotic structured derivative contracts (e.g., Bankers Trust leveraged ratio swaps) that cannot be independently valued in-house.\n\n2. Treasury as a Cost/Risk-Hedging Center, Not an Unconstrained Profit Center:\nTreasury departments should focus on minimizing funding costs and hedging operational risks. Linking a treasurer's compensation to speculative trading profits creates perverse incentives to gamble (as in Robert Citron's Orange County bets on interest rates).\n\n3. Strict Segregation of Front, Middle, and Back Offices:\nA complete functional firewall must exist between Front Office (traders executing deals), Middle Office (risk control monitoring limits), and Back Office (settlement and reconciliation). At Barings Bank, Nick Leeson simultaneously controlled trading and settlement, enabling him to conceal $1.4B of losses in Error Account 8888.\n\n4. Stress Testing, Scenario Analysis & VaR Limits:\nInstitutions must complement Value-at-Risk (VaR) models with multi-decade Scenario Analysis and Stress Testing to anticipate extreme Black Swan market shocks."
+    }
+  ],
+  "fill": [
+    {
+      "q": "The difference between the current spot price and the futures price of an asset is called ____.",
+      "a": "basis"
+    },
+    {
+      "q": "In an upward sloping normal market where futures price exceeds the spot price, the market is said to be in ____.",
+      "a": "contango"
+    },
+    {
+      "q": "In the Black-Scholes formula, the hedge ratio or option Delta for a European call is represented by the term N(____).",
+      "a": "d1"
+    },
+    {
+      "q": "Under exchange risk management rules, initial margin is statistically determined using the formula μ + ____σ.",
+      "a": "3"
+    },
+    {
+      "q": "Weather derivatives are primarily designed to hedge ____ risk rather than price risk.",
+      "a": "volumetric"
+    }
+  ],
+  "match": [
+    {
+      "q": "Contango",
+      "a": "Futures price trades at a premium above spot price (negative basis)"
+    },
+    {
+      "q": "Backwardation",
+      "a": "Spot price trades at a premium above futures price (positive basis)"
+    },
+    {
+      "q": "Delta",
+      "a": "Rate of change of option price with respect to underlying stock price"
+    },
+    {
+      "q": "Theta",
+      "a": "Time decay measuring option price erosion per day"
+    },
+    {
+      "q": "Credit Default Swap (CDS)",
+      "a": "Bilateral contract transferring credit default risk of a reference entity"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Abhishek purchased one Sensex index futures contract on February 04, 2009. The contract multiplier for Sensex futures is 50. Daily market analysis indicates that the average daily absolute change in the value of the contract (μ) is ₹ 10,000, and the standard deviation of these changes (σ) is ₹ 2,000.\nThe exchange specifies that:\n- Initial Margin is based on the 99% confidence level: Initial Margin = μ + 3σ.\n- Maintenance Margin is 75% of the Initial Margin.\n\nThe closing quotations of Sensex futures across the next 10 trading sessions in February 2009 were:\n- 04.02.09: 3,296.50\n- 05.02.09: 3,294.40\n- 06.02.09: 3,230.40\n- 07.02.09: 3,212.30\n- 10.02.09: 3,267.50\n- 11.02.09: 3,263.80\n- 12.02.09: 3,292.00\n- 14.02.09: 3,309.30\n- 17.02.09: 3,257.80\n- 18.02.09: 3,102.60\n\nYou are required to prepare a comprehensive Daily Mark-to-Market (MTM) Margin Account Statement showing the daily changes in contract value, margin account balance, and the exact payment on margin calls, if any.",
+      "a": "1. Calculation of Initial Margin and Maintenance Margin Requirements:\n$$\\text{Initial Margin} = \\mu + 3\\sigma = ₹ 10,000 + 3 \\times ₹ 2,000 = ₹ 10,000 + ₹ 6,000 = ₹ 16,000$$\n$$\\text{Maintenance Margin} = 75\\% \\times \\text{Initial Margin} = 0.75 \\times ₹ 16,000 = ₹ 12,000$$\n\n2. Daily Mark-to-Market (MTM) Operational Rules:\n• Contract Lot Size / Multiplier = 50.\n• Daily Gain / Loss = $50 \\times (\\text{Today's Closing Price} - \\text{Previous Day's Closing Price})$.\n• If Margin Account Balance at the end of the day falls strictly BELOW the Maintenance Margin (₹ 12,000), a Margin Call is triggered.\n• The investor must deposit sufficient Call Money (Variation Margin) to restore the account balance back to the full INITIAL MARGIN level (₹ 16,000).\n\n3. Day-by-Day Tracking & Margin Calls:\n• 04.02.09: Contract purchased @ 3,296.50. Initial Margin deposited = ₹ 16,000. Balance = ₹ 16,000.\n• 05.02.09: Closing = 3,294.40. Loss = $50 \\times (3,294.40 - 3,296.50) = - ₹ 105$. Balance = ₹ 15,895 (Above ₹ 12,000 $\\implies$ No Call).\n• 06.02.09: Closing = 3,230.40. Loss = $50 \\times (3,230.40 - 3,294.40) = - ₹ 3,200$. Balance = ₹ 12,695 (Above ₹ 12,000 $\\implies$ No Call).\n• 07.02.09: Closing = 3,212.30. Loss = $50 \\times (3,212.30 - 3,230.40) = - ₹ 905$.\n  Balance before call = ₹ 12,695 - ₹ 905 = ₹ 11,790.\n  Since ₹ 11,790 < ₹ 12,000, MARGIN CALL TRIGGERED!\n  Call Money = ₹ 16,000 - ₹ 11,790 = ₹ 4,210. Restored Balance = ₹ 16,000.\n• 10.02.09: Closing = 3,267.50. Gain = $50 \\times (3,267.50 - 3,212.30) = + ₹ 2,760$. Balance = ₹ 18,760.\n• 11.02.09: Closing = 3,263.80. Loss = $50 \\times (3,263.80 - 3,267.50) = - ₹ 185$. Balance = ₹ 18,575.\n• 12.02.09: Closing = 3,292.00. Gain = $50 \\times (3,292.00 - 3,263.80) = + ₹ 1,410$. Balance = ₹ 19,985.\n• 14.02.09: Closing = 3,309.30. Gain = $50 \\times (3,309.30 - 3,292.00) = + ₹ 865$. Balance = ₹ 20,850.\n• 17.02.09: Closing = 3,257.80. Loss = $50 \\times (3,257.80 - 3,309.30) = - ₹ 2,575$. Balance = ₹ 18,275.\n• 18.02.09: Closing = 3,102.60. Severe Loss = $50 \\times (3,102.60 - 3,257.80) = - ₹ 7,760$.\n  Balance before call = ₹ 18,275 - ₹ 7,760 = ₹ 10,515.\n  Since ₹ 10,515 < ₹ 12,000, MARGIN CALL TRIGGERED!\n  Call Money = ₹ 16,000 - ₹ 10,515 = ₹ 5,485. Restored Balance = ₹ 16,000.\n\nTotal Margin Call Money Paid = ₹ 4,210 + ₹ 5,485 = ₹ 9,695.",
+      "computation": {
+        "title": "Daily Mark-to-Market (MTM) Margin Account Statement - Sensex Futures",
+        "headers": [
+          { "title": "Date", "width": "12%" },
+          { "title": "Closing Price (₹)", "width": "18%" },
+          { "title": "Daily MTM P&L (₹)", "width": "24%" },
+          { "title": "Margin Account (₹)", "width": "24%" },
+          { "title": "Call Money (₹)", "width": "22%" }
+        ],
+        "columnWidths": ["12%", "18%", "24%", "24%", "22%"],
+        "rows": [
+          [
+            { "text": "04.02.09", "align": "center" },
+            { "text": "3,296.50", "align": "right" },
+            { "text": "Initial Position", "align": "center" },
+            { "text": "16,000", "align": "right" },
+            { "text": "-", "align": "center" }
+          ],
+          [
+            { "text": "05.02.09", "align": "center" },
+            { "text": "3,294.40", "align": "right" },
+            { "text": "50 × (-2.10) = - 105", "align": "right" },
+            { "text": "15,895", "align": "right" },
+            { "text": "-", "align": "center" }
+          ],
+          [
+            { "text": "06.02.09", "align": "center" },
+            { "text": "3,230.40", "align": "right" },
+            { "text": "50 × (-64.00) = - 3,200", "align": "right" },
+            { "text": "12,695", "align": "right" },
+            { "text": "-", "align": "center" }
+          ],
+          [
+            { "text": "07.02.09", "align": "center" },
+            { "text": "3,212.30", "align": "right" },
+            { "text": "50 × (-18.10) = - 905", "align": "right" },
+            { "text": "16,000", "align": "right", "isBoxed": true },
+            { "text": "4,210", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "10.02.09", "align": "center" },
+            { "text": "3,267.50", "align": "right" },
+            { "text": "50 × (+55.20) = + 2,760", "align": "right" },
+            { "text": "18,760", "align": "right" },
+            { "text": "-", "align": "center" }
+          ],
+          [
+            { "text": "11.02.09", "align": "center" },
+            { "text": "3,263.80", "align": "right" },
+            { "text": "50 × (-3.70) = - 185", "align": "right" },
+            { "text": "18,575", "align": "right" },
+            { "text": "-", "align": "center" }
+          ],
+          [
+            { "text": "12.02.09", "align": "center" },
+            { "text": "3,292.00", "align": "right" },
+            { "text": "50 × (+28.20) = + 1,410", "align": "right" },
+            { "text": "19,985", "align": "right" },
+            { "text": "-", "align": "center" }
+          ],
+          [
+            { "text": "14.02.09", "align": "center" },
+            { "text": "3,309.30", "align": "right" },
+            { "text": "50 × (+17.30) = + 865", "align": "right" },
+            { "text": "20,850", "align": "right" },
+            { "text": "-", "align": "center" }
+          ],
+          [
+            { "text": "17.02.09", "align": "center" },
+            { "text": "3,257.80", "align": "right" },
+            { "text": "50 × (-51.50) = - 2,575", "align": "right" },
+            { "text": "18,275", "align": "right" },
+            { "text": "-", "align": "center" }
+          ],
+          [
+            { "text": "18.02.09", "align": "center" },
+            { "text": "3,102.60", "align": "right" },
+            { "text": "50 × (-155.20) = - 7,760", "align": "right", "borderBottom": true },
+            { "text": "16,000", "align": "right", "isBoxed": true, "borderBottom": true },
+            { "text": "5,485", "align": "right", "isBoxed": true, "borderBottom": true }
+          ],
+          [
+            { "text": "Total Margin Calls Incurred", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Two Margin Calls (07/02 & 18/02)", "align": "center" },
+            { "text": "9,695", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Maintenance margin threshold is ₹12,000 (75% of ₹16,000).",
+          "On 07.02.09, balance fell to ₹11,790, requiring ₹4,210 top-up; on 18.02.09, balance fell to ₹10,515, requiring ₹5,485 top-up."
+        ]
+      }
+    },
+    {
+      "q": "On January 1, 2013, an investment manager manages a portfolio comprising five equity shares with the following details:\n- Security A: Price = ₹ 349.30, Quantity = 5,000 shares, Beta = 1.15\n- Security B: Price = ₹ 480.50, Quantity = 7,000 shares, Beta = 0.40\n- Security C: Price = ₹ 593.52, Quantity = 8,000 shares, Beta = 0.90\n- Security D: Price = ₹ 734.70, Quantity = 10,000 shares, Beta = 0.95\n- Security E: Price = ₹ 824.85, Quantity = 2,000 shares, Beta = 0.85\n\nThe continuously compounded cost of capital (risk-free rate) is 10.50% p.a. (treated as ln(1.105) = 0.0998; e^0.015858 = 1.01598; 365 days in a year).\nThe current spot value of NIFTY is 5,900 points. NIFTY futures expire in 58 days (February 2013) and have a minimum trading lot of 200 units.\n\nYou are required to determine:\n(i) The Portfolio Beta.\n(ii) The theoretical fair value of NIFTY futures expiring in February 2013.\n(iii) The number of NIFTY futures contracts to be sold to achieve a Complete (Perfect) Hedge.\n(iv) The number of NIFTY futures contracts to be traded if the manager desires to reduce the portfolio beta to 0.60.",
+      "a": "1. Calculation of Portfolio Value and Portfolio Beta:\n• Security A: 5,000 × ₹ 349.30 = ₹ 17,46,500; Weight = 0.0926; Beta = 1.15 $\\implies$ Wtd Beta = 0.1065\n• Security B: 7,000 × ₹ 480.50 = ₹ 33,63,500; Weight = 0.1784; Beta = 0.40 $\\implies$ Wtd Beta = 0.0714\n• Security C: 8,000 × ₹ 593.52 = ₹ 47,48,160; Weight = 0.2518; Beta = 0.90 $\\implies$ Wtd Beta = 0.2266\n• Security D: 10,000 × ₹ 734.70 = ₹ 73,47,000; Weight = 0.3897; Beta = 0.95 $\\implies$ Wtd Beta = 0.3702\n• Security E: 2,000 × ₹ 824.85 = ₹ 16,49,700; Weight = 0.0875; Beta = 0.85 $\\implies$ Wtd Beta = 0.0744\n• Total Portfolio Value = ₹ 1,88,54,860\n$$\\text{Portfolio Beta } (\\beta_p) = \\sum w_i \\beta_i = 0.1065 + 0.0714 + 0.2266 + 0.3702 + 0.0744 = 0.8491 \\approx 0.849$$\n\n2. Theoretical Fair Value of NIFTY Futures Contract:\nTime to expiry $t = 58 / 365 = 0.1589$ years.\nContinuously compounded rate $r = \\ln(1.105) = 0.0998$.\n$$F = S_0 e^{rt} = 5,900 \\times e^{0.0998 \\times 0.1589} = 5,900 \\times e^{0.015858} = 5,900 \\times 1.01598 = ₹ 5,994.28$$\nValue of One NIFTY Futures Contract ($V_f$) = $5,994.28 \\times 200 = ₹ 11,98,856$.\n\n3. Number of Contracts to be Sold for Complete (Perfect) Hedge (βtarget = 0):\n$$N_f = \\frac{\\text{Portfolio Value} \\times \\beta_p}{\\text{Value of 1 Futures Contract}} = \\frac{₹ 1,88,54,860 \\times 0.849}{₹ 11,98,856} = \\frac{₹ 1,60,07,776}{₹ 11,98,856} = 13.35 \\approx 13 \\text{ Contracts (Short)}$$\n\n4. Number of Contracts to Reduce Portfolio Beta to 0.60:\n$$N_f = \\frac{\\text{Portfolio Value} \\times (\\beta_p - \\beta_{\\text{target}})}{\\text{Value of 1 Futures Contract}} = \\frac{₹ 1,88,54,860 \\times (0.849 - 0.600)}{₹ 11,98,856}$$\n$$N_f = \\frac{₹ 1,88,54,860 \\times 0.249}{₹ 11,98,856} = \\frac{₹ 46,94,860}{₹ 11,98,856} = 3.916 \\approx 4 \\text{ Contracts (Short)}$$\n\nConclusion:\nThe manager should sell 13 NIFTY futures contracts for complete portfolio immunization, or sell 4 contracts to reduce portfolio beta to 0.60.",
+      "computation": {
+        "title": "Portfolio Beta Derivation, Theoretical Futures Pricing, and Hedge Schedule",
+        "headers": [
+          { "title": "Security / Parameter", "width": "22%" },
+          { "title": "Holding & Price", "width": "20%" },
+          { "title": "Market Value (₹)", "width": "20%" },
+          { "title": "Weight (wi)", "width": "14%" },
+          { "title": "Beta (βi)", "width": "10%" },
+          { "title": "Weighted Beta", "width": "14%" }
+        ],
+        "columnWidths": ["22%", "20%", "20%", "14%", "10%", "14%"],
+        "rows": [
+          [
+            { "text": "Security A", "align": "center" },
+            { "text": "5,000 @ ₹349.30", "align": "center" },
+            { "text": "17,46,500", "align": "right" },
+            { "text": "0.0926", "align": "right" },
+            { "text": "1.15", "align": "center" },
+            { "text": "0.1065", "align": "right" }
+          ],
+          [
+            { "text": "Security B", "align": "center" },
+            { "text": "7,000 @ ₹480.50", "align": "center" },
+            { "text": "33,63,500", "align": "right" },
+            { "text": "0.1784", "align": "right" },
+            { "text": "0.40", "align": "center" },
+            { "text": "0.0714", "align": "right" }
+          ],
+          [
+            { "text": "Security C", "align": "center" },
+            { "text": "8,000 @ ₹593.52", "align": "center" },
+            { "text": "47,48,160", "align": "right" },
+            { "text": "0.2518", "align": "right" },
+            { "text": "0.90", "align": "center" },
+            { "text": "0.2266", "align": "right" }
+          ],
+          [
+            { "text": "Security D", "align": "center" },
+            { "text": "10,000 @ ₹734.70", "align": "center" },
+            { "text": "73,47,000", "align": "right" },
+            { "text": "0.3897", "align": "right" },
+            { "text": "0.95", "align": "center" },
+            { "text": "0.3702", "align": "right" }
+          ],
+          [
+            { "text": "Security E", "align": "center" },
+            { "text": "2,000 @ ₹824.85", "align": "center" },
+            { "text": "16,49,700", "align": "right", "borderBottom": true },
+            { "text": "0.0875", "align": "right", "borderBottom": true },
+            { "text": "0.85", "align": "center", "borderBottom": true },
+            { "text": "0.0744", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Portfolio", "isHeading": true, "colSpan": 2 },
+            "",
+            { "text": "1,88,54,860", "align": "right", "isBoxed": true },
+            { "text": "1.0000", "align": "right" },
+            { "text": "βp", "align": "center" },
+            { "text": "0.849", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Theoretical NIFTY Futures Price", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "5,900 × e^(0.0998 × 58/365)", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "₹ 5,994.28", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Value of 1 NIFTY Futures Lot", "colSpan": 3 },
+            "", "",
+            { "text": "5,994.28 × 200 units", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "₹ 11,98,856", "align": "right" }
+          ],
+          [
+            { "text": "Full Hedge Contracts (to β = 0)", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "(1,88,54,860 × 0.849) / 11,98,856", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "13 Contracts", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "Target Beta = 0.60 Hedge Contracts", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "[1,88,54,860 × (0.849 - 0.60)] / 11,98,856", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "4 Contracts", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Contract value = Futures price × Contract multiplier (₹ 5,994.28 × 200 = ₹ 11,98,856).",
+          "Selling index futures effectively synthetically converts a portion of the equity portfolio into cash equivalents."
+        ]
+      }
+    },
+    {
+      "q": "The following market data relate to a non-dividend paying equity stock:\n- Current Stock Price (S0): ₹ 80.00\n- Option Exercise / Strike Price (X): ₹ 75.00\n- Standard Deviation of continuously compounded annual returns (σ): 40% (0.40)\n- Time to Expiration (t): 6 months (0.50 years)\n- Risk-Free Annual Interest Rate (r): 12.00% p.a.\n\nStatistical extract for Cumulative Standard Normal Distribution:\n- For z = 0.5820: N(0.5820) = 0.7197\n- For z = 0.2992: N(0.2992) = 0.6176\n- Value of e^(0.12 × 0.5) = e^0.06 = 1.062\n- Natural log ln(80 / 75) = ln(1.0667) = 0.0646\n\nYou are required to:\n(i) Calculate the theoretical equilibrium value of the European Call Option using the Black-Scholes Model.\n(ii) Determine the theoretical value of the European Put Option with the same strike price and maturity using the Put-Call Parity relationship.\n(iii) Calculate the Option Delta for both the Call and Put options, and determine the number of shares needed to establish a Delta-Neutral hedge for 500 short call options.",
+      "a": "1. Black-Scholes European Call Option Pricing:\n$$C_0 = S_0 N(d_1) - X e^{-rt} N(d_2)$$\nWhere:\n$$d_1 = \\frac{\\ln(S_0 / X) + [r + (\\sigma^2 / 2)] t}{\\sigma \\sqrt{t}}$$\n$$d_1 = \\frac{0.0646 + [0.12 + (0.40^2 / 2)] \\times 0.50}{0.40 \\times \\sqrt{0.50}} = \\frac{0.0646 + (0.12 + 0.08) \\times 0.50}{0.40 \\times 0.7071} = \\frac{0.0646 + 0.1000}{0.2828} = \\frac{0.1646}{0.2828} = 0.5820$$\n$$d_2 = d_1 - \\sigma \\sqrt{t} = 0.5820 - 0.2828 = 0.2992$$\nCumulative Normal Probabilities:\n• $N(d_1) = N(0.5820) = 0.7197$\n• $N(d_2) = N(0.2992) = 0.6176$\nDiscount Factor $e^{-rt} = e^{-0.06} = 1 / 1.062 = 0.94162$.\n$$C_0 = (₹ 80 \\times 0.7197) - \\left( \\frac{₹ 75}{1.062} \\times 0.6176 \\right)$$\n$$C_0 = ₹ 57.576 - (₹ 70.621 \\times 0.6176) = ₹ 57.576 - ₹ 43.616 = ₹ 13.96$$\n\n2. Put Option Valuation via Put-Call Parity:\n$$\\text{Put Price } (P_0) = C_0 + X e^{-rt} - S_0$$\n$$P_0 = ₹ 13.96 + \\frac{₹ 75}{1.062} - ₹ 80.00 = ₹ 13.96 + ₹ 70.62 - ₹ 80.00 = ₹ 4.58$$\n\n3. Delta Greeks & Delta-Neutral Hedge Portfolio:\n• Call Option Delta ($\\Delta_C$) = $N(d_1) = + 0.7197$\n• Put Option Delta ($\\Delta_P$) = $N(d_1) - 1 = 0.7197 - 1 = - 0.2803$\n• Delta-Neutral Hedge for Short 500 Call Options:\n  $$\\text{Portfolio Delta} = - (500 \\times \\Delta_C) = - (500 \\times 0.7197) = - 359.85$$\n  To neutralize risk, the trader must purchase $+ 360$ shares ($500 \\times 0.7197 \\approx 360$ shares) of the underlying stock.",
+      "computation": {
+        "title": "Black-Scholes Option Pricing and Put-Call Parity Valuation Schedule",
+        "headers": [
+          { "title": "Model Variable / Step", "width": "46%" },
+          { "title": "Formula / Statistical Value", "width": "28%" },
+          { "title": "Computed Value", "width": "26%" }
+        ],
+        "columnWidths": ["46%", "28%", "26%"],
+        "rows": [
+          [
+            { "text": "I. Standardized Parameters", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "d1 Parameter" },
+            { "text": "[ln(S/X) + (r + σ²/2)t] / σ√t", "align": "center" },
+            { "text": "0.5820", "align": "right" }
+          ],
+          [
+            { "text": "d2 Parameter" },
+            { "text": "d1 - σ√t", "align": "center" },
+            { "text": "0.2992", "align": "right" }
+          ],
+          [
+            { "text": "Cumulative Probability N(d1)" },
+            { "text": "Call Option Delta", "align": "center" },
+            { "text": "0.7197", "align": "right" }
+          ],
+          [
+            { "text": "Cumulative Probability N(d2)" },
+            { "text": "Probability In-the-Money", "align": "center" },
+            { "text": "0.6176", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Option Values", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "S0 × N(d1) Component" },
+            { "text": "₹80 × 0.7197", "align": "center" },
+            { "text": "57.576", "align": "right" }
+          ],
+          [
+            { "text": "Present Value of Strike Component" },
+            { "text": "(₹75 / 1.062) × 0.6176", "align": "center" },
+            { "text": "- 43.616", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Black-Scholes Call Option Price (C0)", "isHeading": true },
+            { "text": "57.576 - 43.616", "align": "center" },
+            { "text": "₹ 13.96", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Put Option Price (P0) via Parity", "isHeading": true },
+            { "text": "C0 + X e^(-rt) - S0", "align": "center" },
+            { "text": "₹ 4.58", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "III. Delta Hedge Requirements", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Short Call Delta Exposure (500 Calls)" },
+            { "text": "- 500 × 0.7197", "align": "center" },
+            { "text": "- 359.85", "align": "right" }
+          ],
+          [
+            { "text": "Shares to Buy for Delta-Neutral Position", "isHeading": true },
+            { "text": "Long 360 Shares @ ₹80", "align": "center" },
+            { "text": "+ 360 Shares", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Call Option value of ₹ 13.96 reflects an intrinsic value of ₹ 5.00 (₹ 80 - ₹ 75) and a time value of ₹ 8.96.",
+          "Put Option value of ₹ 4.58 is entirely time value since the option is out-of-the-money (Strike ₹ 75 < Spot ₹ 80)."
+        ]
+      }
+    },
+    {
+      "q": "Consider a two-year European Call Option with an exercise price of ₹ 50 on an equity stock currently selling at ₹ 50.\nThe investment horizon is divided into two discrete one-year periods. In each year, the stock price can either move up by 20% (u = 1.20) or move down by 20% (d = 0.80). The risk-free rate of interest is 6.00% p.a. compounded annually.\n\nYou are required to:\n(i) Calculate the risk-neutral probabilities of an upward price move and a downward price move.\n(ii) Construct a Two-Step Binomial Tree showing the stock price progression and terminal option payoffs at each node.\n(iii) Calculate the value of the call option at intermediate nodes after Year 1.\n(iv) Determine the fair market value of the call option today (at Node A).",
+      "a": "1. Risk-Neutral Probabilities Calculation:\n$$R = 1 + r_f = 1 + 0.06 = 1.06$$\n$$u = 1.20, \\quad d = 0.80$$\n$$p = \\frac{R - d}{u - d} = \\frac{1.06 - 0.80}{1.20 - 0.80} = \\frac{0.26}{0.40} = 0.65$$\n$$1 - p = 1.00 - 0.65 = 0.35$$\n\n2. Two-Step Binomial Tree Price and Payoff Progression:\n• Initial Node A (Year 0): $S_0 = ₹ 50.00$\n• Year 1 Nodes:\n  - Node B (Up): $S_u = 50 \\times 1.20 = ₹ 60.00$\n  - Node C (Down): $S_d = 50 \\times 0.80 = ₹ 40.00$\n• Year 2 Terminal Nodes:\n  - Node D (Up-Up): $S_{uu} = 60 \\times 1.20 = ₹ 72.00$\n    Call Payoff $C_{uu} = \\max(72 - 50, 0) = ₹ 22.00$\n  - Node E (Up-Down): $S_{ud} = 60 \\times 0.80 = ₹ 48.00$\n    Call Payoff $C_{ud} = \\max(48 - 50, 0) = ₹ 0.00$\n  - Node F (Down-Down): $S_{dd} = 40 \\times 0.80 = ₹ 32.00$\n    Call Payoff $C_{dd} = \\max(32 - 50, 0) = ₹ 0.00$\n\n3. Valuation at Intermediate Nodes (Year 1):\n• Node B (Up Node, S = ₹ 60):\n  $$C_B = \\frac{p C_{uu} + (1 - p) C_{ud}}{R} = \\frac{(0.65 \\times 22.00) + (0.35 \\times 0.00)}{1.06} = \\frac{14.30}{1.06} = ₹ 13.4906 \\approx ₹ 13.49$$\n• Node C (Down Node, S = ₹ 40):\n  $$C_C = \\frac{p C_{ud} + (1 - p) C_{dd}}{R} = \\frac{(0.65 \\times 0.00) + (0.35 \\times 0.00)}{1.06} = ₹ 0.00$$\n\n4. Option Value Today at Node A (Year 0):\n$$C_0 = \\frac{p C_B + (1 - p) C_C}{R} = \\frac{(0.65 \\times 13.4906) + (0.35 \\times 0.00)}{1.06} = \\frac{8.7689}{1.06} = ₹ 8.2725 \\approx ₹ 8.27$$\n\nConclusion:\nThe current theoretical value of the two-year call option is ₹ 8.27.",
+      "computation": {
+        "title": "Two-Step Binomial Option Valuation and Node Payoff Schedule",
+        "headers": [
+          { "title": "Node Location", "width": "20%" },
+          { "title": "Stock Price (₹)", "width": "20%" },
+          { "title": "Call Payoff / Formula", "width": "35%" },
+          { "title": "Option Value (₹)", "width": "25%" }
+        ],
+        "columnWidths": ["20%", "20%", "35%", "25%"],
+        "rows": [
+          [
+            { "text": "I. Terminal Nodes (Year 2)", "isUnderline": true, "isHeading": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Node D (Up-Up)", "align": "center" },
+            { "text": "72.00", "align": "right" },
+            { "text": "Max(72 - 50, 0)", "align": "center" },
+            { "text": "22.00", "align": "right" }
+          ],
+          [
+            { "text": "Node E (Up-Down)", "align": "center" },
+            { "text": "48.00", "align": "right" },
+            { "text": "Max(48 - 50, 0)", "align": "center" },
+            { "text": "0.00", "align": "right" }
+          ],
+          [
+            { "text": "Node F (Down-Down)", "align": "center" },
+            { "text": "32.00", "align": "right", "borderBottom": true },
+            { "text": "Max(32 - 50, 0)", "align": "center", "borderBottom": true },
+            { "text": "0.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Intermediate Nodes (Year 1)", "isUnderline": true, "isHeading": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Node B (Up)", "align": "center" },
+            { "text": "60.00", "align": "right" },
+            { "text": "(0.65 × 22 + 0.35 × 0) / 1.06", "align": "center" },
+            { "text": "13.49", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Node C (Down)", "align": "center" },
+            { "text": "40.00", "align": "right", "borderBottom": true },
+            { "text": "(0.65 × 0 + 0.35 × 0) / 1.06", "align": "center", "borderBottom": true },
+            { "text": "0.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "III. Root Node (Year 0)", "isUnderline": true, "isHeading": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Node A (Current)", "isHeading": true, "align": "center" },
+            { "text": "50.00", "align": "right" },
+            { "text": "(0.65 × 13.49 + 0.35 × 0) / 1.06", "align": "center" },
+            { "text": "₹ 8.272", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Risk-neutral probability of upward price increase is 0.65 [(1.06 - 0.80) / (1.20 - 0.80)].",
+          "Discounting expected terminal values at the risk-free rate of 6% yields the exact arbitrage-free call option price of ₹ 8.272."
+        ]
+      }
+    }
+  ]
+}

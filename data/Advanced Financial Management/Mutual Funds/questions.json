@@ -1,0 +1,484 @@
+{
+  "summary": "This chapter covers Mutual Funds for CA Final Advanced Financial Management (AFM). It encompasses the structure and operational mechanics of mutual funds, comparative advantages over direct stock investing, and the three-tier classification framework (Functional: Open-Ended, Close-Ended, Interval; Portfolio: Equity, Debt, and Special schemes; Ownership: Public, Private, Foreign). It details SEBI-mandated Direct Plans versus Regular Plans, Net Asset Value (NAV) computation with entry and exit loads, trail commissions, and Total Expense Ratio (TER) caps. Crucial contemporary concepts include Side Pocketing of stressed debt assets and Tracking Error in Index Funds. Performance evaluation models (Sharpe, Treynor, Sortino, and Jensen's Alpha) are integrated alongside qualitative criteria. Finally, it outlines the four-tier regulatory governance under SEBI (Sponsor, Trustees, AMC, Custodian), fund manager mandates, and the role of Foreign Institutional Investors (FIIs).",
+  "oneword": [
+    {
+      "q": "Under the SEBI (Mutual Funds) Regulations, 1996, what is the minimum proportion of independent directors required on the Board of Trustees / Trustee Company of a Mutual Fund?\n(a) At least 50%\n(b) At least two-thirds (66.67%)\n(c) At least 75%\n(d) At least 33.33%",
+      "a": "(b) At least two-thirds (66.67%)"
+    },
+    {
+      "q": "Why do 'Direct Plans' of mutual fund schemes consistently exhibit higher Net Asset Values (NAVs) and higher compounded returns compared to 'Regular Plans'?\n(a) Because Direct Plans invest in higher quality stocks\n(b) Because Direct Plans do not pay distribution expenses, marketing fees, or broker trail commissions\n(c) Because Direct Plans are completely exempt from capital gains tax\n(d) Because Direct Plans have shorter settlement cycles",
+      "a": "(b) Because Direct Plans do not pay distribution expenses, marketing fees, or broker trail commissions"
+    },
+    {
+      "q": "An investor can earn a 16% return by investing directly in equities. A newly launched equity mutual fund has initial issue expenses of 5.5% and annual recurring expenses of 1.5%. How much must the mutual fund earn to deliver a net return of 16% to the investor?\n(a) 17.50%\n(b) 18.43%\n(c) 16.94%\n(d) 19.25%",
+      "a": "(b) 18.43%"
+    },
+    {
+      "q": "What is the primary objective of creating a 'Side Pocket' in a debt mutual fund scheme following a credit downgrade of an underlying issuer?\n(a) To pay higher dividends to institutional unitholders\n(b) To isolate stressed, illiquid, or defaulted assets so that remaining liquid assets can be accurately valued and distress selling is averted\n(c) To bypass SEBI capital adequacy regulations\n(d) To merge multiple debt schemes into one equity scheme",
+      "a": "(b) To isolate stressed, illiquid, or defaulted assets so that remaining liquid assets can be accurately valued and distress selling is averted"
+    },
+    {
+      "q": "When an investor redeems units of an open-ended mutual fund scheme subject to an Exit Load, where does the deducted exit load amount go?\n(a) It is retained by the Asset Management Company (AMC) as profit\n(b) It is credited directly back to the scheme's fund corpus to benefit continuing unitholders\n(c) It is remitted to SEBI as a regulatory penalty\n(d) It is paid to the mutual fund distributor as upfront commission",
+      "a": "(b) It is credited directly back to the scheme's fund corpus to benefit continuing unitholders"
+    },
+    {
+      "q": "Which performance evaluation metric assesses a mutual fund's excess return specifically against its DOWNSIDE DEVIATION rather than total standard deviation?\n(a) Sharpe Ratio\n(b) Treynor Ratio\n(c) Sortino Ratio\n(d) Information Ratio",
+      "a": "(c) Sortino Ratio"
+    },
+    {
+      "q": "What is the statutory lock-in period for investments made in an Equity Linked Savings Scheme (ELSS) under Section 80C of the Income Tax Act, 1961?\n(a) 1 Year\n(b) 3 Years\n(c) 5 Years\n(d) 10 Years",
+      "a": "(b) 3 Years"
+    },
+    {
+      "q": "Under SEBI regulations, what is the minimum mandatory contribution that a Sponsor must make to the net worth of the Asset Management Company (AMC)?\n(a) At least 51%\n(b) At least 40%\n(c) At least 25%\n(d) At least 10%",
+      "a": "(b) At least 40%"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Explain the four-tier organizational and regulatory structure of a Mutual Fund in India as prescribed by the SEBI (Mutual Funds) Regulations, 1996.",
+      "a": "The SEBI Regulations mandate a four-tier fiduciary architecture to eliminate conflict of interest and safeguard investor capital:\n\n1. The Sponsor:\n• The promoter who initiates the mutual fund. Must have a sound financial track record in financial services for at least 5 years and positive net worth in all 5 preceding years.\n• Must contribute at least 40% of the net worth of the Asset Management Company (AMC).\n\n2. The Board of Trustees / Trustee Company:\n• Holds the entire fund property in trust for the exclusive benefit of the unitholders.\n• Independence Mandate: At least two-thirds (66.67%) of the trustees/directors must be fully independent of the sponsor.\n• Fiduciary power: Holds the authority to terminate the appointment of the AMC.\n\n3. Asset Management Company (AMC):\n• A registered limited liability company approved by SEBI that manages the investments and day-to-day operations of the schemes.\n• Must maintain a minimum net worth of ₹100 Crores. At least 50% of its board directors must be independent.\n\n4. The Custodian:\n• An independent entity registered with SEBI that maintains physical and electronic custody of all securities held by the fund. Must be completely independent of the Sponsor and the AMC."
+    },
+    {
+      "q": "Differentiate between Direct Plans and Regular Plans in mutual funds. Explain why Direct Plans are financially superior for self-directed investors.",
+      "a": "1. Operational Distinction:\n• Regular Plans: Purchased through registered intermediaries (distributors, brokers, financial advisors). The AMC pays distribution expenses, broker commissions, and ongoing trail fees out of the scheme's assets.\n• Direct Plans: Introduced by SEBI on January 1, 2013. Purchased directly by the investor from the AMC (online or through branch offices) without any intermediary broker.\n\n2. Financial & NAV Superiority:\n• Lower Expense Ratio: Direct plans do not carry distributor commissions or marketing fees, reducing the Total Expense Ratio (TER) by 0.50% to 1.50% annually.\n• Higher Net Asset Value (NAV): Because recurring expenses deducted from the scheme's net assets are lower, the NAV of a Direct Plan grows faster and is consistently higher than the Regular Plan of the exact same scheme.\n• Compounded Returns: Over a 10 to 20-year horizon, the lower expense drag generates substantially higher compounded terminal wealth for long-term investors."
+    },
+    {
+      "q": "What is 'Side Pocketing' in debt mutual funds? Explain its mechanism and significance in managing credit distress events.",
+      "a": "1. Concept and Mechanism:\nSide Pocketing is a regulatory accounting mechanism that allows a debt mutual fund to segregate stressed, downgraded (sub-investment grade), or defaulted debt assets from the fund's liquid, performing assets.\n• The stressed asset is transferred to a separate, isolated 'Side Pocket' portfolio.\n• Existing unitholders are allotted pro-rata units in the side pocket matching their holding in the main scheme.\n• The main fund's NAV immediately drops to reflect only liquid, high-quality assets.\n\n2. Significance and Benefits:\n• Prevents Distress Fire-Sales: The fund manager is not forced to dump illiquid, defaulted bonds at distressed prices to honor sudden redemption pressures.\n• Fair Treatment of Unitholders: New investors joining the fund do not get exposure to the bad debt, while redeeming investors only exit the liquid portion and remain entitled to their share of future recoveries from the side pocket.\n• Preempts Run on the Fund: In the wake of the IL&FS and DHFL credit defaults, side pocketing prevented systemic runs on debt mutual funds."
+    },
+    {
+      "q": "Define 'Tracking Error' in the context of Index Funds and ETFs. What factors cause tracking error in passively managed funds?",
+      "a": "1. Definition of Tracking Error (TE):\nTracking Error is the measure of the divergence between the price behavior of a passive index fund or ETF and the price behavior of its underlying benchmark index (e.g., Nifty 50 or Sensex). It is statistically computed as the annualized standard deviation of the excess returns ($d_t = R_{\\text{fund}, t} - R_{\\text{index}, t}$):\n$$\\text{TE} = \\sqrt{\\frac{\\sum_{t=1}^n (d_t - \\bar{d})^2}{n - 1}}$$\nA tracking error close to zero indicates perfect index replication.\n\n2. Primary Causes of Tracking Error:\n• Total Expense Ratio (TER): Management fees and operating expenses deducted daily from the fund reduce fund returns below the index.\n• Cash Drag: The fund must hold cash reserves (usually 1% to 5%) to service daily redemption requests, which causes performance lag during bull markets.\n• Transaction Costs & Brokerage: Frictional expenses incurred during portfolio rebalancing.\n• Corporate Action Lags: Timing differences in receiving and reinvesting dividend distributions and rights issues.\n• Illiquidity & Round-Lot Constraints: Inability to purchase fractional shares or illiquid index constituents at the exact closing benchmark price."
+    },
+    {
+      "q": "Explain the role and characteristics of Fixed Maturity Plans (FMPs). How do they insulate investors from interest rate risk?",
+      "a": "1. Characteristics of FMPs:\nFixed Maturity Plans are close-ended debt mutual fund schemes that invest in fixed-income debt securities (Commercial Papers, Certificates of Deposit, corporate debentures) having a tenure that closely matches the maturity of the fund itself (typically 1 to 3 years).\n\n2. Insulation from Interest Rate Risk:\n• In an open-ended bond fund, rising interest rates cause capital losses on the bond portfolio.\n• In an FMP, because the fund manager adopts a 'Buy-and-Hold to Maturity' strategy, intermediate price fluctuations caused by interest rate shifts become irrelevant. The securities are held until maturity, when full principal and coupon interest are recovered.\n\n3. Credit Risk Consideration:\nWhile FMPs eliminate interest rate risk, they are NOT risk-free. They remain exposed to Credit/Default Risk: if an issuer of an underlying debt instrument defaults or is downgraded, the final maturity NAV of the FMP will decline."
+    },
+    {
+      "q": "Distinguish between Sharpe Ratio, Treynor Ratio, and Sortino Ratio in the evaluation of mutual fund performance.",
+      "a": "Comparison of Risk-Adjusted Evaluation Ratios:\n\n1. Sharpe Ratio ($S = \\frac{R_p - R_f}{\\sigma_p}$):\n• Risk Measure: TOTAL RISK, represented by standard deviation ($\\sigma_p$).\n• Application: Best suited for evaluating sector-specific funds, thematic schemes, or when the scheme represents an investor's entire portfolio (where unsystematic risk has not been diversified away).\n\n2. Treynor Ratio ($T = \\frac{R_p - R_f}{\\beta_p}$):\n• Risk Measure: SYSTEMATIC (MARKET) RISK, represented by Beta ($\\beta_p$).\n• Application: Best suited for evaluating broadly diversified equity funds where unsystematic risk has been eliminated through portfolio diversification.\n\n3. Sortino Ratio ($\\text{Sortino} = \\frac{R_p - R_f}{\\sigma_d}$):\n• Risk Measure: DOWNSIDE DEVIATION ($\\sigma_d$), penalizing only returns falling below a minimum acceptable return (MAR).\n• Advantage over Sharpe: Sharpe penalizes upside volatility (which investors welcome). Sortino differentiates harmful downside risk from beneficial upside volatility, providing a superior measure of real investment risk."
+    }
+  ],
+  "fill": [
+    {
+      "q": "In India, Direct Plans of mutual fund schemes were officially introduced by SEBI on January 1, ____.",
+      "a": "2013"
+    },
+    {
+      "q": "Under SEBI regulations, at least ____ of the trustees of a mutual fund must be independent.",
+      "a": "two-thirds"
+    },
+    {
+      "q": "The formula to calculate Net Asset Value (NAV) is Net Assets of the Scheme divided by the number of ____ outstanding.",
+      "a": "units"
+    },
+    {
+      "q": "The measure of divergence between the return of an Index Fund and its benchmark index is known as ____ error.",
+      "a": "tracking"
+    },
+    {
+      "q": "The segregation of stressed or defaulted debt assets from the liquid portfolio in a mutual fund is called ____ pocketing.",
+      "a": "side"
+    }
+  ],
+  "match": [
+    {
+      "q": "Open-Ended Fund",
+      "a": "Continuous purchase and redemption at daily NAV with unlimited corpus"
+    },
+    {
+      "q": "Close-Ended Fund",
+      "a": "Fixed maturity with mandatory listing on stock exchanges"
+    },
+    {
+      "q": "Interval Fund",
+      "a": "Combines features of open and closed funds with periodic redemption windows"
+    },
+    {
+      "q": "Flexicap Fund",
+      "a": "Unrestricted asset allocation across large, mid, and small cap equities"
+    },
+    {
+      "q": "Arbitrage Fund",
+      "a": "Exploits price differentials between spot equity and stock futures markets"
+    }
+  ],
+  "essay": [
+    {
+      "q": "A mutual fund made an issue of 10,00,000 units of ₹ 10 each on January 01, 2008. No entry load was charged. It deployed the funds raised in the following investment portfolio:\n- 50,000 Equity Shares of ₹ 100 each @ ₹ 160: ₹ 80,00,000\n- 7% Government Securities: ₹ 8,00,000\n- 9% Debentures (Unlisted): ₹ 5,00,000\n- 10% Debentures (Listed): ₹ 5,00,000\nTotal Initial Investments = ₹ 98,00,000 (Balance ₹ 2,00,000 held in Bank).\n\nDuring the year ended December 31, 2008, the following cash transactions occurred:\n- Dividends received on equity shares: ₹ 12,00,000\n- Interest on all categories of debt securities was received as and when due.\n- Operating expenses paid during the year amounted to ₹ 5,00,000.\n\nAt the end of the year, the market quotations of securities were:\n- Equity shares are quoted at 175% of face value.\n- 10% Debentures are quoted at 90% of face value.\n- 7% Government Securities and 9% Unlisted Debentures are valued at par / cost.\n\nYou are required to:\n(i) Calculate the closing cash and bank balance at the end of the year.\n(ii) Determine the Net Asset Value (NAV) per unit of the scheme as on December 31, 2008.\n(iii) Calculate the revised NAV per unit if the mutual fund had distributed a dividend of ₹ 0.80 per unit to unitholders during the year.",
+      "a": "1. Calculation of Year-End Cash and Bank Balance:\n• Opening Cash Balance = ₹ 1,00,00,000 - ₹ 98,00,000 = ₹ 2,00,000\n• Add: Operating Inflows During the Year:\n  - Dividend received on equity shares = ₹ 12,00,000\n  - Interest on 7% Government Securities (7% on ₹ 8,00,000) = ₹ 56,000\n  - Interest on 9% Debentures (9% on ₹ 5,00,000) = ₹ 45,000\n  - Interest on 10% Debentures (10% on ₹ 5,00,000) = ₹ 50,000\n  Total Cash Inflows = ₹ 13,51,000\n• Total Cash Available = ₹ 2,00,000 + ₹ 13,51,000 = ₹ 15,51,000\n• Less: Operating Expenses Paid = ₹ 5,00,000\n• Closing Cash and Bank Balance = ₹ 15,51,000 - ₹ 5,00,000 = ₹ 10,51,000.\n\n2. Market Valuation of Portfolio Assets as on December 31, 2008:\n• 50,000 Equity Shares of ₹ 100 face value @ 175% = 50,000 × ₹ 175 = ₹ 87,50,000\n• 7% Government Securities (valued at par) = ₹ 8,00,000\n• 9% Unlisted Debentures (valued at cost) = ₹ 5,00,000\n• 10% Listed Debentures @ 90% of par (90% of ₹ 5,00,000) = ₹ 4,50,000\n• Total Market Value of Portfolio Investments = ₹ 1,05,00,000\n• Add: Closing Cash Balance = ₹ 10,51,000\n• Total Net Asset Value of Scheme (A) = ₹ 1,15,51,000\n• Number of Outstanding Units = 10,00,000\n$$\\text{Pre-Dividend NAV per unit} = \\frac{₹ 1,15,51,000}{10,00,000} = ₹ 11.551 \\approx ₹ 11.55$$\n\n3. Calculation of NAV if Dividend of ₹ 0.80 per unit is Paid:\n• Total Dividend Payout = 10,00,000 units × ₹ 0.80 = ₹ 8,00,000\n• Net Assets after Dividend = ₹ 1,15,51,000 - ₹ 8,00,000 = ₹ 1,07,51,000\n$$\\text{Ex-Dividend NAV per unit} = \\frac{₹ 1,07,51,000}{10,00,000} = ₹ 10.751 \\approx ₹ 10.75$$\n\nConclusion:\nUpon dividend distribution of ₹ 0.80 per unit, the scheme's NAV drops from ₹ 11.55 to ₹ 10.75, exactly reflecting the cash payout.",
+      "computation": {
+        "title": "Net Asset Value (NAV) Determination and Dividend Impact Statement",
+        "headers": [
+          { "title": "Particulars", "width": "50%" },
+          { "title": "Valuation Basis / Rate", "width": "26%" },
+          { "title": "Amount (₹)", "width": "24%" }
+        ],
+        "columnWidths": ["50%", "26%", "24%"],
+        "rows": [
+          [
+            { "text": "I. Operating Cash Flow Statement", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Opening Cash and Bank Balance" },
+            { "text": "₹100L - ₹98L Outlay", "align": "center" },
+            { "text": "2,00,000", "align": "right" }
+          ],
+          [
+            { "text": "Add: Dividend Received on Equity Shares", "isItalicPrefix": true },
+            { "text": "Cash Inflow", "align": "center" },
+            { "text": "12,00,000", "align": "right" }
+          ],
+          [
+            { "text": "Add: Interest on 7% Govt. Securities", "isItalicPrefix": true },
+            { "text": "7% on ₹8,00,000", "align": "center" },
+            { "text": "56,000", "align": "right" }
+          ],
+          [
+            { "text": "Add: Interest on 9% Debentures (Unlisted)", "isItalicPrefix": true },
+            { "text": "9% on ₹5,00,000", "align": "center" },
+            { "text": "45,000", "align": "right" }
+          ],
+          [
+            { "text": "Add: Interest on 10% Debentures (Listed)", "isItalicPrefix": true },
+            { "text": "10% on ₹5,00,000", "align": "center" },
+            { "text": "50,000", "align": "right" }
+          ],
+          [
+            { "text": "Less: Operating Expenses Paid", "isItalicPrefix": true },
+            { "text": "Administrative Outflow", "align": "center" },
+            { "text": "- 5,00,000", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Closing Cash and Bank Balance", "isHeading": true },
+            { "text": "As on 31.12.2008", "align": "center" },
+            { "text": "10,51,000", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "II. Portfolio Market Valuation", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "50,000 Equity Shares (Face Value ₹100)" },
+            { "text": "Quoted @ 175% of Par", "align": "center" },
+            { "text": "87,50,000", "align": "right" }
+          ],
+          [
+            { "text": "7% Government Securities" },
+            { "text": "Valued at Par", "align": "center" },
+            { "text": "8,00,000", "align": "right" }
+          ],
+          [
+            { "text": "9% Debentures (Unlisted)" },
+            { "text": "Valued at Cost", "align": "center" },
+            { "text": "5,00,000", "align": "right" }
+          ],
+          [
+            { "text": "10% Debentures (Listed)" },
+            { "text": "Quoted @ 90% of Par", "align": "center" },
+            { "text": "4,50,000", "align": "right" }
+          ],
+          [
+            { "text": "Add: Closing Cash and Bank Balance", "isItalicPrefix": true },
+            { "text": "Liquid Balance", "align": "center" },
+            { "text": "10,51,000", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Net Asset Value (Pre-Dividend)", "isHeading": true },
+            { "text": "10,00,000 Units", "align": "center" },
+            { "text": "1,15,51,000", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Pre-Dividend NAV per Unit", "isHeading": true },
+            { "text": "₹1,15,51,000 / 10,00,000", "align": "center" },
+            { "text": "₹ 11.55", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "III. Dividend Distribution Scenario", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Less: Dividend Distributed @ ₹0.80 per unit", "isItalicPrefix": true },
+            { "text": "10,00,000 × ₹0.80", "align": "center" },
+            { "text": "- 8,00,000", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Assets Value (Post-Dividend)", "isHeading": true },
+            { "text": "Ex-Dividend Corpus", "align": "center" },
+            { "text": "1,07,51,000", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Post-Dividend NAV per Unit", "isHeading": true },
+            { "text": "₹1,07,51,000 / 10,00,000", "align": "center" },
+            { "text": "₹ 10.75", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Equity shares are appreciated from ₹80 Lakhs cost to ₹87.50 Lakhs (50,000 × ₹175).",
+          "Upon dividend payout of ₹0.80 per unit, the NAV falls by the exact dividend amount from ₹11.55 to ₹10.75."
+        ]
+      }
+    },
+    {
+      "q": "On 1st April, an open-ended mutual fund scheme had 300 Lakh units outstanding with a Net Asset Value (NAV) of ₹ 18.75.\nDuring the April–June quarter, the following transactions and events occurred:\n- At the end of April, the scheme issued 6 Lakh units at Opening NAV plus 2% entry load, adjusted for dividend equalization.\n- At the end of May, 3 Lakh units were repurchased at Opening NAV less 2% exit load, adjusted for dividend equalization.\n- At the end of June, 70% of available income was distributed as dividend.\n\nFinancial performance during the quarter:\n- Portfolio value appreciation: ₹ 425.47 Lakhs\n- Net income of April: ₹ 22.950 Lakhs\n- Net income of May: ₹ 34.425 Lakhs\n- Net income of June: ₹ 45.450 Lakhs\n\nYou are required to calculate:\n(i) Issue price per unit at the end of April.\n(ii) Repurchase price per unit at the end of May.\n(iii) Income available after distribution of dividend at the end of June.\n(iv) Net Asset Value (NAV) per unit of the scheme as on 30th June.",
+      "a": "1. Issue Price at the End of April:\n• Per unit income for April (on 300 Lakh units) = ₹ 22.950 Lakhs / 300 Lakhs = ₹ 0.0765 per unit.\n• Opening NAV = ₹ 18.750\n• Add: 2% Entry Load on ₹ 18.750 = ₹ 0.375\n• Add: Dividend Equalization collected on issue = ₹ 0.0765\n$$\\text{Issue Price at End of April} = 18.750 + 0.375 + 0.0765 = ₹ 19.2015$$\n• Total proceeds from 6 Lakh fresh units = $6 \\times ₹ 19.2015 = ₹ 115.209$ Lakhs.\n• Total Dividend Equalization added to income = $6 \\times 0.0765 = ₹ 0.459$ Lakhs.\n• Total available income end of April = ₹ 22.950 + ₹ 0.459 = ₹ 23.409 Lakhs (₹ 0.0765/unit on 306 Lakh units).\n\n2. Repurchase Price at the End of May:\n• Per unit income for May (on 306 Lakh units) = ₹ 34.425 Lakhs / 306 Lakhs = ₹ 0.1125 per unit.\n• Cumulative income per unit through May = ₹ 0.0765 + ₹ 0.1125 = ₹ 0.1890 per unit.\n• Opening NAV = ₹ 18.750\n• Less: 2% Exit Load on ₹ 18.750 = - ₹ 0.375\n• Add: Dividend Equalization paid on repurchase = + ₹ 0.1890\n$$\\text{Repurchase Price at End of May} = 18.750 - 0.375 + 0.1890 = ₹ 18.5640$$\n• Total payout on 3 Lakh repurchased units = $3 \\times ₹ 18.564 = ₹ 55.692$ Lakhs.\n• Dividend equalization deducted from income pool = $3 \\times 0.1890 = ₹ 0.567$ Lakhs.\n• Available income end of May = ₹ 23.409 + ₹ 34.425 - ₹ 0.567 = ₹ 57.267 Lakhs (₹ 0.1890/unit on 303 Lakh units).\n\n3. Income Available after Distribution at the End of June:\n• Net income of June = ₹ 45.450 Lakhs (₹ 45.450 / 303 Lakhs = ₹ 0.1500 per unit).\n• Total available income before distribution = ₹ 57.267 + ₹ 45.450 = ₹ 102.717 Lakhs (₹ 0.3390 per unit).\n• Less: 70% Dividend Distributed = $70\\% \\times ₹ 102.717 \\text{ Lakhs} = ₹ 71.9019$ Lakhs (₹ 0.2373 per unit).\n• Income Available after Distribution = ₹ 102.717 - ₹ 71.9019 = ₹ 30.8151 Lakhs (₹ 0.1017 per unit).\n\n4. Net Asset Value (NAV) as on 30th June:\n• Opening Net Assets (300 Lakh units × ₹ 18.75) = ₹ 5,625.000 Lakhs\n• Add: Portfolio value appreciation = ₹ 425.470 Lakhs\n• Add: Issue of fresh units (6 Lakh × ₹ 19.2015) = ₹ 115.209 Lakhs\n• Add: Total net income received (22.950 + 34.425 + 45.450) = ₹ 102.825 Lakhs\n• Less: Payout on repurchased units (3 Lakh × ₹ 18.564) = - ₹ 55.692 Lakhs\n• Less: Dividend distributed to unitholders = - ₹ 71.902 Lakhs\n• Closing Net Assets Value = ₹ 6,140.910 Lakhs\n• Closing Units Outstanding = $300 + 6 - 3 = 303$ Lakh units\n$$\\text{Closing NAV per unit on 30th June} = \\frac{₹ 6,140.9101 \\text{ Lakhs}}{303 \\text{ Lakh units}} = ₹ 20.2670$$",
+      "computation": {
+        "title": "Quarterly Statement of NAV, Dividend Equalization, and Unit Prices",
+        "headers": [
+          { "title": "Transaction Event", "width": "45%" },
+          { "title": "Per Unit (₹)", "width": "25%" },
+          { "title": "Total Amount (₹ in Lakhs)", "width": "30%" }
+        ],
+        "columnWidths": ["45%", "25%", "30%"],
+        "rows": [
+          [
+            { "text": "I. Issue Price (End of April)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Opening NAV + 2% Entry Load" },
+            { "text": "18.750 + 0.375 = 19.1250", "align": "center" },
+            { "text": "Base Issue Price", "align": "center" }
+          ],
+          [
+            { "text": "Add: April Dividend Equalization", "isItalicPrefix": true },
+            { "text": "₹22.95L / 300L = 0.0765", "align": "center" },
+            { "text": "0.4590 (on 6L units)", "align": "right" }
+          ],
+          [
+            { "text": "Total Issue Price per Unit", "isHeading": true },
+            { "text": "19.2015", "align": "right", "isBoxed": true },
+            { "text": "115.2090 (Gross Proceeds)", "align": "right" }
+          ],
+          [
+            { "text": "II. Repurchase Price (End of May)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Opening NAV - 2% Exit Load" },
+            { "text": "18.750 - 0.375 = 18.3750", "align": "center" },
+            { "text": "Base Repurchase Price", "align": "center" }
+          ],
+          [
+            { "text": "Add: Cumulative Dividend Equalization", "isItalicPrefix": true },
+            { "text": "0.0765 + 0.1125 = 0.1890", "align": "center" },
+            { "text": "- 0.5670 (on 3L units)", "align": "right" }
+          ],
+          [
+            { "text": "Total Repurchase Price per Unit", "isHeading": true },
+            { "text": "18.5640", "align": "right", "isBoxed": true },
+            { "text": "- 55.6920 (Gross Payout)", "align": "right" }
+          ],
+          [
+            { "text": "III. Income Distribution (End of June)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Total Available Income (Apr-Jun)" },
+            { "text": "0.3390 per unit", "align": "center" },
+            { "text": "102.7170", "align": "right" }
+          ],
+          [
+            { "text": "Less: 70% Distributed Dividend", "isItalicPrefix": true },
+            { "text": "0.2373 per unit", "align": "center" },
+            { "text": "- 71.9019", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Income Retained in Scheme", "isHeading": true },
+            { "text": "0.1017 per unit", "align": "center" },
+            { "text": "30.8151", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "IV. Closing NAV on 30th June", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Closing Net Assets (303 Lakh units)" },
+            { "text": "₹5625 + ₹425.47 + ₹115.21 - ₹55.69 + ₹30.82", "align": "center" },
+            { "text": "6,140.9101", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Closing Net Asset Value (NAV) per Unit", "isHeading": true },
+            { "text": "₹6,140.9101 / 303 Lakhs", "align": "center" },
+            { "text": "₹ 20.2670", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Dividend Equalization ensures that incoming and exiting unitholders contribute or receive their proportionate share of accrued undistributed income, preventing dilution for existing investors.",
+          "Closing NAV appreciates to ₹20.2670, driven by ₹425.47 Lakhs portfolio appreciation and retained operating surplus."
+        ]
+      }
+    },
+    {
+      "q": "There are two close-ended equity mutual fund schemes: D Mutual Fund Ltd. and K Mutual Fund Ltd.\nFinancial parameters as on 31-12-2014:\n- Scheme D: NAV = ₹ 70.71 per unit (consisting of 99% in equities and 1% in cash balance)\n- Scheme K: NAV = ₹ 62.50 per unit (consisting of 96% in equities and 4% in cash balance)\n\nRisk-return profile:\n- Scheme D: Sharpe Ratio = 2.0, Treynor Ratio = 15.0, Standard Deviation = 11.25%\n- Scheme K: Sharpe Ratio = 3.3, Treynor Ratio = 15.0, Standard Deviation = 5.00%\n\nOperational conditions for the subsequent month:\n- The annual average operating cost is ₹ 3.00 per unit for both funds (consider 12 equal months in a year).\n- The broader stock market index declines by 5.00% during the month.\n\nYou are required to:\n(i) Decompose the opening NAV of both funds into Equity and Cash components.\n(ii) Calculate the Beta (β) of both mutual fund schemes.\n(iii) Calculate the expected NAV per unit after one month for both schemes following the 5% market downturn.",
+      "a": "1. Decomposition of Opening NAV into Equity and Cash Components:\n(a) D Mutual Fund Ltd. (Opening NAV = ₹ 70.71):\n• Equity Component (99%) = ₹ 70.71 × 0.99 = ₹ 70.00\n• Cash Component (1%) = ₹ 70.71 × 0.01 = ₹ 0.71\n\n(b) K Mutual Fund Ltd. (Opening NAV = ₹ 62.50):\n• Equity Component (96%) = ₹ 62.50 × 0.96 = ₹ 60.00\n• Cash Component (4%) = ₹ 62.50 × 0.04 = ₹ 2.50\n\n2. Calculation of Fund Betas:\n(a) D Mutual Fund Ltd.:\n$$\\text{Sharpe Ratio} = \\frac{E(R) - R_f}{\\sigma_D} = 2.0 \\implies \\frac{E(R) - R_f}{11.25} = 2.0 \\implies E(R) - R_f = 22.50\\%$$\n$$\\text{Treynor Ratio} = \\frac{E(R) - R_f}{\\beta_D} = 15.0 \\implies \\frac{22.50}{\\beta_D} = 15.0 \\implies \\beta_D = \\frac{22.50}{15.0} = 1.50$$\n\n(b) K Mutual Fund Ltd.:\n$$\\text{Sharpe Ratio} = \\frac{E(R) - R_f}{\\sigma_K} = 3.3 \\implies \\frac{E(R) - R_f}{5.00} = 3.3 \\implies E(R) - R_f = 16.50\\%$$\n$$\\text{Treynor Ratio} = \\frac{E(R) - R_f}{\\beta_K} = 15.0 \\implies \\frac{16.50}{\\beta_K} = 15.0 \\implies \\beta_K = \\frac{16.50}{15.0} = 1.10$$\n\n3. Impact of 5% Market Decline on Equity Portfolio:\n• Scheme D Equity Decline = Market Decline × Beta = $5.00\\% \\times 1.50 = 7.50\\%$\n  Revised Equity Value = $₹ 70.00 \\times (1 - 0.075) = ₹ 64.75$\n• Scheme K Equity Decline = Market Decline × Beta = $5.00\\% \\times 1.10 = 5.50\\%$\n  Revised Equity Value = $₹ 60.00 \\times (1 - 0.055) = ₹ 56.70$\n\n4. Monthly Operating Expenses and Cash Balance:\n• Monthly Operating Cost per unit = $\\frac{₹ 3.00}{12} = ₹ 0.25$ per unit\n• Scheme D Closing Cash = $₹ 0.71 - ₹ 0.25 = ₹ 0.46$\n• Scheme K Closing Cash = $₹ 2.50 - ₹ 0.25 = ₹ 2.25$\n\n5. Expected Net Asset Value (NAV) after One Month:\n• Expected NAV of Scheme D = Equity (₹ 64.75) + Cash (₹ 0.46) = ₹ 65.21 per unit\n• Expected NAV of Scheme K = Equity (₹ 56.70) + Cash (₹ 2.25) = ₹ 58.95 per unit\n\nConclusion:\nScheme D experiences a sharper NAV drop (-7.78%) due to its higher beta (1.50) and aggressive 99% equity allocation. Scheme K displays greater defensiveness (-5.68%) due to lower beta (1.10) and a higher 4% cash buffer.",
+      "computation": {
+        "title": "Equity Decomposition, Beta Derivation, and Post-Market Fall NAV Statement",
+        "headers": [
+          { "title": "Analytical Step / Parameter", "width": "42%" },
+          { "title": "D Mutual Fund Ltd.", "width": "29%" },
+          { "title": "K Mutual Fund Ltd.", "width": "29%" }
+        ],
+        "columnWidths": ["42%", "29%", "29%"],
+        "rows": [
+          [
+            { "text": "I. Opening NAV Decomposition (31-12-2014)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Total Opening NAV per Unit" },
+            { "text": "₹ 70.71", "align": "center" },
+            { "text": "₹ 62.50", "align": "center" }
+          ],
+          [
+            { "text": "Equity Allocation Component" },
+            { "text": "99% = ₹ 70.00", "align": "center" },
+            { "text": "96% = ₹ 60.00", "align": "center" }
+          ],
+          [
+            { "text": "Cash Allocation Component", "borderBottom": true },
+            { "text": "1% = ₹ 0.71", "align": "center", "borderBottom": true },
+            { "text": "4% = ₹ 2.50", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Derivation of Systematic Risk (Beta)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Excess Return E(R) - Rf" },
+            { "text": "2.0 × 11.25 = 22.50%", "align": "center" },
+            { "text": "3.3 × 5.00 = 16.50%", "align": "center" }
+          ],
+          [
+            { "text": "Portfolio Beta [Excess Return / Treynor]", "isHeading": true },
+            { "text": "22.50 / 15 = 1.50", "align": "center", "isBoxed": true },
+            { "text": "16.50 / 15 = 1.10", "align": "center", "isBoxed": true }
+          ],
+          [
+            { "text": "III. Impact of 5% Market Decline", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Equity Component Price Decline" },
+            { "text": "5% × 1.50 = - 7.50%", "align": "center" },
+            { "text": "5% × 1.10 = - 5.50%", "align": "center" }
+          ],
+          [
+            { "text": "Revised Value of Equity Component" },
+            { "text": "₹70.00 × (1 - 0.075) = 64.75", "align": "right" },
+            { "text": "₹60.00 × (1 - 0.055) = 56.70", "align": "right" }
+          ],
+          [
+            { "text": "Less: Monthly Operating Expenses", "isItalicPrefix": true },
+            { "text": "- 0.25 (₹3 / 12)", "align": "center" },
+            { "text": "- 0.25 (₹3 / 12)", "align": "center" }
+          ],
+          [
+            { "text": "Revised Cash Balance per Unit" },
+            { "text": "₹0.71 - ₹0.25 = 0.46", "align": "right", "borderBottom": true },
+            { "text": "₹2.50 - ₹0.25 = 2.25", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Expected NAV after One Month", "isHeading": true },
+            { "text": "₹ 65.21", "align": "right", "isDoubleBottom": true },
+            { "text": "₹ 58.95", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Beta coefficients derived using the relationship: Beta = [Sharpe Ratio × Standard Deviation] / Treynor Ratio.",
+          "Cash balances do not suffer market volatility and absorb the monthly operating expense of ₹0.25 per unit."
+        ]
+      }
+    },
+    {
+      "q": "On 1.4.1999, Sun Moon Mutual Fund launched an open-ended equity scheme 'Chanakya Opportunity Fund' with three options:\n- Plan A: Dividend Re-investment Plan\n- Plan B: Bonus Plan\n- Plan C: Growth Plan\n\nThree investors—Mrs. Charu, Mr. Anand, and Mr. Bacchan—invested ₹ 1,00,000 each at the NFO (Face Value ₹ 10, NAV ₹ 10) in Plan A, Plan B, and Plan C respectively.\nKey fund history over the 10-year and 4-month holding period (124 months) up to 31.07.2009:\n- 28.07.2003: 20% dividend declared (Plan A NAV ₹30.70)\n- 31.03.2004: 70% dividend declared (Plan A NAV ₹58.42); Bonus 5:4 in Plan B (NAV ₹31.05)\n- 30.10.2007: 40% dividend declared (Plan A NAV ₹42.18)\n- 15.03.2008: 25% dividend declared (Plan A NAV ₹46.45)\n- 31.03.2008: Bonus 1:3 in Plan B (NAV ₹20.05)\n- 24.03.2009: 40% dividend declared (Plan A NAV ₹48.10); Bonus 1:4 in Plan B (NAV ₹19.95)\n- 31.07.2009: All investors redeemed their holdings. Closing NAVs: Plan A = ₹ 53.75, Plan B = ₹ 22.98, Plan C = ₹ 82.07.\n\nTaxation rules:\n- Long-Term Capital Gains are tax-exempt.\n- Short-Term Capital Gains (held < 1 year) are taxed @ 10%.\n- Securities Transaction Tax (STT) is 0.20% on redemption value.\n\nYou are required to prepare a comparative performance evaluation statement determining the annualized rate of return earned by each of the three investors.",
+      "a": "1. Mr. Bacchan (Plan C - Growth Option):\n• Initial Investment (01.04.1999) = ₹ 1,00,000 @ ₹ 10 = 10,000 units\n• Units held on 31.07.2009 = 10,000 units\n• Gross Redemption Value = 10,000 × ₹ 82.07 = ₹ 8,20,700.00\n• Less: STT @ 0.20% = ₹ 1,641.40\n• Net Amount Received = ₹ 8,19,058.60\n• Capital Gains Tax: All units held for > 10 years $\\implies$ LTCG is 100% EXEMPT (Tax = Nil)\n• Net Gain = ₹ 8,19,058.60 - ₹ 1,00,000 = ₹ 7,19,058.60\n$$\\text{Annualized Average Return} = \\frac{₹ 7,19,058.60}{₹ 1,00,000} \\times \\frac{12}{124} \\times 100 = 69.59\\%$$\n\n2. Mr. Anand (Plan B - Bonus Option):\n• Unit Accrual Schedule:\n  - 01.04.1999: Initial = 10,000 units\n  - 31.03.2004: Bonus 5:4 on 10,000 = + 12,500 units $\\implies$ Total = 22,500 units\n  - 31.03.2008: Bonus 1:3 on 22,500 = + 7,500 units $\\implies$ Total = 30,000 units\n  - 24.03.2009: Bonus 1:4 on 30,000 = + 7,500 units $\\implies$ Total = 37,500 units\n• Gross Redemption Value = 37,500 × ₹ 22.98 = ₹ 8,61,750.00\n• Less: STT @ 0.20% = ₹ 1,723.50\n• Net Amount Received = ₹ 8,60,026.50\n• Tax on Short-Term Capital Gains:\n  - Units acquired on 24.03.2009 (7,500 units) were held for ~4 months (< 1 year).\n  - STCG Tax @ 10% on 7,500 units × [₹ 22.93 - ₹ 19.95] = ₹ 2,235.00\n• Net Gain after Tax = ₹ 8,60,026.50 - ₹ 2,235.00 - ₹ 1,00,000 = ₹ 7,57,791.50\n$$\\text{Annualized Average Return} = \\frac{₹ 7,57,791.50}{₹ 1,00,000} \\times \\frac{12}{124} \\times 100 = 73.33\\%$$\n\n3. Mrs. Charu (Plan A - Dividend Reinvestment Option):\n• Reinvested units accumulated to 14,906.16 units by 31.07.2009.\n• Gross Redemption Value = 14,906.16 × ₹ 53.75 = ₹ 8,01,206.10\n• Less: STT @ 0.20% = ₹ 1,602.41\n• Less: STCG Tax @ 10% on last reinvestment tranche (1,144.43 units) = ₹ 634.00\n• Net Gain after Tax = ₹ 7,98,969.69 - ₹ 1,00,000 = ₹ 6,98,969.69\n$$\\text{Annualized Average Return} = \\frac{₹ 6,98,969.69}{₹ 1,00,000} \\times \\frac{12}{124} \\times 100 = 67.64\\%$$\n\nConclusion:\nPlan B (Bonus Plan) delivered the highest annualized return (73.33%) due to disciplined capital preservation and tax deferral, followed by Plan C (Growth, 69.59%) and Plan A (Dividend Reinvestment, 67.64%).",
+      "computation": {
+        "title": "Comparative Long-Term Performance and Tax Impact Schedule - Plans A, B, and C",
+        "headers": [
+          { "title": "Performance Metric", "width": "34%" },
+          { "title": "Plan A (Div. Reinv.)", "width": "22%" },
+          { "title": "Plan B (Bonus)", "width": "22%" },
+          { "title": "Plan C (Growth)", "width": "22%" }
+        ],
+        "columnWidths": ["34%", "22%", "22%", "22%"],
+        "rows": [
+          [
+            { "text": "I. Unit & Corpus Movements", "isUnderline": true, "isHeading": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Initial Units Allotted (01.04.1999)" },
+            { "text": "10,000.00", "align": "center" },
+            { "text": "10,000.00", "align": "center" },
+            { "text": "10,000.00", "align": "center" }
+          ],
+          [
+            { "text": "Closing Units Outstanding (31.07.2009)" },
+            { "text": "14,906.16", "align": "center" },
+            { "text": "37,500.00", "align": "center" },
+            { "text": "10,000.00", "align": "center" }
+          ],
+          [
+            { "text": "Closing NAV per Unit" },
+            { "text": "₹ 53.75", "align": "center" },
+            { "text": "₹ 22.98", "align": "center" },
+            { "text": "₹ 82.07", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Cash Realization on Redemption", "isUnderline": true, "isHeading": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Gross Redemption Proceeds" },
+            { "text": "8,01,206.10", "align": "right" },
+            { "text": "8,61,750.00", "align": "right" },
+            { "text": "8,20,700.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Securities Transaction Tax (0.2%)", "isItalicPrefix": true },
+            { "text": "- 1,602.41", "align": "right" },
+            { "text": "- 1,723.50", "align": "right" },
+            { "text": "- 1,641.40", "align": "right" }
+          ],
+          [
+            { "text": "Less: Short-Term Capital Gains Tax @ 10%", "isItalicPrefix": true },
+            { "text": "- 634.00", "align": "right" },
+            { "text": "- 2,235.00", "align": "right" },
+            { "text": "0.00 (Exempt)", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Cash Proceeds Realized", "isHeading": true },
+            { "text": "7,98,969.69", "align": "right", "isBoxed": true },
+            { "text": "8,57,791.50", "align": "right", "isBoxed": true },
+            { "text": "8,19,058.60", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Less: Initial Capital Outlay", "isItalicPrefix": true },
+            { "text": "- 1,00,000.00", "align": "right" },
+            { "text": "- 1,00,000.00", "align": "right" },
+            { "text": "- 1,00,000.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Capital Gain Earned", "isHeading": true },
+            { "text": "6,98,969.69", "align": "right" },
+            { "text": "7,57,791.50", "align": "right" },
+            { "text": "7,19,058.60", "align": "right" }
+          ],
+          [
+            { "text": "Annualized Rate of Return (%)", "isHeading": true },
+            { "text": "67.64%", "align": "right", "isDoubleBottom": true },
+            { "text": "73.33%", "align": "right", "isDoubleBottom": true },
+            { "text": "69.59%", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Plan B (Bonus Plan) delivered the best return of 73.33% through rapid expansion in unit count (from 10,000 to 37,500 units).",
+          "Long-term capital gains on units held for over 12 months were fully exempt from tax under applicable income tax provisions."
+        ]
+      }
+    }
+  ]
+}

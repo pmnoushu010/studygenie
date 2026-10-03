@@ -1,0 +1,840 @@
+{
+  "summary": "Comprehensive CA Final Advanced Financial Management (AFM) Question Bank for Chapter 10: Foreign Exchange Exposure and Risk Management. Covers SWIFT and payment gateway architecture, Nostro/Vostro/Loro accounts and dealer position reconciliation, direct/indirect two-way quotations and forward swap points, FEDAI rules for forward delivery/cancellation/extension, exchange rate parities (IRP, PPP, IFE), Transaction, Translation, and Economic exposures, internal hedging techniques, and advanced external hedging including Forward Cover, Money Market Hedge (MMH), Currency Futures, Currency Options, Currency Swaps, and Covered Interest Arbitrage.",
+  "oneword": [
+    {
+      "id": "fx-mcq-1",
+      "question": "State Bank of India (SBI) maintains a US Dollar-denominated current account with Citibank, New York to facilitate cross-border dollar settlements. From the perspective of SBI, how is this account designated, and when does a foreign exchange transaction affect its Cash Position?",
+      "options": [
+        "Vostro Account; affected on the contract trade date regardless of actual delivery.",
+        "Nostro Account; affected only when actual value-dated delivery or settlement takes place.",
+        "Loro Account; affected when customer books a forward exchange contract.",
+        "Nostro Account; affected on the date of quotation by the treasury dealer."
+      ],
+      "correctAnswer": "Nostro Account; affected only when actual value-dated delivery or settlement takes place.",
+      "explanation": "A Nostro account ('our account with you') is a domestic bank's foreign currency account maintained with a correspondent bank overseas in the foreign currency. While the bank's Exchange Position is updated immediately on the contract trade date, its Cash Position (the actual Nostro account balance) is altered ONLY upon actual value-dated settlement or delivery.",
+      "marks": 2
+    },
+    {
+      "id": "fx-mcq-2",
+      "question": "In the Mumbai interbank foreign exchange market, an authorized dealer quotes USD/INR spot at 82.4000 / 82.4200. What is the percentage bid-ask spread quoted by the dealer?",
+      "options": [
+        "0.0243%",
+        "0.0200%",
+        "0.0485%",
+        "0.2427%"
+      ],
+      "correctAnswer": "0.0243%",
+      "explanation": "Percentage spread is calculated as [(Ask Rate - Bid Rate) / Bid Rate] * 100 = [(82.4200 - 82.4000) / 82.4000] * 100 = (0.0200 / 82.4000) * 100 = 0.02427% ≈ 0.0243%.",
+      "marks": 2
+    },
+    {
+      "id": "fx-mcq-3",
+      "question": "A bank quotes EUR/USD spot at 1.0850 - 1.0860 and 3-month forward points as 45 - 35. What is the outright 3-month forward quotation?",
+      "options": [
+        "1.0895 - 1.0895",
+        "1.0805 - 1.0825",
+        "1.0815 - 1.0815",
+        "1.0895 - 1.0825"
+      ],
+      "correctAnswer": "1.0805 - 1.0825",
+      "explanation": "When forward swap points are descending from left to right (45 to 35), the foreign currency is trading at a forward DISCOUNT. In direct quotation, discount points must be DEDUCTED from the spot rate: Bid = 1.0850 - 0.0045 = 1.0805; Ask = 1.0860 - 0.0035 = 1.0825. This ensures the bid-ask spread widens over time (from 10 pips spot to 20 pips forward).",
+      "marks": 2
+    },
+    {
+      "id": "fx-mcq-4",
+      "question": "Under FEDAI Rule 6, if an export customer fails to take delivery of or give instructions regarding an overdue forward sale contract on or before the maturity date, what is the mandatory regulatory outcome?",
+      "options": [
+        "The contract is extended automatically for an additional 30 days at original contracted rates.",
+        "The contract stands automatically cancelled on the 3rd working day following maturity; the customer bears any exchange loss but is not entitled to exchange gains.",
+        "The contract is transferred to the Reserve Bank of India with standard statutory penalties.",
+        "The contract is settled at the historical spot rate with customer retaining all upside profits."
+      ],
+      "correctAnswer": "The contract stands automatically cancelled on the 3rd working day following maturity; the customer bears any exchange loss but is not entitled to exchange gains.",
+      "explanation": "According to FEDAI Rule 6, an overdue forward contract without customer instructions automatically stands cancelled on the 3rd working day after maturity date. The customer is legally liable to reimburse the bank for any adverse exchange difference, but has no claim to any windfall profit resulting from the cancellation.",
+      "marks": 2
+    },
+    {
+      "id": "fx-mcq-5",
+      "question": "According to Covered Interest Rate Parity (CIRP), if the nominal 1-year interest rate in India is 7.00% p.a. and in the United States is 3.00% p.a., and the spot exchange rate is ₹83.00/$, what must the 1-year forward exchange rate be to prevent covered interest arbitrage?",
+      "options": [
+        "₹79.90/$",
+        "₹83.00/$",
+        "₹86.22/$",
+        "₹89.50/$"
+      ],
+      "correctAnswer": "₹86.22/$",
+      "explanation": "Under CIRP, F = S * [(1 + r_D) / (1 + r_F)]. Substituting values: F = 83.00 * [(1 + 0.07) / (1 + 0.03)] = 83.00 * (1.07 / 1.03) = 83.00 * 1.038835 = ₹86.2233 ≈ ₹86.22/$. The dollar trades at a forward premium equal to the interest differential.",
+      "marks": 2
+    },
+    {
+      "id": "fx-mcq-6",
+      "question": "Under Relative Purchasing Power Parity (RPPP), if the annual inflation rate in India is 6% and in the US is 2%, while the current spot rate is ₹80.00/$, what is the expected spot rate one year hence, and how is an actual market spot rate of ₹84.00/$ interpreted?",
+      "options": [
+        "Expected rate ₹83.14/$; actual rate ₹84.00/$ reflects real depreciation of USD against INR.",
+        "Expected rate ₹83.14/$; actual rate ₹84.00/$ reflects real appreciation of USD against INR of approximately 1.03%.",
+        "Expected rate ₹84.80/$; actual rate ₹84.00/$ reflects identical purchasing power parity.",
+        "Expected rate ₹76.98/$; actual rate ₹84.00/$ reflects an arbitrage breakdown."
+      ],
+      "correctAnswer": "Expected rate ₹83.14/$; actual rate ₹84.00/$ reflects real appreciation of USD against INR of approximately 1.03%.",
+      "explanation": "By RPPP: E(S_1) = 80.00 * (1 + 0.06) / (1 + 0.02) = 80 * 1.039216 = ₹83.137 ≈ ₹83.14/$. If the actual exchange rate rises to ₹84.00/$, the USD appreciated by (84.00 - 83.14)/83.14 = +1.03% more than inflation parity dictates, representing a 'real appreciation' of the USD.",
+      "marks": 2
+    },
+    {
+      "id": "fx-mcq-7",
+      "question": "Which of the following corporate exposures is classified as Economic (Operating) Exposure?",
+      "options": [
+        "A foreign currency loan converted at the closing exchange rate on the balance sheet date under Ind AS 21.",
+        "A confirmed USD 500,000 export invoice receivable in 90 days from an overseas client.",
+        "The permanent erosion of a domestic exporter's competitive market share and future operating cash flows due to an unexpected, sustained appreciation of the domestic currency.",
+        "A 60-day import letter of credit payable in Japanese Yen."
+      ],
+      "correctAnswer": "The permanent erosion of a domestic exporter's competitive market share and future operating cash flows due to an unexpected, sustained appreciation of the domestic currency.",
+      "explanation": "Economic (Operating) Exposure measures the long-term impact of unexpected exchange rate changes on the firm's competitive position, sales volume, operating cost structures, and future operating cash flows. In contrast, confirmed invoices are Transaction Exposure and balance sheet restatements are Translation Exposure.",
+      "marks": 2
+    },
+    {
+      "id": "fx-mcq-8",
+      "question": "Which internal exposure management technique involves pairing foreign currency cash inflows and outflows within the same corporate group in terms of currency denomination and approximate timing without entering the spot foreign exchange market?",
+      "options": [
+        "Leading and Lagging",
+        "Natural Matching",
+        "Asset-Liability Duration Swapping",
+        "Transfer Price Indexing"
+      ],
+      "correctAnswer": "Natural Matching",
+      "explanation": "Natural Matching is an internal exposure management technique whereby an enterprise pairs its foreign currency receipts against foreign currency payments in the same currency and timing, thereby eliminating transaction exposure on the matched portion without incurring bank spreads or transaction fees.",
+      "marks": 2
+    }
+  ],
+  "sa": [
+    {
+      "id": "fx-sa-1",
+      "question": "Explain the concepts of Nostro, Vostro, and Loro accounts in foreign exchange operations. Differentiate clearly between an Authorized Dealer's Exchange Position and Cash Position.",
+      "answer": "1. Account Distinctions:\n- Nostro Account ('Our account with you'): A domestic bank's foreign currency bank account maintained with an overseas correspondent bank in the foreign currency (e.g., State Bank of India's USD account with Citibank, New York).\n- Vostro Account ('Your account with us'): An overseas correspondent bank's domestic currency account maintained with a domestic bank in the domestic currency (e.g., Citibank's INR account with SBI Mumbai). Axiom: Nostro of Bank A is Vostro of Bank B.\n- Loro Account ('Their account'): An account operated when a domestic bank utilizes the existing Nostro relationship of another domestic bank to settle foreign exchange obligations when it does not maintain its own direct correspondent link.\n\n2. Exchange Position vs. Cash Position:\n- Exchange Position reflects the aggregate net contractual purchase and sale commitments of the bank across all value dates (spot, forward, and contingent). It is updated immediately on the trade/contract date.\n  * Overbought: Total foreign currency purchases exceed sales.\n  * Oversold: Total foreign currency sales exceed purchases.\n- Cash Position reflects the actual physical balance (debit/credit) in the bank's Nostro account. It is impacted ONLY when actual value-dated physical delivery or wire transfer occurs.\n- Key Operational Rule: All transactions affecting Cash Position affect Exchange Position, but NOT all transactions affecting Exchange Position affect Cash Position (e.g., booking a forward contract alters the exchange position immediately, but does not affect the Nostro cash balance until value date).",
+      "marks": 4
+    },
+    {
+      "id": "fx-sa-2",
+      "question": "Describe the role and structural significance of SWIFT in international finance. Explain why SWIFT is categorized strictly as a messaging system rather than a settlement system.",
+      "answer": "1. Society for Worldwide Interbank Financial Telecommunication (SWIFT):\n- Founded in 1973 and headquartered in La Hulpe, Belgium, SWIFT is a global, member-owned cooperative linking over 11,000 financial institutions across 200+ countries.\n- It provides a standardized, encrypted, and highly secure telecommunication network for transmitting financial instructions.\n- Standardizes cross-border transactions using ISO 4217 3-letter currency codes (e.g., USD, EUR, GBP, INR) and structured message types (MT 103 for customer transfers, MT 202 for interbank transfers, MT 300 for FX confirmations).\n\n2. Messaging vs. Settlement Distinction:\n- SWIFT is purely a messaging infrastructure. It does NOT hold funds, manage accounts, clear obligations, or settle transactions.\n- When a SWIFT message is transmitted, it constitutes an authenticated, legally binding instruction. Actual fund transfer and finality of settlement occur via the commercial banks' reciprocal Nostro/Vostro accounts and national central bank payment rails (e.g., Fedwire, CHIPS, TARGET2, RTGS).\n- Benefits: Eliminates operational risk, accelerates message turnaround to seconds, provides tamper-proof audit trails, and facilitates global banking interoperability.",
+      "marks": 4
+    },
+    {
+      "id": "fx-sa-3",
+      "question": "Outline the Four Quadrants of Foreign Exchange Exposure Management Strategies available to corporate treasuries.",
+      "answer": "A corporate treasury's exposure management strategy depends on its risk appetite, financial strength, and market view:\n\n1. Low Risk - Low Reward (Full Hedging):\n- 100% of all foreign currency exposures are automatically hedged via forward contracts immediately upon commitment.\n- Advantages: Eliminates cash flow volatility; provides complete budget certainty.\n- Disadvantages: Incurs hedging costs; eliminates any possibility of benefiting from favorable exchange rate movements; lacks strategic flexibility.\n\n2. Low Risk - Reasonable Reward (Selective Hedging):\n- Exposures are selectively hedged when forward market rates are attractive or technical models indicate adverse currency trends; positions are left open when currency movements are favorable.\n- Analogous to a balanced portfolio (hedged positions act like bonds; unhedged positions act like equities).\n\n3. High Risk - Low Reward (Completely Unhedged):\n- All foreign currency exposures are left unhedged.\n- Severe destabilization risk to cash flows and corporate solvency; zero investment of managerial effort. Generally considered reckless financial practice.\n\n4. High Risk - High Reward (Active Trading / Profit Centre):\n- The treasury department acts as an independent profit center, actively trading currencies, canceling, and rebooking contracts to exploit market volatility.\n- High speculative risk; demands sophisticated analytics, strict stop-loss limits, and separation of front, middle, and back offices.",
+      "marks": 5
+    },
+    {
+      "id": "fx-sa-4",
+      "question": "Distinguish comprehensively between Transaction Exposure, Translation Exposure, and Economic (Operating) Exposure.",
+      "answer": "Foreign exchange exposure represents the sensitivity of enterprise value to exchange rate fluctuations:\n\n1. Transaction Exposure:\n- Nature: Arises from legally binding, contracted foreign currency cash flows that originated before an exchange rate change but are due to settle after the exchange rate change (e.g., foreign currency trade receivables, trade payables, external commercial borrowings).\n- Impact: Directly alters realized net cash flows and profit & loss.\n- Management: Hedged using internal techniques (netting, matching) or external market instruments (forwards, futures, money market hedges, options).\n\n2. Translation Exposure (Accounting Exposure):\n- Nature: Arises from the statutory requirement to restate and consolidate the foreign currency financial statements of foreign branches, subsidiaries, or joint ventures into the parent company's home reporting currency (governed by Ind AS 21 / AS 11).\n- Impact: Affects consolidated balance sheet book values, owner's equity, and reported accounting ratios; has NO immediate direct cash flow impact.\n- Management: Balance sheet asset-liability matching or foreign currency debt financing.\n\n3. Economic (Operating) Exposure:\n- Nature: Measures the long-term impact of unanticipated exchange rate movements on the firm's competitive pricing power, input costs, sales volume, and overall enterprise market value.\n- Impact: Alters the present value of future operating cash flows.\n- Management: Strategic operational diversification (locating manufacturing in export markets, sourcing raw materials globally, flexible marketing).",
+      "marks": 5
+    },
+    {
+      "id": "fx-sa-5",
+      "question": "State the core regulatory provisions and financial mechanics governing Early Delivery, Cancellation, and Extension of Forward Contracts under FEDAI guidelines.",
+      "answer": "Under Foreign Exchange Dealers' Association of India (FEDAI) rules:\n\n1. Early Delivery:\n- When an exporter or importer delivers foreign exchange prior to the contracted maturity date, the bank executes the delivery at the originally agreed rate.\n- Customer must bear:\n  (a) Swap Loss / Swap Difference: Arising because the bank must execute an offsetting swap (e.g., sell spot and buy forward to original maturity).\n  (b) Interest on Outlay of Funds: Charged at not less than the Prime Lending Rate (PLR) on funds disbursed by the bank earlier than planned.\n\n2. Cancellation of Forward Contract:\n- Cancelled at the market opposite rate (forward purchase cancelled by spot/forward sale; forward sale cancelled by spot/forward purchase).\n- The customer pays the net exchange difference plus flat cancellation fees.\n- Automatic Cancellation (Rule 6): An overdue contract without instructions stands cancelled on the 3rd working day following maturity. Customer must pay exchange losses, but forfeits any exchange profit.\n\n3. Extension of Forward Contract:\n- Consists of two simultaneous legs: (a) Cancellation of the existing contract at the appropriate opposite rate, and (b) Rebooking of a fresh forward contract for the new maturity date at the current forward market rate with prescribed exchange margins.\n- Settlement of all merchant transactions must be rounded off to the nearest whole Rupee (FEDAI Rule 5A.8).",
+      "marks": 4
+    },
+    {
+      "id": "fx-sa-6",
+      "question": "Summarize the three core international exchange rate parity theories: Interest Rate Parity (IRP), Purchasing Power Parity (PPP), and International Fisher Effect (IFE).",
+      "answer": "The three parity theories explain exchange rate determination under equilibrium:\n\n1. Interest Rate Parity (IRP):\n- Focus: Relationship between spot rate, forward rate, and nominal interest rate differentials at a specific point in time.\n- Formula: F / S = (1 + r_D) / (1 + r_F).\n- Premise: The forward premium or discount on foreign currency must offset the interest rate gap between two nations. Covered Interest Arbitrage (CIA) yields no excess return.\n\n2. Purchasing Power Parity (PPP):\n- Focus: Relationship between spot exchange rate changes and inflation differentials over time.\n- Formula: E(S_1) = S_0 * [(1 + I_D) / (1 + I_F)].\n- Premise: Prices of an identical basket of goods equalize when measured in a common currency (Law of One Price). Currencies of high-inflation nations depreciate relative to low-inflation nations.\n\n3. International Fisher Effect (IFE):\n- Focus: Relationship between expected spot rate movements and nominal interest rate differentials over time.\n- Formula: [E(S_1) - S_0] / S_0 ≈ r_D - r_F.\n- Premise: Because nominal interest rates reflect real returns plus anticipated inflation, nominal interest differentials predict future spot exchange rate movements. Uncovered foreign investments yield no excess return over domestic deposits.",
+      "marks": 4
+    }
+  ],
+  "essay": [
+    {
+      "id": "fx-pr-1",
+      "question": "Illustration 2 & Practical Question 51 Variant (Reconciliation of Bank Exchange & Cash Positions):\n\nYou are a Chief Forex Dealer of Global Commercial Bank, Mumbai. On 20th October, 2024, the opening records of your London correspondent bank Nostro account indicate:\n- Nostro A/c Credit Balance: £65,000\n- Net Exchange Position: Overbought £35,000\n\nDuring the trading day, the following customer and interbank transactions took place:\n1. Demand Drafts (DD) purchased from customers: £12,500\n2. Clean commercial bill on London purchased: £40,000\n3. Telegraphic Transfer (TT) sold forward (due in 2 months): £30,000\n4. Forward purchase contract cancelled by an export customer: £15,000\n5. Outward TT remittance executed on behalf of an import client: £37,500\n6. Customer Draft on London issued earlier cancelled: £15,000\n\nManagement Directive:\nThe bank's Treasury Committee mandates that at the close of trading, the dealer must maintain:\n(a) A target credit balance of £7,500 in the Nostro Account, and\n(b) A target Net Overbought Exchange Position of £7,500.\n\nRequired:\n(i) Prepare the Exchange Position Statement for the day.\n(ii) Prepare the Cash Position (Nostro Account) Statement for the day.\n(iii) Determine the precise steps and transactions (Spot and Forward) the dealer must execute in the interbank market to satisfy both management directives.",
+      "marks": 14,
+      "computation": {
+        "title": "Global Commercial Bank - Reconciliation of Exchange and Cash Positions (GBP)",
+        "headers": [
+          {
+            "label": "Particulars / Transaction Description",
+            "subheader": "Nature of Operational Flow"
+          },
+          {
+            "label": "Exchange Position (£)",
+            "subheader": "Purchase / (Sale)"
+          },
+          {
+            "label": "Cash Position (£)",
+            "subheader": "Credit / (Debit)"
+          }
+        ],
+        "rows": [
+          {
+            "particulars": "Opening Balances (Overbought / Credit Balance)",
+            "values": [
+              "£ 35,000",
+              "£ 65,000"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "1. Demand Drafts (DD) Purchased (Commitment to receive £; cash not yet realized)",
+            "values": [
+              "£ 12,500",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "2. Clean Bill on London Purchased (Commitment to receive £; cash unrealized)",
+            "values": [
+              "£ 40,000",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "3. Sold Forward TT (Forward commitment to deliver £; no immediate cash impact)",
+            "values": [
+              "(£ 30,000)",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "4. Forward Purchase Contract Cancelled (Reversal of earlier purchase commitment)",
+            "values": [
+              "(£ 15,000)",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "5. Outward TT Remitted (Immediate debit to Nostro A/c and reduction in exchange position)",
+            "values": [
+              "(£ 37,500)",
+              "(£ 37,500)"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "6. Draft on London Cancelled (Reversal of earlier sales commitment; increases exchange position)",
+            "values": [
+              "£ 15,000",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Closing Day Balances Before Market Correction",
+            "values": [
+              "Overbought £ 20,000",
+              "Credit £ 27,500"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "Corrective Action Leg 1: Spot Market Sale of £ (To reduce Nostro credit to target £7,500)",
+            "values": [
+              "(£ 20,000)",
+              "(£ 20,000)"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Interim Balances (Cash Position reaches target £7,500; Exchange Position = Nil)",
+            "values": [
+              "Nil (£ 0)",
+              "Credit £ 7,500 (Target Met)"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "Corrective Action Leg 2: Forward Market Purchase of £ (To establish target Overbought £7,500)",
+            "values": [
+              "£ 7,500",
+              "— (No Cash Impact)"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Final Reconciled Closing Positions (Both Targets Fully Achieved)",
+            "values": [
+              "Overbought £ 7,500",
+              "Credit £ 7,500"
+            ],
+            "isSubtotal": false,
+            "isTotal": true
+          }
+        ],
+        "notes": [
+          "Note 1 (Axiom of Cash and Exchange Positions): All transactions affecting the Cash Position (Nostro account) also affect the Exchange Position, but transactions affecting the Exchange Position do not affect Cash Position until physical value-dated settlement.",
+          "Note 2 (Bill & DD Purchases): Purchasing bills or DDs increases foreign currency purchase commitments (Exchange Position), but does not credit the Nostro account until collection.",
+          "Note 3 (Rebalancing Sequence): The dealer must always adjust the Cash Position FIRST via Spot transactions (£20,000 sold spot). This brings the Exchange Position from Overbought £20,000 down to NIL. The dealer then purchases £7,500 FORWARD to attain the mandated target Overbought position without altering the Cash Position."
+        ]
+      }
+    },
+    {
+      "id": "fx-pr-2",
+      "question": "Illustration 9 Variant (FEDAI Forward Contract Cancellation, Swap Loss, Interest on Outlay, and Extension):\n\nOn 10th April 2024, an Indian importer booked a forward sale contract with his bank for USD 2,00,000 due on 10th June @ ₹64.4000. The bank covered its position in the interbank market on the same day at ₹64.2800.\n\nOn the due date (10th June), the customer failed to retire the bill. In compliance with prudent banking practice, the bank executed a swap to preserve its position by selling spot and buying one month forward. On 14th June, the importer approached the bank requesting an extension of the contract to mature on 10th August.\n\nThe interbank market quotations on 10th June and 13th June (3rd working day) were:\n- 10th June: Spot USD 1 = ₹63.8000 / 63.8200; Spot/June = ₹63.9200 / 63.9500; July = ₹64.0500 / 64.0900; August = ₹64.3000 / 64.3500; September = ₹64.6000 / 64.6600.\n- 13th June: Spot USD 1 = ₹63.6800 / 63.7200; Spot/June = ₹63.8000 / 63.8500; July = ₹63.9300 / 63.9900; August = ₹64.1800 / 64.2500; September = ₹64.4800 / 64.5600.\n\nParameters & Conditions:\n- Applicable Exchange Margin: 0.10% on buying and selling rates.\n- Bank Prime Lending Rate for Outlay of Funds: 12.00% p.a.\n- As per FEDAI Rule 6, the original overdue contract is cancelled on the 3rd working day (13th June).\n- Rates to be rounded off to 4 decimal places in multiples of 0.0025.\n\nRequired:\n(i) Calculate the Cancellation Rate applicable for the original forward sale contract.\n(ii) Compute the net Exchange Cancellation Charges payable on USD 2,00,000.\n(iii) Calculate the Swap Loss incurred by the bank on the swap deal entered on 10th June.\n(iv) Compute the Interest on Outlay of Funds for the 3-day overdue period (10th June to 13th June).\n(v) Calculate the New Forward Contract Rate for delivery on 10th August.\n(vi) Summarize the Total Net Cost payable by the customer for extending the contract.",
+      "marks": 14,
+      "computation": {
+        "title": "Statement of Forward Contract Cancellation, Outlay Interest, and Extension Charges",
+        "headers": [
+          {
+            "label": "Step / Cost Component",
+            "subheader": "Detailed Technical Basis"
+          },
+          {
+            "label": "Rate per USD (₹)",
+            "subheader": "Interbank / Margin Adjusted"
+          },
+          {
+            "label": "Total Amount (₹)",
+            "subheader": "For USD 2,00,000"
+          }
+        ],
+        "rows": [
+          {
+            "particulars": "Market Spot Buying Rate on Cancellation Date (13th June)",
+            "values": [
+              "₹ 63.6800",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Less: Exchange Margin @ 0.10% on Buying Rate",
+            "values": [
+              "(₹ 0.06368)",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Net Applicable Spot Buying (Cancellation) Rate (Rounded to 0.0025)",
+            "values": [
+              "₹ 63.6175",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Bank Sells USD 2,00,000 under Original Contract @ ₹64.4000",
+            "values": [
+              "₹ 64.4000",
+              "₹ 1,28,80,000"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Bank Buys USD 2,00,000 under Cancellation @ ₹63.6175",
+            "values": [
+              "₹ 63.6175",
+              "₹ 1,27,23,500"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "(A) Net Exchange Difference / Cancellation Charges Payable by Customer",
+            "values": [
+              "₹ 0.7825 per $",
+              "₹ 1,56,500"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "Swap Leg 1 (10th June): Bank sells spot in market at market buying rate",
+            "values": [
+              "₹ 63.8000",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Swap Leg 2 (10th June): Bank buys forward for June at market selling rate",
+            "values": [
+              "₹ 63.9500",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "(B) Swap Loss per USD (₹63.9500 - ₹63.8000 = ₹0.1500 per USD)",
+            "values": [
+              "₹ 0.1500 per $",
+              "₹ 30,000"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "Outlay per USD: Delivery taken under cover (₹64.2800) less Spot sale (₹63.8000)",
+            "values": [
+              "₹ 0.4800 per $",
+              "Outlay = ₹ 96,000"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "(C) Interest on Outlay of Funds: ₹96,000 * 12% * (3 days / 365 days)",
+            "values": [
+              "12% p.a. for 3 days",
+              "₹ 95"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "Rebooking: Forward Market Selling Rate for August (13th June quote)",
+            "values": [
+              "₹ 64.2500",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Add: Exchange Margin @ 0.10% on Selling Rate (₹64.2500 * 0.10% = ₹0.06425)",
+            "values": [
+              "+ ₹ 0.0643",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "(D) New Contract Forward Rate (₹64.3143 rounded to multiple of 0.0025)",
+            "values": [
+              "₹ 64.3150",
+              "Rate for 10th Aug"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "TOTAL COST OF EXTENSION PAYABLE BY CUSTOMER = (A) + (B) + (C)",
+            "values": [
+              "Cancellation + Swap + Interest",
+              "₹ 1,86,595"
+            ],
+            "isSubtotal": false,
+            "isTotal": true
+          }
+        ],
+        "notes": [
+          "Note 1 (Cancellation Rate Rule): For an overdue import forward contract (where bank had agreed to sell foreign currency), cancellation is effected by the bank buying back the currency at the Spot TT Buying Rate on the 3rd working day (13th June), deducting the 0.10% buying exchange margin.",
+          "Note 2 (Swap Loss Mechanism): On 10th June, the bank had to deliver under its interbank cover. It sold spot at market buying rate ₹63.8000 and bought June forward at ₹63.9500, creating an exact swap loss of ₹0.1500 per USD.",
+          "Note 3 (Rounding Off): As per FEDAI rules, all merchant exchange rates are rounded to 4 decimals in multiples of 0.0025, and final settlement cash amounts are rounded to the nearest whole Rupee (FEDAI Rule 5A.8)."
+        ]
+      }
+    },
+    {
+      "id": "fx-pr-3",
+      "question": "Practical Question 40 Variant (Comparative Evaluation: Forward Cover vs. Money Market Hedge vs. Currency Option):\n\nA UK-based pharmaceutical importer, Medico Ltd., has imported specialty medical equipment from a US manufacturer for USD 3,64,897 payable in six months. The company's treasury is evaluating three hedging alternatives to manage its foreign exchange transaction risk.\n\nFinancial Market Data:\n- Spot Rate: USD 1.5617 – 1.5673 per £ (Indirect quote in London)\n- 6-Month Forward Rate: USD 1.5455 – 1.5609 per £\n- Money Market Interest Rates (Annualized):\n  * UK Borrowing Rate: 7.00% p.a. | UK Deposit Rate: 5.50% p.a.\n  * US Borrowing Rate: 6.00% p.a. | US Deposit Rate: 4.50% p.a.\n- Currency Option Market on London International Exchange:\n  * Contract Size: £12,500 per contract\n  * Strike Price: USD 1.70 per £\n  * 6-Month Call Option Premium on £: USD 0.037 per £\n  * 6-Month Put Option Premium on £: USD 0.096 per £\n\nRequirements:\n(i) Convert the market indirect quotes ($/£) into direct quotes (£/$) for spot and 6-month forward.\n(ii) Calculate the total GBP cash outflow under Option 1: Forward Market Cover.\n(iii) Calculate the total GBP cash outflow under Option 2: Money Market Hedge (MMH).\n(iv) Calculate the total GBP cash outflow under Option 3: Currency Option Cover (hedging whole contracts and covering residual exposure via forward contract).\n(v) Present a structured comparative evaluation table and advise Medico Ltd. on the optimal hedging strategy.",
+      "marks": 14,
+      "computation": {
+        "title": "Medico Ltd. (UK) - Comparative Evaluation of Foreign Exchange Hedging Strategies for USD 3,64,897 Payable",
+        "headers": [
+          {
+            "label": "Hedging Strategy / Operational Steps",
+            "subheader": "Methodology & Cash Flow Mechanics"
+          },
+          {
+            "label": "Currency Transacted",
+            "subheader": "USD / Contract Units"
+          },
+          {
+            "label": "Effective GBP Outflow (£)",
+            "subheader": "Payable at 6 Months"
+          }
+        ],
+        "rows": [
+          {
+            "particulars": "Direct Quotation Conversion: Spot Rate (£/$) = (1/1.5673) to (1/1.5617)",
+            "values": [
+              "Spot Ask = £ 0.64033 / $",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Direct Quotation Conversion: 6-Month Forward Rate (£/$) = (1/1.5609) to (1/1.5455)",
+            "values": [
+              "Forward Ask = £ 0.64704 / $",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "STRATEGY 1: FORWARD MARKET COVER",
+            "values": [
+              "USD 3,64,897 * £ 0.64704",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Total Guaranteed GBP Cost under Forward Contract",
+            "values": [
+              "USD 3,64,897",
+              "£ 2,36,103"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "STRATEGY 2: MONEY MARKET HEDGE (MMH)",
+            "values": [
+              "Deposit US$ / Borrow £",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Step 1: US$ to deposit today at 4.5% p.a. for 6m = USD 3,64,897 / (1 + 0.0225)",
+            "values": [
+              "USD 3,56,867.48",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Step 2: GBP borrowed today to buy US$ spot = USD 3,56,867.48 * £ 0.64033",
+            "values": [
+              "Spot Conversion",
+              "£ 2,28,512.45"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Step 3: Repayment of UK Loan at 7.0% p.a. for 6m = £2,28,512.45 * (1 + 0.0350)",
+            "values": [
+              "Interest = £ 7,998",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Total Terminal GBP Outflow under Money Market Hedge",
+            "values": [
+              "Matured Loan Repayment",
+              "£ 2,36,510"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "STRATEGY 3: CURRENCY OPTION HEDGE",
+            "values": [
+              "Call on £ at Strike $1.70",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Value per contract at strike: £12,500 * $1.70 = $21,250 | Contracts: 364,897 / 21,250 = 17.17",
+            "values": [
+              "Hedge 17 Full Contracts",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "USD Covered by 17 Contracts = 17 * $21,250 = $3,61,250 (Exercise Cost = 17 * £12,500)",
+            "values": [
+              "$ 3,61,250",
+              "£ 2,12,500"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Residual USD Covered via Forward Contract = USD 3,647 * £0.64704",
+            "values": [
+              "$ 3,647",
+              "£ 2,360"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Option Premium on Put on £: 17 * £12,500 * $0.096 = $20,400 converted spot (£0.64033)",
+            "values": [
+              "$ 20,400 Premium",
+              "£ 13,063"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Total Outflow under Option Cover (£2,12,500 + £2,360 + £13,063)",
+            "values": [
+              "Exercise + Forward + Premium",
+              "£ 2,27,923"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "RECOMMENDED STRATEGY: CURRENCY OPTION COVER (Net Saving vs Forward = £8,180)",
+            "values": [
+              "Lowest Guaranteed Outflow",
+              "£ 2,27,923"
+            ],
+            "isSubtotal": false,
+            "isTotal": true
+          }
+        ],
+        "notes": [
+          "Note 1 (Reciprocal Rule): Indirect quote USD/£ 1.5617 - 1.5673 is inverted to direct quote £/USD by taking 1 / 1.5673 = £0.63804 (Bid) and 1 / 1.5617 = £0.64033 (Ask).",
+          "Note 2 (Option Selection): To hedge an import payable in USD when options are traded on £, the UK company needs to sell £ for USD, which corresponds to purchasing a PUT option on £.",
+          "Note 3 (Comparative Conclusion): Currency Option requires £2,27,923, which is £8,180 cheaper than Forward Cover (£2,36,103) and £8,587 cheaper than Money Market Hedge (£2,36,510), while preserving upside if USD weakens."
+        ]
+      }
+    },
+    {
+      "id": "fx-pr-4",
+      "question": "Practical Question 13 & 26 Variant (Covered Interest Arbitrage & Triangular Market Arbitrage):\n\nPART A: Covered Interest Arbitrage (CIA)\nAn international arbitrageur has access to a credit line of ₹40,00,000 or equivalent US$ 83,312. The following market parameters are observed:\n- Spot Rate: 1 US$ = ₹48.0123\n- 180-Day Forward Rate: 1 US$ = ₹48.8190\n- Annualized 6-Month Rupee Borrowing/Lending Rate: 12.00% p.a.\n- Annualized 6-Month Dollar Borrowing/Lending Rate: 8.00% p.a.\n\nPART B: Triangular Foreign Exchange Arbitrage\nSimultaneously, the arbitrageur notices the following spot rates across three international financial centers:\n- Mumbai: USD / INR = 48.30\n- London: GBP / INR = 77.52\n- New York: GBP / USD = 1.6231\nThe arbitrageur has US$ 10,000,000 available in New York. Assume zero transaction costs.\n\nRequired:\n(i) In Part A, verify whether Interest Rate Parity holds. Identify which currency yields covered interest arbitrage profit, show the 4-step transaction sequence, and compute net arbitrage gain in US$ and INR.\n(ii) In Part B, determine whether triangular currency arbitrage is feasible, trace the circular path, and calculate the net riskless arbitrage profit in US$.",
+      "marks": 14,
+      "computation": {
+        "title": "Statement of Covered Interest Arbitrage & Triangular Arbitrage Execution",
+        "headers": [
+          {
+            "label": "Arbitrage Stage / Market Action",
+            "subheader": "Transaction Sequence"
+          },
+          {
+            "label": "Cash Flow Inflow / Outflow",
+            "subheader": "Foreign Currency"
+          },
+          {
+            "label": "Rupee Equivalent / Net Profit",
+            "subheader": "Home Currency (₹)"
+          }
+        ],
+        "rows": [
+          {
+            "particulars": "PART A: PARITY VERIFICATION & FORWARD PREMIUM",
+            "values": [
+              "—",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Annualized Forward Premium on US$ = [(48.8190 - 48.0123)/48.0123] * (12/6) * 100",
+            "values": [
+              "Forward Premium = +3.36% p.a.",
+              "Interest Diff (12% - 8%) = 4.00%"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Parity Status: Rupee interest rate advantage (4.00%) > USD forward premium (3.36%)",
+            "values": [
+              "Inflow Arbitrage into India Feasible",
+              "Net Spread = 0.64% p.a."
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "Step 1: Borrow US$ 83,312 in USA @ 8% p.a. for 6 months (Interest = US$ 3,332.48)",
+            "values": [
+              "Borrow US$ 83,312.00",
+              "Repayable = US$ 86,644.48"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Step 2: Convert US$ 83,312 to INR Spot @ ₹48.0123/$ in Mumbai",
+            "values": [
+              "Principal Realized",
+              "₹ 40,00,000"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Step 3: Invest ₹40,00,000 in Indian Money Market @ 12% p.a. for 6 months (Interest = ₹2,40,000)",
+            "values": [
+              "Maturity Proceeds in INR",
+              "₹ 42,40,000"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Step 4: Convert ₹42,40,000 into USD at 180-day Forward Rate of ₹48.8190/$",
+            "values": [
+              "Proceeds = ₹42,40,000 / 48.8190",
+              "US$ 86,851.43"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "PART A NET COVERED ARBITRAGE PROFIT (US$ 86,851.43 - US$ 86,644.48)",
+            "values": [
+              "US$ 206.95",
+              "₹ 10,103"
+            ],
+            "isSubtotal": true,
+            "isTotal": false
+          },
+          {
+            "particulars": "PART B: TRIANGULAR ARBITRAGE (US$ 10,000,000)",
+            "values": [
+              "—",
+              "—"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Synthetic Cross Rate GBP/USD = (GBP/INR in London) / (USD/INR in Mumbai)",
+            "values": [
+              "77.52 / 48.30",
+              "GBP 1 = USD 1.6050"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Actual Market Quote in New York: GBP 1 = USD 1.6231 (GBP is overvalued in NY)",
+            "values": [
+              "Synthetic 1.6050 < NY 1.6231",
+              "Arbitrage Exists!"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Execution Leg 1: Sell US$ 10,000,000 in Mumbai @ ₹48.30/$",
+            "values": [
+              "Outflow: US$ 10,000,000",
+              "Inflow: ₹ 48,30,00,000"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Execution Leg 2: Convert ₹48,30,00,000 into GBP in London @ ₹77.52/£",
+            "values": [
+              "Outflow: ₹ 48,30,00,000",
+              "Inflow: £ 6,230,650.155"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "Execution Leg 3: Sell £ 6,230,650.155 in New York @ $1.6231/£",
+            "values": [
+              "Outflow: £ 6,230,650.155",
+              "Inflow: US$ 10,112,968.26"
+            ],
+            "isSubtotal": false,
+            "isTotal": false
+          },
+          {
+            "particulars": "PART B NET TRIANGULAR ARBITRAGE PROFIT (US$ 10,112,968.26 - US$ 10,000,000)",
+            "values": [
+              "Riskless Dollar Gain",
+              "US$ 112,968.26 (₹ 54.56 Lakhs)"
+            ],
+            "isSubtotal": false,
+            "isTotal": true
+          }
+        ],
+        "notes": [
+          "Note 1 (Covered Interest Arbitrage Rule): When domestic interest rate advantage (r_D - r_F) exceeds forward premium, funds must flow from foreign country to domestic country. Forward cover locks in a guaranteed risk-free gain.",
+          "Note 2 (Triangular Cross-Rate Rule): Comparing cross-rate (77.52 / 48.30 = $1.6050) against direct quote ($1.6231) shows GBP is overvalued in New York. The arbitrageur buys underpriced GBP via Mumbai-London and sells GBP in New York."
+        ]
+      }
+    }
+  ],
+  "fill": [
+    {
+      "id": "fx-fill-1",
+      "question": "The foreign exchange market convention where a dealer buys one unit of home currency with foreign currency is known as a(n) ________ quote, whereas quoting the home currency price of one unit of foreign currency is a(n) ________ quote.",
+      "answer": "indirect; direct"
+    },
+    {
+      "id": "fx-fill-2",
+      "question": "A bank's foreign currency account maintained with an overseas correspondent bank in the foreign currency is called a ________ account, whereas a foreign bank's rupee account maintained in India is termed a ________ account.",
+      "answer": "Nostro; Vostro"
+    },
+    {
+      "id": "fx-fill-3",
+      "question": "Under FEDAI Rule 6, an uninstructed overdue forward exchange contract stands automatically cancelled on the ________ working day following its maturity date.",
+      "answer": "3rd (third)"
+    },
+    {
+      "id": "fx-fill-4",
+      "question": "When forward swap points in a direct quotation are higher on the bid side than on the ask side (descending from left to right), the foreign currency is quoting at a forward ________.",
+      "answer": "discount"
+    },
+    {
+      "id": "fx-fill-5",
+      "question": "A cash-settled forward contract on a thinly traded or non-convertible currency where the net exchange difference is settled in US Dollars on the settlement date without physical delivery is known as a(n) ________.",
+      "answer": "Non-Deliverable Forward (NDF)"
+    }
+  ],
+  "match": [
+    {
+      "id": "fx-match-1",
+      "left": "Nostro Account",
+      "right": "Our foreign currency account maintained with an overseas correspondent bank"
+    },
+    {
+      "id": "fx-match-2",
+      "left": "Covered Interest Parity",
+      "right": "Forward premium/discount equal to nominal interest rate differential"
+    },
+    {
+      "id": "fx-match-3",
+      "left": "Natural Matching",
+      "right": "Internal offsetting of foreign currency inflows and outflows in same currency and timing"
+    },
+    {
+      "id": "fx-match-4",
+      "left": "Circus Swap",
+      "right": "Currency coupon swap exchanging fixed-rate in one currency for floating-rate in another"
+    },
+    {
+      "id": "fx-match-5",
+      "left": "Economic Exposure",
+      "right": "Sensitivity of present value of long-term operating cash flows to exchange rate shifts"
+    }
+  ]
+}

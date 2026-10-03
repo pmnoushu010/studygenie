@@ -1,0 +1,225 @@
+CHAPTER 9: DERIVATIVES ANALYSIS AND VALUATION
+PAPER 2: ADVANCED FINANCIAL MANAGEMENT (CA FINAL)
+
+LEARNING OUTCOMES:
+After studying this chapter, students shall be able to understand:
+• Conceptual foundations of Financial Derivatives, underlying asset classes, and key market participants
+• Cash Market vs. Derivative Market: Comparative mechanics, leverage, and settlement procedures
+• Forward Contracts vs. Futures Contracts: Over-the-counter customization vs. standardized exchange clearing
+• Pricing and Valuation of Forwards and Futures: Cost of Carry model (simple and continuous compounding), Basis, Contango, Backwardation, Convergence, and Arbitrage strategies
+• Futures Market Mechanics: Single Stock Futures, Index Futures, Initial & Maintenance Margins, Daily Mark-to-Market (MTM) accounting, and Margin Calls
+• Hedging using Futures: Single stock short hedge, Portfolio Beta Hedging, and Target Beta adjustment
+• Options Contracts: Call and Put options, Buyers (Long) vs. Writers (Short), American vs. European styles, and payoff profiles
+• Option Valuation Models: Binomial Model (one-step, multi-step trees, hedge ratio Delta), Risk-Neutral Valuation method, and the Black-Scholes Formula
+• Put-Call Parity Relationship and synthetic option positioning
+• Option Greeks: Delta, Gamma, Theta, Vega, and Rho
+• Exotic Options: Chooser, Compound, Barrier, Binary/Digital, Asian, Bermuda, Basket, and Lookback options
+• Credit Derivatives: Collateralized Debt Obligations (Cash vs. Synthetic CDOs) and Credit Default Swaps (CDS mechanics, physical vs. cash settlement)
+• Real Options in Capital Budgeting: Growth Options (Call), Abandonment Options (Put), and Timing/Delay Options
+• Commodity, Weather, and Electricity Derivatives: Volumetric hedging, HDD/CDD indices, and Locational Basis Swaps
+• Classic Derivative Mishaps & Risk Management Lessons: Orange County, Barings Bank (Nick Leeson), P&G/Bankers Trust, and internal control firewalls
+
+================================================================================
+1. INTRODUCTION TO FINANCIAL DERIVATIVES
+================================================================================
+1.1 Definition:
+A Derivative is a financial instrument whose value is derived from the value of one or more underlying reference variables, known as the underlying asset, index, or reference rate (e.g., Equities, Foreign Currencies, Debt Instruments, Commodities, Interest Rates, or Stock Indices).
+In the absence of a valuable underlying asset, a derivative contract has no independent existence or intrinsic worth.
+
+1.2 Market Participants:
+1. Hedgers: Seek to neutralize or eliminate price risk in their core business operations (e.g., corporations hedging currency or raw material price volatility, portfolio managers hedging market downturns).
+2. Speculators: Assume risk in anticipation of directional price movements, seeking abnormal profits through leverage.
+3. Arbitrageurs: Exploit temporary price discrepancies between cash and derivative markets (or between multiple exchanges) to earn riskless profits.
+4. Market Makers / Dealers: Provide liquidity by continuously quoting bid and ask prices, earning the bid-ask spread.
+
+1.3 Cash Market vs. Derivative Market:
+• Asset Nature: Cash markets trade tangible assets or shares directly; derivative markets trade contracts on tangibles or intangible indices/rates.
+• Capital Outlay & Leverage: Cash equity purchases require 100% upfront capital; futures/options require only an initial margin (typically 10% to 20%), magnifying return and loss potentials.
+• Ownership Rights: Buying shares in the cash market confers voting rights, dividends, and ownership; holding derivative contracts confers purely contractual cash claims without corporate ownership.
+• Settlement: Cash shares are settled via physical delivery or depository transfer; financial derivatives are predominantly settled in cash on a mark-to-market basis.
+
+================================================================================
+2. FORWARD CONTRACTS VS. FUTURES CONTRACTS
+================================================================================
+• Forward Contract: A customized, bilateral contract negotiated directly between two parties (Over-The-Counter / OTC) to buy or sell an asset at an agreed price on a future date. Non-standardized size and maturity; settled on the final maturity date; exposes both parties to counterparty credit (default) risk.
+• Futures Contract: A standardized contract traded on an organized, regulated exchange (e.g., NSE, BSE) to buy or sell a specified quantity and grade of an underlying asset at an agreed price on a specified future expiration date.
+
+Comparison Matrix:
+1. Trading Venue: Forwards trade OTC (telephonic/private); Futures trade on competitive, computerized exchange platforms.
+2. Contract Size: Forwards are individually tailored; Futures are strictly standardized in terms of lot size.
+3. Counterparty Risk: Forwards carry significant bilateral credit risk; Futures eliminate counterparty risk through the Exchange Clearing House, which acts as the legal counterparty to every trade (Novation).
+4. Settlement & Margins: Forwards settle in a lump sum at maturity with no interim margins; Futures settle daily via Mark-to-Market (MTM) margin adjustments.
+5. Liquidity & Exit: Forwards are difficult to cancel or transfer; Futures are highly liquid and can be squared off at any time prior to expiration by taking an offsetting position.
+
+================================================================================
+3. PRICING & VALUATION OF FORWARDS AND FUTURES
+================================================================================
+3.1 The Concept of Basis:
+$$\text{Basis} = \text{Spot Price} (S) - \text{Futures Price} (F)$$
+• Contango Market (Normal Market): Futures Price > Spot Price $\implies$ Basis is NEGATIVE. The futures price reflects the full cost of carry (financing interest, storage, insurance).
+• Backwardation Market (Inverted Market): Spot Price > Futures Price $\implies$ Basis is POSITIVE. Arises due to severe immediate cash shortages or high convenience yields.
+• Convergence Principle: As the contract expiration date approaches, the time value and carrying cost diminish. At expiration ($t = 0$), Basis becomes ZERO, and the futures price exactly equals the spot price ($F_T = S_T$).
+
+3.2 The Cost of Carry Model:
+The fair theoretical (arbitrage-free) futures price is determined by the cost incurred to carry the physical asset until expiration minus any income earned:
+$$\text{Futures Price} = \text{Spot Price} + \text{Carrying Costs} - \text{Interim Inflows}$$
+
+1. Discrete Compounding (Simple Interest):
+   $$F = S_0 + S_0 \times r \times t - D$$
+   Where $S_0$ = Current Spot Price, $r$ = Borrowing interest rate p.a., $t$ = Time to maturity in years, $D$ = Total dividend receivable before expiry.
+
+2. Continuous Compounding:
+   • For Non-Dividend Paying Assets:
+     $$F = S_0 e^{rt}$$
+   • For Assets Paying a Known Discrete Cash Dividend ($D$):
+     $$F = (S_0 - I) e^{rt} \quad \text{where } I = D e^{-rt_d} \text{ (PV of dividend)}$$
+   • For Assets with a Continuous Dividend Yield ($y$):
+     $$F = S_0 e^{(r - y)t}$$
+
+3.3 Arbitrage Mechanisms:
+• Cash-and-Carry Arbitrage (When Actual $F >$ Theoretical $F$ - Futures Overvalued):
+  Borrow funds at rate $r$ $\rightarrow$ Buy spot stock in cash market $\rightarrow$ Sell (short) futures contract at actual $F$ $\rightarrow$ Receive dividend $\rightarrow$ Deliver stock at expiry to settle futures $\rightarrow$ Repay bank loan with interest. Riskless profit = Actual $F$ - Theoretical $F$.
+• Reverse Cash-and-Carry Arbitrage (When Actual $F <$ Theoretical $F$ - Futures Undervalued):
+  Short sell stock in cash market $\rightarrow$ Invest sale proceeds at risk-free rate $r$ $\rightarrow$ Buy (long) futures contract at actual $F$ $\rightarrow$ Collect invested funds with interest at maturity $\rightarrow$ Take delivery via futures and return borrowed stock.
+
+================================================================================
+4. FUTURES HEDGING & MARK-TO-MARKET MECHANICS
+================================================================================
+4.1 Margin Architecture & Daily Mark-to-Market (MTM):
+To prevent systemic default, futures exchanges enforce a dynamic margin mechanism:
+1. Initial Margin: Capital deposited upfront by both buyer and seller to cover potential single-day maximum losses. Statistically calculated under VaR frameworks as:
+   $$\text{Initial Margin} = \mu + 3\sigma \quad (\mu = \text{Mean Absolute Daily Change}, \sigma = \text{Standard Deviation})$$
+2. Maintenance Margin: The minimum equity balance that must be maintained in the margin account at all times (typically 75% to 80% of initial margin).
+3. Mark-to-Market (MTM) P&L: At the close of each trading day, outstanding positions are repriced at the official settlement price. Daily profits are credited, and daily losses are debited.
+4. Margin Call: If daily losses cause the margin account balance to fall below the Maintenance Margin, a Margin Call is triggered. The investor must immediately deposit variation margin (call money) to restore the account back to the full INITIAL MARGIN level.
+
+4.2 Portfolio Hedging with Index Futures:
+• Complete / Perfect Hedge (Neutralizing Market Risk):
+  To insulate an equity portfolio of value $V_p$ with Beta $\beta_p$ against market declines, the investor sells (shorts) index futures contracts:
+  $$N = \frac{V_p \times \beta_p}{V_f} = \frac{V_p \times \beta_p}{F \times \text{Lot Size}}$$
+• Adjusting Portfolio Beta to a Target Level ($\beta_{\text{target}}$):
+  $$N = \frac{V_p \times (\beta_p - \beta_{\text{target}})}{V_f}$$
+  - If $\beta_{\text{target}} < \beta_p$: SELL (Short) index futures contracts.
+  - If $\beta_{\text{target}} > \beta_p$: BUY (Long) index futures contracts.
+
+================================================================================
+5. OPTIONS CONTRACTS & PAYOFF SCENARIOS
+================================================================================
+5.1 Basic Definitions & Rights:
+An Option is a contract that gives the holder (buyer) the right, but NOT the obligation, to buy (Call) or sell (Put) an underlying asset at a specified Exercise/Strike Price ($X$) on or before a specified Expiration Date ($T$).
+• Buyer: Pays an upfront, non-refundable Option Premium; enjoys limited downside risk (capped at premium paid) and unlimited profit potential.
+• Writer (Seller): Receives the premium; faces capped maximum gain (the premium) and theoretically unlimited downside risk.
+• Exercise Styles:
+  - American Option: Can be exercised at any time up to and including expiration.
+  - European Option: Can be exercised strictly on the expiration date only (standard on Indian exchanges).
+
+5.2 Payoff Equations & Break-Even Points:
+1. Long Call (Buyer of Call):
+   $$\text{Payoff} = \max(S_T - X, 0) - C_0 \quad \text{Break-Even} = X + C_0$$
+2. Short Call (Writer of Call):
+   $$\text{Payoff} = -\max(S_T - X, 0) + C_0 \quad \text{Break-Even} = X + C_0$$
+3. Long Put (Buyer of Put):
+   $$\text{Payoff} = \max(X - S_T, 0) - P_0 \quad \text{Break-Even} = X - P_0$$
+4. Short Put (Writer of Put):
+   $$\text{Payoff} = -\max(X - S_T, 0) + P_0 \quad \text{Break-Even} = X - P_0$$
+
+================================================================================
+6. OPTION VALUATION TECHNIQUES
+================================================================================
+6.1 The Binomial Option Pricing Model (Cox, Ross, Rubinstein):
+Assumes that over a discrete time step, the underlying stock price can move to only two possible values: Up ($S_u = S_0 \times u$) or Down ($S_d = S_0 \times d$).
+• Up Factor ($u$) and Down Factor ($d$):
+  $$u = e^{\sigma \sqrt{\Delta t}} \quad \text{and} \quad d = \frac{1}{u} = e^{-\sigma \sqrt{\Delta t}}$$
+• Risk-Neutral Probability ($p$):
+  $$p = \frac{e^{r \Delta t} - d}{u - d} \quad \text{or} \quad \frac{R - d}{u - d} \quad (\text{where } R = 1 + r_f)$$
+• Call Option Valuation:
+  $$C_0 = \frac{p C_u + (1 - p) C_d}{e^{r \Delta t}} = e^{-r \Delta t} [p C_u + (1 - p) C_d]$$
+• Hedge Ratio / Option Delta ($\Delta$):
+  $$\Delta = \frac{C_u - C_d}{S_u - S_d}$$
+  A riskless hedge portfolio is constructed by purchasing $\Delta$ shares of stock and writing 1 Call option.
+
+6.2 The Black-Scholes Formula (1973):
+Closed-form analytical solution for European options on non-dividend paying stocks:
+$$C_0 = S_0 N(d_1) - X e^{-rt} N(d_2)$$
+Where:
+$$d_1 = \frac{\ln(S_0 / X) + (r + \sigma^2 / 2) t}{\sigma \sqrt{t}}$$
+$$d_2 = d_1 - \sigma \sqrt{t}$$
+- $S_0$ = Current stock price; $X$ = Strike price; $t$ = Time to expiration in years
+- $r$ = Continuously compounded annual risk-free rate; $\sigma$ = Annualized stock return volatility
+- $N(d)$ = Cumulative standard normal distribution function
+- Economic Interpretation: $N(d_1)$ represents the option Delta (hedge ratio); $N(d_2)$ represents the risk-neutral probability that the call option finishes in-the-money ($S_T > X$).
+
+6.3 Put-Call Parity Relationship:
+Derived from the no-arbitrage condition between a synthetic European call and put:
+$$C_0 + X e^{-rt} = P_0 + S_0$$
+$$\text{Put Price } P_0 = C_0 + X e^{-rt} - S_0$$
+• With Discrete Dividend ($I = \text{PV of Dividends}$):
+  $$C_0 + X e^{-rt} = P_0 + (S_0 - I)$$
+
+================================================================================
+7. OPTION GREEKS
+================================================================================
+Statistical risk sensitivities measuring option price responsiveness to underlying parameters:
+1. Delta ($\Delta$): Rate of change of option price per unit change in underlying stock price:
+   $$\Delta_{\text{Call}} = N(d_1) \quad (0 \le \Delta_C \le 1); \quad \Delta_{\text{Put}} = N(d_1) - 1 \quad (-1 \le \Delta_P \le 0)$$
+2. Gamma ($\Gamma$): Rate of change of Delta per unit change in stock price ($\Gamma = \partial \Delta / \partial S$). Measures the curvature and stability of a delta-hedged portfolio.
+3. Theta ($\Theta$): Rate of option price decline due to the passage of time ($\partial C / \partial t$, Time Decay). Always negative for long option positions.
+4. Vega ($\nu$): Sensitivity of option price to a 1% change in underlying volatility ($\partial C / \partial \sigma$). Always positive for long calls and long puts.
+5. Rho ($\rho$): Sensitivity of option price to a 1% change in the risk-free interest rate ($\partial C / \partial r$). Positive for calls, negative for puts.
+
+================================================================================
+8. EXOTIC OPTIONS
+================================================================================
+Non-standard OTC option structures with customized payoff and exercise terms:
+1. Chooser Option: Grants the holder the right to decide, on a specified future date, whether the option will be a Call or a Put.
+2. Compound Option: An option on an option (e.g., Call on Call, Call on Put, Put on Call, Put on Put).
+3. Barrier Option: Activation or deactivation depends on whether the underlying asset crosses a barrier price (Knock-in or Knock-out options).
+4. Binary / Digital Option: Pays a fixed discontinuous payoff if the condition is satisfied at maturity; otherwise pays zero.
+5. Asian Option: Payoff is determined by the average underlying price over the life of the option, suppressing volatility manipulation.
+6. Bermuda Option: Exercisable on specified discrete dates prior to expiration (hybrid of European and American).
+7. Lookback Option: Strike price is set at the most favorable extreme (maximum or minimum) reached by the stock during the option's lifespan.
+
+================================================================================
+9. CREDIT DERIVATIVES
+================================================================================
+Financial instruments designed to isolate, transfer, and trade credit default risk:
+1. Collateralized Debt Obligations (CDOs):
+   Securitized debt structures backed by diversified portfolios of bonds (CBOs) or loans (CLOs).
+   • Cash Flow CDOs: Originator physically sells debt assets to an SPV (Balance sheet funding + risk transfer).
+   • Synthetic CDOs: Credit risk is transferred synthetically via Credit Default Swaps (CDS) or Credit Linked Notes (CLNs) without legally transferring asset ownership.
+2. Credit Default Swaps (CDS):
+   A bilateral contract where the Protection Buyer pays periodic premiums (basis points p.a.) to the Protection Seller. In exchange, if a defined Credit Event (default, bankruptcy, debt restructuring) occurs to the Reference Entity, the seller compensates the buyer.
+   • Physical Settlement: Buyer delivers the defaulted bond in exchange for par value.
+   • Cash Settlement: Seller pays Par Value minus Market Recovery Value determined via Credit Event Auctions.
+   • Naked CDS: Purchasing a CDS without holding the underlying reference debt (speculative credit position).
+
+================================================================================
+10. REAL OPTIONS IN CAPITAL BUDGETING
+================================================================================
+Applies option pricing methodology to evaluate managerial flexibility in capital investment projects:
+• Financial Options vs. Real Options: Real options evaluate non-traded real capital assets; payoffs are derived from cash flows; exercise horizons span multi-year strategic lifecycles.
+• Types of Real Options:
+  1. Growth Option (Call Option): R&D investments, pilot facilities, and patent acquisitions that grant the right, but not the obligation, to make follow-on commercial investments. Valued using the Black-Scholes formula where cost of development = Strike Price, and delay loss = Dividend Yield.
+  2. Abandonment Option (American Put Option): The right to abandon an underperforming project and realize salvage/liquidation value, truncating severe downside losses. Valued using risk-neutral decision trees.
+  3. Timing / Deferral Option (American Call Option): The flexibility to delay project commencement until demand and price uncertainties resolve.
+
+================================================================================
+11. COMMODITY, WEATHER & ELECTRICITY DERIVATIVES
+================================================================================
+1. Commodity Derivatives: Traded on exchanges (MCX, NCDEX, CME). Requirements: Durability/storability, homogeneity, and high price volatility. Include Commodity Futures and Commodity Swaps (fixed-floating, commodity-for-interest).
+2. Weather Derivatives: Hedges VOLUMETRIC RISK (loss of sales volume due to weather fluctuations like abnormal temperature or rainfall) rather than price risk. Utilizes Heating Degree Days (HDD) and Cooling Degree Days (CDD). Differs from insurance, which covers low-probability catastrophic perils.
+3. Electricity Derivatives: Hedges severe spot price volatility in power markets caused by non-storability and transmission grid bottlenecks. Vanilla instruments include Electricity Forwards, Futures, and Locational Basis Swaps.
+
+================================================================================
+12. DERIVATIVE MISHAPS & RISK MANAGEMENT LESSONS
+================================================================================
+Famous Historical Collapses:
+1. Orange County (1994): Treasurer Robert Citron lost $2 Billion through excessive repo leverage and inverse floaters, betting on continued low interest rates. When the Federal Reserve hiked rates 6 times in 1994, the municipality went bankrupt.
+2. Barings Bank (1995): A 233-year-old British merchant bank collapsed after rogue trader Nick Leeson accumulated $1.4 Billion in unauthorized long Nikkei 225 futures and short JGB positions, concealed inside unmonitored Error Account '8888'. Triggered Basel II Operational Risk capital requirements.
+3. Procter & Gamble & Gibson Greetings (1994): Suffered massive losses ($106M and $19.7M respectively) from leveraged ratio swaps sold by Bankers Trust, where losses multiplied exponentially with rising interest rates.
+
+Key Lessons for Corporate Governance & Treasury:
+• Do not trade complex derivative products that corporate management cannot independently value and understand.
+• Treasury should function as a risk-hedging service center, NOT an unconstrained speculative profit center (avoid linking bonuses to trading profits).
+• Enforce strict structural separation (Chinese Walls) between Front Office (Trading), Middle Office (Risk Oversight), and Back Office (Settlement/Accounting).
+• Implement robust Value-at-Risk (VaR) limits, mandatory stop-loss triggers, Scenario Analysis, and Stress Testing for extreme Black Swan tail events.

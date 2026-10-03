@@ -1,0 +1,395 @@
+{
+  "summary": "This chapter covers Securitization for CA Final Advanced Financial Management (AFM). It encompasses the origin and definition of securitization by the Reserve Bank of India (RBI), core features (financial instrument creation, bundling and unbundling, risk management, and tranching), and benefits to both originators and investors. It explores the roles of primary participants (Originator, SPV, Investors) and secondary participants (Obligors, Rating Agencies, Servicers/RPA, Trustees, Credit Enhancers, and Structurers) alongside the seven-step securitization mechanism. It addresses impediments in the Indian market (stamp duty, taxation, accounting, and foreclosure laws), securitization instruments (Pass-Through Certificates, Pay-Through Securities, and Stripped Interest-Only/Principal-Only securities), pricing and multi-factor risks (counterparty, legal, macroeconomic, prepayment, and interest rate mismatch). Finally, it details Distributed Ledger Technology (DLT), asset tokenization, and the evolution of the Indian securitization landscape under the SARFAESI Act, 2002 and RBI master directions.",
+  "oneword": [
+    {
+      "q": "Under the Reserve Bank of India (RBI) regulatory framework, which primary participant in a securitization transaction holds the legal title of the asset pool and issues securities to investors?\n(a) The Originator\n(b) The Special Purpose Vehicle (SPV)\n(c) The Receiving and Paying Agent (Servicer)\n(d) The Credit Rating Agency",
+      "a": "(b) The Special Purpose Vehicle (SPV)"
+    },
+    {
+      "q": "What is the key structural difference between Pass-Through Certificates (PTCs) and Pay-Through Securities (PTS)?\n(a) PTCs are issued only for corporate debt, while PTS are issued for government bonds\n(b) In PTCs, cash flows are directly passed through to investors, whereas PTS allow desynchronization and multi-tranche maturity structuring by the SPV\n(c) PTCs carry no credit risk, while PTS are subordinated\n(d) PTS do not require an SPV",
+      "a": "(b) In PTCs, cash flows are directly passed through to investors, whereas PTS allow desynchronization and multi-tranche maturity structuring by the SPV"
+    },
+    {
+      "q": "If market interest rates decline sharply, how do the market values of Principal-Only (PO) and Interest-Only (IO) stripped mortgage-backed securities behave?\n(a) Value of PO increases while value of IO plunges due to accelerated borrower prepayments\n(b) Value of IO increases while value of PO plunges\n(c) Both IO and PO values remain unchanged\n(d) Both IO and PO values decline equally",
+      "a": "(a) Value of PO increases while value of IO plunges due to accelerated borrower prepayments"
+    },
+    {
+      "q": "Which of the following is considered an INTERNAL credit enhancement technique provided by the originator in a securitization deal?\n(a) Bank Guarantee\n(b) Over-collateralization and subordinated tranching\n(c) Third-party Letter of Credit\n(d) Sovereign Surety Bond",
+      "a": "(b) Over-collateralization and subordinated tranching"
+    },
+    {
+      "q": "How does off-balance sheet securitization primarily benefit originating commercial banks and NBFCs under Basel III regulatory norms?\n(a) It eliminates corporate income tax\n(b) It releases regulatory capital by removing risk-weighted assets, thereby improving the Capital-to-Risk-Weighted Assets Ratio (CRAR)\n(c) It guarantees zero credit defaults on future loans\n(d) It permanently fixes the bank's lending interest rates",
+      "a": "(b) It releases regulatory capital by removing risk-weighted assets, thereby improving the Capital-to-Risk-Weighted Assets Ratio (CRAR)"
+    },
+    {
+      "q": "Why do commercial banks in India actively purchase eligible asset-backed securitized papers originated by microfinance institutions and NBFCs?\n(a) To comply with statutory Cash Reserve Ratio (CRR)\n(b) To fulfill mandatory Priority Sector Lending (PSL) regulatory targets prescribed by the RBI\n(c) To eliminate foreign exchange currency exposure\n(d) To bypass the SARFAESI Act, 2002",
+      "a": "(b) To fulfill mandatory Priority Sector Lending (PSL) regulatory targets prescribed by the RBI"
+    },
+    {
+      "q": "Which landmark Indian statute enacted in 2002 significantly facilitated the growth of securitization by empowering secured creditors to enforce collateral without court intervention?\n(a) Transfer of Property Act, 1882\n(b) SARFAESI Act, 2002\n(c) Companies Act, 2013\n(d) Insolvency and Bankruptcy Code, 2016",
+      "a": "(b) SARFAESI Act, 2002"
+    },
+    {
+      "q": "What is the primary risk that arises when borrowers prepay retail vehicle or housing loans ahead of schedule following a fall in interest rates?\n(a) Exchange rate risk\n(b) Reinvestment risk\n(c) Sovereign political risk\n(d) Stamp duty risk",
+      "a": "(b) Reinvestment risk"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Differentiate between Pass-Through Certificates (PTCs) and Pay-Through Securities (PTS) across: (a) Cash Flow Transmission, (b) Structural Maturity, and (c) Reinvestment of Surplus Funds.",
+      "a": "Comparison between PTCs and PTS:\n\n1. Cash Flow Transmission:\n• Pass-Through Certificates (PTCs): The SPV acts purely as an unbundled pass-through conduit. All cash inflows (principal repayments, interest, and prepayments) collected from obligors are directly and immediately passed through to certificate holders on a proportional basis.\n• Pay-Through Securities (PTS): The SPV issues its own distinct debt securities collateralized by the loan pool. Servicing of issued securities is structurally decoupled (desynchronized) from the underlying cash collections.\n\n2. Structural Maturity & Tranching:\n• PTCs: Generally feature a single maturity structure; any borrower prepayments accelerate principal recovery and cause premature, simultaneous termination of certificates.\n• PTS: The SPV restructures the pool into multiple debt tranches with varying maturities (short, medium, and long term) and differing priority of claims (Senior vs. Subordinated).\n\n3. Reinvestment of Interim Surplus Funds:\n• PTCs: Cash is passed on immediately; the SPV holds no authority to retain or reinvest surplus collections.\n• PTS: The SPV is authorized to temporarily reinvest interim prepayments and excess collections in short-term money market instruments to earn incremental yield before scheduled debt service dates."
+    },
+    {
+      "q": "Discuss the major problems and structural impediments faced by the Securitization market in the Indian context.",
+      "a": "The development of securitization in India encounters several structural hurdles:\n\n1. High and Disparate Stamp Duty:\nUnder the Transfer of Property Act, 1882, the assignment of mortgage debts attracts state-level stamp duty ranging up to 12% in certain states. While some progressive states (Maharashtra, Karnataka) have capped stamp duties for securitization trusts, a uniform national stamp duty regime is absent.\n\n2. Ambiguities in Taxation:\nUncertainty persists regarding whether an SPV should be taxed in a representative capacity or treated as a transparent pass-through entity under the Income Tax Act, 1961, creating concerns regarding potential double taxation and withholding tax obligations.\n\n3. Complex Accounting Derecognition (Ind AS 109):\nAchieving off-balance sheet 'True Sale' treatment requires meeting stringent tests under Ind AS 109 demonstrating that substantially all risks and rewards have been transferred without continuing involvement.\n\n4. Lack of Standardized Loan Documentation:\nLenders follow disparate origination formats, covenants, and credit criteria, hindering efficient credit rating and pool aggregation.\n\n5. Inadequate Secondary Debt Market Liquidity:\nA shallow secondary corporate bond market restricts liquidity and price discovery for securitized debt instruments.\n\n6. Protracted Foreclosure Laws:\nEnforcing security interest against defaulting mortgage obligors often suffers from judicial delays despite powers conferred under the SARFAESI Act, 2002."
+    },
+    {
+      "q": "Explain the economic behavior and price sensitivity of Stripped Securities (Interest-Only vs. Principal-Only) under changing market interest rate environments.",
+      "a": "Stripped Securities unbundle the cash flows of a mortgage loan pool into two separate securities:\n\n1. Interest-Only (IO) Securities:\n• Entitlement: Holders receive only the periodic interest payments generated by the pool.\n• Price Behavior: POSITIVELY correlated with interest rates.\n  - When market interest rates rise: Borrowers delay refinancing, and prepayment speeds decelerate. The loan principal remains outstanding longer, generating larger cumulative interest cash flows. Consequently, the value of IO securities RISES.\n  - When market interest rates fall: Borrowers aggressively prepay loans to refinance at lower rates. The underlying principal is extinguished early, drastically reducing future interest payments. Consequently, the value of IO securities PLUNGES.\n\n2. Principal-Only (PO) Securities:\n• Entitlement: Holders receive only the principal repayments.\n• Price Behavior: INVERSELY correlated with interest rates.\n  - When market interest rates fall: Prepayments accelerate. Investors receive their full nominal principal much earlier than scheduled. Receiving cash earlier and discounting at lower interest rates causes the market price of PO securities to SURGE.\n  - When market interest rates rise: Prepayments drop and principal recovery is postponed, causing the price of PO securities to FALL."
+    },
+    {
+      "q": "Explain the benefits of Securitization from the perspective of: (a) The Originator, and (b) The Investor.",
+      "a": "1. Benefits to the Originator:\n• Off-Balance Sheet Financing: True sale removes receivables from the balance sheet, unlocking illiquid capital and generating cash without increasing the Debt-Equity ratio.\n• Focus on Core Business: Originator can redeploy capital to originate fresh loans while transferring administration and servicing burdens.\n• Capital Adequacy Optimization: By offloading 100% risk-weighted retail assets, banks and NBFCs reduce Risk-Weighted Assets (RWA), substantially improving their Capital-to-Risk-Weighted Assets Ratio (CRAR) under Basel III norms.\n• Lower Funding Cost: High credit ratings achieved through credit enhancement enable the originator to issue securitized debt at lower interest rates, earning an interest spread.\n\n2. Benefits to the Investor:\n• Portfolio Diversification: Provides access to diversified asset pools (housing, auto, SME loans) otherwise unavailable to capital market investors.\n• Regulatory Compliance: Helps commercial banks meet mandatory Priority Sector Lending (PSL) targets by investing in qualifying asset-backed papers.\n• Superior Risk-Adjusted Yield & Default Protection: Structured credit enhancements (over-collateralization, subordination, cash reserves) provide high credit ratings and multi-tiered default insulation."
+    },
+    {
+      "q": "Explain the concept of Asset Tokenization using Blockchain technology and discuss its key similarities with traditional Securitization.",
+      "a": "1. Meaning of Asset Tokenization:\nAsset Tokenization is the process of converting ownership rights in tangible assets (real estate, precious metals, infrastructure) or intangible assets (intellectual property, private equity) into digital cryptographic tokens registered on a decentralized, append-only Blockchain or Distributed Ledger Technology (DLT).\n\n2. Similarities Between Tokenization and Securitization:\n• Liquidity Injection: Both mechanisms convert illiquid, indivisible assets into liquid, marketable financial units.\n• Fractional Ownership: Both allow retail and institutional investors to acquire fractional shares of large asset pools, democratizing access and optimizing portfolio diversification.\n• Secondary Market Tradability: Both generate standardized tradable instruments that facilitate market pricing, transfer of ownership, and capital formation.\n• Intermediary Revenue: Both provide substantial fee-earning opportunities for arrangers, custodians, servicers, and platform operators.\n\nKey Difference:\nSecuritization relies on legal intermediaries (SPVs, trustees, credit rating agencies), whereas Tokenization automates trade execution, custody, and dividend distribution via decentralized smart contracts."
+    },
+    {
+      "q": "Describe the roles and fiduciary functions of: (a) The Special Purpose Vehicle (SPV), and (b) The Trustee in a Securitization transaction.",
+      "a": "1. Special Purpose Vehicle (SPV):\n• Legal Nature: A dedicated, bankruptcy-remote legal entity established specifically as a trust, company, or society to execute the securitization transaction.\n• Asset Ring-Fencing: Acquires the legal title of the asset pool from the originator through a 'True Sale', ensuring that the assets are completely insulated from the originator's financial distress or insolvency.\n• Issuance of Securities: Transforms the illiquid loan pool into marketable debt papers (PTCs or PTS) and issues them to capital market investors.\n• Cash Flow Conduit: Receives cash collections from the servicer and distributes interest and principal to certificate holders in accordance with the pre-agreed payment waterfall.\n\n2. Trustee:\n• Fiduciary Oversight: Appointed under a formal Trust Deed to represent and safeguard the collective interests of the securitization investors.\n• Covenant Monitoring: Ensures that the originator and servicer strictly comply with representations, warranties, and performance covenants.\n• Default Enforcement: In the event of servicer non-performance or high obligor delinquencies, the trustee assumes operational control, replaces the servicer, and enforces collateral security."
+    }
+  ],
+  "fill": [
+    {
+      "q": "The process of subdividing a securitization asset pool into different risk-return classes with varying payment priorities is called ____.",
+      "a": "tranching"
+    },
+    {
+      "q": "A legal transfer where assets are completely removed from the originator's balance sheet and insulated from insolvency is known as a ____ sale.",
+      "a": "true"
+    },
+    {
+      "q": "In stripped securities, the value of Interest-Only (IO) securities is ____ correlated with market interest rates.",
+      "a": "positively"
+    },
+    {
+      "q": "The minimum legal status required for an SPV to protect investors from originator bankruptcy is ____ remoteness.",
+      "a": "bankruptcy"
+    },
+    {
+      "q": "Commercial banks in India purchase securitized retail micro-loans to satisfy mandatory Priority Sector ____ regulations.",
+      "a": "Lending"
+    }
+  ],
+  "match": [
+    {
+      "q": "Originator",
+      "a": "Initiates the deal and transfers loan assets to the SPV"
+    },
+    {
+      "q": "Special Purpose Vehicle (SPV)",
+      "a": "Bankruptcy-remote entity holding legal title to pooled assets"
+    },
+    {
+      "q": "Obligors",
+      "a": "Underlying borrowers who owe debt on the loan contracts"
+    },
+    {
+      "q": "Pass-Through Certificate (PTC)",
+      "a": "Direct, synchronized transmission of interest and principal to investors"
+    },
+    {
+      "q": "Pay-Through Security (PTS)",
+      "a": "Desynchronized debt tranches with reinvestment authority by SPV"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Apex Housing Finance Ltd. (Originator) has pooled ₹ 100 Crores of performing retail home loans carrying an average interest rate of 12.00% p.a. with an average maturity of 5 years. The company transfers this pool to 'Apex Mortgage Securitization Trust' (SPV).\n\nThe SPV structures the pool into three hierarchical tranches:\n- Class A Senior Tranche: 80% of pool value (₹ 80 Crores) bearing a fixed coupon of 9.50% p.a.\n- Class B Mezzanine Tranche: 15% of pool value (₹ 15 Crores) bearing a fixed coupon of 11.00% p.a.\n- Class C Subordinated Equity Tranche: 5% of pool value (₹ 5 Crores), providing first-loss protection and entitled to all residual excess spread.\n\nAdditional information:\n- Annual loan servicing and administration fee payable to the Servicer is 0.50% p.a. on the initial pool value.\n- Collection efficiency in Year 1 is 100% with no defaults.\n\nYou are required to:\n(i) Calculate the annual interest cash collection from the mortgage pool.\n(ii) Prepare the Annual Cash Flow Waterfall Schedule showing distributions to the Servicer, Class A holders, Class B holders, and Class C holders.\n(iii) Compute the Return on Equity (ROE) earned by the Class C Subordinated Equity Tranche holders.\n(iv) Determine the maximum default loss in the asset pool that can occur before Class A Senior Tranche suffers any principal or interest impairment.",
+      "a": "1. Annual Cash Collection from Mortgage Pool:\n$$\\text{Annual Gross Interest Inflow} = \\text{Pool Principal} \\times \\text{Interest Rate} = ₹ 100.00 \\text{ Crores} \\times 12.00\\% = ₹ 12.00 \\text{ Crores}$$\n\n2. Priority of Payments (Cash Flow Waterfall Schedule):\n(a) Servicing and Administration Fee:\n• Servicing Fee = ₹ 100.00 Crores × 0.50% = ₹ 0.50 Crores\n• Cash Available after Servicing Fee = ₹ 12.00 Cr - ₹ 0.50 Cr = ₹ 11.50 Crores\n\n(b) Class A Senior Tranche Interest Service:\n• Class A Capital = ₹ 80.00 Crores\n• Class A Coupon @ 9.50% = ₹ 80.00 Crores × 9.50% = ₹ 7.60 Crores\n• Cash Available after Senior Debt Service = ₹ 11.50 Cr - ₹ 7.60 Cr = ₹ 3.90 Crores\n\n(c) Class B Mezzanine Tranche Interest Service:\n• Class B Capital = ₹ 15.00 Crores\n• Class B Coupon @ 11.00% = ₹ 15.00 Crores × 11.00% = ₹ 1.65 Crores\n• Residual Cash Flow available for Subordinated Equity = ₹ 3.90 Cr - ₹ 1.65 Cr = ₹ 2.25 Crores\n\n(d) Class C Subordinated Equity Tranche Entitlement:\n• Residual Excess Spread = ₹ 2.25 Crores\n\n3. Return on Equity (ROE) for Class C Subordinated Tranche:\n$$\\text{ROE of Class C} = \\frac{\\text{Residual Cash Flow}}{\\text{Class C Invested Capital}} \\times 100 = \\frac{₹ 2.25 \\text{ Crores}}{₹ 5.00 \\text{ Crores}} \\times 100 = 45.00\\%$$\n\n4. Default Protection Analysis for Class A Senior Tranche:\n• First-Loss Absorption: Class C Subordinated Equity Tranche absorbs the first ₹ 5.00 Crores of default losses (5% of total pool).\n• Second-Loss Absorption: Class B Mezzanine Tranche absorbs the next ₹ 15.00 Crores of default losses (15% of total pool).\n• Total Subordinated Protection Buffer = ₹ 5.00 Cr + ₹ 15.00 Cr = ₹ 20.00 Crores (20% of the pool).\n• Conclusion: The mortgage pool can experience cumulative credit defaults of up to ₹ 20.00 Crores (20% of the entire portfolio) before Class A Senior Tranche suffers ANY principal or interest loss, justifying its 'AAA' credit rating.",
+      "computation": {
+        "title": "Annual Cash Flow Waterfall and Tranche Distribution Schedule - Apex Mortgage Trust",
+        "headers": [
+          { "title": "Priority / Tranche Particulars", "width": "46%" },
+          { "title": "Capital Base & Terms", "width": "28%" },
+          { "title": "Cash Flow (₹ in Crores)", "width": "26%" }
+        ],
+        "columnWidths": ["46%", "28%", "26%"],
+        "rows": [
+          [
+            { "text": "I. Gross Cash Inflow from Asset Pool", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Annual Mortgage Interest Collections" },
+            { "text": "₹100 Cr @ 12.00% p.a.", "align": "center" },
+            { "text": "12.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "II. Cash Distribution Waterfall", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "1. Servicing & Administration Fee (RPA)", "isItalicPrefix": true },
+            { "text": "0.50% on ₹100 Cr Pool", "align": "center" },
+            { "text": "- 0.50", "align": "right" }
+          ],
+          [
+            { "text": "Net Distributable Cash Flow" },
+            { "text": "₹12.00 Cr - ₹0.50 Cr", "align": "center" },
+            { "text": "11.50", "align": "right" }
+          ],
+          [
+            { "text": "2. Class A Senior Debt Coupon", "isItalicPrefix": true },
+            { "text": "₹80 Cr @ 9.50% p.a.", "align": "center" },
+            { "text": "- 7.60", "align": "right" }
+          ],
+          [
+            { "text": "Balance Available for Mezzanine Debt" },
+            { "text": "₹11.50 Cr - ₹7.60 Cr", "align": "center" },
+            { "text": "3.90", "align": "right" }
+          ],
+          [
+            { "text": "3. Class B Mezzanine Debt Coupon", "isItalicPrefix": true },
+            { "text": "₹15 Cr @ 11.00% p.a.", "align": "center" },
+            { "text": "- 1.65", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Residual Excess Spread to Class C", "isHeading": true },
+            { "text": "₹3.90 Cr - ₹1.65 Cr", "align": "center" },
+            { "text": "2.25", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "III. Performance & Credit Protection Metrics", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Class C Return on Equity (ROE)" },
+            { "text": "₹2.25 Cr / ₹5.00 Cr Capital", "align": "center" },
+            { "text": "45.00%", "align": "right" }
+          ],
+          [
+            { "text": "Total Subordinated Buffer Protecting Class A", "isHeading": true },
+            { "text": "Class C (₹5 Cr) + Class B (₹15 Cr)", "align": "center" },
+            { "text": "₹ 20.00 Cr (20%)", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Class A Senior Tranche enjoys highest credit priority and is insulated against pool defaults up to ₹20 Crores (20%).",
+          "Class C Subordinated Equity absorbs all first-loss defaults in exchange for a highly lucrative 45.00% annual return on invested capital."
+        ]
+      }
+    },
+    {
+      "q": "An SPV has issued Pass-Through Certificates (PTCs) backed by a pool of retail automobile loans. The projected annual total cash inflows (principal repayments plus interest) over the next 4 years are as follows:\n- Year 1: ₹ 35.00 Crores (Principal ₹20 Cr + Interest ₹15 Cr)\n- Year 2: ₹ 30.00 Crores (Principal ₹20 Cr + Interest ₹10 Cr)\n- Year 3: ₹ 25.00 Crores (Principal ₹20 Cr + Interest ₹5 Cr)\n- Year 4: ₹ 20.00 Crores (Principal ₹20 Cr + Interest Nil)\nTotal Principal Pool = ₹ 80.00 Crores.\n\nFinancial market parameters:\n- The benchmark yield on Government of India Sovereign Bonds of comparable Weighted Average Life (WAL) is 7.25% p.a.\n- The credit rating agency has assigned an 'AA' credit rating to the PTCs, which requires a credit risk spread of 1.75% p.a. over the sovereign benchmark.\n\nYou are required to:\n(i) Compute the Weighted Average Life (WAL) of the loan pool.\n(ii) Determine the required Yield to Maturity (discount rate) and calculate the fair issue price / present value of the PTC pool.\n(iii) If the SPV offers the entire PTC pool to institutional investors at an issue price of ₹ 92.50 Crores, calculate the exact Yield to Maturity (IRR) to the investors using interpolation.",
+      "a": "1. Computation of Weighted Average Life (WAL):\n$$\\text{WAL} = \\frac{\\sum_{t=1}^n t \\times \\text{Principal Repayment}_t}{\\text{Total Original Principal}}$$\n• Year 1: 1 × ₹ 20.00 Cr = ₹ 20.00 Cr-Yrs\n• Year 2: 2 × ₹ 20.00 Cr = ₹ 40.00 Cr-Yrs\n• Year 3: 3 × ₹ 20.00 Cr = ₹ 60.00 Cr-Yrs\n• Year 4: 4 × ₹ 20.00 Cr = ₹ 80.00 Cr-Yrs\n• Total Principal-Years = ₹ 20 + ₹ 40 + ₹ 60 + ₹ 80 = ₹ 200.00 Cr-Yrs\n$$\\text{WAL} = \\frac{₹ 200.00 \\text{ Cr-Yrs}}{₹ 80.00 \\text{ Cr}} = 2.50 \\text{ Years}$$\n\n2. Required Yield to Maturity & Fair Value of PTC Pool:\n$$\\text{Required Discount Rate } (Y) = \\text{Sovereign Benchmark Rate} + \\text{Credit Spread}$$\n$$Y = 7.25\\% + 1.75\\% = 9.00\\% \\text{ p.a.}$$\nPresent Value of Projected Cash Inflows @ 9.00%:\n• Year 1: ₹ 35.00 Cr × 0.9174 = ₹ 32.109 Cr\n• Year 2: ₹ 30.00 Cr × 0.8417 = ₹ 25.251 Cr\n• Year 3: ₹ 25.00 Cr × 0.7722 = ₹ 19.305 Cr\n• Year 4: ₹ 20.00 Cr × 0.7084 = ₹ 14.168 Cr\n$$\\text{Fair Issue Price of PTC Pool} = ₹ 32.109 + ₹ 25.251 + ₹ 19.305 + ₹ 14.168 = ₹ 90.833 \\text{ Crores}$$\n\n3. Calculation of Actual Yield to Maturity (IRR) at Issue Price of ₹ 92.50 Crores:\nBecause the offered price (₹ 92.50 Cr) exceeds the fair value @ 9% (₹ 90.833 Cr), the effective yield must be LOWER than 9%.\n• Test at 8.00% Discount Rate:\n  - Year 1: ₹ 35.00 Cr × 0.9259 = ₹ 32.407 Cr\n  - Year 2: ₹ 30.00 Cr × 0.8573 = ₹ 25.719 Cr\n  - Year 3: ₹ 25.00 Cr × 0.7938 = ₹ 19.845 Cr\n  - Year 4: ₹ 20.00 Cr × 0.7350 = ₹ 14.700 Cr\n  $$\\text{Total PV @ 8.00\\%} = ₹ 32.407 + ₹ 25.719 + ₹ 19.845 + ₹ 14.700 = ₹ 92.671 \\text{ Crores}$$\n\n• Interpolation between 8% and 9%:\n$$\\text{IRR} = \\text{Lower Rate} + \\left[ \\frac{\\text{PV at LR} - \\text{Issue Price}}{\\text{PV at LR} - \\text{PV at HR}} \\right] \\times (\\text{HR} - \\text{LR})$$\n$$\\text{IRR} = 8.00\\% + \\left[ \\frac{92.671 - 92.500}{92.671 - 90.833} \\right] \\times (9.00\\% - 8.00\\%)$$\n$$\\text{IRR} = 8.00\\% + \\left[ \\frac{0.171}{1.838} \\right] \\times 1.00\\% = 8.00\\% + 0.093\\% = 8.093\\% \\approx 8.09\\%$$\n\nConclusion:\nAt the offered price of ₹ 92.50 Crores, the investor earns a YTM of 8.09%, which is inferior to the required risk-adjusted yield of 9.00%. The PTC is overvalued by ₹ 1.67 Crores.",
+      "computation": {
+        "title": "Weighted Average Life, Fair Valuation, and YTM Interpolation Schedule - Auto Loan PTCs",
+        "headers": [
+          { "title": "Year (t)", "width": "10%" },
+          { "title": "Cash Inflow (₹ Cr)", "width": "18%" },
+          { "title": "PV Factor @ 9%", "width": "18%" },
+          { "title": "PV @ 9% (₹ Cr)", "width": "18%" },
+          { "title": "PV Factor @ 8%", "width": "18%" },
+          { "title": "PV @ 8% (₹ Cr)", "width": "18%" }
+        ],
+        "columnWidths": ["10%", "18%", "18%", "18%", "18%", "18%"],
+        "rows": [
+          [
+            { "text": "1", "align": "center" },
+            { "text": "35.00", "align": "right" },
+            { "text": "0.9174", "align": "center" },
+            { "text": "32.109", "align": "right" },
+            { "text": "0.9259", "align": "center" },
+            { "text": "32.407", "align": "right" }
+          ],
+          [
+            { "text": "2", "align": "center" },
+            { "text": "30.00", "align": "right" },
+            { "text": "0.8417", "align": "center" },
+            { "text": "25.251", "align": "right" },
+            { "text": "0.8573", "align": "center" },
+            { "text": "25.719", "align": "right" }
+          ],
+          [
+            { "text": "3", "align": "center" },
+            { "text": "25.00", "align": "right" },
+            { "text": "0.7722", "align": "center" },
+            { "text": "19.305", "align": "right" },
+            { "text": "0.7938", "align": "center" },
+            { "text": "19.845", "align": "right" }
+          ],
+          [
+            { "text": "4", "align": "center" },
+            { "text": "20.00", "align": "right" },
+            { "text": "0.7084", "align": "center" },
+            { "text": "14.168", "align": "right", "borderBottom": true },
+            { "text": "0.7350", "align": "center", "borderBottom": true },
+            { "text": "14.700", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Present Value / Fair Price", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "90.833", "align": "right", "isBoxed": true },
+            "",
+            { "text": "92.671", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Offered Issue Price", "isItalicPrefix": true, "colSpan": 3 },
+            "", "",
+            { "text": "Market Quoted Price", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "92.500", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Interpolated Investor YTM (IRR)", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "8% + [0.171 / 1.838] × 1%", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "8.093%", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Weighted Average Life (WAL) is 2.50 years [(20×1 + 20×2 + 20×3 + 20×4) / 80].",
+          "At an issue price of ₹92.50 Crores, the investor earns a YTM of only 8.09%, which is insufficient compared to the required 9.00% benchmark return."
+        ]
+      }
+    },
+    {
+      "q": "A financial institution holds a ₹ 200 Crores pool of 3-year commercial loans bearing a fixed interest rate of 10.00% p.a. Annual interest of ₹ 20.00 Crores is payable annually, and the bullet principal of ₹ 200.00 Crores is repayable at the end of Year 3.\n\nThe institution strips the pool into two separate securities:\n- Security IO (Interest-Only): Entitled exclusively to annual interest cash flows.\n- Security PO (Principal-Only): Entitled exclusively to principal repayment cash flows.\n\nYou are required to evaluate the market valuation of Security IO and Security PO under three distinct scenarios:\n(a) Base Case: Market interest rate is 10.00% p.a., with zero prepayments (bullet maturity at Year 3).\n(b) Scenario 1: Market interest rates drop to 7.00% p.a., prompting borrowers to exercise prepayment options and completely refinance the loan principal at the end of Year 1.\n(c) Scenario 2: Market interest rates rise to 13.00% p.a., with zero prepayments (bullet maturity at Year 3).\n\nPrepare a comparative valuation statement and explain the asymmetric economic sensitivity of IO and PO securities.",
+      "a": "1. Valuation in Base Case (Discount Rate = 10.00%, Maturity = Year 3):\n• Security IO: Receives ₹ 20.00 Crores annually for 3 years.\n  $$\\text{Value of IO} = ₹ 20.00 \\text{ Cr} \\times \\text{PVIFA}(10\\%, 3) = ₹ 20.00 \\times 2.4869 = ₹ 49.738 \\text{ Crores}$$\n• Security PO: Receives ₹ 200.00 Crores at the end of Year 3.\n  $$\\text{Value of PO} = ₹ 200.00 \\text{ Cr} \\times \\text{PVIF}(10\\%, 3) = ₹ 200.00 \\times 0.7513 = ₹ 150.260 \\text{ Crores}$$\n• Total Pool Value = ₹ 49.738 Cr + ₹ 150.260 Cr = ₹ 199.998 Cr ≈ ₹ 200.00 Crores.\n\n2. Valuation in Scenario 1 (Rates Drop to 7.00%, Full Prepayment at Year 1):\n• Security IO: Receives only 1 year of interest (₹ 20.00 Crores in Year 1); future interest is extinguished due to early prepayment.\n  $$\\text{Value of IO} = \\frac{₹ 20.00 \\text{ Cr}}{1.07} = ₹ 18.692 \\text{ Crores}$$\n  Percentage Change = $\\frac{18.692 - 49.738}{49.738} \\times 100 = - 62.42\\%$ (EXTREME LOSS).\n• Security PO: Receives full principal of ₹ 200.00 Crores at the end of Year 1.\n  $$\\text{Value of PO} = \\frac{₹ 200.00 \\text{ Cr}}{1.07} = ₹ 186.916 \\text{ Crores}$$\n  Percentage Change = $\\frac{186.916 - 150.260}{150.260} \\times 100 = + 24.39\\%$ (MASSIVE GAIN).\n• Total Pool Value = ₹ 18.692 Cr + ₹ 186.916 Cr = ₹ 205.608 Crores.\n\n3. Valuation in Scenario 2 (Rates Rise to 13.00%, Bullet Repayment at Year 3):\n• Security IO: Receives ₹ 20.00 Crores annually for 3 years discounted @ 13%.\n  $$\\text{Value of IO} = ₹ 20.00 \\text{ Cr} \\times \\text{PVIFA}(13\\%, 3) = ₹ 20.00 \\times 2.3612 = ₹ 47.224 \\text{ Crores}$$\n  Percentage Change = $\\frac{47.224 - 49.738}{49.738} \\times 100 = - 5.05\\%$.\n• Security PO: Receives ₹ 200.00 Crores at the end of Year 3 discounted @ 13%.\n  $$\\text{Value of PO} = ₹ 200.00 \\text{ Cr} \\times \\text{PVIF}(13\\%, 3) = ₹ 200.00 \\times 0.6931 = ₹ 138.620 \\text{ Crores}$$\n  Percentage Change = $\\frac{138.620 - 150.260}{150.260} \\times 100 = - 7.75\\%$.\n• Total Pool Value = ₹ 47.224 Cr + ₹ 138.620 Cr = ₹ 185.844 Crores.\n\nConclusion on Asymmetric Economic Sensitivity:\n• PO Securities act as positive-convexity instruments whose value surges dramatically (+24.39%) when interest rates fall because prepayments accelerate principal recovery at par.\n• IO Securities exhibit extreme negative convexity: falling interest rates induce prepayment shock, collapsing the value of IO (-62.42%) despite lower discount rates.",
+      "computation": {
+        "title": "Comparative Valuation and Sensitivity Matrix: Stripped IO vs. PO Securities",
+        "headers": [
+          { "title": "Market Scenario", "width": "28%" },
+          { "title": "Security IO Value (₹ Cr)", "width": "24%" },
+          { "title": "Security PO Value (₹ Cr)", "width": "24%" },
+          { "title": "Combined Pool Value (₹ Cr)", "width": "24%" }
+        ],
+        "columnWidths": ["28%", "24%", "24%", "24%"],
+        "rows": [
+          [
+            { "text": "Base Case (10% YTM, 3-Yr)", "isHeading": true },
+            { "text": "49.74", "align": "right" },
+            { "text": "150.26", "align": "right" },
+            { "text": "200.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Scenario 1 (7% YTM, 1-Yr Prepayment)", "isHeading": true },
+            { "text": "18.69 (-62.42%)", "align": "right" },
+            { "text": "186.92 (+24.39%)", "align": "right" },
+            { "text": "205.61 (+2.81%)", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Scenario 2 (13% YTM, 3-Yr Bullet)", "isHeading": true },
+            { "text": "47.22 (-5.05%)", "align": "right", "borderBottom": true },
+            { "text": "138.62 (-7.75%)", "align": "right", "borderBottom": true },
+            { "text": "185.84 (-7.08%)", "align": "right", "isBoxed": true, "borderBottom": true }
+          ],
+          [
+            { "text": "Interest Rate Risk Behavior", "isHeading": true },
+            { "text": "Extreme Negative Convexity", "align": "center" },
+            { "text": "High Positive Convexity", "align": "center" },
+            { "text": "Standard Bond Profile", "align": "center", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "IO Securities suffer catastrophic losses when falling rates trigger rapid prepayments, wiping out future interest earnings.",
+          "PO Securities benefit massively from falling rates as principal repayment is accelerated to Year 1 and discounted at a lower rate."
+        ]
+      }
+    },
+    {
+      "q": "Global Trust Bank holds a ₹ 1,000 Crores portfolio of retail consumer loans carrying an average interest rate of 14.50% p.a.\nRegulatory and financial data:\n- Under RBI Basel III capital guidelines, the loans carry a 100% Risk Weight.\n- Minimum regulatory Tier 1 Equity Capital-to-Risk-Weighted Assets Ratio (CRAR) is 12.00%.\n- The bank funds the non-equity portion (88%) through retail deposits costing 6.50% p.a.\n- Loan loss provisioning and administrative costs average 2.00% p.a. on the loan portfolio.\n- Bank's internal Cost of Equity Capital is 16.00% p.a.\n\nThe bank securitizes the entire ₹ 1,000 Crores loan portfolio on a non-recourse 'True Sale' basis at par to an SPV.\nThe bank:\n(a) Reinvests the ₹ 1,000 Crores cash proceeds in 0% risk-weighted Government Securities yielding 7.20% p.a.\n(b) Redeploys the freed regulatory equity capital into new banking lending lines generating a return equal to its cost of equity (16.00% p.a.).\n\nYou are required to prepare a structured Cost-Benefit Statement evaluating:\n(i) The regulatory capital released upon securitization.\n(ii) Pre-securitization net profit and Return on Equity (ROE).\n(iii) Post-securitization net operating income and net economic gain to the bank.",
+      "a": "1. Regulatory Capital Released:\n• Risk-Weighted Assets (RWA) Pre-Securitization = ₹ 1,000 Crores × 100% = ₹ 1,000.00 Crores\n• Regulatory Tier 1 Capital Required = ₹ 1,000.00 Crores × 12.00% = ₹ 120.00 Crores\n• Post-Securitization RWA of Government Securities = ₹ 1,000.00 Crores × 0% = ₹ 0.00\n• Regulatory Capital Released = ₹ 120.00 Crores.\n\n2. Pre-Securitization Profitability & Return on Equity (ROE):\n• Gross Interest Income on Loans (14.50% on ₹ 1,000 Cr) = ₹ 145.00 Crores\n• Less: Loan Loss Provisions & Costs (2.00% on ₹ 1,000 Cr) = ₹ 20.00 Crores\n• Net Operating Revenue = ₹ 125.00 Crores\n• Less: Cost of Deposits on Debt Funding [6.50% on ₹ 880 Cr (88%)] = ₹ 57.20 Crores\n• Pre-Securitization Net Profit = ₹ 125.00 Cr - ₹ 57.20 Cr = ₹ 67.80 Crores\n• Pre-Securitization ROE = $\\frac{₹ 67.80 \\text{ Crores}}{₹ 120.00 \\text{ Crores}} \\times 100 = 56.50\\%$.\n\n3. Post-Securitization Profitability & Net Economic Impact:\n(a) Net Income from Sovereign Bond Portfolio:\n• Interest Income on Government Securities (7.20% on ₹ 1,000 Cr) = ₹ 72.00 Crores\n• Less: Cost of Deposits maintained (6.50% on ₹ 880 Cr) = ₹ 57.20 Crores\n• Net Interest Spread from Government Bonds = ₹ 14.80 Crores\n\n(b) Earnings from Redeployment of Released Equity Capital:\n• Capital Released = ₹ 120.00 Crores\n• Redeployment Return @ 16.00% = ₹ 120.00 Crores × 16.00% = ₹ 19.20 Crores\n\n(c) Direct Capital Cost Savings:\n• By eliminating risk-weighted assets, the bank saves equity capital servicing charges of ₹ 19.20 Crores (₹ 120 Cr × 16%).\n• Total Economic Benefit = Net Bond Spread (₹ 14.80 Cr) + Capital Redeployment Gain (₹ 19.20 Cr) = ₹ 34.00 Crores.\n\nStrategic Evaluation:\nSecuritization converts credit-risky, capital-consuming retail assets into risk-free government securities, eliminating credit default provisions and releasing ₹ 120 Crores of core Tier 1 capital, enabling significant balance sheet expansion and compliance with Basel III norms.",
+      "computation": {
+        "title": "Regulatory Capital Relief and Economic Cost-Benefit Statement - Global Trust Bank",
+        "headers": [
+          { "title": "Particulars", "width": "50%" },
+          { "title": "Basis of Calculation", "width": "26%" },
+          { "title": "Amount (₹ in Crores)", "width": "24%" }
+        ],
+        "columnWidths": ["50%", "26%", "24%"],
+        "rows": [
+          [
+            { "text": "I. Regulatory Capital Computation", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Retail Loan Portfolio (100% Risk Weight)" },
+            { "text": "Nominal Asset Value", "align": "center" },
+            { "text": "1,000.00", "align": "right" }
+          ],
+          [
+            { "text": "Regulatory Tier 1 Capital Required @ 12%" },
+            { "text": "12% of ₹1,000 Cr RWA", "align": "center" },
+            { "text": "120.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Deposit Debt Funding (88%)" },
+            { "text": "₹1,000 Cr - ₹120 Cr", "align": "center" },
+            { "text": "880.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Pre-Securitization Income Statement", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Gross Loan Interest Income @ 14.50%" },
+            { "text": "14.50% on ₹1,000 Cr", "align": "center" },
+            { "text": "145.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Provisions & Administration @ 2.00%", "isItalicPrefix": true },
+            { "text": "2.00% on ₹1,000 Cr", "align": "center" },
+            { "text": "- 20.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Deposit Cost @ 6.50% on ₹880 Cr", "isItalicPrefix": true },
+            { "text": "6.50% on ₹880 Cr", "align": "center" },
+            { "text": "- 57.20", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Pre-Securitization Net Operating Profit", "isHeading": true },
+            { "text": "ROE = ₹67.80 / ₹120 = 56.5%", "align": "center" },
+            { "text": "67.80", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "III. Post-Securitization Economic Earnings", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Interest on Government Securities @ 7.20%" },
+            { "text": "7.20% on ₹1,000 Cr", "align": "center" },
+            { "text": "72.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Deposit Cost Maintained @ 6.50%", "isItalicPrefix": true },
+            { "text": "6.50% on ₹880 Cr", "align": "center" },
+            { "text": "- 57.20", "align": "right" }
+          ],
+          [
+            { "text": "Net Sovereign Bond Spread Income" },
+            { "text": "₹72.00 Cr - ₹57.20 Cr", "align": "center" },
+            { "text": "14.80", "align": "right" }
+          ],
+          [
+            { "text": "Earnings from Redeployed Capital @ 16%", "isItalicPrefix": true },
+            { "text": "16% on ₹120 Cr Released", "align": "center" },
+            { "text": "19.20", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Post-Securitization Economic Income", "isHeading": true },
+            { "text": "₹14.80 Cr + ₹19.20 Cr", "align": "center" },
+            { "text": "34.00", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Securitization completely frees ₹120 Crores of Tier 1 regulatory capital by shifting 100% risk-weighted loans off-balance sheet.",
+          "Government securities carry a 0% risk weight under RBI Basel III guidelines, completely neutralizing bank regulatory capital consumption."
+        ]
+      }
+    }
+  ]
+}
