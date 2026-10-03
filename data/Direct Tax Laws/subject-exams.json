@@ -1,0 +1,90 @@
+{
+  "level1": {
+    "oneword": [
+      {
+        "q": "What is the primary document used to determine the residential status of an assessee under the Income-tax Act?",
+        "a": "Number of days stayed in India"
+      },
+      {
+        "q": "Under which schedule of the Constitution does the Union Government derive power to levy Income Tax?",
+        "a": "Seventh Schedule (List I, Entry 82)"
+      },
+      {
+        "q": "What is the maximum marginal rate (including surcharge and cess) for an individual in the highest tax bracket under the default tax regime for T.Y. 2026-27?",
+        "a": "39%"
+      },
+      {
+        "q": "What kind of receipt is compensation for termination of a service contract generally considered?",
+        "a": "Capital receipt"
+      },
+      {
+        "q": "Which rule of interpretation dictates looking at the history and purpose of a statute when words are ambiguous?",
+        "a": "Mischief rule"
+      }
+    ],
+    "sa": [
+      {
+        "q": "Differentiate between an Association of Persons (AOP) and a Body of Individuals (BOI).",
+        "a": "A BOI consists only of individuals who join together to earn income collectively, whereas an AOP can have any person (individuals, companies, firms) as members joining for a common purpose or action."
+      },
+      {
+        "q": "Explain the concept of 'Diversion of income by overriding title'.",
+        "a": "It signifies the diversion of income at source before it reaches the assessee due to a legal compulsion or contractual obligation. Such income is excluded from the assessee's assessable income because it never legally becomes their income."
+      },
+      {
+        "q": "Under what circumstances is the income of an assessee taxed in the same tax year rather than the subsequent year?",
+        "a": "Exceptions include: shipping business of non-residents, persons leaving India without intention to return, an AOP/BOI formed for a particular event likely to be dissolved, persons transferring property to avoid tax, and discontinued businesses."
+      },
+      {
+        "q": "What is Marginal Relief and when is it applicable?",
+        "a": "Marginal Relief ensures that the increase in income tax (due to surcharge) does not exceed the actual increase in total income when it crosses specified thresholds (like ₹50 lakhs, ₹1 crore). It is applicable to all categories of assessees facing a sudden tax spike due to surcharge brackets."
+      }
+    ],
+    "fill": [
+      {
+        "q": "Section ____ of the Income-tax Act is the charging section.",
+        "a": "4"
+      },
+      {
+        "q": "Income tax is a tax levied on the ____ income of every person.",
+        "a": "total"
+      },
+      {
+        "q": "Circulars issued by the ____ are binding on tax authorities but not on the assessee.",
+        "a": "CBDT"
+      },
+      {
+        "q": "A single transaction can constitute an ____ in the nature of trade and be taxed as business income.",
+        "a": "adventure"
+      }
+    ],
+    "match": [
+      {
+        "q": "Section 2(77)",
+        "a": "Definition of Person"
+      },
+      {
+        "q": "Rule of harmonious construction",
+        "a": "Avoids inconsistency between sections"
+      },
+      {
+        "q": "Capital receipt",
+        "a": "Generally not taxable unless specified"
+      },
+      {
+        "q": "Surcharge",
+        "a": "Additional tax on high-income earners"
+      }
+    ],
+    "essay": [
+      {
+        "q": "Examine the tests applied to distinguish between a Capital Receipt and a Revenue Receipt. Provide relevant examples.",
+        "a": "Distinguishing capital and revenue receipts is crucial because only revenue receipts are normally taxable unless specified otherwise (like capital gains). Tests include: 1. Fixed vs Circulating Capital: Receipts from fixed capital (e.g., sale of a building by a manufacturer) are capital, while from circulating capital (stock-in-trade) are revenue. 2. Transaction in course of business: Sale of shares by a broker is revenue, by an investor is capital. 3. Compensation for termination of agency: If the agency is the sole business, it's a capital receipt; if it's one of many, it's revenue. Ultimately, the nature depends on the facts and circumstances of each case."
+      },
+      {
+        "q": "Explain the significance of the various components of Income-tax Law in India.",
+        "a": "The Income-tax Law comprises: 1. Income-tax Act: The primary statute governing definitions, charging, deductions, and administration. 2. Annual Finance Act: Passed annually to amend the IT Act and specify current tax rates. 3. Income-tax Rules: Detailed procedures prescribed by the CBDT for executing the Act. 4. Circulars & Notifications: Issued by CBDT for clarification, binding on the department to ensure uniform application, but not on assessees. 5. Judicial Decisions: Rulings by the Supreme Court (law of the land) and High Courts that interpret ambiguous provisions and settle disputes between the department and taxpayers."
+      }
+    ]
+  }
+}

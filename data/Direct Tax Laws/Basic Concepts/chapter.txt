@@ -1,0 +1,39 @@
+Basic Concepts of Direct Tax Laws
+
+1. Overview of Income Tax Law in India
+The Constitution of India (Article 265) states that no tax shall be levied or collected except by authority of law. The power to levy direct taxes is given to the Central Government under Entry 82 of the Union List (Seventh Schedule to Article 246), which allows taxes on income other than agricultural income.
+
+2. Components of Income Tax Law
+- Income-tax Act: Currently, the Income-tax Act, 2025 governs the levy of income tax. It came into force on 1st April 2026.
+- Annual Finance Act: Passed every year in the Parliament's Budget Session, amending the Act and specifying the rates of tax.
+- Income-tax Rules: Framed by the CBDT for effective implementation.
+- Circulars/Notifications: Issued by CBDT/Central Government for guidance and clarification. Circulars bind the department, not the assessee.
+- Legal Decisions of Courts: Rulings by the Supreme Court and High Courts.
+
+3. Charge of Income Tax (Section 4)
+Income-tax is charged at the rates specified for the tax year by the Finance Act or the Income-tax Act on the total income of every person.
+
+4. Important Definitions
+- Assessee: A person by whom any tax or any other sum is payable under the Act.
+- Person: Includes Individual, Hindu Undivided Family (HUF), Company, Firm (including LLP), Association of Persons (AOP) or Body of Individuals (BOI), Local Authority, and Artificial Juridical Person.
+- Income: An inclusive definition. Includes profits, dividends, voluntary contributions, perquisites, capital gains, winnings from lotteries, gifts, etc.
+
+5. Capital vs Revenue Receipts
+- Income-tax is generally levied on revenue receipts, not capital receipts, unless specifically provided (e.g., capital gains).
+- Factors to distinguish: Fixed vs. circulating capital, motive of transaction, frequency, etc.
+
+6. Application vs Diversion of Income
+- Application of income: Using income to discharge an obligation after it reaches the assessee (taxable).
+- Diversion of income by overriding title: Income diverted at source before reaching the assessee under a legal or contractual obligation (not taxable for the assessee).
+
+7. Tax Year and Assessment Year
+- Tax Year: The period of 12 months commencing on 1st April. Income earned in a tax year is generally assessed in the next year.
+- Exceptions (Assessed in the same year): Shipping business of non-residents, persons leaving India, AOP/BOI formed for a particular event, persons likely to transfer property to avoid tax, discontinued business.
+
+8. Rates of Tax, Surcharge & Cess
+- Default tax regime: Offers concessional tax rates subject to foregoing certain exemptions and deductions. Rates range from NIL (up to ₹4,00,000) to 30% (above ₹24,00,000).
+- Optional tax regime: Higher basic exemption limits for senior citizens (₹3,00,000) and very senior citizens (₹5,00,000).
+- Surcharge: Levied when income exceeds specified thresholds (e.g., 10% above ₹50 lakhs, 15% above ₹1 crore).
+- Marginal Relief: Ensures the increase in tax + surcharge doesn't exceed the increase in income beyond the threshold.
+- Health and Education Cess: 4% on income tax + surcharge.
+- Rebate u/s 156: Available to resident individuals if total income does not exceed ₹12,00,000 (default regime) or ₹5,00,000 (optional regime).
