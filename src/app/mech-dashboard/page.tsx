@@ -912,6 +912,7 @@ export default function Home() {
                   <select value={newUserForm.stream} onChange={e => setNewUserForm({...newUserForm, stream: e.target.value})} style={{ width: "100%", padding: "0.75rem", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(0,0,0,0.8)", color: "white" }}>
                     <option value="9th">9th Standard</option>
                     <option value="mech">Mechanical Engineering</option>
+                    <option value="ca">Chartered Accountant (CA)</option>
                   </select>
                 </div>
                 <div style={{ gridColumn: "1 / -1", marginTop: "1rem" }}>
