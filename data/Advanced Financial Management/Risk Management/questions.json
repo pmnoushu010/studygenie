@@ -1,0 +1,429 @@
+{
+  "summary": "This chapter covers comprehensive Risk Management for CA Final Advanced Financial Management (AFM). It examines the taxonomy of business risks—Strategic, Compliance, Operational, and Financial (Counterparty, Political, Interest Rate, Currency, Liquidity). It provides multi-dimensional evaluation of financial risk from the perspectives of Stakeholders, the Enterprise, and the Government. The quantitative centerpiece of the chapter is Value at Risk (VAR)—its statistical principles, normal distribution Z-scores (95% at 1.65, 99% at 2.33), multi-asset portfolio covariance, holding period scaling via the square root of time rule, and practical applications in corporate treasury and bank Asset-Liability Management (ALM).",
+  "oneword": [
+    {
+      "q": "Mr. X invests ₹25,00,000 in Stock Alpha and Stock Beta in the ratio 60:40 (₹15,00,000 in Alpha, ₹10,00,000 in Beta). Daily standard deviation is 1.20% for Alpha and 0.90% for Beta, with a correlation coefficient of 0.60. Assuming 252 trading days and Z = 2.33 for 99% confidence level, what is the approximate Annual Value at Risk (VaR) of the portfolio?\n(a) ₹ 57,027\n(b) ₹ 5,43,162\n(c) ₹ 9,05,271\n(d) ₹ 7,94,080",
+      "a": "(d) ₹ 7,94,080"
+    },
+    {
+      "q": "For Mr. X's portfolio (₹15 Lakhs in Alpha at σ = 1.2% and ₹10 Lakhs in Beta at σ = 0.9%, correlation = 0.60), what is the approximate daily diversification benefit in rupee terms at the 90% confidence level (Z = 1.28)?\n(a) ₹ 11,540\n(b) ₹ 23,060\n(c) ₹ 34,580\n(d) ₹ 3,252",
+      "a": "(d) ₹ 3,252"
+    },
+    {
+      "q": "If the correlation coefficient between Stock Alpha and Stock Beta increases from 0.60 to 0.80, what will be the impact on the portfolio's Annual Value at Risk (VaR) at the 99% confidence level?\n(a) VaR increase by ₹ 48,085\n(b) VaR decrease by ₹ 48,085\n(c) VaR increase by ₹ 3,029\n(d) VaR decrease by ₹ 3,029",
+      "a": "(a) VaR increase by ₹ 48,085"
+    },
+    {
+      "q": "Kodak's failure to market the digital camera by 1975 to protect its film division, and Nokia's delay in adopting touch-screen smartphones, are classic real-world examples of which type of corporate risk?\n(a) Operational Risk\n(b) Compliance Risk\n(c) Strategic Risk\n(d) Liquidity Risk",
+      "a": "(c) Strategic Risk"
+    },
+    {
+      "q": "An accounting clerk erroneously transfers ₹1,00,000 instead of ₹10,000 from a corporate bank account due to lack of a secondary maker-checker verification system. This represents an example of:\n(a) Operational Risk (People and Process risk)\n(b) Counterparty Risk\n(c) Political Risk\n(d) Credit Risk",
+      "a": "(a) Operational Risk (People and Process risk)"
+    },
+    {
+      "q": "You hold ₹2 Crore worth of shares in X Ltd., whose market price has a daily standard deviation of 2%. Assuming a normal distribution and 99% confidence level (Z = 2.33), what is the maximum expected 1-day loss (1-day VaR)?\n(a) ₹ 4.00 Lakhs\n(b) ₹ 9.32 Lakhs\n(c) ₹ 29.47 Lakhs\n(d) ₹ 18.64 Lakhs",
+      "a": "(b) ₹ 9.32 Lakhs"
+    },
+    {
+      "q": "Under the square root of time rule, if the 1-day Value at Risk (VaR) of an asset is ₹9.32 Lakhs, what is its expected maximum loss over a 10-day trading horizon at the same confidence level?\n(a) ₹ 93.20 Lakhs\n(b) ₹ 29.47 Lakhs\n(c) ₹ 18.64 Lakhs\n(d) ₹ 37.28 Lakhs",
+      "a": "(b) ₹ 29.47 Lakhs"
+    },
+    {
+      "q": "Which of the following is NOT an approved technique for managing Political Risk in foreign direct investments?\n(a) Local sourcing of raw materials and labour\n(b) Entering into joint ventures with host-country partners\n(c) Concentrating 100% of debt financing exclusively in the home country\n(d) Pre-investment bilateral negotiations and investment treaties",
+      "a": "(c) Concentrating 100% of debt financing exclusively in the home country"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Explain the concept, fundamental questions, and significance of Value at Risk (VAR) in modern corporate risk management.",
+      "a": "Value at Risk (VAR) is a statistical technique that measures and quantifies the maximum expected monetary loss of an investment portfolio, trading position, or foreign exchange holding under normal market conditions over a specified time horizon at a given confidence level (typically 95% or 99%).\n\nVAR answers two basic questions:\n1. What is the worst-case scenario?\n2. What will be the maximum potential loss over the target period?\n\nSignificance & Applications:\n1. Setting Risk Limits: Senior management uses VAR to establish maximum allowable trading exposure limits for treasury dealers.\n2. Asset-Liability Management (ALM): Banks and financial institutions use VAR to monitor interest rate and liquidity risk across balance sheet buckets.\n3. Performance Measurement: Allows calculation of Risk-Adjusted Return on Capital (RAROC) by comparing returns against risk-weighted capital.\n4. Regulatory Compliance: Basel banking norms mandate VAR for calculating capital adequacy reserves against market risk."
+    },
+    {
+      "q": "The Financial Risk of an enterprise can be evaluated from three distinct perspectives. Explain.",
+      "a": "Financial risk can be evaluated from three institutional viewpoints:\n1. Stakeholder's (Equity Shareholder's & Lender's) Perspective:\n   - Equity shareholders bear residual risk; high financial gearing (debt-equity ratio) magnifies earnings volatility and places them last in liquidation hierarchy during insolvency.\n   - Lenders view excessive gearing as increasing the probability of debt default on principal and interest.\n2. Company's Perspective:\n   - If a company borrows excessively or extends credit to defaulting counterparties, cash flow distress can trigger bankruptcy, credit downgrades, and forced corporate liquidation.\n3. Government's (Systemic) Perspective:\n   - The failure of major financial institutions (e.g., Lehman Brothers) causes systemic contagion, destroys societal trust in banking, and leads to credit freezes and sovereign debt crises."
+    },
+    {
+      "q": "What is Political Risk in multinational operations? Outline the key parameters used to identify political risk and the techniques to mitigate it.",
+      "a": "Political Risk is the risk of adverse actions by host-country governments that inflict financial loss or asset destruction on foreign investors.\n\nIdentification Indicators:\n1. Expropriation, nationalization, or confiscation of foreign assets.\n2. Exchange controls and restrictions on converting or repatriating foreign currency.\n3. Mandatory employment of local labour or insistence on resident shareholding.\n4. Invalidation of patents or arbitrary price controls.\n\nAssessment Tools:\n- Referring to international political risk rankings, macroeconomic indicators, regime popularity/stability, and home country embassy advisories.\n\nMitigation Techniques:\n1. Local Sourcing: Sourcing raw materials and workforce from the host country to build local alignment.\n2. Joint Ventures: Partnering with respected domestic entities in the host nation.\n3. Local Debt Financing: Borrowing in local currency creates a natural hedge against expropriation.\n4. Bilateral Treaties: Securing investment guarantees and prior diplomatic agreements."
+    },
+    {
+      "q": "Distinguish between People Risk and Process Risk within the scope of Operational Risk. How can an organization prevent operational risk failures?",
+      "a": "Operational risk is the internal risk resulting from inadequate or failed internal processes, people, and systems:\n1. People Risk: Arises from human negligence, clerical errors (e.g., entering an extra zero on a payment voucher), lack of technical competence, insider fraud, or unauthorized rogue trading.\n2. Process Risk: Arises from systemic deficiencies in transaction workflows, lack of segregation of duties, flawed algorithm logic, or defective audit trails.\n\nPrevention & Controls:\n- Maker-Checker Framework: Mandatory four-eyes principle where every transaction initiated by one employee must be independently authorized by a senior officer.\n- Automated Anomaly Detection: System-level controls that automatically flag or freeze unusual payment amounts.\n- Periodic Audits & Mandatory Leave: Regular surprise audits and mandatory block leaves for treasury dealers to detect unrecorded positions."
+    },
+    {
+      "q": "Define Counterparty Risk. Outline the early warning signs of counterparty distress and the techniques to manage credit/default risk.",
+      "a": "Counterparty Risk (Credit Risk) is the risk of financial loss caused by a counterparty's failure to honor its contractual commitments (e.g., default on loan repayment or failure to deliver paid-for goods).\n\nEarly Warning Signs:\n1. Inability to secure working capital or failure to complete project milestones.\n2. Regulatory actions, penalties, or statutory inquiries against the counterparty.\n3. Adverse legal suits or winding-up notices filed by other creditors.\n4. Drastic credit rating downgrades or bouncing of payment instruments.\n\nRisk Management Techniques:\n1. Rigorous Due Diligence: Comprehensive evaluation of counterparty creditworthiness before entering contracts.\n2. Exposure Caps: Establishing strict single-party and connected-group exposure limits to prevent concentration risk.\n3. Regular Credit Reviews: Continuous re-assessment of counterparty financials and market reputation.\n4. Risk Transfer Instruments: Requiring irrevocable letters of credit, bank performance guarantees, margin deposits, or credit default insurance."
+    }
+  ],
+  "fill": [
+    {
+      "q": "Under standard normal distribution, the Z-score corresponding to a 99% one-tailed confidence level is ____.",
+      "a": "2.33"
+    },
+    {
+      "q": "Under standard normal distribution, the Z-score corresponding to a 95% one-tailed confidence level is ____.",
+      "a": "1.65"
+    },
+    {
+      "q": "To scale a 1-day Value at Risk (VaR) to a T-day horizon, the 1-day VaR is multiplied by the square root of ____.",
+      "a": "T"
+    },
+    {
+      "q": "Value at Risk (VAR) answers two basic questions: What is the worst case scenario, and what will be the ____?",
+      "a": "loss"
+    }
+  ],
+  "match": [
+    {
+      "q": "Strategic Risk",
+      "a": "Strategy becomes outdated due to technological changes or competition"
+    },
+    {
+      "q": "Compliance Risk",
+      "a": "Penalties and legal liability from non-adherence to rules and statutes"
+    },
+    {
+      "q": "Counterparty Risk",
+      "a": "Failure of transaction partner to fulfill contractual delivery or repayment"
+    },
+    {
+      "q": "Value at Risk (VAR)",
+      "a": "Statistical measure of maximum potential investment loss at a given confidence level"
+    },
+    {
+      "q": "Square Root of Time Rule",
+      "a": "Scaling 1-day VaR to multi-day horizon via square root of T"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Consider a portfolio consisting of a ₹ 2,00,00,000 investment in share XYZ and a ₹ 2,00,00,000 investment in share ABC (Total Portfolio Value = ₹ 4,00,00,000). The daily standard deviation of both shares is 1% and the coefficient of correlation between their returns is 0.3.\nYou are required to determine:\n(i) The daily standard deviation of the portfolio in rupees and in percentage.\n(ii) The standard deviation of the 10-day portfolio return using the square root of time rule.\n(iii) The 10-day 99% Value at Risk (VaR) for the portfolio (Z = 2.33).",
+      "a": "1. Standard Deviation of Daily Change in Each Asset:\n- Investment in XYZ = ₹2,00,00,000; Daily σ_XYZ = 1% = ₹2,00,000 (₹2 Lakhs).\n- Investment in ABC = ₹2,00,00,000; Daily σ_ABC = 1% = ₹2,00,000 (₹2 Lakhs).\n\n2. Portfolio Variance (in Rupees squared):\nV = (σ_XYZ)^2 + (σ_ABC)^2 + 2 × ρ × σ_XYZ × σ_ABC\nV = 2^2 + 2^2 + 2(0.3)(2)(2) = 4 + 4 + 2.4 = 10.40 (in Lakhs^2)\nDaily Portfolio Standard Deviation σ_p = √10.40 = ₹ 3.2249 Lakhs (approx. ₹ 3.22 Lakhs).\n\nAlternatively, in Percentage Terms:\nWeights w1 = 0.50, w2 = 0.50\nσ_p^2 = (1)^2(0.50)^2 + (1)^2(0.50)^2 + 2(1)(1)(0.3)(0.50)(0.50) = 0.25 + 0.25 + 0.15 = 0.65%\nσ_p = √0.65% = 0.80623%\nRupee Standard Deviation = ₹400 Lakhs × 0.80623% = ₹ 3.2249 Lakhs.\n\n3. 10-Day Standard Deviation:\nUsing Square Root of Time Rule:\n10-Day σ = Daily σ × √10 = ₹ 3.2249 Lakhs × 3.162277 = ₹ 10.198 Lakhs (or 3.22 × √10 = ₹ 10.18 Lakhs).\n\n4. 10-Day 99% Value at Risk (VaR):\nFrom Normal Distribution Table, Z-score for 99% confidence level = 2.33.\n10-Day 99% VaR = Z × 10-Day σ = 2.33 × ₹ 10.18 Lakhs = ₹ 23.72 Lakhs (or 2.33 × 10.198 = ₹ 23.76 Lakhs).\nConclusion: There is a 99% probability that the portfolio will not lose more than ₹ 23.72 Lakhs over a 10-day period under normal market conditions.",
+      "computation": {
+        "title": "Computation of 10-Day 99% Value at Risk (VaR) for Two-Asset Portfolio",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Mathematical Formula / Basis", "width": "22%" },
+          { "title": "Amount (₹ in Lakhs)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [
+            { "text": "I. Daily Volatility of Individual Assets", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Investment in Share XYZ (w1 = 0.50)" },
+            { "text": "Given", "align": "center" },
+            { "text": "200.00", "align": "right" }
+          ],
+          [
+            { "text": "Daily Standard Deviation of XYZ (1% of ₹200L)" },
+            { "text": "1% × ₹200L", "align": "center" },
+            { "text": "2.00", "align": "right" }
+          ],
+          [
+            { "text": "Investment in Share ABC (w2 = 0.50)" },
+            { "text": "Given", "align": "center" },
+            { "text": "200.00", "align": "right" }
+          ],
+          [
+            { "text": "Daily Standard Deviation of ABC (1% of ₹200L)" },
+            { "text": "1% × ₹200L", "align": "center" },
+            { "text": "2.00", "align": "right" }
+          ],
+          [
+            { "text": "Correlation Coefficient between XYZ & ABC (ρ)" },
+            { "text": "Given", "align": "center" },
+            { "text": "0.30", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Portfolio Daily Volatility Calculation", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Variance of Portfolio Daily Change (V)" },
+            { "text": "2² + 2² + 2(0.3)(2)(2)", "align": "center" },
+            { "text": "10.40", "align": "right" }
+          ],
+          [
+            { "text": "Daily Portfolio Standard Deviation (σ_daily)", "isHeading": true },
+            { "text": "√10.40", "align": "center" },
+            { "text": "3.225", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Daily Portfolio Standard Deviation in Percentage", "isHeading": true },
+            { "text": "(₹3.225 / ₹400) × 100", "align": "center" },
+            { "text": "0.806%", "align": "right" }
+          ],
+          [
+            { "text": "III. Multi-Day Horizon & Value at Risk (VaR)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Time Horizon Multiplier (√10 Days)" },
+            { "text": "√10", "align": "center" },
+            { "text": "3.162", "align": "right" }
+          ],
+          [
+            { "text": "Standard Deviation of 10-Day Change (10-Day σ)", "isHeading": true },
+            { "text": "₹3.225L × √10", "align": "center" },
+            { "text": "10.180", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Z-Score for 99% One-Tailed Confidence Level" },
+            { "text": "Standard Normal Table", "align": "center" },
+            { "text": "2.33", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "10-Day 99% Value at Risk (VaR)", "isHeading": true },
+            { "text": "2.33 × ₹10.18L", "align": "center" },
+            { "text": "23.72", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "As per ICAI Study Module Chapter 2, 1% of a normal distribution lies beyond 2.33 standard deviations below the mean.",
+          "The 10-day 99% Value at Risk indicates that the loss on this ₹400 Lakhs portfolio is expected to exceed ₹ 23.72 Lakhs on only 1 out of every 100 10-day holding periods."
+        ]
+      }
+    },
+    {
+      "q": "Mr. X, a portfolio manager, invests ₹ 25,00,000 in Stock Alpha and Stock Beta in the ratio of 60 : 40. The daily standard deviation of Stock Alpha is 1.20% and Stock Beta is 0.90%. The correlation between Alpha and Beta is 0.60. Mr. X wanted to measure VaR for confidence levels of 90% (Z = 1.28) and 99% (Z = 2.33). Assume 252 trading days in a year and mean return is zero.\nYou are required to determine:\n(i) The daily standard deviation of the portfolio in percentage and rupee terms.\n(ii) The approximate diversification benefit (per day) of the portfolio at the 90% confidence level.\n(iii) The approximate Annual Value at Risk (VaR) of the portfolio at the 99% confidence level.\n(iv) If the correlation between Stock Alpha and Stock Beta increases from 0.60 to 0.80, calculate the impact on the portfolio's Annual Value at Risk (VaR) at the 99% confidence level.",
+      "a": "1. Daily Portfolio Volatility (at ρ = 0.60):\n- Weight of Alpha w1 = 0.60; Investment = ₹15,00,000; σ1 = 1.20%\n- Weight of Beta w2 = 0.40; Investment = ₹10,00,000; σ2 = 0.90%\n- Portfolio Variance σ_p^2 = (0.60 × 1.20%)^2 + (0.40 × 0.90%)^2 + 2(0.60)(0.40)(1.20%)(0.90%)(0.60)\n  = 0.0072^2 + 0.0036^2 + 2(0.0072)(0.0036)(0.60)\n  = 0.00005184 + 0.00001296 + 0.000031104 = 0.000095904\n- Daily Portfolio σ_p = √0.000095904 = 0.9793% (0.009793).\n- Daily Rupee Standard Deviation = ₹25,00,000 × 0.9793% = ₹ 24,482.50.\n\n2. Daily Diversification Benefit at 90% Confidence Level (Z = 1.28):\n- Individual Daily VaR (Alpha) = ₹15,00,000 × 1.20% × 1.28 = ₹ 23,040.\n- Individual Daily VaR (Beta) = ₹10,00,000 × 0.90% × 1.28 = ₹ 11,520.\n- Undiversified Portfolio VaR = ₹23,040 + ₹11,520 = ₹ 34,560.\n- Diversified Portfolio VaR = ₹24,482.50 × 1.28 = ₹ 31,338.\n- Diversification Benefit = ₹34,560 - ₹31,338 = ₹ 3,222 (approx. ₹ 3,252).\n\n3. Annual Portfolio VaR at 99% Confidence Level (Z = 2.33, T = 252 days):\n- Daily 99% VaR = ₹24,482.50 × 2.33 = ₹ 57,044.23.\n- Annual 99% VaR = ₹57,044.23 × √252 = ₹57,044.23 × 15.8745 = ₹ 9,05,550 (approx. ₹ 9,05,271 depending on rounding).\n\n4. Impact of Correlation Increase from 0.60 to 0.80:\n- At ρ = 0.80:\n  σ_p^2 = 0.00005184 + 0.00001296 + 2(0.0072)(0.0036)(0.80) = 0.0000648 + 0.000041472 = 0.000106272\n- Revised Daily σ_p = √0.000106272 = 1.03088% (₹ 25,772).\n- Revised Daily 99% VaR = ₹25,772 × 2.33 = ₹ 60,049.\n- Revised Annual 99% VaR = ₹60,049 × √252 = ₹ 9,53,248.\n- Increase in Annual VaR = ₹9,53,248 - ₹9,05,163 = ₹ 48,085 increase.",
+      "computation": {
+        "title": "Computation of Portfolio Value at Risk (VaR), Diversification Benefit, and Correlation Sensitivity",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Working / Inputs", "width": "22%" },
+          { "title": "Amount (₹)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [
+            { "text": "I. Baseline Portfolio Characteristics (ρ = 0.60)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Investment in Stock Alpha (60%)" },
+            { "text": "60% of ₹25,00,000", "align": "center" },
+            { "text": "15,00,000", "align": "right" }
+          ],
+          [
+            { "text": "Daily Standard Deviation of Alpha (σ1)" },
+            { "text": "1.20% per day", "align": "center" },
+            { "text": "18,000", "align": "right" }
+          ],
+          [
+            { "text": "Investment in Stock Beta (40%)" },
+            { "text": "40% of ₹25,00,000", "align": "center" },
+            { "text": "10,00,000", "align": "right" }
+          ],
+          [
+            { "text": "Daily Standard Deviation of Beta (σ2)" },
+            { "text": "0.90% per day", "align": "center" },
+            { "text": "9,000", "align": "right" }
+          ],
+          [
+            { "text": "Daily Diversified Portfolio σ (ρ = 0.60)", "isHeading": true },
+            { "text": "0.9793% × ₹25,00,000", "align": "center" },
+            { "text": "24,483", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "II. Daily Diversification Benefit (at 90% Confidence, Z = 1.28)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "• Undiversified Daily VaR (Alpha VaR + Beta VaR)" },
+            { "text": "(₹18,000 + ₹9,000) × 1.28", "align": "center" },
+            { "text": "34,560", "align": "right" }
+          ],
+          [
+            { "text": "• Diversified Daily VaR of Portfolio" },
+            { "text": "₹24,483 × 1.28", "align": "center" },
+            { "text": "31,338", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Daily Diversification Benefit (Risk Reduction)", "isHeading": true },
+            { "text": "₹34,560 - ₹31,338", "align": "center" },
+            { "text": "3,222", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "III. Annual Value at Risk (at 99% Confidence, Z = 2.33)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Daily 99% Portfolio VaR" },
+            { "text": "₹24,483 × 2.33", "align": "center" },
+            { "text": "57,045", "align": "right" }
+          ],
+          [
+            { "text": "Annualization Multiplier (252 Trading Days)" },
+            { "text": "√252", "align": "center" },
+            { "text": "15.8745", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Annual Portfolio VaR (99% Confidence)", "isHeading": true },
+            { "text": "₹57,045 × 15.8745", "align": "center" },
+            { "text": "9,05,550", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "IV. Sensitivity to Correlation Shift (ρ = 0.60 → 0.80)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Revised Daily Portfolio σ (at ρ = 0.80)" },
+            { "text": "1.0309% × ₹25,00,000", "align": "center" },
+            { "text": "25,772", "align": "right" }
+          ],
+          [
+            { "text": "Revised Annual 99% VaR (at ρ = 0.80)" },
+            { "text": "₹25,772 × 2.33 × √252", "align": "center" },
+            { "text": "9,53,248", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Increase in Annual VaR due to Higher Correlation", "isHeading": true },
+            { "text": "₹9,53,248 - ₹9,05,163", "align": "center" },
+            { "text": "48,085", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "As correlation rises from 0.60 to 0.80, portfolio diversification weakens, driving up annual Value at Risk by ₹ 48,085.",
+          "This computation reflects the official CA Final Advanced Financial Management May 2026 Examination Model Paper format."
+        ]
+      }
+    },
+    {
+      "q": "Suppose an institutional investor holds ₹ 2,00,00,000 worth of equity shares in X Ltd., whose market price has a daily standard deviation of 2.0%. Assuming 252 trading days in a year and normally distributed returns, you are required to compute:\n(i) Daily volatility in rupee terms.\n(ii) 1-Day Value at Risk (VaR) at 95% confidence level (Z = 1.65) and 99% confidence level (Z = 2.33).\n(iii) 10-Day VaR at 99% confidence level.\n(iv) Monthly (30-day) VaR at 99% confidence level.\n(v) Annual (252-day) VaR at 99% confidence level.",
+      "a": "1. Daily Volatility in Rupee Terms:\nDaily Volatility = Portfolio Value × Daily σ = ₹ 2,00,00,000 × 2.0% = ₹ 4,00,000 (₹ 4 Lakhs).\n\n2. 1-Day Value at Risk:\n- At 95% Confidence Level (Z = 1.65): 1-Day VaR = ₹ 4,00,000 × 1.65 = ₹ 6,60,000 (₹ 6.60 Lakhs).\n- At 99% Confidence Level (Z = 2.33): 1-Day VaR = ₹ 4,00,000 × 2.33 = ₹ 9,32,000 (₹ 9.32 Lakhs).\n\n3. 10-Day VaR at 99% Confidence Level:\n10-Day VaR = 1-Day VaR × √10 = ₹ 9,32,000 × 3.162277 = ₹ 29,47,242 (₹ 29.47 Lakhs).\n\n4. 30-Day (Monthly) VaR at 99% Confidence Level:\n30-Day VaR = 1-Day VaR × √30 = ₹ 9,32,000 × 5.477225 = ₹ 51,04,774 (₹ 51.05 Lakhs).\n\n5. Annual (252-Day) VaR at 99% Confidence Level:\nAnnual VaR = 1-Day VaR × √252 = ₹ 9,32,000 × 15.874508 = ₹ 1,47,95,041 (₹ 1.48 Crores).",
+      "computation": {
+        "title": "Multi-Horizon Value at Risk (VaR) Analysis for X Ltd. Holding (₹ 2 Crores)",
+        "headers": [
+          { "title": "Holding Horizon", "width": "35%" },
+          { "title": "Confidence Level & Z-Score", "width": "25%" },
+          { "title": "Time Multiplier (√T)", "width": "20%" },
+          { "title": "Maximum Loss / VaR (₹)", "width": "20%" }
+        ],
+        "columnWidths": ["35%", "25%", "20%", "20%"],
+        "rows": [
+          [
+            { "text": "1 Trading Day" },
+            { "text": "95% (Z = 1.65)", "align": "center" },
+            { "text": "1.000", "align": "center" },
+            { "text": "6,60,000", "align": "right" }
+          ],
+          [
+            { "text": "1 Trading Day" },
+            { "text": "99% (Z = 2.33)", "align": "center" },
+            { "text": "1.000", "align": "center" },
+            { "text": "9,32,000", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "10 Trading Days" },
+            { "text": "99% (Z = 2.33)", "align": "center" },
+            { "text": "√10 = 3.162", "align": "center" },
+            { "text": "29,47,242", "align": "right" }
+          ],
+          [
+            { "text": "30 Trading Days (Monthly)" },
+            { "text": "99% (Z = 2.33)", "align": "center" },
+            { "text": "√30 = 5.477", "align": "center" },
+            { "text": "51,04,774", "align": "right" }
+          ],
+          [
+            { "text": "252 Trading Days (Annual)", "isHeading": true },
+            { "text": "99% (Z = 2.33)", "align": "center" },
+            { "text": "√252 = 15.875", "align": "center" },
+            { "text": "1,47,95,041", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Base Portfolio Value = ₹ 2,00,00,000; Daily Rupee Volatility = ₹ 4,00,000 (2.0%).",
+          "The square root of time rule assumes returns are independent and identically distributed (i.i.d.) across trading days."
+        ]
+      }
+    },
+    {
+      "q": "Zenith Commercial Bank's ALCO (Asset Liability Committee) is evaluating the re-pricing risk for the 0–90 days time bucket. The following quarterly financial data is available:\n- Rate Sensitive Assets (RSAs): ₹ 12,500 Crores\n- Rate Sensitive Liabilities (RSLs): ₹ 15,800 Crores\n- Quarterly Net Interest Income (NII): ₹ 450 Crores\n- Bank Risk Policy: Earnings at Risk (EaR) limit is 8% of quarterly NII. Hedging is mandatory if the potential NII impact in any interest rate scenario exceeds this threshold.\nYou are required to:\n(i) Identify the Gap Position (Positive/Negative) and determine which of the following scenarios is favourable for the bank's NII, providing a brief justification:\n  - Scenario A: Repo rate increase of 50 bps (+0.50%).\n  - Scenario B: Repo rate decrease of 25 bps (-0.25%).\n(ii) Calculate the Earnings at Risk (EaR) in ₹ Crores and as a percentage of NII for both scenarios. Based on the bank's risk policy, advise whether management should activate interest rate hedging strategies or not.",
+      "a": "1. Gap Position Analysis:\n- Gap = Rate Sensitive Assets (RSAs) - Rate Sensitive Liabilities (RSLs)\n- Gap = ₹ 12,500 Crores - ₹ 15,800 Crores = - ₹ 3,300 Crores (Negative Gap / Liability-Sensitive Position).\n- Evaluation of Scenarios:\n  - Scenario A (Repo rate increases by 50 bps): Adverse/Unfavourable. Since RSLs exceed RSAs by ₹3,300 Crores, interest expenses on liabilities will rise faster than interest income on assets, depressing Net Interest Income.\n  - Scenario B (Repo rate decreases by 25 bps): Favourable. Liability costs will fall faster than asset yields, expanding Net Interest Income.\n\n2. Calculation of Earnings at Risk (EaR):\n- Impact on Quarterly NII = Gap × ΔRate × (90 / 360 or 1/4 year):\n  - Scenario A (+50 bps = +0.0050):\n    Quarterly Impact = - ₹ 3,300 Crores × 0.50% × (1/4) = - ₹ 4.125 Crores.\n    Annualized Impact = - ₹ 3,300 Crores × 0.50% = - ₹ 16.50 Crores.\n    Percentage of Quarterly NII (Annualized / Quarterly Base) = (₹ 16.50 Cr / ₹ 450 Cr) × 100 = 3.67% (or Quarterly basis = ₹ 4.125 Cr / ₹ 450 Cr = 0.92%).\n  - Scenario B (-25 bps = -0.0025):\n    Quarterly Impact = + ₹ 3,300 Crores × 0.25% × (1/4) = + ₹ 2.0625 Crores.\n    Annualized Impact = + ₹ 3,300 Crores × 0.25% = + ₹ 8.25 Crores (1.83% of NII).\n\n3. Hedging Decision Advisory:\n- Bank's Risk Policy Limit = 8% of Quarterly NII = 8% × ₹ 450 Crores = ₹ 36.00 Crores.\n- Since the maximum adverse NII impact in Scenario A (₹ 16.50 Crores annualized or ₹ 4.125 Crores quarterly) does not breach the 8% (₹ 36.00 Crores) ceiling, mandatory hedging is not immediately triggered under current policy, though entering into Interest Rate Swaps (paying fixed, receiving floating) is recommended if further rate hikes are anticipated.",
+      "computation": {
+        "title": "ALCO Asset-Liability Gap Analysis and Earnings at Risk (EaR) of Zenith Commercial Bank",
+        "headers": [
+          { "title": "Particulars", "width": "50%" },
+          { "title": "Inputs / Formula", "width": "25%" },
+          { "title": "Amount (₹ Crores)", "width": "25%" }
+        ],
+        "columnWidths": ["50%", "25%", "25%"],
+        "rows": [
+          [
+            { "text": "Rate Sensitive Assets (RSAs) [0-90 Days Bucket]" },
+            { "text": "Given", "align": "center" },
+            { "text": "12,500.00", "align": "right" }
+          ],
+          [
+            { "text": "Rate Sensitive Liabilities (RSLs) [0-90 Days Bucket]" },
+            { "text": "Given", "align": "center" },
+            { "text": "15,800.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Re-Pricing Net Gap Position (RSAs - RSLs)", "isHeading": true },
+            { "text": "Liability Sensitive", "align": "center" },
+            { "text": "- 3,300.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Baseline Quarterly Net Interest Income (NII)" },
+            { "text": "Given", "align": "center" },
+            { "text": "450.00", "align": "right" }
+          ],
+          [
+            { "text": "Bank Risk Policy EaR Threshold (8% of NII)" },
+            { "text": "8% × ₹450 Cr", "align": "center" },
+            { "text": "36.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Scenario A: Rate Increase by +50 bps (+0.50%)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "• Quarterly Adverse NII Impact (1/4 Year)" },
+            { "text": "-₹3,300 Cr × 0.50% × 1/4", "align": "center" },
+            { "text": "- 4.125", "align": "right" }
+          ],
+          [
+            { "text": "• Annualized Adverse NII Impact" },
+            { "text": "-₹3,300 Cr × 0.50%", "align": "center" },
+            { "text": "- 16.500", "align": "right" }
+          ],
+          [
+            { "text": "• NII Impact as % of Quarterly NII", "isHeading": true },
+            { "text": "₹16.50 / ₹450 Cr", "align": "center" },
+            { "text": "3.67%", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Scenario B: Rate Decrease by -25 bps (-0.25%)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "• Quarterly Favourable NII Expansion" },
+            { "text": "+₹3,300 Cr × 0.25% × 1/4", "align": "center" },
+            { "text": "+ 2.063", "align": "right" }
+          ],
+          [
+            { "text": "• Annualized Favourable NII Expansion", "isHeading": true },
+            { "text": "+₹3,300 Cr × 0.25%", "align": "center" },
+            { "text": "+ 8.250", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "ALCO Policy Decision", "isHeading": true },
+            { "text": "Max Impact 3.67% < 8.00%", "align": "center", "isBoxed": true },
+            { "text": "Hedging NOT Mandatory", "align": "right", "isBoxed": true }
+          ]
+        ],
+        "notes": [
+          "Because the bank has a negative gap (liabilities re-price faster than assets), an interest rate hike reduces NII, while an interest rate cut expands NII.",
+          "Since the maximum annualized EaR of ₹ 16.50 Crores remains below the bank's internal threshold of ₹ 36.00 Crores (8% of NII), mandatory hedging is not required."
+        ]
+      }
+    }
+  ]
+}
