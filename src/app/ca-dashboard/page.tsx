@@ -16,7 +16,7 @@ const QUESTION_TYPES = [
 const SEMESTERS = [
   { id: "ca-foundation", label: "CA Foundation", subjects: [] },
   { id: "ca-intermediate", label: "CA Intermediate", subjects: [] },
-  { id: "ca-final", label: "CA Final", subjects: ["Direct Tax Laws"] }
+  { id: "ca-final", label: "CA Final", subjects: ["Advanced Financial Management", "Direct Tax Laws"] }
 ];
 
 export default function Home() {

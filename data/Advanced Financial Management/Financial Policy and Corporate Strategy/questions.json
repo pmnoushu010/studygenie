@@ -1,0 +1,469 @@
+{
+  "summary": "This chapter establishes the core interface between Financial Policy and Corporate Strategy in Advanced Financial Management (AFM). It highlights the modern strategic role of the CFO in enterprise value creation, covering risk management, supply chain resilience, M&A restructuring, and ESG financing. The chapter explores strategic financial decision-making across three hierarchy levels (Corporate, SBU, Functional) and defines financial planning through the triad of Financial Resources, Financial Tools, and Financial Goals (FR + FT + FG). Central to this chapter is the balancing of financial goals vis-à-vis sustainable growth using Robert C. Higgins' Sustainable Growth Rate (SGR = ROE × (1 - b)) and computing External Funding Requirements (EFR) under both Analytical and Formula-based approaches.",
+  "oneword": [
+    {
+      "q": "In the Board Meeting of N Ltd., Director A stated that the company can sustain growth with a constant profit margin and assets expanding proportionately with sales by distributing 30% of profit, without requiring external funds. Which growth concept was Director A discussing?\n(a) Internal Growth Rate\n(b) Sustainable Growth Rate\n(c) External Funding Requirements\n(d) External Growth Rate",
+      "a": "(a) Internal Growth Rate"
+    },
+    {
+      "q": "In the Board Meeting of N Ltd., Director B proposed that higher growth can be achieved by maintaining a target capital structure without issuing new equity, while adhering to the target dividend payout ratio. Which growth concept was Director B discussing?\n(a) Internal Growth Rate\n(b) Sustainable Growth Rate\n(c) External Funding Requirements\n(d) External Growth Rate",
+      "a": "(b) Sustainable Growth Rate"
+    },
+    {
+      "q": "In the Board Meeting of N Ltd., Director C pointed out that sales are projected to rise by 15%, requiring the issue of equity shares, bonds, or debentures to support the asset expansion. What financial concept was Director C referring to?\n(a) Internal Growth Rate\n(b) Sustainable Growth Rate\n(c) External Funding Requirements\n(d) External Growth Rate",
+      "a": "(c) External Funding Requirements"
+    },
+    {
+      "q": "If N Ltd. adopts Director C's proposal of a 15% sales increase, assuming assets and current liabilities increase in the same proportion and a 30% dividend is paid, what is the approximate external funding requirement?\n(a) ₹ 1,15,500 thousand\n(b) ₹ 85,800 thousand\n(c) ₹ 79,332 thousand\n(d) ₹ 36,212 thousand",
+      "a": "(c) ₹ 79,332 thousand"
+    },
+    {
+      "q": "M/s Sundry Ltd. has current sales of ₹6,000 Lakhs, Total Assets of ₹14,000 Lakhs, spontaneous payables of ₹2,000 Lakhs, a profit margin of 4%, and a dividend payout ratio of 50%. If sales grow by 20%, what is the total External Funding Requirement (EFR)?\n(a) ₹ 2,400 Lakhs\n(b) ₹ 2,256 Lakhs\n(c) ₹ 1,456 Lakhs\n(d) ₹ 800 Lakhs",
+      "a": "(b) ₹ 2,256 Lakhs"
+    },
+    {
+      "q": "Under the Robert C. Higgins model, which formula correctly computes the Sustainable Growth Rate (SGR) of a firm?\n(a) SGR = ROCE × Dividend Payout Ratio\n(b) SGR = ROE × (1 - Dividend Payout Ratio)\n(c) SGR = Net Profit Margin × Asset Turnover\n(d) SGR = EBIT × (1 - Tax Rate) / Total Debt",
+      "a": "(b) SGR = ROE × (1 - Dividend Payout Ratio)"
+    },
+    {
+      "q": "Corporate level strategy fundamentally answers which three basic evaluative questions?\n(a) Profitability, Liquidity, Solvency\n(b) Suitability, Feasibility, Acceptability\n(c) Diversification, Synergy, Integration\n(d) Cost, Differentiation, Focus",
+      "a": "(b) Suitability, Feasibility, Acceptability"
+    },
+    {
+      "q": "According to established capital structure norms in financial policy, what is the typical debt-to-equity ratio benchmark for private sector firms in India?\n(a) 1:1\n(b) 2:1\n(c) 3:1\n(d) 0.5:1",
+      "a": "(b) 2:1"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Explain the Interface of Financial Policy and Strategic Management.",
+      "a": "Money is both the starting point and the end point of an organization. No business can sustain existing operations or promote new expansion projects without a suitable internally and externally mobilized financial base.\n\nThe interface spans three critical dimensions:\n1. Sources of Finance and Capital Structure: Framing policies for fund mobilization through equity, debentures, public deposits, and bank credit while maintaining prudent debt-equity norms (1:1 for public sector, 2:1 for private sector).\n2. Investment and Fund Allocation Decisions: Evaluating proposals for new products, plant capacity expansion, or cost-reduction modernization through capital budgeting under resource constraints.\n3. Dividend Policy: Determining the trade-off between distributing cash to shareholders and retaining earnings to fund long-term strategic growth without compromising financial flexibility."
+    },
+    {
+      "q": "Discuss the advanced role of the Chief Financial Officer (CFO) post-pandemic in value creation and corporate sustainability.",
+      "a": "Traditionally, the CFO focused primarily on shareholder wealth maximization, financial controls, and statutory compliance. In the modern business environment, the CFO acts as a strategic business partner in sustainable value creation across four advanced areas:\n1. Risk Management: Managing the enterprise-wide risk management (ERM) framework across strategic, operational, market, and cyber risks.\n2. Supply Chain Management: Ensuring financial viability, liquidity, and cost resilience across global supply networks.\n3. Mergers, Acquisitions, and Corporate Restructuring (M&A): Evaluating strategic acquisitions, synergies, due diligence, and capital structuring where misjudgments can jeopardize business survival.\n4. ESG and Sustainability Financing: Spearheading the shift from traditional financing to green financing, sustainability-linked bonds, and carbon footprint accountability."
+    },
+    {
+      "q": "Explain the three hierarchy levels of strategy in an organization and the three basic questions addressed by corporate-level strategy.",
+      "a": "Strategies are formulated at three organizational levels:\n1. Corporate Level Strategy: Defines the overall scope of the firm and coordinates the portfolio of businesses. It answers three questions:\n   - Suitability: Does the strategy accomplish the common objectives of the company?\n   - Feasibility: Are the required financial, human, and technological resources available to implement the strategy?\n   - Acceptability: Does the strategy satisfy key stakeholders' expectations in terms of risk and return?\n2. Business Unit Level Strategy: Formulated for Strategic Business Units (SBUs) to achieve competitive advantage in specific markets.\n3. Functional Level Strategy: Operational plans across R&D, Marketing, Production, and Finance that execute higher-level strategies."
+    },
+    {
+      "q": "What makes an organization financially sustainable? Enumerate the essential criteria under the CIVICUS framework.",
+      "a": "According to the CIVICUS framework ('Developing a Financing Strategy'), an organization is financially sustainable if it:\n1. Has more than one source of income.\n2. Has more than one way of generating income.\n3. Conducts strategic, action, and financial planning regularly.\n4. Maintains adequate internal financial controls and accounting systems.\n5. Enjoys a strong public image and reputational credibility.\n6. Demonstrates value clarity and mission alignment.\n7. Exercises financial autonomy in strategic resource allocation."
+    },
+    {
+      "q": "Distinguish between Internal Growth Rate (IGR) and Sustainable Growth Rate (SGR). How does inflation affect sustainable growth?",
+      "a": "1. Internal Growth Rate (IGR): The maximum growth rate a firm can achieve solely relying on internal cash generation (retained earnings) without raising any external debt or equity.\n2. Sustainable Growth Rate (SGR): The maximum growth rate a firm can achieve without issuing new equity while maintaining a target debt-to-equity ratio and dividend payout ratio (SGR = ROE × (1 - b)).\n\nImpact of Inflation: Inflation inflates the monetary value of required assets faster than real growth. Because creditors mandate maintaining historical-cost debt-equity ratios, the company must raise additional debt or equity simply to replace productive capacity, thereby lowering its real sustainable growth rate."
+    }
+  ],
+  "fill": [
+    {
+      "q": "Under the Robert C. Higgins model, the Sustainable Growth Rate is computed as SGR = ROE × (1 - ____).",
+      "a": "Dividend Payout Ratio"
+    },
+    {
+      "q": "The typical debt-equity ratio norm followed for public sector enterprises in India is ____:1.",
+      "a": "1"
+    },
+    {
+      "q": "In financial planning, the three core components are Financial Resources, Financial Tools, and Financial ____.",
+      "a": "Goals"
+    },
+    {
+      "q": "In the formula for External Funding Requirement, EFR = [(TA/S) × ΔS] - [(P/S) × ΔS] - [N × S1 × (1 - ____)].",
+      "a": "d"
+    }
+  ],
+  "match": [
+    {
+      "q": "Corporate Level Strategy",
+      "a": "Suitability, Feasibility, Acceptability"
+    },
+    {
+      "q": "Business Unit Level Strategy",
+      "a": "SBU Competitive Advantage"
+    },
+    {
+      "q": "Higgins Model",
+      "a": "SGR = ROE × (1 - b)"
+    },
+    {
+      "q": "Public Sector Debt-Equity Norm",
+      "a": "1:1 Ratio"
+    },
+    {
+      "q": "Private Sector Debt-Equity Norm",
+      "a": "2:1 Ratio"
+    }
+  ],
+  "essay": [
+    {
+      "q": "The Balance Sheet of M/s. Sundry Ltd. as on 31-03-2023 is as follows:\n- Liabilities: Share Capital ₹3,000 Lakhs, Reserves ₹2,000 Lakhs, Long Term Loan ₹4,000 Lakhs, Short Term Loan ₹3,000 Lakhs, Payables & Provisions ₹2,000 Lakhs (Total ₹14,000 Lakhs).\n- Assets: Fixed Assets ₹6,000 Lakhs, Inventory ₹5,000 Lakhs, Receivables ₹2,400 Lakhs, Cash ₹600 Lakhs (Total ₹14,000 Lakhs).\nSales for the year were ₹6,000 Lakhs and are expected to grow by 20%. Profit margin is 4% and dividend payout ratio is 50%.\nThe company further desires that during the current year:\n1. Sales to (Short Term Loan + Payables and Provisions) should be in the ratio of 4 : 3.\n2. Ratio of Fixed Assets to Long Term Loans should be 1.5.\n3. Debt Equity Ratio should not exceed 1.5.\nYou are required to determine:\n(i) The amount of External Fund Requirement (EFR) under Analytical and Formula approach.\n(ii) The amount to be raised from Short Term Funds, Long Term Funds, and Issue of New Equity.\n(iii) Verify whether the Debt-Equity constraint is satisfied.",
+      "a": "1. External Funds Requirement (EFR):\n- Projected Sales S1 = ₹6,000L + 20% = ₹7,200 Lakhs. Change in Sales ΔS = ₹1,200 Lakhs.\n- Projected Net Profit = 4% of ₹7,200L = ₹288 Lakhs. Dividend payout @ 50% = ₹144 Lakhs. Retained Earnings (A) = ₹144 Lakhs.\n- Additional funds required for asset expansion = (₹14,000L - ₹2,000L spontaneous payables) × 20% = ₹2,400 Lakhs (B).\n- EFR = (B) - (A) = ₹2,400L - ₹144L = ₹2,256 Lakhs.\n\n2. Allocation of Funds by Source:\n- Short Term Funds: Desired (Short-term loans + payables) = 3/4 × ₹7,200L = ₹5,400L. Existing amount = (₹2,000L × 1.20) + ₹3,000L = ₹5,400L. Fresh Short Term Funds required = Nil.\n- Long Term Funds: Projected Fixed Assets = ₹6,000L × 1.20 = ₹7,200L. Target Long-term Loan = ₹7,200L / 1.5 = ₹4,800L. Existing loan = ₹4,000L. Fresh Long-term Loan to be raised = ₹800 Lakhs.\n- Equity to be raised: Total EFR (₹2,256L) - Short-term (Nil) - Long-term (₹800L) = ₹1,456 Lakhs.\n\n3. Debt-Equity Ratio Verification:\n- Total Debt = ₹4,800 Lakhs.\n- Total Shareholders' Funds = Equity Capital (₹3,000L) + New Equity (₹1,456L) + Reserves (₹2,000L) + Retained Profit (₹144L) = ₹6,600 Lakhs.\n- New Debt-Equity Ratio = ₹4,800L / ₹6,600L = 0.727:1 (well within 1.5 limit).",
+      "computation": {
+        "title": "Computation of External Fund Requirement (EFR) and Capital Structure Allocation of M/s Sundry Ltd.",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Working / Basis", "width": "22%" },
+          { "title": "Amount (₹ in Lakhs)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [
+            { "text": "I. External Funds Requirement (EFR)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Projected Sales for the current year" },
+            { "text": "₹6,000 + 20%", "align": "center" },
+            { "text": "7,200.00", "align": "right" }
+          ],
+          [
+            { "text": "Projected Net Profit Margin @ 4%" },
+            { "text": "4% of ₹7,200", "align": "center" },
+            { "text": "288.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Dividend payout @ 50%", "isItalicPrefix": true },
+            { "text": "50% of ₹288", "align": "center" },
+            { "text": "144.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Retained Earnings available internally (A)", "isHeading": true },
+            "",
+            { "text": "144.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Additional Gross Capital Assets required" },
+            { "text": "(₹14,000 - ₹2,000) × 0.20", "align": "center" },
+            { "text": "2,400.00", "align": "right" }
+          ],
+          [
+            { "text": "Total External Funds Requirement (EFR) [(B) - (A)]", "isHeading": true },
+            { "text": "₹2,400.00 - ₹144.00", "align": "center" },
+            { "text": "2,256.00", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "II. Sources of Funding Requirement", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "1. Short-Term Funds:" },
+            "", ""
+          ],
+          [
+            { "text": "• Target Short-Term Loans and Payables (3/4 of Sales)" },
+            { "text": "3/4 × ₹7,200", "align": "center" },
+            { "text": "5,400.00", "align": "right" }
+          ],
+          [
+            { "text": "• Less: Existing Short-Term Loans & Payables", "isItalicPrefix": true },
+            { "text": "(₹2,000 × 1.20) + ₹3,000", "align": "center" },
+            { "text": "5,400.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Fresh Short-Term Funds to be raised", "isHeading": true },
+            "",
+            { "text": "NIL", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "2. Long-Term Funds:" },
+            "", ""
+          ],
+          [
+            { "text": "• Projected Fixed Assets (₹6,000 + 20%)" },
+            { "text": "₹6,000 × 1.20", "align": "center" },
+            { "text": "7,200.00", "align": "right" }
+          ],
+          [
+            { "text": "• Target Long-Term Loan (Fixed Assets / 1.5)" },
+            { "text": "₹7,200 / 1.5", "align": "center" },
+            { "text": "4,800.00", "align": "right" }
+          ],
+          [
+            { "text": "• Less: Existing Long-Term Loan", "isItalicPrefix": true },
+            { "text": "As per Balance Sheet", "align": "center" },
+            { "text": "4,000.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Fresh Long-Term Loan to be raised", "isHeading": true },
+            "",
+            { "text": "800.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "3. New Equity to be raised:" },
+            "", ""
+          ],
+          [
+            { "text": "• Total External Funds Requirement (EFR)" },
+            "",
+            { "text": "2,256.00", "align": "right" }
+          ],
+          [
+            { "text": "• Less: Fresh Short-Term Funds", "isItalicPrefix": true },
+            "",
+            { "text": "NIL", "align": "right" }
+          ],
+          [
+            { "text": "• Less: Fresh Long-Term Loan", "isItalicPrefix": true },
+            "",
+            { "text": "800.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Balance to be raised via Fresh Equity Issue", "isHeading": true },
+            "",
+            { "text": "1,456.00", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "III. Debt-Equity Ratio Check", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "• Total Long-Term Debt (Existing ₹4,000 + New ₹800)" },
+            "",
+            { "text": "4,800.00", "align": "right" }
+          ],
+          [
+            { "text": "• Total Shareholders' Equity (₹3,000 + ₹1,456 + ₹2,000 + ₹144)" },
+            "",
+            { "text": "6,600.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Revised Debt-Equity Ratio (₹4,800 / ₹6,600)", "isHeading": true },
+            { "text": "Cap: 1.50", "align": "center" },
+            { "text": "0.727", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Alternative Formula Approach: EFR = [(TA/S) × ΔS] - [(P/S) × ΔS] - [N × S1 × (1 - d)] = [(14,000/6,000) × 1,200] - [(2,000/6,000) × 1,200] - [0.04 × 7,200 × 0.5] = 2,800 - 400 - 144 = ₹ 2,256 Lakhs.",
+          "The revised Debt-Equity ratio of 0.727 is well within the management threshold of 1.5, satisfying all capital structure constraints."
+        ]
+      }
+    },
+    {
+      "q": "Following financial data are available for PQR Ltd. for the financial year ending 2023:\n- 8% Debentures: ₹125 Lakhs\n- 10% Bonds (2022): ₹50 Lakhs\n- Equity Shares (₹10 each): ₹100 Lakhs\n- Reserves and Surplus: ₹300 Lakhs\n- Total Assets: ₹600 Lakhs\n- Assets Turnover Ratio: 1.1\n- Effective Interest Rate: 8%\n- Effective Tax Rate: 40%\n- Operating Margin: 10%\n- Dividend Payout Ratio: 16.67%\n- Current Market Price of Share: ₹14\n- Required Rate of Return of Investors: 15%\nYou are required to:\n(i) Draw the Income Statement for the year.\n(ii) Calculate its Sustainable Growth Rate (SGR) of earnings.",
+      "a": "1. Sales = Total Assets × Assets Turnover = ₹600L × 1.1 = ₹660 Lakhs.\n2. Operating Expenses = Sales × (1 - Operating margin) = ₹660L × 90% = ₹594 Lakhs.\n3. EBIT = Operating Margin × Sales = 10% of ₹660L = ₹66.00 Lakhs.\n4. Total Debt = Debentures (₹125L) + Bonds (₹50L) = ₹175 Lakhs. Interest @ 8% = ₹14.00 Lakhs.\n5. EBT = EBIT - Interest = ₹66.00L - ₹14.00L = ₹52.00 Lakhs.\n6. Tax @ 40% = ₹20.80 Lakhs. Net Profit (EAT/PAT) = ₹31.20 Lakhs.\n7. Dividend @ 16.67% = ₹5.20 Lakhs. Retained Earnings = ₹26.00 Lakhs.\n8. Net Worth (NW) = Equity (₹100L) + Reserves (₹300L) = ₹400 Lakhs.\n9. Return on Equity (ROE) = PAT / NW = ₹31.20L / ₹400L = 7.80%.\n10. Sustainable Growth Rate (SGR) = ROE × (1 - b) = 7.80% × (1 - 0.1667) = 7.80% × 0.8333 = 6.50%.",
+      "computation": {
+        "title": "Income Statement and Sustainable Growth Rate (SGR) of PQR Ltd.",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Working / Reference", "width": "22%" },
+          { "title": "Amount (₹ in Lakhs)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [
+            { "text": "I. Income Statement for the Year", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Sales Revenue" },
+            { "text": "Total Assets × 1.1", "align": "center" },
+            { "text": "660.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Operating Expenses", "isItalicPrefix": true },
+            { "text": "90% of Sales", "align": "center" },
+            { "text": "594.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Earnings Before Interest & Taxes (EBIT)", "isHeading": true },
+            { "text": "10% Operating Margin", "align": "center" },
+            { "text": "66.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Less: Interest Charges", "isItalicPrefix": true },
+            { "text": "8% on ₹175 Lakhs Debt", "align": "center" },
+            { "text": "14.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Earnings Before Tax (EBT)", "isHeading": true },
+            "",
+            { "text": "52.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Corporate Income Tax @ 40%", "isItalicPrefix": true },
+            { "text": "40% of ₹52.00", "align": "center" },
+            { "text": "20.80", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Earnings After Tax (EAT / PAT)", "isHeading": true },
+            "",
+            { "text": "31.20", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Less: Dividend Paid @ 16.67%", "isItalicPrefix": true },
+            { "text": "16.67% of PAT", "align": "center" },
+            { "text": "5.20", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Retained Earnings for the year", "isHeading": true },
+            "",
+            { "text": "26.00", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "II. Sustainable Growth Rate (SGR) Calculation", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Net Worth (Equity Capital ₹100 + Reserves ₹300)" },
+            "",
+            { "text": "400.00", "align": "right" }
+          ],
+          [
+            { "text": "Return on Equity (ROE)" },
+            { "text": "(₹31.20 / ₹400) × 100", "align": "center" },
+            { "text": "7.80%", "align": "right" }
+          ],
+          [
+            { "text": "Retention Ratio (1 - b)" },
+            { "text": "1 - 0.1667", "align": "center" },
+            { "text": "83.33%", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Sustainable Growth Rate [SGR = ROE × (1 - b)]", "isHeading": true },
+            { "text": "0.078 × 0.8333", "align": "center" },
+            { "text": "6.50%", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "SGR = ROE × (1 - b) measures the maximum rate of growth in sales achievable without issuing new equity or changing financial leverage.",
+          "Since actual historical growth cannot exceed 6.50% without external funding, any expansion target above 6.50% will require fresh equity or additional borrowing."
+        ]
+      }
+    },
+    {
+      "q": "MT Ltd. has approached your bank for an additional loan of ₹20 Crores to fund its aggressive expansion plans. The company's current Sustainable Growth Rate (SGR) is 10%, but it aims to grow sales at 16% annually. Its Debt-to-Equity ratio is already at the maximum permissible industry covenant limit of 2.5:1. Additionally, the industry is experiencing 5% annual inflation, which is increasing asset financing requirements.\nAs a senior credit analyst, you are required to:\n(i) Identify and evaluate the key credit concerns regarding this loan request.\n(ii) Analyze the impact of 5% inflation on MT Ltd.'s financing gap.\n(iii) Suggest two strategic financial alternatives available to the company to achieve its growth objectives sustainably.",
+      "a": "1. Key Credit Concerns:\n- Growth Gap: MT Ltd. is attempting to grow at 16%, which exceeds its Sustainable Growth Rate of 10% by 6%.\n- Debt Covenant Limit: The company's Debt-to-Equity ratio is already at its permissible limit of 2.5:1. Granting an additional ₹20 Crores loan would violate this covenant, increase bankruptcy risk, and trigger potential default.\n\n2. Impact of Inflation:\n- At 5% inflation, asset replacement costs inflate significantly. To support nominal sales growth of 16%, assets must expand at 16% nominal terms, requiring additional funds simply to replace physical capacity at historical-cost debt-equity ratios. Consequently, inflation widens the external financing gap.\n\n3. Strategic Alternatives:\n- Issue of Fresh Equity: Raising new equity capital directly lowers the Debt-to-Equity ratio, creating additional debt borrowing capacity and lifting the financial constraint on sustainable growth.\n- Improve Operating Efficiency: Increase the Net Profit Margin or improve Asset Turnover (utilization) to elevate ROE, thereby expanding the internal SGR.\n- Curtail Dividend Payout: Increase earnings retention (lower payout) to accumulate larger internal equity.",
+      "computation": {
+        "title": "Credit Risk and Strategic Financial Growth Analysis of MT Ltd.",
+        "headers": [
+          { "title": "Parameter", "width": "40%" },
+          { "title": "Company Metric", "width": "30%" },
+          { "title": "Credit Analyst Evaluation", "width": "30%" }
+        ],
+        "columnWidths": ["40%", "30%", "30%"],
+        "rows": [
+          [
+            { "text": "Target Annual Sales Growth" },
+            { "text": "16.00%", "align": "center" },
+            { "text": "Aggressive Expansion", "align": "center" }
+          ],
+          [
+            { "text": "Sustainable Growth Rate (SGR)" },
+            { "text": "10.00%", "align": "center" },
+            { "text": "Capacity without New Debt", "align": "center" }
+          ],
+          [
+            { "text": "Growth Deficit (Excess Growth)" },
+            { "text": "6.00%", "align": "center", "borderBottom": true },
+            { "text": "Requires External Capital", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "Current Debt-to-Equity Ratio" },
+            { "text": "2.50 : 1.00", "align": "center" },
+            { "text": "At Maximum Permissible Cap", "align": "center" }
+          ],
+          [
+            { "text": "Industry Inflation Rate" },
+            { "text": "5.00%", "align": "center" },
+            { "text": "Inflates Asset Replacements", "align": "center" }
+          ],
+          [
+            { "text": "Real Sustainable Growth Rate" },
+            { "text": "~ 5.00% (approx.)", "align": "center", "borderBottom": true },
+            { "text": "Severe Cash Drain", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "Loan Recommendation", "isHeading": true },
+            { "text": "REJECT ₹20 Cr Debt", "align": "center", "isBoxed": true },
+            { "text": "Breaches 2.5:1 Leverage Cap", "align": "center", "isBoxed": true }
+          ]
+        ],
+        "notes": [
+          "Alternative Course 1: Issue Rights or Public Equity to bring the Debt-Equity ratio below 2.0:1 before taking incremental debt.",
+          "Alternative Course 2: Accelerate Working Capital turnover and divest non-core assets to fund growth internally."
+        ]
+      }
+    },
+    {
+      "q": "XYZ Ltd. recently paid a dividend of ₹40 per share. The company is entering a 5-year transition phase where its current 15% growth rate will decline linearly to a stable perpetual rate.\nFinancial Parameters:\n- Transition Period: 5 years (declining linearly from Year 1).\n- Current Data: ROE of 20% and a retention ratio of 25%.\n- Terminal Data (Year 6+): ROE of 12% and a retention ratio of 50%.\n- Market Data: Required return of 13% and Market Price of ₹850.\nYou are required to:\n(i) Estimate the intrinsic value per share using the H-Model.\n(ii) Given the current market price of ₹850 per share, assess whether the stock is undervalued or overvalued and calculate the percentage deviation from intrinsic value.",
+      "a": "1. Terminal Perpetual Growth Rate (gn):\ngn = Terminal ROE × Terminal Retention = 12% × 50% = 6.00%.\n\n2. H-Model Parameters:\n- D0 = ₹40\n- High initial growth rate ga = 15.00%\n- Stable perpetual growth rate gn = 6.00%\n- Half-life of transition period H = 5 / 2 = 2.5 years\n- Cost of equity r = 13.00%\n\n3. Intrinsic Value using H-Model:\nP0 = [ D0 × (1 + gn) + D0 × H × (ga - gn) ] / (r - gn)\n- Normal growth component = ₹40 × (1 + 0.06) = ₹42.40\n- Transition growth component = ₹40 × 2.5 × (0.15 - 0.06) = ₹100 × 0.09 = ₹9.00\n- Total Expected Dividend Stream = ₹42.40 + ₹9.00 = ₹51.40\n- Capitalization factor = r - gn = 0.13 - 0.06 = 0.07\n- Intrinsic Value P0 = ₹51.40 / 0.07 = ₹734.29 (or using compound D0*(1+ga) approx ₹878.86 depending on convention; here P0 = ₹734.29).\n\n4. Valuation Assessment:\n- Current Market Price = ₹850.00\n- Intrinsic Value = ₹734.29\n- Deviation = (₹850 - ₹734.29) / ₹734.29 = +15.76%.\n- The stock is Overvalued by 15.76% in the market.",
+      "computation": {
+        "title": "Valuation of XYZ Ltd. using the H-Model (Sustainable Growth Transition)",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Formula / Inputs", "width": "22%" },
+          { "title": "Value", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [
+            { "text": "Base Dividend per share (D0)" },
+            { "text": "Given", "align": "center" },
+            { "text": "₹ 40.00", "align": "right" }
+          ],
+          [
+            { "text": "Initial High Growth Rate (ga)" },
+            { "text": "Given", "align": "center" },
+            { "text": "15.00%", "align": "right" }
+          ],
+          [
+            { "text": "Terminal Perpetual Growth Rate (gn)" },
+            { "text": "ROE (12%) × b (50%)", "align": "center" },
+            { "text": "6.00%", "align": "right" }
+          ],
+          [
+            { "text": "Transition Half-Life (H)" },
+            { "text": "5 years / 2", "align": "center" },
+            { "text": "2.50 Years", "align": "right" }
+          ],
+          [
+            { "text": "Investor's Required Rate of Return (r)" },
+            { "text": "Cost of Equity", "align": "center" },
+            { "text": "13.00%", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Normal Growth Component: D0 × (1 + gn)", "isHeading": true },
+            { "text": "₹40 × 1.06", "align": "center" },
+            { "text": "₹ 42.40", "align": "right" }
+          ],
+          [
+            { "text": "Transition Growth Component: D0 × H × (ga - gn)", "isHeading": true },
+            { "text": "₹40 × 2.5 × 0.09", "align": "center" },
+            { "text": "₹ 9.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Adjusted Cash Flow Dividend Numerator", "isHeading": true },
+            { "text": "₹42.40 + ₹9.00", "align": "center" },
+            { "text": "₹ 51.40", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Discount Spread: (r - gn)" },
+            { "text": "0.13 - 0.06", "align": "center" },
+            { "text": "0.07", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Intrinsic Value per share (P0)", "isHeading": true },
+            { "text": "₹51.40 / 0.07", "align": "center" },
+            { "text": "₹ 734.29", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "Current Market Price (P_market)" },
+            { "text": "Observed Price", "align": "center" },
+            { "text": "₹ 850.00", "align": "right" }
+          ],
+          [
+            { "text": "Valuation Verdict", "isHeading": true },
+            { "text": "Overvalued by 15.76%", "align": "center", "isBoxed": true },
+            { "text": "SELL / REDUCE", "align": "right", "isBoxed": true }
+          ]
+        ],
+        "notes": [
+          "The H-Model captures the linear decline in abnormal growth from 15% down to the terminal sustainable rate of 6% over 5 years.",
+          "Since the current market price of ₹850 exceeds the intrinsic value of ₹734.29, the security trades at an unjustified premium."
+        ]
+      }
+    }
+  ]
+}

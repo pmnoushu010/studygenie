@@ -1,0 +1,108 @@
+{
+  "level1": {
+    "oneword": [
+      {
+        "q": "What is the primary role of the Chief Financial Officer (CFO) in post-pandemic corporate financial policy?\n(a) Purely book-keeping and tax filing\n(b) Value creation, risk management, and ESG sustainability financing\n(c) Routine cash counting\n(d) Only internal audit",
+        "a": "(b) Value creation, risk management, and ESG sustainability financing"
+      },
+      {
+        "q": "Under the Robert C. Higgins model, if a firm has ROE of 15% and pays 40% of its earnings as dividends, what is its Sustainable Growth Rate (SGR)?\n(a) 6.0%\n(b) 9.0%\n(c) 15.0%\n(d) 10.0%",
+        "a": "(b) 9.0%"
+      },
+      {
+        "q": "In the context of corporate strategy hierarchy, which test evaluates whether the strategy satisfies the financial and non-financial expectations of stakeholders?\n(a) Suitability\n(b) Feasibility\n(c) Acceptability\n(d) Accountability",
+        "a": "(c) Acceptability"
+      },
+      {
+        "q": "What is the established debt-to-equity ratio benchmark followed by public sector undertakings in India?\n(a) 2:1\n(b) 1:1\n(c) 3:1\n(d) 1.5:1",
+        "a": "(b) 1:1"
+      },
+      {
+        "q": "Which growth rate describes the maximum growth rate achievable by a firm relying strictly on retained earnings without any debt or equity financing?\n(a) Sustainable Growth Rate\n(b) Internal Growth Rate\n(c) External Growth Rate\n(d) Supernormal Growth Rate",
+        "a": "(b) Internal Growth Rate"
+      }
+    ],
+    "sa": [
+      {
+        "q": "Explain the three essential fundamental elements that every successful business strategy must incorporate.",
+        "a": "All businesses require three fundamental essential elements:\n1. A clear and realistic strategy to define long-term competitive direction.\n2. The financial resources, controls, and systems to execute and monitor the strategy.\n3. The right management team and operating processes to make it happen.\nSummary: Strategy + Finance + Management = Fundamentals of Business."
+      },
+      {
+        "q": "Explain the impact of inflation on a company's Sustainable Growth Rate (SGR).",
+        "a": "Inflation increases the nominal replacement cost of plant, equipment, and inventories. Since creditors demand that the debt-to-equity ratio be maintained on historical cost terms, inflation forces the firm to allocate a higher portion of retained earnings and fresh borrowing just to maintain existing productive capacity. Consequently, inflation lowers the firm's real sustainable growth rate."
+      },
+      {
+        "q": "What are the four key financial decisions falling within the scope of Strategic Financial Management?",
+        "a": "The four core decisions are:\n1. Financing Decisions: Establishing the optimal capital structure mix of debt and equity.\n2. Investment Decisions: Capital budgeting decisions evaluating long-term capital projects on risk-return criteria.\n3. Dividend Decisions: Determining the division of net profit between distribution and internal retention.\n4. Portfolio Decisions: Evaluating investments based on their contribution to aggregate corporate risk-return rather than standalone performance."
+      },
+      {
+        "q": "Describe the Analytical Approach versus Formula-based Approach for computing External Funding Requirement (EFR).",
+        "a": "1. Analytical Approach: Evaluates each individual item on the balance sheet against projected sales increases and computes funding shortfalls while honoring prescribed constraints (e.g. Current Ratio, Debt-Equity Ratio).\n2. Formula-Based Approach: Calculates total funding deficit directly using the equation:\nEFR = [(TA/S) × ΔS] - [(P/S) × ΔS] - [N × S1 × (1 - d)]."
+      }
+    ],
+    "fill": [
+      {
+        "q": "The formula for Sustainable Growth Rate (SGR) is ROE × (1 - ____).",
+        "a": "Dividend Payout Ratio"
+      },
+      {
+        "q": "The corporate debt-equity ratio norm for private sector enterprises in India is typically ____:1.",
+        "a": "2"
+      },
+      {
+        "q": "Financial Planning is expressed as FR + FT + ____.",
+        "a": "FG"
+      },
+      {
+        "q": "An SBU stands for Strategic ____ Unit.",
+        "a": "Business"
+      }
+    ],
+    "match": [
+      {
+        "q": "Suitability",
+        "a": "Accomplishment of company common objective"
+      },
+      {
+        "q": "Feasibility",
+        "a": "Availability of required resources to execute"
+      },
+      {
+        "q": "Acceptability",
+        "a": "Satisfaction of stakeholder financial & risk expectations"
+      },
+      {
+        "q": "Higgins Model",
+        "a": "Maximum sales growth without new equity"
+      }
+    ],
+    "essay": [
+      {
+        "q": "Following financial data are available for PQR Ltd. for the financial year ending 2023:\n- Total Debt: ₹175 Lakhs (8% Debentures ₹125L, 10% Bonds ₹50L)\n- Total Net Worth: ₹400 Lakhs (Equity Capital ₹100L, Reserves ₹300L)\n- Total Assets: ₹600 Lakhs\n- Assets Turnover Ratio: 1.1\n- Operating Margin: 10%\n- Effective Tax Rate: 40%\n- Dividend Payout Ratio: 16.67%\nYou are required to draw the Income Statement and calculate the Sustainable Growth Rate (SGR).",
+        "a": "1. Sales = ₹600L × 1.1 = ₹660 Lakhs.\n2. Operating Expenses (90%) = ₹594 Lakhs; EBIT (10%) = ₹66.00 Lakhs.\n3. Interest on Debt = (8% on ₹175L) = ₹14.00 Lakhs.\n4. EBT = ₹52.00 Lakhs; Tax @ 40% = ₹20.80 Lakhs; PAT = ₹31.20 Lakhs.\n5. Dividends @ 16.67% = ₹5.20 Lakhs; Retained Earnings = ₹26.00 Lakhs.\n6. ROE = PAT / Net Worth = ₹31.20L / ₹400L = 7.80%.\n7. SGR = ROE × (1 - b) = 7.80% × (1 - 0.1667) = 6.50%.\nSales and assets can sustainably grow by 6.50% annually without external equity.",
+        "computation": {
+          "title": "Income Statement and Sustainable Growth Rate (SGR) of PQR Ltd.",
+          "headers": [
+            { "title": "Particulars", "width": "55%" },
+            { "title": "Calculation / Notes", "width": "22%" },
+            { "title": "Amount (₹ in Lakhs)", "width": "23%" }
+          ],
+          "columnWidths": ["55%", "22%", "23%"],
+          "rows": [
+            [{ "text": "Sales Revenue (Total Assets × 1.1)" }, { "text": "₹600 × 1.1", "align": "center" }, { "text": "660.00", "align": "right" }],
+            [{ "text": "Less: Operating Expenses (90%)", "isItalicPrefix": true }, { "text": "90% of Sales", "align": "center" }, { "text": "594.00", "align": "right", "borderBottom": true }],
+            [{ "text": "Operating Profit / EBIT (10%)", "isHeading": true }, { "text": "10% Margin", "align": "center" }, { "text": "66.00", "align": "right", "isBoxed": true }],
+            [{ "text": "Less: Interest Expenses", "isItalicPrefix": true }, { "text": "8% on ₹175L", "align": "center" }, { "text": "14.00", "align": "right", "borderBottom": true }],
+            [{ "text": "Earnings Before Tax (EBT)", "isHeading": true }, "", { "text": "52.00", "align": "right" }],
+            [{ "text": "Less: Income Tax @ 40%", "isItalicPrefix": true }, { "text": "40% of EBT", "align": "center" }, { "text": "20.80", "align": "right", "borderBottom": true }],
+            [{ "text": "Profit After Tax (PAT)", "isHeading": true }, "", { "text": "31.20", "align": "right", "isBoxed": true }],
+            [{ "text": "Less: Dividend Paid @ 16.67%", "isItalicPrefix": true }, { "text": "16.67% of PAT", "align": "center" }, { "text": "5.20", "align": "right", "borderBottom": true }],
+            [{ "text": "Retained Earnings for reinvestment", "isHeading": true }, "", { "text": "26.00", "align": "right", "isDoubleBottom": true }],
+            [{ "text": "Return on Equity (ROE)" }, { "text": "₹31.20 / ₹400", "align": "center" }, { "text": "7.80%", "align": "right" }],
+            [{ "text": "Sustainable Growth Rate [SGR = ROE × (1 - b)]", "isHeading": true }, { "text": "7.8% × 83.33%", "align": "center" }, { "text": "6.50%", "align": "right", "isDoubleBottom": true }]
+          ]
+        }
+      }
+    ]
+  }
+}

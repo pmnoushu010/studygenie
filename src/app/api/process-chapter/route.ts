@@ -46,51 +46,62 @@ export async function POST(req: NextRequest) {
     const parts: any[] = [];
     
     let prompt = "";
-    if (subject === "Direct Tax Laws" || subject.includes("Tax") || subject.includes("CA")) {
+    if (
+      subject === "Direct Tax Laws" ||
+      subject === "Advanced Financial Management" ||
+      subject.includes("Tax") ||
+      subject.includes("Financial") ||
+      subject.includes("CA")
+    ) {
       prompt = `
-      You are an expert Chartered Accountant and ICAI Faculty for CA Final Direct Tax Laws. Analyze this educational material and generate an authentic ICAI examination question paper based on its contents.
-      
-      Extract the core provisions, sections, rules, and practical computation scenarios.
-      For practical calculation/computation questions in "essay" (Part B, 12 Marks), generate step-by-step solutions AND an authentic ICAI computation statement table matching ICAI study modules.
+      You are an expert Chartered Accountant and ICAI Faculty for CA Final examination papers (Paper 2: Advanced Financial Management and Paper 4: Direct Tax Laws). Analyze this educational material and generate an authentic ICAI examination question paper based on its contents, strictly following the pattern of ICAI Revision Test Papers (RTP) and Final Examination Question Papers.
+
+      EXAMINATION PATTERN REQUIREMENTS:
+      1. Part I: Case Scenario MCQs (30 Marks format):
+         - Formulate multi-part Case Scenarios based on corporate scenarios, board meetings, balance sheet data, or foreign exchange transactions.
+         - Followed by 4-option MCQs: (a), (b), (c), (d) with exact rationale in the answer.
+      2. Part II: Descriptive Section (70 Marks format):
+         - "sa" (Part A, 3-5 Marks): Conceptual, legal, theoretical, and strategic policy questions.
+         - "essay" (Part B, 12-14 Marks): Comprehensive practical calculation problems and case studies. Every calculation answer MUST include an authentic ICAI Statement Table structure in the "computation" field matching official ICAI study modules.
       
       You MUST respond ONLY with a valid JSON object matching this exact structure, with no markdown formatting or backticks around it:
       {
-        "summary": "A detailed overview of the important sections, provisions, rules, and computation methods to master before attempting questions.",
+        "summary": "A detailed overview of the core concepts, statutory provisions, formulas, and calculation frameworks to master before answering questions.",
         "oneword": [
-          { "q": "MCQ / Case Question text here", "a": "Answer here" }
+          { "q": "Case Scenario / MCQ text with 4 options (a), (b), (c), (d)", "a": "(b) Correct option text with brief rationale" }
         ],
         "sa": [
-          { "q": "Theory/Provision Question (3-5 Marks) (e.g. Discuss the provisions of...)", "a": "Legal answer with section references" }
+          { "q": "Part A (3-5 Marks): Conceptual / policy question text", "a": "Comprehensive answer with legal provisions, strategic frameworks, or bullet points" }
         ],
         "fill": [
-          { "q": "Direct provision blank question here", "a": "Answer here" }
+          { "q": "Direct formula or provision blank question", "a": "Exact answer" }
         ],
         "match": [
-          { "q": "Section / Provision", "a": "Matching provision / threshold / rate" }
+          { "q": "Term / Section / Model", "a": "Matching provision / formula / definition" }
         ],
         "essay": [
           {
-            "q": "Part B (12 Marks): Comprehensive practical problem or computation case study (e.g. Compute the business income, agricultural income, or total tax liability of...)",
-            "a": "Detailed step-by-step explanation and final computation result",
+            "q": "Part B (12-14 Marks): Practical computation problem or complex case study with given financial parameters",
+            "a": "Detailed step-by-step working notes, formula substitutions, and final results",
             "computation": {
-              "title": "Computation of [Total Income / Tax Liability / Business Income] of [Name]",
+              "title": "Computation of [Metric / Statement Title] of [Company/Person]",
               "headers": [
                 { "title": "Particulars", "width": "50%" },
-                { "title": "Details (₹)", "width": "25%" },
+                { "title": "Working / Basis", "width": "25%" },
                 { "title": "Amount (₹)", "width": "25%" }
               ],
               "columnWidths": ["50%", "25%", "25%"],
               "rows": [
-                [{ "text": "Gross Income / Revenue Item" }, { "text": "10,00,000", "align": "right" }, ""],
-                [{ "text": "Less: Deductions / Expenses", "isItalicPrefix": true }, { "text": "2,00,000", "align": "right", "borderBottom": true }, ""],
-                [{ "text": "Net Taxable Amount", "isHeading": true }, "", { "text": "8,00,000", "align": "right", "isBoxed": true }]
+                [{ "text": "Operating Item 1" }, { "text": "Input / Basis", "align": "center" }, { "text": "10,00,000", "align": "right" }],
+                [{ "text": "Less: Deductions / Costs", "isItalicPrefix": true }, { "text": "Formula / %", "align": "center" }, { "text": "2,00,000", "align": "right", "borderBottom": true }],
+                [{ "text": "Net Total", "isHeading": true }, "", { "text": "8,00,000", "align": "right", "isBoxed": true }]
               ],
-              "notes": ["Applicable section references or legal assumptions"]
+              "notes": ["Applicable statutory rules, assumptions, or alternative approaches"]
             }
           }
         ]
       }
-      Generate at least 3-4 essay questions (focusing on practical calculations with computation tables), 4-6 sa questions, and 5-8 oneword/fill/match questions.
+      Generate at least 3-5 comprehensive practical calculation problems for "essay" with structured computation tables, 4-6 sa questions, and 6-10 oneword/fill/match questions.
       `;
     } else if (subject === "Basic Mechanical Engineering") {
       prompt = `
