@@ -247,7 +247,7 @@
     },
     {
       "q": "A 2000 kg truck's velocity increases from 0 m/s to 20 m/s in 10 s. Calculate the acceleration and the net force acting on the truck.",
-      "a": "1. To find acceleration (a), use the formula a = (v - u) / t. Given: initial velocity (u) = 0 m/s, final velocity (v) = 20 m/s, and time (t) = 10 s. a = (20 - 0) / 10 = 2 m/s². 2. To find the net force (F), use Newton's Second Law: F = m × a. Given: mass (m) = 2000 kg and acceleration (a) = 2 m/s². F = 2000 kg × 2 m/s² = 4000 N. The truck's acceleration is 2 m/s² and the force acting on it is 4000 N."
+      "a": "Given:\nMass (m) = 2000 kg\nInitial velocity (u) = 0 m/s\nFinal velocity (v) = 20 m/s\nTime (t) = 10 s\n\n1. To find acceleration (a), use the formula:\na = (v - u) / t\na = (20 - 0) / 10 = 2 m/s²\n\n2. To find the net force (F), use Newton's Second Law:\nF = m × a\nF = 2000 kg × 2 m/s² = 4000 N.\n\nThe truck's acceleration is 2 m/s² and the force acting on it is 4000 N."
     },
     {
       "q": "Describe the physics of walking on the ground and identify the action and reaction forces involved.",
@@ -255,7 +255,7 @@
     },
     {
       "q": "Describe the physics of a bullet stopping in a wooden block. Calculate the stopping force for a 50g bullet moving at 100 m/s that stops after 50 cm.",
-      "a": "First, convert all units to SI: mass = 0.05 kg, u = 100 m/s, v = 0 m/s, s = 0.5 m. Using the kinematic equation v^2 = u^2 + 2as: 0 = (100)^2 + 2(a)(0.5), which gives 0 = 10000 + 1a, so acceleration (a) = -10,000 m/s^2. Then, apply Newton's Second Law: F = ma = 0.05 kg * (-10,000 m/s^2) = -500 N. The negative sign indicates the force is acting in the opposite direction of motion, effectively stopping the bullet."
+      "a": "Given:\nMass of bullet (m) = 50 g = 0.05 kg\nInitial velocity (u) = 100 m/s\nFinal velocity (v) = 0 m/s\nStopping distance (s) = 50 cm = 0.5 m\n\n1. To find acceleration (a), use the kinematic equation:\nv² = u² + 2as\n0 = (100)² + 2(a)(0.5)\n0 = 10000 + 1a\na = -10,000 m/s²\n\n2. Apply Newton's Second Law to find the stopping force:\nF = m × a\nF = 0.05 kg × (-10,000 m/s²)\nF = -500 N\n\nThe negative sign indicates the force is acting in the opposite direction of motion, effectively stopping the bullet."
     },
     {
       "q": "Explain how the time of contact affects the force imparted on an object, using the example of a football penalty kick.",
@@ -263,7 +263,7 @@
     },
     {
       "q": "Discuss the motion of an object encountering multiple opposing forces. Calculate the stopping distance for a 2 kg object at 10 m/s hitting a patch with 7 N friction and 3 N opposing force.",
-      "a": "When an object encounters multiple opposing forces, the total net force is the sum of these forces. Here, Total Opposing Force = 7 N (friction) + 3 N (applied) = 10 N. Since it opposes motion, Net Force = -10 N. Using F = ma, the acceleration a = -10 N / 2 kg = -5 m/s^2. To find the stopping distance, use v^2 = u^2 + 2as: 0 = (10)^2 + 2(-5)(s). This simplifies to 0 = 100 - 10s, which means 10s = 100, so the stopping distance s = 10 meters."
+      "a": "Given:\nMass (m) = 2 kg\nInitial velocity (u) = 10 m/s\nFinal velocity (v) = 0 m/s\nFriction force = 7 N\nOther opposing force = 3 N\n\n1. Find the total net force:\nWhen an object encounters multiple opposing forces, the total net force is the sum of these forces.\nTotal Opposing Force = 7 N + 3 N = 10 N.\nSince it opposes motion, Net Force (F) = -10 N.\n\n2. Find the acceleration (a) using Newton's Second Law:\nF = m × a\n-10 N = 2 kg × a\na = -5 m/s²\n\n3. To find the stopping distance (s), use the kinematic equation:\nv² = u² + 2as\n0 = (10)² + 2(-5)(s)\n0 = 100 - 10s\n10s = 100\ns = 10 meters.\n\nThe stopping distance is 10 meters."
     }
   ]
 }
