@@ -70,16 +70,241 @@
   ],
   "essay": [
     {
-      "q": "Mr. Amar grows sugarcane and uses it to manufacture sugar. 40% of his sugarcane is sold directly for ₹12 lakhs (cost of cultivation ₹6 lakhs). The remaining 60% is used for sugar manufacturing (cost of cultivation ₹15 lakhs, market value ₹25 lakhs). After incurring ₹1.5 lakhs in manufacturing, the sugar was sold for ₹30 lakhs. Compute his business and agricultural income.",
-      "a": "1. Business Income from Sugar: Sale proceeds (₹30,00,000) - Market value of sugarcane used (₹25,00,000) - Manufacturing expenses (₹1,50,000) = ₹3,50,000.\n2. Agricultural Income from Sugar: Market value of sugarcane used (₹25,00,000) - Cost of cultivation (₹15,00,000) = ₹10,00,000.\n3. Agricultural Income from direct sale: Sale proceeds (₹12,00,000) - Cost of cultivation (₹6,00,000) = ₹6,00,000.\nTotal Business Income = ₹3,50,000. Total Agricultural Income = ₹16,00,000."
+      "q": "Mr. Vikas grows sugarcane and uses it to manufacture sugar. 40% of his sugarcane is sold directly for ₹12 lakhs (cost of cultivation ₹6 lakhs). The remaining 60% is used for sugar manufacturing (cost of cultivation ₹15 lakhs, market value ₹25 lakhs). After incurring ₹1.5 lakhs in manufacturing, the sugar was sold for ₹30 lakhs. Compute his business and agricultural income.",
+      "a": "1. Business Income from Sugar: Sale proceeds (₹30,00,000) - Market value of sugarcane used (₹25,00,000) - Manufacturing expenses (₹1,50,000) = ₹3,50,000.\n2. Agricultural Income from Sugar: Market value of sugarcane used (₹25,00,000) - Cost of cultivation (₹15,00,000) = ₹10,00,000.\n3. Agricultural Income from direct sale: Sale proceeds (₹12,00,000) - Cost of cultivation (₹6,00,000) = ₹6,00,000.\nTotal Business Income = ₹3,50,000. Total Agricultural Income = ₹16,00,000.",
+      "computation": {
+        "title": "Computation of Business Income and Agricultural Income of Mr. Vikas",
+        "headers": [
+          { "title": "Particulars", "rowSpan": 2, "width": "46%" },
+          { "title": "Business Income", "colSpan": 1, "width": "18%" },
+          { "title": "Agricultural Income", "colSpan": 2, "width": "36%" }
+        ],
+        "subHeaders": [
+          { "text": "(₹)", "width": "18%" },
+          { "text": "(₹)", "width": "18%" },
+          { "text": "(₹)", "width": "18%" }
+        ],
+        "columnWidths": ["46%", "18%", "18%", "18%"],
+        "rows": [
+          [
+            { "text": "Sale of Sugar", "isUnderline": true, "isHeading": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Business income", "isUnderline": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Sale Proceeds of sugar" },
+            { "text": "30,00,000", "align": "right" },
+            "", ""
+          ],
+          [
+            { "text": "Less: Market value of sugar (60%)", "isItalicPrefix": true },
+            { "text": "25,00,000", "align": "right" },
+            "", ""
+          ],
+          [
+            { "text": "Less: Manufacturing exp.", "isItalicPrefix": true },
+            { "text": "1,50,000", "align": "right" },
+            "", ""
+          ],
+          [
+            "",
+            { "text": "3,50,000", "align": "right", "isBoxed": true },
+            "", ""
+          ],
+          [
+            { "text": "Agricultural income", "isUnderline": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Market value of sugar (60%)" },
+            "",
+            { "text": "25,00,000", "align": "right" },
+            ""
+          ],
+          [
+            { "text": "Less: Cost of cultivation", "isItalicPrefix": true },
+            "",
+            { "text": "15,00,000", "align": "right" },
+            ""
+          ],
+          [
+            "",
+            "",
+            { "borderBottom": true },
+            { "text": "10,00,000", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Sale of sugarcane", "isUnderline": true, "isHeading": true },
+            "", "", ""
+          ],
+          [
+            { "text": "Agricultural Income" },
+            "", "", ""
+          ],
+          [
+            { "text": "Sale proceeds of sugarcane (40%)" },
+            "",
+            { "text": "12,00,000", "align": "right" },
+            ""
+          ],
+          [
+            { "text": "Less: Cost of cultivation", "isItalicPrefix": true },
+            "",
+            { "text": "6,00,000", "align": "right" },
+            ""
+          ],
+          [
+            "",
+            "",
+            { "borderBottom": true },
+            { "text": "6,00,000", "align": "right", "borderBottom": true }
+          ],
+          [
+            "",
+            "",
+            { "borderBottom": true },
+            { "text": "16,00,000", "align": "right", "isBoxed": true, "borderBottom": true }
+          ]
+        ],
+        "notes": [
+          "As per Rule 270 of the Income-tax Rules, where agricultural produce is used as raw material in an industrial process, the market value of such produce is deducted from manufacturing revenues to determine Business Income.",
+          "The excess of market value over the cost of cultivation constitutes Agricultural Income exempt from tax under Section 10(1)."
+        ]
+      }
     },
     {
       "q": "Mr. Nilesh manufactures rubber from latex obtained from plants grown by him in India. He sells the latex for ₹36 lakhs. The cost of growing the plants is ₹16 lakhs and manufacturing cost is ₹12 lakhs. Compute his total income.",
-      "a": "Total profit = ₹36 lakhs (sales) - ₹16 lakhs (growing cost) - ₹12 lakhs (manufacturing) = ₹8 lakhs.\nAccording to Rule 271, for rubber products manufactured from plants grown in India, income is apportioned as 65% agricultural and 35% business.\nAgricultural Income = 65% of ₹8 lakhs = ₹5.2 lakhs.\nBusiness Income = 35% of ₹8 lakhs = ₹2.8 lakhs."
+      "a": "Total profit = ₹36,00,000 (sales) - ₹16,00,000 (growing cost) - ₹12,00,000 (manufacturing) = ₹8,00,000.\nAccording to Rule 271, for rubber products manufactured from plants grown in India, composite income is apportioned as 65% agricultural income and 35% business income.\nAgricultural Income = 65% of ₹8,00,000 = ₹5,20,000.\nBusiness Income = 35% of ₹8,00,000 = ₹2,80,000.",
+      "computation": {
+        "title": "Computation of Business Income and Agricultural Income of Mr. Nilesh",
+        "subtitle": "(As per Rule 271 of Income-tax Rules)",
+        "headers": [
+          { "title": "Particulars", "width": "50%" },
+          { "title": "Amount (₹)", "width": "25%" },
+          { "title": "Total (₹)", "width": "25%" }
+        ],
+        "columnWidths": ["50%", "25%", "25%"],
+        "rows": [
+          [
+            { "text": "Sale proceeds of rubber products manufactured from latex grown in India" },
+            "",
+            { "text": "36,00,000", "align": "right" }
+          ],
+          [
+            { "text": "Less: Cost of growing latex plants", "isItalicPrefix": true },
+            { "text": "16,00,000", "align": "right" },
+            ""
+          ],
+          [
+            { "text": "Less: Manufacturing expenses", "isItalicPrefix": true },
+            { "text": "12,00,000", "align": "right" },
+            ""
+          ],
+          [
+            "",
+            { "borderBottom": true },
+            { "text": "28,00,000", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Composite Profit from Rubber Business", "isHeading": true },
+            "",
+            { "text": "8,00,000", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Apportionment under Rule 271:", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "• Business Income (35% of ₹8,00,000)" },
+            "",
+            { "text": "2,80,000", "align": "right" }
+          ],
+          [
+            { "text": "• Agricultural Income (65% of ₹8,00,000) [Exempt u/s 10(1)]" },
+            "",
+            { "text": "5,20,000", "align": "right", "borderBottom": true }
+          ]
+        ],
+        "notes": [
+          "Under Rule 271 of the Income-tax Rules, 35% of the composite profit from the manufacture of rubber is taxable as Business Income, and the remaining 65% is exempt as Agricultural Income."
+        ]
+      }
     },
     {
       "q": "Mr. X (aged 40) has a salary income of ₹11,50,000, house property income of ₹3,80,000, and net agricultural income of ₹2,90,000 (after deducting expenses). Compute his tax liability for T.Y. 2026-27 under the default tax regime.",
-      "a": "1. Non-agricultural income = ₹11,50,000 + ₹3,80,000 = ₹15,30,000.\n2. Since agricultural income (₹2,90,000) > ₹5,000 and non-agricultural income > ₹4,00,000, partial integration applies.\n3. Step 1 (Xn): Tax on Aggregate Income (₹15,30,000 + ₹2,90,000 = ₹18,20,000) under default regime. Tax = ₹1,64,000.\n4. Step 2 (Yn): Tax on (Agricultural Income ₹2,90,000 + Basic Exemption ₹4,00,000 = ₹6,90,000). Tax = ₹14,500.\n5. Step 3: Tax Chargeable = Xn - Yn = ₹1,64,000 - ₹14,500 = ₹1,49,500.\n6. Add Health and Education Cess @4% = ₹5,980.\n7. Total Tax Liability = ₹1,55,480."
+      "a": "1. Non-agricultural income = ₹11,50,000 + ₹3,80,000 = ₹15,30,000.\n2. Since agricultural income (₹2,90,000) > ₹5,000 and non-agricultural income > ₹4,00,000, partial integration applies.\n3. Step 1 (Xn): Tax on Aggregate Income (₹15,30,000 + ₹2,90,000 = ₹18,20,000) under default regime. Tax = ₹1,64,000.\n4. Step 2 (Yn): Tax on (Agricultural Income ₹2,90,000 + Basic Exemption ₹4,00,000 = ₹6,90,000). Tax = ₹14,500.\n5. Step 3: Tax Chargeable = Xn - Yn = ₹1,64,000 - ₹14,500 = ₹1,49,500.\n6. Add Health and Education Cess @4% = ₹5,980.\n7. Total Tax Liability = ₹1,55,480.",
+      "computation": {
+        "title": "Computation of Total Income and Tax Liability of Mr. X",
+        "subtitle": "(Assessment Year 2027-28 / Tax Year 2026-27 - Default Tax Regime)",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Details (₹)", "width": "22%" },
+          { "title": "Amount (₹)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [
+            { "text": "I. Computation of Non-Agricultural Total Income", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Income from Salaries" },
+            { "text": "11,50,000", "align": "right" },
+            ""
+          ],
+          [
+            { "text": "Income from House Property" },
+            { "text": "3,80,000", "align": "right", "borderBottom": true },
+            ""
+          ],
+          [
+            { "text": "Gross Total Income (Non-Agricultural Income)", "isHeading": true },
+            "",
+            { "text": "15,30,000", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Net Agricultural Income (for rate integration purpose only)" },
+            "",
+            { "text": "2,90,000", "align": "right" }
+          ],
+          [
+            { "text": "II. Computation of Tax Liability (Partial Integration Method)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Step 1: Tax on Aggregate Income (₹15,30,000 + ₹2,90,000 = ₹18,20,000)" },
+            "",
+            { "text": "1,64,000", "align": "right" }
+          ],
+          [
+            { "text": "Step 2: Tax on (Agri Income ₹2,90,000 + Basic Exemption ₹4,00,000 = ₹6,90,000)" },
+            "",
+            { "text": "14,500", "align": "right" }
+          ],
+          [
+            { "text": "Step 3: Tax Chargeable (Step 1 - Step 2)" },
+            "",
+            { "text": "1,49,500", "align": "right", "borderTop": true, "borderBottom": true }
+          ],
+          [
+            { "text": "Add: Health and Education Cess @ 4%", "isItalicPrefix": true },
+            "",
+            { "text": "5,980", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Tax Liability (Rounded off u/s 288B)", "isHeading": true },
+            "",
+            { "text": "1,55,480", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Partial integration applies because net agricultural income exceeds ₹5,000 and non-agricultural income exceeds the basic exemption limit (₹4,00,000 under the default tax regime).",
+          "Agricultural income is not taxed directly; it is integrated solely to determine the tax rate on non-agricultural income."
+        ]
+      }
     }
   ]
 }

@@ -71,19 +71,118 @@
   "essay": [
     {
       "q": "Mr. Arjun (aged 52) has a total income of ₹16,00,000 for T.Y. 2026-27 under the optional tax regime. Compute his tax liability.",
-      "a": "1. Basic exemption limit is ₹2,50,000.\n2. Tax on first ₹2,50,000: Nil.\n3. Tax on next ₹2,50,000 (@5%): ₹12,500.\n4. Tax on next ₹5,00,000 (@20%): ₹1,00,000.\n5. Tax on balance ₹6,00,000 (@30%): ₹1,80,000.\n6. Total Tax = ₹2,92,500.\n7. Add: Health and Education Cess @4% = ₹11,700.\n8. Total Tax Liability = ₹3,04,200."
+      "a": "1. Basic exemption limit is ₹2,50,000.\n2. Tax on first ₹2,50,000: Nil.\n3. Tax on next ₹2,50,000 (@5%): ₹12,500.\n4. Tax on next ₹5,00,000 (@20%): ₹1,00,000.\n5. Tax on balance ₹6,00,000 (@30%): ₹1,80,000.\n6. Total Tax = ₹2,92,500.\n7. Add: Health and Education Cess @4% = ₹11,700.\n8. Total Tax Liability = ₹3,04,200.",
+      "computation": {
+        "title": "Computation of Tax Liability of Mr. Arjun (Age 52)",
+        "subtitle": "(Assessment Year 2027-28 / Tax Year 2026-27 - Optional Tax Regime)",
+        "headers": [
+          { "title": "Particulars", "width": "50%" },
+          { "title": "Rate (%)", "width": "18%" },
+          { "title": "Amount (₹)", "width": "32%" }
+        ],
+        "columnWidths": ["50%", "18%", "32%"],
+        "rows": [
+          [{ "text": "Tax on Total Income of ₹16,00,000:", "isUnderline": true, "isHeading": true }, "", ""],
+          [{ "text": "Up to ₹2,50,000 (Basic Exemption Limit)" }, { "text": "Nil", "align": "center" }, { "text": "Nil", "align": "right" }],
+          [{ "text": "₹2,50,001 to ₹5,00,000" }, { "text": "5%", "align": "center" }, { "text": "12,500", "align": "right" }],
+          [{ "text": "₹5,00,001 to ₹10,00,000" }, { "text": "20%", "align": "center" }, { "text": "1,00,000", "align": "right" }],
+          [{ "text": "₹10,00,001 to ₹16,00,000 (Balance)" }, { "text": "30%", "align": "center" }, { "text": "1,80,000", "align": "right", "borderBottom": true }],
+          [{ "text": "Total Tax on Income", "isHeading": true }, "", { "text": "2,92,500", "align": "right", "borderBottom": true }],
+          [{ "text": "Add: Health and Education Cess @ 4%", "isItalicPrefix": true }, { "text": "4%", "align": "center" }, { "text": "11,700", "align": "right", "borderBottom": true }],
+          [{ "text": "Total Tax Payable", "isHeading": true }, "", { "text": "3,04,200", "align": "right", "isDoubleBottom": true }]
+        ],
+        "notes": ["Senior citizen exemption does not apply as Mr. Arjun is below 60 years of age."]
+      }
     },
     {
       "q": "Mr. Veer (aged 51) has a total income of ₹1,01,00,000 for T.Y. 2026-27 under the default tax regime. Compute his tax liability applying marginal relief.",
-      "a": "1. Tax on ₹1,01,00,000 under default regime: ₹26,10,000.\n2. Surcharge @15% (since income > ₹1Cr): ₹3,91,500. Total Tax = ₹30,01,500.\n3. Marginal Relief Calculation: Max tax cannot exceed tax on ₹1 Crore + income over ₹1 Crore.\n- Tax on ₹1 Crore: ₹25,80,000.\n- Surcharge @10% on ₹1 Crore: ₹2,58,000.\n- Total Tax on ₹1 Crore = ₹28,38,000.\n- Add income over ₹1 Crore (₹1,00,000) = ₹29,38,000.\n4. Since ₹29,38,000 is less than ₹30,01,500, tax is restricted to ₹29,38,000 (Marginal relief = ₹63,500).\n5. Add HEC @4% on ₹29,38,000 = ₹1,17,520.\n6. Final Tax Liability = ₹30,55,520."
+      "a": "1. Tax on ₹1,01,00,000 under default regime: ₹26,10,000.\n2. Surcharge @15% (since income > ₹1Cr): ₹3,91,500. Total Tax = ₹30,01,500.\n3. Marginal Relief Calculation: Max tax cannot exceed tax on ₹1 Crore + income over ₹1 Crore.\n- Tax on ₹1 Crore: ₹25,80,000.\n- Surcharge @10% on ₹1 Crore: ₹2,58,000.\n- Total Tax on ₹1 Crore = ₹28,38,000.\n- Add income over ₹1 Crore (₹1,00,000) = ₹29,38,000.\n4. Since ₹29,38,000 is less than ₹30,01,500, tax is restricted to ₹29,38,000 (Marginal relief = ₹63,500).\n5. Add HEC @4% on ₹29,38,000 = ₹1,17,520.\n6. Final Tax Liability = ₹30,55,520.",
+      "computation": {
+        "title": "Computation of Tax Liability of Mr. Veer (Age 51)",
+        "subtitle": "(Assessment Year 2027-28 - Default Tax Regime with Marginal Relief)",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Details (₹)", "width": "22%" },
+          { "title": "Amount (₹)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [{ "text": "Tax on Total Income of ₹1,01,00,000 under Default Regime" }, "", { "text": "26,10,000", "align": "right" }],
+          [{ "text": "Add: Surcharge @ 15% (since income > ₹1 Crore)", "isItalicPrefix": true }, "", { "text": "3,91,500", "align": "right", "borderBottom": true }],
+          [{ "text": "Total Tax and Surcharge Payable (A)", "isHeading": true }, "", { "text": "30,01,500", "align": "right", "isBoxed": true }],
+          [{ "text": "Marginal Relief Calculation:", "isUnderline": true, "isHeading": true }, "", ""],
+          [{ "text": "• Tax on ₹1,00,00,000" }, { "text": "25,80,000", "align": "right" }, ""],
+          [{ "text": "• Add: Surcharge @ 10% on ₹1 Crore", "isItalicPrefix": true }, { "text": "2,58,000", "align": "right" }, ""],
+          [{ "text": "• Total tax on ₹1 Crore" }, { "text": "28,38,000", "align": "right" }, ""],
+          [{ "text": "• Add: Income exceeding ₹1 Crore (₹1,01,00,000 - ₹1,00,00,000)", "isItalicPrefix": true }, { "text": "1,00,000", "align": "right", "borderBottom": true }, ""],
+          [{ "text": "• Maximum allowable tax + surcharge (B)" }, "", { "text": "29,38,000", "align": "right" }],
+          [{ "text": "Less: Marginal Relief [(A) - (B)]", "isItalicPrefix": true }, "", { "text": "63,500", "align": "right", "borderBottom": true }],
+          [{ "text": "Tax Payable after Marginal Relief", "isHeading": true }, "", { "text": "29,38,000", "align": "right", "borderBottom": true }],
+          [{ "text": "Add: Health and Education Cess @ 4%", "isItalicPrefix": true }, "", { "text": "1,17,520", "align": "right", "borderBottom": true }],
+          [{ "text": "Net Tax Liability (Rounded off u/s 288B)", "isHeading": true }, "", { "text": "30,55,520", "align": "right", "isDoubleBottom": true }]
+        ],
+        "notes": [
+          "Marginal relief restricts the aggregate of tax and surcharge so that it does not exceed the tax on ₹1 Crore plus the excess income of ₹1,00,000."
+        ]
+      }
     },
     {
       "q": "Mr. Mahesh (aged 32) has a total income of ₹10,50,000 under the default tax regime. Compute his tax liability.",
-      "a": "1. Tax on first ₹4,00,000: Nil.\n2. Tax on next ₹4,00,000 (@5%): ₹20,000.\n3. Tax on balance ₹2,50,000 (@10%): ₹25,000.\n4. Total Tax = ₹45,000.\n5. Since income is less than ₹12,00,000, he is eligible for Rebate u/s 156 of 100% of tax payable or ₹60,000, whichever is lower.\n6. Rebate allowed = ₹45,000.\n7. Final Tax Liability = Nil."
+      "a": "1. Tax on first ₹4,00,000: Nil.\n2. Tax on next ₹4,00,000 (@5%): ₹20,000.\n3. Tax on balance ₹2,50,000 (@10%): ₹25,000.\n4. Total Tax = ₹45,000.\n5. Since income is less than ₹12,00,000, he is eligible for Rebate u/s 156 of 100% of tax payable or ₹60,000, whichever is lower.\n6. Rebate allowed = ₹45,000.\n7. Final Tax Liability = Nil.",
+      "computation": {
+        "title": "Computation of Tax Liability of Mr. Mahesh (Age 32)",
+        "subtitle": "(Assessment Year 2027-28 - Section 156 Rebate under Default Regime)",
+        "headers": [
+          { "title": "Particulars", "width": "50%" },
+          { "title": "Rate (%)", "width": "18%" },
+          { "title": "Amount (₹)", "width": "32%" }
+        ],
+        "columnWidths": ["50%", "18%", "32%"],
+        "rows": [
+          [{ "text": "Tax on Total Income of ₹10,50,000:", "isUnderline": true, "isHeading": true }, "", ""],
+          [{ "text": "Up to ₹4,00,000" }, { "text": "Nil", "align": "center" }, { "text": "Nil", "align": "right" }],
+          [{ "text": "₹4,00,001 to ₹8,00,000" }, { "text": "5%", "align": "center" }, { "text": "20,000", "align": "right" }],
+          [{ "text": "₹8,00,001 to ₹10,50,000" }, { "text": "10%", "align": "center" }, { "text": "25,000", "align": "right", "borderBottom": true }],
+          [{ "text": "Total Tax Payable before Rebate", "isHeading": true }, "", { "text": "45,000", "align": "right", "borderBottom": true }],
+          [{ "text": "Less: Rebate u/s 156 (100% of tax up to ₹60,000)", "isItalicPrefix": true }, "", { "text": "45,000", "align": "right", "borderBottom": true }],
+          [{ "text": "Net Tax Liability", "isHeading": true }, "", { "text": "NIL", "align": "right", "isDoubleBottom": true }]
+        ],
+        "notes": [
+          "Under the default tax regime, resident individuals with total income not exceeding ₹12,00,000 are eligible for full rebate up to ₹60,000 u/s 156, resulting in zero tax liability."
+        ]
+      }
     },
     {
       "q": "X Ltd., a domestic company, has a total income of ₹1,01,00,000 for T.Y. 2026-27. Compute its tax liability (ignoring concessional options).",
-      "a": "1. Tax @30% on ₹1,01,00,000 = ₹30,30,000.\n2. Surcharge @7% (income > ₹1Cr): ₹2,12,100. Total = ₹32,42,100.\n3. Marginal Relief: Tax + Surcharge on ₹1 Crore = ₹30,00,000. Add excess income (₹1,00,000) = ₹31,00,000.\n4. Tax restricted to ₹31,00,000.\n5. Add HEC @4% on ₹31,00,000 = ₹1,24,000.\n6. Final Tax Liability = ₹32,24,000."
+      "a": "1. Tax @30% on ₹1,01,00,000 = ₹30,30,000.\n2. Surcharge @7% (income > ₹1Cr): ₹2,12,100. Total = ₹32,42,100.\n3. Marginal Relief: Tax + Surcharge on ₹1 Crore = ₹30,00,000. Add excess income (₹1,00,000) = ₹31,00,000.\n4. Tax restricted to ₹31,00,000.\n5. Add HEC @4% on ₹31,00,000 = ₹1,24,000.\n6. Final Tax Liability = ₹32,24,000.",
+      "computation": {
+        "title": "Computation of Tax Liability of X Ltd. (Domestic Company)",
+        "subtitle": "(Assessment Year 2027-28 - Total Income ₹1,01,00,000)",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Details (₹)", "width": "22%" },
+          { "title": "Amount (₹)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [{ "text": "Income Tax @ 30% on ₹1,01,00,000" }, "", { "text": "30,30,000", "align": "right" }],
+          [{ "text": "Add: Surcharge @ 7% (Total Income > ₹1 Crore but ≤ ₹10 Crores)", "isItalicPrefix": true }, "", { "text": "2,12,100", "align": "right", "borderBottom": true }],
+          [{ "text": "Total Tax + Surcharge (A)", "isHeading": true }, "", { "text": "32,42,100", "align": "right", "isBoxed": true }],
+          [{ "text": "Marginal Relief Calculation:", "isUnderline": true, "isHeading": true }, "", ""],
+          [{ "text": "• Tax on ₹1,00,00,000 @ 30%" }, { "text": "30,00,000", "align": "right" }, ""],
+          [{ "text": "• Surcharge on ₹1 Crore" }, { "text": "Nil", "align": "right" }, ""],
+          [{ "text": "• Add: Income exceeding ₹1 Crore (₹1,01,00,000 - ₹1,00,00,000)", "isItalicPrefix": true }, { "text": "1,00,000", "align": "right", "borderBottom": true }, ""],
+          [{ "text": "• Maximum allowable tax + surcharge (B)" }, "", { "text": "31,00,000", "align": "right" }],
+          [{ "text": "Less: Marginal Relief [(A) - (B)]", "isItalicPrefix": true }, "", { "text": "1,42,100", "align": "right", "borderBottom": true }],
+          [{ "text": "Tax Payable after Marginal Relief", "isHeading": true }, "", { "text": "31,00,000", "align": "right", "borderBottom": true }],
+          [{ "text": "Add: Health and Education Cess @ 4%", "isItalicPrefix": true }, "", { "text": "1,24,000", "align": "right", "borderBottom": true }],
+          [{ "text": "Net Tax Liability", "isHeading": true }, "", { "text": "32,24,000", "align": "right", "isDoubleBottom": true }]
+        ],
+        "notes": [
+          "For domestic companies, surcharge is 7% if total income exceeds ₹1 Crore up to ₹10 Crores.",
+          "Marginal relief ensures tax and surcharge do not exceed tax on ₹1 Crore plus excess income."
+        ]
+      }
     }
   ]
 }

@@ -46,7 +46,53 @@ export async function POST(req: NextRequest) {
     const parts: any[] = [];
     
     let prompt = "";
-    if (subject === "Basic Mechanical Engineering") {
+    if (subject === "Direct Tax Laws" || subject.includes("Tax") || subject.includes("CA")) {
+      prompt = `
+      You are an expert Chartered Accountant and ICAI Faculty for CA Final Direct Tax Laws. Analyze this educational material and generate an authentic ICAI examination question paper based on its contents.
+      
+      Extract the core provisions, sections, rules, and practical computation scenarios.
+      For practical calculation/computation questions in "essay" (Part B, 12 Marks), generate step-by-step solutions AND an authentic ICAI computation statement table matching ICAI study modules.
+      
+      You MUST respond ONLY with a valid JSON object matching this exact structure, with no markdown formatting or backticks around it:
+      {
+        "summary": "A detailed overview of the important sections, provisions, rules, and computation methods to master before attempting questions.",
+        "oneword": [
+          { "q": "MCQ / Case Question text here", "a": "Answer here" }
+        ],
+        "sa": [
+          { "q": "Theory/Provision Question (3-5 Marks) (e.g. Discuss the provisions of...)", "a": "Legal answer with section references" }
+        ],
+        "fill": [
+          { "q": "Direct provision blank question here", "a": "Answer here" }
+        ],
+        "match": [
+          { "q": "Section / Provision", "a": "Matching provision / threshold / rate" }
+        ],
+        "essay": [
+          {
+            "q": "Part B (12 Marks): Comprehensive practical problem or computation case study (e.g. Compute the business income, agricultural income, or total tax liability of...)",
+            "a": "Detailed step-by-step explanation and final computation result",
+            "computation": {
+              "title": "Computation of [Total Income / Tax Liability / Business Income] of [Name]",
+              "headers": [
+                { "title": "Particulars", "width": "50%" },
+                { "title": "Details (₹)", "width": "25%" },
+                { "title": "Amount (₹)", "width": "25%" }
+              ],
+              "columnWidths": ["50%", "25%", "25%"],
+              "rows": [
+                [{ "text": "Gross Income / Revenue Item" }, { "text": "10,00,000", "align": "right" }, ""],
+                [{ "text": "Less: Deductions / Expenses", "isItalicPrefix": true }, { "text": "2,00,000", "align": "right", "borderBottom": true }, ""],
+                [{ "text": "Net Taxable Amount", "isHeading": true }, "", { "text": "8,00,000", "align": "right", "isBoxed": true }]
+              ],
+              "notes": ["Applicable section references or legal assumptions"]
+            }
+          }
+        ]
+      }
+      Generate at least 3-4 essay questions (focusing on practical calculations with computation tables), 4-6 sa questions, and 5-8 oneword/fill/match questions.
+      `;
+    } else if (subject === "Basic Mechanical Engineering") {
       prompt = `
       You are an expert Engineering Professor. Analyze this educational material for B.Tech Basic Mechanical Engineering and generate a university-style question paper based on its contents.
       

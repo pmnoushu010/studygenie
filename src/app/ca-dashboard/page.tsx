@@ -3,10 +3,14 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import EmojiPicker from 'emoji-picker-react';
+import CAAnswerRenderer from "@/components/CAAnswerRenderer";
 
 const QUESTION_TYPES = [
-  { id: "sa", label: "Part A (3 Marks)" },
-  { id: "essay", label: "Part B (12 Marks)" },
+  { id: "essay", label: "Part B: Computations & Practical (12 Marks)" },
+  { id: "sa", label: "Part A: Theory & Provisions (3-5 Marks)" },
+  { id: "oneword", label: "MCQs & Case Scenarios (1 Mark)" },
+  { id: "fill", label: "Key Blanks" },
+  { id: "match", label: "Match Provisions" },
 ];
 
 const SEMESTERS = [
@@ -22,9 +26,11 @@ export default function Home() {
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [userName, setUserName] = useState<string>("Student");
   
-  const [activeSemester, setActiveSemester] = useState(SEMESTERS[0].id);
-  const activeSemesterData = SEMESTERS.find(s => s.id === activeSemester) || SEMESTERS[0];
-  const [activeSubject, setActiveSubject] = useState<string>(SEMESTERS[0].subjects[0] || "");
+  // Default to CA Final since it has subjects configured
+  const initialSem = SEMESTERS.find(s => s.subjects && s.subjects.length > 0) || SEMESTERS[2] || SEMESTERS[0];
+  const [activeSemester, setActiveSemester] = useState(initialSem.id);
+  const activeSemesterData = SEMESTERS.find(s => s.id === activeSemester) || initialSem;
+  const [activeSubject, setActiveSubject] = useState<string>(initialSem.subjects[0] || "Direct Tax Laws");
   const [folders, setFolders] = useState<string[]>([]);
   const [activeFolder, setActiveFolder] = useState<string | null>(null);
   const [activeQType, setActiveQType] = useState(QUESTION_TYPES[0].id);
@@ -410,6 +416,8 @@ export default function Home() {
       const data = await res.json();
       if (res.ok && data) {
         setQuestions(data);
+        const availableType = QUESTION_TYPES.find(qt => data[qt.id] && data[qt.id].length > 0)?.id;
+        if (availableType) setActiveQType(availableType);
         if (data.oneword) {
           const opts: Record<number, string[]> = {};
           data.oneword.forEach((q: any, i: number) => {
@@ -464,7 +472,8 @@ export default function Home() {
       if (data.data.match) {
         setMatchOptions([...data.data.match.map((q: any) => q.a)].sort(() => Math.random() - 0.5));
       }
-      setActiveQType(QUESTION_TYPES[0].id);
+      const availableType = QUESTION_TYPES.find(qt => data.data[qt.id] && data.data[qt.id].length > 0)?.id || QUESTION_TYPES[0].id;
+      setActiveQType(availableType);
     } catch (err: any) {
       setError(err.message);
     } finally {
@@ -1040,7 +1049,7 @@ export default function Home() {
                     </div>
                   )}
                   <div className="question-tabs">
-                    {QUESTION_TYPES.map((qt) => (
+                    {QUESTION_TYPES.filter(qt => questions[qt.id] && questions[qt.id].length > 0).map((qt) => (
                       <button key={qt.id} className={`q-tab ${activeQType === qt.id ? "active" : ""}`} onClick={() => setActiveQType(qt.id)}>
                         {qt.label} ({questions[qt.id]?.length || 0})
                       </button>
@@ -1050,8 +1059,13 @@ export default function Home() {
                     {questions[activeQType]?.length > 0 ? (
                       questions[activeQType].map((q: any, i: number) => (
                         <div key={i} className="question-item">
-                          <p className="q" style={{ whiteSpace: "pre-wrap" }}>Q: {q.q}</p>
-                          <p className="a" style={{ whiteSpace: "pre-wrap" }}>A: {q.a}</p>
+                          <p className="q" style={{ whiteSpace: "pre-wrap", fontSize: "1.05rem", fontWeight: 600 }}>
+                            <strong>Q{i + 1}:</strong> {q.q}
+                          </p>
+                          <div className="a" style={{ marginTop: "0.75rem" }}>
+                            <strong style={{ color: "#10b981", display: "block", marginBottom: "0.5rem" }}>Answer & Solution:</strong>
+                            <CAAnswerRenderer question={q} />
+                          </div>
                         </div>
                       ))
                     ) : <p style={{ color: "#94a3b8" }}>No questions generated for this type.</p>}
@@ -1340,9 +1354,12 @@ export default function Home() {
 
                                   {/* Review Mode (After Submission) */}
                                   {examSubmitted && (
-                                    <div style={{ padding: "1rem", background: "rgba(0,0,0,0.4)", borderRadius: "8px", borderLeft: "4px solid #8b5cf6" }}>
-                                      <p style={{ marginBottom: "0.5rem", color: "#cbd5e1" }}><strong>Your Answer:</strong> <br/>{examAnswers[key] || <em style={{color:"#ef4444"}}>No answer provided</em>}</p>
-                                      <p style={{ color: "#10b981", whiteSpace: "pre-wrap" }}><strong>Correct Answer:</strong> <br/>{q.a}</p>
+                                    <div style={{ padding: "1.25rem", background: "rgba(0,0,0,0.4)", borderRadius: "8px", borderLeft: "4px solid #8b5cf6" }}>
+                                      <p style={{ marginBottom: "0.75rem", color: "#cbd5e1" }}><strong>Your Answer:</strong> <br/>{examAnswers[key] || <em style={{color:"#ef4444"}}>No answer provided</em>}</p>
+                                      <div>
+                                        <strong style={{ color: "#10b981", display: "block", marginBottom: "0.5rem" }}>Correct Answer & Suggested Statement:</strong>
+                                        <CAAnswerRenderer question={q} isExamReview={true} />
+                                      </div>
                                     </div>
                                   )}
                                 </div>
