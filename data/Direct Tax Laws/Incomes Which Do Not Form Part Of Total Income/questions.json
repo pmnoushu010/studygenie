@@ -1,0 +1,85 @@
+{
+  "summary": "This chapter delves into incomes exempt from total income, focusing intensely on agricultural income, its exact definition, and the critical rules for apportioning composite business and agricultural income (Rules 270 & 271). It covers the precise mathematical mechanism of partial integration of agricultural income for individuals and HUFs. Additionally, it highlights other exempt incomes like partner share from firms, MP/MLA allowances, and the strict disallowance of expenditure related to exempt income under Section 14.",
+  "oneword": [
+    {
+      "q": "What percentage of income from the sale of tea grown and manufactured in India is treated as agricultural income?",
+      "a": "60%"
+    },
+    {
+      "q": "What percentage of income from the sale of rubber products manufactured in India is treated as business income?",
+      "a": "35%"
+    },
+    {
+      "q": "Is the income from breeding livestock or dairy farming considered agricultural income?",
+      "a": "No"
+    },
+    {
+      "q": "Under which section are expenses related to earning exempt income disallowed?",
+      "a": "Section 14"
+    },
+    {
+      "q": "Does partial integration of agricultural income apply to a domestic company?",
+      "a": "No"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Explain the rules for treating agricultural land as 'Urban' based on aerial distance.",
+      "a": "Agricultural land is urban if it is outside municipal limits but within: 2 km if population is >10,000 up to 1,00,000; 6 km if population is >1,00,000 up to 10,00,000; 8 km if population is >10,00,000."
+    },
+    {
+      "q": "How is income apportioned when an assessee grows sugarcane and uses it to manufacture sugar in their own factory?",
+      "a": "Under Rule 270, the market value of the sugarcane used as raw material is allowed as a deduction to compute the business income from sugar manufacturing. That market value, minus the cost of cultivating the sugarcane, constitutes the exempt agricultural income."
+    },
+    {
+      "q": "What are the two conditions necessary for applying the partial integration of agricultural income?",
+      "a": "1) The net agricultural income must exceed ₹5,000 p.a., and 2) The non-agricultural income must exceed the basic exemption limit."
+    }
+  ],
+  "fill": [
+    {
+      "q": "Income from the sale of coffee grown, cured, roasted, and grounded in India is treated as ____% agricultural and ____% business income.",
+      "a": "60, 40"
+    },
+    {
+      "q": "If the Assessing Officer applies Section 14 to disallow indirect expenditure for exempt income, the indirect amount is calculated as ____% of the annual average of monthly investment balances.",
+      "a": "1"
+    },
+    {
+      "q": "A partner's share in the total profit of a firm is ____ from tax in the partner's hands.",
+      "a": "exempt"
+    }
+  ],
+  "match": [
+    {
+      "q": "Rubber (manufactured in India)",
+      "a": "65% Agri, 35% Business"
+    },
+    {
+      "q": "Coffee (grown and cured in India)",
+      "a": "75% Agri, 25% Business"
+    },
+    {
+      "q": "Coffee (grown, cured, roasted, grounded)",
+      "a": "60% Agri, 40% Business"
+    },
+    {
+      "q": "Tea (grown and manufactured in India)",
+      "a": "60% Agri, 40% Business"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Mr. Amar grows sugarcane and uses it to manufacture sugar. 40% of his sugarcane is sold directly for ₹12 lakhs (cost of cultivation ₹6 lakhs). The remaining 60% is used for sugar manufacturing (cost of cultivation ₹15 lakhs, market value ₹25 lakhs). After incurring ₹1.5 lakhs in manufacturing, the sugar was sold for ₹30 lakhs. Compute his business and agricultural income.",
+      "a": "1. Business Income from Sugar: Sale proceeds (₹30,00,000) - Market value of sugarcane used (₹25,00,000) - Manufacturing expenses (₹1,50,000) = ₹3,50,000.\n2. Agricultural Income from Sugar: Market value of sugarcane used (₹25,00,000) - Cost of cultivation (₹15,00,000) = ₹10,00,000.\n3. Agricultural Income from direct sale: Sale proceeds (₹12,00,000) - Cost of cultivation (₹6,00,000) = ₹6,00,000.\nTotal Business Income = ₹3,50,000. Total Agricultural Income = ₹16,00,000."
+    },
+    {
+      "q": "Mr. Nilesh manufactures rubber from latex obtained from plants grown by him in India. He sells the latex for ₹36 lakhs. The cost of growing the plants is ₹16 lakhs and manufacturing cost is ₹12 lakhs. Compute his total income.",
+      "a": "Total profit = ₹36 lakhs (sales) - ₹16 lakhs (growing cost) - ₹12 lakhs (manufacturing) = ₹8 lakhs.\nAccording to Rule 271, for rubber products manufactured from plants grown in India, income is apportioned as 65% agricultural and 35% business.\nAgricultural Income = 65% of ₹8 lakhs = ₹5.2 lakhs.\nBusiness Income = 35% of ₹8 lakhs = ₹2.8 lakhs."
+    },
+    {
+      "q": "Mr. X (aged 40) has a salary income of ₹11,50,000, house property income of ₹3,80,000, and net agricultural income of ₹2,90,000 (after deducting expenses). Compute his tax liability for T.Y. 2026-27 under the default tax regime.",
+      "a": "1. Non-agricultural income = ₹11,50,000 + ₹3,80,000 = ₹15,30,000.\n2. Since agricultural income (₹2,90,000) > ₹5,000 and non-agricultural income > ₹4,00,000, partial integration applies.\n3. Step 1 (Xn): Tax on Aggregate Income (₹15,30,000 + ₹2,90,000 = ₹18,20,000) under default regime. Tax = ₹1,64,000.\n4. Step 2 (Yn): Tax on (Agricultural Income ₹2,90,000 + Basic Exemption ₹4,00,000 = ₹6,90,000). Tax = ₹14,500.\n5. Step 3: Tax Chargeable = Xn - Yn = ₹1,64,000 - ₹14,500 = ₹1,49,500.\n6. Add Health and Education Cess @4% = ₹5,980.\n7. Total Tax Liability = ₹1,55,480."
+    }
+  ]
+}

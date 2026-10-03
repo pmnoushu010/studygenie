@@ -1,39 +1,62 @@
 Basic Concepts of Direct Tax Laws
 
 1. Overview of Income Tax Law in India
-The Constitution of India (Article 265) states that no tax shall be levied or collected except by authority of law. The power to levy direct taxes is given to the Central Government under Entry 82 of the Union List (Seventh Schedule to Article 246), which allows taxes on income other than agricultural income.
+The Constitution of India (Article 265) states that no tax shall be levied or collected except by authority of law. The power to levy direct taxes is given to the Central Government under Entry 82 of the Union List (Seventh Schedule to Article 246).
 
 2. Components of Income Tax Law
-- Income-tax Act: Currently, the Income-tax Act, 2025 governs the levy of income tax. It came into force on 1st April 2026.
-- Annual Finance Act: Passed every year in the Parliament's Budget Session, amending the Act and specifying the rates of tax.
-- Income-tax Rules: Framed by the CBDT for effective implementation.
-- Circulars/Notifications: Issued by CBDT/Central Government for guidance and clarification. Circulars bind the department, not the assessee.
-- Legal Decisions of Courts: Rulings by the Supreme Court and High Courts.
+- Income-tax Act, 2025: Governs the levy of income tax. Came into force on 1st April 2026.
+- Annual Finance Act: Passed every year, specifies the rates of tax.
+- Income-tax Rules, 2026: Framed by CBDT.
+- Circulars/Notifications: Issued by CBDT/Central Government. Circulars bind the department, not the assessee.
+- Legal Decisions of Courts.
 
 3. Charge of Income Tax (Section 4)
 Income-tax is charged at the rates specified for the tax year by the Finance Act or the Income-tax Act on the total income of every person.
 
 4. Important Definitions
 - Assessee: A person by whom any tax or any other sum is payable under the Act.
-- Person: Includes Individual, Hindu Undivided Family (HUF), Company, Firm (including LLP), Association of Persons (AOP) or Body of Individuals (BOI), Local Authority, and Artificial Juridical Person.
-- Income: An inclusive definition. Includes profits, dividends, voluntary contributions, perquisites, capital gains, winnings from lotteries, gifts, etc.
+- Person: Includes Individual, HUF, Company, Firm (including LLP), AOP, BOI, Local Authority, and Artificial Juridical Person.
 
 5. Capital vs Revenue Receipts
 - Income-tax is generally levied on revenue receipts, not capital receipts, unless specifically provided (e.g., capital gains).
-- Factors to distinguish: Fixed vs. circulating capital, motive of transaction, frequency, etc.
+- Compensation on termination of agency is a capital receipt but taxable under section 26(2)(b).
 
 6. Application vs Diversion of Income
-- Application of income: Using income to discharge an obligation after it reaches the assessee (taxable).
-- Diversion of income by overriding title: Income diverted at source before reaching the assessee under a legal or contractual obligation (not taxable for the assessee).
+- Application of income: Using income to discharge a self-imposed obligation (taxable).
+- Diversion of income by overriding title: Income diverted at source before reaching the assessee under a legal/contractual obligation (not taxable).
 
-7. Tax Year and Assessment Year
-- Tax Year: The period of 12 months commencing on 1st April. Income earned in a tax year is generally assessed in the next year.
-- Exceptions (Assessed in the same year): Shipping business of non-residents, persons leaving India, AOP/BOI formed for a particular event, persons likely to transfer property to avoid tax, discontinued business.
+7. Rates of Tax, Surcharge & Cess
+- Default tax regime (Section 202): 
+  - Upto ₹4,00,000: NIL
+  - ₹4,00,001 to ₹8,00,000: 5%
+  - ₹8,00,001 to ₹12,00,000: 10%
+  - ₹12,00,001 to ₹16,00,000: 15%
+  - ₹16,00,001 to ₹20,00,000: 20%
+  - ₹20,00,001 to ₹24,00,000: 25%
+  - Above ₹24,00,000: 30%
 
-8. Rates of Tax, Surcharge & Cess
-- Default tax regime: Offers concessional tax rates subject to foregoing certain exemptions and deductions. Rates range from NIL (up to ₹4,00,000) to 30% (above ₹24,00,000).
-- Optional tax regime: Higher basic exemption limits for senior citizens (₹3,00,000) and very senior citizens (₹5,00,000).
-- Surcharge: Levied when income exceeds specified thresholds (e.g., 10% above ₹50 lakhs, 15% above ₹1 crore).
-- Marginal Relief: Ensures the increase in tax + surcharge doesn't exceed the increase in income beyond the threshold.
+- Optional tax regime: 
+  - Basic exemption: ₹2,50,000 for normal individuals.
+  - Senior citizens (60-79 years): ₹3,00,000.
+  - Very senior citizens (80+ years): ₹5,00,000.
+
+- Surcharge for Individuals/HUF/AOP/BOI:
+  - 10% for income > ₹50 lakhs up to ₹1 crore.
+  - 15% for income > ₹1 crore up to ₹2 crores.
+  - 25% for income > ₹2 crores up to ₹5 crores.
+  - 37% for income > ₹5 crores.
+  - (Note: Surcharge on dividends and capital gains u/s 196, 197, 198 is capped at 15%).
+
+- Surcharge for Domestic Companies:
+  - 7% for income > ₹1 crore up to ₹10 crores.
+  - 12% for income > ₹10 crores.
+
+- Marginal Relief:
+  Marginal Relief = Total tax + surcharge on total income - (Tax on threshold limit + amount of income exceeding threshold).
+  Ensures the increase in tax doesn't exceed the increase in income beyond the threshold (e.g. ₹50L, ₹1Cr, ₹2Cr, ₹10Cr).
+
 - Health and Education Cess: 4% on income tax + surcharge.
-- Rebate u/s 156: Available to resident individuals if total income does not exceed ₹12,00,000 (default regime) or ₹5,00,000 (optional regime).
+
+- Rebate u/s 156: 
+  - Under Default Regime: Total income up to ₹12,00,000 gets rebate up to ₹60,000. Marginal rebate applies if income slightly exceeds ₹12,00,000.
+  - Under Optional Regime: Total income up to ₹5,00,000 gets rebate up to ₹12,500.
