@@ -1,0 +1,485 @@
+{
+  "summary": "This chapter covers Security Valuation for CA Final Advanced Financial Management (AFM). It encompasses return concepts (Required Rate of Return, Opportunity Cost, Single Equivalent Discount Rate, and Reinvestment Rate Paradox in IRR), Cost of Equity estimation via CAPM, and discount rate selection under nominal versus real cash flows. It details equity valuation models (Dividend-Based: Zero Growth, Gordon Constant Growth, Multi-Stage, and H-Model; Earning-Based: Gordon, Walter, and P/E Multiplier; Cash Flow-Based: FCFF and FCFE), Enterprise Value multiples, and Valuation of Rights issues. In fixed income, it analyzes bond valuation models, classical bond theorems, Macaulay Duration, Modified Duration/Volatility, Convexity, Portfolio Immunization, Term Structure theories, Convertible Bonds, and Strategic Bond Refunding capital budgeting decisions. Finally, it outlines Money Market instruments (T-Bills, CPs, CDs, and Repo mechanics) and the Model Code of Conduct for Registered Valuers under Companies Rules, 2017.",
+  "oneword": [
+    {
+      "q": "Why is the Macaulay Duration of a coupon-bearing bond always strictly less than its nominal term to maturity?\n(a) Because coupons are taxed at a higher rate\n(b) Because intermediate coupon cash flows allow the investor to recover a portion of the investment prior to maturity\n(c) Because bond prices are inversely related to interest rates\n(d) Because coupon payments increase default risk",
+      "a": "(b) Because intermediate coupon cash flows allow the investor to recover a portion of the investment prior to maturity"
+    },
+    {
+      "q": "Under Walter's Valuation Model, what is the optimal dividend payout ratio for a 'growth firm' where the internal return on investment (r) exceeds the capitalization rate (Ke)?\n(a) 100%\n(b) 50%\n(c) 0% (Zero Payout)\n(d) 33.33%",
+      "a": "(c) 0% (Zero Payout)"
+    },
+    {
+      "q": "A bond has a Macaulay Duration of 4.247 years and a Yield to Maturity (YTM) of 17% compounded annually. What is its Modified Duration (Volatility)?\n(a) 3.63%\n(b) 4.25%\n(c) 2.49%\n(d) 4.97%",
+      "a": "(a) 3.63%"
+    },
+    {
+      "q": "To immunize a bond portfolio against interest rate risk over a targeted investment horizon, which condition must be satisfied?\n(a) Maturity of the portfolio must equal the holding period\n(b) Duration of the portfolio must equal the holding period\n(c) Coupon rate must equal the yield to maturity\n(d) Portfolio must contain only zero coupon bonds",
+      "a": "(b) Duration of the portfolio must equal the holding period"
+    },
+    {
+      "q": "In the valuation of a Repurchase Agreement (Repo), what is the 'Dirty Price' of a bond?\n(a) The market price excluding brokerage expenses\n(b) The Clean Price plus Accrued Interest\n(c) The Clean Price minus Initial Margin\n(d) The redemption value at maturity",
+      "a": "(b) The Clean Price plus Accrued Interest"
+    },
+    {
+      "q": "When valuing equity shares using discounted cash flow models, why are cash flows and discount rates strictly expressed in NOMINAL terms rather than real terms?\n(a) Because inflation cannot be forecasted\n(b) Because corporate taxes and tax shields are legally assessed on nominal earnings\n(c) Because nominal rates are always higher than real rates\n(d) Because real cash flows ignore depreciation",
+      "a": "(b) Because corporate taxes and tax shields are legally assessed on nominal earnings"
+    },
+    {
+      "q": "Under Rule 12(e) of the Companies (Registered Valuers and Valuation) Rules, 2017, which of the following fee structures is STRICTLY PROHIBITED for an independent Registered Valuer?\n(a) Time-based hourly fee\n(b) Fixed lump-sum professional fee\n(c) Success Fee (contingent on valuation outcome or deal closure)\n(d) Retainer fee approved by the client",
+      "a": "(c) Success Fee (contingent on valuation outcome or deal closure)"
+    },
+    {
+      "q": "A 91-day Treasury Bill with face value of ₹ 100 is issued at ₹ 98.53. What is its annualized yield (taking 365 days in a year)?\n(a) 6.00%\n(b) 5.85%\n(c) 6.25%\n(d) 5.50%",
+      "a": "(a) 6.00%"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Why is the duration of a coupon-carrying bond always less than its time to maturity? Explain the relationship between Macaulay Duration and Modified Duration.",
+      "a": "1. Duration vs. Maturity:\nMacaulay Duration is the weighted-average time required for an investor to recover the true cost of a bond, where weights equal the present value of each cash flow divided by the bond price.\n• For a Zero-Coupon Bond, since no intermediate cash flows occur, Duration EQUALS Maturity ($D = n$).\n• For a Coupon-Bearing Bond, the receipt of periodic coupon payments prior to redemption recovers a portion of the invested capital early. Consequently, the weighted-average time of cash recovery is ALWAYS LESS than nominal maturity ($D < n$).\n• Higher coupon rates and higher yields accelerate cash recovery, shortening duration.\n\n2. Relationship with Modified Duration:\nModified Duration measures the percentage sensitivity of bond price to changes in market yields:\n$$\\text{Modified Duration} = \\frac{\\text{Macaulay Duration in years}}{1 + \\frac{\\text{YTM}}{m}}$$\n$$\\%\\Delta P \\approx - \\text{Modified Duration} \\times \\Delta y$$\nModified Duration quantifies interest rate risk (volatility), establishing that a 100 bps change in yield alters bond price by approximately the Modified Duration percentage."
+    },
+    {
+      "q": "Explain the concept of Bond Portfolio Immunization. How does matching portfolio duration with holding period neutralize interest rate risk?",
+      "a": "Bond Portfolio Immunization is an active risk-management strategy that ensures a bond portfolio achieves its target accumulated value at the end of a specific holding period, regardless of subsequent interest rate fluctuations.\n\n1. Two Opposing Risks in Bond Investing:\n• Price Risk: An increase in market yields causes bond prices to drop, resulting in capital loss.\n• Reinvestment Risk: An increase in market yields allows coupon cash flows to be reinvested at higher interest rates, increasing terminal wealth.\n\n2. Immunization Mechanism:\nBecause Price Risk and Reinvestment Risk move in opposite directions, matching the Macaulay Duration of the bond portfolio exactly to the investor's planned investment horizon ($D_{\\text{port}} = H$) ensures that any capital loss/gain from yield changes is precisely offset by the corresponding gain/loss from coupon reinvestment."
+    },
+    {
+      "q": "Explain Walter's Dividend Valuation Model. Discuss how the optimal dividend payout ratio depends on the relationship between return on investment (r) and the cost of capital (Ke).",
+      "a": "Prof. James E. Walter's model demonstrates that corporate dividend policy directly influences share valuation whenever the firm's internal rate of return on retained earnings ($r$) differs from its cost of capital ($K_e$):\n$$P = \\frac{D + \\frac{r}{K_e} (E - D)}{K_e}$$\n\nThree Firm Categories and Optimal Dividend Policies:\n1. Growth Firm ($r > K_e$):\nThe company can earn higher returns internally than shareholders can achieve independently. Retaining earnings maximizes share price. Optimal Payout Ratio = 0% (Nil Dividend).\n\n2. Declining Firm ($r < K_e$):\nThe company earns less on retained funds than shareholders' opportunity cost. Retaining earnings destroys shareholder wealth. Distributing all earnings maximizes value. Optimal Payout Ratio = 100%.\n\n3. Normal Firm ($r = K_e$):\nThe firm earns exactly what investors expect. Dividend payout has zero impact on share price. Optimal Payout Ratio = Indifferent (Any Payout)."
+    },
+    {
+      "q": "Differentiate between Free Cash Flow to Firm (FCFF) and Free Cash Flow to Equity (FCFE). Under what circumstances is FCFE preferred over the Dividend Discount Model (DDM)?",
+      "a": "1. Conceptual Differences:\n• FCFF (Free Cash Flow to Firm): Represents cash generated from operations available to ALL capital providers (debt holders, preference shareholders, equity owners) after taxes, working capital changes, and capital expenditures. Discounted at WACC ($K_o$) to determine Total Firm Enterprise Value.\n• FCFE (Free Cash Flow to Equity): Represents cash remaining strictly for equity shareholders after meeting operating expenses, debt service (interest and principal repayments/receipts), and net capital reinvestment. Discounted at Cost of Equity ($K_e$) to determine Equity Intrinsic Value.\n\n2. When FCFE is Preferred over DDM:\n• Discretionary Dividends: DDM measures only actual dividends paid. If a profitable company maintains a conservative payout and hoards cash, DDM severely underestimates intrinsic equity value.\n• M&A and Controlling Stakes: An acquiring entity can alter corporate dividend policy at will. Therefore, valuation must be based on FCFE—the total cash capacity available for distribution—rather than historical dividend streams."
+    },
+    {
+      "q": "Explain the mechanics of a Repurchase Agreement (Repo) and Reverse Repo transaction in the money market. Distinguish between Clean Price and Dirty Price.",
+      "a": "1. Mechanics of Repo / Reverse Repo:\nA Repo (Repurchase Agreement) is a secured short-term money market transaction where a borrower sells securities (usually Government Bonds) to a lender with a simultaneous agreement to repurchase them at a predetermined future date and price.\n• First Leg (Start Proceed): Lender advances cash equal to Bond Market Value (at Dirty Price) minus an Initial Margin (Haircut).\n• Second Leg (Repayment at Maturity): Borrower repays the borrowed funds plus interest accrued at the agreed Repo Rate: $\\text{Repayment} = \\text{Start Proceed} \\times [1 + \\text{Repo Rate} \\times (\\text{Days} / 360)]$.\n• Terminology: Viewed from the borrower's stance, it is a 'Repo' (cash borrowing); viewed from the lender's stance, it is a 'Reverse Repo' (cash lending).\n\n2. Clean Price vs. Dirty Price:\n• Clean Price: The quoted market price of a bond excluding accrued interest from the last coupon date.\n• Dirty Price (Invoice Price): The actual cash settlement price paid by the buyer, calculated as $\\text{Dirty Price} = \\text{Clean Price} + \\text{Accrued Interest}$."
+    },
+    {
+      "q": "Outline the key provisions of the Model Code of Conduct for Registered Valuers under Rule 12(e) of the Companies (Registered Valuers and Valuation) Rules, 2017.",
+      "a": "The Model Code of Conduct enforces rigorous professional and ethical governance for Registered Valuers:\n\n1. Integrity and Fairness:\nValuers must act with honesty, straightforwardness, and truthfulness, never misrepresenting facts or bringing disrepute to the valuation profession.\n\n2. Professional Competence & Due Care:\nValuers must exercise independent professional judgment, maintain technical knowledge, and adhere to prescribed valuation standards. They cannot disclaim liability for their own valuation models.\n\n3. Independence & Conflict of Interest:\n• Must refuse assignments where relatives or associates have financial interests.\n• Must not trade in securities of the subject company (SEBI Insider Trading compliance).\n• Must not indulge in 'mandate snatching' or 'convenience valuations'.\n• ABSOLUTE PROHIBITION ON SUCCESS FEES (fees contingent on deal outcome).\n\n4. Working Papers & Retention:\nMust document contemporaneous reasoning and preserve working papers for AT LEAST THREE (3) YEARS (or until conclusion of appellate proceedings)."
+    }
+  ],
+  "fill": [
+    {
+      "q": "In bond valuation, the Dirty Price equals Clean Price plus ____ interest.",
+      "a": "accrued"
+    },
+    {
+      "q": "For a zero-coupon bond, the Macaulay Duration is always equal to its ____.",
+      "a": "maturity"
+    },
+    {
+      "q": "In Walter's Model, when r > Ke, the optimal dividend payout ratio that maximizes share price is ____%.",
+      "a": "0"
+    },
+    {
+      "q": "The formula for Theoretical Ex-Rights Price (TERP) is (n × P0 + n1 × S) / (n + ____).",
+      "a": "n1"
+    },
+    {
+      "q": "Under the Companies Registered Valuers Rules 2017, valuers must preserve valuation working papers for a minimum period of ____ years.",
+      "a": "3"
+    }
+  ],
+  "match": [
+    {
+      "q": "Growth Firm (r > Ke)",
+      "a": "Optimal dividend payout is 0% to maximize share price"
+    },
+    {
+      "q": "Declining Firm (r < Ke)",
+      "a": "Optimal dividend payout is 100% to distribute all earnings"
+    },
+    {
+      "q": "Modified Duration",
+      "a": "Percentage change in bond price per unit change in yield"
+    },
+    {
+      "q": "Bond Immunization",
+      "a": "Portfolio duration matches investment holding period"
+    },
+    {
+      "q": "Commercial Paper (CP)",
+      "a": "Unsecured corporate promissory note (7 days to 1 year tenor)"
+    }
+  ],
+  "essay": [
+    {
+      "q": "ABC Ltd. has ₹ 300 million of 12% bonds outstanding with six years remaining to maturity. Because market interest rates are declining, ABC Ltd. is contemplating refunding these bonds with a fresh ₹ 300 million issue of 6-year bonds carrying a coupon rate of 10%.\nAdditional financial information:\n- Issue cost of the new bond will be ₹ 6 million.\n- Call premium on existing 12% bonds is 4%.\n- Unamortized portion of issue cost of old bonds is ₹ 9 million, which can be immediately written off for tax purposes upon redemption.\n- Marginal corporate tax rate of ABC Ltd. is 30%.\n- PVIFA at 7% for 6 years = 4.766.\n\nYou are required to analyze the bond refunding decision and advise ABC Ltd. whether the refunding proposal should be implemented.",
+      "a": "1. Calculation of Initial Net Cash Outlay at Inception (Year 0):\n(a) Cost of Calling Old 12% Bonds:\n• Face Value of Old Bonds = ₹ 300.00 Million\n• Add: Call Premium @ 4% = ₹ 12.00 Million\n• Total Cash Required to Call Old Bonds = ₹ 312.00 Million\n\n(b) Net Proceeds from New 10% Bond Issue:\n• Gross Proceeds of New Issue = ₹ 300.00 Million\n• Less: Issue Expenses of New Issue = ₹ 6.00 Million\n• Net Cash Proceeds Realized = ₹ 294.00 Million\n\n(c) Tax Shield on Call Premium and Unamortized Old Flotation Costs:\n• Call Premium deductible for tax = ₹ 12.00 Million\n• Immediate write-off of unamortized old issue costs = ₹ 9.00 Million\n• Total Tax-Deductible Outlay = ₹ 21.00 Million\n• Tax Savings @ 30% = ₹ 21.00 Million × 0.30 = ₹ 6.30 Million\n\n• Net Initial Cash Outlay = Cost of Calling (₹ 312M) - Net Proceeds (₹ 294M) - Tax Shield (₹ 6.30M) = ₹ 11.70 Million.\n\n2. Calculation of Annual Net Cash Inflows / Savings (Years 1 to 6):\n(a) Saving in Annual Interest Expense:\n• Old Annual Interest (12% on ₹ 300M) = ₹ 36.00 Million\n• New Annual Interest (10% on ₹ 300M) = ₹ 30.00 Million\n• Gross Annual Interest Saving = ₹ 6.00 Million\n\n(b) Tax Adjustments on Interest and Amortization:\n• Tax on Interest Saving (30% of ₹ 6M) = ₹ 1.80 Million\n• Annual amortization of new issue costs (₹ 6M / 6 yrs) = ₹ 1.00 Million -> Tax benefit = ₹ 0.30 Million\n• Foregone tax benefit on old issue cost amortization (₹ 9M / 6 yrs) = ₹ 1.50 Million -> Lost tax benefit = ₹ 0.45 Million\n• Net Tax on Interest and Amortization = ₹ 1.80M - ₹ 0.30M + ₹ 0.45M = ₹ 1.95 Million\n\n(c) Annual Net Cash Savings = Gross Interest Saving (₹ 6.00M) - Net Tax Adjustment (₹ 1.95M) = ₹ 4.05 Million p.a.\n\n3. Discount Rate & Net Present Value (NPV) Determination:\n• In debt refunding capital budgeting, cash flows are discounted at the AFTER-TAX COST OF NEW DEBT:\n  $$\\text{Discount Rate} = K_d(1 - T) = 10\\% \\times (1 - 0.30) = 7.00\\%$$\n• Present Value of Net Annual Cash Savings = ₹ 4.05 Million × PVIFA(7%, 6 years) = ₹ 4.05 Million × 4.766 = ₹ 19.3023 Million (₹ 19.30 Million).\n• Less: Net Initial Cash Outlay = ₹ 11.70 Million.\n• Net Present Value of Refunding = ₹ 19.30 Million - ₹ 11.70 Million = + ₹ 7.60 Million.\n\nRecommendation:\nSince the Net Present Value of the refunding decision is POSITIVE (+ ₹ 7.60 Million), ABC Ltd. is strongly advised to REFUND the existing 12% bonds and issue the new 10% bonds.",
+      "computation": {
+        "title": "Capital Budgeting Analysis for Bond Refunding Decision - ABC Ltd.",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Basis / Reference", "width": "22%" },
+          { "title": "Amount (₹ in Million)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [
+            { "text": "I. Initial Cash Outlay at Inception (Year 0)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Face Value of Old 12% Bonds" },
+            { "text": "Nominal Value", "align": "center" },
+            { "text": "300.00", "align": "right" }
+          ],
+          [
+            { "text": "Add: Call Premium on Old Bonds", "isItalicPrefix": true },
+            { "text": "4% of ₹300M", "align": "center" },
+            { "text": "12.00", "align": "right" }
+          ],
+          [
+            { "text": "Total Cash Required to Call Old Bonds", "isHeading": true },
+            { "text": "Redemption Outflow", "align": "center" },
+            { "text": "312.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Less: Gross Proceeds of New 10% Bond Issue", "isItalicPrefix": true },
+            { "text": "Par Value ₹300M", "align": "center" },
+            { "text": "- 300.00", "align": "right" }
+          ],
+          [
+            { "text": "Add: Issue Costs of New Bond Issue", "isItalicPrefix": true },
+            { "text": "Underwriting & Legal", "align": "center" },
+            { "text": "6.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Tax Savings on Call Premium & Unamortized Cost", "isItalicPrefix": true },
+            { "text": "(₹12M + ₹9M) × 30%", "align": "center" },
+            { "text": "- 6.30", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Initial Cash Outflow (Outlay)", "isHeading": true },
+            { "text": "₹312M - ₹294M - ₹6.3M", "align": "center" },
+            { "text": "11.70", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "II. Annual Recurring Cash Savings (Years 1 to 6)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Gross Annual Interest Savings" },
+            { "text": "₹300M × (12% - 10%)", "align": "center" },
+            { "text": "6.00", "align": "right" }
+          ],
+          [
+            { "text": "Less: Tax on Interest & Amortization Difference", "isItalicPrefix": true },
+            { "text": "0.30 × [6 + (9-6)/6]", "align": "center" },
+            { "text": "- 1.95", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Annual Net Cash Savings After Tax", "isHeading": true },
+            { "text": "Per annum for 6 yrs", "align": "center" },
+            { "text": "4.05", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "III. Net Present Value (NPV) Determination", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Present Value of Annual Cash Savings" },
+            { "text": "₹4.05M × PVIFA(7%, 6)", "align": "center" },
+            { "text": "19.30", "align": "right" }
+          ],
+          [
+            { "text": "Less: Net Initial Cash Outlay", "isItalicPrefix": true },
+            { "text": "Year 0 Outflow", "align": "center" },
+            { "text": "- 11.70", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Present Value (NPV) of Refunding", "isHeading": true },
+            { "text": "DECISION: REFUND BONDS", "align": "center" },
+            { "text": "+ 7.60", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Cash flows are discounted at the after-tax cost of new debt [10% × (1 - 0.30) = 7%] because debt interest savings are contractually safe cash flows.",
+          "Since NPV is positive (+₹ 7.60 Million), the bond refunding operation enhances firm value."
+        ]
+      }
+    },
+    {
+      "q": "The following market data are available for a corporate bond:\n- Face Value: ₹ 1,000\n- Coupon Rate: 16% payable annually\n- Years to Maturity: 6 years\n- Redemption Value: ₹ 1,000 at par\n- Current Yield to Maturity (YTM): 17%\n\nDiscount factors at 17%:\n- Year 1 = 0.855; Year 2 = 0.731; Year 3 = 0.624; Year 4 = 0.534; Year 5 = 0.456; Year 6 = 0.390\n- PVIFA (17%, 6 years) = 3.589\n\nYou are required to:\n(i) Calculate the current market price of the bond.\n(ii) Compute the Macaulay Duration of the bond.\n(iii) Calculate the Volatility (Modified Duration) of the bond.\n(iv) Estimate the expected market price of the bond if the required yield increases by 75 basis points.",
+      "a": "1. Current Market Price of the Bond:\nAnnual Coupon Interest ($I$) = ₹ 1,000 × 16% = ₹ 160.\n$$\\text{Market Price } (P_0) = I \\times \\text{PVIFA}(17\\%, 6) + F \\times \\text{PVIF}(17\\%, 6)$$\n$$P_0 = ₹ 160 \\times 3.589 + ₹ 1,000 \\times 0.390 = ₹ 574.24 + ₹ 390.00 = ₹ 964.24$$\n(Using detailed tabular cash flow discounting: Total PV = ₹ 964.40).\n\n2. Macaulay Duration Computation:\n$$\\text{Macaulay Duration } (D) = \\frac{\\sum_{t=1}^n t \\times \\text{PV of } \\text{CF}_t}{P_0} = \\sum_{t=1}^n [t \\times \\text{Proportion of Bond Value}]$$\n• Year 1: ₹ 160 × 0.855 = ₹ 136.80; Proportion = 0.142; Weight × Time = 0.142\n• Year 2: ₹ 160 × 0.731 = ₹ 116.96; Proportion = 0.121; Weight × Time = 0.246\n• Year 3: ₹ 160 × 0.624 = ₹ 99.84; Proportion = 0.103; Weight × Time = 0.309\n• Year 4: ₹ 160 × 0.534 = ₹ 85.44; Proportion = 0.089; Weight × Time = 0.356\n• Year 5: ₹ 160 × 0.456 = ₹ 72.96; Proportion = 0.076; Weight × Time = 0.380\n• Year 6: ₹ 1,160 × 0.390 = ₹ 452.40; Proportion = 0.469; Weight × Time = 2.814\n• Total Macaulay Duration = 4.247 Years.\n\n3. Volatility / Modified Duration:\n$$\\text{Modified Duration } (D^*) = \\frac{\\text{Macaulay Duration}}{1 + \\text{YTM}} = \\frac{4.247}{1 + 0.17} = \\frac{4.247}{1.17} = 3.63\\%$$\n\n4. Price Impact of 75 Basis Points Increase in Yield (Δy = +0.75%):\n• Percentage Price Decline = $- \\text{Modified Duration} \\times \\Delta y = - 3.63 \\times 0.75\\% = - 2.7225\\%$\n• Amount of Price Drop = $₹ 964.40 \\times 0.75 \\times (3.63 / 100) = ₹ 26.26$\n• Expected New Market Price = $₹ 964.40 - ₹ 26.26 = ₹ 938.14$\n(Using ₹ 960.26 standard reference: Expected price = ₹ 934.12).",
+      "computation": {
+        "title": "Computation of Market Price, Macaulay Duration, and Volatility of 16% 6-Year Bond",
+        "headers": [
+          { "title": "Year (t)", "width": "10%" },
+          { "title": "Cash Flow (₹)", "width": "18%" },
+          { "title": "PV Factor @ 17%", "width": "18%" },
+          { "title": "Present Value (₹)", "width": "18%" },
+          { "title": "Proportion (w)", "width": "18%" },
+          { "title": "Time × Weight (w × t)", "width": "18%" }
+        ],
+        "columnWidths": ["10%", "18%", "18%", "18%", "18%", "18%"],
+        "rows": [
+          [
+            { "text": "1", "align": "center" },
+            { "text": "160.00", "align": "right" },
+            { "text": "0.855", "align": "center" },
+            { "text": "136.80", "align": "right" },
+            { "text": "0.142", "align": "right" },
+            { "text": "0.142", "align": "right" }
+          ],
+          [
+            { "text": "2", "align": "center" },
+            { "text": "160.00", "align": "right" },
+            { "text": "0.731", "align": "center" },
+            { "text": "116.96", "align": "right" },
+            { "text": "0.121", "align": "right" },
+            { "text": "0.246", "align": "right" }
+          ],
+          [
+            { "text": "3", "align": "center" },
+            { "text": "160.00", "align": "right" },
+            { "text": "0.624", "align": "center" },
+            { "text": "99.84", "align": "right" },
+            { "text": "0.103", "align": "right" },
+            { "text": "0.309", "align": "right" }
+          ],
+          [
+            { "text": "4", "align": "center" },
+            { "text": "160.00", "align": "right" },
+            { "text": "0.534", "align": "center" },
+            { "text": "85.44", "align": "right" },
+            { "text": "0.089", "align": "right" },
+            { "text": "0.356", "align": "right" }
+          ],
+          [
+            { "text": "5", "align": "center" },
+            { "text": "160.00", "align": "right" },
+            { "text": "0.456", "align": "center" },
+            { "text": "72.96", "align": "right" },
+            { "text": "0.076", "align": "right" },
+            { "text": "0.380", "align": "right" }
+          ],
+          [
+            { "text": "6", "align": "center" },
+            { "text": "1,160.00", "align": "right" },
+            { "text": "0.390", "align": "center" },
+            { "text": "452.40", "align": "right", "borderBottom": true },
+            { "text": "0.469", "align": "right", "borderBottom": true },
+            { "text": "2.814", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Market Price (P0)", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "964.40", "align": "right", "isBoxed": true },
+            { "text": "1.000", "align": "right" },
+            { "text": "4.247 yrs", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Modified Duration (Volatility)", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "4.247 / (1 + 0.17)", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "3.630%", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Price Drop on +75 bps Yield Shift", "isItalicPrefix": true, "colSpan": 3 },
+            "", "",
+            { "text": "₹964.40 × 0.75 × 3.63%", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "- 26.26", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Expected Bond Market Price", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "₹964.40 - ₹26.26", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "938.14", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Macaulay Duration (4.247 years) is less than the 6-year maturity because interim coupon cash flows recover capital before maturity.",
+          "Volatility of 3.63% indicates that for every 100 bps rise in interest rate, the bond price declines by 3.63%."
+        ]
+      }
+    },
+    {
+      "q": "From the following financial and capital structure information of Omega Technologies Ltd., calculate the intrinsic value of its equity share using the Free Cash Flow to Equity (FCFE) Multistage Growth Model:\n- Profit After Tax (PAT) of the company: ₹ 290 Crores\n- Equity Share Capital: ₹ 1,300 Crores\n- Par Value per Share: ₹ 40 each\n- Target Debt Ratio [Debt / (Debt + Equity)]: 27%\n- Capital Expenditure per Share: ₹ 47.00\n- Depreciation per Share: ₹ 39.00\n- Change in Working Capital per Share: ₹ 3.45\n- Beta of the Share: 0.10\n- Risk-Free Interest Rate: 8.70%\n- Expected Return on Market Portfolio: 10.30%\n- Long-Run Perpetual Growth Rate (g): 8.00%",
+      "a": "1. Number of Equity Shares and Earnings Per Share (EPS):\n$$\\text{Number of Equity Shares} = \\frac{\\text{Equity Share Capital}}{\\text{Par Value per Share}} = \\frac{₹ 1,300 \\text{ Crores}}{₹ 40} = 32.50 \\text{ Crores}$$\n$$\\text{Current EPS} = \\frac{\\text{Profit After Tax}}{\\text{Number of Shares}} = \\frac{₹ 290 \\text{ Crores}}{32.50 \\text{ Crores}} = ₹ 8.923 \\text{ per share}$$\n\n2. Cost of Equity (Ke) Estimation via CAPM:\n$$K_e = R_f + \\beta \\times (R_m - R_f)$$\n$$K_e = 8.70\\% + 0.10 \\times (10.30\\% - 8.70\\%) = 8.70\\% + 0.10 \\times 1.60\\% = 8.70\\% + 0.16\\% = 8.86\\%$$\n\n3. Computation of Free Cash Flow to Equity (FCFE) per Share:\nUnder the target debt-financing assumption, the equity portion of incremental investments is $(1 - \\text{Debt Ratio}) = (1 - 0.27) = 0.73$ (73%):\n$$\\text{FCFE} = \\text{EPS} - [(1 - \\text{DR}) \\times (\\text{CAPEX} - \\text{Depreciation}) + (1 - \\text{DR}) \\times \\Delta\\text{WC}]$$\n$$\\text{Equity Net Capital Outlay} = 0.73 \\times (₹ 47.00 - ₹ 39.00) = 0.73 \\times ₹ 8.00 = ₹ 5.84$$\n$$\\text{Equity Working Capital Outlay} = 0.73 \\times ₹ 3.45 = ₹ 2.5185$$\n$$\\text{Total Equity Reinvestment} = ₹ 5.84 + ₹ 2.5185 = ₹ 8.3585$$\n$$\\text{Current FCFE per Share } (\\text{FCFE}_0) = ₹ 8.923 - ₹ 8.3585 = ₹ 0.5645$$\n\n4. Intrinsic Value per Equity Share (P0):\nWith perpetual constant growth rate $g = 8.00\\%$ and $K_e = 8.86\\%$:\n$$\\text{Expected FCFE for Next Year } (\\text{FCFE}_1) = \\text{FCFE}_0 \\times (1 + g) = ₹ 0.5645 \\times 1.08 = ₹ 0.60966$$\n$$\\text{Intrinsic Value } (P_0) = \\frac{\\text{FCFE}_1}{K_e - g} = \\frac{0.60966}{0.0886 - 0.0800} = \\frac{0.60966}{0.0086} = ₹ 70.89$$\n\nConclusion:\nThe fundamental intrinsic value of an equity share of Omega Technologies Ltd. is ₹ 70.89.",
+      "computation": {
+        "title": "Valuation of Equity Shares using Free Cash Flow to Equity (FCFE) - Omega Technologies Ltd.",
+        "headers": [
+          { "title": "Valuation Step / Particulars", "width": "50%" },
+          { "title": "Mathematical Derivation", "width": "26%" },
+          { "title": "Amount per Share (₹)", "width": "24%" }
+        ],
+        "columnWidths": ["50%", "26%", "24%"],
+        "rows": [
+          [
+            { "text": "I. Earnings and Cost of Equity Base", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Number of Equity Shares Outstanding" },
+            { "text": "₹1,300 Cr / ₹40", "align": "center" },
+            { "text": "32.50 Crores", "align": "right" }
+          ],
+          [
+            { "text": "Current Earnings per Share (EPS)" },
+            { "text": "₹290 Cr / 32.50 Cr", "align": "center" },
+            { "text": "8.923", "align": "right" }
+          ],
+          [
+            { "text": "Cost of Equity (Ke) via CAPM", "isHeading": true },
+            { "text": "8.7% + 0.10 × (10.3% - 8.7%)", "align": "center" },
+            { "text": "8.86%", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Target Debt Financing Ratio (DR)" },
+            { "text": "Debt / (Debt + Equity)", "align": "center" },
+            { "text": "27.00%", "align": "right" }
+          ],
+          [
+            { "text": "Target Equity Financing Proportion (1 - DR)" },
+            { "text": "1.00 - 0.27", "align": "center" },
+            { "text": "73.00%", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Derivation of Free Cash Flow to Equity (FCFE)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Current Earnings Per Share (EPS)" },
+            { "text": "Base Profit", "align": "center" },
+            { "text": "8.923", "align": "right" }
+          ],
+          [
+            { "text": "Less: Equity Share of Net Capex", "isItalicPrefix": true },
+            { "text": "(₹47 - ₹39) × 73%", "align": "center" },
+            { "text": "- 5.840", "align": "right" }
+          ],
+          [
+            { "text": "Less: Equity Share of Working Capital Increase", "isItalicPrefix": true },
+            { "text": "₹3.45 × 73%", "align": "center" },
+            { "text": "- 2.519", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Current Free Cash Flow to Equity (FCFE0)", "isHeading": true },
+            { "text": "₹8.923 - ₹8.359", "align": "center" },
+            { "text": "0.5645", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Projected Next Year FCFE (FCFE1 = FCFE0 × 1.08)" },
+            { "text": "0.5645 × 1.08", "align": "center" },
+            { "text": "0.6097", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "III. Intrinsic Equity Valuation", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Capitalization Spread (Ke - g)" },
+            { "text": "8.86% - 8.00%", "align": "center" },
+            { "text": "0.86% (0.0086)", "align": "right" }
+          ],
+          [
+            { "text": "Intrinsic Value per Equity Share (P0)", "isHeading": true },
+            { "text": "FCFE1 / (Ke - g)", "align": "center" },
+            { "text": "70.89", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "FCFE reflects the actual cash generating capacity available to equity shareholders after retaining adequate funds for capex and working capital to support the 8% growth rate.",
+          "Debt financing covers 27% of new capital expenditure and working capital requirements, leaving 73% to be funded from internal equity."
+        ]
+      }
+    },
+    {
+      "q": "ABC Limited's shares are currently selling at ₹ 13 per share on the stock exchange. There are 10,00,000 shares outstanding. The firm is planning to raise ₹ 20 Lakhs to finance a new capital expansion project via a Rights Issue.\n\nYou are required to calculate the Theoretical Ex-Right Price (TERP) and the Value of a Right under two alternative issue schemes:\n(i) Scheme A: The firm offers one right share for every two shares held.\n(ii) Scheme B: The firm offers one right share for every four shares held.\n(iii) Analyze how the net wealth of an existing shareholder holding 100 shares changes from Scheme A to Scheme B, and explain whether a rights issue increases shareholder wealth.",
+      "a": "1. Scheme A (1 Right Share for every 2 Shares Held):\n• Existing Shares = 10,00,000 shares\n• Number of Right Shares Offered ($n_1$) = 10,00,000 / 2 = 5,00,000 shares\n• Subscription Price ($S$) = $\\frac{\\text{Total Funds to Raise}}{\\text{Number of Right Shares}} = \\frac{₹ 20,00,000}{5,00,000} = ₹ 4.00$ per share\n• Theoretical Ex-Rights Price (TERP):\n  $$\\text{TERP} = \\frac{n \\times P_0 + n_1 \\times S}{n + n_1} = \\frac{10,00,000 \\times 13 + 5,00,000 \\times 4}{10,00,000 + 5,00,000} = \\frac{1,30,00,000 + 20,00,000}{15,00,000} = \\frac{₹ 1,50,00,000}{15,00,000} = ₹ 10.00$$\n• Value of a Right (per right share) = $\\text{TERP} - S = ₹ 10.00 - ₹ 4.00 = ₹ 6.00$\n• Value of Right per Existing Share = $\\frac{₹ 10.00 - ₹ 4.00}{2} = ₹ 3.00$\n\n2. Scheme B (1 Right Share for every 4 Shares Held):\n• Number of Right Shares Offered ($n_1$) = 10,00,000 / 4 = 2,50,000 shares\n• Subscription Price ($S$) = $\\frac{₹ 20,00,000}{2,50,000} = ₹ 8.00$ per share\n• Theoretical Ex-Rights Price (TERP):\n  $$\\text{TERP} = \\frac{10,00,000 \\times 13 + 2,50,000 \\times 8}{10,00,000 + 2,50,000} = \\frac{1,30,00,000 + 20,00,000}{12,50,000} = \\frac{₹ 1,50,00,000}{12,50,000} = ₹ 12.00$$\n• Value of a Right (per right share) = $\\text{TERP} - S = ₹ 12.00 - ₹ 8.00 = ₹ 4.00$\n• Value of Right per Existing Share = $\\frac{₹ 12.00 - ₹ 8.00}{4} = ₹ 1.00$\n\n3. Analysis of Shareholder Wealth (Holding 100 Shares):\n• Wealth Prior to Rights Issue = 100 shares × ₹ 13.00 = ₹ 1,300.00\n\n(a) Under Scheme A (1 for 2):\n• Shareholder receives 50 rights shares and subscribes @ ₹ 4.00 = Cash Outflow of ₹ 200.00\n• Total shareholding becomes 150 shares valued @ ₹ 10.00 = ₹ 1,500.00\n• Net Wealth = Post-issue value (₹ 1,500.00) - Additional investment (₹ 200.00) = ₹ 1,300.00\n\n(b) Under Scheme B (1 for 4):\n• Shareholder receives 25 rights shares and subscribes @ ₹ 8.00 = Cash Outflow of ₹ 200.00\n• Total shareholding becomes 125 shares valued @ ₹ 12.00 = ₹ 1,500.00\n• Net Wealth = Post-issue value (₹ 1,500.00) - Additional investment (₹ 200.00) = ₹ 1,300.00\n\nConclusion on Shareholder Wealth:\nA rights issue in itself DOES NOT increase or decrease shareholder wealth; it is strictly wealth-neutral. The apparent discount on right shares is precisely offset by the dilution in the market price of existing shares.",
+      "computation": {
+        "title": "Valuation of Rights Issue and Shareholder Wealth Invariance - ABC Limited",
+        "headers": [
+          { "title": "Particulars", "width": "42%" },
+          { "title": "Scheme A (1 for 2)", "width": "29%" },
+          { "title": "Scheme B (1 for 4)", "width": "29%" }
+        ],
+        "columnWidths": ["42%", "29%", "29%"],
+        "rows": [
+          [
+            { "text": "I. Rights Issue Offering Terms", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Capital Required to be Raised" },
+            { "text": "₹ 20,00,000", "align": "center" },
+            { "text": "₹ 20,00,000", "align": "center" }
+          ],
+          [
+            { "text": "Number of New Right Shares Offered" },
+            { "text": "5,00,000 shares", "align": "center" },
+            { "text": "2,50,000 shares", "align": "center" }
+          ],
+          [
+            { "text": "Subscription Price per Right Share (S)", "isHeading": true },
+            { "text": "₹ 4.00", "align": "center", "isBoxed": true },
+            { "text": "₹ 8.00", "align": "center", "isBoxed": true }
+          ],
+          [
+            { "text": "Total Post-Issue Shares Outstanding" },
+            { "text": "15,00,000 shares", "align": "center" },
+            { "text": "12,50,000 shares", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Ex-Rights Valuation and Value of Right", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Aggregate Market Value of Firm" },
+            { "text": "₹ 1,50,00,000", "align": "center" },
+            { "text": "₹ 1,50,00,000", "align": "center" }
+          ],
+          [
+            { "text": "Theoretical Ex-Rights Price (TERP)", "isHeading": true },
+            { "text": "₹ 10.00", "align": "right", "isBoxed": true },
+            { "text": "₹ 12.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Value of a Right per Right Share (TERP - S)" },
+            { "text": "₹ 6.00", "align": "right" },
+            { "text": "₹ 4.00", "align": "right" }
+          ],
+          [
+            { "text": "Value of Right per Existing Share" },
+            { "text": "₹ 3.00", "align": "right", "borderBottom": true },
+            { "text": "₹ 1.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "III. Shareholder Wealth Verification (100 Shares)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Initial Wealth Before Rights Issue" },
+            { "text": "₹ 1,300.00", "align": "center" },
+            { "text": "₹ 1,300.00", "align": "center" }
+          ],
+          [
+            { "text": "Value of Holding Post-Rights Issue" },
+            { "text": "150 × ₹10 = ₹1,500", "align": "center" },
+            { "text": "125 × ₹12 = ₹1,500", "align": "center" }
+          ],
+          [
+            { "text": "Less: Subscription Cash Paid", "isItalicPrefix": true },
+            { "text": "50 × ₹4 = - ₹200", "align": "center" },
+            { "text": "25 × ₹8 = - ₹200", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Post-Rights Shareholder Wealth", "isHeading": true },
+            { "text": "₹ 1,300.00", "align": "right", "isDoubleBottom": true },
+            { "text": "₹ 1,300.00", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Whether rights are offered as 1 for 2 @ ₹4 or 1 for 4 @ ₹8, total proceeds raised equal ₹20 Lakhs.",
+          "Net shareholder wealth remains completely invariant at ₹1,300 in both options, validating the wealth neutrality theorem of rights issues."
+        ]
+      }
+    }
+  ]
+}

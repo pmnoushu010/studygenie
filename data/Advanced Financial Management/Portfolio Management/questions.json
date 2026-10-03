@@ -1,0 +1,433 @@
+{
+  "summary": "This chapter covers Portfolio Management for CA Final Advanced Financial Management (AFM). It encompasses portfolio activities, the market emotions cycle, traditional versus modern portfolio theories, and the decomposition of risk into systematic and unsystematic components. It explores Harry Markowitz's Mean-Variance Optimization, the Efficient Frontier, Capital Market Theory (CML), and William Sharpe's Single Index Model. Furthermore, it details the Capital Asset Pricing Model (CAPM), Security Market Line (SML), Arbitrage Pricing Theory (APT), portfolio evaluation ratios (Sharpe, Treynor, and Jensen's Alpha), Sharpe's Cutoff Optimization (C*), portfolio rebalancing policies (Buy & Hold, Constant Mix, and CPPI), fixed income yield curve strategies, and alternative investment avenues (Real Estate, Gold, and Distressed Securities).",
+  "oneword": [
+    {
+      "q": "In the Market Emotions Cycle of investor psychology, at which emotional stage does the 'Point of Maximum Financial Risk' occur?\n(a) Hope\n(b) Euphoria\n(c) Despondency\n(d) Capitulation",
+      "a": "(b) Euphoria"
+    },
+    {
+      "q": "Under Markowitz Modern Portfolio Theory, if two securities have a correlation coefficient of exactly -1.0 (perfect negative correlation), what proportion of portfolio risk can theoretically be eliminated?\n(a) No risk can be eliminated\n(b) Only 50% of the risk can be eliminated\n(c) Total portfolio risk can be reduced completely to ZERO\n(d) Only systematic risk is eliminated",
+      "a": "(c) Total portfolio risk can be reduced completely to ZERO"
+    },
+    {
+      "q": "In Sharpe's Single Index Model, what does the 'Residual Variance' (σεi²) represent for an individual security?\n(a) Market-wide systematic risk\n(b) Unsystematic, company-specific unique risk\n(c) Covariance with the market portfolio\n(d) Expected dividend yield",
+      "a": "(b) Unsystematic, company-specific unique risk"
+    },
+    {
+      "q": "Which portfolio evaluation measure assesses excess return generated per unit of SYSTEMATIC RISK (Beta) and is most appropriate for well-diversified equity portfolios?\n(a) Sharpe Ratio\n(b) Treynor Ratio\n(c) Sortino Ratio\n(d) Jensen's Alpha",
+      "a": "(b) Treynor Ratio"
+    },
+    {
+      "q": "What is the characteristic shape of the pay-off line for the Constant Proportion Portfolio Insurance (CPPI) rebalancing policy?\n(a) Straight line\n(b) Concave curve\n(c) Convex curve\n(d) Horizontal step function",
+      "a": "(c) Convex curve"
+    },
+    {
+      "q": "In Sharpe's Optimal Portfolio selection algorithm, on what basis are candidate securities initially ranked in descending order before computing the cutoff rate (C*)?\n(a) Historical dividend yield\n(b) Excess return to Beta ratio [(Ri - Rf) / βi]\n(c) Total standard deviation (σi)\n(d) Market capitalization",
+      "a": "(b) Excess return to Beta ratio [(Ri - Rf) / βi]"
+    },
+    {
+      "q": "A portfolio has an expected return of 18%, Beta of 1.25, and standard deviation of 10%. If the risk-free rate is 6% and market return is 14%, what is the Jensen's Alpha of the portfolio?\n(a) + 2.00%\n(b) + 3.00%\n(c) - 1.50%\n(d) + 1.25%",
+      "a": "(a) + 2.00%"
+    },
+    {
+      "q": "Which active fixed income portfolio strategy involves investing equal proportions of funds strictly in very short-term and very long-term bonds, completely bypassing intermediate maturities?\n(a) Bullet Strategy\n(b) Ladder Strategy\n(c) Barbell Strategy\n(d) Substitution Swap",
+      "a": "(c) Barbell Strategy"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Contrast the Traditional Approach to portfolio management with Harry Markowitz's Modern Portfolio Theory (Mean-Variance Analysis).",
+      "a": "1. Traditional Approach:\n• Focuses primarily on individual investor profiles (age, health, liquidity needs, tax brackets) and selects securities based on subjective rules of thumb ('do not put all eggs in one basket').\n• Relies on fundamental analysis of balance sheets, dividend stability, management reputation, and stockbroker/newspaper tips.\n• Emphasizes qualitative diversification across industries without quantifying the mathematical correlations between asset returns.\n\n2. Modern Portfolio Theory (Harry Markowitz - 1952):\n• Mathematically proved that the risk of an individual asset in isolation is irrelevant; what matters is the asset's marginal contribution to TOTAL PORTFOLIO RISK.\n• Total portfolio risk is governed by the COVARIANCE and CORRELATION between constituent securities.\n• Combines assets with low or negative correlation to achieve optimal diversification—reducing portfolio variance without sacrificing expected portfolio return."
+    },
+    {
+      "q": "Explain the Constant Proportion Portfolio Insurance (CPPI) policy. Outline its target equity equation, operational trading rules, and why its pay-off line is convex.",
+      "a": "1. Target Equity Equation:\nUnder CPPI, the portfolio manager establishes a minimum acceptable floor value below which the portfolio value should not drop under normal market conditions:\n$$\\text{Target Equity Investment} = m \\times (\\text{Portfolio Value} - \\text{Floor Value})$$\nWhere $(V - F)$ is the 'Cushion' and $m > 1$ is the fixed Multiplier.\n\n2. Operational Rules:\n• As equity markets rise: Portfolio value and cushion expand, requiring the manager to purchase more equities by selling bonds.\n• As equity markets fall: Cushion shrinks, requiring the manager to sell equities and allocate proceeds to safe debt/cash.\n\n3. Convex Pay-off Nature:\nCPPI is a momentum strategy ('buy as prices rise, sell as prices fall'). This dynamic creates a CONVEX pay-off structure: it provides solid downside capital protection in bear markets (equity exposure approaches zero near the floor) and captures unlimited upside during sustained bull runs, though it underperforms in volatile, choppy (whipsaw) markets."
+    },
+    {
+      "q": "Distinguish between the Capital Market Line (CML) and the Security Market Line (SML) across: (a) Risk Measure, (b) Applicability, and (c) Pricing of Individual Securities.",
+      "a": "Comparison between CML and SML:\n\n1. Measure of Risk:\n• CML (Capital Market Line): Measures risk using TOTAL RISK, represented by the Standard Deviation of returns (σp).\n• SML (Security Market Line): Measures risk using SYSTEMATIC (Market) RISK, represented by the Beta coefficient (β).\n\n2. Scope of Applicability:\n• CML: Applies strictly and exclusively to EFFICIENT PORTFOLIOS formed by combining the risk-free asset with the market portfolio.\n• SML: Applies to ALL financial assets—individual securities, inefficient portfolios, and efficient portfolios alike.\n\n3. Pricing of Individual Securities:\n• CML: CANNOT be used to price individual securities because individual securities contain diversifiable unsystematic risk not compensated by the market.\n• SML: Specifically used to determine the required rate of return and fair intrinsic price of any individual security based on its systematic market exposure."
+    },
+    {
+      "q": "Compare Sharpe Ratio, Treynor Ratio, and Jensen's Alpha as portfolio evaluation tools. When should each measure be preferred?",
+      "a": "1. Performance Metrics:\n• Sharpe Ratio ($S = \\frac{R_p - R_f}{\\sigma_p}$): Measures excess return per unit of TOTAL RISK (Standard Deviation). Best suited for assessing non-diversified portfolios, sector funds, or when the portfolio represents the investor's entire wealth.\n• Treynor Ratio ($T = \\frac{R_p - R_f}{\\beta_p}$): Measures excess return per unit of SYSTEMATIC RISK (Beta). Appropriate for evaluating well-diversified equity portfolios or mutual funds where unsystematic risk has been eliminated.\n• Jensen's Alpha ($\\alpha_p = R_p - [R_f + \\beta_p(R_m - R_f)]$): Measures the absolute abnormal return generated over and above the CAPM benchmark. Quantifies fund manager stock selection skill.\n\n2. Practical Decision Rule:\nIf a fund is well-diversified, Sharpe and Treynor rankings generally coincide. If a fund holds concentrated sector bets, the Sharpe ratio penalizes the uncompensated residual risk, making it a more prudent evaluation metric."
+    },
+    {
+      "q": "Explain the three active yield curve strategies in Fixed Income Portfolio Management: Bullet, Barbell, and Ladder strategies.",
+      "a": "Active bond portfolio managers structure maturity distributions based on interest rate and yield curve expectations:\n\n1. Bullet Strategy:\nConcentrates the entire bond portfolio within a SINGLE MATURITY segment (e.g., 100% invested in 5-year bonds). Highly effective when the manager forecasts a specific shift in a targeted maturity tenor or has a discrete single-point liability.\n\n2. Barbell Strategy:\nInvests equally in EXTREME MATURITIES—allocating funds between very short-term bonds (e.g., 1-year) and long-term bonds (e.g., 10-year), completely avoiding intermediate maturities. Provides liquidity and reinvestment flexibility from the short end while securing high yield and duration convexity from the long end.\n\n3. Ladder Strategy:\nSpreads portfolio funds EQUALLY across consecutive maturity intervals (e.g., 20% each in 1-year, 2-year, 3-year, 4-year, and 5-year bonds). As shorter bonds mature each year, proceeds are automatically rolled into the longest ladder rung, providing a steady cash flow stream and insulating the portfolio from interest rate timing errors."
+    },
+    {
+      "q": "Describe the four valuation approaches employed in the appraisal of Real Estate as an Alternative Investment avenue.",
+      "a": "Because real estate markets are illiquid and lack centralized trading exchanges, four primary appraisal methodologies are utilized:\n\n1. Sales Comparison Approach:\nCompares the subject property with recent transaction prices of similar benchmark properties within the same locality, making adjustments for square footage, frontage, and condition (analogous to the P/E multiple approach in equity valuation).\n\n2. Income Capitalization Approach:\nCapitalizes the property's projected perpetual Net Operating Income (NOI = Gross Rental Income minus Operating Expenses) by an appropriate market capitalization rate ($V = \\text{NOI} / R$). Analogous to perpetual preference share valuation.\n\n3. Cost Approach:\nEstimates the current cost of acquiring land plus the replacement cost of constructing the building in its present state, less accumulated physical and functional depreciation.\n\n4. Discounted After-Tax Cash Flow (DCF) Approach:\nForecasts multi-year operating cash flows after income tax and terminal reversion value, discounting them at the investor's required rate of return to compute Net Present Value."
+    }
+  ],
+  "fill": [
+    {
+      "q": "The formula for the Capital Market Line is E(Rp) = Rf + [(Rm - Rf) / ____] × σp.",
+      "a": "σm"
+    },
+    {
+      "q": "In portfolio rebalancing, a Constant Mix policy generates a ____ pay-off curve.",
+      "a": "concave"
+    },
+    {
+      "q": "The Sharpe Single Index Model assumes that the covariance between two stocks i and j is equal to βi × βj × ____.",
+      "a": "σm²"
+    },
+    {
+      "q": "In Sharpe's optimal portfolio selection, candidate securities are accepted if their excess return to beta ratio exceeds the cutoff rate ____.",
+      "a": "C*"
+    },
+    {
+      "q": "A bond portfolio is immunized against interest rate risk when the portfolio duration equals the investor's ____ period.",
+      "a": "holding"
+    }
+  ],
+  "match": [
+    {
+      "q": "Markowitz Model",
+      "a": "Mean-Variance optimization based on asset covariances"
+    },
+    {
+      "q": "Capital Market Line (CML)",
+      "a": "Plots expected return against total risk for efficient portfolios"
+    },
+    {
+      "q": "Security Market Line (SML)",
+      "a": "Plots required return against systematic risk (Beta) for all assets"
+    },
+    {
+      "q": "Constant Proportion Portfolio Insurance",
+      "a": "Convex pay-off dynamic momentum allocation using multiplier and floor"
+    },
+    {
+      "q": "Jensen's Alpha",
+      "a": "Measures abnormal risk-adjusted return over CAPM benchmark"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Ramesh wishes to invest in the stock market and has compiled the following statistical data for six candidate equity securities:\n- Security A: Expected Return = 15%, Beta = 1.5, Unsystematic Variance (σεi²) = 40\n- Security B: Expected Return = 12%, Beta = 2.0, Unsystematic Variance (σεi²) = 20\n- Security C: Expected Return = 10%, Beta = 2.5, Unsystematic Variance (σεi²) = 30\n- Security D: Expected Return = 9%, Beta = 1.0, Unsystematic Variance (σεi²) = 10\n- Security E: Expected Return = 8%, Beta = 1.2, Unsystematic Variance (σεi²) = 20\n- Security F: Expected Return = 14%, Beta = 1.5, Unsystematic Variance (σεi²) = 30\n\nThe market index variance (σm²) is 10%, and the risk-free rate of return (Rf) is 7%.\nAssuming short sales are not permitted, you are required to determine:\n(i) The ranking of securities based on their excess return to beta ratio.\n(ii) The unique cut-off rate (C*) for inclusion in the optimal portfolio using Sharpe's Optimal Portfolio Selection Algorithm.\n(iii) The specific securities to be selected and the exact percentage of investable funds to be allocated to each selected security.",
+      "a": "1. Ranking of Securities by Excess Return to Beta Ratio:\n$$\\text{Ratio} = \\frac{R_i - R_f}{\\beta_i}$$\n• Security A: $(15 - 7) / 1.5 = 8 / 1.5 = 5.333$ [Rank 1]\n• Security F: $(14 - 7) / 1.5 = 7 / 1.5 = 4.667$ [Rank 2]\n• Security B: $(12 - 7) / 2.0 = 5 / 2.0 = 2.500$ [Rank 3]\n• Security D: $(9 - 7) / 1.0 = 2 / 1.0 = 2.000$ [Rank 4]\n• Security C: $(10 - 7) / 2.5 = 3 / 2.5 = 1.200$ [Rank 5]\n• Security E: $(8 - 7) / 1.2 = 1 / 1.2 = 0.833$ [Rank 6]\n\n2. Calculation of Cumulative Cut-Off Rate (Ci):\n$$C_i = \\frac{\\sigma_m^2 \\sum_{j=1}^i \\frac{(R_j - R_f)\\beta_j}{\\sigma_{\\epsilon j}^2}}{1 + \\sigma_m^2 \\sum_{j=1}^i \\frac{\\beta_j^2}{\\sigma_{\\epsilon j}^2}}$$\nWith $\\sigma_m^2 = 10$:\n• Security A: $\\frac{8 \\times 1.5}{40} = 0.30$; $\\frac{1.5^2}{40} = 0.05625$.\n  $$C_A = \\frac{10 \\times 0.30}{1 + 10(0.05625)} = \\frac{3.00}{1.5625} = 1.923$$\n• Security F: $\\frac{7 \\times 1.5}{30} = 0.35$; $\\frac{1.5^2}{30} = 0.075$.\n  Cumulative $\\text{Num} = 0.30 + 0.35 = 0.65$; Cumulative $\\text{Den} = 0.05625 + 0.075 = 0.13125$.\n  $$C_F = \\frac{10 \\times 0.65}{1 + 10(0.13125)} = \\frac{6.50}{2.3125} = 2.814$$\n• Security B: $\\frac{5 \\times 2.0}{20} = 0.50$; $\\frac{2.0^2}{20} = 0.20$.\n  Cumulative $\\text{Num} = 0.65 + 0.50 = 1.15$; Cumulative $\\text{Den} = 0.13125 + 0.20 = 0.33125$.\n  $$C_B = \\frac{10 \\times 1.15}{1 + 10(0.33125)} = \\frac{11.50}{4.3125} = 2.668$$\n• Security D: $\\text{Num} = 1.35$, $\\text{Den} = 0.43125 \\implies C_D = \\frac{13.50}{5.3125} = 2.542$.\n• Security C: $\\text{Num} = 1.60$, $\\text{Den} = 0.63955 \\implies C_C = \\frac{16.00}{7.3955} = 2.165$.\n• Security E: $\\text{Num} = 1.66$, $\\text{Den} = 0.71155 \\implies C_E = \\frac{16.60}{8.1155} = 2.047$.\n\n3. Identification of Cutoff Point (C*) and Portfolio Selection:\n• Cut-off rate $C^*$ is the HIGHEST value of $C_i$, which occurs at Security F: $C^* = 2.814$.\n• Selection Rule: Compare $(R_i - R_f) / \\beta_i$ against $C^* = 2.814$:\n  - Security A: $5.333 > 2.814 \\implies$ INCLUDED\n  - Security F: $4.667 > 2.814 \\implies$ INCLUDED\n  - Security B: $2.500 < 2.814 \\implies$ EXCLUDED\n  - Securities D, C, and E are all below $2.814 \\implies$ EXCLUDED.\nOnly Securities A and F are included in the optimal portfolio.\n\n4. Calculation of Optimal Portfolio Weights:\n$$Z_i = \\frac{\\beta_i}{\\sigma_{\\epsilon i}^2} \\left[ \\frac{R_i - R_f}{\\beta_i} - C^* \\right]$$\n• $Z_A = \\frac{1.5}{40} [5.333 - 2.814] = 0.0375 \\times 2.519 = 0.09435$\n• $Z_F = \\frac{1.5}{30} [4.667 - 2.814] = 0.0500 \\times 1.853 = 0.09280$\n• Total $Z = 0.09435 + 0.09280 = 0.18715$\n• Weight of Security A ($w_A$) = $\\frac{0.09435}{0.18715} = 50.41\\%$\n• Weight of Security F ($w_F$) = $\\frac{0.09280}{0.18715} = 49.59\\%$\n\nConclusion:\nThe optimal portfolio allocates 50.41% in Security A and 49.59% in Security F.",
+      "computation": {
+        "title": "Sharpe's Optimal Portfolio Selection Schedule - Ramesh Investment Analysis",
+        "headers": [
+          { "title": "Ranked Stock", "width": "12%" },
+          { "title": "(Ri - Rf) / βi", "width": "16%" },
+          { "title": "[(Ri - Rf)βi] / σεi²", "width": "18%" },
+          { "title": "Cumulative Num", "width": "18%" },
+          { "title": "Cumulative Den", "width": "18%" },
+          { "title": "Cutoff Ci", "width": "18%" }
+        ],
+        "columnWidths": ["12%", "16%", "18%", "18%", "18%", "18%"],
+        "rows": [
+          [
+            { "text": "A", "align": "center" },
+            { "text": "5.333", "align": "right" },
+            { "text": "0.300", "align": "right" },
+            { "text": "0.300", "align": "right" },
+            { "text": "0.056", "align": "right" },
+            { "text": "1.923", "align": "right" }
+          ],
+          [
+            { "text": "F", "align": "center" },
+            { "text": "4.667", "align": "right" },
+            { "text": "0.350", "align": "right" },
+            { "text": "0.650", "align": "right" },
+            { "text": "0.131", "align": "right" },
+            { "text": "2.814", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "B", "align": "center" },
+            { "text": "2.500", "align": "right" },
+            { "text": "0.500", "align": "right" },
+            { "text": "1.150", "align": "right" },
+            { "text": "0.331", "align": "right" },
+            { "text": "2.668", "align": "right" }
+          ],
+          [
+            { "text": "D", "align": "center" },
+            { "text": "2.000", "align": "right" },
+            { "text": "0.200", "align": "right" },
+            { "text": "1.350", "align": "right" },
+            { "text": "0.431", "align": "right" },
+            { "text": "2.542", "align": "right" }
+          ],
+          [
+            { "text": "C", "align": "center" },
+            { "text": "1.200", "align": "right" },
+            { "text": "0.250", "align": "right" },
+            { "text": "1.600", "align": "right" },
+            { "text": "0.639", "align": "right" },
+            { "text": "2.165", "align": "right" }
+          ],
+          [
+            { "text": "E", "align": "center" },
+            { "text": "0.833", "align": "right" },
+            { "text": "0.060", "align": "right" },
+            { "text": "1.660", "align": "right" },
+            { "text": "0.711", "align": "right", "borderBottom": true },
+            { "text": "2.047", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Optimal Cut-off Rate (C*)", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Peak Ci achieved at Stock F", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "2.814", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Selected Stocks", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Stocks A and F satisfy Ratio > C*", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "A & F ONLY", "align": "right" }
+          ],
+          [
+            { "text": "Final Weights Allocation", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "wA = 0.09435 / 0.18715 | wF = 0.09280 / 0.18715", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "50.41% : 49.59%", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Securities are ordered by Treynor's excess return to beta ratio: A (5.33), F (4.67), B (2.50), D (2.00), C (1.20), E (0.83).",
+          "Cutoff rate C* reaches its global maximum of 2.814 at stock F. Securities B, D, C, and E fail the test (Ratio < C*) and are excluded from the optimal portfolio."
+        ]
+      }
+    },
+    {
+      "q": "The following information is available for a portfolio comprising three equity shares:\n- Share A: Portfolio Weight = 0.20, Beta = 0.40, Expected Return = 14%, Total Variance = 0.015\n- Share B: Portfolio Weight = 0.50, Beta = 0.50, Expected Return = 15%, Total Variance = 0.025\n- Share C: Portfolio Weight = 0.30, Beta = 1.10, Expected Return = 21%, Total Variance = 0.100\n\nThe standard deviation of the market portfolio returns is 10% (Market Variance = 0.010).\nPairwise empirical covariances:\n- Covariance (A, B) = 0.030\n- Covariance (A, C) = 0.020\n- Covariance (B, C) = 0.040\n\nYou are required to calculate:\n(i) The Portfolio Beta.\n(ii) The Residual (Unsystematic) Variance of each of the three shares.\n(iii) The Portfolio Variance using William Sharpe's Single Index Model.\n(iv) The Portfolio Variance on the basis of Modern Portfolio Theory given by Harry Markowitz, and state the reason for any divergence.",
+      "a": "1. Portfolio Beta (βp):\n$$\\beta_p = w_A \\beta_A + w_B \\beta_B + w_C \\beta_C$$\n$$\\beta_p = (0.20 \\times 0.40) + (0.50 \\times 0.50) + (0.30 \\times 1.10) = 0.08 + 0.25 + 0.33 = 0.66$$\n\n2. Residual (Unsystematic) Variance of Each Share:\nUnder the Single Index Model, Total Variance = Systematic Variance + Residual Variance (σεi²):\n$$\\sigma_{\\epsilon i}^2 = \\sigma_i^2 - \\beta_i^2 \\sigma_m^2 \\quad (\\text{where } \\sigma_m^2 = 0.10^2 = 0.01)$$\n• Share A: $\\sigma_{\\epsilon A}^2 = 0.015 - (0.40)^2(0.01) = 0.015 - 0.0016 = 0.0134$\n• Share B: $\\sigma_{\\epsilon B}^2 = 0.025 - (0.50)^2(0.01) = 0.025 - 0.0025 = 0.0225$\n• Share C: $\\sigma_{\\epsilon C}^2 = 0.100 - (1.10)^2(0.01) = 0.100 - 0.0121 = 0.0879$\n\n3. Portfolio Variance using Sharpe's Single Index Model:\n$$\\sigma_p^2 = \\beta_p^2 \\sigma_m^2 + \\sum_{i=1}^3 w_i^2 \\sigma_{\\epsilon i}^2$$\n• Systematic Portfolio Variance = $(0.66)^2 \\times 0.01 = 0.4356 \\times 0.01 = 0.004356$\n• Unsystematic Portfolio Variance = $(0.20)^2(0.0134) + (0.50)^2(0.0225) + (0.30)^2(0.0879)$\n  $$= (0.04 \\times 0.0134) + (0.25 \\times 0.0225) + (0.09 \\times 0.0879) = 0.000536 + 0.005625 + 0.007911 = 0.014072$$\n• Total Sharpe Portfolio Variance = $0.004356 + 0.014072 = 0.018428$.\n\n4. Portfolio Variance using Markowitz Full Covariance Model:\n$$\\sigma_p^2 = \\sum w_i^2 \\sigma_i^2 + 2 \\sum w_i w_j \\text{Cov}_{ij}$$\n• Individual Variance Components:\n  - A: $(0.20)^2 \\times 0.015 = 0.00060$\n  - B: $(0.50)^2 \\times 0.025 = 0.00625$\n  - C: $(0.30)^2 \\times 0.100 = 0.00900$\n  Sum of weighted variances = $0.01585$.\n• Covariance Interaction Components:\n  - 2 × wA × wB × Cov(A, B) = $2(0.20)(0.50)(0.030) = 0.0060$\n  - 2 × wA × wC × Cov(A, C) = $2(0.20)(0.30)(0.020) = 0.0024$\n  - 2 × wB × wC × Cov(B, C) = $2(0.50)(0.30)(0.040) = 0.0120$\n  Sum of covariance terms = $0.02040$.\n• Total Markowitz Portfolio Variance = $0.01585 + 0.02040 = 0.03625 \\approx 0.0363$.\n\nExplanation of Divergence:\nThe Markowitz model captures all pairwise empirical covariances directly. In contrast, the Sharpe Single Index Model assumes that cross-security co-movements occur SOLELY through their shared sensitivity to the market index [$\\text{Cov}(i, j) = \\beta_i \\beta_j \\sigma_m^2$] and treats residual errors as completely uncorrelated.",
+      "computation": {
+        "title": "Comparison of Portfolio Risk: Sharpe Single Index Model vs. Markowitz Model",
+        "headers": [
+          { "title": "Analytical Component", "width": "50%" },
+          { "title": "Computation Formula", "width": "26%" },
+          { "title": "Resulting Value", "width": "24%" }
+        ],
+        "columnWidths": ["50%", "26%", "24%"],
+        "rows": [
+          [
+            { "text": "I. Systematic & Residual Parameters", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Portfolio Beta (βp)" },
+            { "text": "0.20(0.40) + 0.50(0.50) + 0.30(1.10)", "align": "center" },
+            { "text": "0.6600", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Residual Variance - Stock A (σεA²)" },
+            { "text": "0.015 - (0.40)²(0.01)", "align": "center" },
+            { "text": "0.0134", "align": "right" }
+          ],
+          [
+            { "text": "Residual Variance - Stock B (σεB²)" },
+            { "text": "0.025 - (0.50)²(0.01)", "align": "center" },
+            { "text": "0.0225", "align": "right" }
+          ],
+          [
+            { "text": "Residual Variance - Stock C (σεC²)" },
+            { "text": "0.100 - (1.10)²(0.01)", "align": "center" },
+            { "text": "0.0879", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Sharpe Single Index Model Variance", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Systematic Portfolio Variance" },
+            { "text": "(0.66)² × 0.01", "align": "center" },
+            { "text": "0.004356", "align": "right" }
+          ],
+          [
+            { "text": "Unsystematic Portfolio Variance" },
+            { "text": "∑ wi² σεi²", "align": "center" },
+            { "text": "0.014072", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Sharpe Portfolio Variance (σp²)", "isHeading": true },
+            { "text": "0.004356 + 0.014072", "align": "center" },
+            { "text": "0.018428", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "III. Markowitz Full Covariance Model Variance", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Weighted Own Variance Component" },
+            { "text": "∑ wi² σi²", "align": "center" },
+            { "text": "0.015850", "align": "right" }
+          ],
+          [
+            { "text": "Weighted Inter-Security Covariance Component" },
+            { "text": "2 ∑ wi wj Covij", "align": "center" },
+            { "text": "0.020400", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Markowitz Portfolio Variance (σp²)", "isHeading": true },
+            { "text": "Full Covariance Matrix", "align": "center" },
+            { "text": "0.036250", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Sharpe's Single Index model yields lower variance (0.0184) than Markowitz (0.0363) because it assumes residual errors are perfectly uncorrelated across firms.",
+          "Markowitz captures actual empirical inter-industry covariances [Cov(A,B)=0.030, Cov(B,C)=0.040], producing a comprehensive measure of total portfolio risk."
+        ]
+      }
+    },
+    {
+      "q": "Five professionally managed mutual fund portfolios experienced the following annual performance metrics over a seven-year evaluation horizon:\n- Portfolio A: Average Return = 19.0%, Standard Deviation = 2.5%, Correlation with Market (r) = 0.840\n- Portfolio B: Average Return = 15.0%, Standard Deviation = 2.0%, Correlation with Market (r) = 0.540\n- Portfolio C: Average Return = 15.0%, Standard Deviation = 0.8%, Correlation with Market (r) = 0.975\n- Portfolio D: Average Return = 17.5%, Standard Deviation = 2.0%, Correlation with Market (r) = 0.750\n- Portfolio E: Average Return = 17.1%, Standard Deviation = 1.8%, Correlation with Market (r) = 0.600\n\nThe market portfolio experienced an average return (Rm) of 14.0% with a standard deviation (σm) of 1.2%. The risk-free rate (Rf) is 9.0%.\n\nYou are required to:\n(i) Compute the Beta (βp) for each of the five portfolios.\n(ii) Evaluate and rank the five portfolios using: (a) Sharpe's Reward-to-Variability Method, (b) Treynor's Reward-to-Volatility Method, and (c) Jensen's Alpha Method.\n(iii) Analyze and comment on the reasons for any divergence in rankings.",
+      "a": "1. Computation of Portfolio Betas (βp):\n$$\\beta_p = \\frac{\\text{Cov}(p, m)}{\\sigma_m^2} = \\frac{r \\times \\sigma_p \\times \\sigma_m}{\\sigma_m^2} = \\frac{r \\times \\sigma_p}{\\sigma_m}$$\n• Portfolio A: $\\beta_A = \\frac{0.840 \\times 2.5}{1.2} = 1.750$\n• Portfolio B: $\\beta_B = \\frac{0.540 \\times 2.0}{1.2} = 0.900$\n• Portfolio C: $\\beta_C = \\frac{0.975 \\times 0.8}{1.2} = 0.650$\n• Portfolio D: $\\beta_D = \\frac{0.750 \\times 2.0}{1.2} = 1.250$\n• Portfolio E: $\\beta_E = \\frac{0.600 \\times 1.8}{1.2} = 0.900$\n\n2. Sharpe Ratio Calculation ($S = \\frac{R_p - R_f}{\\sigma_p}$):\n• A: $(19.0 - 9.0) / 2.5 = 10.0 / 2.5 = 4.00$ [Rank IV]\n• B: $(15.0 - 9.0) / 2.0 = 6.0 / 2.0 = 3.00$ [Rank V]\n• C: $(15.0 - 9.0) / 0.8 = 6.0 / 0.8 = 7.50$ [Rank I]\n• D: $(17.5 - 9.0) / 2.0 = 8.5 / 2.0 = 4.25$ [Rank III]\n• E: $(17.1 - 9.0) / 1.8 = 8.1 / 1.8 = 4.50$ [Rank II]\n\n3. Treynor Ratio Calculation ($T = \\frac{R_p - R_f}{\\beta_p}$):\n• A: $(19.0 - 9.0) / 1.75 = 10.0 / 1.75 = 5.71\\%$ [Rank V]\n• B: $(15.0 - 9.0) / 0.90 = 6.0 / 0.90 = 6.67\\%$ [Rank IV]\n• C: $(15.0 - 9.0) / 0.65 = 6.0 / 0.65 = 9.23\\%$ [Rank I]\n• D: $(17.5 - 9.0) / 1.25 = 8.5 / 1.25 = 6.80\\%$ [Rank III]\n• E: $(17.1 - 9.0) / 0.90 = 8.1 / 0.90 = 9.00\\%$ [Rank II]\n\n4. Jensen's Alpha Calculation ($\\alpha = R_p - [R_f + \\beta_p(R_m - R_f)]$):\nWith $R_m - R_f = 14.0\\% - 9.0\\% = 5.0\\%$:\n• A: $19.0 - [9.0 + 1.75(5.0)] = 19.0 - 17.75 = + 1.25\\%$ [Rank V]\n• B: $15.0 - [9.0 + 0.90(5.0)] = 15.0 - 13.50 = + 1.50\\%$ [Rank IV]\n• C: $15.0 - [9.0 + 0.65(5.0)] = 15.0 - 12.25 = + 2.75\\%$ [Rank II]\n• D: $17.5 - [9.0 + 1.25(5.0)] = 17.5 - 15.25 = + 2.25\\%$ [Rank III]\n• E: $17.1 - [9.0 + 0.90(5.0)] = 17.1 - 13.50 = + 3.60\\%$ [Rank I]\n\nComments on Rankings:\n• Portfolio C ranks #1 under both Sharpe (7.50) and Treynor (9.23%) due to its exceptionally low volatility (σ = 0.8%) and tight correlation with the market (r = 0.975).\n• Portfolio E ranks #1 under Jensen's Alpha (+3.60%), demonstrating the highest absolute alpha generation over its market benchmark.\n• Portfolio A generated the highest raw return (19.0%) but ranks lowest under Treynor (5.71%) and Jensen (+1.25%) because its aggressive beta (1.75) exposed investors to disproportionate market risk.",
+      "computation": {
+        "title": "Comprehensive Performance Evaluation and Ranking Schedule - Portfolios A to E",
+        "headers": [
+          { "title": "Portfolio", "width": "10%" },
+          { "title": "Beta (βp)", "width": "14%" },
+          { "title": "Sharpe Ratio", "width": "18%" },
+          { "title": "Treynor Ratio", "width": "18%" },
+          { "title": "CAPM Bench.", "width": "18%" },
+          { "title": "Jensen's Alpha", "width": "22%" }
+        ],
+        "columnWidths": ["10%", "14%", "18%", "18%", "18%", "22%"],
+        "rows": [
+          [
+            { "text": "A", "align": "center" },
+            { "text": "1.750", "align": "right" },
+            { "text": "4.00 (IV)", "align": "center" },
+            { "text": "5.71% (V)", "align": "center" },
+            { "text": "17.75%", "align": "right" },
+            { "text": "+ 1.25% (V)", "align": "right" }
+          ],
+          [
+            { "text": "B", "align": "center" },
+            { "text": "0.900", "align": "right" },
+            { "text": "3.00 (V)", "align": "center" },
+            { "text": "6.67% (IV)", "align": "center" },
+            { "text": "13.50%", "align": "right" },
+            { "text": "+ 1.50% (IV)", "align": "right" }
+          ],
+          [
+            { "text": "C", "align": "center" },
+            { "text": "0.650", "align": "right" },
+            { "text": "7.50 (I)", "align": "center", "isBoxed": true },
+            { "text": "9.23% (I)", "align": "center", "isBoxed": true },
+            { "text": "12.25%", "align": "right" },
+            { "text": "+ 2.75% (II)", "align": "right" }
+          ],
+          [
+            { "text": "D", "align": "center" },
+            { "text": "1.250", "align": "right" },
+            { "text": "4.25 (III)", "align": "center" },
+            { "text": "6.80% (III)", "align": "center" },
+            { "text": "15.25%", "align": "right" },
+            { "text": "+ 2.25% (III)", "align": "right" }
+          ],
+          [
+            { "text": "E", "align": "center" },
+            { "text": "0.900", "align": "right" },
+            { "text": "4.50 (II)", "align": "center" },
+            { "text": "9.00% (II)", "align": "center" },
+            { "text": "13.50%", "align": "right", "borderBottom": true },
+            { "text": "+ 3.60% (I)", "align": "right", "isBoxed": true, "borderBottom": true }
+          ],
+          [
+            { "text": "Best Total Risk Performer", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Portfolio C (Sharpe = 7.50)", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "RANK I (SHARPE)", "align": "right" }
+          ],
+          [
+            { "text": "Best Alpha Stock Selection", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Portfolio E (Alpha = +3.60%)", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "RANK I (JENSEN)", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Portfolio Betas derived using βp = (r × σp) / σm.",
+          "Sharpe ranks total risk efficiency; Treynor ranks market risk efficiency; Jensen's Alpha quantifies active management outperformance over CAPM."
+        ]
+      }
+    },
+    {
+      "q": "A Portfolio Manager oversees an active equity portfolio comprising four stocks:\n- Stock VSL: 10,000 shares @ ₹ 50 per share, Beta = 0.90\n- Stock CSL: 5,000 shares @ ₹ 20 per share, Beta = 1.00\n- Stock SML: 8,000 shares @ ₹ 25 per share, Beta = 1.50\n- Stock APL: 2,000 shares @ ₹ 200 per share, Beta = 1.20\n\nYou are required to:\n(i) Calculate the current Portfolio Beta.\n(ii) If the Portfolio Manager desires to reduce the overall portfolio beta to 0.80, determine the amount of investment to be made in Risk-Free Securities (Beta = 0).\n(iii) If the Portfolio Manager wishes to increase the overall portfolio beta to 1.20, determine the value of Risk-Free Securities that must be divested or borrowed at the risk-free rate.",
+      "a": "1. Valuation and Current Portfolio Beta Computation:\n• Stock VSL: 10,000 × ₹ 50 = ₹ 5,00,000; Weight = $5,00,000 / 12,00,000 = 0.4167$; Weighted Beta = $0.4167 \\times 0.90 = 0.3750$ (or Weighted Value = ₹ 4,50,000)\n• Stock CSL: 5,000 × ₹ 20 = ₹ 1,00,000; Weight = $1,00,000 / 12,00,000 = 0.0833$; Weighted Beta = $0.0833 \\times 1.00 = 0.0833$ (or Weighted Value = ₹ 1,00,000)\n• Stock SML: 8,000 × ₹ 25 = ₹ 2,00,000; Weight = $2,00,000 / 12,00,000 = 0.1667$; Weighted Beta = $0.1667 \\times 1.50 = 0.2500$ (or Weighted Value = ₹ 3,00,000)\n• Stock APL: 2,000 × ₹ 200 = ₹ 4,00,000; Weight = $4,00,000 / 12,00,000 = 0.3333$; Weighted Beta = $0.3333 \\times 1.20 = 0.4000$ (or Weighted Value = ₹ 4,80,000)\n• Total Portfolio Market Value = ₹ 12,00,000\n• Aggregate Weighted Value = ₹ 4,50,000 + ₹ 1,00,000 + ₹ 3,00,000 + ₹ 4,80,000 = ₹ 13,30,000\n$$\\text{Current Portfolio Beta } (\\beta_p) = \\frac{₹ 13,30,000}{₹ 12,00,000} = 1.1083 \\approx 1.108$$\n\n2. Reducing Portfolio Beta to 0.80 via Risk-Free Investment:\nLet $x$ be the additional cash invested in Risk-Free Securities (where $\\beta_{Rf} = 0$):\n$$\\beta_{\\text{new}} = \\frac{\\sum (\\text{Value} \\times \\beta)}{\\text{Total Portfolio Value} + x}$$\n$$0.80 = \\frac{₹ 13,30,000}{₹ 12,00,000 + x}$$\n$$0.80 \\times (12,00,000 + x) = 13,30,000$$\n$$9,60,000 + 0.80x = 13,30,000$$\n$$0.80x = 13,30,000 - 9,60,000 = 3,70,000$$\n$$x = \\frac{₹ 3,70,000}{0.80} = ₹ 4,62,500$$\n(Or alternatively: New portfolio size $= 12,00,000 \\times (1.108 / 0.80) = ₹ 16,62,050 \\implies$ Additional risk-free capital $= ₹ 16,62,050 - ₹ 12,00,000 = ₹ 4,62,050$).\n\n3. Increasing Portfolio Beta to 1.20 via Risk-Free Divestment / Borrowing:\nLet $y$ be the amount of Risk-Free Securities to be divested (or borrowed at $R_f$):\n$$1.20 = \\frac{₹ 13,30,000}{₹ 12,00,000 + y}$$\n$$1.20 \\times (12,00,000 + y) = 13,30,000$$\n$$14,40,000 + 1.20y = 13,30,000$$\n$$1.20y = 13,30,000 - 14,40,000 = - 1,10,000$$\n$$y = - \\frac{₹ 1,10,000}{1.20} = - ₹ 91,667$$\n(Or using $1.108 \\implies$ Divest / borrow ₹ 91,970).\n\nConclusion:\n• To reduce Beta to 0.80, invest ₹ 4,62,500 in risk-free assets.\n• To increase Beta to 1.20, borrow / divest ₹ 91,667 at the risk-free rate to leverage equity holdings.",
+      "computation": {
+        "title": "Portfolio Beta Derivation and Risk-Free Capital Adjustment Schedule",
+        "headers": [
+          { "title": "Stock / Asset", "width": "18%" },
+          { "title": "Holding & Price", "width": "22%" },
+          { "title": "Market Value (₹)", "width": "20%" },
+          { "title": "Weight (w)", "width": "16%" },
+          { "title": "Beta (β)", "width": "10%" },
+          { "title": "Weighted Value (₹)", "width": "14%" }
+        ],
+        "columnWidths": ["18%", "22%", "20%", "16%", "10%", "14%"],
+        "rows": [
+          [
+            { "text": "VSL", "align": "center" },
+            { "text": "10,000 @ ₹50", "align": "center" },
+            { "text": "5,00,000", "align": "right" },
+            { "text": "0.4167", "align": "right" },
+            { "text": "0.90", "align": "center" },
+            { "text": "4,50,000", "align": "right" }
+          ],
+          [
+            { "text": "CSL", "align": "center" },
+            { "text": "5,000 @ ₹20", "align": "center" },
+            { "text": "1,00,000", "align": "right" },
+            { "text": "0.0833", "align": "right" },
+            { "text": "1.00", "align": "center" },
+            { "text": "1,00,000", "align": "right" }
+          ],
+          [
+            { "text": "SML", "align": "center" },
+            { "text": "8,000 @ ₹25", "align": "center" },
+            { "text": "2,00,000", "align": "right" },
+            { "text": "0.1667", "align": "right" },
+            { "text": "1.50", "align": "center" },
+            { "text": "3,00,000", "align": "right" }
+          ],
+          [
+            { "text": "APL", "align": "center" },
+            { "text": "2,000 @ ₹200", "align": "center" },
+            { "text": "4,00,000", "align": "right", "borderBottom": true },
+            { "text": "0.3333", "align": "right", "borderBottom": true },
+            { "text": "1.20", "align": "center", "borderBottom": true },
+            { "text": "4,80,000", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Existing Portfolio", "isHeading": true, "colSpan": 2 },
+            "",
+            { "text": "12,00,000", "align": "right", "isBoxed": true },
+            { "text": "1.0000", "align": "right" },
+            { "text": "1.108", "align": "center", "isBoxed": true },
+            { "text": "13,30,000", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Target Beta = 0.80 Strategy", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Invest in Risk-Free Securities (β = 0)", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "+ 4,62,500", "align": "right", "isDoubleBottom": true }
+          ],
+          [
+            { "text": "Target Beta = 1.20 Strategy", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Borrow / Divest at Risk-Free Rate", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "- 91,667", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Current Portfolio Beta = Weighted Beta Value / Total Portfolio Value = ₹13,30,000 / ₹12,00,000 = 1.1083.",
+          "Because Risk-Free assets have β = 0, investing cash dilutes systematic risk, while borrowing at Rf leverages portfolio beta upward."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+CHAPTER 6: PORTFOLIO MANAGEMENT
+PAPER 2: ADVANCED FINANCIAL MANAGEMENT (CA FINAL)
+
+LEARNING OUTCOMES:
+After studying this chapter, students shall be able to understand:
+• Conceptual foundations of Portfolio Management, Market Emotions Cycles, and Risk-Return trade-offs
+• Core activities and five iterative phases of Portfolio Management (Security Analysis, Portfolio Analysis, Portfolio Selection, Portfolio Revision, Portfolio Evaluation)
+• Portfolio Theories: Traditional Qualitative Approach vs. Modern Portfolio Theory (Markowitz Mean-Variance Optimization)
+• Risk Decomposition: Total Risk = Systematic (Market, Interest Rate, Purchasing Power) + Unsystematic (Business, Financial) Risk
+• Mathematical measurement of Expected Return, Variance, Standard Deviation, Covariance, Correlation, and Beta (β)
+• Two-Asset and Multi-Asset Portfolio Risk, Variance-Covariance Matrix, and the limits of diversification
+• Harry Markowitz Model: Efficient Frontier, Dominance Principle, and Investor Indifference Curve tangency
+• Capital Market Theory: Capital Market Line (CML) and Market Price of Risk
+• William Sharpe's Single Index Model: Systematic vs. Residual Unsystematic Risk, Beta estimation, and Portfolio Variance
+• Capital Asset Pricing Model (CAPM) & Security Market Line (SML): Evaluation of Overpriced and Underpriced securities and Portfolio Beta adjustment
+• Arbitrage Pricing Theory (APT): Multi-Factor Macroeconomic Models and Unanticipated Surprise factors
+• Portfolio Performance Evaluation: Sharpe Ratio, Treynor Ratio, and Jensen's Alpha
+• Sharpe's Optimal Portfolio Construction: Cutoff Rate (C*) and unique allocation weights (Zi)
+• Portfolio Revision & Rebalancing Strategies: Buy & Hold, Constant Mix, and Constant Proportion Portfolio Insurance (CPPI)
+• Asset Allocation Frameworks: Integrated, Strategic, Tactical, and Insured
+• Fixed Income Portfolio Management: Active vs. Passive strategies (Bullet, Barbell, Ladder, Immunization, and Bond Swaps)
+• Alternative Investment Avenues: Real Estate Valuation Approaches, Gold Vehicles (SGBs, ETFs, E-Gold), and Distressed Securities Arbitrage
+
+================================================================================
+1. INTRODUCTION & OBJECTIVES OF PORTFOLIO MANAGEMENT
+================================================================================
+1.1 Concept of Portfolio Investment:
+Investment in individual securities (equity shares, preference shares, debentures, government bonds) is fraught with risk. In accordance with the foundational proverb "do not put all your eggs in one basket," rational investors combine securities into a diversified portfolio. A well-constructed portfolio optimizes the aggregate risk-return profile by eliminating unsystematic risk without diluting expected return.
+
+1.2 Market Emotions Cycle:
+Investor psychology swings through defined emotional phases as market prices fluctuate:
+• Optimism -> Excitement -> Thrill -> Euphoria:
+  At the peak of a bull run (Euphoria), investors experience maximum greed. This represents the POINT OF MAXIMUM FINANCIAL RISK.
+• Anxiety -> Denial -> Fear -> Desperation -> Panic -> Capitulation -> Despondency -> Depression:
+  At the trough of a bear market (Depression/Despondency), excessive pessimism prevails. This represents the POINT OF MAXIMUM FINANCIAL OPPORTUNITY.
+• Hope -> Relief -> Optimism: Rebirth of a fresh market expansion cycle.
+
+1.3 Core Activities in Portfolio Formation:
+(a) Selection of eligible individual securities based on fundamental and technical appraisal.
+(b) Construction of Feasible Portfolios out of the universe of eligible securities by altering weight proportions.
+(c) Allocation of optimal investment weights to arrive at the Optimal Portfolio commensurate with the investor's risk tolerance.
+
+1.4 Objectives of Portfolio Management:
+1. Safety / Capital Preservation: Safeguarding both the nominal capital and its real purchasing power against inflation.
+2. Stability of Income: Ensuring consistent dividend and coupon yields to facilitate systematic cash flow planning.
+3. Capital Growth: Realizing long-term capital appreciation by participating in growth companies and equity expansion.
+4. Marketability / Liquidity: Ability to enter or exit positions quickly with minimal market impact cost.
+5. Risk Diversification: Mitigating portfolio variance by spreading assets across non-correlated sectors and asset classes.
+6. Tax Efficiency: Optimizing after-tax net yields by balancing current taxable dividend income against concessional capital gains tax.
+
+================================================================================
+2. THE FIVE PHASES OF PORTFOLIO MANAGEMENT
+================================================================================
+Portfolio management is an ongoing, dynamic process executed across five distinct phases:
+
+Phase 1: Security Analysis:
+Appraises individual securities to identify risk-return profiles and mispricings.
+• Fundamental Analysis: Computes intrinsic value based on financial statements, management quality, industry life cycle, and discounted cash flows (DDM, DCF). Buy if Market Price < Intrinsic Value; Sell if Market Price > Intrinsic Value.
+• Technical Analysis: Examines historical chart patterns, price trends, and volume indicators.
+• Random Walk / EMH: Concludes that markets are informationally efficient and that neither technical nor fundamental analysis can systematically beat the market.
+
+Phase 2: Portfolio Analysis:
+Combines selected securities into feasible portfolios and calculates their aggregate expected returns and variances using statistical measures (means, variances, and covariances).
+
+Phase 3: Portfolio Selection:
+Applies Markowitz's Modern Portfolio Theory to identify the Efficient Frontier (portfolios offering maximum return for a given risk level) and locates the investor's Optimal Portfolio at the tangency point with their utility indifference curve.
+
+Phase 4: Portfolio Revision:
+Regularly rebalances asset allocations to prevent drift caused by differential market price movements, changes in economic fundamentals, or shifts in the investor's risk appetite.
+
+Phase 5: Portfolio Evaluation:
+Assesses realized performance against benchmarks (Sharpe, Treynor, and Jensen measures) to identify strengths and weaknesses in security selection and market timing.
+
+================================================================================
+3. TRADITIONAL VS. MODERN PORTFOLIO THEORIES
+================================================================================
+3.1 Traditional Portfolio Approach:
+Focuses on individual investor profiles (age, health, liquidity needs, tax bracket) and emphasizes subjective rules of thumb. Diversification is conducted qualitatively by spreading funds across different industries, blue-chip stocks, and fixed income instruments without mathematically calculating correlations.
+
+3.2 Modern Portfolio Theory (Harry Markowitz - 1952):
+Known as the 'Mean-Variance Analysis', MPT proved that the risk of an individual asset in isolation is irrelevant to an investor. What truly matters is the asset's marginal contribution to TOTAL PORTFOLIO RISK, which is governed by the COVARIANCE of its returns with other assets in the portfolio. Combining assets that are uncorrelated or negatively correlated drastically compresses total risk without sacrificing expected return.
+
+================================================================================
+4. RISK ANALYSIS & STATISTICAL FORMULATIONS
+================================================================================
+4.1 Total Risk Decomposition:
+$$\text{Total Risk} = \text{Systematic (Non-Diversifiable) Risk} + \text{Unsystematic (Diversifiable) Risk}$$
+• Systematic Risk (Macro / Market Risk): External, system-wide factors affecting all securities simultaneously (e.g., interest rate hikes, GDP contractions, inflation, geopolitical shocks). Uncontrollable and non-diversifiable. Measured by Beta ($\beta$).
+  (a) Market Risk: Broad market bull/bear swings.
+  (b) Interest Rate Risk: Inverse relationship between bond prices and interest rates.
+  (c) Purchasing Power (Inflation) Risk: Erosion of real returns over holding periods.
+• Unsystematic Risk (Micro / Specific / Idiosyncratic Risk): Firm-specific factors (e.g., strikes, management departures, R&D failure, patent litigation). Controllable and completely diversifiable.
+  (a) Business Risk: Operating profit (EBIT) volatility driven by cost structures (operating leverage).
+  (b) Financial Risk: Volatility in EPS caused by debt service commitments (financial leverage).
+
+4.2 Expected Return Formulation:
+• With Probability Distribution:
+  $$E(R) = \bar{X} = \sum_{i=1}^n X_i \times p(X_i)$$
+• With Historical Time Series ($n$ periods):
+  $$\bar{X} = \frac{\sum_{i=1}^n X_i}{n}$$
+
+4.3 Variance & Standard Deviation (Total Risk):
+• With Probability Distribution:
+  $$\sigma^2 = \sum_{i=1}^n (X_i - \bar{X})^2 \times p(X_i) \quad \text{and} \quad \sigma = \sqrt{\sigma^2}$$
+• With Historical Data:
+  $$\sigma^2 = \frac{\sum_{i=1}^n (X_i - \bar{X})^2}{n} \quad \text{or} \quad \sigma = \sqrt{\frac{n \sum X^2 - (\sum X)^2}{n^2}}$$
+
+4.4 Covariance & Correlation Coefficient:
+• Covariance measures how two securities' returns vary together:
+  $$\text{Cov}_{AB} = \sigma_{AB} = \sum_{i=1}^n (R_{Ai} - \bar{R}_A)(R_{Bi} - \bar{R}_B) \times p_i \quad \text{or} \quad \frac{\sum (R_A - \bar{R}_A)(R_B - \bar{R}_B)}{N}$$
+• Coefficient of Correlation ($r_{AB}$):
+  $$r_{AB} = \frac{\text{Cov}_{AB}}{\sigma_A \times \sigma_B} \quad (-1.0 \le r_{AB} \le +1.0)$$
+  $$\text{Cov}_{AB} = r_{AB} \times \sigma_A \times \sigma_B$$
+
+4.5 Two-Asset Portfolio Return & Variance:
+• Expected Portfolio Return:
+  $$R_p = w_1 R_1 + w_2 R_2 \quad (\text{where } w_1 + w_2 = 1)$$
+• Portfolio Variance:
+  $$\sigma_p^2 = w_1^2 \sigma_1^2 + w_2^2 \sigma_2^2 + 2 w_1 w_2 \text{Cov}_{12} = w_1^2 \sigma_1^2 + w_2^2 \sigma_2^2 + 2 w_1 w_2 r_{12} \sigma_1 \sigma_2$$
+• Three Essential Correlation Scenarios:
+  1. Perfect Positive Correlation ($r_{12} = +1.0$):
+     $$\sigma_p = w_1 \sigma_1 + w_2 \sigma_2$$
+     Risk is simply the weighted average of individual standard deviations. NO DIVERSIFICATION BENEFIT (only risk averaging).
+  2. Perfect Negative Correlation ($r_{12} = -1.0$):
+     $$\sigma_p = |w_1 \sigma_1 - w_2 \sigma_2|$$
+     Total portfolio risk can be REDUCED TO ZERO by selecting weights:
+     $$w_1 = \frac{\sigma_2}{\sigma_1 + \sigma_2} \quad \text{and} \quad w_2 = \frac{\sigma_1}{\sigma_1 + \sigma_2}$$
+  3. Uncorrelated / Independent Returns ($r_{12} = 0$):
+     $$\sigma_p = \sqrt{w_1^2 \sigma_1^2 + w_2^2 \sigma_2^2}$$
+     Portfolio risk is strictly lower than either individual security's risk.
+• Minimum Risk Portfolio (Minimum Variance Weights for Two Assets):
+  $$w_1^* = \frac{\sigma_2^2 - \text{Cov}_{12}}{\sigma_1^2 + \sigma_2^2 - 2 \text{Cov}_{12}} = \frac{\sigma_2^2 - r_{12}\sigma_1\sigma_2}{\sigma_1^2 + \sigma_2^2 - 2 r_{12}\sigma_1\sigma_2} \quad \text{and} \quad w_2^* = 1 - w_1^*$$
+
+4.6 Multi-Asset Portfolio ($N$ Assets):
+$$\sigma_p^2 = \sum_{i=1}^N \sum_{j=1}^N w_i w_j \sigma_{ij} = \sum_{i=1}^N w_i^2 \sigma_i^2 + 2 \sum_{i=1}^{N-1} \sum_{j=i+1}^N w_i w_j \text{Cov}_{ij}$$
+• Limits of Diversification:
+  As $N$ increases, individual variance terms ($w_i^2 \sigma_i^2$) approach zero, while covariance terms dominate total risk. In practice, holding 25 to 30 well-chosen, cross-sector stocks eliminates virtually all unsystematic risk. Beyond 30 stocks, marginal risk reduction is negligible, leaving only non-diversifiable systematic market risk.
+
+================================================================================
+5. MARKOWITZ EFFICIENT FRONTIER & SELECTION
+================================================================================
+5.1 Core Assumptions:
+1. Returns adequately summarize investment outcomes.
+2. Investors visualize return probability distributions and associate risk with variance ($\sigma^2$).
+3. Investors are rational and risk-averse (for identical returns, prefer lower risk; for identical risk, prefer higher return).
+4. Investment decisions are based exclusively on expected return ($E$) and variance ($\sigma^2$).
+
+5.2 The Efficient Frontier & Dominance Principle:
+• Mean-Variance Dominance: Portfolio X dominates Portfolio Y if:
+  (a) $E(R_X) \ge E(R_Y)$ with $\sigma_X < \sigma_Y$, OR
+  (b) $E(R_X) > E(R_Y)$ with $\sigma_X \le \sigma_Y$.
+• Efficient Frontier: The upper boundary curve representing all efficient portfolios. Any portfolio inside the feasible set (interior) is inefficient and dominated by a portfolio on the frontier.
+• Optimal Portfolio: Determined by the tangency between the investor's convex Utility Indifference Curve and the Markowitz Efficient Frontier.
+
+================================================================================
+6. CAPITAL MARKET THEORY & CAPITAL MARKET LINE (CML)
+================================================================================
+6.1 Introduction of the Risk-Free Asset ($R_f$):
+When a risk-free security (Treasury Bills with return $R_f$ and $\sigma = 0$) is introduced, investors can combine $R_f$ with the risky Market Portfolio ($M$).
+• Capital Market Line (CML):
+  The straight line drawn from $R_f$ tangent to the Markowitz Efficient Frontier at Market Portfolio $M$:
+  $$E(R_p) = R_f + \left[ \frac{R_m - R_f}{\sigma_m} \right] \sigma_p$$
+• Market Price of Risk (Slope of CML):
+  $$\text{Slope} = \frac{R_m - R_f}{\sigma_m}$$
+  Represents excess return per unit of TOTAL RISK ($\sigma_p$).
+• Lending vs. Borrowing Portfolios:
+  - Portfolios between $R_f$ and $M$: Lending portfolios ($w_{Rf} > 0, w_M < 1$).
+  - Portfolios to the right of $M$: Borrowing (leveraged) portfolios ($w_{Rf} < 0, w_M > 1$), borrowing at $R_f$ to invest >100% in Market Portfolio $M$.
+• Critical Restriction: CML applies ONLY to EFFICIENT PORTFOLIOS. It cannot be used to price individual securities or inefficient portfolios.
+
+================================================================================
+7. SHARPE'S SINGLE INDEX MODEL
+================================================================================
+7.1 Model Formulation:
+William Sharpe simplified Markowitz's extensive covariance inputs by assuming that all co-movement between stocks is driven by a single common macroeconomic factor—the Market Index ($R_m$):
+$$R_i = \alpha_i + \beta_i R_m + \epsilon_i$$
+Where:
+- $\alpha_i$ = Intercept (alpha), component of return independent of the market
+- $\beta_i$ = Systematic sensitivity coefficient (Beta)
+- $\epsilon_i$ = Random error term (unsystematic residual with mean 0 and variance $\sigma_{\epsilon i}^2$)
+
+7.2 Risk Decomposition under Single Index Model:
+$$\text{Total Variance } (\sigma_i^2) = \beta_i^2 \sigma_m^2 + \sigma_{\epsilon i}^2$$
+$$\text{Systematic Risk} = \beta_i^2 \sigma_m^2 \quad \text{and} \quad \text{Unsystematic / Residual Risk} = \sigma_{\epsilon i}^2 = \sigma_i^2 - \beta_i^2 \sigma_m^2$$
+• Covariance between two securities $i$ and $j$:
+  $$\text{Cov}_{ij} = \beta_i \beta_j \sigma_m^2$$
+• Portfolio Return & Variance:
+  $$R_p = \alpha_p + \beta_p R_m \quad \text{where } \alpha_p = \sum w_i \alpha_i \text{ and } \beta_p = \sum w_i \beta_i$$
+  $$\sigma_p^2 = \beta_p^2 \sigma_m^2 + \sum_{i=1}^N w_i^2 \sigma_{\epsilon i}^2$$
+
+================================================================================
+8. CAPITAL ASSET PRICING MODEL (CAPM) & SECURITY MARKET LINE
+================================================================================
+8.1 The CAPM Equation:
+Developed by Sharpe, Lintner, and Mossin:
+$$R_j = R_f + \beta_j (R_m - R_f)$$
+Where Market Risk Premium $= R_m - R_f$.
+• Beta Definition:
+  $$\beta_j = \frac{\text{Cov}_{jm}}{\sigma_m^2} = \frac{r_{jm} \sigma_j}{\sigma_m}$$
+  $$\text{Portfolio Beta } (\beta_p) = \sum_{i=1}^N w_i \beta_i$$
+
+8.2 Security Market Line (SML) vs. Capital Market Line (CML):
+• SML plots Required Return against Systematic Risk (Beta $\beta$). Applicable to ALL securities and portfolios.
+• CML plots Expected Return against Total Risk (Standard Deviation $\sigma$). Applicable ONLY to efficient portfolios.
+
+8.3 Under-Valued and Over-Valued Securities (Alpha $\alpha$):
+• $\text{Jensen's Alpha } (\alpha) = \text{Expected / Actual Return} - \text{CAPM Required Return}$:
+  1. If Expected Return > CAPM Return ($\alpha > 0$): Security is UNDERPRICED (Undervalued) -> Plots ABOVE SML -> BUY.
+  2. If Expected Return < CAPM Return ($\alpha < 0$): Security is OVERPRICED (Overvalued) -> Plots BELOW SML -> SELL.
+  3. If Expected Return = CAPM Return ($\alpha = 0$): Security is CORRECTLY PRICED -> On SML -> HOLD.
+
+8.4 Adjusting Portfolio Beta:
+To alter portfolio beta ($\beta_{\text{target}}$) using a Risk-Free Asset ($\beta_{Rf} = 0$):
+$$\beta_{\text{target}} = w_{\text{equity}} \times \beta_{\text{existing}} + w_{Rf} \times 0 = \frac{V_{\text{existing}}}{V_{\text{new}}} \times \beta_{\text{existing}}$$
+• To decrease beta: Invest additional cash in Risk-Free Securities ($+ \text{Cash}$).
+• To increase beta: Borrow at the risk-free rate or divest risk-free holdings ($- \text{Cash}$ / Leverage).
+
+================================================================================
+9. ARBITRAGE PRICING THEORY (APT)
+================================================================================
+9.1 Multi-Factor Structure (Stephen Ross - 1976):
+APT replaces the single-market-index assumption of CAPM with multiple macroeconomic risk factors:
+$$E(R_i) = R_f + \beta_{i1} \lambda_1 + \beta_{i2} \lambda_2 + \dots + \beta_{in} \lambda_n$$
+Where:
+- $\lambda_k$ = Risk premium associated with macroeconomic factor $k$
+- $\beta_{ik}$ = Sensitivity of security $i$ to factor $k$
+• Common APT Factors: Inflation, GDP growth, term structure of interest rates, and industrial production.
+• Unanticipated Surprise Model:
+  $$R_i = E(R_i) + \sum_{k=1}^m \beta_{ik} (\text{Actual Value}_k - \text{Expected Value}_k) + \epsilon_i$$
+
+================================================================================
+10. PORTFOLIO PERFORMANCE EVALUATION TECHNIQUES
+================================================================================
+1. Sharpe Ratio (Reward-to-Variability):
+   $$S = \frac{R_p - R_f}{\sigma_p}$$
+   Measures excess return per unit of TOTAL RISK. Best suited for evaluating un-diversified portfolios or sector funds where unsystematic risk remains.
+
+2. Treynor Ratio (Reward-to-Volatility):
+   $$T = \frac{R_p - R_f}{\beta_p}$$
+   Measures excess return per unit of SYSTEMATIC RISK. Best suited for well-diversified equity portfolios where unsystematic risk has been eliminated.
+
+3. Jensen's Alpha:
+   $$\alpha_p = R_p - [R_f + \beta_p (R_m - R_f)]$$
+   Measures absolute abnormal risk-adjusted return attributable to superior fund manager stock selection and market timing. $\alpha > 0$ indicates outperformance.
+
+================================================================================
+11. SHARPE'S OPTIMAL PORTFOLIO SELECTION ALGORITHM
+================================================================================
+Steps to construct the unique optimal portfolio without quadratic programming:
+1. Calculate Excess Return-to-Beta ratio for each security:
+   $$\text{Ratio}_i = \frac{R_i - R_f}{\beta_i}$$
+2. Rank securities in descending order from highest to lowest ratio.
+3. Compute cumulative cutoff parameter $C_i$ for ranked security $i$:
+   $$C_i = \frac{\sigma_m^2 \sum_{j=1}^i \frac{(R_j - R_f)\beta_j}{\sigma_{\epsilon j}^2}}{1 + \sigma_m^2 \sum_{j=1}^i \frac{\beta_j^2}{\sigma_{\epsilon j}^2}}$$
+4. Identify Cutoff Point $C^*$: The maximum value among all computed $C_i$.
+5. Selection Rule: Include all securities where $\frac{R_i - R_f}{\beta_i} > C^*$; reject all securities where ratio $< C^*$.
+6. Determine Portfolio Weights ($w_i$):
+   $$Z_i = \frac{\beta_i}{\sigma_{\epsilon i}^2} \left( \frac{R_i - R_f}{\beta_i} - C^* \right) \quad \text{and} \quad w_i = \frac{Z_i}{\sum_{j=1}^M Z_j}$$
+
+================================================================================
+12. PORTFOLIO REBALANCING & ASSET ALLOCATION STRATEGIES
+================================================================================
+12.1 Three Rebalancing Policies:
+1. Buy and Hold Policy ("Do Nothing"):
+   • Invest floor in non-fluctuating bonds, remainder in equities.
+   • No rebalancing trades executed. Pay-off line is a STRAIGHT LINE.
+   • Features: Downside protected at floor value; poor performance in severe bear markets.
+2. Constant Mix Policy ("Do Something"):
+   • Rebalances periodically to maintain a fixed asset proportion (e.g., 60% equity, 40% debt).
+   • Counter-cyclical: Sells equities as they rise, buys equities as they fall.
+   • Pay-off line is CONCAVE. Performs best in flat, oscillating/mean-reverting markets; underperforms in sharp trending markets.
+3. Constant Proportion Portfolio Insurance (CPPI):
+   • Dynamic insurance strategy:
+     $$\text{Target Equity Investment} = m \times (\text{Portfolio Value} - \text{Floor Value})$$
+     Where $m > 1$ is the multiplier.
+   • Momentum strategy: Sells equities as prices fall, buys equities as prices rise.
+   • Pay-off line is CONVEX. Superior downside protection in bear markets, exceptional upside in bull markets; performs poorly in volatile markets subject to sharp reversals (whipsaws).
+
+12.2 Asset Allocation Frameworks:
+• Integrated: Dynamically coordinates market forecasts with investor risk tolerance.
+• Strategic: Long-term asset allocation based on historical risk-return targets.
+• Tactical: Short-term opportunistic deviations to exploit perceived market mispricings.
+• Insured: Adjusts risk exposure upward as portfolio wealth exceeds a protected floor.
+
+================================================================================
+13. FIXED INCOME PORTFOLIOS & ALTERNATIVE INVESTMENTS
+================================================================================
+13.1 Fixed Income Management:
+• Passive: Buy & Hold, Indexation, Cash Flow Matching (Zero-Coupon Bonds), and Immunization ($D_{\text{port}} = H$).
+• Active Yield Curve Strategies:
+  (a) Bullet: Concentrates all maturities in a single maturity segment (e.g., 5-year bonds).
+  (b) Barbell: Invests equally in very short-term and very long-term bonds.
+  (c) Ladder: Distributes investments equally across consecutive annual maturities (e.g., 20% each across 1 to 5 years).
+• Bond Swaps: Pure Yield Pickup Swap, Substitution Swap, Inter-market Spread Swap, and Tax Swap.
+
+13.2 Alternative Investment Avenues:
+1. Real Estate Valuation: Sales Comparison Approach (P/E proxy), Income Capitalization Approach (discounted net operating income), Cost Approach (replacement cost + land), and Discounted After-Tax Cash Flow Approach.
+2. Gold Investments: Physical Gold Bars, Sovereign Gold Bonds (SGBs - RBI issued, 2.5% coupon + capital gains tax exemption at maturity), Gold ETFs, and E-Gold.
+3. Distressed Securities: Capital structure arbitrage by going Long Senior Debt and Short Common Equity.

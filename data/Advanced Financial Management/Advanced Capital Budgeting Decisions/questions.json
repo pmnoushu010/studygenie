@@ -1,0 +1,481 @@
+{
+  "summary": "This chapter covers Advanced Capital Budgeting Decisions for CA Final Advanced Financial Management (AFM). It explores capital budgeting under macroeconomic inflation, distinguishing nominal versus real cash flows and the depreciation tax shield distortion under historical costs. It covers comprehensive risk measurement and decision-making techniques: statistical measures (ENCF, ENPV, Variance, Standard Deviation, Coefficient of Variation), conventional approaches (Risk-Adjusted Discount Rate and Certainty Equivalent discounting at the risk-free rate), and advanced modeling tools (Sensitivity Analysis, Scenario Analysis, Monte Carlo Simulation, and Decision Trees). Finally, it details incremental machine replacement decisions, Optimum Replacement Cycles using Equivalent Annual Cost (EAC), and Adjusted Present Value (APV).",
+  "oneword": [
+    {
+      "q": "ABC Ltd. plans to invest ₹ 16,00,000 in a new unit. The project has a life of 4 years with no salvage value and annual SLM depreciation of ₹ 4,00,000. Corporate tax rate is 60%, and cost of capital is 10%. What is the annual depreciation tax benefit?\n(a) ₹ 3,00,000\n(b) ₹ 2,40,000\n(c) ₹ 3,60,000\n(d) ₹ 4,00,000",
+      "a": "(b) ₹ 2,40,000"
+    },
+    {
+      "q": "For ABC Ltd., projected uninflated revenue in Year 2 is ₹ 14,00,000. Annual revenue inflation is 10% in Year 1 and 9% in Year 2. What is the inflation-adjusted revenue in Year 2?\n(a) ₹ 16,78,600\n(b) ₹ 14,00,000\n(c) ₹ 10,03,520\n(d) ₹ 9,85,600",
+      "a": "(a) ₹ 16,78,600"
+    },
+    {
+      "q": "For ABC Ltd., in Year 1, uninflated revenue is ₹ 12,00,000 (inflation 10%) and uninflated cost is ₹ 6,00,000 (inflation 12%). Taking into account the annual depreciation tax shield of ₹ 2,40,000, what is the total cash inflow in Year 1?\n(a) ₹ 6,72,000\n(b) ₹ 6,60,000\n(c) ₹ 9,85,600\n(d) ₹ 4,99,200",
+      "a": "(d) ₹ 4,99,200"
+    },
+    {
+      "q": "For ABC Ltd., projected uninflated cost in Year 2 is ₹ 8,00,000. Cost inflation is 12% in Year 1 and 10% in Year 2. What is the inflation-adjusted cost in Year 2?\n(a) ₹ 16,78,600\n(b) ₹ 14,00,000\n(c) ₹ 10,03,520\n(d) ₹ 9,85,600",
+      "a": "(d) ₹ 9,85,600"
+    },
+    {
+      "q": "In the Certainty Equivalent (CE) approach to capital budgeting, what discount rate MUST be used to discount the certainty-equivalent cash flows to avoid double counting of risk?\n(a) Weighted Average Cost of Capital (WACC)\n(b) Cost of Equity (Ke)\n(c) Risk-Free Rate of Return (Rf)\n(d) Internal Rate of Return (IRR)",
+      "a": "(c) Risk-Free Rate of Return (Rf)"
+    },
+    {
+      "q": "A machine costs ₹ 4,00,000 and is evaluated for replacement cycles of 1, 2, and 3 years. The Equivalent Annual Cost (EAC) is ₹ 3,40,044 for 1 year, ₹ 3,15,331 for 2 years, and ₹ 3,17,639 for 3 years. What is the optimum replacement cycle?\n(a) 1 Year\n(b) 2 Years\n(c) 3 Years\n(d) Cannot be determined",
+      "a": "(b) 2 Years"
+    },
+    {
+      "q": "Under the Fisher relation, if the nominal discount rate is 12% and the annual inflation rate is 10%, what is the real discount rate?\n(a) 2.00%\n(b) 1.82%\n(c) 2.20%\n(d) 1.20%",
+      "a": "(b) 1.82%"
+    },
+    {
+      "q": "Under the Adjusted Present Value (APV) method, project evaluation separates investment viability from financing side effects according to which formula?\n(a) APV = Base Case NPV + PV of Interest Tax Shield\n(b) APV = Base Case NPV - WACC\n(c) APV = Accounting Profit + Depreciation\n(d) APV = Total Sales - Operating Costs",
+      "a": "(a) APV = Base Case NPV + PV of Interest Tax Shield"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Write a comprehensive note on the Certainty Equivalent (CE) approach. Why must cash flows adjusted by CE coefficients be discounted at the risk-free rate rather than the cost of capital?",
+      "a": "The Certainty Equivalent (CE) approach removes project risk by converting uncertain future cash flows into equivalent certain cash flows that management would accept with indifference:\n$$\\alpha_t = \\frac{\\text{Certain Cash Flow}_t}{\\text{Risky Cash Flow}_t} \\quad (0 \\le \\alpha_t \\le 1)$$\n\n$$\\text{NPV} = \\sum_{t=1}^{n} \\frac{\\alpha_t \\times \\text{NCF}_t}{(1 + k_f)^t} - I_0$$\n\nWhy Discount at Risk-Free Rate ($k_f$):\nBecause project risk has already been fully adjusted in the numerator by multiplying risky cash flows with the CE factor $\\alpha_t$, discounting by the firm's cost of capital (WACC) or a risk-adjusted rate would penalize the project twice for the same risk (double counting). Hence, discounting must strictly employ the risk-free rate ($k_f$)."
+    },
+    {
+      "q": "What is Sensitivity Analysis in Capital Budgeting? Outline the steps involved and explain its key limitations as compared to Scenario Analysis.",
+      "a": "Sensitivity Analysis is a financial modeling technique that measures the responsiveness of a project's outcome (NPV or IRR) to a change in a SINGLE input variable (e.g., selling price, unit cost, sales volume, initial outlay) while holding all other variables constant ('What if?' analysis).\n\nThree Steps:\n1. Identify key variables influencing project NPV.\n2. Establish mathematical relationships between variables and cash flows.\n3. Calculate the percentage change in NPV for a predetermined variation (e.g., 2.5% adverse change) in each variable to isolate the most critical factor.\n\nLimitations vs. Scenario Analysis:\n1. Assumption of Independence: In reality, variables are interrelated (e.g., price drop affects sales volume), whereas sensitivity analysis assumes variables change in isolation.\n2. Ignores Probabilities: It does not assess the likelihood of the adverse change occurring.\nScenario Analysis overcomes this by changing multiple variables simultaneously across predefined economic states (Worst Case, Normal, Best Case)."
+    },
+    {
+      "q": "Explain how capital investment projects must be appraised under inflationary conditions. Distinguish between the real cash flow approach and the nominal discount rate approach.",
+      "a": "Inflation raises future project revenues and operating costs. Because depreciation tax shields are tied to historical asset costs ($DT$), inflation erodes the real profitability of capital investments.\n\nConsistency Rule in Capital Budgeting:\n1. Nominal Approach: Inflate expected cash flows at their respective annual inflation rates to arrive at nominal cash flows, and discount them using the Nominal Discount Rate ($R_N = R_R + P + R_R \\cdot P$).\n2. Real Approach: Keep cash flows in base-year constant purchasing power terms (real cash flows) and discount them using the Real Discount Rate:\n$$\\text{Real Discount Rate} = \\frac{1 + \\text{Nominal Rate}}{1 + \\text{Inflation Rate}} - 1$$\nBoth methods yield mathematically identical NPV results when implemented consistently."
+    },
+    {
+      "q": "Describe the six steps involved in Monte Carlo Simulation Analysis in capital budgeting and discuss its strengths and shortcomings.",
+      "a": "Monte Carlo Simulation generates a continuous probability distribution of project NPVs through repeated stochastic sampling:\n\nSix Steps:\n1. Model the Project: Define mathematical equations linking NPV to exogenous and endogenous variables.\n2. Specify Probability Distributions: Assign probability distributions to stochastic variables (annual sales, life).\n3. Assign Random Numbers: Establish cumulative probabilities and ranges of random numbers.\n4. Run Random Sampling: Draw random numbers to select sample values for each variable.\n5. Compute Simulated NPV: Calculate NPV for each iteration.\n6. Repeat Iterations & Plot: Execute hundreds of iterations to compute expected mean NPV and standard deviation.\n\nStrengths & Shortcomings:\n- Strengths: Handles complex interrelationships and provides a full risk profile instead of a single-point estimate.\n- Shortcomings: Inherently complex to model, computationally intensive, and requires subjective estimation of probability distributions."
+    },
+    {
+      "q": "Explain the Adjusted Present Value (APV) method. When is it preferred over the traditional WACC approach?",
+      "a": "Adjusted Present Value (APV) evaluates a capital project by unbundling the investment decision from its financing consequences:\n$$\\text{APV} = \\text{Base Case NPV} + \\text{PV of Financing Side Effects}$$\n\nWhere:\n• Base Case NPV: Project NPV assuming 100% equity financing, discounted at the unlevered cost of equity ($K_e^u$).\n• PV of Financing Effects: Value of interest tax shields ($\\text{Debt} \\times K_d \\times T$), subsidized government financing, or debt issuance flotation costs.\n\nWhen Preferred:\nAPV is superior to WACC when a project's debt level changes over time (e.g., in Leveraged Buyouts / LBOs or project finance) where the debt-to-equity ratio is not constant, violating the fundamental assumption of WACC."
+    },
+    {
+      "q": "Explain the concept of Equivalent Annual Cost (EAC) and how it is applied to determine the Optimum Replacement Cycle of capital assets.",
+      "a": "As capital equipment ages, annual operating and maintenance expenses escalate while market salvage value deteriorates. Comparing replacement cycles of different lifespans (e.g., 1 year vs. 2 years vs. 3 years) directly through cumulative NPV is distorted by unequal time horizons.\n\nEquivalent Annual Cost (EAC) converts the present value of all cash outflows over an asset's cycle into a annualized cost stream:\n$$\\text{EAC} = \\frac{\\text{PV of All Capital and Operating Cash Outflows}}{\\text{PVIFA}(k, n)}$$\n\nDecision Rule:\nThe optimum replacement cycle is the operational lifespan ($n$) that MINIMIZES the Equivalent Annual Cost (EAC)."
+    }
+  ],
+  "fill": [
+    {
+      "q": "The formula to calculate Real Discount Rate from Nominal Rate and Inflation Rate is [(1 + Nominal Rate) / (1 + Inflation Rate)] - ____.",
+      "a": "1"
+    },
+    {
+      "q": "To determine the optimum replacement cycle of an asset with repeating lifespans, the decision metric used is Equivalent Annual ____.",
+      "a": "Cost"
+    },
+    {
+      "q": "In Adjusted Present Value, APV = Base Case NPV + PV of Tax Benefit on ____.",
+      "a": "Interest"
+    },
+    {
+      "q": "In a Decision Tree, a decision node where management exercises choice is represented by a ____.",
+      "a": "rectangle"
+    }
+  ],
+  "match": [
+    {
+      "q": "Certainty Equivalent Method",
+      "a": "Discounted at Risk-Free Rate to prevent double counting"
+    },
+    {
+      "q": "Sensitivity Analysis",
+      "a": "Adverse change in one variable holding others constant"
+    },
+    {
+      "q": "Monte Carlo Simulation",
+      "a": "Random number iteration to generate probability distribution of NPV"
+    },
+    {
+      "q": "Optimum Replacement Cycle",
+      "a": "Minimization of Equivalent Annual Cost (EAC)"
+    },
+    {
+      "q": "Adjusted Present Value (APV)",
+      "a": "Separation of investment NPV from financing interest tax shields"
+    }
+  ],
+  "essay": [
+    {
+      "q": "XYZ Ltd. requires ₹ 8,00,000 for a capital project. Useful life is 4 years with Nil salvage value. Depreciation is charged on straight-line basis at ₹ 2,00,000 p.a. Expected revenues and costs (excluding depreciation) ignoring inflation are as follows:\n- Year 1: Revenues ₹6,00,000; Costs ₹3,00,000\n- Year 2: Revenues ₹7,00,000; Costs ₹4,00,000\n- Year 3: Revenues ₹8,00,000; Costs ₹4,00,000\n- Year 4: Revenues ₹8,00,000; Costs ₹4,00,000\nApplicable tax rate is 60% and cost of capital is 10% (including inflation premium).\nAnnual inflation rates for revenues and costs over the 4 years are:\n- Revenues: Year 1 = 10%, Year 2 = 9%, Year 3 = 8%, Year 4 = 7%\n- Costs: Year 1 = 12%, Year 2 = 10%, Year 3 = 9%, Year 4 = 8%\nCalculate the Net Present Value (NPV) of the project and evaluate its financial viability.",
+      "a": "1. Inflation-Adjusted Revenues:\n- Year 1: ₹6,00,000 × 1.10 = ₹6,60,000\n- Year 2: ₹7,00,000 × (1.10)(1.09) = ₹8,39,300\n- Year 3: ₹8,00,000 × (1.10)(1.09)(1.08) = ₹10,35,936\n- Year 4: ₹8,00,000 × (1.10)(1.09)(1.08)(1.07) = ₹11,08,452\n\n2. Inflation-Adjusted Costs:\n- Year 1: ₹3,00,000 × 1.12 = ₹3,36,000\n- Year 2: ₹4,00,000 × (1.12)(1.10) = ₹4,92,800\n- Year 3: ₹4,00,000 × (1.12)(1.10)(1.09) = ₹5,37,152\n- Year 4: ₹4,00,000 × (1.12)(1.10)(1.09)(1.08) = ₹5,80,124\n\n3. Annual Depreciation Tax Benefit:\nAnnual Depreciation = ₹2,00,000. Tax Benefit @ 60% = ₹2,00,000 × 0.60 = ₹1,20,000.\n\n4. Net Profit After Tax and Operating Cash Inflows:\n- Year 1: Net Profit = ₹3,24,000; Tax @ 60% = ₹1,94,400; PAT = ₹1,29,600. Cash Inflow = ₹1,29,600 + ₹1,20,000 = ₹2,49,600. PV @ 10% (0.909) = ₹2,26,886.\n- Year 2: Net Profit = ₹3,46,500; Tax @ 60% = ₹2,07,900; PAT = ₹1,38,600. Cash Inflow = ₹1,38,600 + ₹1,20,000 = ₹2,58,600. PV @ 10% (0.826) = ₹2,13,604.\n- Year 3: Net Profit = ₹4,98,784; Tax @ 60% = ₹2,99,270; PAT = ₹1,99,514. Cash Inflow = ₹1,99,514 + ₹1,20,000 = ₹3,19,514. PV @ 10% (0.751) = ₹2,39,955.\n- Year 4: Net Profit = ₹5,28,328; Tax @ 60% = ₹3,16,997; PAT = ₹2,11,331. Cash Inflow = ₹2,11,331 + ₹1,20,000 = ₹3,31,331. PV @ 10% (0.683) = ₹2,26,299.\n\n5. Net Present Value:\nTotal PV of Inflows = ₹9,06,744.\nLess: Initial Outlay = ₹8,00,000.\nNPV = ₹9,06,744 - ₹8,00,000 = +₹1,06,744.\nConclusion: Since NPV is positive, the capital project is financially viable.",
+      "computation": {
+        "title": "Computation of Cash Flows and Net Present Value (NPV) under Differential Inflation - XYZ Ltd.",
+        "headers": [
+          { "title": "Year", "width": "10%" },
+          { "title": "Inflation-Adjusted Revenue (₹)", "width": "20%" },
+          { "title": "Inflation-Adjusted Cost (₹)", "width": "20%" },
+          { "title": "Net After-Tax Profit (₹)", "width": "18%" },
+          { "title": "Tax Shield on Dep. (₹)", "width": "16%" },
+          { "title": "Total Cash Inflow (₹)", "width": "16%" }
+        ],
+        "columnWidths": ["10%", "20%", "20%", "18%", "16%", "16%"],
+        "rows": [
+          [
+            { "text": "1", "align": "center" },
+            { "text": "6,60,000", "align": "right" },
+            { "text": "3,36,000", "align": "right" },
+            { "text": "1,29,600", "align": "right" },
+            { "text": "1,20,000", "align": "right" },
+            { "text": "2,49,600", "align": "right" }
+          ],
+          [
+            { "text": "2", "align": "center" },
+            { "text": "8,39,300", "align": "right" },
+            { "text": "4,92,800", "align": "right" },
+            { "text": "1,38,600", "align": "right" },
+            { "text": "1,20,000", "align": "right" },
+            { "text": "2,58,600", "align": "right" }
+          ],
+          [
+            { "text": "3", "align": "center" },
+            { "text": "10,35,936", "align": "right" },
+            { "text": "5,37,152", "align": "right" },
+            { "text": "1,99,514", "align": "right" },
+            { "text": "1,20,000", "align": "right" },
+            { "text": "3,19,514", "align": "right" }
+          ],
+          [
+            { "text": "4", "align": "center" },
+            { "text": "11,08,452", "align": "right" },
+            { "text": "5,80,124", "align": "right" },
+            { "text": "2,11,331", "align": "right" },
+            { "text": "1,20,000", "align": "right", "borderBottom": true },
+            { "text": "3,31,331", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "PV of Inflows", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Discounted at 10% Nominal WACC", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "9,06,744", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Less: Initial Outlay", "isItalicPrefix": true, "colSpan": 3 },
+            "", "",
+            { "text": "Year 0 Capital Cost", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "8,00,000", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Present Value (NPV)", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Decision: ACCEPT PROJECT", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "+ 1,06,744", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Depreciation tax shield remains unadjusted for inflation because tax rules mandate historical cost depreciation.",
+          "Since cash flows are computed in nominal terms, discounting at the nominal cost of capital (10%) satisfies the consistency rule."
+        ]
+      }
+    },
+    {
+      "q": "SS Company is considering replacing its existing machine with a new machine. The purchase price of the new machine is ₹ 26 Lakhs and its expected economic life is 8 years. The company follows the straight-line method of depreciation on original investment (scrap value ignored for depreciation).\nOther expenses incurred for the new machine:\n- Installation charges: ₹ 9,000\n- Consultant advisory fee: ₹ 6,000\n- Additional working capital: ₹ 17,000 (released at end of Year 8)\nThe written-down value (WDV) of the existing machine is ₹ 76,000, and its cash salvage value is ₹ 12,500. Dismantling costs amount to ₹ 4,500. Annual earnings before tax from the new machine will be ₹ 3,15,000. Income tax rate is 35%. Required rate of return is 13%.\nPVIF (13%, 8) = 0.376; PVIFA (13%, 8) = 4.800.\nYou are required to advise on the viability of the replacement proposal.",
+      "a": "1. Net Cash Outflow at Inception (Year 0):\n- Total Cost of New Machine = ₹26,00,000 + ₹9,000 + ₹6,000 = ₹26,15,000\n- Add: Additional Working Capital = ₹17,000\n- Gross Outlay = ₹26,32,000\n- Less: Net Realizable Value of Existing Machine:\n  - Gross Cash Salvage = ₹12,500\n  - Less: Dismantling Cost = ₹4,500\n  - Net Cash Proceeds = ₹8,000\n  - Loss on Sale = WDV (₹76,000) - Net Proceeds (₹8,000) = ₹68,000\n  - Tax Shield on Loss @ 35% = ₹68,000 × 0.35 = ₹23,800\n  - Total Inflow from Old Machine = ₹8,000 + ₹23,800 = ₹31,800\n- Net Initial Cash Outflow = ₹26,32,000 - ₹31,800 = ₹26,00,200 (or ₹26,15,000 + ₹17,000 - ₹31,800).\n\n2. Annual Operating Cash Savings After Tax:\n- Annual Depreciation on New Machine = ₹26,15,000 / 8 = ₹3,26,875\n- Annual Earnings Before Tax = ₹3,15,000\n- Less: Tax @ 35% = ₹1,10,250\n- Earnings After Tax (EAT) = ₹2,04,750\n- Add: Depreciation = ₹3,26,875\n- Annual Cash Savings = ₹5,31,625\n\n3. Present Value of Cash Inflows:\n- PV of Annual Cash Savings (Years 1-8) = ₹5,31,625 × 4.800 = ₹25,51,800\n- PV of Terminal Working Capital Released = ₹17,000 × 0.376 = ₹6,392\n- Total Present Value of Inflows = ₹25,51,800 + ₹6,392 = ₹25,58,192\n\n4. Net Present Value:\n- Net Initial Outflow = ₹26,00,200\n- NPV = ₹25,58,192 - ₹26,00,200 = - ₹42,008.\n\nDecision:\nSince the Net Present Value is negative (-₹42,008), the replacement proposal is financially unviable and should be REJECTED.",
+      "computation": {
+        "title": "Capital Budgeting Replacement Decision Analysis - SS Company",
+        "headers": [
+          { "title": "Particulars", "width": "55%" },
+          { "title": "Basis / Reference", "width": "22%" },
+          { "title": "Amount (₹)", "width": "23%" }
+        ],
+        "columnWidths": ["55%", "22%", "23%"],
+        "rows": [
+          [
+            { "text": "I. Initial Cash Outflow (Year 0)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Purchase Price of New Machine" },
+            { "text": "Invoice Price", "align": "center" },
+            { "text": "26,00,000", "align": "right" }
+          ],
+          [
+            { "text": "Add: Installation Charges & Advisory Fees", "isItalicPrefix": true },
+            { "text": "₹9,000 + ₹6,000", "align": "center" },
+            { "text": "15,000", "align": "right" }
+          ],
+          [
+            { "text": "Add: Additional Working Capital Requirement", "isItalicPrefix": true },
+            { "text": "Released in Year 8", "align": "center" },
+            { "text": "17,000", "align": "right" }
+          ],
+          [
+            { "text": "Less: Net Realizable Value of Old Machine", "isItalicPrefix": true },
+            { "text": "₹12,500 - ₹4,500", "align": "center" },
+            { "text": "- 8,000", "align": "right" }
+          ],
+          [
+            { "text": "Less: Tax Shield on Loss on Sale of Old Asset", "isItalicPrefix": true },
+            { "text": "(₹76,000 - ₹8,000) × 35%", "align": "center" },
+            { "text": "- 23,800", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Initial Cash Outflow", "isHeading": true },
+            "",
+            { "text": "26,00,200", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "II. Annual Cash Inflow Analysis (Years 1 to 8)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Annual Earnings Before Tax" },
+            { "text": "Projected", "align": "center" },
+            { "text": "3,15,000", "align": "right" }
+          ],
+          [
+            { "text": "Less: Corporate Income Tax @ 35%", "isItalicPrefix": true },
+            { "text": "35% of ₹3,15,000", "align": "center" },
+            { "text": "- 1,10,250", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Earnings After Tax (EAT)" },
+            "",
+            { "text": "2,04,750", "align": "right" }
+          ],
+          [
+            { "text": "Add: Annual Depreciation Tax Shield Added Back", "isItalicPrefix": true },
+            { "text": "₹26,15,000 / 8 Years", "align": "center" },
+            { "text": "+ 3,26,875", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Annual Cash Inflow After Tax (CFAT)", "isHeading": true },
+            "",
+            { "text": "5,31,625", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "III. Present Value & Project Decision", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "PV of Annual Cash Inflows (Years 1-8)" },
+            { "text": "₹5,31,625 × 4.800", "align": "center" },
+            { "text": "25,51,800", "align": "right" }
+          ],
+          [
+            { "text": "PV of Working Capital Recovery (Year 8)" },
+            { "text": "₹17,000 × 0.376", "align": "center" },
+            { "text": "+ 6,392", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Total Present Value of Cash Inflows", "isHeading": true },
+            "",
+            { "text": "25,58,192", "align": "right" }
+          ],
+          [
+            { "text": "Less: Net Initial Cash Outflow", "isItalicPrefix": true },
+            "",
+            { "text": "- 26,00,200", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Net Present Value (NPV)", "isHeading": true },
+            { "text": "Decision: REJECT REPLACEMENT", "align": "center", "isBoxed": true },
+            { "text": "- 42,008", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "The consultancy advisory fee of ₹6,000 directly relates to machine acquisition and is capitalized as part of the asset cost.",
+          "Since the net present value is negative, replacing the working machine would diminish firm value."
+        ]
+      }
+    },
+    {
+      "q": "X Ltd. is considering a new capital project with the following financial parameters:\n- Initial Capital Cost: ₹ 400 Crores\n- Annual Sales Volume: 5 Crore units\n- Selling Price per unit: ₹ 100\n- Variable Cost per unit: ₹ 50\n- Annual Fixed Costs: ₹ 50 Crores\n- Project Life: 3 Years\n- Cost of Capital (Discount Rate): 6% (PVIFA @ 6%, 3 years = 2.673)\nYou are required to:\n(i) Calculate the Base Case Net Present Value (NPV) of the project.\n(ii) Conduct a Sensitivity Analysis by computing the percentage impact on project NPV for a 2.5% adverse variance in each of the following variables: (a) Selling Price, (b) Variable Cost, (c) Annual Fixed Cost, (d) Sales Volume, (e) Initial Capital Cost.\n(iii) Identify which variable is the most critical to project success.",
+      "a": "1. Base Case Annual Net Cash Inflow:\n- Contribution per unit = ₹100 - ₹50 = ₹50\n- Total Contribution = 5 Cr units × ₹50 = ₹250 Crores\n- Less: Fixed Costs = ₹50 Crores\n- Annual Cash Inflow = ₹200 Crores\n- PV of Inflows = ₹200 Cr × 2.673 = ₹534.60 Crores\n- Base Case NPV = ₹534.60 Cr - ₹400 Cr = ₹134.60 Crores.\n\n2. Sensitivity Analysis (2.5% Adverse Variance):\n(a) Selling Price (-2.5%): New Price = ₹97.50. Contribution = ₹47.50. Inflow = ₹187.5 Cr. PV = ₹501.19 Cr. NPV = ₹101.19 Cr. Change in NPV = -24.82%.\n(b) Variable Cost (+2.5%): New Cost = ₹51.25. Contribution = ₹48.75. Inflow = ₹193.75 Cr. PV = ₹517.89 Cr. NPV = ₹117.89 Cr. Change in NPV = -12.41%.\n(c) Annual Fixed Cost (+2.5%): New Fixed Cost = ₹51.25 Cr. Inflow = ₹198.75 Cr. PV = ₹531.26 Cr. NPV = ₹131.26 Cr. Change in NPV = -2.48%.\n(d) Sales Volume (-2.5%): New Volume = 4.875 Cr units. Total Contribution = ₹243.75 Cr. Inflow = ₹193.75 Cr. PV = ₹517.89 Cr. NPV = ₹117.89 Cr. Change in NPV = -12.41%.\n(e) Initial Capital Cost (+2.5%): New Outlay = ₹410 Cr. Inflows remain ₹534.60 Cr. NPV = ₹124.60 Cr. Change in NPV = -7.43%.\n\nConclusion:\nSelling price is the most critical variable; a mere 2.5% drop slashes project NPV by 24.82%.",
+      "computation": {
+        "title": "Comprehensive Sensitivity Analysis of Project Parameters - X Ltd. (₹ in Crores)",
+        "headers": [
+          { "title": "Variable Under Stress", "width": "30%" },
+          { "title": "Base Value", "width": "16%" },
+          { "title": "2.5% Adverse Value", "width": "18%" },
+          { "title": "Revised NPV (₹ Cr)", "width": "18%" },
+          { "title": "% Change in NPV", "width": "18%" }
+        ],
+        "columnWidths": ["30%", "16%", "18%", "18%", "18%"],
+        "rows": [
+          [
+            { "text": "Base Case (No Variance)", "isHeading": true },
+            { "text": "Standard", "align": "center" },
+            { "text": "Standard", "align": "center" },
+            { "text": "134.60", "align": "right", "isBoxed": true },
+            { "text": "0.00%", "align": "center", "isBoxed": true }
+          ],
+          [
+            { "text": "Selling Price per unit", "isHeading": true },
+            { "text": "₹ 100.00", "align": "center" },
+            { "text": "₹ 97.50 (-2.5%)", "align": "center" },
+            { "text": "101.19", "align": "right" },
+            { "text": "- 24.82%", "align": "center", "style": { "color": "#ef4444", "fontWeight": "bold" } }
+          ],
+          [
+            { "text": "Variable Cost per unit" },
+            { "text": "₹ 50.00", "align": "center" },
+            { "text": "₹ 51.25 (+2.5%)", "align": "center" },
+            { "text": "117.89", "align": "right" },
+            { "text": "- 12.41%", "align": "center" }
+          ],
+          [
+            { "text": "Sales Volume (Units)" },
+            { "text": "5.00 Cr", "align": "center" },
+            { "text": "4.875 Cr (-2.5%)", "align": "center" },
+            { "text": "117.89", "align": "right" },
+            { "text": "- 12.41%", "align": "center" }
+          ],
+          [
+            { "text": "Initial Capital Cost" },
+            { "text": "₹ 400.00 Cr", "align": "center" },
+            { "text": "₹ 410.00 Cr (+2.5%)", "align": "center" },
+            { "text": "124.60", "align": "right" },
+            { "text": "- 7.43%", "align": "center" }
+          ],
+          [
+            { "text": "Annual Fixed Overhead Cost" },
+            { "text": "₹ 50.00 Cr", "align": "center" },
+            { "text": "₹ 51.25 Cr (+2.5%)", "align": "center" },
+            { "text": "131.26", "align": "right", "borderBottom": true },
+            { "text": "- 2.48%", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "Most Sensitive Parameter", "isHeading": true },
+            { "text": "SELLING PRICE", "align": "center", "isBoxed": true },
+            { "text": "Rank 1 Critical Factor", "align": "center", "isBoxed": true },
+            { "text": "- 24.82% Impact", "align": "right", "isBoxed": true },
+            { "text": "HIGH RISK", "align": "center", "isBoxed": true }
+          ]
+        ],
+        "notes": [
+          "Sensitivity is evaluated by shocking each variable independently by 2.5% in the adverse direction.",
+          "Management must establish strict pricing controls as minor market price erosions impact project viability far more severely than operational cost overruns."
+        ]
+      }
+    },
+    {
+      "q": "A production line machine costs ₹ 60,000 and must be replaced at least every four years. Costs incurred according to machine age are:\n- Year 1: Maintenance ₹16,000, Repair ₹0, Scrap Value ₹32,000\n- Year 2: Maintenance ₹18,000, Repair ₹4,000, Scrap Value ₹24,000\n- Year 3: Maintenance ₹20,000, Repair ₹8,000, Scrap Value ₹16,000\n- Year 4: Maintenance ₹20,000, Repair ₹16,000, Scrap Value ₹8,000\nFuture replacement will be with identical machines at the same cost. Revenue is unaffected by machine age. Cost of capital is 15%.\nPV factors @ 15%: Year 1 = 0.8696, Year 2 = 0.7561, Year 3 = 0.6575, Year 4 = 0.5718.\nIgnoring inflation and taxation, determine the Optimum Replacement Cycle using Equivalent Annual Cost (EAC).",
+      "a": "1. Cash Outflows for Each Replacement Cycle:\n- 1-Year Cycle: Year 0 Outlay (-₹60,000). Year 1 Net = -₹16,000 + ₹32,000 = +₹16,000. PV = -₹60,000 + (₹16,000 × 0.8696) = -₹46,086.\n  PVIFA (15%, 1) = 0.8696. EAC = ₹46,086 / 0.8696 = ₹ 52,997.\n\n- 2-Year Cycle: Year 0 (-₹60,000). Year 1 (-₹16,000). Year 2 Net = -₹22,000 + ₹24,000 = +₹2,000.\n  PV = -₹60,000 - (₹16,000 × 0.8696) + (₹2,000 × 0.7561) = -₹60,000 - ₹13,914 + ₹1,512 = -₹72,402.\n  PVIFA (15%, 2) = 0.8696 + 0.7561 = 1.6257. EAC = ₹72,402 / 1.6257 = ₹ 44,536.\n\n- 3-Year Cycle: Year 0 (-₹60,000). Year 1 (-₹16,000). Year 2 (-₹22,000). Year 3 Net = -₹28,000 + ₹16,000 = -₹12,000.\n  PV = -₹60,000 - ₹13,914 - (₹22,000 × 0.7561) - (₹12,000 × 0.6575) = -₹60,000 - ₹13,914 - ₹16,634 - ₹7,890 = -₹98,438.\n  PVIFA (15%, 3) = 1.6257 + 0.6575 = 2.2832. EAC = ₹98,438 / 2.2832 = ₹ 43,114.\n\n- 4-Year Cycle: Year 0 (-₹60,000). Year 1 (-₹16,000). Year 2 (-₹22,000). Year 3 (-₹28,000). Year 4 Net = -₹36,000 + ₹8,000 = -₹28,000.\n  PV = -₹98,438 - (₹16,000 × 0.6575) - (₹28,000 × 0.5718) = -₹1,24,968.\n  PVIFA (15%, 4) = 2.2832 + 0.5718 = 2.8550. EAC = ₹1,24,968 / 2.8550 = ₹ 43,772.\n\nConclusion:\nThe Equivalent Annual Cost is lowest in the 3-Year replacement cycle (₹ 43,114). Therefore, the optimum replacement policy is to replace the machine every 3 years.",
+      "computation": {
+        "title": "Optimum Machine Replacement Cycle Determination via Equivalent Annual Cost (EAC)",
+        "headers": [
+          { "title": "Replacement Cycle", "width": "22%" },
+          { "title": "PV of Total Outflows (₹)", "width": "26%" },
+          { "title": "Annuity Factor (PVIFA @ 15%)", "width": "26%" },
+          { "title": "Equivalent Annual Cost - EAC (₹)", "width": "26%" }
+        ],
+        "columnWidths": ["22%", "26%", "26%", "26%"],
+        "rows": [
+          [
+            { "text": "1 Year Cycle" },
+            { "text": "46,086", "align": "right" },
+            { "text": "0.8696", "align": "center" },
+            { "text": "52,997", "align": "right" }
+          ],
+          [
+            { "text": "2 Years Cycle" },
+            { "text": "72,402", "align": "right" },
+            { "text": "1.6257", "align": "center" },
+            { "text": "44,536", "align": "right" }
+          ],
+          [
+            { "text": "3 Years Cycle", "isHeading": true },
+            { "text": "98,438", "align": "right", "isBoxed": true },
+            { "text": "2.2832", "align": "center", "isBoxed": true },
+            { "text": "43,114", "align": "right", "isBoxed": true, "style": { "color": "#10b981", "fontWeight": "bold" } }
+          ],
+          [
+            { "text": "4 Years Cycle" },
+            { "text": "1,24,968", "align": "right", "borderBottom": true },
+            { "text": "2.8550", "align": "center", "borderBottom": true },
+            { "text": "43,772", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Optimal Decision", "isHeading": true },
+            { "text": "REPLACE EVERY 3 YEARS", "align": "center", "colSpan": 2, "isBoxed": true },
+            "",
+            { "text": "MINIMUM EAC = ₹ 43,114", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Operating costs rise from ₹16,000 in Year 1 to ₹36,000 in Year 4, while salvage value diminishes from ₹32,000 to ₹8,000.",
+          "Holding the machine beyond Year 3 causes repair overhauls that exceed the annualized capital amortization cost."
+        ]
+      }
+    },
+    {
+      "q": "A firm has an investment proposal requiring an initial capital outlay of ₹ 80,000 with a 2-year economic life and zero salvage value. The firm uses a 10% discount rate.\n- In Year 1: Probability of cash inflow of ₹ 50,000 is 0.4, and probability of ₹ 60,000 is 0.6.\n- In Year 2: Conditional probabilities are as follows:\n  • If Year 1 cash inflow is ₹ 50,000: ₹ 24,000 (prob 0.2), ₹ 32,000 (prob 0.3), ₹ 44,000 (prob 0.5).\n  • If Year 1 cash inflow is ₹ 60,000: ₹ 40,000 (prob 0.4), ₹ 50,000 (prob 0.5), ₹ 60,000 (prob 0.1).\nPV factors @ 10%: Year 1 = 0.909, Year 2 = 0.826.\nYou are required to:\n(i) Construct the Decision Tree path evaluation and calculate the Expected Net Present Value (ENPV).\n(ii) State the worst-case NPV outcome and its probability of occurrence.\n(iii) State the best-case NPV outcome and its probability of occurrence.\n(iv) Advise whether the investment proposal should be accepted.",
+      "a": "1. Decision Tree Paths and Individual Path NPVs:\n- Path 1: (50,000 × 0.909) + (24,000 × 0.826) - 80,000 = 45,450 + 19,824 - 80,000 = - ₹14,726. Joint Prob = 0.4 × 0.2 = 0.08.\n- Path 2: (50,000 × 0.909) + (32,000 × 0.826) - 80,000 = 45,450 + 26,432 - 80,000 = - ₹8,118. Joint Prob = 0.4 × 0.3 = 0.12.\n- Path 3: (50,000 × 0.909) + (44,000 × 0.826) - 80,000 = 45,450 + 36,344 - 80,000 = + ₹1,794. Joint Prob = 0.4 × 0.5 = 0.20.\n- Path 4: (60,000 × 0.909) + (40,000 × 0.826) - 80,000 = 54,540 + 33,040 - 80,000 = + ₹7,580. Joint Prob = 0.6 × 0.4 = 0.24.\n- Path 5: (60,000 × 0.909) + (50,000 × 0.826) - 80,000 = 54,540 + 41,300 - 80,000 = + ₹15,840. Joint Prob = 0.6 × 0.5 = 0.30.\n- Path 6: (60,000 × 0.909) + (60,000 × 0.826) - 80,000 = 54,540 + 49,560 - 80,000 = + ₹24,100. Joint Prob = 0.6 × 0.1 = 0.06.\n\n2. Expected Net Present Value (ENPV):\nENPV = (-14,726 × 0.08) + (-8,118 × 0.12) + (1,794 × 0.20) + (7,580 × 0.24) + (15,840 × 0.30) + (24,100 × 0.06)\n     = -1,178.08 - 974.16 + 358.80 + 1,819.20 + 4,752.00 + 1,446.00 = + ₹ 6,223.76.\n\n3. Worst-Case Outcome: Path 1 with NPV of - ₹14,726 (Probability = 8% or 0.08).\n4. Best-Case Outcome: Path 6 with NPV of + ₹24,100 (Probability = 6% or 0.06).\n5. Acceptance Decision: The project should be ACCEPTED because the Expected Net Present Value is positive (+ ₹6,223.76).",
+      "computation": {
+        "title": "Two-Stage Sequential Decision Tree Path Analysis and Expected NPV",
+        "headers": [
+          { "title": "Path No.", "width": "12%" },
+          { "title": "Cash Flow Sequence (₹)", "width": "28%" },
+          { "title": "Path NPV (₹)", "width": "20%" },
+          { "title": "Joint Probability", "width": "20%" },
+          { "title": "Expected NPV (₹)", "width": "20%" }
+        ],
+        "columnWidths": ["12%", "28%", "20%", "20%", "20%"],
+        "rows": [
+          [
+            { "text": "Path 1", "align": "center" },
+            { "text": "Yr 1: 50,000 | Yr 2: 24,000", "align": "center" },
+            { "text": "- 14,726", "align": "right" },
+            { "text": "0.40 × 0.20 = 0.08", "align": "center" },
+            { "text": "- 1,178.08", "align": "right" }
+          ],
+          [
+            { "text": "Path 2", "align": "center" },
+            { "text": "Yr 1: 50,000 | Yr 2: 32,000", "align": "center" },
+            { "text": "- 8,118", "align": "right" },
+            { "text": "0.40 × 0.30 = 0.12", "align": "center" },
+            { "text": "- 974.16", "align": "right" }
+          ],
+          [
+            { "text": "Path 3", "align": "center" },
+            { "text": "Yr 1: 50,000 | Yr 2: 44,000", "align": "center" },
+            { "text": "+ 1,794", "align": "right" },
+            { "text": "0.40 × 0.50 = 0.20", "align": "center" },
+            { "text": "+ 358.80", "align": "right" }
+          ],
+          [
+            { "text": "Path 4", "align": "center" },
+            { "text": "Yr 1: 60,000 | Yr 2: 40,000", "align": "center" },
+            { "text": "+ 7,580", "align": "right" },
+            { "text": "0.60 × 0.40 = 0.24", "align": "center" },
+            { "text": "+ 1,819.20", "align": "right" }
+          ],
+          [
+            { "text": "Path 5", "align": "center" },
+            { "text": "Yr 1: 60,000 | Yr 2: 50,000", "align": "center" },
+            { "text": "+ 15,840", "align": "right" },
+            { "text": "0.60 × 0.50 = 0.30", "align": "center" },
+            { "text": "+ 4,752.00", "align": "right" }
+          ],
+          [
+            { "text": "Path 6", "align": "center" },
+            { "text": "Yr 1: 60,000 | Yr 2: 60,000", "align": "center" },
+            { "text": "+ 24,100", "align": "right", "borderBottom": true },
+            { "text": "0.60 × 0.10 = 0.06", "align": "center", "borderBottom": true },
+            { "text": "+ 1,446.00", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Summary", "isHeading": true },
+            { "text": "Total Probability = 1.00", "align": "center", "isBoxed": true },
+            { "text": "Worst: -14,726", "align": "right", "isBoxed": true },
+            { "text": "Best: +24,100", "align": "center", "isBoxed": true },
+            { "text": "+ 6,223.76", "align": "right", "isDoubleBottom": true, "style": { "color": "#10b981", "fontWeight": "bold" } }
+          ]
+        ],
+        "notes": [
+          "Expected Monetary Value (EMV) at the chance node aggregates all branch present values weighted by joint probabilities.",
+          "Since expected NPV is positive (+ ₹6,223.76), the investment proposal is accepted despite an 8% probability of worst-case loss."
+        ]
+      }
+    }
+  ]
+}

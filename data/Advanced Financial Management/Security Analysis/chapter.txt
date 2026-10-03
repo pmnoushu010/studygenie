@@ -1,0 +1,267 @@
+CHAPTER 4: SECURITY ANALYSIS
+PAPER 2: ADVANCED FINANCIAL MANAGEMENT (CA FINAL)
+
+LEARNING OUTCOMES:
+After studying this chapter, students shall be able to understand:
+• The Fundamental Analysis framework and the Economy-Industry-Company (E-I-C) approach
+• Stock valuation models: Gordon's Dividend Growth Model and Fundamental P/E Multiples
+• Technical Analysis: Meaning, core assumptions, and underlying principles
+• Theories of Technical Analysis: Dow Theory, Elliot Wave Theory, and Random Walk Theory
+• Charting Techniques: Line, Bar, Japanese Candlestick, and Point & Figure charts
+• Chart patterns: Support & Resistance, Channels, Wedges, Head & Shoulders, Double Tops/Bottoms, and Gaps
+• Technical Market Indicators: Breadth Index, Volume of Transactions, Confidence Index, Relative Strength, and Odd-Lot Theory
+• Moving Averages: Arithmetic Moving Average (AMA) and Exponential Moving Average (EMA) computation and trading signals
+• Efficient Market Hypothesis (EMH): Weak, Semi-Strong, and Strong forms, empirical tests, market anomalies, and limitations
+• Modern Equity Research tools and digital platforms
+
+================================================================================
+1. INTRODUCTION TO SECURITY ANALYSIS
+================================================================================
+Security Analysis involves a systematic evaluation of the risk-return profiles of various financial assets to help rational investors estimate the intrinsic value of a company from all available price-sensitive information. The ultimate objective is to identify market mispricings—buying underpriced securities and selling or shorting overpriced securities to earn a superior risk-adjusted return.
+
+Two broad analytical disciplines are employed in security analysis:
+1. Fundamental Analysis: Examines economic, industry, and firm-specific fundamentals to determine the true "intrinsic value" of a security based on discounted future cash flows and dividend streams.
+2. Technical Analysis: Studies historical market trading data (prices, volumes, moving averages, and chart patterns) on the premise that market psychology and price trends repeat over time.
+
+================================================================================
+2. FUNDAMENTAL ANALYSIS & VALUATION MODELS
+================================================================================
+2.1 The Intrinsic Value Concept:
+Fundamental analysis operates on the core axiom that the share price depends upon the present value of future dividends expected by the shareholders discounted at an appropriate risk-adjusted capitalization rate ($k_e$). This discounted present value is defined as the "Intrinsic Value" of the share.
+• If Current Market Price ($P_0$) < Intrinsic Value ($V_0$): The security is UNDERPRICED (Undervalued) -> Recommendation: BUY.
+• If Current Market Price ($P_0$) > Intrinsic Value ($V_0$): The security is OVERPRICED (Overvalued) -> Recommendation: SELL.
+• If Current Market Price ($P_0$) = Intrinsic Value ($V_0$): The security is FAIRLY PRICED -> Recommendation: HOLD.
+
+2.2 Dividend Valuation Formulations:
+1. Uniform Perpetual Dividend:
+   If a firm pays a constant dividend of ₹ D per share perpetually:
+   $$P_0 = \frac{D}{k_e}$$
+
+2. Constant Dividend Growth Model (Gordon's Model):
+   Where dividends grow at a constant annual compounded rate $g$, such that $D_1 = D_0(1+g)$:
+   $$P_0 = \frac{D_1}{k_e - g} = \frac{D_0(1 + g)}{k_e - g} \quad (\text{Condition: } k_e > g)$$
+   Where:
+   - $P_0$ = Intrinsic price of the equity share today
+   - $D_0$ = Dividend per share (DPS) paid in the current period
+   - $D_1$ = Expected dividend per share at the end of Period 1
+   - $k_e$ = Desired / Required rate of return on the equity share
+   - $g$ = Expected perpetual annual growth rate in dividends ($g = b \times r$)
+
+3. Fundamental P/E Multiple Formulation:
+   Relating price to earnings via the dividend payout ratio ($b = D_1 / E_1$):
+   $$P_0 = \frac{b \times E_1}{k_e - g} = \frac{b \times E_0(1 + g)}{k_e - g}$$
+   Dividing both sides by next year's earnings per share ($E_1$), the Fundamental P/E Multiple is:
+   $$\frac{P_0}{E_1} = \frac{b}{k_e - g}$$
+
+================================================================================
+3. THE E-I-C FRAMEWORK (FUNDAMENTAL ANALYSIS STAGES)
+================================================================================
+Fundamental analysis encompasses three concentric circles representing the sequence of an investment decision:
+   [ Economic Analysis ]  -->  [ Industry Analysis ]  -->  [ Company Analysis ]
+
+3.1 Economic Analysis:
+Monitors macroeconomic health and aggregate growth prospects that dictate industrial demand and capital market liquidity.
+• Key Macro Factors:
+  (a) GDP Growth Rates: Differentiating between nominal GDP and real GDP (adjusted for inflation).
+  (b) Industrial Sector Growth: Measured via Index of Industrial Production (IIP).
+  (c) Inflation Rates: Wholesale Price Index (WPI) and Consumer Price Index (CPI). Inflation shifts purchasing power, increases borrowing costs, and distorts historical depreciation.
+  (d) Monsoon & Agriculture: Agricultural output provides forward linkages (raw materials for agro-industries) and backward linkages (rural consumer demand for FMCG, automobiles, and equipment).
+  (e) Money Supply & Liquidity: M3 growth influences bank credit availability, interest rates, and inflation. Equity investments act as an inflation hedge over long horizons.
+
+• Forecasting Techniques in Economic Analysis:
+  1. Anticipatory Surveys: Aggregates expert forecasts and business intentions regarding capital expenditures, inventory buildups, and consumer spending. Limitations: Surveyed intentions may not materialize and lack statistical forecast precision.
+  2. Barometer / Indicator Approach:
+     - Leading Indicators: Variables that reach turning points (peaks or troughs) prior to the aggregate economy (e.g., stock market indices, building permits, new business orders).
+     - Coincidental Indicators: Variables that move in tandem with aggregate economic performance (e.g., GDP, retail sales, industrial production).
+     - Lagging Indicators: Variables that change direction only after the aggregate economy has altered course (e.g., unemployment duration, commercial lending rates, inventory-to-sales ratios).
+     - Diffusion / Composite Index: Combines multiple indicators into a consolidated index to eliminate localized anomalies.
+  3. Economic Model Building: Uses econometric and national accounting frameworks (GNP modeling) to estimate aggregate demand components:
+     $$Y = C + I + G + (X - M)$$
+
+3.2 Industry Analysis:
+Examines structural characteristics, cost structures, and competitive forces governing specific industry sectors.
+• Key Industry Factors:
+  (a) Product Life Cycle (PLC):
+      - Pioneering / Initial Stage: Rapid sales growth, high risk, high initial margins.
+      - Expansion / Growth Stage: Solid volume growth, established competitors, high profitability.
+      - Maturity Stage: Saturation, intense price competition, moderate and steady margins.
+      - Decline Stage: Technological obsolescence or substitute products, falling profits.
+  (b) Demand-Supply Gap: Capacity additions vs. demand growth dictate unit price realization.
+  (c) Barriers to Entry: Capital intensity, proprietary patents, distribution networks, economies of scale.
+  (d) Government Attitude & Regulation: Subsidies, price controls, tariffs, PLI schemes.
+  (e) State of Competition: Homogeneous vs. differentiated products; growth vs. cyclical vs. defensive industries.
+  (f) Cost Structure & Profitability: Analysis of Gross Profit Ratio, Operating Margin, Return on Equity (ROE), and Return on Capital Employed (ROCE).
+  (g) Technology & R&D: Susceptibility to rapid technological disruption and obsolescence.
+
+• Techniques in Industry Analysis:
+  1. Regression Analysis: Relates industry sales/demand (dependent variable) to macroeconomic drivers like GDP, disposable income, and demographic shifts (independent variables).
+  2. Input-Output Analysis: Studies cross-sector flow of commodities to detect structural growth or decline across backward/forward linked industries.
+
+3.3 Company Analysis:
+Assesses the quantitative financial performance and qualitative competitive moats of an individual firm.
+• Quantitative Financial Evaluation:
+  (a) Net Worth & Book Value: Total Net Worth = Equity Capital + Preference Capital + Free Reserves - Intangibles - Fictitious Assets - Accumulated Losses. Book Value per Share = Net Worth / Outstanding Equity Shares. Limitation: Historical asset values do not reflect replacement cost or future earning capacity.
+  (b) Sources & Uses of Funds (Funds Flow Analysis): Evaluates whether short-term funds have been recklessly deployed to finance long-term illiquid assets (maturity mismatch leading to liquidity crisis).
+  (c) Financial Statement Analysis: Cross-sectional benchmarking against industry peers and longitudinal time-series trend analysis (operating efficiency, leverage, liquidity ratios).
+  (d) Growth Record & Capital Expenditure: Evaluates growth in Net Block (plant and machinery capacity expansion), EPS growth, and P/E relative to peer averages.
+
+• Qualitative Fundamentals:
+  (a) Quality of Management: Integrity, capital allocation discipline, transparency in investor conference calls (CEO/CFO Q&A sessions), and Management Discussion & Analysis (MD&A) reports.
+  (b) Corporate Governance: Full compliance with SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015, induction of truly independent directors, and institutional holding patterns.
+  (c) Competitive Advantage (Economic Moat): Sustained cost leadership, brand equity, high switching costs, and network effects (e.g., Apple, Samsung).
+  (d) Marketability & Liquidity: Public float dispersal, trading volumes, and bid-ask spreads.
+  (e) Group Analysis: Group company exposure norms and promoter share pledging disclosures mandated by SEBI and RBI.
+
+================================================================================
+4. TECHNICAL ANALYSIS: PRINCIPLES, THEORIES & PATTERNS
+================================================================================
+4.1 Definition & Core Premise:
+Technical Analysis is the study of historical market action—primarily through price charts, volume trends, and mathematical indicators—to forecast future price direction. It focuses on investor psychology and demand-supply equilibrium rather than accounting statements.
+
+4.2 Four Foundational Assumptions:
+1. The market value of a security is determined solely by the interaction of demand and supply.
+2. Supply and demand are governed by numerous rational and irrational market factors.
+3. Security prices move in persistent trends that endure over measurable periods of time.
+4. Changes in trends are caused by shifts in demand-supply balance, which can be detected through chart patterns.
+
+4.3 Three Guiding Principles:
+1. The Market Discounts Everything: All fundamental, macroeconomic, political, and psychological information is instantaneously absorbed into the market price.
+2. Price Moves in Trends: Prices do not move randomly from day to day; once established, a trend is more likely to continue than reverse.
+3. History Tends to Repeat Itself: Because human psychology and crowd emotions (fear and greed) are invariant over time, chart patterns repeat reliably.
+
+4.4 Theories of Technical Analysis:
+1. The Dow Theory (Charles Dow):
+   • Two averages must confirm: The Dow Jones Industrial Average (DJIA) and Dow Jones Transportation Average (DJTA) must validate trend breakouts simultaneously.
+   • Three Market Movements:
+     - Primary Trend: Long-term major trend lasting from 1 year to 36 months or more (Bull or Bear market).
+     - Secondary Reaction: Intermediate corrections against the primary trend lasting 2 weeks to a few months (retracing 33% to 66% of the primary move).
+     - Daily Fluctuations: Day-to-day noise lasting hours to days (not reliable for forecasting).
+   • Three Phases of a Primary Bull Market:
+     - Phase 1 (Accumulation): Astute, knowledgeable investors quietly accumulate shares at depressed prices amidst widespread economic pessimism.
+     - Phase 2 (Public Participation / Earnings Expansion): Corporate earnings improve, economic outlook stabilizes, and institutional/retail participants enter the market.
+     - Phase 3 (Rampant Speculation / Distribution): Widespread euphoria, speculative buying, and heavy media coverage. Astute investors begin offloading (distributing) their holdings to the public.
+
+2. Elliot Wave Theory (Ralph Nelson Elliot, 1934):
+   • Based on 75 years of stock price patterns and nature's Fibonacci sequences.
+   • Complete Market Cycle consists of 8 Waves:
+     - 5 Impulsive Waves (Numbered 1, 2, 3, 4, 5): Move in the direction of the main trend.
+       * Waves 1, 3, 5 are directional upward impulses.
+       * Waves 2 and 4 are corrective pullbacks within the basic uptrend.
+     - 3 Corrective Waves (Lettered a, b, c): Counter-trend correction against the main advance.
+       * Wave a moves against the primary trend.
+       * Wave b is a counter-trend retracement rally.
+       * Wave c is the final downward corrective wave.
+
+3. Random Walk Theory:
+   • Developed by statisticians including M.G. Kendall and popularized by Burton Malkiel.
+   • Asserts that successive stock price changes are serially independent and behave like a roulette wheel or a drunkard's walk in a blind lane.
+   • Successive peaks and troughs are statistical accidents; past price patterns hold zero predictive validity for future returns.
+
+4.5 Charting Formations & Price Patterns:
+• Chart Types:
+  - Line Chart: Simple plot connecting successive daily closing prices.
+  - Bar Chart (OHLC): Vertical line represents High to Low; left notch represents Opening price; right notch represents Closing price.
+  - Japanese Candlestick: Rectangular real body depicts Open-Close; upper and lower shadows (wicks) depict High-Low extremes. White/Green body = Bullish ($Close > Open$); Black/Red body = Bearish ($Close < Open$); Doji = Open equals Close (cross/plus sign indicating market indecision).
+  - Point & Figure (P&F) Chart: Eliminates the time axis. Uses columns of 'X' for price rises and 'O' for price declines based on a predefined Box Size (e.g., ₹1) and Reversal Criterion (e.g., 3 boxes).
+
+• Key Chart Formations:
+  - Support & Resistance: Support represents a price floor where buying interest halts declines; Resistance represents a price ceiling where selling pressure arrests advances. A decisive breakout beyond these levels establishes a new trend.
+  - Channels & Wedges: Channels feature parallel trendlines; wedges feature converging trendlines.
+  - Head and Shoulders (Top Pattern): Reliable major bearish reversal pattern consisting of a Left Shoulder, a higher Head, and a lower Right Shoulder. A decisive penetration below the Neckline confirms trend reversal. Target Price Drop = Vertical distance from peak of Head to Neckline subtracted from breakout point.
+  - Inverse Head and Shoulders: Major bullish reversal pattern forming at the base of a downtrend; breakout above Neckline signals aggressive upward rally.
+  - Triangles / Coils: Symmetrical, ascending, or descending triangles indicating consolidating volatility prior to a sharp breakout.
+  - Flags and Pennants: Short-term continuation patterns resembling flags on a mast, representing a brief consolidation before the prior trend resumes.
+  - Double Top ("M" Pattern): Bearish reversal signaling exhaustion at identical price peaks.
+  - Double Bottom ("W" Pattern): Bullish reversal signaling price support at identical price troughs.
+  - Price Gaps: Unfilled spaces between consecutive trading periods (Breakaway, Runaway/Measuring, and Exhaustion gaps).
+
+4.6 Technical Market Indicators:
+1. Breadth Index:
+   $$\text{Breadth Index} = \frac{\text{Net Advances or Declines}}{\text{Total Number of Issues Traded}}$$
+   Measures market breadth across all listed securities. Validates or contradicts moves in blue-chip indices (DJIA/Nifty).
+2. Volume of Transactions:
+   - Price Rise + Increasing Volume = Bullish confirmation (strong accumulation).
+   - Price Decline + Increasing Volume = Bearish confirmation (heavy distribution).
+   - Price Rise + Decreasing Volume = Bullish exhaustion / Bearish divergence.
+   - Price Decline + Decreasing Volume = Selling exhaustion.
+3. Confidence Index (Barron's Confidence Index):
+   $$\text{Confidence Index} = \frac{\text{Yield on High-Grade Bonds}}{\text{Yield on Low-Grade / Speculative Bonds}}$$
+   A rising ratio reflects investor confidence and appetite for risk, serving as a leading indicator of equity market rallies.
+4. Relative Strength Analysis:
+   Ratios comparing the performance of an individual stock against an industry index or the broad market. Strong relative performers tend to sustain outperformance over intermediate horizons.
+5. Odd-Lot Theory:
+   A contrary-opinion indicator assuming that small, retail odd-lot traders (transacting fewer than 100 shares) are consistently incorrect at crucial market turning points.
+
+4.7 Moving Average Models:
+1. Arithmetic Moving Average (AMA):
+   Simple unweighted moving average over an $n$-period window:
+   $$\text{AMA}_{n,t} = \frac{P_t + P_{t-1} + \dots + P_{t-(n-1)}}{n}$$
+   - 200-day / 30-week AMA: Long-term secular trend.
+   - 60-day AMA: Intermediate trend.
+   - 10-day AMA: Short-term tactical trend.
+
+2. Exponential Moving Average (EMA):
+   Assigns exponentially decreasing weights to older prices, placing highest priority on recent prices:
+   $$\text{EMA}_t = \text{EMA}_{t-1} + a \times (P_t - \text{EMA}_{t-1})$$
+   $$\text{or } \text{EMA}_t = a P_t + (1 - a) \text{EMA}_{t-1}$$
+   Where Smoothing Factor (Exponent) $a$:
+   $$a = \frac{2}{n + 1}$$
+   - Trading Signals:
+     * Buy Signal: Price crosses above a flattening or rising moving average line; or pulls back to a rising moving average and bounces upward.
+     * Sell Signal: Price penetrates below a flattening or declining moving average line; or rallies to a declining moving average and fails to break through.
+
+================================================================================
+5. EFFICIENT MARKET HYPOTHESIS (EMH)
+================================================================================
+5.1 Origin & Definition:
+Formulated by Prof. Eugene Fama (1960s, University of Chicago), the Efficient Market Hypothesis asserts that financial markets are informationally efficient: at any given moment, security prices fully and instantaneously reflect all available price-sensitive information. Consequently, no investor can systematically earn abnormal risk-adjusted returns ("beat the market").
+
+5.2 Three Forms of Market Efficiency:
+1. Weak-Form Efficiency:
+   • Information Set: All historical trading data (past prices, trading volumes, bid-ask spreads).
+   • Implication: Past price movements contain zero information regarding future price trajectories.
+   • Consequence: Technical analysis cannot generate superior abnormal returns.
+   • Empirical Tests:
+     (a) Serial Correlation Test: Tests whether returns at time $t$ correlate with returns at $t-k$. Empirical results reveal near-zero serial correlation across short holding periods.
+     (b) Run Test: Non-parametric statistical test counting the number of unbroken directional runs ($+$, $-$, or $0$) to verify whether price sequences conform to a random distribution:
+         $$\mu_r = \frac{2 n_1 n_2}{n_1 + n_2} + 1$$
+         $$\sigma_r = \sqrt{\frac{2 n_1 n_2 (2 n_1 n_2 - n_1 - n_2)}{(n_1 + n_2)^2 (n_1 + n_2 - 1)}}$$
+     (c) Filter Rules Test: Tests trading rules buying after an $N\%$ price advance and shorting after an $N\%$ decline. Net of brokerage fees, filter rules fail to beat a simple Buy-and-Hold strategy.
+
+2. Semi-Strong Form Efficiency:
+   • Information Set: All publicly available information (financial statements, earnings announcements, dividend changes, rights issues, management commentary, economic forecasts).
+   • Implication: Stock prices adjust instantaneously and without bias to public news announcements.
+   • Consequence: Neither Technical Analysis nor Fundamental Analysis can systematically yield abnormal returns.
+   • Empirical Event Studies:
+     - Fama, Fisher, Jensen & Roll (1969): Investigated 940 stock splits; verified that prices adjust to the information content prior to or immediately at the announcement date.
+     - Ball & Brown (1968): Verified price adjustments around annual earnings releases.
+   • Market Anomalies / Inefficiencies:
+     - Post-Earnings Announcement Drift (PEAD): Prices exhibit delayed reaction to unexpected earnings surprises.
+     - Small-Firm Effect (Banz): Small-cap stocks earn persistent positive risk-adjusted excess returns over large caps.
+     - Low P/E / Value Effect (Basu): Stocks with low P/E multiples systematically outperform high P/E growth stocks.
+     - Calendar Anomalies: Weekend / Monday effect (negative returns on Mondays) and January effect.
+
+3. Strong-Form Efficiency:
+   • Information Set: All information, whether publicly available or privately held (insider information).
+   • Implication: Prices reflect all inside secrets and proprietary corporate data.
+   • Consequence: Even corporate insiders cannot earn abnormal returns.
+   • Empirical Evidence: Strong-form efficiency DOES NOT HOLD in practice. Studies of corporate insiders and stock exchange specialists demonstrate consistent abnormal gains, leading to strict insider trading regulations globally.
+
+5.3 Key Challenges to EMH:
+1. Information Inadequacy & Misinformation: Information is neither freely available nor symmetrically distributed; corporate managements often selectively disclose or spin data.
+2. Limited Information Processing Capacity: Herbert Simon's Bounded Rationality notes that human cognition can process only ~1,000 bits per second against millions of data bits generated.
+3. Investor Irrationality & Behavioral Bias: J.M. Keynes pointed out that markets resemble "beauty contests" driven by crowd psychology, panic, and animal spirits rather than mathematical intrinsic values.
+4. Monopolistic Market Power: Institutional investors and sovereign wealth funds exert asymmetric influence over market order flow and price determination.
+
+================================================================================
+6. EQUITY RESEARCH & TOOLS
+================================================================================
+Equity Research involves in-depth financial analysis of public companies, financial modeling, forecasting earnings, and issuing investment recommendations (Buy, Sell, Hold).
+• Premier Digital Platforms:
+  1. Bloomberg Terminal (1981): Comprehensive global financial market data, pricing, and execution platform.
+  2. Refinitiv EIKON (2010): Real-time news, multi-asset analytics, and financial fundamentals.
+  3. Koyfin (2016): Advanced graphing, financial data visualization, and macroeconomic tracking.
+  4. Finbox.io (2014): Valuation modeling, automated DCF templates, and financial screener.
+  5. GuruFocus (2004): Value investing analytics, insider trading tracking, and financial health scores.
+  6. YCharts (2009): Visual economic time-series indicators and portfolio benchmarking.
+  7. Benzinga Pro (2010), MarketXLS (2015), Stockopedia (2010), Business Quant (2014).

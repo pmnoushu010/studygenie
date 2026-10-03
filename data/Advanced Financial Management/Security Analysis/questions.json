@@ -1,0 +1,449 @@
+{
+  "summary": "This chapter covers Security Analysis for CA Final Advanced Financial Management (AFM). It encompasses Fundamental Analysis using the Economy-Industry-Company (E-I-C) framework, stock valuation models (Gordon's Dividend Growth Model and Fundamental P/E Multiples), and Technical Analysis (Dow Theory, Elliot Wave Theory, Random Walk Theory, Charting Formations, and Technical Indicators). Furthermore, it provides mathematical formulations for Moving Averages (AMA and EMA), empirical testing of the Efficient Market Hypothesis (Weak, Semi-Strong, and Strong forms via Run Tests and Serial Correlation), and an evaluation of modern digital Equity Research tools.",
+  "oneword": [
+    {
+      "q": "Under Fundamental Analysis, if a share's estimated intrinsic value is ₹ 180 and its current market price on the stock exchange is ₹ 150, what action should a rational investment manager take?\n(a) Sell the share\n(b) Buy the share\n(c) Short sell the share\n(d) Ignore the share",
+      "a": "(b) Buy the share"
+    },
+    {
+      "q": "According to Gordon's Dividend Growth Model, if current dividend per share (D0) is ₹ 10, constant growth rate (g) is 8%, and the desired rate of return (ke) is 14%, what is the intrinsic value (P0) of the share?\n(a) ₹ 180\n(b) ₹ 166.67\n(c) ₹ 125\n(d) ₹ 200",
+      "a": "(a) ₹ 180"
+    },
+    {
+      "q": "In the Dow Theory of technical analysis, what are the three distinct categories of market movements occurring simultaneously?\n(a) Primary movement, Secondary movement, and Daily fluctuations\n(b) Bull trend, Bear trend, and Sideways trend\n(c) Impulsive wave, Corrective wave, and Random walk\n(d) Leading index, Coincidental index, and Lagging index",
+      "a": "(a) Primary movement, Secondary movement, and Daily fluctuations"
+    },
+    {
+      "q": "Under Elliot Wave Theory, a complete market cycle consists of how many total waves across the impulsive and corrective phases?\n(a) 5 Waves (3 impulsive + 2 corrective)\n(b) 8 Waves (5 impulsive + 3 corrective)\n(c) 6 Waves (4 impulsive + 2 corrective)\n(d) 10 Waves (5 impulsive + 5 corrective)",
+      "a": "(b) 8 Waves (5 impulsive + 3 corrective)"
+    },
+    {
+      "q": "In a Japanese Candlestick chart, what does a 'Doji' candlestick indicate about the trading session?\n(a) Strong bullish expansion with closing near the day's high\n(b) Opening and closing prices are identical or virtually the same, reflecting market indecision\n(c) Severe selling pressure with closing at the day's low\n(d) Absence of any trading volume",
+      "a": "(b) Opening and closing prices are identical or virtually the same, reflecting market indecision"
+    },
+    {
+      "q": "What is the formula to calculate the smoothing exponent (a) for an n-day Exponential Moving Average (EMA)?\n(a) a = 1 / n\n(b) a = 2 / (n + 1)\n(c) a = (n - 1) / (n + 1)\n(d) a = 2 / n",
+      "a": "(b) a = 2 / (n + 1)"
+    },
+    {
+      "q": "Barron's Confidence Index is defined mathematically as which of the following ratios?\n(a) Total Trading Volume / Total Market Capitalization\n(b) Yield on High-Grade Bonds / Yield on Low-Grade Bonds\n(c) Advances / (Advances + Declines)\n(d) Market Price / Book Value per Share",
+      "a": "(b) Yield on High-Grade Bonds / Yield on Low-Grade Bonds"
+    },
+    {
+      "q": "Which form of the Efficient Market Hypothesis (EMH) asserts that stock prices fully reflect ALL information, both publicly available and private/insider information?\n(a) Weak Form\n(b) Semi-Strong Form\n(c) Strong Form\n(d) Random Walk Form",
+      "a": "(c) Strong Form"
+    }
+  ],
+  "sa": [
+    {
+      "q": "Explain the Dow Theory of technical analysis. Describe its three simultaneous movements and the three distinct phases of a primary bull market.",
+      "a": "Originated by Charles Dow in the late 19th century, the Dow Theory posits that market averages reflect all available information and act as a reliable barometer of business.\n\n1. Three Simultaneous Market Movements:\n• Primary Movement: The major long-term trend lasting from 1 year to 36 months or more, establishing either a secular bull or bear market.\n• Secondary Movement: Intermediate corrective reactions against the primary trend lasting 2 weeks to a month or more, retracing 33% to 66% of the primary move.\n• Daily Fluctuations: Day-to-day narrow price changes representing market noise, which are not used alone for forecasting.\n\n2. Three Phases of a Primary Bull Market:\n• Phase 1 (Accumulation): Knowledgeable, far-sighted institutional investors quietly accumulate shares at depressed valuations amidst widespread economic pessimism.\n• Phase 2 (Public Participation / Earnings Growth): Corporate financial earnings improve, positive economic data arrives, and the broad public joins the uptrend.\n• Phase 3 (Rampant Speculation / Distribution): Rampant speculation and widespread euphoria prevail. Far-sighted investors realize earnings peaks cannot be sustained and begin offloading (distributing) their holdings to the speculative crowd."
+    },
+    {
+      "q": "Explain Ralph Elliot's Wave Theory. Describe the structure of impulsive and corrective waves that comprise a complete eight-wave market cycle.",
+      "a": "Formulated by Ralph Nelson Elliot in 1934 based on 75 years of stock price history, the Elliot Wave Theory states that market prices unfold in repetitive, recognizable wave patterns driven by collective human psychology.\n\n1. Structure of a Complete 8-Wave Cycle:\nA complete cycle comprises 8 waves divided into two distinct phases:\n• Impulsive Phase (Numbered 1, 2, 3, 4, 5): Moves in the direction of the primary trend.\n  - Waves 1, 3, and 5 are directional upward impulses.\n  - Waves 2 and 4 are counter-trend corrective pullbacks within the basic bull advance.\n• Corrective Phase (Lettered a, b, c): Moves against the direction of the primary trend.\n  - Wave 'a' initiates the downward reaction.\n  - Wave 'b' is a short-lived upward corrective retracement rally.\n  - Wave 'c' completes the downward decline.\n\nOnce an 8-wave cycle terminates, a fresh larger-degree impulse or corrective cycle begins."
+    },
+    {
+      "q": "Distinguish between Fundamental Analysis and Technical Analysis across: (a) Analytical Method, (b) Guiding Rule, and (c) Investment Time Horizon.",
+      "a": "Comparison between Fundamental and Technical Analysis:\n\n1. Analytical Method:\n• Fundamental Analysis: Evaluates the intrinsic value of a security by examining macroeconomic variables (GDP, inflation, interest rates), industry dynamics (product life cycle, entry barriers), and company financial statements (sales, profitability, cash flows, solvency).\n• Technical Analysis: Forecasts future price directions purely using historical market trading data, price charts, volume patterns, and mathematical indicators (moving averages, oscillators).\n\n2. Guiding Rule:\n• Fundamental Analysis: Operates on the premise that share prices gravitate toward their intrinsic value (discounted future cash flows). Buy when market price < intrinsic value; sell when market price > intrinsic value.\n• Technical Analysis: Operates on the premise that 'the market discounts everything', price moves in persistent trends, and historical chart patterns repeat due to invariant crowd psychology.\n\n3. Investment Time Horizon:\n• Fundamental Analysis: Primarily designed for Long-Term Investing and wealth creation.\n• Technical Analysis: Primarily utilized for Short-Term Trading and market timing."
+    },
+    {
+      "q": "What is the Barometer / Indicator Approach in Economic Analysis? Differentiate between Leading, Coincidental, and Lagging economic indicators.",
+      "a": "The Barometer or Indicator Approach monitors time-series data of key macroeconomic variables to determine the future trajectory of aggregate economic activity.\n\n1. Leading Indicators:\nVariables that reach their turning points (peaks or troughs) IN ADVANCE of the aggregate economy. They lead economic activity and signal upcoming recessions or expansions (e.g., stock market indices, building permits, new manufacturing orders, money supply growth).\n\n2. Roughly Coincidental Indicators:\nVariables that reach peaks and troughs at APPROXIMATELY THE SAME TIME as the aggregate economy. They reflect the current state of business activity (e.g., Gross Domestic Product, Index of Industrial Production, retail sales).\n\n3. Lagging Indicators:\nVariables that reach turning points AFTER the aggregate economy has already transitioned. They validate that an economic shift has firmly occurred (e.g., average duration of unemployment, corporate commercial borrowing rates, inventory-to-sales ratios).\n\nTo overcome conflicting signals, analysts construct a Diffusion or Composite Index combining several indicators into a single unified benchmark."
+    },
+    {
+      "q": "Explain the Semi-Strong form of the Efficient Market Hypothesis (EMH). What empirical market anomalies challenge this hypothesis?",
+      "a": "The Semi-Strong form of EMH asserts that security prices rapidly and unbiasedly adjust to all publicly available information (financial statements, earnings announcements, dividends, stock splits, rights issues). Consequently, fundamental analysis cannot consistently yield abnormal risk-adjusted returns.\n\nEmpirical Market Anomalies Challenging Semi-Strong Efficiency:\n1. Post-Earnings Announcement Drift (PEAD): Stock prices adjust gradually rather than instantaneously to quarterly earnings surprises, allowing abnormal returns after earnings releases.\n2. Small-Firm Effect (Banz): Portfolios of small-capitalization companies consistently earn higher risk-adjusted returns than large-cap stocks over long horizons.\n3. Low P/E Ratio Effect (Basu): Stocks with low P/E multiples (value stocks) systematically outperform stocks with high P/E multiples (growth stocks).\n4. Calendar / Day-of-the-Week Anomalies: Average stock returns on Mondays are statistically significantly lower (frequently negative) than on other trading days."
+    },
+    {
+      "q": "Discuss the major challenges and criticisms raised against the Efficient Market Theory.",
+      "a": "Critics and behavioral economists challenge the Efficient Market Theory on four fundamental grounds:\n\n1. Information Inadequacy & Misinformation:\nInformation is neither freely available nor instantaneously and symmetrically transmitted to all market participants. Companies frequently delay disclosures or distribute biased information.\n\n2. Limited Information Processing Capabilities (Bounded Rationality):\nAs formulated by Herbert Simon, human perceptual faculties can process approximately 1,000 bits of information per second, whereas the financial market environment generates millions of data bits continuously, leading to cognitive bottlenecks and heuristic shortcuts.\n\n3. Irrational Crowd Psychology:\nAs argued by J.M. Keynes, market valuations are driven by crowd sentiment, speculation, and 'animal spirits' rather than mathematical intrinsic yields. L.C. Gupta observed that market pricing operates haphazardly, resembling a 'blind man firing a gun'.\n\n4. Monopolistic Market Influence:\nLarge financial institutions, sovereign wealth funds, and cartel operators execute massive block trades that distort supply and demand, undermining the competitive equilibrium assumed by EMH."
+    }
+  ],
+  "fill": [
+    {
+      "q": "In Gordon's Dividend Growth Model, the intrinsic value is given by P0 = D1 / (ke - ____).",
+      "a": "g"
+    },
+    {
+      "q": "The smoothing factor (exponent) for a 31-day Exponential Moving Average (EMA) is ____.",
+      "a": "0.062"
+    },
+    {
+      "q": "In the Dow Theory, the three simultaneous movements are Primary, Secondary, and ____ fluctuations.",
+      "a": "Daily"
+    },
+    {
+      "q": "In Elliot Wave Theory, the impulsive phase consists of 5 waves and the corrective phase consists of ____ waves.",
+      "a": "3"
+    },
+    {
+      "q": "In Run Test analysis, when the sign of successive price change differs, the current run ends and a new run ____.",
+      "a": "begins"
+    }
+  ],
+  "match": [
+    {
+      "q": "Weak Form Efficiency",
+      "a": "Prices reflect all past market trading data and volume"
+    },
+    {
+      "q": "Semi-Strong Form Efficiency",
+      "a": "Prices rapidly reflect all publicly available financial information"
+    },
+    {
+      "q": "Strong Form Efficiency",
+      "a": "Prices reflect all public and private insider information"
+    },
+    {
+      "q": "Head and Shoulders Top",
+      "a": "Major bearish reversal pattern signaling trend change"
+    },
+    {
+      "q": "Confidence Index",
+      "a": "Ratio of high-grade bond yields to low-grade bond yields"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Closing values of NSE Nifty / Sensex for 12 calendar days from 6th to 17th January 2020 are given below:\n- Day 1 (6th Jan, Thu): 14,522\n- Day 2 (7th Jan, Fri): 14,925\n- Day 3 (8th Jan, Sat): No Trading\n- Day 4 (9th Jan, Sun): No Trading\n- Day 5 (10th Jan, Mon): 15,222\n- Day 6 (11th Jan, Tue): 16,000\n- Day 7 (12th Jan, Wed): 16,400\n- Day 8 (13th Jan, Thu): 17,000\n- Day 9 (14th Jan, Fri): No Trading\n- Day 10 (15th Jan, Sat): No Trading\n- Day 11 (16th Jan, Sun): No Trading\n- Day 12 (17th Jan, Mon): 18,000\n\nYou are required to:\n(i) Calculate the Exponential Moving Average (EMA) of Sensex for each active trading day, assuming the previous day EMA prior to 6th January was 15,000 and the smoothing exponent for a 31-day EMA is 0.062.\n(ii) Provide a detailed technical market analysis and trading recommendation on the basis of your calculations.",
+      "a": "1. Mathematical Formula for Exponential Moving Average (EMA):\n$$\\text{EMA}_t = \\text{EMA}_{t-1} + a \\times (P_t - \\text{EMA}_{t-1})$$\n$$\\text{or } \\text{EMA}_t = (P_t - \\text{EMA}_{t-1}) \\times 0.062 + \\text{EMA}_{t-1}$$\nWhere:\n• $P_t$ = Closing price of today\n• $\\text{EMA}_{t-1}$ = Exponential moving average of previous trading day\n• $a$ = Smoothing factor (exponent) = $2 / (n + 1) = 2 / (31 + 1) = 0.0625 \\approx 0.062$\n\n2. Day-by-Day Step Calculations:\n• 6th Jan: $P_t = 14,522$, $\\text{EMA}_{t-1} = 15,000$.\n  Difference = $14,522 - 15,000 = -478$.\n  Adjustment = $-478 \\times 0.062 = -29.636$.\n  $\\text{EMA}_t = 15,000 - 29.636 = 14,970.364$.\n• 7th Jan: $P_t = 14,925$, $\\text{EMA}_{t-1} = 14,970.364$.\n  Difference = $14,925 - 14,970.364 = -45.364$.\n  Adjustment = $-45.364 \\times 0.062 = -2.813$.\n  $\\text{EMA}_t = 14,970.364 - 2.813 = 14,967.551$.\n• 10th Jan: $P_t = 15,222$, $\\text{EMA}_{t-1} = 14,967.551$.\n  Difference = $15,222 - 14,967.551 = +254.449$.\n  Adjustment = $+254.449 \\times 0.062 = +15.776$.\n  $\\text{EMA}_t = 14,967.551 + 15.776 = 14,983.327$.\n• 11th Jan: $P_t = 16,000$, $\\text{EMA}_{t-1} = 14,983.327$.\n  Difference = $16,000 - 14,983.327 = +1016.673$.\n  Adjustment = $+1016.673 \\times 0.062 = +63.034$.\n  $\\text{EMA}_t = 14,983.327 + 63.034 = 15,046.361$.\n• 12th Jan: $P_t = 16,400$, $\\text{EMA}_{t-1} = 15,046.361$.\n  Difference = $16,400 - 15,046.361 = +1353.639$.\n  Adjustment = $+1353.639 \\times 0.062 = +83.926$.\n  $\\text{EMA}_t = 15,046.361 + 83.926 = 15,130.287$.\n• 13th Jan: $P_t = 17,000$, $\\text{EMA}_{t-1} = 15,130.287$.\n  Difference = $17,000 - 15,130.287 = +1869.713$.\n  Adjustment = $+1869.713 \\times 0.062 = +115.922$.\n  $\\text{EMA}_t = 15,130.287 + 115.922 = 15,246.209$.\n• 17th Jan: $P_t = 18,000$, $\\text{EMA}_{t-1} = 15,246.209$.\n  Difference = $18,000 - 15,246.209 = +2753.791$.\n  Adjustment = $+2753.791 \\times 0.062 = +170.735$.\n  $\\text{EMA}_t = 15,246.209 + 170.735 = 15,416.944$.\n\n3. Technical Analysis & Trading Recommendation:\n• The actual closing price of Sensex surged from 14,522 to 18,000 over the period.\n• The 31-day EMA reversed its initial minor dip and steadily climbed from 14,970.364 to 15,416.944.\n• On 10th January, the price line (15,222) crossed decisively above the rising EMA (14,967.551), generating a primary BUY signal.\n• By 17th January, the current price (18,000) trades significantly above the EMA (15,416.944), confirming strong bullish momentum.\n• Recommendation: The market is firmly bullish in the short to medium term. Investors and brokers should maintain long positions.",
+      "computation": {
+        "title": "Computation of 31-Day Exponential Moving Average (EMA) - Sensex (January 2020)",
+        "headers": [
+          { "title": "Trading Date", "width": "14%" },
+          { "title": "(1) Sensex Closing Price", "width": "18%" },
+          { "title": "(2) Previous Day EMA", "width": "18%" },
+          { "title": "(3) Difference (1 - 2)", "width": "16%" },
+          { "title": "(4) Weight Adj. (3 × 0.062)", "width": "17%" },
+          { "title": "(5) Current EMA (2 + 4)", "width": "17%" }
+        ],
+        "columnWidths": ["14%", "18%", "18%", "16%", "17%", "17%"],
+        "rows": [
+          [
+            { "text": "6th Jan", "align": "center" },
+            { "text": "14,522.000", "align": "right" },
+            { "text": "15,000.000", "align": "right" },
+            { "text": "- 478.000", "align": "right" },
+            { "text": "- 29.636", "align": "right" },
+            { "text": "14,970.364", "align": "right" }
+          ],
+          [
+            { "text": "7th Jan", "align": "center" },
+            { "text": "14,925.000", "align": "right" },
+            { "text": "14,970.364", "align": "right" },
+            { "text": "- 45.364", "align": "right" },
+            { "text": "- 2.813", "align": "right" },
+            { "text": "14,967.551", "align": "right" }
+          ],
+          [
+            { "text": "10th Jan", "align": "center" },
+            { "text": "15,222.000", "align": "right" },
+            { "text": "14,967.551", "align": "right" },
+            { "text": "+ 254.449", "align": "right" },
+            { "text": "+ 15.776", "align": "right" },
+            { "text": "14,983.327", "align": "right" }
+          ],
+          [
+            { "text": "11th Jan", "align": "center" },
+            { "text": "16,000.000", "align": "right" },
+            { "text": "14,983.327", "align": "right" },
+            { "text": "+ 1,016.673", "align": "right" },
+            { "text": "+ 63.034", "align": "right" },
+            { "text": "15,046.361", "align": "right" }
+          ],
+          [
+            { "text": "12th Jan", "align": "center" },
+            { "text": "16,400.000", "align": "right" },
+            { "text": "15,046.361", "align": "right" },
+            { "text": "+ 1,353.639", "align": "right" },
+            { "text": "+ 83.926", "align": "right" },
+            { "text": "15,130.287", "align": "right" }
+          ],
+          [
+            { "text": "13th Jan", "align": "center" },
+            { "text": "17,000.000", "align": "right" },
+            { "text": "15,130.287", "align": "right" },
+            { "text": "+ 1,869.713", "align": "right" },
+            { "text": "+ 115.922", "align": "right" },
+            { "text": "15,246.209", "align": "right" }
+          ],
+          [
+            { "text": "17th Jan", "align": "center" },
+            { "text": "18,000.000", "align": "right" },
+            { "text": "15,246.209", "align": "right" },
+            { "text": "+ 2,753.791", "align": "right", "borderBottom": true },
+            { "text": "+ 170.735", "align": "right", "borderBottom": true },
+            { "text": "15,416.944", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Technical Evaluation", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Price (18,000) > EMA (15,417)", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "STRONGLY BULLISH", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Non-trading days (Saturdays, Sundays, and market holidays) are excluded from the sequence of EMA calculations.",
+          "Formula used: EMAt = EMAt-1 + 0.062 × (Pt - EMAt-1). Since market price line penetrates and expands above the moving average, a Buy/Long signal is established."
+        ]
+      }
+    },
+    {
+      "q": "The closing value of a Stock Market Index for the month of October 2007 is given below across 20 trading sessions:\n- 01.10.07: 2,800\n- 03.10.07: 2,780\n- 04.10.07: 2,795\n- 05.10.07: 2,830\n- 08.10.07: 2,760\n- 09.10.07: 2,790\n- 10.10.07: 2,880\n- 11.10.07: 2,960\n- 12.10.07: 2,990\n- 15.10.07: 3,200\n- 16.10.07: 3,300\n- 17.10.07: 3,450\n- 19.10.07: 3,360\n- 22.10.07: 3,290\n- 23.10.07: 3,360\n- 24.10.07: 3,340\n- 25.10.07: 3,290\n- 29.10.07: 3,240\n- 30.10.07: 3,140\n- 31.10.07: 3,260\n\nYou are required to test the Weak Form of the Efficient Market Hypothesis by applying the Run Test at the 5% and 10% levels of significance.\nGiven Critical Values of t at 18 degrees of freedom:\n• t at 5% = 2.101\n• t at 10% = 1.734",
+      "a": "1. Determination of Sign of Price Changes and Number of Runs:\nComparing each day's closing price with the preceding trading day:\n• Oct 03: 2,780 vs 2,800 -> (-) [Run 1]\n• Oct 04: 2,795 vs 2,780 -> (+)\n• Oct 05: 2,830 vs 2,795 -> (+) [Run 2: ++]\n• Oct 08: 2,760 vs 2,830 -> (-) [Run 3: -]\n• Oct 09: 2,790 vs 2,760 -> (+)\n• Oct 10: 2,880 vs 2,790 -> (+)\n• Oct 11: 2,960 vs 2,880 -> (+)\n• Oct 12: 2,990 vs 2,960 -> (+)\n• Oct 15: 3,200 vs 2,990 -> (+)\n• Oct 16: 3,300 vs 3,200 -> (+)\n• Oct 17: 3,450 vs 3,300 -> (+) [Run 4: +++++++]\n• Oct 19: 3,360 vs 3,450 -> (-)\n• Oct 22: 3,290 vs 3,360 -> (-) [Run 5: --]\n• Oct 23: 3,360 vs 3,290 -> (+) [Run 6: +]\n• Oct 24: 3,340 vs 3,360 -> (-)\n• Oct 25: 3,290 vs 3,340 -> (-)\n• Oct 29: 3,240 vs 3,290 -> (-)\n• Oct 30: 3,140 vs 3,240 -> (-) [Run 7: ----]\n• Oct 31: 3,260 vs 3,140 -> (+) [Run 8: +]\n\n2. Summary Statistics:\n• Number of Positive price changes (n1) = 11\n• Number of Negative price changes (n2) = 8\n• Total price changes (N = n1 + n2) = 19\n• Total observed number of runs (r) = 8\n• Degrees of freedom (df = N - 1) = 19 - 1 = 18\n\n3. Calculation of Expected Mean Runs (μr) and Standard Error (σr):\n$$\\mu_r = \\frac{2 n_1 n_2}{n_1 + n_2} + 1 = \\frac{2 \\times 11 \\times 8}{11 + 8} + 1 = \\frac{176}{19} + 1 = 9.263 + 1 = 10.263 \\approx 10.26$$\n\n$$\\sigma_r = \\sqrt{\\frac{2 n_1 n_2 (2 n_1 n_2 - n_1 - n_2)}{(n_1 + n_2)^2 (n_1 + n_2 - 1)}} = \\sqrt{\\frac{176 \\times (176 - 19)}{19^2 \\times 18}} = \\sqrt{\\frac{176 \\times 157}{361 \\times 18}} = \\sqrt{\\frac{27,632}{6,498}} = \\sqrt{4.252} \\approx 2.06$$\n\n4. Hypothesis Testing using Two-Tailed t-Distribution:\n(a) At 5% Level of Significance (t = 2.101):\n• Lower Limit = $\\mu_r - t \\times \\sigma_r = 10.26 - (2.101 \\times 2.06) = 10.26 - 4.328 = 5.932$\n• Upper Limit = $\\mu_r + t \\times \\sigma_r = 10.26 + (2.101 \\times 2.06) = 10.26 + 4.328 = 14.588$\n\n(b) At 10% Level of Significance (t = 1.734):\n• Lower Limit = $\\mu_r - t \\times \\sigma_r = 10.26 - (1.734 \\times 2.06) = 10.26 - 3.572 = 6.688$\n• Upper Limit = $\\mu_r + t \\times \\sigma_r = 10.26 + (1.734 \\times 2.06) = 10.26 + 3.572 = 13.832$\n\n5. Conclusion:\nThe observed number of runs ($r = 8$) lies comfortably within the acceptance interval at both the 5% level ($5.932 \\le 8 \\le 14.588$) and the 10% level ($6.688 \\le 8 \\le 13.832$).\nTherefore, the null hypothesis of randomness cannot be rejected. Price changes are statistically independent, and the market EXHIBITS THE WEAK FORM OF MARKET EFFICIENCY.",
+      "computation": {
+        "title": "Run Test for Weak Form of Efficient Market Hypothesis - Stock Market Index (October 2007)",
+        "headers": [
+          { "title": "Parameter / Variable", "width": "45%" },
+          { "title": "Formula / Derivation", "width": "30%" },
+          { "title": "Computed Value", "width": "25%" }
+        ],
+        "columnWidths": ["45%", "30%", "25%"],
+        "rows": [
+          [
+            { "text": "I. Sample Run Statistics", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Number of Positive Price Changes (n1)" },
+            { "text": "Count of '+' signs", "align": "center" },
+            { "text": "11", "align": "right" }
+          ],
+          [
+            { "text": "Number of Negative Price Changes (n2)" },
+            { "text": "Count of '-' signs", "align": "center" },
+            { "text": "8", "align": "right" }
+          ],
+          [
+            { "text": "Total Number of Price Changes (N)" },
+            { "text": "n1 + n2", "align": "center" },
+            { "text": "19", "align": "right" }
+          ],
+          [
+            { "text": "Observed Total Number of Runs (r)", "isHeading": true },
+            { "text": "Directional sign sequences", "align": "center" },
+            { "text": "8", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Degrees of Freedom (df)" },
+            { "text": "N - 1 (19 - 1)", "align": "center" },
+            { "text": "18", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Theoretical Distribution Parameters", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Expected Mean Number of Runs (μr)" },
+            { "text": "[2(n1)(n2) / (n1 + n2)] + 1", "align": "center" },
+            { "text": "10.260", "align": "right" }
+          ],
+          [
+            { "text": "Standard Deviation of Runs (σr)" },
+            { "text": "√[2n1n2(2n1n2 - n1 - n2) / (N²(N-1))]", "align": "center" },
+            { "text": "2.062", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "III. Confidence Limits at 5% Significance (t = 2.101)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Lower Limit (5%)" },
+            { "text": "10.26 - (2.101 × 2.062)", "align": "center" },
+            { "text": "5.932", "align": "right" }
+          ],
+          [
+            { "text": "Upper Limit (5%)" },
+            { "text": "10.26 + (2.101 × 2.062)", "align": "center" },
+            { "text": "14.588", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "IV. Confidence Limits at 10% Significance (t = 1.734)", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Lower Limit (10%)" },
+            { "text": "10.26 - (1.734 × 2.062)", "align": "center" },
+            { "text": "6.688", "align": "right" }
+          ],
+          [
+            { "text": "Upper Limit (10%)" },
+            { "text": "10.26 + (1.734 × 2.062)", "align": "center" },
+            { "text": "13.832", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Final Test Conclusion", "isHeading": true },
+            { "text": "Actual r = 8 lies within [5.932, 14.588]", "align": "center" },
+            { "text": "EXHIBITS WEAK FORM EFFICIENCY", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "The sequence of runs identified across 19 daily price changes is: -, ++, -, +++++++, --, +, ----, + (Total 8 runs).",
+          "Because observed runs (8) fall strictly inside both the 5% and 10% confidence bounds, we accept the null hypothesis that stock price changes are independent random walks."
+        ]
+      }
+    },
+    {
+      "q": "An equity research analyst is evaluating two listed companies, Company Alpha and Company Beta, belonging to the specialty chemicals industry. The following financial and market data are compiled:\n- Current Earnings per Share (E0): ₹ 25 for both companies\n- Current Market Price: Company Alpha = ₹ 150; Company Beta = ₹ 250\n- Dividend Payout Ratio (b): 40% for both companies\n- Constant Dividend Growth Rate (g): 8% per annum for both companies\n- Required Rate of Return on Equity (ke): 14% per annum\n\nYou are required to:\n(i) Calculate the intrinsic value (fundamental price) of shares for both companies using Gordon's Dividend Growth Model.\n(ii) Compute the Fundamental Price-Earnings (P/E) Multiple and compare it with the current Market P/E Multiple.\n(iii) Determine whether the shares of Company Alpha and Company Beta are under-priced or over-priced, and provide an actionable investment recommendation for each.",
+      "a": "1. Valuation using Gordon's Dividend Growth Model:\n$$\\text{Current Dividend } (D_0) = E_0 \\times b = ₹ 25 \\times 40\\% = ₹ 10.00$$\n$$\\text{Expected Next Year Dividend } (D_1) = D_0 \\times (1 + g) = ₹ 10.00 \\times (1 + 0.08) = ₹ 10.80$$\n$$\\text{Next Year Expected Earnings } (E_1) = E_0 \\times (1 + g) = ₹ 25.00 \\times 1.08 = ₹ 27.00$$\n\n$$\\text{Intrinsic Value } (P_0) = \\frac{D_1}{k_e - g} = \\frac{10.80}{0.14 - 0.08} = \\frac{10.80}{0.06} = ₹ 180.00$$\n\nSince both companies have identical fundamental parameters ($E_0 = 25$, $b = 40\\%$, $g = 8\\%$, $k_e = 14\\%$), the estimated intrinsic value of both Company Alpha and Company Beta is ₹ 180.00 per share.\n\n2. Fundamental vs. Market P/E Multiples:\n• Fundamental P/E Multiple = $\\frac{P_0}{E_1} = \\frac{180.00}{27.00} = 6.67\\times$ (or $\\frac{b}{k_e - g} = \\frac{0.40}{0.06} = 6.67\\times$).\n• Market P/E Multiple based on current earnings ($E_0 = ₹ 25$):\n  - Company Alpha Market P/E = $\\frac{150}{25} = 6.00\\times$\n  - Company Beta Market P/E = $\\frac{250}{25} = 10.00\\times$\n\n3. Mispricing Analysis & Investment Recommendations:\n(a) Company Alpha:\n• Market Price = ₹ 150 vs. Intrinsic Value = ₹ 180.\n• Market P/E (6.00×) < Fundamental P/E (6.67×).\n• Assessment: UNDERPRICED by ₹ 30 per share (16.67% discount to intrinsic value).\n• Recommendation: BUY. The purchaser pays only 6 times earnings, representing attractive fundamental value.\n\n(b) Company Beta:\n• Market Price = ₹ 250 vs. Intrinsic Value = ₹ 180.\n• Market P/E (10.00×) > Fundamental P/E (6.67×).\n• Assessment: OVERPRICED by ₹ 70 per share (38.89% premium over intrinsic value).\n• Recommendation: SELL. The purchaser pays 10 times earnings for identical growth and return fundamentals; once market corrects toward intrinsic value, the price will decline.",
+      "computation": {
+        "title": "Fundamental Valuation and P/E Multiple Analysis - Company Alpha vs Company Beta",
+        "headers": [
+          { "title": "Valuation Parameter", "width": "42%" },
+          { "title": "Company Alpha", "width": "29%" },
+          { "title": "Company Beta", "width": "29%" }
+        ],
+        "columnWidths": ["42%", "29%", "29%"],
+        "rows": [
+          [
+            { "text": "I. Fundamental Financial Drivers", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Current Earnings per Share (E0)" },
+            { "text": "₹ 25.00", "align": "center" },
+            { "text": "₹ 25.00", "align": "center" }
+          ],
+          [
+            { "text": "Dividend Payout Ratio (b)" },
+            { "text": "40.00%", "align": "center" },
+            { "text": "40.00%", "align": "center" }
+          ],
+          [
+            { "text": "Current Dividend per Share (D0 = E0 × b)" },
+            { "text": "₹ 10.00", "align": "center" },
+            { "text": "₹ 10.00", "align": "center" }
+          ],
+          [
+            { "text": "Expected Dividend Growth Rate (g)" },
+            { "text": "8.00%", "align": "center" },
+            { "text": "8.00%", "align": "center" }
+          ],
+          [
+            { "text": "Next Year Expected Dividend (D1 = D0 × 1.08)" },
+            { "text": "₹ 10.80", "align": "center" },
+            { "text": "₹ 10.80", "align": "center" }
+          ],
+          [
+            { "text": "Required Rate of Return on Equity (ke)" },
+            { "text": "14.00%", "align": "center" },
+            { "text": "14.00%", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "II. Gordon Intrinsic Value & P/E Comparison", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Intrinsic Value per Share [D1 / (ke - g)]", "isHeading": true },
+            { "text": "₹ 180.00", "align": "right", "isBoxed": true },
+            { "text": "₹ 180.00", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Fundamental P/E Ratio [b / (ke - g)]" },
+            { "text": "6.67 ×", "align": "center" },
+            { "text": "6.67 ×", "align": "center" }
+          ],
+          [
+            { "text": "Current Stock Exchange Market Price (P0)" },
+            { "text": "₹ 150.00", "align": "right" },
+            { "text": "₹ 250.00", "align": "right" }
+          ],
+          [
+            { "text": "Current Market P/E Ratio (P0 / E0)" },
+            { "text": "6.00 ×", "align": "center" },
+            { "text": "10.00 ×", "align": "center", "borderBottom": true }
+          ],
+          [
+            { "text": "III. Valuation Gap & Investment Stance", "isUnderline": true, "isHeading": true },
+            "", ""
+          ],
+          [
+            { "text": "Pricing Discrepancy (Market Price - Intrinsic Value)" },
+            { "text": "- ₹ 30.00 (Undervalued)", "align": "right" },
+            { "text": "+ ₹ 70.00 (Overvalued)", "align": "right" }
+          ],
+          [
+            { "text": "Actionable Investment Recommendation", "isHeading": true },
+            { "text": "RECOMMEND: BUY", "align": "center", "isDoubleBottom": true },
+            { "text": "RECOMMEND: SELL", "align": "center", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Theoretical parity dictates that two firms with identical earnings power, payout policies, and risk-return characteristics should trade at identical P/E multiples.",
+          "Company Alpha is underpriced by ₹30 (trading at 6.0x vs 6.67x benchmark), whereas Company Beta trades at an unsustainable speculative premium of 10.0x."
+        ]
+      }
+    },
+    {
+      "q": "The following market statistics are recorded for the National Stock Exchange (NSE) over five consecutive trading sessions during a period of market volatility:\n- Day 1: Issues Traded = 2,400; Advances = 1,560; Declines = 840; High-Grade Corporate Bond Yield = 7.20%; Low-Grade Speculative Bond Yield = 9.00%\n- Day 2: Issues Traded = 2,450; Advances = 1,600; Declines = 850; High-Grade Corporate Bond Yield = 7.25%; Low-Grade Speculative Bond Yield = 8.95%\n- Day 3: Issues Traded = 2,500; Advances = 1,750; Declines = 750; High-Grade Corporate Bond Yield = 7.30%; Low-Grade Speculative Bond Yield = 8.85%\n- Day 4: Issues Traded = 2,520; Advances = 1,400; Declines = 1,120; High-Grade Corporate Bond Yield = 7.35%; Low-Grade Speculative Bond Yield = 9.10%\n- Day 5: Issues Traded = 2,550; Advances = 1,100; Declines = 1,450; High-Grade Corporate Bond Yield = 7.38%; Low-Grade Speculative Bond Yield = 9.40%\n\nYou are required to:\n(i) Compute the Market Breadth Index for each of the five trading days.\n(ii) Calculate Barron's Confidence Index for each day.\n(iii) Analyze the technical health of the market and explain what trading signal is indicated by Day 4 and Day 5.",
+      "a": "1. Mathematical Formulas:\n(a) Market Breadth Index:\n$$\\text{Breadth Index} = \\frac{\\text{Net Advances or Declines}}{\\text{Total Number of Issues Traded}} = \\frac{\\text{Advances} - \\text{Declines}}{\\text{Total Issues Traded}}$$\n(b) Barron's Confidence Index:\n$$\\text{Confidence Index} = \\frac{\\text{Yield on High-Grade Corporate Bonds}}{\\text{Yield on Low-Grade / Speculative Corporate Bonds}}$$\n\n2. Daily Step-by-Step Calculations:\n• Day 1:\n  - Net Advances = $1,560 - 840 = +720$.\n  - Breadth Index = $720 / 2,400 = +0.300$ (+30.00%).\n  - Confidence Index = $7.20 / 9.00 = 0.8000$ (80.00%).\n• Day 2:\n  - Net Advances = $1,600 - 850 = +750$.\n  - Breadth Index = $750 / 2,450 = +0.3061$ (+30.61%).\n  - Confidence Index = $7.25 / 8.95 = 0.8101$ (81.01%).\n• Day 3:\n  - Net Advances = $1,750 - 750 = +1,000$.\n  - Breadth Index = $1,000 / 2,500 = +0.4000$ (+40.00%).\n  - Confidence Index = $7.30 / 8.85 = 0.8249$ (82.49%).\n• Day 4:\n  - Net Advances = $1,400 - 1,120 = +280$.\n  - Breadth Index = $280 / 2,520 = +0.1111$ (+11.11%).\n  - Confidence Index = $7.35 / 9.10 = 0.8077$ (80.77%).\n• Day 5:\n  - Net Declines = $1,100 - 1,450 = -350$.\n  - Breadth Index = $-350 / 2,550 = -0.1373$ (-13.73%).\n  - Confidence Index = $7.38 / 9.40 = 0.7851$ (78.51%).\n\n3. Technical Market Analysis & Trading Signal:\n• Days 1 to 3: The Breadth Index expanded from +0.300 to +0.400, and the Confidence Index rose from 80.00% to 82.49%. Rising bond market confidence combined with broad market breadth confirmed strong technical strength and active institutional accumulation.\n• Days 4 and 5: A significant negative divergence occurred. The Breadth Index deteriorated sharply from +0.400 to +0.111 and plunged into negative territory (-0.137) on Day 5 as declining stocks surpassed advances. Simultaneously, the Confidence Index dropped from 82.49% to 78.51%, reflecting widening credit spreads as bond investors fled lower-grade debt for safety.\n• Trading Conclusion: The simultaneous deterioration in Market Breadth and the Confidence Index is a classic leading indicator of a major trend reversal from bullish to bearish. Technical analysts recommend liquidating speculative long positions and initiating protective hedges or short positions.",
+      "computation": {
+        "title": "Computation of Market Breadth Index and Confidence Index across Trading Days",
+        "headers": [
+          { "title": "Trading Day", "width": "12%" },
+          { "title": "Issues Traded", "width": "14%" },
+          { "title": "Advances / Declines", "width": "18%" },
+          { "title": "Breadth Index", "width": "18%" },
+          { "title": "Bond Yields (HG / LG)", "width": "20%" },
+          { "title": "Confidence Index", "width": "18%" }
+        ],
+        "columnWidths": ["12%", "14%", "18%", "18%", "20%", "18%"],
+        "rows": [
+          [
+            { "text": "Day 1", "align": "center" },
+            { "text": "2,400", "align": "right" },
+            { "text": "1,560 / 840", "align": "center" },
+            { "text": "+ 0.3000", "align": "right" },
+            { "text": "7.20% / 9.00%", "align": "center" },
+            { "text": "0.8000 (80.00%)", "align": "right" }
+          ],
+          [
+            { "text": "Day 2", "align": "center" },
+            { "text": "2,450", "align": "right" },
+            { "text": "1,600 / 850", "align": "center" },
+            { "text": "+ 0.3061", "align": "right" },
+            { "text": "7.25% / 8.95%", "align": "center" },
+            { "text": "0.8101 (81.01%)", "align": "right" }
+          ],
+          [
+            { "text": "Day 3", "align": "center" },
+            { "text": "2,500", "align": "right" },
+            { "text": "1,750 / 750", "align": "center" },
+            { "text": "+ 0.4000", "align": "right", "isBoxed": true },
+            { "text": "7.30% / 8.85%", "align": "center" },
+            { "text": "0.8249 (82.49%)", "align": "right", "isBoxed": true }
+          ],
+          [
+            { "text": "Day 4", "align": "center" },
+            { "text": "2,520", "align": "right" },
+            { "text": "1,400 / 1,120", "align": "center" },
+            { "text": "+ 0.1111", "align": "right" },
+            { "text": "7.35% / 9.10%", "align": "center" },
+            { "text": "0.8077 (80.77%)", "align": "right" }
+          ],
+          [
+            { "text": "Day 5", "align": "center" },
+            { "text": "2,550", "align": "right" },
+            { "text": "1,100 / 1,450", "align": "center" },
+            { "text": "- 0.1373", "align": "right", "borderBottom": true },
+            { "text": "7.38% / 9.40%", "align": "center" },
+            { "text": "0.7851 (78.51%)", "align": "right", "borderBottom": true }
+          ],
+          [
+            { "text": "Technical Indication", "isHeading": true, "colSpan": 3 },
+            "", "",
+            { "text": "Sharp Breadth Contraction", "align": "center", "colSpan": 2 },
+            "",
+            { "text": "BEARISH REVERSAL WARNING", "align": "right", "isDoubleBottom": true }
+          ]
+        ],
+        "notes": [
+          "Breadth Index = (Advances - Declines) / Total Issues Traded.",
+          "Confidence Index = High-Grade Bond Yield / Low-Grade Bond Yield. A declining ratio signals that institutional bond investors demand higher risk premia, preceding stock market corrections."
+        ]
+      }
+    }
+  ]
+}

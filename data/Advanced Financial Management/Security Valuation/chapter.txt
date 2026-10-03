@@ -1,0 +1,299 @@
+CHAPTER 5: SECURITY VALUATION
+PAPER 2: ADVANCED FINANCIAL MANAGEMENT (CA FINAL)
+
+LEARNING OUTCOMES:
+After studying this chapter, students shall be able to understand:
+• Conceptual overview of Valuation and modern return definitions
+• Required Rate of Return, Opportunity Cost, Discount Rates, and Internal Rate of Return (IRR)
+• Equity Risk Premium (ERP) and estimation of Cost of Equity (Ke) via CAPM
+• Discount Rate Selection in relation to Nominal vs. Real Cash Flows
+• Valuation of Equity Shares: Dividend-Based (Zero-Growth, Gordon Constant Growth, Two-Stage, Three-Stage, and H-Model), Earning-Based (Gordon, Walter, and P/E Multiplier), and Cash Flow-Based (FCFF and FCFE)
+• Enterprise Value (Total EV, Operating EV, Core EV) and Valuation Multiples (EV/EBITDA, EV/Sales)
+• Valuation of Rights and theoretical proof of Shareholder Wealth Invariance
+• Valuation of Preference Shares (Redeemable and Irredeemable)
+• Valuation of Debentures and Fixed Income Securities: Bond Valuation Model, Bond Theorems, Yield to Maturity (YTM), and Semi-Annual Compounding
+• Bond Duration & Volatility: Macaulay Duration, Modified Duration, and Convexity Adjustments
+• Bond Portfolio Immunization: Offsetting Price Risk against Reinvestment Risk
+• Term Structure of Interest Rates: Spot Rates, Forward Rates, Yield Curves, and Theories of Term Structure (Expectations, Liquidity Preference, Preferred Habitat)
+• Hybrid Instruments: Convertible Debentures, Conversion Parity Price, Downside Risk, and Valuation of Warrants
+• Strategic Bond Refunding Decisions using Capital Budgeting NPV framework
+• Money Market Instruments: Call/Notice Money, Treasury Bills, Commercial Bills, CDs, Commercial Paper (CP), and Repurchase Agreements (Repo and Reverse Repo mechanics)
+• Role, Statutory Mandates, Responsibilities, and Model Code of Conduct of Registered Valuers under Companies Rules, 2017
+
+================================================================================
+1. OVERVIEW OF VALUATION & RETURN CONCEPTS
+================================================================================
+1.1 Definition of Investment:
+An investment is a commitment of present funds with the objective of obtaining future cash flows that compensate the investor for:
+(a) The time value of money during the investment horizon,
+(b) Expected inflation over the period, and
+(c) The systematic uncertainty/risk involved.
+The fundamental objective of valuation is to estimate an asset's "intrinsic value" and determine whether its current market price represents an attractive risk-adjusted opportunity (Underpriced -> Buy; Overpriced -> Sell).
+
+1.2 Return Concepts:
+• Required Rate of Return: The minimum rate of return an investor requires to invest in an asset over a given time horizon. It represents the investor's opportunity cost of capital—the highest rate of return foregone on alternative investments with comparable risk.
+• Discount Rate: The rate used to compute the present value of future cash flows. Reflects the risk-free rate plus a risk premium.
+  - Term Structure of Rates: When future cash flows occur across varying maturities, discounting can employ maturity-specific spot discount rates.
+  - Single Equivalent Discount Rate: A single unified discount rate that equates the present value of the cash flow stream to the sum of individual spot-discounted cash flows.
+• Internal Rate of Return (IRR): The unique discount rate that equates the present value of future cash flows to the initial acquisition cost (market price).
+  * Reinvestment Rate Paradox: IRR inherently assumes that intermediate cash inflows are reinvested at the internal rate of return itself. If reinvestment occurs at a lower opportunity rate, the actual realized terminal return will be strictly less than the promised IRR.
+
+1.3 Equity Risk Premium (ERP):
+The excess return an investment in equities provides over the risk-free benchmark rate (e.g., long-term sovereign government bonds).
+Under the Capital Asset Pricing Model (CAPM):
+$$R_x = R_f + \beta_x (R_m - R_f)$$
+Where:
+- $R_x$ = Expected / Required return on equity of company $x$
+- $R_f$ = Risk-free rate of return
+- $\beta_x$ = Beta coefficient measuring systematic (non-diversifiable) risk
+- $R_m$ = Expected return of the overall market portfolio
+- $(R_m - R_f)$ = Market Risk Premium
+- $\text{Equity Risk Premium for Company } x = R_x - R_f = \beta_x (R_m - R_f)$
+
+================================================================================
+2. DISCOUNT RATE SELECTION IN RELATION TO CASH FLOWS
+================================================================================
+2.1 Nominal vs. Real Cash Flows:
+• Nominal Cash Flows: Cash flows expressed in nominal currency units, unadjusted for inflation.
+• Real Cash Flows: Cash flows expressed in constant purchasing power terms, fully deflated.
+• Fisher Relationship:
+  $$(1 + \text{Nominal Rate}) = (1 + \text{Real Rate}) \times (1 + \text{Inflation Rate})$$
+
+2.2 The Equity Valuation Consistency Rule:
+While valuing equity shares, cash flows and discount rates must be strictly matched:
+1. Nominal Cash Flows must be discounted using Nominal Discount Rates.
+2. In corporate equity valuation, ONLY NOMINAL CASH FLOWS AND NOMINAL DISCOUNT RATES are employed. Reason: Corporate taxation is calculated on historical, nominal profits, and tax shield benefits are nominal.
+3. Cash flows available to equity shareholders (Dividends or FCFE) must be discounted at the Cost of Equity ($K_e$).
+4. Cash flows available to all capital providers (FCFF) must be discounted at the Weighted Average Cost of Capital (WACC / $K_o$).
+
+================================================================================
+3. VALUATION OF EQUITY SHARES
+================================================================================
+Equity valuation models are categorized into three core frameworks:
+(1) Dividend Based Models
+(2) Earning Based Models
+(3) Cash Flow Based Models
+
+--------------------------------------------------------------------------------
+3.1 Dividend Based Valuation Models
+--------------------------------------------------------------------------------
+Operates on the foundation that dividends represent the tangible cash rewards distributed to equity holders.
+Assumptions: Dividends paid annually; first dividend paid at end of Year 1; shares sold at ex-dividend prices.
+
+1. One-Year Holding Period:
+   $$P_0 = \frac{D_1 + P_1}{1 + K_e}$$
+
+2. Multi-Period Holding Models:
+   (a) Zero-Growth (Perpetuity) Model:
+       $$P_0 = \frac{D}{K_e}$$
+
+   (b) Constant Growth Model (Gordon Growth Model):
+       Where dividends grow perpetually at constant annual rate $g$ ($g = b \times r$):
+       $$P_0 = \frac{D_1}{K_e - g} = \frac{D_0 (1 + g)}{K_e - g} \quad (\text{Condition: } K_e > g)$$
+
+   (c) Two-Stage Dividend Discount Model:
+       Supernormal growth rate ($g_1$) for $n$ years, followed by normal sustainable growth rate ($g_2$) perpetually:
+       $$P_0 = \sum_{t=1}^n \frac{D_0(1 + g_1)^t}{(1 + K_e)^t} + \frac{P_n}{(1 + K_e)^n}$$
+       Where Terminal Value at Year $n$:
+       $$P_n = \frac{D_n (1 + g_2)}{K_e - g_2} = \frac{D_{n+1}}{K_e - g_2}$$
+
+   (d) Three-Stage Dividend Discount Model:
+       Comprises: (1) High-growth phase, (2) Transition phase (gradual growth deceleration due to competitive entry), and (3) Stable maturity phase.
+
+   (e) The H-Model (Fuller & Hsia):
+       Assumes initial supernormal growth ($g_a$) linearly decelerates over a transition period of duration $2H$ years to reach sustainable long-run growth ($g_n$):
+       $$P_0 = \frac{D_0 (1 + g_n)}{K_e - g_n} + \frac{D_0 \times H \times (g_a - g_n)}{K_e - g_n}$$
+       Where:
+       - First component = Value based on normal sustainable growth rate
+       - Second component = Growth premium attributable to abnormal initial growth
+       - $H$ = Half-life of the transition period ($\text{Total transition duration} / 2$)
+
+--------------------------------------------------------------------------------
+3.2 Earning Based Valuation Models
+--------------------------------------------------------------------------------
+1. Gordon's Earning Capitalization Model:
+   $$P_0 = \frac{\text{EPS}_1 (1 - b)}{K_e - b \times r}$$
+   Where $b$ = Retention ratio, $(1 - b)$ = Dividend payout ratio, $r$ = Return on Equity (ROE).
+
+2. Walter's Valuation Model:
+   $$P = \frac{D + \frac{r}{K_e} (E - D)}{K_e}$$
+   Where:
+   - $E$ = Earnings per share; $D$ = Dividend per share
+   - $r$ = Internal rate of return on retained earnings
+   - $K_e$ = Cost of capital / Capitalization rate
+   * Theoretical Implications:
+     - Growth Firm ($r > K_e$): Optimal dividend payout is 0% (retaining 100% maximizes share price).
+     - Declining Firm ($r < K_e$): Optimal dividend payout is 100% (distributing all earnings maximizes value).
+     - Normal Firm ($r = K_e$): Dividend policy is indifferent.
+
+3. Price-Earnings (P/E) Multiplier Approach:
+   $$\text{Intrinsic Value} = \text{EPS} \times \text{Benchmark P/E Ratio}$$
+   Where $\text{EPS} = \frac{\text{Profit After Tax} - \text{Preference Dividends}}{\text{Number of Equity Shares}}$.
+
+--------------------------------------------------------------------------------
+3.3 Cash Flow Based Valuation Models
+--------------------------------------------------------------------------------
+Unlike DDM (which measures actual cash distributed), Cash Flow models measure cash generated by business operations available for distribution.
+
+1. Free Cash Flow to Firm (FCFF):
+   Cash flow available to ALL capital providers (equity, preference, debt) after operational expenses, taxes, working capital investments, and capital expenditures:
+   $$\text{FCFF} = \text{Net Income} + \text{Interest}(1 - T) + \text{Depreciation} - \text{CAPEX} - \Delta\text{Non-Cash NWC}$$
+   $$\text{FCFF} = \text{EBIT}(1 - T) + \text{Depreciation} - \text{CAPEX} - \Delta\text{Non-Cash NWC}$$
+   $$\text{FCFF} = \text{EBITDA}(1 - T) + \text{Depreciation} \times T - \text{CAPEX} - \Delta\text{Non-Cash NWC}$$
+   $$\text{FCFF} = \text{CFO} + \text{Interest}(1 - T) - \text{CAPEX}$$
+   • Firm Valuation Formula:
+     $$\text{Value of Firm} = \sum_{t=1}^n \frac{\text{FCFF}_t}{(1 + K_o)^t} + \frac{\text{Terminal Value}_n}{(1 + K_o)^n} \quad (\text{Discounted at WACC } K_o)$$
+     $$\text{Value of Equity} = \text{Value of Firm} - \text{Market Value of Debt} - \text{Preference Capital} + \text{Cash & Liquid Investments}$$
+
+2. Free Cash Flow to Equity (FCFE):
+   Cash flow available strictly to equity shareholders after operating expenses, debt service (principal and interest), working capital requirements, and capital expenditures:
+   $$\text{FCFE} = \text{Net Income} - (1 - \text{DR})(\text{CAPEX} - \text{Depreciation}) - (1 - \text{DR})\Delta\text{NWC}$$
+   Where $\text{DR} = \text{Debt Ratio} = \frac{\text{Debt}}{\text{Debt} + \text{Equity}}$.
+   • Equity Valuation Formula:
+     $$P_0 = \frac{\text{FCFE}_1}{K_e - g_n} = \frac{\text{FCFE}_0 (1 + g)}{K_e - g} \quad (\text{Discounted at Cost of Equity } K_e)$$
+
+3. Comparison: DDM vs. FCFE:
+   DDM reflects actual cash received by shareholders. If a firm hoards excess cash, DDM underestimates equity value. FCFE reflects true earnings power and cash generation capacity, making it superior for controlling acquisitions.
+
+--------------------------------------------------------------------------------
+3.4 Enterprise Value (EV) & Enterprise Multiples
+--------------------------------------------------------------------------------
+Enterprise Value measures the aggregate economic value of an entire business enterprise.
+• Calculations:
+  - Total EV = Market Capitalization + Interest-Bearing Debt + Minority Interest + Preference Shares - Cash & Cash Equivalents.
+  - Operating EV = Total EV - Market Value of Non-Operating Assets (investments in associates).
+  - Core EV = Operating EV - Value of Non-Core Business Operations.
+• Key Enterprise Multiples:
+  1. EV / EBITDA: Preferred in cross-border acquisitions and capital-intensive industries; neutral to capital structure and depreciation accounting policies.
+  2. EV / Sales: Utilized for high-growth tech startups or cyclical companies experiencing temporary operating losses.
+
+--------------------------------------------------------------------------------
+3.5 Valuation of Rights Issues
+--------------------------------------------------------------------------------
+When a company offers additional shares to existing equity holders at a discounted subscription price ($S$):
+• Theoretical Ex-Rights Price (TERP):
+  $$\text{TERP} = \frac{n \times P_0 + n_1 \times S}{n + n_1}$$
+  Where:
+  - $n$ = Number of existing shares held
+  - $P_0$ = Cum-rights market price per share
+  - $n_1$ = Number of new rights shares offered
+  - $S$ = Subscription price per rights share
+• Theoretical Value of a Right (per right share):
+  $$\text{Value of Right} = \text{TERP} - S$$
+• Value of Right per Existing Share:
+  $$\text{Value per Existing Share} = \frac{P_0 - S}{\frac{n}{n_1} + 1} = \frac{\text{TERP} - S}{\frac{n}{n_1}}$$
+• Shareholder Wealth Invariance: In an efficient market, an existing shareholder's net wealth remains identical whether they exercise rights or renounce (sell) their rights.
+
+================================================================================
+4. VALUATION OF PREFERENCE SHARES
+================================================================================
+Preference shares provide fixed dividend claims senior to equity but subordinate to debt.
+1. Irredeemable (Perpetual) Preference Share:
+   $$V_p = \frac{\text{Preference Dividend}}{K_p}$$
+2. Redeemable Preference Share:
+   $$V_p = \sum_{t=1}^n \frac{\text{Div}_t}{(1 + K_p)^t} + \frac{\text{Maturity Value}}{(1 + K_p)^n} = \text{Div} \times \text{PVIFA}(K_p, n) + M \times \text{PVIF}(K_p, n)$$
+
+================================================================================
+5. VALUATION OF DEBENTURES & FIXED INCOME BONDS
+================================================================================
+5.1 Traditional Bond Valuation Model:
+A bond's intrinsic value is the present value of coupon interest payments plus the present value of bullet maturity redemption:
+$$V_0 = \sum_{t=1}^n \frac{I}{(1 + k_d)^t} + \frac{F}{(1 + k_d)^n} = I \times \text{PVIFA}(k_d, n) + F \times \text{PVIF}(k_d, n)$$
+Where:
+- $I$ = Annual coupon interest ($I = \text{Par Value} \times \text{Coupon Rate}$)
+- $F$ = Principal repayment at maturity (par or premium)
+- $k_d$ = Yield to Maturity (YTM) / Required market rate of return
+- Semi-Annual Interest:
+  $$V_0 = \frac{I}{2} \times \text{PVIFA}\left(\frac{k_d}{2}, 2n\right) + F \times \text{PVIF}\left(\frac{k_d}{2}, 2n\right)$$
+
+5.2 Classical Bond Theorems:
+1. When YTM = Coupon Rate -> Bond trades at Par ($V = F$).
+2. When YTM > Coupon Rate -> Bond trades at a Discount ($V < F$).
+3. When YTM < Coupon Rate -> Bond trades at a Premium ($V > F$).
+4. Price Sensitivity: Bond price volatility is greater for longer maturities and lower coupon rates.
+5. Price-Time Pull: As maturity approaches, a discount bond's price rises toward par, and a premium bond's price declines toward par.
+
+5.3 Yield to Maturity (YTM):
+The internal rate of return that equates the market price of the bond to the present value of all remaining cash flows.
+• Approximation Formula:
+  $$\text{YTM} \approx \frac{I + \frac{F - P_0}{n}}{\frac{F + P_0}{2}}$$
+
+5.4 Duration & Volatility (Interest Rate Risk):
+• Macaulay Duration ($D$):
+  The weighted-average time until cash flows are recovered, weighted by present values:
+  $$D = \frac{\sum_{t=1}^n \frac{t \times \text{CF}_t}{(1 + \text{YTM})^t}}{P_0}$$
+  * A coupon-bearing bond's duration is ALWAYS LESS than its nominal maturity because intermediate coupon receipts accelerate cash recovery.
+  * For a Zero Coupon Bond, Duration = Maturity ($D = n$).
+• Modified Duration ($D^*$ / Volatility):
+  Measures percentage price responsiveness to changes in market yields:
+  $$\text{Modified Duration} = \frac{D_{\text{Mac}}}{1 + \frac{\text{YTM}}{m}}$$
+  $$\%\Delta P \approx - \text{Modified Duration} \times \Delta y$$
+• Convexity Adjustment:
+  Adjusts for the non-linear curvature of the price-yield relationship:
+  $$C^* = \frac{V_+ + V_- - 2 V_0}{2 V_0 (\Delta y)^2}$$
+  $$\%\Delta P \approx \left[ - D^* \times \Delta y + C^* \times (\Delta y)^2 \right] \times 100$$
+
+5.5 Bond Portfolio Immunization:
+Interest rate movements trigger two opposing forces:
+(a) Price Risk: Rising yields depress bond prices (capital losses).
+(b) Reinvestment Risk: Rising yields increase interest earned on reinvested coupons.
+• Immunization Rule: A bond portfolio is fully immunized against interest rate shifts if:
+  $$\text{Portfolio Duration} (D_{\text{port}}) = \text{Target Holding Period}$$
+
+5.6 Term Structure of Interest Rates & Yield Curves:
+• Spot Rate ($r_t$): Yield on a zero-coupon bond maturing at period $t$.
+• Forward Rate ($f_t$): The implied interest rate agreed upon today for a future period:
+  $$(1 + r_t)^t = (1 + r_{t-1})^{t-1} \times (1 + f_t) \implies 1 + f_t = \frac{(1 + r_t)^t}{(1 + r_{t-1})^{t-1}}$$
+• Term Structure Theories:
+  1. Pure Expectations Theory: Long rates equal expected geometric averages of future short rates.
+  2. Liquidity Preference Theory: Investors demand a positive liquidity premium for committing to long maturities; normal yield curve is upward sloping.
+  3. Market Segmentation / Preferred Habitat Theory: Yields in each maturity bucket are determined by localized supply and demand.
+
+5.7 Hybrid Fixed Income Securities:
+• Convertible Debentures: Can be exchanged into equity shares.
+  - Conversion Ratio ($CR$) = Number of equity shares received per debenture.
+  - Conversion Value = $CR \times \text{Current Market Price of Equity}$.
+  - Conversion Premium $\% = \frac{\text{Convertible Bond Price} - \text{Conversion Value}}{\text{Conversion Value}} \times 100$.
+  - Downside Risk $\% = \frac{\text{Convertible Bond Price} - \text{Straight Debt Value}}{\text{Straight Debt Value}} \times 100$.
+  - Conversion Parity Price $= \frac{\text{Convertible Bond Price}}{\text{Conversion Ratio}}$.
+• Warrants: Detachable options to purchase equity shares for cash at an exercise price ($E$):
+  $$\text{Theoretical Value of Warrant} = (MP - E) \times n$$
+
+5.8 Strategic Bond Refunding Decisions:
+Evaluates replacing old high-coupon bonds with new low-coupon debt using Capital Budgeting NPV:
+• Initial Cash Outlay:
+  Call Premium on Old Bonds (net of tax) + Unamortized Flotation Costs Tax Shield + New Issue Expenses (net of tax) + Overlapping Interest (net of tax) - Gross Proceeds of New Issue.
+• Annual After-Tax Cash Savings:
+  Annual Interest Savings $(1 - T) \pm$ Tax Shields on Difference in Amortized Issue Costs.
+• Decision Metric:
+  Discount cash savings at after-tax cost of new debt ($k_d(1 - T)$). If NPV > 0 -> REFUND.
+
+================================================================================
+6. MONEY MARKET INSTRUMENTS
+================================================================================
+Money markets facilitate short-term wholesale liquidity management (maturities up to 1 year).
+1. Call / Notice Money: Inter-bank lending; Call Money = Overnight (1 day); Notice Money = 2 to 14 days.
+2. Treasury Bills (T-Bills): Sovereign zero-default promissory notes issued at discount (91, 182, 364 days):
+   $$\text{Yield} (Y) = \frac{F - P}{P} \times \frac{365}{M} \times 100$$
+3. Commercial Bills: Self-liquidating trade bills; rediscounting effective yield:
+   $$D = \frac{FV - SV}{SV} \times \frac{365 \text{ (or 12)}}{M} \times 100$$
+4. Certificates of Deposit (CDs): Negotiable term deposits issued by banks at discount.
+5. Commercial Paper (CP): Unsecured corporate promissory notes (7 days to 1 year) introduced post Vaghul Committee (1990) to bypass banking intermediation (securitization).
+6. Repurchase Agreements (Repo & Reverse Repo):
+   - Repo: Seller borrows cash by selling securities with an agreement to repurchase at a future date at repo rate.
+   - Clean Price vs. Dirty Price: $\text{Dirty Price} = \text{Clean Price} + \text{Accrued Interest} \left(\frac{\text{Days}}{360}\right)$.
+   - First Leg (Start Proceeds) $= \text{Nominal Value} \times \frac{\text{Dirty Price}}{100} \times \frac{100 - \text{Initial Margin}}{100}$.
+   - Second Leg (Repayment at Maturity) $= \text{Start Proceeds} \times \left[1 + \text{Repo Rate} \times \frac{\text{No. of Days}}{360}\right]$.
+
+================================================================================
+7. ROLE & MODEL CODE OF CONDUCT OF REGISTERED VALUERS
+================================================================================
+7.1 Statutory Mandates:
+Valuation reports are mandatory under Companies Act 2013 (mergers, sweat equity, reduction of capital), Insolvency and Bankruptcy Code (IBC) 2016 (fair value and liquidation value), SEBI Regulations (takeovers, delisting, preferential allotments), Income Tax Act 1961, and RBI FEMA (cross-border FDI/ODI pricing).
+
+7.2 Model Code of Conduct (Companies Registered Valuers Rules, 2017):
+• Integrity & Fairness: Straightforward, forthright, no misrepresentation, protect reputation of profession.
+• Professional Competence & Due Care: Exercise independent judgment, observe technical standards, no disclaiming of duty of care for valuer-generated inputs.
+• Independence & Disclosure: Free from bias and conflict of interest; no valuation of relatives/associates; no dealing in client securities (SEBI Insider Trading Regulations); NO "mandate snatching" or "convenience valuations"; NO SUCCESS FEES.
+• Confidentiality & Working Papers: Strictly preserve client confidentiality; maintain comprehensive working papers for AT LEAST 3 YEARS (or until disposal of appellate proceedings).
+• Precautions: Valuation is a professional estimate, not exact math; synthesize narrative business models (economic moats, scalability) with numerical DCF rigor; guard against emotional market extremes.

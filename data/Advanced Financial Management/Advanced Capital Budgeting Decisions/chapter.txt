@@ -1,0 +1,140 @@
+CHAPTER 3: ADVANCED CAPITAL BUDGETING DECISIONS
+PAPER 2: ADVANCED FINANCIAL MANAGEMENT (CA FINAL)
+
+LEARNING OUTCOMES:
+After studying this chapter, students shall be able to understand:
+• Current trends in Capital Budgeting (Inflation, Technology, Government Policies)
+• Dealing with Risk in Investment Decisions (Certainty, Risk, and Uncertainty)
+• Internal and External Factors affecting capital budgeting decisions
+• Methods of incorporating risk: Statistical, Conventional, Sensitivity, Scenario, Simulation, and Decision Tree analysis
+• Replacement Decisions and Optimum Replacement Cycles using Equivalent Annual Cost (EAC)
+• Adjusted Present Value (APV) method separating investment and financing decisions
+
+================================================================================
+1. CURRENT TRENDS IN CAPITAL BUDGETING
+================================================================================
+Traditional capital budgeting models assume cash flows are known with certainty. In practical corporate finance, investment proposals operate under dynamic real-world forces:
+
+1.1 Impact of Inflation on Capital Budgeting:
+Inflation increases project revenues and operating costs over time. However, it introduces significant distortions because:
+• Depreciation is based on Historical Cost: Tax shields from depreciation do not adjust with inflation.
+  $$\text{Annual Cash Inflow After Tax} = (R - C - D)(1 - T) + D = (R - C)(1 - T) + DT$$
+  While revenues ($R$) and costs ($C$) inflate, the depreciation tax shield ($DT$) remains fixed in nominal terms, eroding the project's real rate of return.
+• Consistency Rule in Inflation:
+  - Discount Nominal Cash Flows at Nominal Discount Rate.
+  - Discount Real Cash Flows at Real Discount Rate.
+  - Fisher Relation:
+    $$(1 + \text{Nominal Discount Rate}) = (1 + \text{Real Discount Rate}) \times (1 + \text{Inflation Rate})$$
+    $$\text{Real Discount Rate} = \frac{1 + \text{Nominal Discount Rate}}{1 + \text{Inflation Rate}} - 1$$
+• Differential Inflation Rates:
+  When inflation rates for revenues ($i_r$) and costs ($i_c$) differ:
+  $$\text{NPV} = \sum_{t=1}^{n} \frac{[R_t(1+i_r)^t - C_t(1+i_c)^t](1-T) + D_t T}{(1 + k)^t} - I_0$$
+
+1.2 Impact of Change in Technology:
+Technological obsolescence shortens product lifecycles, alters manufacturing processes, and may require mid-project capital modernization. Techniques like Sensitivity Analysis, Simulation, and Project Abandonment Options incorporate technological risk.
+
+1.3 Impact of Change in Government Policies:
+• Fiscal Policy: Adjustments in corporate tax rates, depreciation write-offs, and Double Tax Avoidance Agreements (DTAA).
+• Monetary Policy: Changes in Repo rate and statutory reserve ratios (CRR/SLR) impacting the cost of debt ($K_d$) and working capital financing.
+
+================================================================================
+2. DEALING WITH RISK IN INVESTMENT DECISIONS
+================================================================================
+Decision-Making Environments:
+1. Decision Making under Certainty: Future cash flows are completely known.
+2. Decision Making involving Risk: Future cash flows are variable, but an objective/subjective probability distribution can be assigned.
+3. Decision Making under Uncertainty: Future cash flows cannot be assigned probabilities.
+
+Reasons for Adjusting Risk:
+• Opportunity Cost: Capital invested in risky projects demands a risk premium matching comparable risk investments.
+• Preserving Enterprise Value: Failure to account for risk leads to overvaluation of volatile projects and potential corporate insolvency.
+
+================================================================================
+3. INTERNAL AND EXTERNAL FACTORS AFFECTING CAPITAL BUDGETING
+================================================================================
+A. Internal Factors:
+1. Project-Specific Risk: Risks unique to a specific project (e.g., resource estimation errors, commissioning delays, technology debugging).
+2. Company-Specific Risk: Risks affecting the overall enterprise (e.g., credit rating downgrades, key personnel departures, labor strikes, IPR litigations).
+
+B. External Factors:
+1. Industry-Specific Risk: Regulatory mandates, technological disruptions, or environmental restrictions affecting an entire industry sector.
+2. Market Risk: Shifts in consumer demand, introduction of substitute products, or raw material supply constraints.
+3. Competition Risk: Entry of aggressive rivals, price wars, or product obsolescence.
+4. Economic Risk: Macroeconomic changes in GDP growth, inflation, interest rates, and foreign exchange rates.
+5. International Risk: Trade embargoes, cross-border tariff barriers, political unrest, or changes in bilateral treaties.
+
+================================================================================
+4. METHODS OF INCORPORATING RISK IN CAPITAL BUDGETING
+================================================================================
+
+4.1 Statistical Techniques:
+• Expected Net Cash Flow (ENCF):
+  $$\text{ENCF} = \sum_{i=1}^{n} \text{NCF}_i \times P_i$$
+• Expected Net Present Value (ENPV):
+  $$\text{ENPV} = \sum_{t=1}^{n} \frac{\text{ENCF}_t}{(1 + k)^t} - I_0$$
+• Variance ($\sigma^2$):
+  $$\sigma^2 = \sum_{j=1}^{n} (\text{NCF}_j - \text{ENCF})^2 \times P_j$$
+• Standard Deviation ($\sigma$): Measure of absolute risk / dispersion: $\sigma = \sqrt{\sigma^2}$.
+• Coefficient of Variation (CV): Measure of relative risk per unit of return:
+  $$\text{CV} = \frac{\text{Standard Deviation}}{\text{Expected Value (Mean)}} = \frac{\sigma}{\text{ENCF or ENPV}}$$
+  Decision Rule: When evaluating projects of unequal sizes, select the project with the lower Coefficient of Variation.
+
+4.2 Conventional Techniques:
+1. Risk-Adjusted Discount Rate (RADR):
+   $$\text{RADR} = \text{Risk-Free Rate } (R_f) + \text{Risk Premium } (R_p)$$
+   $$\text{NPV} = \sum_{t=1}^{n} \frac{\text{NCF}_t}{(1 + \text{RADR})^t} - I_0$$
+   Advantage: Easy to understand and apply.
+   Limitation: Assumes risk compounds over time at a constant rate.
+
+2. Certainty Equivalent (CE) Approach:
+   Converts risky future cash flows into equivalent certain (risk-free) cash flows using Certainty Equivalent coefficients ($\alpha_t$ where $0 \le \alpha_t \le 1$):
+   $$\alpha_t = \frac{\text{Certain Cash Flow}_t}{\text{Risky Cash Flow}_t}$$
+   $$\text{NPV} = \sum_{t=1}^{n} \frac{\alpha_t \times \text{NCF}_t}{(1 + k_f)^t} - I_0$$
+   CRITICAL PRINCIPLE: Discounting MUST be done using the Risk-Free Rate ($k_f$). Using the cost of capital would cause double counting of risk (once in the numerator via $\alpha_t$, and again in the denominator).
+
+4.3 Advanced Modelling Techniques:
+1. Sensitivity Analysis:
+   Evaluates how much the project's NPV (or IRR) changes in response to an adverse variation in a SINGLE input variable (e.g., selling price, variable cost, fixed cost, sales volume, initial capital cost) while holding all other variables constant. Identifies the most critical variable.
+2. Scenario Analysis:
+   Examines the impact of simultaneous changes in multiple variables across predefined economic states (e.g., Worst Case, Most Likely Case, Best Case).
+3. Monte Carlo Simulation Analysis:
+   Constructs a mathematical model of project cash flows, assigns probability distributions to stochastic variables (annual sales, operating life), generates random numbers, runs hundreds of iterations, and computes the probability distribution of NPVs.
+4. Decision Tree Analysis:
+   Graphic representation of sequential, multi-period investment decisions over time:
+   • Decision Nodes (Squares $\square$): Management has control over the choice; select the alternative with the highest Expected Monetary Value (EMV).
+   • Chance/Event Nodes (Circles $\bigcirc$): Outcomes governed by probabilities; compute expected value across all radiating branches.
+   • Rollback Procedure: Evaluated from right to left (terminal outcomes to inception).
+
+================================================================================
+5. REPLACEMENT DECISIONS
+================================================================================
+5.1 Replacement of Existing Machine (Incremental Analysis):
+When evaluating whether to replace an existing asset with a newer machine:
+• Step 1: Initial Net Cash Outflow ($CF_0$):
+  Cost of New Machine + Installation Costs + Additional Working Capital
+  Less: Net Salvage Value of Old Machine [Gross Resale Value $\pm$ Tax Benefit/Liability on Loss/Gain on Sale].
+  $$\text{Tax on Sale of Old Machine} = (\text{Book Value} - \text{Market Value}) \times \text{Tax Rate}$$
+• Step 2: Incremental Operating Cash Inflows ($\Delta \text{CFAT}$):
+  $$\Delta \text{CFAT} = [(\Delta \text{Sales} \pm \Delta \text{Costs}) - \Delta \text{Depreciation}](1 - T) + \Delta \text{Depreciation}$$
+• Step 3: Terminal Inflow: Net salvage value of new machine plus release of working capital.
+• Step 4: Decision: Accept if Incremental NPV $> 0$.
+
+5.2 Optimum Replacement Cycle (Equivalent Annual Cost - EAC):
+When a machine requires periodic, repeating replacement over an ongoing horizon:
+As an asset ages, maintenance and repair expenses escalate, while resale/scrap values decline.
+• To compare replacement cycles of unequal duration (e.g., 1 year, 2 years, 3 years, 4 years), compute the Equivalent Annual Cost (EAC):
+  $$\text{EAC} = \frac{\text{Present Value of Net Cash Outflows}}{\text{PVIFA}(k, n)}$$
+• Decision Rule: The optimum replacement cycle is the period that produces the MINIMUM Equivalent Annual Cost (EAC).
+
+================================================================================
+6. ADJUSTED PRESENT VALUE (APV)
+================================================================================
+Traditional NPV discounts cash flows at WACC, which assumes a constant debt-equity ratio.
+The Adjusted Present Value (APV) method separates the investment decision from the financing decision:
+$$\text{APV} = \text{Base Case NPV} + \text{PV of Financing Side Effects}$$
+Where:
+• Base Case NPV: NPV of the project assuming it is 100% equity-financed (discounted at the unlevered cost of equity $K_e^u$).
+• PV of Financing Effects: Primarily includes the Present Value of Tax Shields on debt interest:
+  $$\text{PV of Interest Tax Shield} = \sum \frac{\text{Interest Payment} \times \text{Tax Rate}}{(1 + K_d)^t}$$
+• Other side effects: Subsidized loans, flotation costs, and financial distress costs.
+• Decision Rule: Accept the project if $\text{APV} > 0$.
