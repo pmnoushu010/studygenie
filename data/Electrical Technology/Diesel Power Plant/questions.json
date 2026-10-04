@@ -1,0 +1,141 @@
+{
+  "summary": "This module covers the fundamentals, system architecture, operational subsystems, and practical applications of Diesel Power Plants. It details the working principle of the diesel prime mover, where burning fuel creates high temperatures (1500°C to 2000°C) and pressures to drive reciprocating pistons that turn the generator shaft. The module thoroughly analyzes the core plant subsystems: the fuel supply system (bulk tank, transfer pump, filters, all-day tank, and fuel injectors), the air intake system with dust filters, the exhaust system with acoustic silencer, the dual-circuit cooling system with water jackets, heat exchanger, and cooling tower, the forced lubrication circuit with oil coolers to reduce friction and thermal wear, and the compressed air starting system. Finally, it contrasts the key advantages (compact size, quick start, high part-load efficiency, low cooling water demand, no ash handling) with the inherent disadvantages (high fuel and maintenance costs, limited capacity, noise pollution, shorter operating life) and outlines their roles as peak load, standby, emergency, and remote power stations.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): What is a Diesel Power Plant? State its basic working principle.",
+      "a": "A Diesel Power Plant is an electrical generating station that employs a heavy-duty compression-ignition (diesel) internal combustion engine as the prime mover directly coupled to an AC generator (alternator).\n\nWorking Principle: Diesel fuel injected into the engine cylinder ignites in the presence of hot compressed air, producing high-temperature (1500°C–2000°C) and high-pressure gases. These expanding gases push the reciprocating piston, which rotates the crankshaft and spins the generator rotor to produce electrical power."
+    },
+    {
+      "q": "Part A (3 Marks): List the major systems/components of an industrial diesel power plant.",
+      "a": "The essential systems of a diesel power plant are:\n1. Diesel Engine (Prime mover)\n2. Fuel Supply and Handling System\n3. Air Intake System\n4. Exhaust System (with Silencer)\n5. Cooling System (with Heat Exchanger and Cooling Tower)\n6. Lubricating System (with Oil Cooler)\n7. Engine Starting System (Compressed Air / Electric)\n8. AC Synchronous Generator (Alternator)."
+    },
+    {
+      "q": "Part A (3 Marks): Explain the purpose and functioning of the 'All-Day' (Day Service) fuel tank in a diesel power plant.",
+      "a": "The 'All-Day' tank (day service tank) is an indoor fuel tank positioned above the engine level to supply the daily (24-hour) fuel requirements of the diesel engine by gravity flow.\n\nFuel is transferred to it from the outdoor bulk storage tank through primary strainers and pumps. An overflow pipe is provided to safely return excess pumped fuel back to the main storage tank, preventing spillage and maintaining a constant fuel head."
+    },
+    {
+      "q": "Part A (3 Marks): Why is an air filter necessary in the air intake system of a diesel power plant?",
+      "a": "A diesel engine consumes massive volumes of ambient atmospheric air for combustion. If unfiltered air is inducted, airborne dust, sand, and abrasive grit particles will enter the cylinder, causing severe abrasive wear on the cylinder liners, piston rings, and valve seats, leading to loss of compression, reduced thermal efficiency, and premature engine failure. The air filter traps these contaminants."
+    },
+    {
+      "q": "Part A (3 Marks): Why is an exhaust silencer used in a diesel power plant, and what creates exhaust noise?",
+      "a": "When the exhaust valves open, combustion gases are discharged at high pressure, elevated temperature, and high velocity in pulsating bursts. These rapid pressure pulses produce deafening acoustic noise.\n\nAn exhaust silencer (muffler) is installed in the exhaust ducting to expand, cool, and dampen the pulsating velocity of the flue gases gradually, substantially attenuating the noise level before discharging gases into the atmosphere."
+    },
+    {
+      "q": "Part A (3 Marks): Why is an active cooling system essential for a diesel engine in a power plant?",
+      "a": "The combustion temperature of burning diesel fuel inside the cylinder reaches 1500°C to 2000°C. About 30% of total fuel heat energy is absorbed by the cylinder walls and cylinder head.\n\nWithout active continuous cooling, the excessive heat causes thermal distortion of the cylinder, burning and breakdown of lubricating oil film, seizure of pistons, and mechanical failure. Cooling water circulating through engine jackets keeps metal temperatures within safe metallurgical limits (below 85°C–90°C)."
+    },
+    {
+      "q": "Part A (3 Marks): State the primary functions of the lubricating system and name its main components.",
+      "a": "Functions:\n1. Reduces friction and mechanical wear between moving engine parts (pistons, cylinder liners, crankshaft bearings, camshaft, valves).\n2. Carries away frictional and combustion heat from internal components.\n3. Acts as a gas seal between piston rings and cylinder walls.\n4. Flushes away carbon particles, metal debris, and sludge.\n\nMain Components: Lubricating oil tank/sump, oil circulating pump, oil filter/strainer, and oil cooler."
+    },
+    {
+      "q": "Part A (3 Marks): How are large industrial diesel engines started in a power plant?",
+      "a": "Large industrial diesel engines cannot be cranked by electric starter motors due to high inertia and high compression ratios. They utilize a Compressed Air Starting System:\n- A motor-driven air compressor compresses air into a high-pressure receiver (air tank) at 20 to 30 bar.\n- During starting, high-pressure air is admitted sequentially into the engine cylinders through starting air valves during their power strokes, rotating the crankshaft until the engine reaches firing speed and runs on fuel."
+    },
+    {
+      "q": "Part A (3 Marks): State any four major advantages of a diesel power plant.",
+      "a": "Four major advantages are:\n1. Compact Design and Less Space: Requires significantly less land area and civil construction compared to steam or hydro plants.\n2. Quick Start and Load Pick-up: Can be started cold and brought to full load within minutes, responding smoothly to varying load demands.\n3. Limited Cooling Water Requirement: Requires much less cooling water than steam plants because it has no steam condenser.\n4. Clean Operation: Operates on liquid fuel with zero ash handling or particulate disposal problems."
+    },
+    {
+      "q": "Part A (3 Marks): State any four limitations or disadvantages of a diesel power plant.",
+      "a": "Four limitations are:\n1. High Operating and Fuel Cost: Diesel fuel is costly, leading to higher generation cost per unit of electricity.\n2. High Lubrication & Maintenance Cost: Heavy reciprocating wear demands frequent oil changes, ring replacements, and routine overhauls.\n3. Limited Unit Capacity: Cannot be economically built for large-scale bulk grid power generation (unit sizes rarely exceed 25–30 MW).\n4. Noise and Vibration: Generates substantial mechanical noise and acoustic emissions requiring heavy silencing and dampening."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) With the aid of a neat schematic layout diagram, explain the general arrangement and working of a complete Diesel Power Plant. (8 marks)\n(b) Explain in detail the Fuel Supply and Handling System from the storage tank to the engine cylinder. (4 marks)",
+      "a": "(a) General Arrangement and Working of a Diesel Power Plant:\n\n1. Layout and Working:\n- A diesel electric power plant integrates an internal combustion diesel engine coupled directly to an AC synchronous generator (alternator).\n- Fresh air is drawn through an air filter, cleaned of dust, and inducted into the engine cylinders during the suction stroke.\n- Fuel is transferred from the bulk fuel tank to an all-day service tank, passed through fine filters, and delivered by a high-pressure fuel injection pump (FIP) to the fuel injectors.\n- In the cylinder, fuel is injected into hot compressed air and ignites. High combustion pressures (50–80 bar) and temperatures (1500°C–2000°C) push the piston downward.\n- The connecting rod converts reciprocating motion into rotational motion of the crankshaft.\n- The rotating crankshaft drives the alternator rotor, generating electric power for transmission.\n- The hot exhaust gases pass through an exhaust manifold and silencer to the atmosphere.\n- An active closed-loop jacket water cooling system and forced-feed lubrication system maintain operating temperatures within safe limits.\n\n(b) Fuel Supply and Handling System:\n1. Bulk Storage Tank: Large outdoor tank storing fuel for several weeks of plant operation.\n2. Fuel Transfer Pump: Motor-driven pump that lifts fuel oil from the bulk tank through a coarse strainer.\n3. All-Day Tank (Day Service Tank): Indoor tank holding 24 hours of fuel demand, mounted at an elevation to provide positive head. An overflow line returns excess fuel back to the bulk tank.\n4. Secondary Fuel Filters: Duplex fine-mesh filters remove microscopic suspended contaminants to protect precision fuel injection parts.\n5. Fuel Injection Pump (FIP): High-pressure pump driven by the engine camshaft that meters exact quantities of fuel depending on generator load.\n6. Fuel Injectors (Atomizers): Multi-hole spray nozzles located in cylinder heads that atomize fuel into a fine mist (droplets < 20 microns) for rapid, complete combustion."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Explain in detail the Cooling System of a diesel power plant with the help of a flow circuit diagram. (8 marks)\n(b) Explain why the cooling water requirement of a diesel power plant is considerably less than that of an equivalent steam power plant. (4 marks)",
+      "a": "(a) Cooling System of a Diesel Power Plant:\n\n1. Need for Cooling:\n- Combustion temperatures inside the engine cylinder range between 1500°C and 2000°C.\n- Approximately 25% to 30% of total fuel energy is absorbed by the cylinder walls, cylinder heads, and piston crowns.\n- Without cooling, excessive thermal expansion causes piston seizure, cylinder head cracking, and lubricating oil burning.\n\n2. Dual-Circuit Cooling Circuit Operation:\n- Primary Circuit (Closed Jacket Water Loop):\n  * Soft, chemically treated demineralized water is circulated through cylinder jackets and cylinder heads by a circulating water pump.\n  * The water absorbs engine heat and exits at 70°C to 80°C.\n  * It enters an elevated Surge Tank, which accommodates water expansion, vents steam pockets, and maintains positive suction head.\n  * The hot jacket water flows through a shell-and-tube heat exchanger, transfers its heat to secondary water, and returns cooled to the engine jackets.\n- Secondary Circuit (Open Raw Water Loop):\n  * A raw water pump draws cold water from a cooling tower basin and pumps it through the tubes of the heat exchanger.\n  * After absorbing heat from the jacket water, the warm raw water is sprayed into an induced-draft cooling tower.\n  * Evaporative cooling cools the water droplets as they fall through the air stream, and the cold water collects in the basin for recirculation.\n\n(b) Why Cooling Water Requirement is Lower in Diesel Plants vs. Steam Plants:\n- In a Steam Power Plant, the entire mass of working steam leaving the steam turbine must be completely condensed back into water in a massive surface condenser. The latent heat of condensation (which constitutes 50% to 55% of the total heat input) must be extracted entirely by cooling water.\n- In a Diesel Power Plant, there is NO steam cycle or condenser. More than 35% of heat is converted directly into shaft work, about 30% to 35% of heat is discharged directly with the exhaust gases through the chimney, and only about 25% to 30% needs to be removed by cooling water.\n- Therefore, a diesel plant requires only about one-third (or less) of the cooling water volume needed by an equivalent-capacity steam turbine plant."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Describe the Lubricating System of a diesel power plant, explaining the function of each component in the lubrication circuit. (6 marks)\n(b) Describe the Air Intake System and Compressed Air Starting System used in industrial diesel generating sets. (6 marks)",
+      "a": "(a) Lubricating System of a Diesel Power Plant:\n\n1. Functions of Lubrication:\n- Reduces friction between reciprocating and rotating parts (piston, liner, bearings, crankshaft).\n- Minimizes mechanical wear and increases machine longevity.\n- Carries away heat generated by friction and piston combustion.\n- Provides a hydrodynamic pressure seal between piston rings and cylinder walls to prevent combustion blow-by.\n- Flushes away metallic wear particles and carbon soot.\n\n2. Circuit Components:\n- Lubricating Oil Sump / Tank: Stores clean lubricating oil.\n- Oil Circulating Pump: Gear or screw pump driven by the engine crankshaft to circulate oil under positive pressure (3 to 5 bar).\n- Oil Filter / Strainer: Full-flow and bypass centrifugal filters that continuously remove abrasive particulate matter and sludge.\n- Lubricating Oil Cooler: Water-cooled shell-and-tube heat exchanger that cools hot oil exiting the engine, maintaining optimal viscosity and preventing oil oxidation.\n\n(b) Air Intake System & Compressed Air Starting System:\n\n1. Air Intake System:\n- Supplies clean, cool atmospheric air for fuel combustion (approx. 14.5 kg of air per kg of diesel fuel).\n- Intake Ducts and Air Filter: Traps dust, grit, and industrial soot before air enters the cylinders.\n- Turbocharger: Exhaust gas-driven turbine coupled to a centrifugal air compressor. It forces dense, compressed air into the cylinders (supercharging), increasing oxygen availability and raising engine power output by 30% to 50% without increasing cylinder displacement.\n\n2. Compressed Air Starting System:\n- Required because large stationary engines cannot be cranked electrically.\n- Air Compressor: Multi-stage compressor that pressurizes air to 20 to 30 bar.\n- Air Receiver (Air Tank): Stores pressurized starting air.\n- Starting Air Distributor & Valves: When the start button is engaged, high-pressure air is sequentially admitted through automatic starting valves into cylinders on the power stroke. The expanding air cranks the engine to 100–150 rpm, at which point fuel injection commences and the engine starts firing on its own power."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Compare Diesel Power Plants with Steam Power Plants in terms of initial cost, operating cost, efficiency, water requirement, space, starting time, and environmental impact. (8 marks)\n(b) Explain the various operating roles of diesel power stations in modern power grids. (4 marks)",
+      "a": "(a) Comparative Analysis: Diesel Power Plant vs. Steam Power Plant:\n\nParameter | Diesel Power Plant | Steam Power Plant\n----------|-------------------|------------------\nInitial Capital Cost | Low for small/medium capacities (< 50 MW) | High due to boilers, turbines, and civil works\nOperating Cost | Very high (diesel fuel is expensive) | Lower (coal or lignite fuel is relatively cheap)\nThermal Efficiency | High in small sizes (35% to 42%) | Moderate in small sizes, higher in huge super-critical units (38% to 44%)\nCooling Water Demand | Low (only for cylinder jackets & oil cooler) | Extremely high (huge condenser cooling requirement)\nLand & Space Needed | Very compact; simple civil foundations | Large land area (coal yards, boilers, ash handling)\nStarting Time | Rapid start: 2 to 5 minutes from cold to full load | Slow start: 4 to 8 hours required to raise steam\nLoad Flexibility | Excellent; easily handles sudden fluctuating loads | Poor load-following capability; best for constant baseload\nFuel Handling & Waste | Simple liquid handling; zero ash production | Massive coal transport, pulverizing, and ash disposal\nPlant Service Life | 10 to 15 years (high mechanical wear) | 30 to 40 years\n\n(b) Operational Roles of Diesel Power Plants:\n1. Standby / Emergency Power Station: Installed in critical facilities (hospitals, military installations, data centers, airports) to instantly restore power when the main electrical grid fails.\n2. Peak Load Station: Run for short periods during daily peak demand hours when grid tariffs are highest and base plants cannot meet the peak load.\n3. Base Load Station for Remote / Isolated Grids: Deployed on islands, in remote mountain communities, or mining operations where building long transmission lines from the main grid is uneconomical.\n4. Nursery Station: Installed in newly developing industrial or residential townships to build up local power demand and supply power until the main high-voltage grid lines are extended."
+    }
+  ],
+  "oneword": [
+    {
+      "q": "The combustion temperature of burning fuel inside a diesel engine cylinder reaches:",
+      "a": "1500°C to 2000°C"
+    },
+    {
+      "q": "The smaller indoor fuel tank that supplies the 24-hour requirement of a diesel engine is called the:",
+      "a": "All-day tank (Day service tank)"
+    },
+    {
+      "q": "In a diesel power plant, the device used to suppress the pulsating exhaust acoustic noise is a:",
+      "a": "Silencer (Muffler)"
+    },
+    {
+      "q": "The starting system commonly employed for large industrial diesel power plants is:",
+      "a": "Compressed air starting system"
+    },
+    {
+      "q": "The electrical machine directly driven by the diesel engine crankshaft is an AC:",
+      "a": "Synchronous Generator (Alternator)"
+    },
+    {
+      "q": "In the diesel engine cooling circuit, the tank that accommodates water thermal expansion and releases air is the:",
+      "a": "Surge tank"
+    },
+    {
+      "q": "Compared to steam power plants of equivalent capacity, diesel power plants produce zero:",
+      "a": "Ash (or Ash handling problems)"
+    },
+    {
+      "q": "The typical full-load thermal efficiency range of a modern diesel generating set is:",
+      "a": "35% to 42%"
+    }
+  ],
+  "fill": [
+    {
+      "q": "In a diesel power plant, mechanical power is generated when expanding gases push the ________ inside the cylinder.",
+      "a": "piston"
+    },
+    {
+      "q": "Fuel from the main storage tank is pumped through a filter into the ________ tank to meet daily requirements.",
+      "a": "all-day (or day service)"
+    },
+    {
+      "q": "The temperature of burning fuel inside the diesel engine cylinder ranges from 1500°C to ________°C.",
+      "a": "2000"
+    },
+    {
+      "q": "The lubricating system helps to reduce wear of moving parts and also helps to ________ the engine.",
+      "a": "cool"
+    },
+    {
+      "q": "A diesel power plant can be started from cold and put on full load within ________ minutes.",
+      "a": "2 to 5"
+    }
+  ],
+  "match": [
+    {
+      "q": "All-Day Tank",
+      "a": "Supplies daily fuel requirements of the engine by gravity"
+    },
+    {
+      "q": "Air Filter",
+      "a": "Removes dust and abrasive particles from incoming air"
+    },
+    {
+      "q": "Silencer",
+      "a": "Reduces loud exhaust pulsating noise"
+    },
+    {
+      "q": "Cooling Tower",
+      "a": "Extracts heat from raw water circuit for recirculation"
+    },
+    {
+      "q": "Compressed Air Receiver",
+      "a": "Stores 20-30 bar air for pneumatic engine cranking"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "summary": "This comprehensive module covers the engineering principles, system layouts, operational components, and environmental considerations of both Hydroelectric Power Plants and Nuclear Power Plants. In Part I (Hydroelectric), it details the hydrology concepts including mass curves (Rippl's diagram) for reservoir storage capacity determination, site selection criteria, and the complete plant layout comprising catchment area, dam, reservoir, forebay, spillways, high-pressure penstocks, surge tanks (water hammer mitigation), hydraulic turbines (Pelton, Francis, Kaplan), and synchronous alternators. In Part II (Nuclear), it explores the physics of nuclear fission, energy release (200 MeV per fission, 1 kg U-235 equivalent to 2,500 tonnes of coal), and the architecture of nuclear reactors with its seven essential components: nuclear fuel, moderators (heavy water, graphite), neutron reflectors, control rods (boron, cadmium), coolants (water, CO2, liquid sodium), radiation shielding, and reactor pressure containment. Finally, it contrasts the economic, technical, and operational characteristics of hydro, nuclear, and conventional thermal/diesel generation.",
+  "sa": [
+    {
+      "q": "Part A (3 Marks): What is a Mass Curve, and how is the required storage capacity of a hydroelectric reservoir determined from it?",
+      "a": "A Mass Curve is a graphical representation of the cumulative volume of river water inflow against time (months of the year). The slope of the curve at any point indicates the rate of inflow (discharge).\n\nTo find the reservoir storage capacity:\n1. Trough points (low-inflow dry periods) are identified on the curve, and a tangent line RS is drawn touching them, representing the required uniform discharge rate.\n2. A parallel tangent AX is drawn touching the peak point of the mass curve.\n3. The maximum vertical intercept between AX and RS gives the minimum reservoir storage capacity required to maintain firm power output."
+    },
+    {
+      "q": "Part A (3 Marks): State any four major merits of a Hydroelectric Power Plant.",
+      "a": "Four major merits of a hydroelectric station are:\n1. Zero Fuel Cost: Uses naturally replenishing water; no recurring fuel expenses.\n2. Clean and Eco-Friendly: Completely free from air pollution, smoke, greenhouse gases, and ash disposal problems.\n3. Low O&M Costs & Long Life: Simple mechanical construction gives low running expenses and an operating life of 50 to 100+ years without efficiency loss.\n4. Quick Starting & Load Following: Can be started, synchronized, and put on full load within minutes, with zero standby losses."
+    },
+    {
+      "q": "Part A (3 Marks): Explain the purpose and functioning of a Surge Tank in a hydroelectric power station.",
+      "a": "A surge tank is an open-topped vertical water tank or small reservoir installed on the penstock near the power house to protect the penstock from 'water hammer' pressure surges:\n- When electrical load decreases suddenly, the governor rapidly closes the turbine gates. The rejected high-momentum water rises into the surge tank, dissipating the pressure wave and preventing penstock rupture.\n- When load increases suddenly, the surge tank supplies immediate water to the turbine, preventing vacuum or negative pressure that could buckle the penstock."
+    },
+    {
+      "q": "Part A (3 Marks): Classify hydraulic turbines based on the direction of water flow across the runner.",
+      "a": "Hydraulic turbines are classified by flow direction as:\n1. Tangential Flow Turbine: Water jet strikes the runner along the tangent to the path of rotation (e.g., Pelton Wheel).\n2. Radial Flow Turbine: Water flows along the radius of the wheel towards the center (e.g., Old Francis Turbine).\n3. Axial Flow Turbine: Water flows parallel to the axis of the turbine shaft (e.g., Propeller and Kaplan Turbines).\n4. Mixed Flow Turbine: Water enters radially inward and discharges axially downward (e.g., Modern Francis Turbine)."
+    },
+    {
+      "q": "Part A (3 Marks): Differentiate between an Earth Dam and a Gravity Dam used in hydroelectric schemes.",
+      "a": "1. Earth Dam: Constructed of trapezoidal compacted embankments of earth, sand, and gravel with an impermeable central concrete or clay core wall. Suitable for wide valleys with pervious rock/soil foundations up to 100 m height. Seepage loss is relatively higher.\n\n2. Gravity Dam: Massive, heavy structure built of solid concrete or stone masonry on solid bedrock. Resists the immense overturning and sliding forces of impounded water solely by its own enormous self-weight."
+    },
+    {
+      "q": "Part A (3 Marks): State the basic constituents of a complete Nuclear Power Plant.",
+      "a": "The fundamental constituents of a nuclear power plant are:\n1. Nuclear Reactor (produces heat through controlled nuclear fission)\n2. Heat Exchanger / Steam Generator (transfers reactor heat to secondary water to produce steam)\n3. Steam Turbine (converts steam thermal energy into rotational mechanical power)\n4. Surface Condenser (condenses exhaust steam back into pure water)\n5. AC Synchronous Alternator (converts shaft mechanical power into electrical energy)."
+    },
+    {
+      "q": "Part A (3 Marks): What is Nuclear Fission? State the energy released by the fission of 1 kg of Uranium-235.",
+      "a": "Nuclear Fission is the process in which the nucleus of a heavy radioactive atom (such as U-235, Th-232, or Pu-239) is bombarded by a thermal neutron and splits into two lighter nuclei of lower atomic weight, accompanied by the release of 2 to 3 fast neutrons and an immense amount of energy (~200 MeV per fission).\n\nEnergy Equivalent: The complete fission of 1 kg of Uranium-235 yields approximately 25 × 10^6 kWh of heat energy, which is equivalent to burning about 2,500 tonnes of high-grade coal."
+    },
+    {
+      "q": "Part A (3 Marks): Explain the function of a Moderator in a nuclear reactor and state the desirable properties of a good moderator.",
+      "a": "Function: A moderator slows down high-velocity fast neutrons (~2 × 10^7 m/s, 2 MeV) emitted during fission to thermal speeds (~2,200 m/s, 0.025 eV) through repeated elastic collisions, enabling them to cause further fission in U-235 and sustain a steady chain reaction.\n\nDesirable Properties:\n1. High neutron scattering cross-section (efficient in slowing down neutrons).\n2. Low neutron absorption cross-section (does not capture or waste neutrons).\nCommon Materials: Heavy water (D2O - ideal), reactor-grade Graphite, and Light water (H2O)."
+    },
+    {
+      "q": "Part A (3 Marks): What are Control Rods? Name the materials used and explain how they regulate reactor power.",
+      "a": "Control rods are cylindrical rods made of neutron-absorbing materials such as Boron, Cadmium, or Hafnium, inserted into the reactor core from the top.\n\nRegulation: They control the rate of fission by absorbing excess thermal neutrons:\n- When inserted deeper into the core, they absorb more neutrons, reducing the neutron population and lowering power (or shutting down the reactor completely in a SCRAM).\n- When withdrawn slightly, fewer neutrons are absorbed, increasing the chain reaction rate and raising power output."
+    },
+    {
+      "q": "Part A (3 Marks): State any four critical factors governing the selection of a site for a Nuclear Power Plant.",
+      "a": "Four critical factors are:\n1. Abundance of Cooling Water: Proximity to a large river, lake, or sea to supply massive cooling water for steam condensers.\n2. Distance from Populated Areas: Sufficient buffer zone/exclusion radius from urban population centers to mitigate radiation hazards.\n3. High Foundation Soil Bearing Capacity: Strong bedrock capable of withstanding heavy loads (> 50 tonnes/m²) to support reactor vessels and shielding weighing over 100,000 tonnes.\n4. Seismic Stability: Located far away from active earthquake fault lines or tsunami zones."
+    }
+  ],
+  "essay": [
+    {
+      "q": "Part B (12 Marks): (a) With the aid of a neat schematic diagram, explain the general layout and major components of a Hydroelectric Power Plant from catchment area to tail race. (8 marks)\n(b) Describe the functions of the Forebay, Spillway, and Penstock in a hydro station. (4 marks)",
+      "a": "(a) General Layout and Working of a Hydroelectric Power Plant:\n\n1. Layout and Working Flow:\n- Water from rainfall in the mountain Catchment Area flows into streams and collects in the Reservoir impounded behind a massive Dam.\n- The Dam raises the water surface level to create the required hydraulic head (H).\n- From the reservoir intake, water enters a pressure tunnel and passes through the Forebay and Surge Tank.\n- Water then rushes at high pressure down through heavy steel conduits called Penstocks to the Power House.\n- At the power house, water enters the spiral casing and strikes the blades/runner of the Hydraulic Turbine.\n- The potential and kinetic energy of water is converted into mechanical shaft torque.\n- The turbine shaft is directly coupled to an AC Synchronous Generator (Alternator) that generates electrical power.\n- Electrical power is stepped up via power transformers and dispatched through switchgear to high-voltage transmission lines.\n- Discharged water exiting the turbine passes through a draft tube and flows harmlessly back into the natural river through the Tail Race canal.\n\n(b) Functions of Forebay, Spillway, and Penstock:\n1. Forebay:\n- An enlarged regulating basin located at the head of the penstocks.\n- Acts as a temporary surge buffer, storing excess water when load is reduced and supplying supplemental water to meet sudden hourly load increases before reservoir flow adjusts.\n2. Spillway:\n- Functions as the safety valve of the dam to discharge surplus flood water downstream when the reservoir reaches full capacity.\n- Prevents flood water from overtopping the dam crest, which could cause catastrophic structural failure.\n- Types include Ogee/overflow spillways, chute spillways, shaft spillways, and siphon spillways.\n3. Penstock:\n- High-pressure closed pipeline (made of reinforced concrete or thick welded steel) connecting the forebay or surge tank to the turbine casing.\n- Designed with expansion joints, anchor blocks, and air-relief valves to withstand extreme hydrodynamic static pressures and dynamic water hammer surges."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Explain the construction and functioning of a Surge Tank with a neat diagram. Discuss the phenomenon of water hammer and how the surge tank mitigates it. (8 marks)\n(b) Classify hydraulic turbines based on water head, action of water, and flow direction, giving examples for each. (4 marks)",
+      "a": "(a) Surge Tank Construction, Water Hammer, and Working:\n\n1. The Phenomenon of Water Hammer:\n- In a high-head hydro plant, a long column of water moving at high velocity possesses massive kinetic momentum inside the penstock.\n- When electrical load on the generator decreases suddenly, the governor responds by rapidly closing the turbine inlet wicket gates.\n- The sudden arrest of moving water generates a severe acoustic pressure wave that travels back and forth along the penstock at the speed of sound.\n- This hydrodynamic shock wave produces extremely high local pressures ('water hammer') that can easily burst or collapse the steel penstock.\n\n2. Construction and Functioning of Surge Tank:\n- A Surge Tank is a tall, vertical water cylinder open to the atmosphere, placed on the penstock as close as possible to the power house.\n- Operation during Load Rejection: When the turbine gates close, the blocked high-momentum water is diverted upward into the surge tank. The water level rises, converting the kinetic energy of the column into potential energy, dampening the pressure wave and eliminating penstock strain.\n- Operation during Load Demand: When load suddenly increases, the turbine gates open wide. Before water can accelerate from the distant reservoir, the surge tank instantly supplies the extra water demand by a falling water level, preventing negative pressure (vacuum) that could crush the penstock walls inward.\n\n(b) Classification of Hydraulic Turbines:\n\n1. According to Available Head:\n- High Head Turbines (> 150 m): Pelton Wheel (impulse type, low discharge).\n- Medium Head Turbines (30 m to 150 m): Francis Turbine (mixed-flow reaction type).\n- Low Head Turbines (< 30 m): Kaplan and Propeller Turbines (axial-flow reaction type, very high discharge).\n\n2. According to Action of Water:\n- Impulse Turbines: Entire hydraulic potential is converted into kinetic energy via high-velocity nozzles at atmospheric pressure before striking runner buckets (e.g., Pelton Wheel).\n- Reaction Turbines: Water enters the runner under high pressure and expands continuously through guide vanes and runner passages; driven by both kinetic and pressure energy (e.g., Francis and Kaplan Turbines).\n\n3. According to Direction of Flow across Runner:\n- Tangential Flow: Pelton Wheel.\n- Radial Flow: Old Francis Turbine.\n- Axial Flow: Propeller and Kaplan Turbines.\n- Mixed Flow (Radial Inlet, Axial Outlet): Modern Francis Turbine."
+    },
+    {
+      "q": "Part B (12 Marks): (a) With the aid of a neat schematic diagram, explain the general layout and working of a complete Nuclear Power Plant. (8 marks)\n(b) Describe the operational functions of: (i) Coolant, (ii) Reflector, and (iii) Thermal and Biological Shielding in a nuclear reactor. (4 marks)",
+      "a": "(a) General Layout and Working of a Nuclear Power Plant:\n\n1. Plant Layout and Flow:\n- A nuclear power plant consists of a Primary Nuclear Loop and a Secondary Steam-Power Loop separated by a Heat Exchanger / Steam Generator.\n- In the Reactor Core, controlled nuclear fission of uranium fuel generates immense thermal energy.\n- High-pressure primary Coolant is pumped through the reactor core, absorbs the fission heat, and flows through heat exchanging tubes inside the Steam Generator.\n- The primary coolant transfers its heat to secondary feed water, converting it into high-pressure dry saturated or superheated steam, and is pumped back to the reactor.\n- The generated steam passes through main steam valves into a high-pressure Steam Turbine, where it expands against turbine blades, driving the turbine shaft.\n- The turbine shaft is directly coupled to an AC Synchronous Alternator, generating 3-phase electrical power.\n- The low-pressure exhaust steam leaving the turbine enters a Surface Condenser, where cold circulating water pumped from a river or cooling tower condenses it back to water.\n- A condensate extraction pump and feed water pump return the condensate to the steam generator, completing the Rankine steam cycle.\n\n(b) Operational Functions of Core Components:\n\n1. Coolant:\n- Primary heat transfer fluid that circulates through the core to extract heat from fuel elements, preventing fuel meltdown and transferring energy to steam generator tubes.\n- Materials: Light water (PWR/BWR), Heavy water (PHWR/CANDU), Gas (CO2 in AGR), or Liquid metals (Molten Sodium in Fast Breeder Reactors).\n\n2. Reflector:\n- A layer of material with high neutron scattering and low absorption properties that completely surrounds the reactor core.\n- Bounces escaping neutrons back into the fuel core, minimizing neutron leakage, improving neutron economy, and reducing the critical mass of fissile fuel needed.\n\n3. Thermal and Biological Shielding:\n- Thermal Shield: Heavy inner steel or cast iron lining placed inside the reactor vessel to absorb intense gamma rays and fast neutrons, protecting the vessel from excessive thermal stress.\n- Biological Shield: Massive outer reinforced concrete barrier (2 to 3 meters thick) enclosing the reactor vessel to absorb deadly gamma radiation and escaping neutrons, ensuring radiation safety for plant operators."
+    },
+    {
+      "q": "Part B (12 Marks): (a) Describe the seven main components of a nuclear reactor with a neat cross-sectional sketch. (8 marks)\n(b) Compare Hydroelectric, Nuclear, and Diesel power plants in terms of initial capital cost, running cost, fuel requirement, site flexibility, and starting speed. (4 marks)",
+      "a": "(a) Seven Main Components of a Nuclear Reactor:\n\n1. Nuclear Fuel: Fissile material (U-235, U-238, Pu-239, or Th-232) sealed in zirconium-alloy tubes forming fuel assemblies. Undergoes fission to release heat.\n2. Moderator: Low atomic mass material (graphite, heavy water, light water) that slows down fast fission neutrons to thermal energy through elastic collisions without absorbing them.\n3. Control Rods: Neutron-absorbing elements (boron, cadmium) inserted or withdrawn from the core to regulate fission rate, maintain criticality, or achieve instant shutdown (SCRAM).\n4. Reflector: Surrounds the fuel core to reflect escaping neutrons back into the active core, reducing critical fuel mass.\n5. Coolant: Fluid (water, gas, or liquid sodium) continuously circulated through fuel channels to carry away intense heat to the steam generator.\n6. Thermal & Biological Shielding: Inner iron shield absorbs thermal radiation; outer thick concrete shield (2–3 m) blocks gamma rays and neutrons to protect personnel.\n7. Reactor Pressure Vessel & Containment Dome: Heavy steel pressure vessel housing core components, enclosed within a reinforced concrete containment dome.\n\n(b) Comparative Analysis: Hydroelectric vs. Nuclear vs. Diesel Power Plants:\n\nParameter | Hydroelectric Plant | Nuclear Power Plant | Diesel Power Plant\n----------|---------------------|---------------------|-------------------\nInitial Capital Cost | Extremely High (dams & civil works) | Extremely High (reactors & safety systems) | Low for small/medium ratings\nRunning / Fuel Cost | Practically Zero (water is free) | Very Low per kWh | Extremely High (costly diesel fuel)\nFuel Volume Needed | Zero fuel consumed | Very small (1 kg U-235 ≈ 2500 t coal) | Moderate to high liquid fuel storage\nSite Flexibility | Very Rigid (must be at high-head river) | Moderate (needs water body & bedrock) | Highly Flexible (can be installed anywhere)\nStarting & Load Pick-up | Extremely Fast (2 to 5 minutes) | Slow (hours/days; strictly baseload) | Rapid (2 to 5 minutes)\nPlant Service Life | 50 to 100+ years | 30 to 40 years | 10 to 15 years\nEnvironmental Impact | Clean, but causes land submersion | Zero carbon emissions; radwaste hazard | Air pollution and acoustic noise"
+    }
+  ],
+  "oneword": [
+    {
+      "q": "The diagram plotting cumulative volume of river water inflow against time to determine reservoir storage capacity is called a:",
+      "a": "Mass curve (Rippl's diagram)"
+    },
+    {
+      "q": "The open vertical tank installed on a penstock to relieve water hammer pressure surges is the:",
+      "a": "Surge tank"
+    },
+    {
+      "q": "A high-head hydraulic turbine where water strikes runner buckets tangentially is the:",
+      "a": "Pelton wheel"
+    },
+    {
+      "q": "The fission of 1 kg of Uranium-235 releases energy approximately equivalent to burning:",
+      "a": "2,500 tonnes of coal"
+    },
+    {
+      "q": "The average energy released per single nuclear fission event of U-235 is approximately:",
+      "a": "200 MeV"
+    },
+    {
+      "q": "The material commonly used to construct reactor control rods due to its high neutron absorption is:",
+      "a": "Boron (or Cadmium)"
+    },
+    {
+      "q": "The most effective moderating material used in nuclear reactors is:",
+      "a": "Heavy water (D2O)"
+    },
+    {
+      "q": "The safety component that safely discharges excess flood water from a full reservoir is the:",
+      "a": "Spillway"
+    }
+  ],
+  "fill": [
+    {
+      "q": "The vertical distance between the two parallel tangents on a mass curve represents the required ________ capacity of the reservoir.",
+      "a": "storage"
+    },
+    {
+      "q": "A surge tank protects the high-pressure penstock against the destructive phenomenon of ________.",
+      "a": "water hammer"
+    },
+    {
+      "q": "Kaplan and Propeller turbines are classified as ________ flow hydraulic turbines.",
+      "a": "axial"
+    },
+    {
+      "q": "A moderator in a nuclear reactor is used to reduce the speed of fast ________.",
+      "a": "neutrons"
+    },
+    {
+      "q": "The outer biological shield of a nuclear reactor is made of thick high-density ________.",
+      "a": "concrete"
+    }
+  ],
+  "match": [
+    {
+      "q": "Surge Tank",
+      "a": "Absorbs water hammer pressure surges on penstock"
+    },
+    {
+      "q": "Pelton Wheel",
+      "a": "Tangential flow impulse turbine for high head"
+    },
+    {
+      "q": "Moderator",
+      "a": "Slows fast neutrons to thermal velocities"
+    },
+    {
+      "q": "Control Rods",
+      "a": "Regulates fission rate by absorbing excess neutrons"
+    },
+    {
+      "q": "Spillway",
+      "a": "Acts as a safety valve to discharge excess flood water"
+    }
+  ]
+}
