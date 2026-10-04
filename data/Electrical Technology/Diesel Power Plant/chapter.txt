@@ -4,121 +4,87 @@ ELECTRICAL TECHNOLOGY - MODULE 3: DIESEL POWER PLANT
 
 1. INTRODUCTION & WORKING PRINCIPLE
 --------------------------------------------------------------------------------
-A Diesel Power Plant (also known as a Diesel Electric Power Plant or DG Set Power Station) is an internal combustion (IC) engine-based electrical generating facility. It utilizes a heavy-duty multi-cylinder compression-ignition (diesel) engine as the prime mover coupled directly to an AC synchronous generator (alternator) to produce electrical power.
+A Diesel Power Plant employs a heavy-duty compression-ignition internal combustion diesel engine coupled directly to an AC generator (alternator) to generate electrical power.
 
-Basic Operating Mechanism:
-• Diesel fuel is injected into the engine cylinders under high pressure at the end of the compression stroke, where it auto-ignites in the presence of highly compressed, hot air.
-• The combustion of diesel fuel produces an intense release of thermal energy, creating extreme temperatures (1500°C to 2000°C) and high gas pressures inside the cylinder.
-• These high-pressure combustion gases expand against the piston crown, driving the reciprocating motion of the piston.
-• The reciprocating motion of the piston is converted into continuous rotary mechanical power at the engine crankshaft via the connecting rod and crank mechanism.
-• The rotating crankshaft drives the rotor of the direct-coupled synchronous generator (alternator), producing 3-phase AC electrical energy at standardized voltage and frequency.
+Basic Working Principle:
+• When the diesel fuel burning inside the engine, its start to produce a mechanical power.
+• The combustion of diesel fuel produces increased temperature & pressure inside the engine.
+• The combustion temperature of the burning fuel inside the engine cylinder is 1500°C to 2000°C.
+• Due to this pressure, gases are formed; this gas pushes the piston inside the diesel engine, and then mechanical power is produced.
+• With the use of this mechanical power, the shaft of diesel engine starts rotating.
+• The rotating shaft turns the rotor of the directly coupled AC synchronous generator (alternator) to produce electricity.
 
 
-2. ESSENTIAL SYSTEMS OF A DIESEL POWER PLANT
+2. ESSENTIAL SYSTEMS OF DIESEL POWER PLANT
 --------------------------------------------------------------------------------
-A modern industrial diesel power plant comprises seven interconnected subsystems:
+A complete diesel power plant includes the following major systems and circuits:
 
-1. Diesel Engine (Prime Mover):
-   - Heavy-duty, 2-stroke or 4-stroke multi-cylinder compression ignition engine.
-   - May be naturally aspirated, supercharged, or turbocharged to increase power density and thermal efficiency.
+(i) Fuel Supply System:
+    • Fuel from the storage tank is pumped through a filter into a smaller tank called all-day tank.
+    • This tank supplies the daily requirements of the diesel engine by gravity head.
+    • A fuel overflow pipe returns excess pumped fuel safely back to the bulk storage tank.
+    • High-pressure fuel injection pump (FIP) delivers metered fuel to fuel injectors located in cylinder heads.
 
-2. Fuel Supply and Handling System:
-   - Stores, pumps, filters, and delivers clean fuel oil to the engine cylinders at the required injection pressure.
-   - Key Components:
-     * Main Fuel Storage Tank: Large outdoor bulk storage tank receiving fuel supplies from road or rail tankers.
-     * Fuel Transfer Pump: Transfers fuel oil from the main storage tank to the daily service tank.
-     * Strainers and Primary Fuel Filter: Remove coarse dirt, sand, and particulate matter to protect transfer pumps and fuel lines.
-     * All-Day Tank (Day Service Tank): An elevated indoor tank holding sufficient fuel to run the plant for 24 hours of continuous operation. An overflow return line safely recirculates excess fuel back to the bulk storage tank.
-     * Fine Secondary Fuel Filter: Traps micro-particles before fuel enters the precision fuel injection equipment.
-     * High-Pressure Fuel Injection Pump (FIP): Pressurizes fuel oil (150 to 300 bar or higher in common-rail systems) and meters exact fuel quantity per cylinder.
-     * Fuel Injectors / Atomizers: Spray finely atomized fuel into the combustion chamber through microscopic multi-hole nozzles.
+(ii) Air Intake System:
+    • The air required for the combustion of fuel inside the diesel engine cylinder is drawn through the air filter.
+    • The purpose of the filter is to remove dust from the incoming air to prevent abrasive wear on cylinder liners and piston rings.
 
-3. Air Intake System:
-   - Delivers fresh, clean, and cool ambient air required for stoichiometric fuel combustion inside the engine cylinders.
-   - Key Components:
-     * Air Intake Duct / Louvers: Draws air from outside the powerhouse building.
-     * Air Filter (Dry or Oil-Bath type): Traps atmospheric dust, soot, and abrasive airborne particles to prevent cylinder liner and piston ring wear.
-     * Turbocharger / Supercharger (Optional): Compresses incoming air using exhaust gas energy to increase air density, boost engine volumetric efficiency, and increase power output.
+(iii) Exhaust System:
+    • The exhaust gases coming out of the engine is very noisy.
+    • In order to reduce the noise, a silencer is used in the exhaust line before releasing gases into the atmosphere.
 
-4. Engine Starting System:
-   - Unlike small automotive engines that use battery-driven starter motors, large industrial and utility-scale diesel engines require high cranking torque to overcome huge inertia and high compression ratios.
-   - Compressed Air Starting System:
-     * Motor-driven air compressor pressurizes air to 20 to 30 bar.
-     * High-pressure air receiver (air storage tank) stores starting air.
-     * Pneumatic distributor valve admits high-pressure air sequentially into the engine cylinders during the power stroke, spinning the crankshaft until the engine fires on fuel.
+(iv) Cooling System:
+    • The temperature of the burning fuel inside the engine cylinder is 1500°C to 2000°C.
+    • In order to lower this temperature, water is circulated around the engine jackets.
+    • The hot water leaving the jacket is passed through the heat exchanger.
+    • The heat from the heat exchanger is carried away by the raw water circulated through the heat exchanger and is cooled in the cooling tower for recirculation.
+    • An expansion surge tank accommodates water expansion and maintains positive suction head.
 
-5. Exhaust System:
-   - Safely collects, silences, and discharges hot combustion flue gases into the atmosphere away from personnel and ventilation air intakes.
-   - Key Components:
-     * Exhaust Manifold: Collects gases from each cylinder head.
-     * Exhaust Piping with Thermal Expansion Bellows: Accommodates thermal expansion and reduces engine vibration transfer to the structure.
-     * Silencer (Muffler): Significantly reduces high-decibel acoustic noise caused by high-velocity pulsating exhaust gases.
-     * Waste Heat Recovery Boiler / Economizer (Optional): Captures waste heat from 400°C–500°C exhaust gases to generate low-pressure process steam or hot water, raising overall plant thermal efficiency.
+(v) Lubricating System:
+    • This circuit includes lubricating oil tank, oil pump, and oil cooler.
+    • The purpose of the lubrication system is to reduce the wear of the engine moving parts (parts of the cylinder such as piston, shafts, valves must be lubricated).
+    • Lubrication also helps to cool the engine by absorbing frictional heat.
 
-6. Cooling System:
-   - Combustion temperatures inside the cylinder peak between 1500°C and 2000°C. About 30% of total fuel heat energy is absorbed by cylinder walls and cylinder heads.
-   - Without effective continuous cooling, cylinder liners warp, piston crowns overheat, lubricating oil oxidizes and burns, and metal seizure occurs.
-   - Dual-Circuit Cooling Circuit:
-     * Engine Water Jacket: Treated, soft demineralized water circulates through cylinder block jackets and cylinder heads to absorb rejected engine heat.
-     * Surge Tank: Accommodates thermal expansion of cooling water, releases air bubbles, and ensures a constant positive head for the water pump.
-     * Shell-and-Tube Heat Exchanger: The hot closed-loop engine jacket water transfers its heat to an open secondary raw water loop.
-     * Raw Water Circuit & Cooling Tower: Raw water pump circulates cold water through the heat exchanger to absorb heat and sprays it into an induced-draft cooling tower to cool it for reuse.
+(vi) Engine Starting System:
+    • Large industrial diesel engines use a Compressed Air Starting System:
+      - Air compressor pressurizes air to 20 to 30 bar.
+      - Air tank / receiver stores starting air.
+      - High-pressure air admitted into cylinders spins crankshaft to firing speed.
 
-7. Lubricating System:
-   - Minimizes mechanical friction, reduces component wear, cools moving parts, cleans away wear debris, and seals combustion gaps.
-   - Parts Lubricated: Piston rings, cylinder liners, crankshaft main bearings, crankpin bearings, gudgeon pins, camshaft bearings, timing gears, and valve rockers.
-   - Key Components:
-     * Lubricating Oil Sump / Tank: Stores engine oil.
-     * Engine-Driven Oil Pump: Draws oil from the sump and circulates it through the engine galleries at regulated pressure.
-     * Oil Strainer & Bypass Filter: Continuously filters out metallic particles, carbon soot, and sludge.
-     * Lubricating Oil Cooler: Shell-and-tube cooler using cooling water to extract heat from lubricating oil, maintaining oil viscosity and preventing thermal degradation.
+(vii) AC Generator (Alternator):
+    • Converts the rotational mechanical power of the diesel engine into electrical power.
 
 
-3. ADVANTAGES AND DISADVANTAGES OF DIESEL POWER PLANTS
+3. ADVANTAGES AND DISADVANTAGES OF DIESEL POWER PLANT
 --------------------------------------------------------------------------------
 Advantages:
-1. Compact Space Requirement & Rapid Installation:
-   - Occupies significantly less land area and requires lighter civil foundations than equivalent steam or hydro power plants.
-2. Quick Start and Load Pick-up:
-   - Can be started from cold condition, synchronized, and put on full load within 2 to 5 minutes, making it unmatched for emergency and peak-load duties.
-3. High Thermal Efficiency in Small/Medium Capacities:
-   - Overall thermal efficiency ranges from 35% to 42%, which is higher than comparable steam turbine plants in the small-to-medium capacity bracket (up to 150 MW).
-4. Excellent Part-Load Efficiency & Load Following:
-   - Multiple smaller generating units can be switched on/off to match fluctuating daily load profiles with high efficiency.
-5. Limited Cooling Water Requirements:
-   - Requires far less water than a steam power plant of identical capacity because it does not require condenser cooling.
-6. Simple Plant Layout & Fuel Storage:
-   - Compact liquid fuel storage without large coal storage yards, boiler houses, or tall chimneys.
-7. Clean Operation & Zero Ash Handling:
-   - Operates cleanly on liquid fuel; no coal pulverizers, ash ponds, electrostatic precipitators, or ash disposal problems.
-8. Reduced Supervision & Staffing:
-   - Fully automated start/stop, governing, and protection systems require fewer operators.
+1. Very simple design also simple installation and occupies less space.
+2. Limited cooling water requirement.
+3. Diesel power plant are more efficient than steam power in the range of 150 MW capacity.
+4. Quickly started and put on load.
+5. It can respond to varying loads without any difficulty.
+6. Smaller storage is needed for the fuel.
+7. Layout of power plant is quite simple.
+8. There is no problem of ash handling.
+9. Less supervision required.
 
 Disadvantages:
-1. High Operating & Fuel Costs:
-   - Diesel fuel is considerably more expensive per unit of heat energy than coal or natural gas.
-2. High Lubrication and Maintenance Expenses:
-   - Continuous mechanical wear on reciprocating components necessitates frequent oil changes, ring replacements, and routine overhauls.
-3. Higher Capital Cost per kW at Large Capacities:
-   - While economical at small ratings, the capital cost per installed kilowatt becomes very high for ratings beyond 50 MW.
-4. Relatively Shorter Plant Operating Life:
-   - Severe mechanical stresses, reciprocating vibration, and thermal cycling limit plant service life to 10–15 years (compared to 30–40 years for steam or hydro plants).
-5. Serious Acoustic and Vibration Pollution:
-   - Loud exhaust pulsations and mechanical clatter require heavy acoustic enclosures and vibration-damping pads.
-6. Limited Unit Size and Capacity:
-   - Individual diesel engine units rarely exceed 20 MW to 30 MW; diesel plants cannot be practically built for massive central baseload grid generation (e.g., 500 MW to 1000 MW).
+1. High Maintenance, lubrication cost and operating cost.
+2. Fuel cost is more, since in India diesel is costly.
+3. The plant cost per kW is comparatively more.
+4. The life of diesel power plant is small due to high maintenance.
+5. Noise is a serious problem in diesel power plant.
+6. Diesel power plant cannot be constructed for large scale.
 
 
-4. TYPICAL APPLICATIONS IN MODERN POWER SYSTEMS
+4. PRACTICAL OPERATING APPLICATIONS
 --------------------------------------------------------------------------------
-• Standby / Emergency Power Plants:
-  Installed in critical institutions such as hospitals, data centers, airports, telecommunication exchanges, continuous-process chemical plants, and high-rise commercial complexes to provide uninterrupted power during grid outages.
-• Peak Load Plants:
-  Operated during brief daily peak demand intervals when grid demand exceeds baseload thermal and hydro capacity.
-• Base Load Plants for Remote / Island Locations:
-  Ideal for isolated islands, hilly terrains, mines, and remote rural microgrids where grid transmission line construction is economically unfeasible.
-• Mobile Portable Power Units:
-  Mounted on trailers or barges for disaster relief, temporary construction sites, and military deployments.
-• Nursery Stations:
-  Installed in emerging townships to establish a local distribution network before a high-voltage national grid transmission line arrives.
+(i) Standby / Emergency Power Plants:
+    Installed in hospitals, data centers, airports, and factories during main grid failure.
+(ii) Peak Load Plants:
+    Operated during brief daily peak demand intervals due to rapid start capability (within 2 to 5 minutes).
+(iii) Base Load Plants for Remote / Isolated Grids:
+    Ideal for isolated islands, hilly terrains, and mines where grid transmission line construction is uneconomical.
+(iv) Nursery Stations:
+    Installed in developing areas to build up electrical load until high-voltage grid lines arrive.
 ================================================================================

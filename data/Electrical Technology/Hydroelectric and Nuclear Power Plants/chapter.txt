@@ -7,7 +7,7 @@ PART I: HYDROELECTRIC POWER PLANTS
 
 1. INTRODUCTION & WORKING PRINCIPLE
 A Hydroelectric Power Plant harnesses the gravitational potential energy of water stored at an elevated reservoir and converts it into electrical energy:
-• Water stored behind a dam at a high elevation possesses potential energy (P.E. = m * g * H, where H is the head in meters).
+• Water stored behind a dam at a high elevation possesses potential energy (P.E. = m × g × H, where H is the head in meters).
 • Water is channeled through high-pressure closed pipes called penstocks, where potential energy is converted into high-velocity kinetic energy.
 • The high-velocity water jet strikes the runner vanes of a hydraulic turbine, converting hydraulic kinetic energy into mechanical rotational power at the turbine shaft.
 • The hydraulic turbine is directly coupled to an AC synchronous generator (alternator), which converts rotational mechanical power into 3-phase alternating electrical energy.
@@ -15,81 +15,84 @@ A Hydroelectric Power Plant harnesses the gravitational potential energy of wate
 
 2. HYDROLOGY & MASS CURVE
 • Mass Curve (Rippl's Diagram):
-  - A mass curve is a graphical plot of cumulative volume of river water inflow (expressed in second-metre-months or million cubic meters) against time (months of the year).
+  - A mass curve is a graphical plot of cumulative volume of river water inflow (where 1 second-metre month = 2592 × 10³ m³) against time (months of the year).
   - Slope of the curve at any point represents the rate of inflow (discharge) at that time.
   - Troughs represent periods of low water inflow (dry season/drought).
   - Peaks represent periods of heavy rainfall and flood runoff.
 • Determining Reservoir Storage Capacity:
   - To determine the required storage capacity to maintain a uniform firm power yield:
-    1. Identify the trough points (e.g., points B and C) and draw a tangent line RS passing through the troughs. The slope of RS represents the uniform demand/draw-off rate.
-    2. Draw a parallel tangent AX from the peak point (point A).
-    3. The maximum vertical distance measured between the upper tangent AX and the lower line RS represents the minimum reservoir storage capacity required to ensure uninterrupted power generation during dry spells.
+    (i) Identify the trough points (e.g., points B and C) and draw a tangent line RS passing through the troughs. The slope of RS represents the uniform demand/draw-off rate.
+    (ii) Draw a parallel tangent AX from the peak point (point A).
+    (iii) The vertical distance measured between the upper tangent AX and the lower line RS represents the storage capacity required to ensure uninterrupted power generation during dry spells.
 
 
 3. ESSENTIAL COMPONENTS OF A HYDROELECTRIC POWER PLANT
 A complete hydroelectric installation comprises the following elements:
-1. Catchment Area:
-   The surrounding mountainous geographical terrain from which all surface rainfall runoff drains into the river and dam basin.
-2. Reservoir:
-   A large natural or artificial body of water created by constructing a dam across the river to store water during monsoon periods for year-round utilization.
-3. Dam & Head Works:
-   - Built across the river to raise the water level and create the required hydraulic head (H).
-   - Classified by materials:
-     * Timber and Steel Dams: Low-head installations (6 m to 12 m).
-     * Earth Dams: Built up to 100 m on pervious rock/soil foundations. Consists of an impermeable concrete core wall, earth/sand/gravel embankment, stone pitching on the upstream face against wave erosion, and turf/grass on the downstream face against rain erosion. Subject to higher seepage loss.
-     * Solid Gravity Dam: Heavy concrete or masonry structure that resists water overturning and sliding forces solely through its immense self-weight.
-     * Concrete Buttress Dam: Has an inclined upstream face supported by triangular buttress walls; downward water pressure provides inherent stability against sliding and overturning.
-     * Arch Dam: Curved upstream masonry/concrete arch suitable for narrow, rocky gorges; transfers immense horizontal water thrust to the canyon walls.
-4. Forebay:
-   An enlarged regulating water basin located just upstream of the penstock intake to temporarily store water and buffer hourly load fluctuations on the turbines.
-5. Spillway:
-   Acts as a safety valve for the dam. When the reservoir is full during severe floods, the spillway safely discharges excess flood water downstream to prevent overtopping and dam failure.
-   Types: Overflow/Ogee spillways, Chute spillways, Side channel spillways, Shaft (morning glory) spillways, and Siphon spillways.
-6. Penstock:
-   A heavy-duty closed conduit (fabricated from high-tensile welded steel or prestressed concrete) carrying high-pressure water from the forebay or surge tank down to the turbine spiral casing.
-7. Surge Tank:
-   An open-topped vertical cylinder or auxiliary tank installed on long penstocks between the reservoir and the power house.
-   - Purpose & Water Hammer Protection:
-     * When electrical load on the generator suddenly drops, the governor rapidly closes the turbine inlet gates. The sudden deceleration of high-momentum water causes a massive pressure surge called "water hammer", which can rupture penstock pipes.
-     * The surge tank absorbs the rejected water, allowing the water level inside it to rise, converting kinetic energy into potential energy and neutralizing the pressure wave.
-     * Conversely, during sudden load increase, the gates open quickly. The surge tank provides immediate extra water, preventing vacuum/negative pressure that could cause thin penstock walls to buckle inward.
-8. Control Gates & Inlet Valves:
-   Sluice gates at the dam intake and rotary/butterfly valves at the turbine inlet control and shut off water flow during emergency maintenance.
-9. Hydraulic Turbine:
-   Converts the fluid energy into mechanical rotary power.
-10. Tail Race:
-    The discharge canal or channel that leads spent water exiting the turbine draft tube back into the natural river bed.
-11. Power House & Switchgear:
-    Houses the hydraulic turbines, alternators, exciters, step-up transformers, circuit breakers, and protection relays.
+(i) Catchment Area:
+    The surrounding mountainous geographical terrain from which all surface rainfall runoff drains into the river and dam basin.
+(ii) Reservoir:
+    A large natural or artificial body of water created by constructing a dam across the river to store water during monsoon periods for year-round utilization.
+(iii) Dam & Head Works:
+    - Built across the river to raise the water level and create the required hydraulic head (H).
+    - Classified by materials:
+      * Timber and Steel Dams: Low-head installations (6 m to 12 m).
+      * Earth Dams: Built up to about 100 m on pervious rock/soil foundations. Consists of a central concrete core wall, earth/sand/gravel embankment, stone pitching at the water line against wave erosion, and turf/grass on exposed surfaces against rain erosion. Seepage loss is more than other dams.
+      * Solid Gravity Dam: Heavy concrete or masonry structure that resists water overturning and sliding forces solely through its immense self-weight.
+      * Concrete Buttress Dam: Has an inclined upstream face supported by triangular buttress walls; downward water pressure creates a large downward force providing inherent stability against sliding and overturning.
+      * Arch Dam: Curved upstream masonry/concrete arch suitable for narrow canyon widths; transfers immense horizontal water thrust to canyon walls with less concrete.
+(iv) Forebay:
+    An enlarged body of water just above the intake (either a pond behind the diversion dam or an enlarged section of a canal) for storing water temporarily to meet hourly load fluctuations.
+(v) Spillway:
+    Acts as a safety valve. Discharges the overflow of water to the downstream side when the reservoir is full, mainly during flood periods.
+    Classification: (a) Spillway dams or overflow spillways, (b) Chute spillways, (c) Side channel spillways, (d) Shaft spillways, and (e) Siphon spillways.
+(vi) Penstock:
+    A heavy-duty closed conduit (fabricated from high-tensile welded steel or reinforced concrete) connecting the forebay or surge tank to the scroll case of the hydraulic turbine.
+(vii) Surge Tank:
+    A small reservoir or vertical cylinder open at the top, installed on the penstock between the dam and power house.
+    - Function & Water Hammer Protection:
+      * When electrical load on the generator decreases, the governor tends to close turbine gates and water pressure is increased in the penstock. Water hammering occurs in the penstock if a surge tank is not provided. The water level in the surge tank rises, absorbing the momentum and relieving pressure variations.
+      * Conversely, during larger load demand, the gate opens to allow large quantities of water to flow. There will be a tendency of vacuum or negative pressure in the water system; the surge tank provides immediate water to prevent penstock collapse.
+(viii) Control Sluice Gates & Inlet Valves:
+    Control and shut off water flow into the penstock and turbine runner.
+(ix) Hydraulic Turbine (Hydrodynamic Machine):
+    Converts fluid energy into rotational mechanical shaft torque.
+(x) Tail Race:
+    The discharge canal or channel leading spent water exiting the turbine draft tube back into the natural river.
+(xi) Alternator, Switchgear & Power House:
+    Houses the generator directly coupled to the turbine, step-up transformers, and circuit breakers to dispatch electrical energy to the transmission lines.
 
 
-4. CLASSIFICATION OF HYDRAULIC TURBINES (HYDRODYNAMIC MACHINES)
-1. According to Flow Direction across Runner:
-   • Tangential Flow Turbine: Water jet strikes runner buckets along the tangent (e.g., Pelton Wheel). High head (150 m to 1500 m), low discharge.
-   • Radial Flow Turbine: Water flows inward along the radius towards the shaft center (e.g., Old Francis Turbine).
-   • Axial Flow Turbine: Water flows parallel to the turbine shaft axis (e.g., Propeller and Kaplan Turbines with adjustable runner blades). Low head (< 30 m), large discharge.
-   • Mixed Flow Turbine: Water enters radially inward and leaves axially downward (e.g., Modern Francis Turbine). Medium head (30 m to 300 m).
-2. According to Action of Water:
-   • Impulse Turbine: Total hydraulic head is converted into kinetic energy in nozzles before entering runner at atmospheric pressure (e.g., Pelton Wheel).
-   • Reaction Turbine: Water enters runner under pressure; both pressure energy and kinetic energy drive the runner inside a fully enclosed casing (e.g., Francis and Kaplan Turbines).
+4. CLASSIFICATION OF HYDRODYNAMIC MACHINES (HYDRAULIC TURBINES)
+The hydrodynamic machines, which are called hydraulic turbines, are classified as follows:
+(a) According to the type of flow of water:
+    (i) Axis along the shaft of machine — Axial flow turbines (Propeller turbine and Kaplan turbine).
+    (ii) Axis along the radius — Radial flow turbines (Francis turbine).
+    (iii) Axis along the tangential directions — Tangential flow turbines (Pelton wheel).
+    (iv) Mixed flow (Radial inlet and axial outlet) — Francis turbine.
+(b) According to action of water:
+    (i) Impulse Turbine: Total hydraulic head is converted into kinetic energy in nozzles before entering runner at atmospheric pressure (e.g., Pelton Wheel).
+    (ii) Reaction Turbine: Water enters runner under pressure; both pressure energy and kinetic energy drive the runner inside a fully enclosed casing (e.g., Francis and Kaplan Turbines).
 
 
 5. MERITS AND DEMERITS OF HYDROPOWER PLANTS
 Merits:
-• Zero Fuel Cost: Utilizes naturally flowing water; zero recurring fuel expenses.
-• Environmentally Clean: Zero combustion emissions, greenhouse gases, or toxic ash.
-• Low Operating & Maintenance Costs: Simple mechanical equipment with minimal wear.
-• High Reliability & Rapid Load Response: Highly flexible; synchronizes and picks up full load within minutes; ideal for peak load and frequency regulation.
-• Extremely Long Plant Life: Typically 50 to 100+ years without efficiency degradation.
-• Multi-Purpose Benefits: Dam construction aids irrigation, drinking water supply, and downstream flood control.
-• No Standby Losses: Consumes zero energy when shut down on standby.
+(a) No fuel is required by a hydropower station.
+(b) It is a very neat and clean plant.
+(c) Operation and maintenance costs are very cheap.
+(d) Load can be varied quickly and rapidly.
+(e) The life of the plant is long (50 to 100+ years) and the efficiency of the plant does not decrease with age.
+(f) During operation and maintenance, highly skilled engineers are not required.
+(g) There are no standby losses in the plant.
+(h) By the acute governing system, constant speed and frequency can be maintained.
+(i) The plant can be run up and synchronised very quickly.
+(j) This plant can help in irrigation and flood control.
 
 Demerits:
-• High Initial Capital Cost: Massive civil investments in dams, tunnels, and penstocks.
-• Long Gestation Period: Construction and commissioning take 5 to 10 years.
-• Seasonal Dependence: Plant generation is heavily dependent on annual rainfall and monsoon cycles.
-• Remote Geographical Locations: Built in distant hilly areas, requiring long and expensive high-voltage transmission lines to load centers.
-• Environmental & Submersion Issues: Submerges vast forests and agricultural lands, displacing communities and causing ecological disruption.
+(a) Construction cost is very high and installation time is very long.
+(b) Long transmission lines are required because it is at the remote end.
+(c) Output of the plant is not constant because it totally depends on monsoon.
+(d) It needs a large area.
+(e) Sometimes during flood time, excess water is to be drained out, creating problems for nearby inhabitants.
 
 
 --------------------------------------------------------------------------------
@@ -97,82 +100,90 @@ PART II: NUCLEAR POWER PLANTS
 --------------------------------------------------------------------------------
 
 1. INTRODUCTION & WORKING PRINCIPLE
-A Nuclear Power Plant utilizes the immense thermal energy released during nuclear fission reactions to generate high-pressure steam, which expands in a conventional steam turbine coupled to an alternator to produce electricity.
-
-Fundamental Constituents:
-(a) Nuclear Reactor (generates heat through controlled fission).
-(b) Heat Exchanger / Steam Generator (transfers reactor heat to secondary water to produce steam).
-(c) Steam Turbine (converts thermal enthalpy of steam into shaft rotary mechanical power).
-(d) Surface Condenser (condenses exhaust steam back into pure water for boiler recirculation).
-(e) Synchronous Alternator (converts shaft mechanical power into 3-phase electrical energy).
+The purpose of a nuclear reactor is to generate heat. The nuclear heat is produced by splitting of the nucleus (nuclear fission).
+Fundamental Constituents of a Nuclear Power Plant:
+(a) Nuclear reactor (generates heat through controlled nuclear fission).
+(b) Heat exchanger / Steam generator (transfers heat from hot reactor coolant to feed water to produce steam).
+(c) Steam turbine (converts enthalpy of steam into shaft rotary mechanical power).
+(d) Condenser (condenses exhaust steam back into pure water).
+(e) Alternator (converts shaft mechanical power into electrical energy).
 
 
 2. NUCLEAR FISSION REACTION & ENERGY DENSITY
 • Fission Process:
-  - When the nucleus of a heavy fissile isotope (such as Uranium-235, Plutonium-239, or Thorium-232) is struck by a slow (thermal) neutron, it splits into two lighter fission fragments (e.g., Barium-141 and Krypton-92) accompanied by the ejection of 2 to 3 fast neutrons and an enormous release of energy.
-  - Nuclear Equation:
-    U-235 + n_thermal -> Ba-141 + Kr-92 + 3 n_fast + 200 MeV Energy
+  - Fission occurs when the nucleus of a heavy radioactive atom (such as U²³⁵, Th²³², or Pu²³⁹) is bombarded by a thermal neutron and splits into two elements of lower mass number (such as krypton and barium), releasing 2 to 3 fast neutrons and an immense amount of energy (~200 MeV per fission).
   - Energy Equivalent:
-    * 1 eV = 1.6 * 10^-19 Joules; 200 MeV = 3.2 * 10^-11 Joules per fission event.
-    * 1 kg of Uranium-235 undergoing complete fission releases approximately 25 * 10^6 kWh of heat energy, equivalent to burning 2,500 tonnes of high-grade coal.
-    * Developing ~6.5 * 10^6 kWh of electrical energy from 1 kg of uranium.
+    * 1 eV = 1.6 × 10⁻¹⁹ J;  200 MeV = 3.2 × 10⁻¹¹ J per fission event.
+    * The splitting of 1 kg of uranium atoms yields 25 × 10⁶ kWh in heat form.
+    * The energy obtained by fission of 1 kg of uranium is approximately equivalent to burning 2,500 tonnes of coal.
+    * About 6.5 × 10⁶ kWh electrical energy is developed from 1 kg of uranium.
   - Chain Reaction:
-    * If the released fast neutrons are slowed down and absorbed by surrounding U-235 nuclei, a self-sustaining chain reaction occurs.
-    * In a power reactor, this chain reaction is strictly controlled so that exactly one neutron from each fission causes another fission (Multiplication factor k = 1). Uncontrolled multiplication causes an explosive release of energy.
+    * Fast neutrons are ejected at a high speed of 2 × 10⁷ m/s.
+    * The released two or three neutrons may cause fission reactions with other U²³⁵ nuclei.
+    * When such a reaction is controlled, a steady chain reaction occurs. If not controlled, an explosive release of energy (atom bomb) may occur.
 
 
 3. SEVEN CORE COMPONENTS OF A NUCLEAR REACTOR
-1. Nuclear Fuel:
-   - Contains fissile material: Natural Uranium (99.23% U-238, 0.71% U-235, 0.06% U-234), Low-Enriched Uranium (2% to 5% U-235), Thorium-232, or Plutonium-239.
-   - Formed into ceramic uranium dioxide (UO2) pellets encapsulated in corrosion-resistant zirconium alloy (Zircaloy) or aluminum tubes (fuel rods).
-2. Moderator:
-   - Fast neutrons are emitted at velocities around 2 * 10^7 m/s (kinetic energy ~2 MeV). U-235 fission occurs most readily with slow "thermal" neutrons (~2,200 m/s, energy ~0.025 eV).
-   - The moderator slows down fast neutrons through repeated elastic collisions without absorbing them.
-   - Ideal Properties: High scattering cross-section and low neutron absorption cross-section.
-   - Materials Used: Heavy water (D2O - the most effective moderator), high-purity reactor-grade Graphite (carbon), Light water (ordinary H2O), and Beryllium.
-3. Reflector:
-   - Surrounds the reactor core to bounce escaping neutrons back into the fuel core, minimizing neutron leakage, conserving fuel, and reducing the critical size of the reactor.
-   - Made of materials with high scattering and low absorption properties (Graphite, Beryllium, or Heavy Water).
-4. Control Rods:
-   - Regulate the neutron multiplication rate and thermal power output, or shut down the reactor instantly during an emergency (SCRAM).
-   - Made of elements that have very high neutron absorption cross-sections (Boron, Cadmium, or Hafnium).
-   - Inserted deeper into the core to absorb more neutrons and decrease power; withdrawn slightly to increase power.
-5. Coolant:
-   - Circulates continuously through the reactor core to remove the intense heat generated by nuclear fission and transfer it to the heat exchanger/steam generator.
-   - Coolant Materials:
-     * Gases: Carbon dioxide (CO2), Helium (He), Nitrogen, Air.
-     * Liquids: Demineralized light water (H2O), Heavy water (D2O).
-     * Liquid Metals: Molten Sodium (Na), Sodium-Potassium alloy (NaK), Lithium.
-6. Thermal and Biological Shielding:
-   - Protects operating personnel and surroundings from harmful ionizing radiations (alpha, beta, gamma rays) and escaping neutrons.
-   - Inner Thermal Shield: Heavy iron/steel lining absorbing intense radiation and heat.
-   - Outer Biological Shield: Thick high-density concrete walls (2 to 3 meters thick) surrounding the entire reactor vessel.
-7. Reactor Vessel & Containment Structure:
-   - High-strength pressure vessel housing the core, submerged in coolant, surrounded by a reinforced concrete containment dome capable of withstanding extreme internal pressures in emergencies.
+A nuclear reactor consists of the following seven components:
+(a) Fuel:
+    - The reactor consists of U²³⁸₉₂, Th²³²₉₀, etc. as nuclear fuel.
+    - Atomic number of uranium is 92 and atomic mass is 238. Atomic number of thorium is 90 and atomic mass is 232.
+    - Natural uranium consists of:
+      * 99.23% of U²³⁸₉₂
+      * 0.71% of U²³⁵₉₂
+      * 0.06% of U²³⁴₉₂
+    - Enriched with U²³⁵₉₂ along with aluminium or zirconium for dilution.
+(b) Moderator:
+    - Objective: To reduce fast neutron speed (from 2 × 10⁷ m/s down to thermal velocities). When fast neutrons collide with nuclei of moderator material of equal mass, they lose energy through elastic collisions.
+    - Desirable properties:
+      (i) High scattering cross-section.
+      (ii) Low neutron absorption cross-section.
+    - Materials: Hydrogen, deuterium, helium, lithium, beryllium, boron, carbon (graphite), nitrogen, and oxygen. Heavy water (D₂O) is an ideal moderating material.
+(c) Reflector:
+    - Surrounds the reactor core within the thermal shielding arrangement.
+    - Bounces back escaping neutrons into the core, reducing their speed to sustain the chain reaction. Must have good scattering and low absorption properties.
+(d) Control Rods:
+    - Regulate fissioning in the reactor by absorbing excess neutrons.
+    - Made of Boron (or Cadmium) and inserted into the core from the top of the reactor vessel.
+    - Moved out slightly to increase fissioning rate; moved in to absorb more neutrons and reduce power or shut down.
+(e) Coolant:
+    - Medium through which heat developed in the reactor is transferred to the heat exchanger for power generation:
+      (i) Gases: Air, helium, hydrogen, and CO₂.
+      (ii) Liquids: Light water (H₂O) and heavy water (D₂O).
+      (iii) Liquid Metals: Molten sodium and lithium.
+(f) Thermal and Biological Shielding:
+    - Surrounds the entire reactor core. Absorbs radiations in the form of α, β particles, γ rays and escaping neutrons developed by fissioning.
+    - Inner shield: Constructed from iron, cooled by circulating coolant.
+    - Outer shield: High-density concrete biological shield (2 to 3 meters thick) to protect personnel.
+(g) Structure & Reactor Vessel:
+    - High-strength pressure vessel and containment structure housing the reactor core components.
 
 
 4. MERITS AND DEMERITS OF NUCLEAR POWER PLANTS
 Merits:
-• Negligible Fuel Transportation Burden: Tiny fuel volume eliminates bulk rail/road transportation logistics required for coal.
-• Compact Land Requirement: Occupies far less ground area than hydro or solar installations of equivalent capacity.
-• Breeds Nuclear Fuel: Breeder reactors convert fertile U-238 and Th-232 into fissile Pu-239 and U-233, creating additional valuable fuel.
-• Near Load Centers: Can be built near industrial load centers, substantially lowering transmission line losses and costs.
-• Highly Economical at Large Capacities: Very low fuel cost per kWh in large baseload stations (> 1000 MW).
-• Vast Global Reserves: Nuclear fuel reserves can supply world energy needs for centuries.
+(a) The amount of fuel required is quite small; hence there is no problem of transportation.
+(b) The plants require less area as compared to any other type of the same size.
+(c) It not only produces large amounts of power, but also produces valuable fissile material (plutonium) extracted when fuel is renewed.
+(d) Can be located very near the load centre; primary power distribution cost can be reduced.
+(e) Most economical in case of large capacity.
+(f) Large amount of nuclear fuels in the world; nuclear plants can be run for thousands of years.
+(g) The control of the output is extremely flexible.
 
 Demerits:
-• High Initial Capital Cost: Extremely expensive reactor components, safety systems, and containment civil works.
-• Specialized Technical Expertise: Demands highly trained nuclear engineers and technicians for operation, maintenance, and radiological safety.
-• Radiation Hazard: Catastrophic contamination risks in the event of severe accidents or containment breach.
-• Inflexible for Variable Loads: Designed to run continuously at steady baseload; poorly suited for rapid load-following.
-• Radioactive Waste Disposal: Spent fuel and radioactive fission products remain hazardously radioactive for thousands of years, requiring deep underground repositories.
+(a) The initial capital cost is very high.
+(b) Technical knowledge is required for erection and commissioning.
+(c) There may occur a dangerous amount of radioactive pollution.
+(d) It is not well suited for varying loads.
+(e) The fuel is expensive and is difficult to recover.
+(f) Maintenance charge is high since large numbers of specially trained personnel are required.
+(g) The disposal of radioactive products is a big problem.
 
 
-5. SELECTION OF SITE FOR A NUCLEAR POWER PLANT
-1. Proximity to Abundant Water Body: Must be located adjacent to a river, lake, or seashore to ensure vast supplies of cooling water for steam condensers.
-2. Distance from Populated Areas: Must maintain an exclusion zone and sterilized boundary from towns and cities to minimize radiological exposure risks.
-3. Excellent Transportation Access: Heavy reactor components (vessels weighing hundreds of tonnes) require heavy rail, highway, or marine transport access.
-4. Heavy Foundation Bearing Capacity: The land must have exceptional geological bearing strength (> 50 tonnes/m²) on bedrock to support massive reactor vessels and biological shields exceeding 100,000 tonnes.
-5. Seismic Stability: Located far from active earthquake fault lines or tsunami zones.
-6. Adequate Space for Radioactive Waste Storage: Dedicated, secure facilities for spent fuel pool storage and intermediate radwaste management.
+5. SELECTION OF SITE OF NUCLEAR POWER PLANTS
+(a) Proximity to Water Body: Site selected should be near a river, lake, or seaside for condenser cooling water.
+(b) Safety Distance: Reasonable distance between the plant and the nearest populated area to mitigate atmospheric radioactivity hazard.
+(c) Transportation Facilities: Required during the construction stage for handling heavy machinery and reactor vessels.
+(d) Proximity to Load Centre: Plants should be located as near to the load centre as possible.
+(e) Radioactive Waste Disposal: Site should have adequate space for disposal of radioactive waste.
+(f) Soil Bearing Capacity: The land should have the supporting strength to carry reactors having a weight of 1,00,000 tonnes and to impose a bearing pressure of 50 tonnes/m².
 ================================================================================

@@ -1,141 +1,141 @@
 {
-  "summary": "This module covers the fundamentals of Electrical Transformers. It introduces the definition, working principle, and static nature of transformers, explaining why they operate at high efficiencies with minimal maintenance. It details the three major components: primary winding, magnetic core, and secondary winding, along with the concepts of mutual induction, useful core flux, and leakage flux. The constructional aspects of the laminated silicon steel core are explored, highlighting how laminations suppress eddy current losses and silicon steel minimizes hysteresis loss. Furthermore, it presents the comprehensive classification of transformers (core-type vs. shell-type, step-up vs. step-down, power vs. distribution, autotransformers, and instrument transformers) and concludes with the theoretical characteristics and governing relations of an ideal transformer.",
+  "summary": "This module covers the fundamentals of Electrical Transformers. It introduces the definition, working principle, and static nature of transformers, explaining why they operate at high efficiencies (96% to 99%) with minimum maintenance. It details the three main components: (i) Primary Winding, (ii) Magnetic Core, and (iii) Secondary Winding, along with the concepts of mutual induction, useful core flux, and leakage flux. The constructional aspects of the laminated silicon steel core are explored, highlighting how laminations reduce eddy current losses and silicon steel reduces hysteresis loss. Furthermore, it presents the comprehensive classification of transformers across six categories: (i) core-type vs. shell-type, (ii) step-up vs. step-down, (iii) purpose (power, distribution, isolation, instrument CT/PT), (iv) windings (two-winding vs. autotransformer), (v) insulation (dry vs. oil-immersed), and (vi) number of phases (single-phase vs. three-phase). Finally, it covers the ideal transformer characteristics (zero resistance, zero leakage, zero iron loss, zero magnetising current) and governing mathematical relations (K = V₂/V₁ = E₂/E₁ = N₂/N₁ = I₁/I₂, E = 4.44 f Φ_m N).",
   "sa": [
     {
-      "q": "Part A (3 Marks): Define a transformer and explain why it is referred to as a 'static machine'.",
-      "a": "A transformer is a static AC machine that transfers electrical energy from one electric circuit to another without any change in frequency, operating on the principle of electromagnetic induction between two or more magnetically linked circuits.\n\nIt is called a 'static machine' because it has no moving or rotating mechanical components. Consequently, it has zero mechanical losses (no friction or windage loss), requires minimal maintenance, and exhibits exceptionally high efficiency (typically 96% to 99%)."
+      "q": "Part A (3 Marks): Define a transformer and explain why it is called a static transformer.",
+      "a": "A transformer is an AC machine that:\n(i) Transfers electrical energy from one electric circuit to another.\n(ii) Does so without a change in frequency.\n(iii) Does so by the principle of electromagnetic induction.\n(iv) Has electric circuits that are linked by a common magnetic circuit.\n\nIt is called a static transformer because it requires no moving parts. Due to this, it has minimum maintenance, no losses due to moving parts (no friction and windage losses), and has maximum efficiency (typical full-load efficiency lies between 96% to 97%; extremely large transformers have efficiencies up to 99%)."
     },
     {
-      "q": "Part A (3 Marks): State the working principle of a transformer and mention the two fundamental physical phenomena it relies on.",
-      "a": "A transformer operates on the principle of mutual induction between two stationary windings linked by a common magnetic flux.\n\nIt is based on two fundamental physical phenomena:\n1. Electromagnetism: An alternating electric current passing through the primary winding produces a time-varying magnetic field.\n2. Electromagnetic Induction (Faraday's Law): The time-varying magnetic flux linking the secondary winding induces an electromotive force (EMF) across its terminals, transferring energy without electrical connection."
+      "q": "Part A (3 Marks): State the working principle of a transformer and mention the two principles it is based on.",
+      "a": "The basic principle behind the working of a transformer is the phenomenon of mutual induction between two windings linked by a common magnetic flux.\n\nThe transformer is based on two principles:\n(i) An electric current can produce a magnetic field (electromagnetism).\n(ii) A changing magnetic field within a coil of wire induces a voltage across the ends of the coil (electromagnetic induction). Changing current in the primary coil changes the magnetic flux that is developed; this changing magnetic flux induces a voltage in the secondary coil."
     },
     {
       "q": "Part A (3 Marks): Differentiate between 'useful flux' (main flux) and 'leakage flux' in a transformer.",
-      "a": "1. Useful Flux (Main Flux): The portion of the alternating magnetic flux produced by the primary winding that remains confined within the magnetic core and links both the primary and secondary windings. It is solely responsible for transferring energy between circuits.\n\n2. Leakage Flux: The portion of the magnetic flux that strays into the surrounding air or insulation and links only one of the windings without linking the other. It produces leakage reactance and causes internal inductive voltage drops."
+      "a": "(i) Useful Flux (Main Flux): The core provides a magnetic path for the flux to link with the secondary winding. Most of the flux gets linked with both the primary and secondary windings; this is called 'useful flux' or main flux and is responsible for energy transfer.\n\n(ii) Leakage Flux: The magnetic field lines generated due to the primary coil that are not able to link completely with the secondary coil are called 'leakage flux'. Leakage flux links only one winding and gives rise to leakage reactance."
     },
     {
       "q": "Part A (3 Marks): Why is the magnetic core of a transformer laminated and made of silicon steel?",
-      "a": "1. Silicon Steel: Made of high-grade alloy containing 3% to 4.5% silicon. Silicon increases the electrical resistivity of the steel, significantly reducing eddy current losses and keeping the hysteresis loop narrow (reducing hysteresis loss).\n\n2. Laminated Construction: The core is assembled from thin sheets (laminations of 0.35 mm to 0.5 mm thickness) insulated from each other by varnish. Lamination breaks up the path of circulating eddy currents into small loops, drastically reducing eddy current heating losses (which are proportional to the square of lamination thickness)."
+      "a": "(i) Silicon Steel Material: The material used for core building must be magnetic material with high relative permeability to give a low reluctance path for magnetic flux so it can collect most of the flux produced by primary winding. Silicon steel reduces hysteresis loss.\n\n(ii) Laminated Construction: The magnetic core is made up of thin sheets called laminations of high-grade silicon steel. The laminations break up the path of circulating eddy currents, drastically reducing eddy current losses."
     },
     {
       "q": "Part A (3 Marks): State the four key assumptions or characteristics of an Ideal Transformer.",
-      "a": "The four characteristics of an ideal transformer are:\n1. Zero Winding Resistance: Primary and secondary windings have zero electrical resistance (R1 = 0, R2 = 0), meaning zero copper loss (I²R = 0).\n2. Zero Magnetic Leakage Flux: 100% of the flux produced is confined to the core and links both coils (no leakage reactance).\n3. Zero Iron/Core Losses: Zero hysteresis and zero eddy current losses in the core.\n4. Zero Magnetizing Current: The core has infinite permeability, requiring negligible current to set up magnetic flux."
+      "a": "An ideal transformer has the following four characteristics:\n(i) No winding resistance (R₁ = 0, R₂ = 0; hence zero copper loss I²R = 0).\n(ii) No magnetic leakage (100% of flux is confined within the core and links both coils).\n(iii) No iron loss (zero hysteresis loss and zero eddy current loss).\n(iv) Zero magnetising current (the core has infinite permeability, requiring negligible current to set up flux)."
     },
     {
       "q": "Part A (3 Marks): Differentiate between Step-up and Step-down transformers.",
-      "a": "1. Step-Up Transformer: Secondary voltage is higher than the primary voltage (V2 > V1, N2 > N1). Consequently, secondary current is lower than primary current (I2 < I1). Used at generating power stations to raise voltage for transmission.\n\n2. Step-Down Transformer: Secondary voltage is lower than primary voltage (V2 < V1, N2 < N1). Consequently, secondary current is higher than primary current (I2 > I1). Used in distribution substations and electronic appliances to provide safe consumer voltages."
+      "a": "(i) Step-Up Transformer: Secondary voltage is greater than primary voltage (V₂ > V₁, N₂ > N₁). Consequently, secondary current is lower than primary current (I₂ < I₁). Used at generating power stations to raise voltage for transmission.\n\n(ii) Step-Down Transformer: Secondary voltage is lower than primary voltage (V₂ < V₁, N₂ < N₁). Consequently, secondary current is higher than primary current (I₂ > I₁). Used in distribution substations to step down voltage to safe consumer utilization levels."
     },
     {
       "q": "Part A (3 Marks): Compare Core-Type and Shell-Type transformers in terms of construction and flux path.",
-      "a": "1. Core-Type Transformer: The windings surround/encircle a major part of the magnetic core. It has two limbs and a single magnetic circuit path. Low-voltage winding is placed inside next to the core, and high-voltage winding is placed outside.\n\n2. Shell-Type Transformer: The magnetic core surrounds/encloses the windings. It has three limbs (two outer limbs and one central limb). The magnetic flux divides equally into two parallel paths through outer limbs (each carries Φ/2). The windings are placed on the central limb."
+      "a": "(i) Core Type Transformer:\n- The windings surround/encircle a major part of the magnetic core.\n- Has two limbs and a single closed magnetic circuit carrying full flux Φ.\n- LV winding is placed inside next to the core, and HV winding is placed outside.\n\n(ii) Shell Type Transformer:\n- The magnetic core surrounds/encloses the windings.\n- Has three limbs (central limb and two outer limbs). The central limb carries full flux Φ, which divides equally into Φ/2 in each outer limb. Both LV and HV windings are wound on the central limb."
     },
     {
       "q": "Part A (3 Marks): What is an Autotransformer? State its main advantage and disadvantage compared to a two-winding transformer.",
-      "a": "An Autotransformer is a transformer that consists of a single continuous winding wound on a laminated magnetic core, part of which acts as the primary and part (or whole) acts as the secondary.\n\n- Advantage: Requires substantially less copper, has smaller physical dimensions, lower cost, higher efficiency, and superior voltage regulation.\n- Disadvantage: Lacks electrical/galvanic isolation between primary and secondary circuits, making secondary equipment vulnerable to high-voltage hazards if a fault occurs."
+      "a": "An Autotransformer is a transformer that consists of a single continuous winding wound on a laminated magnetic core, part of which serves as the primary and part (or whole) serves as the secondary.\n\n(i) Advantage: Requires considerably less copper, has smaller size, lower cost, higher efficiency, and superior voltage regulation.\n(ii) Disadvantage: Lacks electrical isolation between primary and secondary circuits, so a fault on the high-voltage side directly exposes the low-voltage side to high voltage."
     },
     {
       "q": "Part A (3 Marks): Differentiate between a Power Transformer and a Distribution Transformer.",
-      "a": "1. Power Transformer: Used in transmission substations at generating stations and bulk receiving points. Rated above 200 kVA. It operates near full load continuously and is designed for maximum efficiency at or near 100% full load.\n\n2. Distribution Transformer: Used in local distribution networks to feed end consumers. Rated up to 200 kVA. It operates under fluctuating loads throughout the day and is designed for maximum 'all-day efficiency' (maximum efficiency at 50% to 70% load)."
+      "a": "(i) Power Transformer: Used in transmission substations at generating stations and bulk receiving points. Rated above 200 kVA. Designed for maximum efficiency at or near full rated load (100% load), as it operates continuously loaded.\n\n(ii) Distribution Transformer: Used in local distribution networks to feed residential and commercial consumers. Rated up to 200 kVA. Designed for high 'all-day efficiency' (maximum efficiency at 50% to 70% load) because it operates under widely fluctuating loads 24 hours a day."
     },
     {
       "q": "Part A (3 Marks): What are Instrument Transformers? Name the two main types.",
-      "a": "Instrument Transformers are specialized high-accuracy transformers used to step down high voltages and heavy currents to safe, standardized levels suitable for conventional measuring instruments and protection relays.\n\nThe two types are:\n1. Current Transformer (CT): Steps down high line current for measurement using a standard 5A AC ammeter.\n2. Potential Transformer (PT): Steps down high line voltage for measurement using a standard 110V AC voltmeter."
+      "a": "Instrument Transformers are specialized high-accuracy transformers used to step down high voltages and large currents to safe, standardized levels for measuring instruments (voltmeters, ammeters) and protective relays.\n\nThe two types are:\n(i) Current Transformer (CT): Steps down high line currents to a standard secondary current (e.g., 5 A) for ammeter measurement.\n(ii) Potential Transformer (PT): Steps down high transmission voltages to a standard secondary voltage (e.g., 110 V) for voltmeter measurement."
     }
   ],
   "essay": [
     {
       "q": "Part B (12 Marks): (a) With the aid of a neat schematic diagram, explain the construction and working principle of a single-phase transformer. (8 marks)\n(b) Explain why a transformer cannot operate on a direct current (DC) supply. (4 marks)",
-      "a": "(a) Construction and Working of a Single-Phase Transformer:\n\n1. Construction:\n- A single-phase transformer consists of two insulated electrical coils (primary and secondary windings) wound on a common laminated ferromagnetic core.\n- The primary winding is connected to an AC source (V1), and the secondary winding is connected to the electrical load (V2).\n- The core is made of high-permeability silicon steel laminations (0.35 mm to 0.5 mm thick) coated with insulating varnish to reduce core losses.\n\n2. Working Principle:\n- When an alternating voltage V1 of frequency f is applied to the primary winding, it draws an alternating current I1.\n- This current produces an alternating magnetic flux (Φ) in the core according to Ampere's law.\n- The magnetic core provides a low-reluctance path that channels the flux to link with both windings.\n- Self-Induced EMF: The alternating flux links the primary turns N1, inducing a self-induced EMF E1 = -N1(dΦ/dt) that opposes the applied voltage (Lenz's Law, back EMF).\n- Mutually Induced EMF: The same alternating flux links the secondary turns N2, inducing a mutually induced EMF E2 = -N2(dΦ/dt) at the same supply frequency.\n- When the secondary circuit is closed across a load, an alternating current I2 flows, delivering power to the load.\n- Transformation Ratio: E2 / E1 = N2 / N1 = K.\n\n(b) Why a Transformer Cannot Operate on a DC Supply:\n- A transformer functions solely on Faraday's law of electromagnetic induction, which requires a rate of change of magnetic flux (dΦ/dt).\n- When connected to a DC source, the current is constant (unidirectional and steady). Therefore, the magnetic flux produced in the core is constant (dΦ/dt = 0).\n- Consequently, no back EMF (E1) is induced in the primary winding to oppose the applied voltage.\n- The primary winding impedance is reduced strictly to its very small ohmic resistance (R1).\n- By Ohm's law (I = V / R1), an enormous current will flow through the primary coil, causing severe overheating and burning out the winding within seconds."
+      "a": "(a) Construction and Working of a Single-Phase Transformer:\n\n1. Major Components:\nA transformer has three main components:\n(i) Primary Winding: Coupled to an alternating electrical source (V₁); results in the production of alternating magnetic flux.\n(ii) Magnetic Core: Made of high relative permeability silicon steel laminations, providing a low-reluctance path for flux linked to secondary winding, forming a closed magnetic circuit.\n(iii) Secondary Winding: Links the flux created by primary winding and provides the output voltage (V₂) and current to the load.\n\n2. Working Principle:\n- An alternating voltage source V₁ is connected to the primary winding, producing an alternating current i that creates a time-varying magnetic flux Φ in the core.\n- The core provides a low-reluctance path, channeling the flux to link with the secondary winding.\n- According to Faraday's law of electromagnetic induction, an alternating EMF E is induced in the secondary side:\n  Mutually induced EMF: E₂ = -N₂ (dΦ/dt)  (at the same frequency as supplied EMF).\n- If the secondary circuit is closed across a load, mutually induced current I₂ flows through it, transferring electrical energy from primary to secondary.\n- The flux in the core also links the primary coil, producing a self-induced EMF E₁ = -N₁ (dΦ/dt) that opposes the applied voltage (back EMF of primary).\n- Transformation ratio: K = V₂ / V₁ = E₂ / E₁ = N₂ / N₁ = I₁ / I₂.\n\n(b) Why a Transformer Cannot Operate on a DC Supply:\n(i) A transformer functions on Faraday's law of electromagnetic induction, which strictly requires a time-varying magnetic flux (dΦ/dt ≠ 0).\n(ii) When connected to a DC supply, direct current produces a steady, unchanging magnetic flux (dΦ/dt = 0).\n(iii) Consequently, no self-induced back EMF (E₁) is produced in the primary winding to oppose the applied voltage.\n(iv) The current is limited only by the extremely low ohmic resistance of the primary winding (I₁ = V / R₁).\n(v) A dangerously high current flows, causing rapid overheating and burning out the winding within seconds."
     },
     {
-      "q": "Part B (12 Marks): (a) Classify transformers based on: (i) Core construction, (ii) Voltage transformation, (iii) Purpose/Application, (iv) Windings, and (v) Insulation/Cooling. (8 marks)\n(b) Compare Core-Type and Shell-Type transformers with neat diagrams showing magnetic flux paths and winding arrangements. (4 marks)",
-      "a": "(a) Comprehensive Classification of Transformers:\n1. Based on Core Construction:\n   - Core Type: Windings surround the magnetic core; single magnetic circuit.\n   - Shell Type: Core encloses the windings; double parallel magnetic circuit.\n2. Based on Voltage Conversion:\n   - Step-Up Transformer: Secondary voltage > Primary voltage (V2 > V1, N2 > N1).\n   - Step-Down Transformer: Secondary voltage < Primary voltage (V2 < V1, N2 < N1).\n3. Based on Purpose / Application:\n   - Power Transformer: Used in transmission systems; rated > 200 kVA; designed for maximum efficiency at full load.\n   - Distribution Transformer: Used in local supply; rated up to 200 kVA; designed for high all-day efficiency (50-70% load).\n   - Isolation Transformer: 1:1 ratio used for electrical safety and noise decoupling.\n   - Instrument Transformers: Current Transformer (CT) and Potential Transformer (PT) for measurement.\n4. Based on Number of Windings:\n   - Two-Winding Transformer: Separate, electrically isolated primary and secondary coils.\n   - Autotransformer: Single continuous tapped winding; no electrical isolation.\n5. Based on Insulation & Cooling:\n   - Dry Type: Air-cooled (natural or forced); safe for indoor installations.\n   - Oil-Immersed: Immersed in insulating mineral oil inside a steel tank for superior cooling and dielectric insulation.\n\n(b) Comparison: Core-Type vs. Shell-Type Transformers:\n\nFeature | Core-Type Transformer | Shell-Type Transformer\n--------|-----------------------|-----------------------\nCore Structure | Two vertical limbs and two horizontal yokes | Three limbs (central limb + two outer limbs)\nCross-sectional Area | Uniform across all limbs and yokes | Central limb area is TWICE that of each outer limb\nMagnetic Flux Path | Single closed magnetic loop carrying full flux Φ | Two parallel magnetic paths, each carrying Φ/2\nWinding Placement | Windings are wrapped around the two limbs | Both LV & HV windings are placed on the central limb\nInsulation Placement | LV winding placed closest to core, HV wound over LV | Interleaved/sandwiched LV and HV coils\nMechanical Protection | Poor mechanical protection for windings | High mechanical protection against short-circuit forces\nRepair & Maintenance | Easy to dismantle, inspect, and rewind | Relatively difficult to dismantle and repair\nApplications | Preferred for high-voltage, large power ratings | Preferred for low-voltage, medium power ratings"
+      "q": "Part B (12 Marks): (a) Classify transformers based on: (i) core construction, (ii) voltage conversion, (iii) purpose, (iv) windings, (v) insulation used, and (vi) number of phases. (8 marks)\n(b) Compare Core-Type and Shell-Type transformers with neat sketches showing flux paths. (4 marks)",
+      "a": "(a) Classification of Transformers:\nTransformers are classified across six major categories:\n(i) Types based on transformer's core: Core Type Transformer, Shell Type Transformer.\n(ii) Types based on voltage conversion: Step Up Transformer, Step Down Transformer.\n(iii) Types based on its purpose: Power Transformer, Distribution Transformer, Isolation Transformer, Current Transformer, Potential Transformer.\n(iv) Transformer types based on windings: Two Winding Transformer, Autotransformer.\n(v) Transformer types based on insulation used: Dry Type Transformer, Oil Immersed Transformer.\n(vi) Transformer types based on number of phases: Single Phase Transformer, Three Phase Transformer.\n\n(b) Comparison of Core-Type and Shell-Type Transformers:\n(i) Core Type Transformer:\n  • Construction: Windings surround a major part of the magnetic core.\n  • Limbs: Has two limbs and two yokes.\n  • Magnetic Circuit: Single closed magnetic path carrying full flux Φ.\n  • Winding Placement: LV winding is placed next to core on both limbs, and HV winding is placed over LV winding.\n  • Dismantling: Simpler to dismantle and repair.\n(ii) Shell Type Transformer:\n  • Construction: The magnetic core surrounds the windings.\n  • Limbs: Has three limbs (central limb and two outer limbs).\n  • Magnetic Circuit: Central limb carries full flux Φ, which divides equally into Φ/2 in each outer limb; central limb cross-sectional area is twice that of outer limbs.\n  • Winding Placement: Both LV and HV windings are placed in sandwich/interleaved form on the central limb.\n  • Mechanical Protection: Better mechanical protection against short-circuit forces."
     },
     {
-      "q": "Part B (12 Marks): (a) Explain the concept of an Ideal Transformer. State the four fundamental assumptions made and derive the transformation ratio. (6 marks)\n(b) Discuss the various losses occurring in a practical transformer and explain how each loss is minimized by design and materials. (6 marks)",
-      "a": "(a) Ideal Transformer & Derivations:\nAn ideal transformer is an imaginary, theoretical benchmark model with 100% efficiency and zero energy losses.\n\nFour Core Assumptions:\n1. Zero Winding Resistance: Primary and secondary windings have zero internal ohmic resistance (R1 = 0, R2 = 0). Thus, zero copper losses (I²R = 0) and terminal voltages equal induced EMFs (V1 = E1, V2 = E2).\n2. Zero Magnetic Leakage: All magnetic flux lines are entirely confined within the core and link every turn of both coils.\n3. Zero Core Losses: Zero hysteresis loss and zero eddy current loss in the magnetic core.\n4. Infinite Core Permeability: Requires zero (or negligible) magnetizing current to establish the core flux.\n\nTransformation Relationships:\n- Induced EMF: E1 = 4.44 f N1 Φm, and E2 = 4.44 f N2 Φm.\n- EMF per turn: E1 / N1 = E2 / N2 = 4.44 f Φm.\n- Transformation Ratio: K = V2 / V1 = E2 / E1 = N2 / N1.\n- Since efficiency is 100%, Input VA = Output VA:\n  V1 * I1 = V2 * I2  =>  I1 / I2 = V2 / V1 = K.\n\n(b) Losses in Practical Transformers and Their Mitigation:\n\n1. Core Losses (Iron Losses, Pi):\n- Hysteresis Loss (Ph): Caused by continuous reversal of magnetic domains in the core every half-cycle. Given by Steinmetz equation: Ph = η * Bm^1.6 * f * V.\n  * Mitigation: Use high-grade silicon steel / CRGO steel having a very narrow hysteresis loop area.\n- Eddy Current Loss (Pe): Caused by circulating currents induced in the core mass by alternating flux: Pe = K * Bm² * f² * t² * V.\n  * Mitigation: Construct the core from thin insulated laminations (thickness t = 0.35 mm to 0.5 mm) coated with varnish.\n\n2. Copper Losses (Ohmic Losses, Pcu):\n- Caused by the electrical resistance of the primary and secondary copper windings: Pcu = I1² R1 + I2² R2.\n  * Mitigation: Wind coils using high-conductivity electrolytic-grade copper with adequate cross-sectional area to minimize resistance."
+      "q": "Part B (12 Marks): (a) Explain the concept of an Ideal Transformer, stating its four fundamental assumptions and transformation ratio relations. (6 marks)\n(b) Discuss the various losses occurring in a practical transformer and explain how each loss is minimized. (6 marks)",
+      "a": "(a) Ideal Transformer & Transformation Relations:\nAn ideal transformer is a theoretical machine having 100% efficiency and zero energy losses.\n\nFour Fundamental Assumptions:\n(i) No winding resistance: Winding resistances R₁ = 0 and R₂ = 0, so copper loss I²R = 0 and terminal voltages equal induced EMFs (V₁ = E₁, V₂ = E₂).\n(ii) No magnetic leakage: 100% of flux is confined within the core and links both coils (no leakage reactance).\n(iii) No iron loss: Zero hysteresis loss and zero eddy current loss in the core.\n(iv) Zero magnetising current: Magnetic core has infinite permeability, requiring negligible current to set up flux.\n\nMathematical Relations:\n- Induced EMFs: E₁ = 4.44 f Φ_m N₁,  E₂ = 4.44 f Φ_m N₂\n- EMF per turn: E₁ / N₁ = E₂ / N₂ = 4.44 f Φ_m\n- Transformation Ratio: K = V₂ / V₁ = E₂ / E₁ = N₂ / N₁ = I₁ / I₂.\n\n(b) Losses in a Practical Transformer and Their Minimization:\n(i) Core Losses (Iron Losses, P_i):\n  • Hysteresis Loss (W_h): Caused by continuous reversal of magnetic domains every AC half-cycle: W_h = η B_max¹·⁶ f V. Minimized by using high-grade silicon steel with a narrow hysteresis loop.\n  • Eddy Current Loss (W_e): Caused by circulating eddy currents induced in the core mass: W_e = K_e B_max² f² t² V. Minimized by constructing the core from thin insulated laminations (thickness t = 0.35 mm to 0.5 mm) coated with varnish.\n(ii) Copper Losses (Ohmic Losses, P_cu):\n  • Caused by electrical resistance of primary and secondary windings: P_cu = I₁² R₁ + I₂² R₂. Minimized by using high-conductivity electrolytic copper conductors with adequate cross-sectional area."
     },
     {
-      "q": "Part B (12 Marks): (a) Explain the constructional details of the transformer core, including the role of silicon steel and laminations. (6 marks)\n(b) A 20 kVA, 2000/200 V, 50 Hz single-phase transformer has 66 turns on the secondary winding. Assuming an ideal transformer, determine: (i) Primary winding turns, (ii) Full-load primary and secondary currents, and (iii) Maximum value of magnetic flux in the core. (6 marks)",
-      "a": "(a) Constructional Details of Transformer Core:\n- The magnetic core provides a continuous, high-permeability, low-reluctance magnetic circuit to link the primary and secondary windings.\n- Core Material: Constructed from cold-rolled grain-oriented (CRGO) silicon steel containing 3% to 4.5% silicon. Silicon increases resistivity, cutting eddy currents and reducing hysteresis loss.\n- Laminated Construction: Built using thin stamped laminations (typically 0.35 mm to 0.5 mm thick in 'E-I', 'L-L', or 'U-I' shapes). Laminations are coated with a thin layer of insulating lacquer or varnish.\n- Stepped Core Cross-Section: In large transformers, rectangular core limbs waste space inside cylindrical coils. Stepped cruciform cores are used to maximize iron utilization and minimize copper length.\n\n(b) Numerical Calculation:\nGiven Data:\n- Rated Capacity = 20 kVA = 20,000 VA\n- Primary Voltage, V1 = 2000 V\n- Secondary Voltage, V2 = 200 V\n- Frequency, f = 50 Hz\n- Secondary Turns, N2 = 66 turns\n\n(i) Primary Winding Turns (N1):\nTransformation Ratio: K = V2 / V1 = 200 / 2000 = 0.1\nN2 / N1 = V2 / V1\n66 / N1 = 200 / 2000 = 0.1\nN1 = 66 / 0.1 = 660 turns. (Ans)\n\n(ii) Full-Load Primary and Secondary Currents:\n- Rated Apparent Power S = V1 * I1 = V2 * I2 = 20,000 VA\n- Full-load Primary Current I1 = 20,000 / V1 = 20,000 / 2000 = 10 A. (Ans)\n- Full-load Secondary Current I2 = 20,000 / V2 = 20,000 / 200 = 100 A. (Ans)\n\n(iii) Maximum Magnetic Flux in Core (Φm):\nEMF Equation: E2 = 4.44 * f * N2 * Φm\nFor an ideal transformer, E2 = V2 = 200 V\n200 = 4.44 * 50 * 66 * Φm\n200 = 14,652 * Φm\nΦm = 200 / 14,652 = 0.01365 Weber (Wb) or 13.65 mWb. (Ans)"
+      "q": "Part B (12 Marks): (a) Explain the constructional details of the transformer core and explain the role of laminations and silicon steel. (6 marks)\n(b) A 20 kVA, 2000/200 V, 50 Hz single-phase transformer has 66 turns on the secondary winding. Assuming an ideal transformer, determine: (i) Primary winding turns, (ii) Full-load primary and secondary currents, and (iii) Maximum value of magnetic flux in the core. (6 marks)",
+      "a": "(a) Constructional Details of Transformer Core:\n(i) Purpose: Provides a continuous, low-reluctance magnetic circuit linking the primary and secondary coils.\n(ii) Core Material: Made of thin sheets called laminations of high-grade silicon steel (CRGO steel). Silicon steel reduces hysteresis loss by narrowing the B-H loop, and high permeability collects most of the flux produced by primary winding.\n(iii) Laminations: Built up from thin laminations (0.35 mm to 0.5 mm thick) insulated from each other by varnish or lacquer, which drastically reduces eddy current losses.\n\n(b) Numerical Calculation:\nGiven Data:\n- Rated Power S = 20 kVA = 20 × 10³ VA\n- Primary Voltage V₁ = 2000 V\n- Secondary Voltage V₂ = 200 V\n- Frequency f = 50 Hz\n- Secondary Turns N₂ = 66 turns\n\n(i) Primary Winding Turns (N₁):\nTransformation Ratio: K = V₂ / V₁ = 200 / 2000 = 0.1\nN₂ / N₁ = V₂ / V₁ = 0.1\n66 / N₁ = 0.1  ⇒  N₁ = 66 / 0.1 = 660 turns. (Ans)\n\n(ii) Full-Load Primary and Secondary Currents:\n- Rated Power S = V₁ I₁ = V₂ I₂ = 20,000 VA\n- Full-load Primary Current: I₁ = 20,000 / V₁ = 20,000 / 2000 = 10 A. (Ans)\n- Full-load Secondary Current: I₂ = 20,000 / V₂ = 20,000 / 200 = 100 A. (Ans)\n\n(iii) Maximum Magnetic Flux in Core (Φ_m):\nFrom EMF equation: E₂ = 4.44 f N₂ Φ_m\nFor an ideal transformer, E₂ = V₂ = 200 V:\n200 = 4.44 × 50 × 66 × Φ_m\n200 = 14,652 × Φ_m\nΦ_m = 200 / 14,652 = 0.01365 Wb = 13.65 mWb. (Ans)"
     }
   ],
   "oneword": [
     {
-      "q": "A transformer transfers electrical power from one circuit to another with constant:",
+      "q": "A transformer transfers electrical energy from one circuit to another without any change in:",
       "a": "Frequency"
     },
     {
-      "q": "The primary and secondary windings of an ordinary two-winding transformer are linked:",
-      "a": "Magnetically only"
+      "q": "Transformers require no moving parts and are therefore called:",
+      "a": "Static transformers"
     },
     {
-      "q": "The magnetic core of a transformer is laminated to reduce:",
+      "q": "The typical full-load efficiency range of a commercial transformer is between:",
+      "a": "96% to 97% (up to 99% for large units)"
+    },
+    {
+      "q": "The magnetic core of a transformer is laminated in order to reduce:",
       "a": "Eddy current loss"
     },
     {
-      "q": "Silicon is added to the steel used in transformer cores to reduce:",
+      "q": "Silicon steel is used in transformer cores in order to reduce:",
       "a": "Hysteresis loss"
     },
     {
-      "q": "In an ideal transformer, the total power efficiency is:",
-      "a": "100%"
+      "q": "In a shell-type transformer, the magnetic flux in each outer limb is equal to:",
+      "a": "Φ / 2"
     },
     {
-      "q": "In a shell-type transformer, the central limb carries a magnetic flux equal to:",
-      "a": "Total flux Φ"
-    },
-    {
-      "q": "A transformer used to step down high currents for AC ammeter measurement is called a:",
+      "q": "An instrument transformer used to step down high currents for measurement is a:",
       "a": "Current Transformer (CT)"
     },
     {
-      "q": "The type of transformer that has only one continuous winding serving as both primary and secondary is a(n):",
+      "q": "A transformer having only one continuous winding serving as both primary and secondary is a(n):",
       "a": "Autotransformer"
     }
   ],
   "fill": [
     {
-      "q": "A transformer is called a static machine because it contains no ________ parts.",
-      "a": "moving (or rotating)"
-    },
-    {
-      "q": "The operation of a transformer is based on the principle of ________ induction.",
+      "q": "The basic principle behind the working of a transformer is the phenomenon of ________ induction.",
       "a": "mutual"
     },
     {
-      "q": "The self-induced EMF in the primary winding of a transformer is also called ________ EMF because it opposes the applied voltage.",
+      "q": "The self-induced primary EMF is sometimes called the ________ EMF of the primary because it opposes applied voltage.",
       "a": "back"
     },
     {
-      "q": "In a step-down transformer, the secondary voltage is ________ than the primary voltage.",
-      "a": "less (or lower)"
+      "q": "In a step-up transformer, the secondary voltage is ________ than the primary voltage.",
+      "a": "greater (or higher)"
     },
     {
-      "q": "In a shell-type transformer, the cross-sectional area of the central limb is ________ that of each outer limb.",
+      "q": "In an ideal transformer, the total power efficiency is equal to ________%.",
+      "a": "100"
+    },
+    {
+      "q": "In a shell-type transformer, the central limb cross-sectional area is ________ that of each outer limb.",
       "a": "twice (or double)"
     }
   ],
   "match": [
     {
-      "q": "Laminated Core",
-      "a": "Reduces eddy current losses"
+      "q": "Magnetic Core",
+      "a": "Provides low-reluctance path for common magnetic flux"
     },
     {
-      "q": "Silicon Steel Material",
-      "a": "Reduces hysteresis loss"
+      "q": "Silicon Steel Laminations",
+      "a": "Reduces eddy current and hysteresis losses"
     },
     {
       "q": "Ideal Transformer",
-      "a": "Zero winding resistance and zero core loss"
+      "a": "No winding resistance, no leakage, no iron loss, zero magnetising current"
     },
     {
       "q": "Shell Type Transformer",
-      "a": "Windings placed on the central limb with two parallel flux paths"
+      "a": "Core surrounds windings with two parallel flux paths (Φ/2 each)"
     },
     {
-      "q": "Current Transformer (CT)",
-      "a": "Instrument transformer for measuring heavy AC currents"
+      "q": "Autotransformer",
+      "a": "Single continuous winding without electrical isolation"
     }
   ]
 }
