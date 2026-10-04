@@ -103,7 +103,7 @@ export async function POST(req: NextRequest) {
       }
       Generate at least 3-5 comprehensive practical calculation problems for "essay" with structured computation tables, 4-6 sa questions, and 6-10 oneword/fill/match questions.
       `;
-    } else if (subject === "Basic Mechanical Engineering") {
+    } else if (subject === "Basic Mechanical Engineering" || subject === "Mechanical Engineering" || subject === "Electrical Technology") {
       prompt = `
       You are an expert Engineering Professor. Analyze this educational material for B.Tech Basic Mechanical Engineering and generate a university-style question paper based on its contents.
       

@@ -1,0 +1,169 @@
+================================================================================
+ELECTRICAL TECHNOLOGY - MODULE 2: TRANSFORMERS
+================================================================================
+
+1. DEFINITION & GENERAL CHARACTERISTICS
+--------------------------------------------------------------------------------
+A Transformer is a static AC electrical machine that:
+• Transfers electrical energy from one electric circuit to another.
+• Accomplishes this energy transfer without any change in frequency.
+• Operates on the fundamental principle of electromagnetic induction (specifically mutual induction).
+• Has two or more electric circuits (windings) that are electrically isolated from each other but linked together through a common magnetic circuit (core).
+
+Why is a Transformer Called a "Static Machine"?
+• A transformer has no rotating or moving mechanical components.
+• Because there are no moving parts:
+  - It requires minimal routine maintenance.
+  - There are zero mechanical losses (no friction loss and no windage loss).
+  - It achieves exceptionally high efficiency compared to rotating machines:
+    * Typical full-load efficiency ranges between 96% and 97%.
+    * Large commercial/power transformers achieve efficiencies up to 99%.
+
+
+2. MAJOR COMPONENTS OF A TRANSFORMER
+--------------------------------------------------------------------------------
+A basic transformer consists of three essential components:
+
+1. Primary Winding:
+   - The coil connected to the input alternating voltage (AC power source).
+   - When energized by an AC source, an alternating current flows through it, establishing an alternating magnetic flux in the core.
+
+2. Magnetic Core:
+   - Provides a low-reluctance, continuous closed magnetic path for the magnetic flux.
+   - Ensures maximum magnetic coupling between the primary and secondary windings so that flux produced by the primary links effectively with the secondary winding.
+
+3. Secondary Winding:
+   - The coil from which electrical energy is delivered to the connected electrical load.
+   - It is wound on the same magnetic core as the primary winding.
+   - When the alternating magnetic flux passes through this coil, an electromotive force (EMF) is induced across its terminals by mutual induction.
+
+
+3. WORKING PRINCIPLE & PHYSICAL LAWS
+--------------------------------------------------------------------------------
+The operation of a transformer relies on the phenomenon of Mutual Induction between two stationary electrical windings coupled by a common magnetic field.
+
+Two Core Physical Principles:
+1. Electromagnetism (Ampere's Principle):
+   An electric current flowing through a conductor or coil generates a concentric magnetic field around it.
+2. Electromagnetic Induction (Faraday's Laws):
+   A time-varying (changing) magnetic flux linking a coil of wire induces an electromotive force (voltage) across the terminals of that coil:
+   e = -N * (dΦ/dt)
+   - When an alternating voltage V1 is applied across the primary winding, it drives an alternating magnetizing current.
+   - This current produces an alternating magnetic flux Φ in the core.
+   - The changing flux links both primary and secondary windings:
+     * In the primary winding, it induces a self-induced EMF (E1), also called the "back EMF", which opposes the applied voltage V1 (in accordance with Lenz's Law).
+     * In the secondary winding, it induces a mutually induced EMF (E2) of identical frequency.
+   - When a load is connected across the secondary terminals, the induced EMF drives a secondary current I2, delivering power to the load.
+
+
+4. FLUX DISTRIBUTION: USEFUL FLUX VS. LEAKAGE FLUX
+--------------------------------------------------------------------------------
+• Useful Flux (Main Core Flux, Φ):
+  The portion of the alternating magnetic flux that remains entirely confined within the ferromagnetic core and links BOTH the primary and secondary windings. This flux is responsible for transferring energy from primary to secondary.
+
+• Leakage Flux (Φl1 and Φl2):
+  In a physical transformer, not all magnetic flux lines stay within the core. A small portion leaks through the surrounding air or insulation and links only one of the coils without linking the other:
+  - Primary leakage flux links only the primary winding.
+  - Secondary leakage flux links only the secondary winding.
+  - Leakage flux causes inductive voltage drops in the windings. To minimize leakage flux, the primary and secondary coils are placed close together or wound concentrically on the same core limbs.
+
+
+5. CORE MATERIAL AND CONSTRUCTIONAL DETAILS
+--------------------------------------------------------------------------------
+Why Special Materials are Required:
+If coils were linked through air, magnetic reluctance would be high, leakage would be excessive, and energy transfer would be inefficient. A high-grade magnetic core is provided to concentrate and direct the magnetic flux lines.
+
+1. High Relative Permeability:
+   - The core material must possess high relative permeability (μr >> 1) and high saturation flux density to offer a path of minimum reluctance to the magnetic flux.
+2. Silicon Steel Alloy:
+   - The core is fabricated from high-grade silicon steel (typically 3% to 4.5% silicon steel alloy or Cold-Rolled Grain-Oriented - CRGO steel).
+   - Function of Silicon: The addition of silicon increases the electrical resistivity of the steel, thereby reducing eddy current losses and keeping the hysteresis loop narrow (reducing hysteresis loss).
+3. Laminated Construction:
+   - The core is not made of a solid metal block. A solid core would permit massive circulating eddy currents induced by the alternating magnetic field, leading to severe I²R heating and power loss.
+   - Instead, the core is assembled from thin sheets called laminations (typically 0.35 mm to 0.5 mm thick).
+   - Each lamination is insulated from its neighbors by a thin coating of varnish, enamel, or oxide film.
+   - Lamination confines eddy currents to very small closed loops within each thin sheet, drastically reducing eddy current losses (Eddy current loss Pe is proportional to the square of lamination thickness, t²).
+
+
+6. CLASSIFICATION OF TRANSFORMERS
+--------------------------------------------------------------------------------
+Transformers are classified based on several criteria:
+
+1. Based on Core Construction:
+   • Core Type Transformer:
+     - The windings encircle or surround a considerable part of the magnetic core.
+     - Has two vertical limbs (legs) and two horizontal yokes.
+     - Single magnetic circuit path.
+     - Low voltage (LV) winding is placed inside next to the core, and high voltage (HV) winding is placed outside around the LV winding to minimize insulation requirements.
+     - Easier to dismantle and repair; better heat dissipation for large outputs.
+   • Shell Type Transformer:
+     - The magnetic core surrounds or encloses a major portion of the windings.
+     - Has three limbs: two outer limbs and one central limb.
+     - The cross-sectional area of the central limb is twice that of each outer limb.
+     - The flux divides equally into two parallel paths through the outer limbs (each carrying Φ/2).
+     - Both LV and HV windings are layered (interleaved or sandwiched) on the central limb.
+     - Provides better mechanical protection against short-circuit forces.
+
+2. Based on Voltage Conversion:
+   • Step-Up Transformer:
+     - Secondary voltage is greater than primary voltage (V2 > V1; N2 > N1).
+     - Secondary current is lower than primary current (I2 < I1).
+     - Used at generating stations to raise voltage for long-distance power transmission.
+   • Step-Down Transformer:
+     - Secondary voltage is less than primary voltage (V2 < V1; N2 < N1).
+     - Secondary current is higher than primary current (I2 > I1).
+     - Used in distribution networks and consumer appliances to reduce transmission voltage to safe working levels.
+
+3. Based on Purpose / Application:
+   • Power Transformer:
+     - Used in transmission networks at generating stations and bulk receiving substations.
+     - Operates at or near full load continuously; designed for maximum efficiency at or near 100% full load.
+     - Rating: > 200 kVA.
+   • Distribution Transformer:
+     - Used in domestic and industrial local distribution networks to feed consumers.
+     - Subject to fluctuating loads (seldom fully loaded); designed for maximum "all-day efficiency" (maximum efficiency at around 50% to 70% load).
+     - Rating: up to 200 kVA.
+   • Isolation Transformer:
+     - Has a 1:1 transformation ratio (V1 = V2).
+     - Used for electrical galvanic isolation to protect sensitive equipment and personnel from electric shocks.
+   • Instrument Transformers:
+     - Used to measure high AC voltages and currents using standard low-range meters:
+       * Current Transformer (CT): Steps down high line current for measurement using a standard 5A AC ammeter.
+       * Potential Transformer (PT): Steps down high transmission voltage for measurement using a standard 110V AC voltmeter.
+
+4. Based on Number of Windings:
+   • Two-Winding Transformer: Separate primary and secondary windings, electrically isolated.
+   • Autotransformer: Has only a single continuous winding common to both primary and secondary. Uses less copper, has smaller size, lower losses, and higher efficiency, but lacks electrical isolation.
+
+5. Based on Insulation and Cooling Method:
+   • Dry Type Transformer: Air-cooled (natural air circulation or air blast); used indoors and in commercial buildings where oil fire hazard must be avoided.
+   • Oil-Immersed Transformer: Core and windings are immersed in mineral transformer oil inside a tank. Oil acts both as an effective dielectric insulator and as a cooling coolant.
+
+6. Based on Number of Phases:
+   • Single-Phase Transformer: Operates on a single-phase AC supply; used in low-power applications and domestic appliances.
+   • Three-Phase Transformer: Operates on a 3-phase AC supply; standard for power generation, transmission, and heavy industrial power systems (constructed as a 3-limb core or bank of 3 single-phase units).
+
+
+7. IDEAL TRANSFORMER
+--------------------------------------------------------------------------------
+An Ideal Transformer is an imaginary, theoretical transformer that has zero losses and 100% energy transfer efficiency. It serves as a benchmark model for analyzing practical transformers.
+
+Four Fundamental Assumptions / Characteristics of an Ideal Transformer:
+1. Zero Winding Resistance:
+   - Primary and secondary coils are made of perfect, pure conductors with zero electrical resistance (R1 = 0, R2 = 0).
+   - There are zero copper losses (I²R = 0), and no internal resistive voltage drops (V1 = E1 and V2 = E2).
+2. Zero Magnetic Leakage Flux:
+   - 100% of the magnetic flux produced by the primary winding is completely confined to the core and links every single turn of both primary and secondary windings (Leakage flux = 0).
+3. Zero Iron / Core Losses:
+   - The core material has infinite permeability and zero hysteresis loop area.
+   - There are zero hysteresis losses and zero eddy current losses in the core (Core loss = 0).
+4. Zero Magnetizing Current (or Negligible):
+   - Because core reluctance is zero (reluctance S = l / (μA) -> 0 as μ -> ∞), an infinitesimal current is sufficient to establish the required core magnetic flux.
+
+Mathematical Relationships in an Ideal Transformer:
+• Transformation Ratio (K):
+  K = V2 / V1 = E2 / E1 = N2 / N1 = I1 / I2
+• Conservation of Power:
+  Input Apparent Power = Output Apparent Power
+  V1 * I1 = V2 * I2  (Efficiency η = 100%)
+================================================================================
