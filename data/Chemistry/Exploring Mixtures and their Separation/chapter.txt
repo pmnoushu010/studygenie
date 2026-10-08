@@ -1,0 +1,308 @@
+================================================================================
+CLASS 9 CHEMISTRY (SCIENCE) - CHAPTER 5
+EXPLORING MIXTURES AND THEIR SEPARATION
+COMPLETE MASTER STUDY NOTES & CONCEPT REVIEW (PAGES 73 - 93)
+================================================================================
+
+1. CLASSIFICATION OF MIXTURES (SECTION 5.1)
+--------------------------------------------------------------------------------
+A mixture consists of two or more substances (elements or compounds) physically mixed together in any proportion without undergoing any chemical reaction or bonding.
+
+Mixtures are broadly classified into two categories:
+(i) Homogeneous Mixtures:
+    - Definition: A mixture that possesses a uniform composition and identical properties throughout its entire mass.
+    - Key Characteristics:
+      * Constituent particles are uniformly distributed at the molecular or ionic level.
+      * No distinct physical boundaries of separation can be observed between components.
+      * The components do not settle down over time when left undisturbed (highly stable).
+      * Examples:
+        - Sugar in water (well-stirred sugar syrup is equally sweet from first sip to last).
+        - Common salt (sodium chloride) in water.
+        - Vinegar (a homogeneous solution of acetic acid in water).
+        - Aerated drinks / soda water (carbon dioxide gas dissolved in water).
+        - Air (mixture of oxygen, nitrogen, carbon dioxide, argon, and water vapour).
+        - Alloys like Brass and Bronze.
+    - Note: A homogeneous mixture of two or more substances is scientifically termed a "SOLUTION". A true solution always remains homogeneous.
+
+(ii) Heterogeneous Mixtures:
+    - Definition: A mixture that has a non-uniform composition throughout, where individual components remain physically separate and retain distinct boundaries.
+    - Key Characteristics:
+      * Constituent particles are not distributed uniformly.
+      * Different parts of the mixture have different compositions and physical properties.
+      * Individual particles are often visible to the naked eye or under a light microscope.
+      * When left undisturbed, denser suspended particles tend to settle down under gravity.
+      * Examples:
+        - Sand in water (sand grains remain visible and settle to the bottom over time).
+        - Chalk powder in water.
+        - Oil in water (forms two distinct immiscible liquid layers).
+        - Muddy water, milk, blood, smoke, and fog.
+
+--------------------------------------------------------------------------------
+2. EXPERIMENTAL INVESTIGATION: ACTIVITY 5.1 (PAGES 73 - 74)
+--------------------------------------------------------------------------------
+Aim: To observe, compare, and classify different types of mixtures based on particle visibility, beam of light behaviour, stability, and filterability.
+
+Experimental Setup:
+Three transparent 100 mL glass beakers filled with 50 mL of water:
+- Beaker A (Group A): 1 spatula of common salt (NaCl) in 50 mL water, stirred well.
+- Beaker B (Group B): 1 spatula of chalk powder in 50 mL water, stirred well.
+- Beaker C (Group C): A few drops of fresh milk in 50 mL water, stirred well.
+
+Comparative Observations:
+(i) Particle Visibility:
+    - Beaker A: Solute particles are completely invisible.
+    - Beaker B: Chalk particles are clearly visible to the naked eye.
+    - Beaker C: Individual particles are not visible; liquid appears translucent.
+(ii) Path of Light (Laser Pointer / Tyndall Effect):
+    - Beaker A: Path of light is NOT visible (true solution).
+    - Beaker B: Path of light is visible due to scattering by chalk particles.
+    - Beaker C: Path of light is distinctly visible and brightly illuminated (colloidal scattering).
+    *Safety Rule: Never look directly into a laser beam as direct exposure can cause irreversible eye damage.*
+(iii) Stability (Leaving Undisturbed for a Few Minutes):
+    - Beaker A: Completely stable; no particles settle down.
+    - Beaker B: Unstable; chalk particles gradually settle at the bottom as sediment.
+    - Beaker C: Stable; milk particles remain dispersed throughout and do not settle down.
+(iv) Filterability (Passing through Filter Paper):
+    - Beaker A: Passes completely through filter paper leaving no residue.
+    - Beaker B: Chalk particles are retained on filter paper as residue; clear water is filtrate.
+    - Beaker C: Entire milk mixture passes through standard filter paper without leaving residue.
+
+Conclusion:
+Distinguishes True Solutions (Beaker A), Suspensions (Beaker B), and Colloids (Beaker C).
+
+--------------------------------------------------------------------------------
+3. SOLUTIONS & CONCENTRATION (SECTIONS 5.2 & 5.2.1)
+--------------------------------------------------------------------------------
+- Solution = Solute (dissolved substance, smaller proportion) + Solvent (dissolving medium, larger proportion).
+- Concentration: The amount of solute dissolved in a given amount of solvent or total solution.
+
+Significance of Precise Concentration:
+(i) Medical Application - Oral Rehydration Solution (ORS):
+    - Formulated by Dr. Dilip Mahalanabis, an Indian paediatrician, during the 1971 refugee cholera epidemic.
+    - Saved over 50 million lives worldwide under WHO guidance.
+    - Requires exact proportions of salt and sugar in water; arbitrary sugary drinks do NOT constitute ORS.
+(ii) Agriculture - Pesticide Sprays:
+    - Farmers must strictly mix the exact prescribed amount of pesticide concentrate per unit volume of water. Too dilute fails to protect crops; too concentrated damages crops and soil.
+
+--------------------------------------------------------------------------------
+4. METHODS OF EXPRESSING CONCENTRATION (SECTION 5.2.2)
+--------------------------------------------------------------------------------
+A. Mass by Mass Percentage (% m/m or % w/w):
+   - Formula: % m/m = [Mass of solute / Mass of solution] × 100
+   - Mass of solution = Mass of solute + Mass of solvent
+   - Example 5.1: 10 g salt in 90 g water = (10 / 100) × 100 = 10% m/m.
+   - Pause & Ponder 1: 4% m/m zinc oxide in 300 g talcum powder = (4 / 100) × 300 = 12 g zinc oxide.
+   - Exercise 4(i): Cake dry ingredients: 75 g sugar (15% m/m), 420 g flour (84% m/m), 5 g baking soda (1% m/m) in 500 g total dry mix.
+   - Exercise 4(ii): 70% copper in 120 g brass = 84 g copper and 36 g zinc.
+   - Exercise 14:
+     * Student A (20 g sugar in 80 g water): [20 / 100] × 100 = 20% m/m.
+     * Student B (20 g sugar in 100 g water): [20 / 120] × 100 = 16.67% m/m.
+     * Student C (30 g sugar in 80 g water): [30 / 110] × 100 = 27.27% m/m (Most concentrated).
+
+B. Mass by Volume Percentage (% m/v or % w/v):
+   - Formula: % m/v = [Mass of solute (in g) / Volume of solution (in mL)] × 100
+   - Widely used in medicine and laboratories.
+   - Example 5.2: 5 g glucose in 100 mL solution = 5% m/v.
+   - Saline Drip: Hospital IV drip is 0.9% m/v sodium chloride (0.9 g NaCl in 100 mL solution), isotonic with human blood.
+
+C. Volume by Volume Percentage (% v/v):
+   - Formula: % v/v = [Volume of solute (in mL) / Volume of solution (in mL)] × 100
+   - Example 5.3: 1 mL liquid pesticide in 100 mL spray = 1% v/v.
+   - Pause & Ponder 2: 2 tablespoons (30 mL) orange concentrate in 150 mL juice = 20% v/v.
+   - Pause & Ponder 3: 5% v/v vinegar from glacial acetic acid: 5 mL glacial acetic acid diluted to 100 mL with water.
+
+--------------------------------------------------------------------------------
+5. SOLUBILITY & SOLUBILITY DATA ANALYSIS (SECTION 5.2.3, TABLE 5.4)
+--------------------------------------------------------------------------------
+- Saturated Solution: Cannot dissolve any more solute at that specific temperature.
+- Solubility: Maximum mass of solute (in grams) dissolved in 100 g of solvent at a given temperature.
+- Temperature Effect: Increases for solid solutes in liquids; decreases for gases in liquids.
+
+Comprehensive Solubility Data Analysis (Table 5.4 - g per 100 g water):
+Salt                         10 °C   20 °C   30 °C   40 °C   60 °C   80 °C   ΔSolubility (10°C to 80°C)
+-------------------------------------------------------------------------------------------------------
+Potassium nitrate (KNO3)       21      32      45      62     106     167     +146 g (Massive increase!)
+Sodium chloride (NaCl)         36      36    36.3    36.5      37      37     +1 g   (Almost negligible)
+Potassium chloride (KCl)       35      35    37.4      40      46      54     +19 g  (Gradual increase)
+Ammonium chloride (NH4Cl)      24      37      41      41      55      66     +42 g  (Moderate increase)
+
+Key Solved Problems from Table 5.4 (Exercise 13):
+(i) Mass of KNO3 needed for saturated solution in 50 g water at 40 °C:
+    Solubility at 40 °C = 62 g per 100 g water.
+    In 50 g water: (62 / 100) × 50 g = 31 g.
+(ii) Saturated KCl cooled from 80 °C to room temperature (25 °C):
+    Solubility drops from 54 g to ~35 g. Solid KCl crystals precipitate out at the bottom.
+(iii) Comparison: KNO3 shows the highest sensitivity to temperature (+146 g), while NaCl is least affected (+1 g).
+
+--------------------------------------------------------------------------------
+6. SEPARATION OF HOMOGENEOUS MIXTURES: CRYSTALLIZATION (SECTION 5.3.1)
+--------------------------------------------------------------------------------
+- Crystal: Pure solid with particles arranged in a regular, repeating 3D geometric lattice.
+- Natural crystals: Rock salt, candy sugar (mishri), snowflakes, window frost, quartz, Mawsmai Cave in Sohra (Cherrapunji).
+- Laboratory Preparation of Copper Sulfate Crystals (Activity 5.3):
+  * Copper sulfate is toxic (handle with gloves).
+  * Add 1 drop of dilute sulfuric acid to prevent hydrolysis and unwanted reactions.
+  * Prepare hot saturated solution, filter hot, and cool slowly and undisturbed.
+  * Slow cooling yields large, shiny, well-formed blue crystals; rapid cooling in ice-water yields tiny, poorly-formed crystals.
+- Traditional Indian Salt Production:
+  * Panga salt: Boiling concentrated sea brines in cauldrons.
+  * Karkatch salt: Solar evaporation of sea water in coastal pans.
+- Quantitative Yield: Saturated solution of Compound B cooled from 60 °C (287 g) to 40 °C (241 g) yields 46 g pure crystals per 100 g water.
+
+--------------------------------------------------------------------------------
+7. SEPARATION OF MISCIBLE LIQUIDS: DISTILLATION (SECTION 5.3.2, TABLE 5.5)
+--------------------------------------------------------------------------------
+- Distillation: Liquid -> Vapour (Heating) -> Liquid Distillate (Cooling).
+- Criteria: Miscible liquids with boiling point difference of at least 25 °C (or 25 K).
+- Apparatus (Fig. 5.26):
+  * Apparatus A: Distillation flask (with boiling chips)
+  * Apparatus B: Water condenser / Liebig condenser (water inlet at bottom, outlet at top)
+  * Apparatus C: Conical flask / Receiver (collects pure distillate)
+- Acetone (b.p. 56 °C) and Water (b.p. 100 °C): Difference = 44 °C. Acetone distils over first.
+- Liquid A (60 °C) and Liquid B (90 °C): Difference = 30 °C. Separated cleanly by simple distillation.
+
+Boiling Points Analysis & Separation Feasibility (Table 5.5, Exercise 15):
+Solvent: Water (100 °C), Acetone (56 °C), Alcohol (78 °C), Chloroform (61 °C), Benzene (80 °C)
+- (a) Water (100 °C) - Acetone (56 °C): Δ = 44 °C (≥ 25 °C) -> SEPARABLE by simple distillation.
+- (b) Water (100 °C) - Salt: Water is volatile, salt is non-volatile -> SEPARABLE by distillation.
+- (c) Acetone (56 °C) - Alcohol (78 °C): Δ = 22 °C (< 25 °C) -> Requires fractional distillation.
+- (d) Sand - Salt: Both are solids -> Requires dissolution, filtration, evaporation.
+- (e) Alcohol (78 °C) - Chloroform (61 °C): Δ = 17 °C (< 25 °C) -> Requires fractional distillation.
+- (f) Alcohol (78 °C) - Benzene (80 °C): Δ = 2 °C (< 25 °C) -> Requires fractional distillation.
+
+- India's Scientific Heritage: Kannauj ("Perfume Capital of India"), traditional Deg-Bhapka hydro-distillation method produces Mitti ka Ittar (earthy scent of baked earth after rain). Supported by FFDC Kannauj.
+- Fractional Distillation: Used when boiling point difference is less than 25 °C, using a fractionating column packed with glass beads.
+  * Petroleum Refining Fractions: LPG (cooking gas), petrol (cars), kerosene/aviation fuel (aircraft), diesel (trucks), lubricating oil, bitumen (road surfacing).
+
+--------------------------------------------------------------------------------
+8. PAPER CHROMATOGRAPHY (SECTION 5.3.3)
+--------------------------------------------------------------------------------
+- Etymology: Greek chroma ("colour") + graphein ("to write") = "writing with colour".
+- Principle: Differential rates of movement based on solubility in mobile solvent and affinity for stationary paper phase.
+- Activity 5.5: Pencil baseline 2 cm from bottom; black ink spot placed; solvent level kept below the ink spot. Solvent rises by capillary action, separating dyes into distinct bands.
+- Natural Applications: Separating pigments from green spinach leaves, flower petals, and red leaves (reveals masked chlorophyll).
+
+--------------------------------------------------------------------------------
+9. SEPARATION OF HETEROGENEOUS MIXTURES (SECTION 5.4)
+--------------------------------------------------------------------------------
+A. Separating Funnel (5.4.1):
+   - Separates immiscible liquids based on density difference (e.g., cooking oil [density 0.91 g/mL] floats on water [density 1.0 g/mL]; water drained first via stopcock).
+
+B. Sublimation (5.4.2):
+   - Direct change from solid to gas on heating; reverse is deposition.
+   - Separates camphor, naphthalene, ammonium chloride, iodine, and dry ice (solid CO2) from non-sublimable solids like sand.
+   - Multicomponent Separation (Exercise 11): Mixture of sand, common salt, and naphthalene:
+     Step 1: Sublimation (heat mixture to sublime and deposit pure naphthalene).
+     Step 2: Dissolution (add water to dissolve salt, sand remains insoluble).
+     Step 3: Filtration (filter out insoluble sand as residue).
+     Step 4: Evaporation / Crystallization (evaporate water to obtain pure salt crystals).
+
+C. Alloys:
+   - Homogeneous mixtures of metals/non-metals that cannot be separated by physical methods.
+   - Brass: ~70-80% Cu, 20-30% Zn.
+   - Bronze: ~80% Cu, 20% Sn.
+   - Stainless Steel: Fe + C (0.03-0.8%), Cr (16-18%), Ni (10-14%), Mo (2-3%).
+
+D. Centrifugation (5.4.3):
+   - Rapid rotation generates centrifugal force, driving denser particles outward and to the bottom.
+   - Clinical application: Separating blood cells from plasma.
+   - Social Innovation: The Paperfuge — low-cost electricity-free centrifuge spinning at 100,000+ rpm to diagnose malaria and anaemia in remote clinics.
+
+E. Coagulation:
+   - Powdered alum (fitkari) neutralizes negative surface charges on fine suspended clay particles in muddy water, clumping them into heavy flocs that settle rapidly by gravity (sedimentation), followed by decantation.
+   - Culinary use: Making paneer (cottage cheese) from milk using lemon juice or vinegar.
+
+--------------------------------------------------------------------------------
+10. COLLOIDS, EMULSIONS & TYNDALL EFFECT (SECTIONS 5.4.4 & 5.5)
+--------------------------------------------------------------------------------
+- Particle Size Spectrum:
+  * True Solution: < 1 nm (invisible, no Tyndall effect, does not settle).
+  * Colloid: 1 nm to 1000 nm (invisible to naked eye, exhibits Tyndall effect, stable without settling).
+  * Suspension: > 1000 nm (visible to naked eye, exhibits Tyndall effect, settles on standing).
+- Components of Colloid: Dispersed Phase (solute-like particles) and Dispersion Medium (continuous medium). In blood, cells are dispersed phase and plasma is dispersion medium.
+- Emulsions: Liquid-in-liquid colloids. Oil-in-water (milk, vanishing cream) and Water-in-oil (butter, cold cream), stabilized by emulsifying agents (proteins in milk, soap).
+- Tyndall Effect: Scattering of light beam by particles in a colloid or suspension (John Tyndall). Seen in dusty sunbeams, forest canopies, car fog lamps, and sports stadium floodlights.
+- The Quest Continues: Developing artificial blood substitutes capable of mimicking oxygen-carrying hemoglobin and universal plasma compatibility.
+
+--------------------------------------------------------------------------------
+11. ENVIRONMENTAL & BIOLOGICAL SEPARATION (PAGES 89 - 91)
+--------------------------------------------------------------------------------
+- Human Kidneys: Natural biological filters that continuously filter metabolic urea and waste products from blood.
+- Sewage Treatment Plants: Employ physical and chemical stages including sedimentation, alum coagulation, and sand filtration.
+- Waste Segregation: Dry Waste (recycling) and Wet Waste (composting).
+- Urban Mining: Recovering Lithium from spent mobile phone and laptop lithium-ion batteries.
+
+--------------------------------------------------------------------------------
+12. EXHAUSTIVE ANALYSIS OF END-OF-CHAPTER EXERCISES & DATA (PAGES 92 - 93)
+--------------------------------------------------------------------------------
+A. Multicomponent Separation (Exercise 11, Fig. 5.25):
+   - Mixture Components: Sand (insoluble, non-sublimable solid), Common salt (NaCl, water-soluble, non-sublimable), Naphthalene (water-insoluble, sublimable solid).
+   - Fig. 5.25b Image Identification:
+     * Image 1: Sublimation using an inverted glass funnel with cotton plug over a heated china dish.
+     * Image 2: Evaporation of salt solution in an evaporating dish over a burner.
+     * Image 3: Filtration using filter paper and funnel on a retort stand into a beaker.
+   - Correct Step-by-Step Sequence:
+     1. Step 1 (Sublimation - Image 1): Heat the mixture. Naphthalene sublimes directly into vapour and deposits on the cool inner walls of the funnel. Sand and salt remain in the dish.
+     2. Step 2 (Dissolution): Add water to the residual sand-salt mixture. Common salt dissolves completely; sand remains insoluble.
+     3. Step 3 (Filtration - Image 3): Pour through filter paper. Insoluble sand is retained as residue on the filter paper; clear aqueous sodium chloride passes through as filtrate.
+     4. Step 4 (Evaporation / Crystallization - Image 2): Heat the salt filtrate in an evaporating dish until water evaporates completely, leaving dry sodium chloride crystals.
+   - Correct Sequence of Images: Image 1 -> Image 3 -> Image 2.
+
+B. Distillation of Water and Acetone (Exercise 12 & Table 5.5):
+   - Boiling point of acetone = 56 °C; Boiling point of water = 100 °C.
+   - Difference in boiling points (Δb.p.) = 100 °C - 56 °C = 44 °C.
+   - Why Effective: Acetone and water are miscible liquids with a boiling point difference significantly greater than 25 °C (44 °C ≥ 25 °C). Upon heating, volatile acetone vaporizes first at 56 °C, rises into the Liebig condenser, condenses into liquid distillate, and collects in the receiver flask. Water remains in the distillation flask without vaporizing at that temperature, resulting in sharp, complete separation.
+
+C. Quantitative Solubility Analysis (Exercise 13 & Table 5.4):
+   - Table 5.4 Data (Solubility in g per 100 g of water):
+     * Potassium nitrate (KNO3): 21 g (10 °C), 32 g (20 °C), 45 g (30 °C), 62 g (40 °C), 106 g (60 °C), 167 g (80 °C).
+     * Sodium chloride (NaCl): 36 g (10 °C), 36 g (20 °C), 36.3 g (30 °C), 36.5 g (40 °C), 37 g (60 °C), 37 g (80 °C).
+     * Potassium chloride (KCl): 35 g (10 °C), 35 g (20 °C), 37.4 g (30 °C), 40 g (40 °C), 46 g (60 °C), 54 g (80 °C).
+     * Ammonium chloride (NH4Cl): 24 g (10 °C), 37 g (20 °C), 41 g (30 °C), 41 g (40 °C), 55 g (60 °C), 66 g (80 °C).
+   - Numerical Workings:
+     (i) Saturated solution of KNO3 in 50 g water at 40 °C:
+         Solubility at 40 °C = 62 g per 100 g water.
+         Mass required for 50 g water = (62 / 100) × 50 = 31 g.
+     (ii) Cooling saturated KCl from 80 °C to room temperature (25 °C):
+         At 80 °C, solubility = 54 g / 100 g water. At 25 °C, solubility ≈ 36.2 g / 100 g water.
+         Observation: Glistening solid crystals of potassium chloride precipitate out and settle at the bottom.
+         Explanation: As temperature drops, the solubility of KCl decreases. The solvent cannot hold the excess solute (~17.8 g), causing it to crystallize out.
+     (iii) Effect of temperature on solubility:
+         - All four salts show an increase in solubility with increasing temperature.
+         - Comparative Change (Δ = Solubility at 80 °C - Solubility at 10 °C):
+           * KNO3: 167 g - 21 g = +146 g (Extremely steep increase; highest temperature sensitivity).
+           * NH4Cl: 66 g - 24 g = +42 g (Moderate increase).
+           * KCl: 54 g - 35 g = +19 g (Steady increase).
+           * NaCl: 37 g - 36 g = +1 g (Practically flat curve; minimal temperature dependence).
+
+D. Concentration Calculations for Sugar Solutions (Exercise 14):
+   - Formula: Mass % (% m/m) = [Mass of solute / (Mass of solute + Mass of solvent)] × 100
+   - Student A: 20 g sugar in 80 g water -> [20 / (20 + 80)] × 100 = (20 / 100) × 100 = 20.00% m/m.
+   - Student B: 20 g sugar in 100 g water -> [20 / (20 + 100)] × 100 = (20 / 120) × 100 = 16.67% m/m.
+   - Student C: 30 g sugar in 80 g water -> [30 / (30 + 80)] × 100 = (30 / 110) × 100 = 27.27% m/m.
+   - Comparison: Student C has the most concentrated solution (27.27% m/m) because it possesses the highest ratio of solute mass to total solution mass.
+
+E. Distillation Apparatus Identification & Feasibility Analysis (Exercise 15 & Table 5.5):
+   - Fig. 5.26 Components:
+     * S: Simple Distillation.
+     * A: Distillation flask (round-bottom flask with side arm).
+     * B: Liebig water condenser (cool water enters at lower inlet, exits at upper outlet).
+     * C: Conical flask / Receiver flask.
+   - Feasibility Criteria: Difference in boiling points Δb.p. ≥ 25 °C for miscible liquids, or separating a non-volatile solid from a volatile liquid.
+   - Table 5.5 Boiling Points: Water = 100 °C, Acetone = 56 °C, Alcohol = 78 °C, Chloroform = 61 °C, Benzene = 80 °C.
+   - Mixture Evaluation:
+     (a) Water (100 °C) - Acetone (56 °C): Δ = 44 °C (≥ 25 °C) -> YES, separable by simple distillation.
+     (b) Water (100 °C) - Salt: Volatile liquid and non-volatile solid -> YES, separable by simple distillation.
+     (c) Acetone (56 °C) - Alcohol (78 °C): Δ = 22 °C (< 25 °C) -> NO, requires fractional distillation.
+     (d) Sand - Salt: Both non-volatile solids -> NO, separated by dissolution, filtration, and evaporation.
+     (e) Alcohol (78 °C) - Chloroform (61 °C): Δ = 17 °C (< 25 °C) -> NO, requires fractional distillation.
+     (f) Alcohol (78 °C) - Benzene (80 °C): Δ = 2 °C (< 25 °C) -> NO, requires fractional distillation.
+
+F. The Journey Beyond & Future Horizons (Page 93):
+   - Tyndall Effect Demonstrations: Observing light scattering through colloids using laser pointers and flashlights.
+   - Compound Crystal Growth: Common salt (cubic), Epsom salt (magnesium sulfate, monoclinic needles), sugar, borax, nickel sulfate.
+   - Leaf Chromatography: Red leaves contain green chlorophyll masked by red anthocyanin pigments; paper chromatography separates these pigments cleanly.
+   - Food Colouring Analysis: Chromatography separates multi-component artificial dyes in sweets, syrups, and fennel seed mouth fresheners.
+   - Survival Science (Camping Solar Still): In outdoor emergencies, clean water is obtained by placing impure water or green vegetation in a pit covered with a transparent plastic sheet weighted with a small stone at the center; sunlight evaporates water, which condenses on the underside of the sheet and drips pure potable water into a central cup.
+   - The Quest Continues (Artificial Blood): Creating synthetic blood substitutes that can carry oxygen (e.g., hemoglobin-based oxygen carriers [HBOCs] and perfluorochemicals [PFCs]) with universal compatibility, long shelf-life without refrigeration, and freedom from blood-borne pathogens.
+================================================================================

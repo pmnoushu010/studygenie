@@ -105,8 +105,17 @@ export async function POST(req: NextRequest) {
       `;
     } else if (subject === "Basic Mechanical Engineering" || subject === "Mechanical Engineering" || subject === "Electrical Technology") {
       prompt = `
-      You are an expert Engineering Professor. Analyze this educational material for B.Tech Basic Mechanical Engineering and generate a university-style question paper based on its contents.
+      You are an expert Engineering Professor. Analyze this educational material for B.Tech Engineering (${subject}) and generate a university-style question paper based on its contents.
       
+      CRITICAL MATHEMATICAL & FORMATTING REQUIREMENTS:
+      1. Mathematical Typography: NEVER use raw programming shorthand or plain ASCII approximations (e.g. NEVER write 10^6, x 10^7, sqrt(), alpha, *). ALWAYS use proper mathematical unicode symbols:
+         - Powers & Exponents: 10⁶, 10⁷, 10⁻¹⁹, 10³, m², m³, E₂², R₂², X₂²
+         - Subscripts & Isotopes: Nₛ, Nᵣ, E₁, E₂, V₁, V₂, I₁, I₂, R₂, X₂, Zₛ, Xₛ, Rₐ, Iₐ, Kₚ, K_d, K_w, U²³⁸₉₂, Th²³²₉₀, U²³⁵₉₂, Pu²³⁹₉₄, CO₂, D₂O
+         - Symbols: × (multiplication), √ (square root), ∝ (proportional to), ±, ≈, ≤, ≥, ⇒
+         - Greek letters: α, β, γ, Φ, ϕ, θ, ω, η, δ
+      2. Roman Numerals: ALWAYS use roman numerals (i), (ii), (iii), (iv), (v) for classifications, sub-points, and steps exactly as shown in the source material.
+      3. Complete Step-by-Step Calculation: State formulas first, list given parameters with units, show substitution steps, and highlight final answers with engineering units.
+
       Extract the core concepts and create the following types of questions based strictly on the provided material.
       You MUST respond ONLY with a valid JSON object matching this exact structure, with no markdown formatting or backticks around it:
       {

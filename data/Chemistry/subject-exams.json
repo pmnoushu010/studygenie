@@ -1,16 +1,366 @@
 {
   "level1": {
-    "oneword": [],
-    "sa": [],
-    "fill": [],
-    "match": [],
-    "essay": []
+    "oneword": [
+      {
+        "q": "What type of mixture has a uniform composition throughout its mass?",
+        "a": "Homogeneous mixture"
+      },
+      {
+        "q": "What is another term for a homogeneous mixture of two or more substances?",
+        "a": "Solution"
+      },
+      {
+        "q": "In a solution of sugar and water, what is the dissolved substance called?",
+        "a": "Solute"
+      },
+      {
+        "q": "In a solution of sugar and water, what is the dissolving medium called?",
+        "a": "Solvent"
+      },
+      {
+        "q": "What optical effect causes the path of a laser beam to become visible in milk and water?",
+        "a": "Tyndall effect (scattering of light)"
+      },
+      {
+        "q": "Which Indian paediatrician formulated the life-saving Oral Rehydration Solution (ORS)?",
+        "a": "Dr. Dilip Mahalanabis"
+      },
+      {
+        "q": "What is the concentration of sodium chloride in a standard hospital saline drip?",
+        "a": "0.9% m/v"
+      },
+      {
+        "q": "What is a pure solid with particles arranged in a regular geometric pattern called?",
+        "a": "Crystal"
+      },
+      {
+        "q": "What is the separation process called that involves heating a liquid mixture and condensing its vapour?",
+        "a": "Distillation"
+      },
+      {
+        "q": "Which city in Uttar Pradesh is known as the 'Perfume Capital of India'?",
+        "a": "Kannauj"
+      },
+      {
+        "q": "What glassware is used to separate two immiscible liquids like oil and water?",
+        "a": "Separating funnel"
+      },
+      {
+        "q": "What is the direct transition from solid to gas on heating called?",
+        "a": "Sublimation"
+      },
+      {
+        "q": "What separation technique spins mixtures at high rotational speed?",
+        "a": "Centrifugation"
+      },
+      {
+        "q": "What is the particle diameter in a true solution?",
+        "a": "Less than 1 nm"
+      },
+      {
+        "q": "What is a colloid called in which both the dispersed phase and medium are liquids?",
+        "a": "Emulsion"
+      }
+    ],
+    "sa": [
+      {
+        "q": "Define a homogeneous mixture and give two common examples.",
+        "a": "A homogeneous mixture is a mixture that has a uniform composition and identical properties throughout its entire mass, with no visible boundaries separating its components. Examples include sugar dissolved in water and vinegar."
+      },
+      {
+        "q": "Define a heterogeneous mixture and give two common examples.",
+        "a": "A heterogeneous mixture is a mixture that possesses a non-uniform composition throughout, wherein constituent substances remain physically distinct. Examples include sand in water and oil in water."
+      },
+      {
+        "q": "What is distillation and what is the key condition required to separate two miscible liquids by simple distillation?",
+        "a": "Distillation is the process of vaporizing a liquid by heating and condensing its vapour back into liquid. The two miscible liquids must boil without decomposing and must have a boiling point difference of at least 25 °C."
+      },
+      {
+        "q": "Describe how a separating funnel works to separate mustard oil from water.",
+        "a": "Mustard oil and water are immiscible liquids with different densities. Oil, being less dense, floats on top, while denser water forms the lower layer. Opening the stopcock drains the water into a flask; once water is drained, the stopcock is closed, leaving oil in the funnel."
+      },
+      {
+        "q": "Define the dispersed phase and dispersion medium of a colloid, identifying both in milk and fog.",
+        "a": "The dispersed phase refers to the solute-like suspended particles, while the dispersion medium is the continuous medium in which particles are dispersed. In milk: dispersed phase is liquid fat/oil and dispersion medium is water. In fog: dispersed phase is liquid water droplets and dispersion medium is gas (air)."
+      }
+    ],
+    "fill": [
+      {
+        "q": "A solution is a ________ mixture of two or more substances.",
+        "a": "homogeneous"
+      },
+      {
+        "q": "The amount of solute dissolved in a given amount of solvent or solution is called the ________.",
+        "a": "concentration"
+      },
+      {
+        "q": "A normal hospital saline drip contains ________ % m/v sodium chloride.",
+        "a": "0.9"
+      },
+      {
+        "q": "The separation technique based on cooling a hot saturated solution to obtain pure solids is called ________.",
+        "a": "crystallization"
+      },
+      {
+        "q": "The particle size in a true solution is less than ________ nm.",
+        "a": "1"
+      },
+      {
+        "q": "The scattering of light by particles in a colloid is called the ________ effect.",
+        "a": "Tyndall"
+      },
+      {
+        "q": "A colloid consisting of a liquid dispersed in another liquid is called an ________.",
+        "a": "emulsion"
+      }
+    ],
+    "match": [
+      {
+        "q": "Commercial vinegar",
+        "a": "5% v/v Acetic acid in water"
+      },
+      {
+        "q": "Hospital saline drip",
+        "a": "0.9% m/v Sodium chloride"
+      },
+      {
+        "q": "Dr. Dilip Mahalanabis",
+        "a": "Formulated Oral Rehydration Solution (ORS)"
+      },
+      {
+        "q": "Separating funnel",
+        "a": "Separating mustard oil and water"
+      },
+      {
+        "q": "Sublimation",
+        "a": "Camphor and sand separation"
+      },
+      {
+        "q": "John Tyndall",
+        "a": "Investigated light scattering in colloids"
+      },
+      {
+        "q": "Milk (Emulsion type)",
+        "a": "Oil-in-water emulsion"
+      }
+    ],
+    "essay": [
+      {
+        "q": "Describe the experimental procedure and observations of Activity 5.1 comparing three mixtures (salt in water, chalk powder in water, and milk in water) under visibility, Tyndall scattering, stability, and filterability.",
+        "a": "Procedure:\nDivide the class into three groups and prepare mixtures in 50 mL water:\n- Group A: 1 spatula salt in 50 mL water.\n- Group B: 1 spatula chalk powder in 50 mL water.\n- Group C: A few drops of milk in 50 mL water.\n\nObservations:\n(i) Particle Visibility: Salt particles are invisible; chalk particles are clearly visible; milk particles are not individually visible.\n(ii) Laser Light (Tyndall Effect): Salt solution does not scatter laser light; chalk and milk scatter laser light, making the path visible.\n(iii) Stability: Salt and milk mixtures are stable; chalk settles to the bottom over time.\n(iv) Filterability: Salt and milk leave no residue on filter paper; chalk is retained on filter paper as residue.\n\nConclusion: Distinguishes true solutions (salt), suspensions (chalk), and colloids (milk)."
+      }
+    ]
   },
   "level2": {
-    "oneword": [],
-    "sa": [],
-    "fill": [],
-    "match": [],
-    "essay": []
+    "oneword": [
+      {
+        "q": "What antiseptic chemical is present at 4% m/m in common talcum powder?",
+        "a": "Zinc oxide"
+      },
+      {
+        "q": "What is 100% pure liquid acetic acid called?",
+        "a": "Glacial acetic acid"
+      },
+      {
+        "q": "What mass of Compound B separates out as crystals when 100 g of water saturated at 60 °C is cooled to 40 °C?",
+        "a": "46 g"
+      },
+      {
+        "q": "What natural perfume captures the earthy scent of soil after the first rain?",
+        "a": "Mitti ka Ittar"
+      },
+      {
+        "q": "What is solid carbon dioxide commonly called?",
+        "a": "Dry ice"
+      },
+      {
+        "q": "What are the primary metal components of brass?",
+        "a": "Copper and zinc"
+      },
+      {
+        "q": "How many grams of copper are present in 120 g of brass containing 70% copper by mass?",
+        "a": "84 g"
+      },
+      {
+        "q": "How many grams of zinc are present in 120 g of brass containing 70% copper by mass?",
+        "a": "36 g"
+      },
+      {
+        "q": "What is the concentration of sugar in a 500 g cake mix containing 75 g of sugar?",
+        "a": "15% m/m"
+      },
+      {
+        "q": "What method separates two miscible liquids boiling at 60 °C and 90 °C?",
+        "a": "Simple distillation"
+      },
+      {
+        "q": "According to Table 5.4, what is the solubility of potassium nitrate at 40 °C in grams per 100 g of water?",
+        "a": "62 g"
+      },
+      {
+        "q": "What mass of potassium nitrate is needed to prepare a saturated solution in 50 g of water at 40 °C?",
+        "a": "31 g"
+      },
+      {
+        "q": "Which salt in Table 5.4 shows the steepest increase in solubility between 10 °C and 80 °C?",
+        "a": "Potassium nitrate"
+      },
+      {
+        "q": "What is the concentration of sugar in Student A's solution (20 g sugar in 80 g water)?",
+        "a": "20% m/m"
+      },
+      {
+        "q": "What is the concentration of sugar in Student C's solution (30 g sugar in 80 g water)?",
+        "a": "27.27% m/m"
+      },
+      {
+        "q": "What is the difference in boiling points between water (100 °C) and acetone (56 °C)?",
+        "a": "44 °C"
+      },
+      {
+        "q": "What apparatus is labeled B in the simple distillation setup (Fig. 5.26)?",
+        "a": "Liebig water condenser"
+      }
+    ],
+    "sa": [
+      {
+        "q": "If 10 g of salt is dissolved in 90 g of water, calculate the mass by mass percentage of the solution.",
+        "a": "Mass of solute = 10 g. Mass of solution = 10 g + 90 g = 100 g. Mass by mass percentage = (10 g / 100 g) × 100 = 10% m/m."
+      },
+      {
+        "q": "Explain how a mixture of acetone and water can be separated using distillation.",
+        "a": "Acetone boils at 56 °C while water boils at 100 °C (difference is 44 °C). When the mixture is heated, acetone boils first at 56 °C. Its vapours rise into the condenser, liquefy, and collect as pure distillate in the receiver, leaving water behind in the distillation flask."
+      },
+      {
+        "q": "Why is the baseline on chromatography paper drawn with a pencil instead of an ink pen?",
+        "a": "Because pencil lead is insoluble graphite that does not dissolve in the solvent, whereas pen ink contains soluble dyes that would dissolve and interfere with the chromatographic separation."
+      },
+      {
+        "q": "What would happen if human blood behaved as a true suspension inside our body?",
+        "a": "If blood were a true suspension, dense red and white blood cells would spontaneously settle down under gravity whenever a person rests or sits still. This settling would clog blood vessels, cause fatal blood clots (thrombi), and cut off oxygen and nutrient supply to vital organs."
+      },
+      {
+        "q": "How can you separate a mixture of chalk powder and common salt?",
+        "a": "Add water to the mixture and stir thoroughly. Common salt dissolves completely (soluble), while chalk powder remains undissolved (insoluble). Filter the mixture: chalk powder is collected as residue on the filter paper. The filtrate containing dissolved salt is then heated to evaporate the water, leaving pure dry salt."
+      },
+      {
+        "q": "Why is simple distillation an effective method for separating a mixture of water and acetone? (Exercise 12)",
+        "a": "Acetone and water are miscible liquids that boil without decomposing and have a large boiling point difference of 44 °C (acetone 56 °C, water 100 °C), well above the required 25 °C threshold. When heated, volatile acetone boils first at 56 °C, and its vapours condense in the Liebig condenser into pure distillate, leaving water in the distillation flask."
+      },
+      {
+        "q": "A student makes a saturated solution of potassium chloride at 80 °C and lets it cool to 25 °C. What is observed and why? (Exercise 13)",
+        "a": "Observation: White crystals of potassium chloride separate out and settle at the bottom. Explanation: The solubility of solid KCl decreases with lower temperature (from 54 g at 80 °C to ~35 g at 25 °C); the cooler solvent cannot hold the excess solute, forcing it to precipitate as crystals."
+      },
+      {
+        "q": "Describe the correct sequence of steps to separate a mixture of sand, common salt, and naphthalene (Exercise 11).",
+        "a": "1. Sublimation: Heat the mixture; naphthalene sublimes and deposits on an inverted funnel. 2. Dissolution: Add water to the residual sand-salt mixture to dissolve the salt. 3. Filtration: Filter to separate insoluble sand as residue. 4. Evaporation: Heat the filtrate to evaporate water and obtain salt crystals. Sequence of Fig. 5.25 images: 1 -> 3 -> 2."
+      }
+    ],
+    "fill": [
+      {
+        "q": "The boiling point of acetone is approximately ________ °C, while that of water is 100 °C.",
+        "a": "56"
+      },
+      {
+        "q": "In paper chromatography, the reference baseline is drawn using a ________.",
+        "a": "pencil"
+      },
+      {
+        "q": "Brass is an alloy of approximately 80% copper and 20% ________.",
+        "a": "zinc"
+      },
+      {
+        "q": "Human blood is scientifically classified as a ________.",
+        "a": "colloid"
+      },
+      {
+        "q": "In a blood sample, red and white blood cells constitute the ________ phase.",
+        "a": "dispersed"
+      },
+      {
+        "q": "In a blood sample, the liquid plasma forms the ________ medium.",
+        "a": "dispersion"
+      },
+      {
+        "q": "According to Table 5.4, the solubility of potassium nitrate at 80 °C is ________ g per 100 g of water.",
+        "a": "167"
+      },
+      {
+        "q": "In Student C's solution, dissolving 30 g sugar in 80 g water gives a concentration of ________ % m/m.",
+        "a": "27.27"
+      },
+      {
+        "q": "The boiling point of acetone is 56 °C, while that of alcohol is ________ °C.",
+        "a": "78"
+      },
+      {
+        "q": "In Fig. 5.26, the receiving vessel labeled C is a ________ flask.",
+        "a": "conical"
+      }
+    ],
+    "match": [
+      {
+        "q": "Dry ice",
+        "a": "Solid carbon dioxide for ice cream storage"
+      },
+      {
+        "q": "Brass",
+        "a": "Alloy of copper and zinc"
+      },
+      {
+        "q": "Paper chromatography",
+        "a": "Separation of ink dyes by capillary migration"
+      },
+      {
+        "q": "Dispersed phase in blood",
+        "a": "Red and white blood cells"
+      },
+      {
+        "q": "Dispersion medium in blood",
+        "a": "Blood plasma"
+      },
+      {
+        "q": "Butter (Emulsion type)",
+        "a": "Water-in-oil emulsion"
+      },
+      {
+        "q": "Potassium nitrate at 40 °C",
+        "a": "Solubility of 62 g per 100 g water"
+      },
+      {
+        "q": "Student C sugar solution",
+        "a": "27.27% m/m (Highest concentration)"
+      },
+      {
+        "q": "Water and acetone separation",
+        "a": "Simple distillation (Δb.p. = 44 °C)"
+      },
+      {
+        "q": "Acetone and alcohol separation",
+        "a": "Fractional distillation (Δb.p. = 22 °C)"
+      }
+    ],
+    "essay": [
+      {
+        "q": "Solve the numerical problems from Page 91 (Exercise 4): (i) dry ingredients of a cake recipe, and (ii) mass of copper and zinc in brass alloy.",
+        "a": "Problem 4(i) (Cake Recipe Components Concentration):\n- Total mass = 75 g + 420 g + 5 g = 500 g.\n- Sugar: [75 g / 500 g] × 100 = 15% m/m.\n- Flour: [420 g / 500 g] × 100 = 84% m/m.\n- Sodium hydrogencarbonate: [5 g / 500 g] × 100 = 1% m/m.\nCheck: 15% + 84% + 1% = 100%.\n\nProblem 4(ii) (Brass Alloy Components):\n- Total mass = 120 g.\n- Copper (70%): (70 / 100) × 120 g = 84 g.\n- Zinc (30%): (30 / 100) × 120 g = 36 g.\nFinal Answer: 84 g copper and 36 g zinc."
+      },
+      {
+        "q": "Solve Exercise 5 from Page 91: A pack of cooking oil states 1 Litre (910 g). If mixed with water, will it form a separate layer? Which substance will be on top, and how can the two layers be separated?",
+        "a": "Analysis:\n1. Density of cooking oil = 910 g / 1000 mL = 0.91 g/mL. Density of water = 1.00 g/mL.\n2. Cooking oil and water are immiscible with different densities. They will form two distinct layers.\n3. Cooking oil (0.91 g/mL) is less dense than water (1.00 g/mL) and floats as the top layer.\n4. Separation: Separated using a Separating Funnel by draining the lower water layer through the stopcock first."
+      },
+      {
+        "q": "Solve Exercise 13 from Page 92: Quantitative analysis of solubility data from Table 5.4 for potassium nitrate, sodium chloride, potassium chloride, and ammonium chloride.",
+        "a": "Data Analysis from Table 5.4 (Solubility in g per 100 g water):\n\n(i) Mass of potassium nitrate needed to prepare a saturated solution in 50 g of water at 40 °C:\n- Reading from Table 5.4, the solubility of potassium nitrate (KNO3) at 40 °C = 62 g per 100 g of water.\n- To find the mass required for 50 g of water:\n  Mass = [62 g / 100 g] × 50 g = 31 g.\n- Answer: 31 g of potassium nitrate is needed.\n\n(ii) Saturated solution of potassium chloride at 80 °C cooled to room temperature (25 °C):\n- At 80 °C, 100 g of water dissolves 54 g of KCl.\n- At room temperature (~25 °C, midway between 20 °C [35 g] and 30 °C [37.4 g]), solubility drops to ~36.2 g.\n- Observation: Solid white crystals of potassium chloride separate out and settle at the bottom of the vessel.\n- Explanation: The solubility of solid KCl decreases with lower temperature. The cooled solvent can no longer hold all 54 g of dissolved KCl; the excess (~18-19 g) precipitates out of solution as pure solid crystals via crystallization.\n\n(iii) Effect of temperature on solubility of salts and comparison of the four salts from 10 °C to 80 °C:\n- General Effect: The solubility of all four solid salts increases with an increase in temperature.\n- Quantitative Comparison of Change in Solubility (ΔSolubility = Solubility at 80 °C - Solubility at 10 °C):\n  * Potassium nitrate (KNO3): 167 g - 21 g = 146 g (Massive surge! Exhibits the steepest curve and highest sensitivity to temperature).\n  * Ammonium chloride (NH4Cl): 66 g - 24 g = 42 g (Moderate increase).\n  * Potassium chloride (KCl): 54 g - 35 g = 19 g (Gradual, steady increase).\n  * Sodium chloride (NaCl): 37 g - 36 g = 1 g (Almost negligible increase; solubility curve is virtually flat)."
+      },
+      {
+        "q": "Solve Exercise 14 from Page 92: Calculate the mass percentage (% m/m) concentration of sugar solutions for Students A, B, and C, and identify whose solution is the most concentrated.",
+        "a": "Given Experimental Formulations:\n- Student A: dissolves 20 g of sugar in 80 g of water.\n- Student B: dissolves 20 g of sugar in 100 g of water.\n- Student C: dissolves 30 g of sugar in 80 g of water.\n\nPart (i) Calculation of Mass Percentage (% m/m):\nFormula: Mass by mass percentage = [Mass of solute / (Mass of solute + Mass of solvent)] × 100\n\n1. Student A's Solution:\n- Mass of solute = 20 g; Mass of solvent = 80 g.\n- Total mass of solution = 20 g + 80 g = 100 g.\n- % m/m = [20 g / 100 g] × 100 = 20% m/m.\n\n2. Student B's Solution:\n- Mass of solute = 20 g; Mass of solvent = 100 g.\n- Total mass of solution = 20 g + 100 g = 120 g.\n- % m/m = [20 g / 120 g] × 100 = (1 / 6) × 100 ≈ 16.67% m/m.\n\n3. Student C's Solution:\n- Mass of solute = 30 g; Mass of solvent = 80 g.\n- Total mass of solution = 30 g + 80 g = 110 g.\n- % m/m = [30 g / 110 g] × 100 = (3 / 11) × 100 ≈ 27.27% m/m.\n\nPart (ii) Identification & Explanation of Most Concentrated Solution:\n- Student C's solution is the most concentrated (27.27% m/m).\n- Reason: Concentration measures the proportion of solute in the total solution. Student C dissolved the largest amount of solute (30 g) in the same small volume of water (80 g) as Student A, giving 27.27% m/m, which is significantly higher than Student A (20%) and Student B (16.67%)."
+      },
+      {
+        "q": "Solve Exercise 15 from Page 93: Examine Fig. 5.26, identify technique S, label apparatus A, B, C, and evaluate all six mixtures (a to f) using boiling point data from Table 5.5.",
+        "a": "Analysis of Fig. 5.26:\n(i) Identification of Technique 'S': Simple Distillation.\n(ii) Labeling of Apparatus:\n- Apparatus A: Distillation flask (round-bottom flask fitted with thermometer and side-arm).\n- Apparatus B: Water condenser (Liebig condenser).\n- Apparatus C: Conical flask (receiving vessel for collecting distillate).\n\n(iii) Evaluation of Mixtures (Table 5.5 Boiling Points: Water = 100 °C, Acetone = 56 °C, Alcohol = 78 °C, Chloroform = 61 °C, Benzene = 80 °C):\nCriterion for Simple Distillation: Liquids must be miscible and have a boiling point difference (Δb.p.) of at least 25 °C, or separate a volatile liquid from a non-volatile solid.\n\nEvaluation of Each Mixture:\n- (a) Water (100 °C) - Acetone (56 °C):\n  Δb.p. = 100 °C - 56 °C = 44 °C. Since 44 °C ≥ 25 °C, this mixture CAN be separated by simple distillation. Acetone distils over first.\n- (b) Water - Salt:\n  Water is volatile (b.p. 100 °C) and common salt is a non-volatile solid. This mixture CAN be separated by simple distillation (pure water collected as distillate, salt residue remains in flask A).\n- (c) Acetone (56 °C) - Alcohol (78 °C):\n  Δb.p. = 78 °C - 56 °C = 22 °C. Since 22 °C < 25 °C, it CANNOT be separated by simple distillation (requires fractional distillation).\n- (d) Sand - Salt:\n  Both are non-volatile solids. They CANNOT be separated by distillation (requires dissolution in water, filtration, and evaporation).\n- (e) Alcohol (78 °C) - Chloroform (61 °C):\n  Δb.p. = 78 °C - 61 °C = 17 °C. Since 17 °C < 25 °C, it CANNOT be separated by simple distillation (requires fractional distillation).\n- (f) Alcohol (78 °C) - Benzene (80 °C):\n  Δb.p. = 80 °C - 78 °C = 2 °C. Since 2 °C < 25 °C, it CANNOT be separated by simple distillation (requires fractional distillation).\n\nConclusion: The mixtures that can be separated by the technique shown are (a) water - acetone and (b) water - salt."
+      }
+    ]
   }
 }
