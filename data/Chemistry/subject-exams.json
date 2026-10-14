@@ -60,6 +60,22 @@
       {
         "q": "What is a colloid called in which both the dispersed phase and medium are liquids?",
         "a": "Emulsion"
+      },
+      {
+        "q": "Who discovered the electron in 1897 using a cathode ray tube?",
+        "a": "J. J. Thomson"
+      },
+      {
+        "q": "What subatomic particle did James Chadwick discover in 1932?",
+        "a": "Neutron"
+      },
+      {
+        "q": "What is the maximum number of electrons that can be held in the L-shell (n = 2)?",
+        "a": "8 electrons"
+      },
+      {
+        "q": "What is the total number of protons in an atom called?",
+        "a": "Atomic number (Z)"
       }
     ],
     "sa": [
@@ -82,6 +98,10 @@
       {
         "q": "Define the dispersed phase and dispersion medium of a colloid, identifying both in milk and fog.",
         "a": "The dispersed phase refers to the solute-like suspended particles, while the dispersion medium is the continuous medium in which particles are dispersed. In milk: dispersed phase is liquid fat/oil and dispersion medium is water. In fog: dispersed phase is liquid water droplets and dispersion medium is gas (air)."
+      },
+      {
+        "q": "State the two main postulates of Niels Bohr's atomic model that resolved the atomic stability crisis.",
+        "a": "1. Electrons revolve only in discrete, non-radiating circular orbits called stationary states or energy levels (K, L, M, N...). 2. While revolving in these fixed shells, electrons do not radiate energy; energy changes occur only when electrons jump between levels."
       }
     ],
     "fill": [
@@ -112,6 +132,14 @@
       {
         "q": "A colloid consisting of a liquid dispersed in another liquid is called an ________.",
         "a": "emulsion"
+      },
+      {
+        "q": "The atomic number Z equals the number of ________ in the nucleus of an atom.",
+        "a": "protons"
+      },
+      {
+        "q": "Electrons revolve around the nucleus in discrete orbits called ________ states.",
+        "a": "stationary"
       }
     ],
     "match": [
@@ -142,6 +170,14 @@
       {
         "q": "Milk (Emulsion type)",
         "a": "Oil-in-water emulsion"
+      },
+      {
+        "q": "J. J. Thomson",
+        "a": "Discovered the electron"
+      },
+      {
+        "q": "James Chadwick",
+        "a": "Discovered the neutron"
       }
     ],
     "essay": [
@@ -220,6 +256,18 @@
       {
         "q": "What apparatus is labeled B in the simple distillation setup (Fig. 5.26)?",
         "a": "Liebig water condenser"
+      },
+      {
+        "q": "What is the valency of an atom with electronic configuration 2, 8, 7?",
+        "a": "1"
+      },
+      {
+        "q": "What is the weighted average atomic mass of naturally occurring chlorine?",
+        "a": "35.5 u"
+      },
+      {
+        "q": "What are atoms with different atomic numbers but the same mass number called?",
+        "a": "Isobars"
       }
     ],
     "sa": [
@@ -254,6 +302,10 @@
       {
         "q": "Describe the correct sequence of steps to separate a mixture of sand, common salt, and naphthalene (Exercise 11).",
         "a": "1. Sublimation: Heat the mixture; naphthalene sublimes and deposits on an inverted funnel. 2. Dissolution: Add water to the residual sand-salt mixture to dissolve the salt. 3. Filtration: Filter to separate insoluble sand as residue. 4. Evaporation: Heat the filtrate to evaporate water and obtain salt crystals. Sequence of Fig. 5.25 images: 1 -> 3 -> 2."
+      },
+      {
+        "q": "Define isotopes and explain why isotopes of an element have identical chemical properties.",
+        "a": "Isotopes are atoms of the same element having the same atomic number (protons) but different mass numbers (neutrons). They have identical chemical properties because chemical reactivity is governed by electronic configuration and valence electrons, which are identical across all isotopes of an element."
       }
     ],
     "fill": [
@@ -296,6 +348,14 @@
       {
         "q": "In Fig. 5.26, the receiving vessel labeled C is a ________ flask.",
         "a": "conical"
+      },
+      {
+        "q": "The formula for the maximum electron capacity of shell n is ________.",
+        "a": "2n²"
+      },
+      {
+        "q": "Argon (Z = 18) and Calcium (Z = 20) both have mass number 40, so they are ________.",
+        "a": "isobars"
       }
     ],
     "match": [
@@ -338,6 +398,14 @@
       {
         "q": "Acetone and alcohol separation",
         "a": "Fractional distillation (Δb.p. = 22 °C)"
+      },
+      {
+        "q": "Uranium-235",
+        "a": "Fuel in nuclear reactors"
+      },
+      {
+        "q": "Cobalt-60",
+        "a": "Radiotherapy for cancer"
       }
     ],
     "essay": [
@@ -360,6 +428,10 @@
       {
         "q": "Solve Exercise 15 from Page 93: Examine Fig. 5.26, identify technique S, label apparatus A, B, C, and evaluate all six mixtures (a to f) using boiling point data from Table 5.5.",
         "a": "Analysis of Fig. 5.26:\n(i) Identification of Technique 'S': Simple Distillation.\n(ii) Labeling of Apparatus:\n- Apparatus A: Distillation flask (round-bottom flask fitted with thermometer and side-arm).\n- Apparatus B: Water condenser (Liebig condenser).\n- Apparatus C: Conical flask (receiving vessel for collecting distillate).\n\n(iii) Evaluation of Mixtures (Table 5.5 Boiling Points: Water = 100 °C, Acetone = 56 °C, Alcohol = 78 °C, Chloroform = 61 °C, Benzene = 80 °C):\nCriterion for Simple Distillation: Liquids must be miscible and have a boiling point difference (Δb.p.) of at least 25 °C, or separate a volatile liquid from a non-volatile solid.\n\nEvaluation of Each Mixture:\n- (a) Water (100 °C) - Acetone (56 °C):\n  Δb.p. = 100 °C - 56 °C = 44 °C. Since 44 °C ≥ 25 °C, this mixture CAN be separated by simple distillation. Acetone distils over first.\n- (b) Water - Salt:\n  Water is volatile (b.p. 100 °C) and common salt is a non-volatile solid. This mixture CAN be separated by simple distillation (pure water collected as distillate, salt residue remains in flask A).\n- (c) Acetone (56 °C) - Alcohol (78 °C):\n  Δb.p. = 78 °C - 56 °C = 22 °C. Since 22 °C < 25 °C, it CANNOT be separated by simple distillation (requires fractional distillation).\n- (d) Sand - Salt:\n  Both are non-volatile solids. They CANNOT be separated by distillation (requires dissolution in water, filtration, and evaporation).\n- (e) Alcohol (78 °C) - Chloroform (61 °C):\n  Δb.p. = 78 °C - 61 °C = 17 °C. Since 17 °C < 25 °C, it CANNOT be separated by simple distillation (requires fractional distillation).\n- (f) Alcohol (78 °C) - Benzene (80 °C):\n  Δb.p. = 80 °C - 78 °C = 2 °C. Since 2 °C < 25 °C, it CANNOT be separated by simple distillation (requires fractional distillation).\n\nConclusion: The mixtures that can be separated by the technique shown are (a) water - acetone and (b) water - salt."
+      },
+      {
+        "q": "Explain how average atomic mass is calculated for chlorine consisting of 75% ³⁵Cl and 25% ³⁷Cl.",
+        "a": "1. Weighted Average Formula: Average Atomic Mass = [Mass₁ × (%₁ / 100)] + [Mass₂ × (%₂ / 100)].\n2. Calculation: = [35 × 0.75] + [37 × 0.25] = 26.25 + 9.25 = 35.5 u.\n3. Physical Meaning: No single atom weighs 35.5 u; it represents the statistical weighted average of natural abundances."
       }
     ]
   }

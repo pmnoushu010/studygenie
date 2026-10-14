@@ -1,0 +1,253 @@
+{
+  "summary": "Journey Inside the Atom (Grade 9 Chemistry - Complete Chapter 8, Pages 140-161):\n\n1. Historical Foundations of Atomic Theory (Sections 8.1 & 8.2):\n• Ancient India: Acharya Kanada (~600 BCE) recorded in Vaisesika Sutras that dividing matter (dravya) yields eternal, indivisible particles called 'parmanus'. Parmanus combine into dyads (pairs) and triads (triplets) to form all matter.\n• Ancient Greece: Democritus and Leucippus coined 'atomos' (meaning indivisible or uncuttable).\n• Dalton's Atomic Theory (1808): First scientific atomic theory based on experimental laws of chemical combination, proposing atoms as indivisible building blocks.\n• Breakdown of Indivisibility: Late 19th-century discovery of radioactivity proved atoms emit radiation and are complex, divisible assemblies of subatomic particles.\n\n2. Subatomic Particles & Atomic Models (Sections 8.2.1 - 8.3):\n• Discovery of Electron (1897, J. J. Thomson): Cathode ray tube experiments showed negative rays deflected in electric/magnetic fields. Discovered electrons (relative charge -1, charge -1.602 × 10⁻¹⁹ C, mass 1/1840 u). Thomson received 1906 Nobel Prize.\n• Thomson's Model: Plum pudding / watermelon model — uniform sphere of positive charge with electrons embedded throughout.\n• Rutherford's Gold Foil Experiment (1911, Geiger & Marsden): Fired α-particles (He²⁺, mass 4 u, charge +2) at thin gold foil. Over 99% passed undeflected (atom is mostly empty space); few deflected; ~1 in 20,000 bounced back (>90°).\n• Rutherford's Planetary Model: Tiny, dense central nucleus containing all positive charge and nearly all mass; electrons orbit like planets around the Sun. Atom diameter ≈ 10⁻¹⁰ m, nucleus diameter ≈ 10⁻¹⁵ m (nucleus is 10⁵ times smaller).\n• Limitations: Accelerated orbiting electrons must radiate energy, spiral inward, and collapse into the nucleus within 10⁻⁸ s.\n• Discovery of Proton: Rutherford established that positive charge resides in discrete protons (mass ≈ 1 u, charge +1).\n• Bohr's Model (1913, Niels Bohr): Electrons revolve only in discrete, non-radiating circular orbits called 'stationary states' or 'energy shells' (K, L, M, N... or n = 1, 2, 3, 4...). Energy increases with distance from nucleus. Radiation occurs only during quantum jumps.\n• Discovery of Neutron (1932, James Chadwick): Bombarded beryllium with α-particles; discovered neutral particle with mass ≈ 1 u (1.675 × 10⁻²⁷ kg). Nucleons = Protons + Neutrons.\n\n3. Symbols, Electronic Distribution & Valency (Sections 8.4 - 8.8):\n• Chemical Symbols: Dalton's pictorial symbols (1803) replaced by Berzelius's alphabetic system (1813). IUPAC rules: first letter capitalized, second lowercase (e.g., Co vs CO). Classical Latin names: Fe (Ferrum), Na (Natrium), K (Kalium), Cu (Cuprum), Au (Aurum), Ag (Argentum), Pb (Plumbum), Hg (Hydrargyros), W (Wolfram).\n• Atomic Number (Z): Number of protons in nucleus. In neutral atom: Z = protons = electrons.\n• Mass Number (A): Total number of nucleons: A = p⁺ + n⁰. Notation: ᴬ_Z X.\n• Bohr-Bury Rules: Maximum shell capacity = 2n² (K=2, L=8, M=18, N=32); outermost valence shell maximum = 8 electrons; stepwise filling from inner to outer shells.\n• Valency: Combining capacity of an atom to achieve a stable octet (or duplet for He). Metals (≤3 valence e⁻) lose electrons (valency = valence e⁻); Non-metals (≥5 valence e⁻) gain electrons (valency = 8 - valence e⁻); Carbon/Silicon (4 valence e⁻) share electrons (valency = 4); Noble gases = 0.\n\n4. Isotopes, Isobars & Societal Applications (Sections 8.9 - 8.9.2):\n• Isotopes: Atoms of same element with same Z (protons) but different A (neutrons). Same chemical properties, different physical mass properties. Hydrogen: Protium (¹₁H), Deuterium (²₁H), Tritium (³₁H). Carbon: ¹²₆C, ¹³₆C, ¹⁴₆C.\n• Average Atomic Mass: Weighted average reflecting isotopic abundances. Chlorine (75% ³⁵Cl, 25% ³⁷Cl) = 35.5 u. Bromine (49.7% ⁷⁹Br, 50.3% ⁸¹Br) = 80 u.\n• Applications: U-235 (nuclear power fuel), Co-60 (cancer therapy), I-131 (thyroid treatment), C-14 (radiocarbon dating).\n• Isobars: Atoms of different elements with different Z, but same mass number A (e.g., ⁴⁰₁₈Ar, ⁴⁰₁₉K, ⁴⁰₂₀Ca). Different chemical properties.\n• Indian Contributions: Homi Bhabha (father of nuclear programme), BARC, and Dhruva reactor for neutron-scattering research.",
+  "oneword": [
+    {
+      "q": "Who first proposed the concept of eternal, indivisible 'parmanus' in ancient India?",
+      "a": "Acharya Kanada"
+    },
+    {
+      "q": "What Greek term meaning 'indivisible' or 'uncuttable' gave rise to the modern word atom?",
+      "a": "Atomos"
+    },
+    {
+      "q": "Who discovered the negatively charged electron using cathode ray tube experiments in 1897?",
+      "a": "J. J. Thomson"
+    },
+    {
+      "q": "What is the fundamental absolute charge of an electron in Coulombs?",
+      "a": "-1.602 × 10⁻¹⁹ C"
+    },
+    {
+      "q": "What subatomic particle did James Chadwick discover in 1932?",
+      "a": "Neutron"
+    },
+    {
+      "q": "What is the approximate ratio of the diameter of an atom to the diameter of its nucleus?",
+      "a": "10⁵ (100,000 times)"
+    },
+    {
+      "q": "What subatomic particle has a relative mass of approximately 1 u and an electrical charge of 0?",
+      "a": "Neutron"
+    },
+    {
+      "q": "Which research reactor at BARC Mumbai is utilized for advanced neutron-scattering experiments?",
+      "a": "Dhruva"
+    },
+    {
+      "q": "What letter designates the first (innermost) electron shell in Bohr's atomic model?",
+      "a": "K-shell (n = 1)"
+    },
+    {
+      "q": "What mathematical formula determines the maximum electron capacity of an energy shell of principal quantum number n?",
+      "a": "2n²"
+    },
+    {
+      "q": "What is the maximum number of electrons that can be accommodated in the M-shell (n = 3)?",
+      "a": "18 electrons"
+    },
+    {
+      "q": "What is the maximum number of electrons that can be accommodated in the outermost valence shell of an atom?",
+      "a": "8 electrons"
+    },
+    {
+      "q": "What is the valency of a noble gas such as neon or argon?",
+      "a": "0"
+    },
+    {
+      "q": "What is the valency of an oxygen atom having an electronic configuration of 2, 6?",
+      "a": "2"
+    },
+    {
+      "q": "What is the total number of protons present in the nucleus of an atom called?",
+      "a": "Atomic number (Z)"
+    },
+    {
+      "q": "What are atoms of the same element having the same atomic number but different mass numbers called?",
+      "a": "Isotopes"
+    },
+    {
+      "q": "What isotope of uranium is utilized as fuel in nuclear power reactors?",
+      "a": "Uranium-235 (²³⁵U)"
+    },
+    {
+      "q": "Which radioactive isotope is used in radiation therapy for cancer treatment?",
+      "a": "Cobalt-60 (⁶⁰Co)"
+    },
+    {
+      "q": "What are atoms of different elements having different atomic numbers but the same mass number called?",
+      "a": "Isobars"
+    },
+    {
+      "q": "In standard atomic notation ¹²₆C, what does the superscript 12 represent?",
+      "a": "Mass number (A)"
+    }
+  ],
+  "sa": [
+    {
+      "q": "State Dalton's atomic theory and explain why the discovery of subatomic particles required its revision.",
+      "a": "Dalton proposed in 1808 that all matter is composed of tiny, indivisible, indestructible particles called atoms. The late 19th-century discovery of subatomic particles (electrons, protons, and neutrons) proved that atoms are divisible and possess complex internal structures, disproving Dalton's indivisibility postulate."
+    },
+    {
+      "q": "What were the observations and conclusions of J. J. Thomson's cathode ray tube experiments?",
+      "a": "Thomson observed streams of rays travelling from cathode to anode that were deflected toward the positive plate in an electric field. He concluded that cathode rays consist of universal, negatively charged subatomic particles with minute mass, which he named electrons."
+    },
+    {
+      "q": "State the three main observations of Rutherford's gold foil alpha-particle scattering experiment.",
+      "a": "(i) Most of the α-particles (>99%) passed straight through the gold foil undeflected. (ii) A small fraction suffered deflections through small and moderate angles. (iii) A very tiny fraction (~1 in 20,000) deflected through angles greater than 90° or rebounded back."
+    },
+    {
+      "q": "Explain why Rutherford's planetary model could not explain the fundamental stability of atoms.",
+      "a": "According to classical electrodynamics, an accelerating charged particle continuously radiates energy. Orbiting electrons continuously accelerate due to directional change, so they should lose energy, spiral inward along a tightening path, and collapse into the nucleus in ~10⁻⁸ seconds, which contradicts the observed stability of matter."
+    },
+    {
+      "q": "State the two main postulates of Niels Bohr's atomic model that resolved the stability crisis.",
+      "a": "(i) Electrons revolve only in certain non-radiating circular orbits called stationary states or energy levels (K, L, M, N...). (ii) While revolving in these discrete shells, electrons do not radiate energy; energy is absorbed or emitted only when jumping between energy levels."
+    },
+    {
+      "q": "Define mass number (A) and explain its relationship with atomic number (Z) and number of neutrons (n).",
+      "a": "Mass number (A) is the total number of protons and neutrons (nucleons) present in the nucleus of an atom. The relationship is: A = Z + n, where Z is the atomic number (number of protons) and n is the number of neutrons (n = A - Z)."
+    },
+    {
+      "q": "State the Bohr-Bury rules governing the distribution of electrons in different shells of an atom.",
+      "a": "(i) Maximum electron capacity of a shell is given by 2n² (K=2, L=8, M=18, N=32). (ii) The outermost valence shell cannot hold more than 8 electrons. (iii) Shells are filled in a stepwise manner outward; a new shell begins filling only after inner shells are complete."
+    },
+    {
+      "q": "Define valency and determine the valency of sodium (Z = 11) and nitrogen (Z = 7).",
+      "a": "Valency is the combining capacity of an atom, measured as the number of electrons lost, gained, or shared to achieve a stable octet. Sodium (2, 8, 1) loses 1 valence electron, so its valency is 1. Nitrogen (2, 5) gains 3 electrons to complete its octet (8 - 5 = 3), so its valency is 3."
+    },
+    {
+      "q": "Define isotopes and explain why all isotopes of an element have identical chemical properties.",
+      "a": "Isotopes are atoms of the same element having the same atomic number (protons) but different mass numbers (neutrons). They exhibit identical chemical properties because chemical reactivity depends entirely on electronic configuration and valence electrons, which are identical across all isotopes of an element."
+    },
+    {
+      "q": "Define isobars with an example, and contrast their chemical properties with those of isotopes.",
+      "a": "Isobars are atoms of different elements having different atomic numbers (Z) but the same mass number (A), such as ⁴⁰₁₈Ar and ⁴⁰₂₀Ca. While isotopes belong to the same element and have identical chemical properties, isobars belong to different elements with different electron configurations and have completely different chemical properties."
+    }
+  ],
+  "fill": [
+    {
+      "q": "Cathode rays are deflected toward the positive plate in an electric field, proving that electrons carry ________ charge.",
+      "a": "negative"
+    },
+    {
+      "q": "According to Rutherford's gold foil experiment, most of the space inside an atom is ________.",
+      "a": "empty"
+    },
+    {
+      "q": "The diameter of an atom is approximately 10⁻¹⁰ m, while the diameter of its nucleus is approximately ________ m.",
+      "a": "10⁻¹⁵"
+    },
+    {
+      "q": "Protons and neutrons together reside inside the nucleus and are collectively termed ________.",
+      "a": "nucleons"
+    },
+    {
+      "q": "The maximum number of electrons that can be accommodated in the L-shell (n = 2) is ________.",
+      "a": "8"
+    },
+    {
+      "q": "In an electrically neutral atom, the atomic number Z equals the number of protons and the number of ________.",
+      "a": "electrons"
+    },
+    {
+      "q": "An atom of sodium has atomic number 11; its electronic configuration is ________.",
+      "a": "2, 8, 1"
+    },
+    {
+      "q": "The radioactive isotope of iodine used in the medical treatment of goitre is ________.",
+      "a": "Iodine-131"
+    },
+    {
+      "q": "The weighted average atomic mass of naturally occurring chlorine is ________ u.",
+      "a": "35.5"
+    },
+    {
+      "q": "Argon (Z = 18) and Calcium (Z = 20) both have a mass number of 40, so they are classified as ________.",
+      "a": "isobars"
+    }
+  ],
+  "match": [
+    {
+      "q": "Acharya Kanada",
+      "a": "Coined the term parmanu in Vaisesika Sutras"
+    },
+    {
+      "q": "J. J. Thomson",
+      "a": "Discovered the electron (Cathode ray tube)"
+    },
+    {
+      "q": "Ernest Rutherford",
+      "a": "Discovered the atomic nucleus (Alpha scattering)"
+    },
+    {
+      "q": "James Chadwick",
+      "a": "Discovered the neutral neutron in 1932"
+    },
+    {
+      "q": "Niels Bohr",
+      "a": "Stationary energy levels (K, L, M, N shells)"
+    },
+    {
+      "q": "Uranium-235",
+      "a": "Nuclear reactor fuel for electricity generation"
+    },
+    {
+      "q": "Cobalt-60",
+      "a": "Radiation therapy for cancer treatment"
+    },
+    {
+      "q": "Carbon-14",
+      "a": "Radiocarbon dating in archaeology"
+    }
+  ],
+  "essay": [
+    {
+      "q": "Describe the experimental setup, observations, and conclusions of Rutherford's gold foil alpha-particle scattering experiment.",
+      "a": "1. Experimental Setup:\n- Fast-moving, doubly charged alpha particles (He²⁺, mass 4 u) from a radioactive source were directed at an ultra-thin gold foil (~1,000 atoms thick).\n- A circular fluorescent zinc sulfide screen detected deflected particles.\n\n2. Key Observations:\n- Most α-particles (>99%) passed straight through without deflection.\n- A small fraction suffered deflections through small and moderate angles.\n- A tiny fraction (~1 in 20,000) deflected by >90° or bounced back.\n\n3. Conclusions & Nuclear Model:\n- Most of the atom is empty space.\n- Positive charge and nearly all mass are concentrated in an extraordinarily dense central core called the nucleus.\n- Nucleus size is ~10⁵ times smaller than the atom."
+    },
+    {
+      "q": "Contrast Rutherford's planetary model and Bohr's quantum model of the atom, highlighting how Bohr resolved the atomic stability crisis.",
+      "a": "1. Rutherford's Model & Stability Failure:\n- Proposed electrons orbit a central positive nucleus like planets around the Sun.\n- Classical physics requires an accelerating charged electron to continuously radiate electromagnetic energy.\n- The electron would lose energy, spiral inward, and collapse into the nucleus in ~10⁻⁸ s, making atoms unstable.\n\n2. Bohr's Quantum Resolution:\n- Postulated that electrons revolve only in discrete, non-radiating circular orbits called 'stationary states' or 'energy shells' (K, L, M, N).\n- While in an allowed orbit, an electron does not emit energy.\n- Energy is absorbed or released only when jumping between energy levels (ΔE = E₂ - E₁), guaranteeing atomic stability."
+    },
+    {
+      "q": "Compare the three fundamental subatomic particles (electron, proton, and neutron) across symbol, absolute charge, relative charge, mass, and location in the atom.",
+      "a": "1. Electron (e⁻):\n- Absolute Charge: -1.602 × 10⁻¹⁹ C; Relative Charge: -1.\n- Mass: 9.109 × 10⁻³¹ kg (relative mass: 1/1840 u ≈ 0.00054 u).\n- Location: Revolving in extranuclear energy shells.\n\n2. Proton (p⁺):\n- Absolute Charge: +1.602 × 10⁻¹⁹ C; Relative Charge: +1.\n- Mass: 1.673 × 10⁻²⁷ kg (relative mass: 1.007 u ≈ 1 u).\n- Location: Resides inside the nucleus.\n\n3. Neutron (n⁰):\n- Absolute Charge: 0 (electrically neutral); Relative Charge: 0.\n- Mass: 1.675 × 10⁻²⁷ kg (relative mass: 1.008 u ≈ 1 u).\n- Location: Resides inside the nucleus (nucleons = protons + neutrons)."
+    },
+    {
+      "q": "Explain the Bohr-Bury scheme for electron distribution in atoms, stating the 2n² rule, valence shell rules, and stepwise filling with examples.",
+      "a": "1. Maximum Capacity Rule (2n²):\n- The maximum electron capacity of shell n is given by 2n²:\n  * K-shell (n = 1): 2 × 1² = 2 electrons.\n  * L-shell (n = 2): 2 × 2² = 8 electrons.\n  * M-shell (n = 3): 2 × 3² = 18 electrons.\n  * N-shell (n = 4): 2 × 4² = 32 electrons.\n\n2. Valence Shell Limit (Octet Rule):\n- The outermost shell cannot accommodate more than 8 electrons, regardless of shell capacity.\n\n3. Stepwise Filling:\n- Shells fill sequentially outward (K → L → M → N); outer shells begin filling only after inner shells reach capacity.\n- Example: Sodium (Z = 11) fills K=2, L=8, M=1 (2, 8, 1)."
+    },
+    {
+      "q": "Explain the concept of valency and the octet rule. Describe how the valency of metals, non-metals, and noble gases is determined from their electronic configurations.",
+      "a": "1. Definition & Octet Rule:\n- Valency is the combining capacity of an atom to achieve a stable octet (8 valence electrons, or 2 for He).\n- Atoms with full valence shells (He, Ne, Ar) are chemically inert with valency = 0.\n\n2. Determination for Metals (≤3 valence electrons):\n- Metals tend to lose valence electrons: Valency = number of valence electrons.\n- Example: Na (2, 8, 1) loses 1 e⁻ → Valency = 1; Mg (2, 8, 2) → Valency = 2; Al (2, 8, 3) → Valency = 3.\n\n3. Determination for Non-Metals (≥5 valence electrons):\n- Non-metals tend to gain electrons: Valency = 8 - number of valence electrons.\n- Example: N (2, 5) gains 3 e⁻ (8 - 5 = 3) → Valency = 3; O (2, 6) → Valency = 2; Cl (2, 8, 7) → Valency = 1.\n\n4. Elements with 4 Valence Electrons (C, Si):\n- Share 4 electrons to complete octet → Valency = 4."
+    },
+    {
+      "q": "Describe the three isotopes of hydrogen and three isotopes of carbon, explaining why isotopes have identical chemical properties but different physical properties.",
+      "a": "1. Isotopes of Hydrogen:\n- Protium (¹₁H): 1 proton, 0 neutrons, 1 electron (~99.98% abundance).\n- Deuterium (²₁H or D): 1 proton, 1 neutron, 1 electron (~0.015%, heavy water D₂O).\n- Tritium (³₁H or T): 1 proton, 2 neutrons, 1 electron (radioactive trace).\n\n2. Isotopes of Carbon:\n- Carbon-12 (¹²₆C): 6 protons, 6 neutrons (standard for atomic mass).\n- Carbon-13 (¹³₆C): 6 protons, 7 neutrons.\n- Carbon-14 (¹⁴₆C): 6 protons, 8 neutrons (used in radiocarbon dating).\n\n3. Chemical vs Physical Properties:\n- Chemical Properties are IDENTICAL because all isotopes share identical atomic number Z, identical electron count, and identical valence configurations.\n- Physical Properties DIFFER because different neutron counts change atomic mass, affecting density, melting point, and boiling point."
+    },
+    {
+      "q": "Explain how average atomic mass is calculated for elements with isotopes, using chlorine (75% ³⁵Cl and 25% ³⁷Cl) as a detailed numerical derivation.",
+      "a": "1. Concept of Weighted Average:\n- Because natural elements exist as isotopic mixtures, atomic mass is calculated as the weighted average taking relative abundances into account.\n\n2. Chlorine Calculation:\n- Isotopes: ³⁵₁₇Cl (mass 35 u, 75% abundance) and ³⁷₁₇Cl (mass 37 u, 25% abundance).\n- Weighted Average = [35 × (75 / 100)] + [37 × (25 / 100)]\n                   = (105 / 4) + (37 / 4)\n                   = 142 / 4 = 35.5 u.\n\n3. Physical Meaning:\n- No individual chlorine atom weighs 35.5 u. A sample of 1,000,000 chlorine atoms contains 750,000 atoms of mass 35 u and 250,000 atoms of mass 37 u, producing a statistical average of 35.5 u."
+    },
+    {
+      "q": "Differentiate between isotopes and isobars with respect to atomic number, mass number, subatomic composition, and chemical properties, citing Argon-40, Potassium-40, and Calcium-40.",
+      "a": "1. Isotopes:\n- Same element; same atomic number Z (same protons and electrons).\n- Different mass number A (different neutrons).\n- Identical chemical properties; slightly different physical properties (e.g., ³⁵Cl and ³⁷Cl).\n\n2. Isobars:\n- Different elements; different atomic numbers Z (different protons and electrons).\n- Same mass number A (same total nucleons).\n- Completely different chemical properties; similar nuclear masses.\n\n3. Example (Isobars of Mass 40):\n- Argon (⁴⁰₁₈Ar): 18 protons, 22 neutrons, Z = 18.\n- Potassium (⁴⁰₁₉K): 19 protons, 21 neutrons, Z = 19.\n- Calcium (⁴⁰₂₀Ca): 20 protons, 20 neutrons, Z = 20."
+    },
+    {
+      "q": "State four major practical applications of radioactive isotopes in industry, medicine, power generation, and archaeological science.",
+      "a": "1. Nuclear Power Generation:\n- Uranium-235 (²³⁵₉₂U) undergoes controlled nuclear fission in reactors to generate steam and electrical power.\n\n2. Cancer Radiotherapy:\n- Cobalt-60 (⁶⁰₂₇Co) emits penetrating gamma rays that target and destroy malignant cancerous tumours.\n\n3. Medical Diagnosis & Treatment:\n- Iodine-131 (¹³¹₅₃I) selectively accumulates in the thyroid gland to diagnose and treat hyperthyroidism and thyroid cancer.\n\n4. Radiocarbon Dating:\n- Carbon-14 (¹⁴₆C) decay rate is used by archaeologists to date ancient organic fossils, wood, bones, and artefacts up to ~50,000 years old."
+    },
+    {
+      "q": "Highlight India's historical and scientific contributions to nuclear and atomic science, focusing on Dr. Homi Bhabha and the Bhabha Atomic Research Centre (BARC).",
+      "a": "1. Dr. Homi Jehangir Bhabha (1909–1966):\n- Revered as the 'Father of the Indian Nuclear Programme'.\n- Founded the Tata Institute of Fundamental Research (TIFR) and Atomic Energy Establishment, Trombay (renamed BARC).\n- Formulated India's three-stage nuclear power programme utilizing domestic thorium reserves.\n\n2. BARC & Research Reactor 'Dhruva':\n- Located in Trombay, Mumbai, BARC is India's premier nuclear research facility.\n- The Dhruva reactor provides high-flux neutron beams for neutron-scattering research.\n- Applied in designing high-temperature superconductors, advanced lithium battery electrodes, targeted drug-delivery systems, and industrial alloys."
+    },
+    {
+      "q": "Solve Exercise 14 from Page 160: An element X has mass number 35 and 18 neutrons. Answer all sub-questions (i) to (vii) with step-by-step reasoning.",
+      "a": "Given: Mass number A = 35, Neutrons n = 18.\n\n1. (i) Protons and Electrons:\n- Protons = A - n = 35 - 18 = 17 protons.\n- In neutral atom, Electrons = 17 electrons.\n\n2. (ii) Atomic Number:\n- Z = Number of protons = 17.\n\n3. (iii) Element Identity:\n- Element with Z = 17 is Chlorine (Cl).\n\n4. (iv) Electronic Configuration:\n- Z = 17 → K=2, L=8, M=7 (written as 2, 8, 7).\n\n5. (v) Valence Electrons:\n- Outermost M-shell has 7 valence electrons.\n\n6. (vi) New Mass Number with 2 Extra Neutrons:\n- New mass number = 35 + 2 = 37.\n\n7. (vii) Relationship with Original Atom:\n- Both have Z = 17 but different mass numbers (35 vs 37) → They are Isotopes (³⁵₁₇Cl and ³⁷₁₇Cl)."
+    },
+    {
+      "q": "Solve Exercise 15 from Page 160: An atom has 12 protons and 12 neutrons. If its electrons are replaced by hypothetical particles having the same charge but 500 times heavier, determine the effect on (i) atomic number, (ii) atomic mass, (iii) mass number, and (iv) overall charge.",
+      "a": "Given: 12 protons, 12 neutrons, 12 electrons (Magnesium, Z = 12, A = 24).\nHypothetical particles carry charge -1 but mass = 500 × (1/1840) u ≈ 0.27 u.\n\n1. (i) Atomic Number: NO CHANGE (remains 12).\n- Atomic number is defined exclusively by the number of nuclear protons.\n\n2. (ii) Atomic Mass: INCREASES.\n- Normal electron mass is negligible (~0.006 u total). Twelve hypothetical particles add 12 × 0.27 u ≈ 3.26 u, raising atomic mass from ~24 u to ~27.26 u.\n\n3. (iii) Mass Number: NO CHANGE (remains 24).\n- Mass number (A) is strictly the integer count of nuclear nucleons (protons + neutrons = 12 + 12 = 24). Extranuclear particles do not alter mass number.\n\n4. (iv) Overall Charge: REMAINS NEUTRAL (0).\n- The 12 hypothetical particles carry the same unit negative charge as electrons, balancing the 12 positive protons (+12 - 12 = 0)."
+    }
+  ]
+}

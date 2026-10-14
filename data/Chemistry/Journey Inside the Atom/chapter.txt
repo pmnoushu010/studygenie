@@ -1,0 +1,603 @@
+================================================================================
+CLASS 9 CHEMISTRY (SCIENCE) - CHAPTER 8
+JOURNEY INSIDE THE ATOM
+COMPREHENSIVE CHAPTER STUDY NOTES & MASTER CONCEPT REVIEW
+PART 1: PAGES 140 - 144 (IMAGES 1 TO 5)
+================================================================================
+
+1. INTRODUCTION: THE ARCHITECTURE OF MATTER (PAGE 140)
+--------------------------------------------------------------------------------
+- Everything in the universe that occupies space and has mass is defined as matter.
+- Structural Hierarchy of Non-Living Matter:
+  House → Room → Wall → Brick → Silicates/Minerals → Molecules → Atoms (Si, O, etc.)
+- Structural Hierarchy of Living Matter:
+  Human Body → Organ (e.g. Stomach) → Tissue → Cell → Protein/Biomolecules → Atoms (C, H, O, N, P, etc.)
+- Fundamental Inquiries:
+  (i) Are atoms truly the ultimate indivisible building blocks of matter?
+  (ii) If atoms are divisible, what are their subatomic constituents and how are they arranged?
+  (iii) Why do negatively charged electrons not collapse into the positively charged nucleus?
+  (iv) Why did scientists progressively modify and replace atomic models over time?
+
+--------------------------------------------------------------------------------
+2. REDISCOVERING THE ROOTS OF ATOMIC THEORY (SECTION 8.1, PAGE 141)
+--------------------------------------------------------------------------------
+A. Ancient Indian Philosophical Foundations:
+   - More than 2,000 years ago, ancient Indian philosopher Acharya Kanada recorded his atomic concepts in the Sanskrit philosophical text "Vaisesika Sutras".
+   - Concept of Dravya (Matter): If matter is divided repeatedly, a stage is reached beyond which further division is impossible.
+   - Parmanu: Kanada named these indivisible fundamental particles "parmanus".
+   - Nature: A parmanu is infinitely small, eternal, and cannot be perceived by the ordinary human senses.
+   - Aggregation: Combinations of parmanus form "dyads" (pairs of two parmanus) and "triads" (clusters of three parmanus), which assemble to form all material substances and living bodies in the universe.
+   - Limitation: Ancient philosophical theories were based on intellectual contemplation and did not provide quantitative proportions or experimental proof.
+
+B. Ancient Greek Philosophical Foundations:
+   - Greek philosophers Leucippus and Democritus independently proposed that matter is composed of tiny, indivisible particles.
+   - Etymology: They coined the term "atomos" (Greek for "indivisible" or "uncuttable"), which gave rise to the modern word "atom".
+
+C. Dalton's Atomic Theory (1808):
+   - British chemist John Dalton formulated the first scientific atomic theory based on the laws of chemical combination and quantitative laboratory experiments.
+   - Central Postulate: All matter is composed of extremely small, indivisible particles called atoms that cannot be created, divided, or destroyed in chemical reactions.
+   - Served as the bedrock of modern chemistry, prompting 19th-century physicists to investigate whether the atom could be split further.
+
+--------------------------------------------------------------------------------
+3. DISCOVERY OF SUBATOMIC PARTICLES & THOMSON'S MODEL (SECTIONS 8.2 & 8.2.1, PAGE 142)
+--------------------------------------------------------------------------------
+A. Breakdown of Indivisibility (Late 19th Century):
+   - The discovery of radioactivity proved that certain heavy elements spontaneously emit penetrating radiation and subatomic particles, demonstrating that atoms are complex and divisible.
+
+B. Discovery of the Electron (1897) by J. J. Thomson:
+   - Apparatus: Cathode Ray Tube (discharge tube) — a sealed glass tube containing two metal electrodes (negative cathode and positive anode) filled with gas at extremely low pressure and subjected to high electrical voltage.
+   - Observation: Streams of invisible rays emanated from the cathode and travelled toward the anode, termed "cathode rays".
+   - Properties of Cathode Rays:
+     * Deflected by electric and magnetic fields toward the positive plate, proving they carry negative electrical charge.
+     * Consist of particles with an extraordinarily tiny mass (much smaller than a hydrogen atom).
+     * These subatomic particles were named "electrons".
+     * Universal Character: The nature, charge, and mass of electrons were found to be completely independent of the metal used for the cathode and the gas inside the tube. Hence, electrons are universal constituents of all atoms.
+   - Nobel Recognition: Sir J. J. Thomson was awarded the 1906 Nobel Prize in Physics; he served as head of the prestigious Cavendish Laboratory in Cambridge.
+   - Quantitative Charge: The fundamental charge of an electron is -1.602 × 10⁻¹⁹ C, conventionally assigned a relative charge of -1.
+
+C. Thomson's Atomic Model (1898):
+   - The Scientific Puzzle: Since atoms are electrically neutral overall, the presence of negative electrons implies an equal amount of positive charge must exist within the atom.
+   - Proposed Structure: An atom is a uniform sphere of positive charge with negatively charged electrons embedded within it.
+   - Analogies:
+     (i) Plum Pudding Model: Electrons are embedded like dried plums (raisins) within a spherical pudding of positive charge.
+     (ii) Watermelon Model: The red edible pulp represents the uniform sphere of positive charge, while the black seeds scattered throughout represent the negative electrons.
+   - Significance: The first genuine scientific attempt to explain the internal electrical neutrality of the atom.
+
+--------------------------------------------------------------------------------
+4. THE GOLD FOIL EXPERIMENT: TESTING THOMSON'S MODEL (SECTION 8.2.2, PAGE 143)
+--------------------------------------------------------------------------------
+A. Experimental Setup (1911):
+   - Designed by Ernest Rutherford and performed by his associates Hans Geiger and Ernest Marsden.
+   - A narrow beam of high-energy alpha (α) particles emitted from a radioactive source was directed at an extremely thin sheet of gold foil (approximately 1,000 atoms thick).
+   - Nature of Alpha Particles (α):
+     * A doubly charged helium ion (He²⁺) consisting of 2 protons and 2 neutrons.
+     * Mass = 4 u; Charge = +2.
+     * High kinetic energy and relatively heavy mass compared to electrons.
+
+B. Expected Outcome (based on Thomson's Model):
+   - Because Thomson's positive charge was spread thinly and uniformly across the entire atomic volume, the electric field inside would be very weak.
+   - Rutherford expected all heavy, fast-moving α-particles to pass straight through the gold foil with only negligible deflections (less than a fraction of a degree).
+
+C. Actual Surprising Observations:
+   (i) Most of the α-particles (over 99%) passed straight through the gold foil completely undeflected.
+   (ii) A small fraction of α-particles were deflected through small and moderate angles.
+   (iii) A very tiny fraction (about 1 in 20,000 particles) suffered severe deflections greater than 90°, and a few even bounced back along their path (deflected by nearly 180°).
+   - Rutherford's Reaction: "It was as if you fired a 15-inch shell at a piece of tissue paper and it came back and hit you!"
+   - Conclusion: Thomson's model was completely disproved because a diffuse positive sphere could never exert the concentrated electrostatic force required to repel and reverse a massive, fast α-particle.
+
+--------------------------------------------------------------------------------
+5. RUTHERFORD'S PLANETARY MODEL OF AN ATOM (SECTION 8.2.2 A, PAGE 144)
+--------------------------------------------------------------------------------
+A. Postulates of Rutherford's Model:
+   (i) Most of an Atom is Empty Space: Inferred directly because the overwhelming majority of α-particles passed straight through without deflection.
+   (ii) Dense Central Nucleus: The entire positive charge and almost all the mass of the atom are concentrated in an extraordinarily small, dense core at the centre, named the "nucleus".
+   (iii) Planetary Motion of Electrons: Negatively charged electrons revolve around the central positive nucleus at high speeds in circular orbits, analogous to planets orbiting the Sun. Hence termed the "Planetary Model of the Atom".
+
+B. Quantitative Dimensions & Relative Scale:
+   - Approximate Diameter of an Atom ≈ 10⁻¹⁰ m (0.1 nm or 1 Å).
+   - Approximate Diameter of the Nucleus ≈ 10⁻¹⁵ m (1 fm).
+   - Relative Size: The nucleus is approximately 10⁵ (one lakh or 100,000) times smaller than the atom itself.
+   - Everyday Analogy: If an atom were magnified to the size of a full cricket stadium (about 100 m across), the nucleus at the centre would be as small as a single black pepper grain (a few mm across).
+
+C. Quantitative Thinkings & Ready to Go Beyond:
+   - Sheet of Paper Thickness Calculation:
+     * Thickness of textbook paper ≈ 0.1 mm = 10⁻⁴ m.
+     * Atomic diameter ≈ 10⁻¹⁰ m.
+     * Number of atoms stacked = (10⁻⁴ m) ÷ (10⁻¹⁰ m) = 10⁶ (one million atoms stacked across the thickness of a single page).
+   - Effect of Gold Foil Thickness:
+     * Using a thicker foil increases the number of atomic layers, vastly increasing the probability of α-particles colliding with or approaching close to nuclei, leading to significantly higher deflection and back-scattering rates.
+   - Negative Particle Beam Thought Experiment:
+     * If α-particles (+2 charge) were replaced by negatively charged particles (e.g., high-speed electrons), they would be electrostatically attracted toward the positive nucleus rather than repelled, radically altering the scattering trajectories.
+
+================================================================================
+PART 2: PAGES 145 - 149 (IMAGES 6 TO 10)
+================================================================================
+
+6. LIMITATIONS OF RUTHERFORD'S MODEL & DISCOVERY OF THE PROTON (PAGE 145)
+--------------------------------------------------------------------------------
+A. The Atomic Stability Paradox:
+   - Fundamental Flaw: Rutherford's model could not explain why atoms do not collapse.
+   - Electrodynamic Principle: Any charged particle undergoing accelerated motion must continuously radiate electromagnetic energy.
+   - Spiral Collapse: Since electrons orbit in a circular path, they are constantly changing direction and thus undergoing continuous acceleration. An accelerating electron should lose energy continuously, causing its orbit to shrink into a tight inward spiral (Fig. 8.6) and crash into the positive nucleus in less than 10⁻⁸ seconds.
+   - Reality: If this were true, atoms would be fundamentally unstable and all matter would instantaneously collapse. Since matter is remarkably stable, classical electrodynamics could not explain atomic architecture.
+
+B. Discovery and Characteristics of the Proton:
+   - Ernest Rutherford showed that the positive charge of the nucleus resides in discrete subatomic particles named "protons".
+   - Key Properties:
+     * Mass: Approximately 1 u (about 1836 times heavier than an electron).
+     * Charge: +1.602 × 10⁻¹⁹ C (relative charge = +1), exactly equal in magnitude but opposite in sign to the electron's charge.
+   - Electrical Neutrality: An atom is electrically neutral because the number of positive protons in the nucleus precisely equals the number of negative electrons revolving around it (e.g., Helium has 2 protons and 2 electrons; Sodium has 11 protons and 11 electrons).
+   - Meet a Scientist: Ernest Rutherford (1871–1937), born in New Zealand, Nobel Prize in Chemistry (1908), revered as the "Father of Nuclear Physics". His portrait is honoured on New Zealand's $100 banknote.
+
+--------------------------------------------------------------------------------
+7. BOHR'S QUANTUM MODEL OF THE ATOM (SECTION 8.2.3, PAGE 146)
+--------------------------------------------------------------------------------
+A. Niels Bohr's Revolutionary Postulates (1913):
+   To resolve the stability crisis of Rutherford's model, Danish physicist Niels Bohr proposed:
+   (i) Discrete Orbits (Stationary States):
+       - Electrons do not move in arbitrary paths. They revolve only in certain special, non-radiating circular orbits called "stationary states", "orbits", or "shells".
+       - In these designated shells, an electron possesses a fixed, definite amount of energy. Hence, these shells are termed "energy levels" (Fig. 8.7).
+   (ii) Shell Notation & Principal Quantum Numbers:
+       - Energy shells are designated by the capital letters K, L, M, N, O, ... or by integers n = 1, 2, 3, 4, ... outward from the central nucleus:
+         * K-shell (n = 1): Innermost orbit, closest to the nucleus, lowest energy.
+         * L-shell (n = 2): Second orbit, higher energy than K.
+         * M-shell (n = 3): Third orbit.
+         * N-shell (n = 4): Fourth orbit.
+   (iii) Non-Radiating Energy Rule:
+       - As long as an electron remains in an allowed stationary shell, it DOES NOT radiate, emit, or lose energy, completely explaining why the electron never spirals into the nucleus.
+   (iv) Energy Quanta Transitions:
+       - An electron can transition between shells only by absorbing or emitting a discrete packet (quantum) of energy equal to the exact difference between the two energy levels: ΔE = E_final - E_initial.
+   (v) Maximum Capacity: Each shell can hold only a specific maximum number of electrons.
+
+B. Threads of Curiosity: Origin of K, L, M, N Shell Letters:
+   - In early X-ray spectroscopy, physicist Charles Barkla observed distinct characteristic X-ray spectral lines and labelled the first observed series "K" (leaving A through J for potential higher-energy lines). Bohr adopted this established notation for atomic electron shells.
+   - Meet a Scientist: Niels Bohr (1885–1962), Copenhagen University, awarded the 1922 Nobel Prize in Physics for his atomic structure theory.
+
+--------------------------------------------------------------------------------
+8. COMPONENTS CONTRIBUTING TO ATOMIC MASS & THE NEUTRON (SECTION 8.3, PAGE 147)
+--------------------------------------------------------------------------------
+A. The Atomic Mass Puzzle:
+   - Electrons have negligible mass (m_e ≈ 1/1840 u). Therefore, atomic mass was initially assumed to be solely due to protons.
+   - The Mystery:
+     * A hydrogen atom has 1 proton (mass ≈ 1 u).
+     * A helium atom has 2 protons. If mass came only from protons, helium should weigh 2 u (twice hydrogen).
+     * Experimental measurement showed helium actually has an atomic mass of 4 u (four times heavier than hydrogen!).
+     * This proved that additional neutral particles with mass must exist inside the nucleus.
+
+B. Discovery of the Neutron (1932) by James Chadwick:
+   - James Chadwick, working under Rutherford at the Cavendish Laboratory, bombarded light elements (beryllium) with alpha particles and discovered a neutral, highly penetrating radiation.
+   - Properties of the Neutron:
+     * Symbol: n (or n⁰).
+     * Electrical Charge: Exactly 0 (electrically neutral).
+     * Mass: Approximately equal to that of a proton (1.675 × 10⁻²⁷ kg ≈ 1.0086 u ≈ 1 u).
+     * Location: Present in the nucleus of all atoms EXCEPT ordinary hydrogen (protium, ¹₁H), which has only 1 proton and 0 neutrons.
+   - Nucleons: Protons and neutrons together reside in the nucleus and are collective termed "nucleons". They account for over 99.9% of the atom's total mass.
+
+C. Table 8.1: Fundamental Subatomic Particles Comparison:
+   | Subatomic Particle | Symbol | Absolute Charge (C)   | Relative Charge | Relative Mass (u) | Actual Mass (kg)       | Location in Atom    |
+   |--------------------|--------|-----------------------|-----------------|-------------------|------------------------|---------------------|
+   | Electron           | e⁻     | -1.602 × 10⁻¹⁹ C      | -1              | 1/1840 ≈ 0.00054 u| 9.109 × 10⁻³¹ kg       | Extranuclear Orbits |
+   | Proton             | p⁺     | +1.602 × 10⁻¹⁹ C      | +1              | 1.00727 u ≈ 1 u   | 1.673 × 10⁻²⁷ kg       | Inside Nucleus      |
+   | Neutron            | n⁰     | 0                     | 0               | 1.00866 u ≈ 1 u   | 1.675 × 10⁻²⁷ kg       | Inside Nucleus      |
+
+D. Nuclear Stability & Nuclear Force (Threads of Curiosity):
+   - Like charges repel: Positive protons packed closely inside the femtometre-scale nucleus experience massive electrostatic repulsion.
+   - Role of Neutrons: Neutrons act as a nuclear glue and physical spacer. They do not add repulsive charge, but they exert the immensely strong, short-range "strong nuclear force" that overcomes electrostatic repulsion and binds nucleons together.
+   - Proton-to-Neutron Ratio:
+     * Light stable atoms: Protons ≈ Neutrons (e.g., Carbon: 6 p⁺, 6 n⁰; Oxygen: 8 p⁺, 8 n⁰).
+     * Heavy stable atoms: Significantly more neutrons are required to maintain stability (e.g., Iron: 26 p⁺, 30 n⁰; Uranium: 92 p⁺, 146 n⁰).
+   - What if an Atom Had No Empty Space? (Page 147 Box):
+     * If the vast empty space between the nucleus and electrons were eliminated and all matter were compressed to nuclear density (~10¹⁷ kg/m³), the volume of objects would shrink by a factor of 10¹⁵.
+     * A human being would shrink to smaller than a microscopic speck of dust, and the entire human population of Earth could fit into the volume of a single sugar cube, while retaining their full mass!
+   - Historical Impact: The uncharged neutron can easily penetrate deep into heavy nuclei without electrostatic repulsion, enabling nuclear fission, the splitting of uranium, and launching the modern nuclear age.
+
+--------------------------------------------------------------------------------
+9. INDIA'S SCIENTIFIC CONTRIBUTIONS: NEUTRON SCIENCE (PAGE 148)
+--------------------------------------------------------------------------------
+- Bhabha Atomic Research Centre (BARC, Fig. 8.8), Trombay, Mumbai:
+  * Established as the premier centre for nuclear science and technology in India.
+  * Research Reactor "Dhruva": High-flux research reactor utilized for advanced neutron-beam and neutron-scattering experiments.
+  * Applications: Probing atomic and magnetic arrangements to engineer advanced materials including high-temperature superconductors, next-generation lithium battery electrodes, targeted pharmaceutical drug carriers, and high-strength industrial alloys.
+
+--------------------------------------------------------------------------------
+10. CHEMICAL SYMBOLS OF ELEMENTS & ATOMIC NUMBER (SECTIONS 8.4 & 8.5, PAGES 148 - 149)
+--------------------------------------------------------------------------------
+A. Evolution of Element Representation:
+   - Known Elements: 69 elements known in 1869; 118 unique chemical elements established today.
+   - Dalton's Pictorial Symbols (1803):
+     * John Dalton introduced geometric circle-based pictorial symbols (Fig. 8.9), e.g., dotted circle for Hydrogen, solid black circle for Carbon, cross in circle for Sulphur, radiating rays for Gold.
+     * Limitation: Highly cumbersome to draw, memorize, and reproduce for complex multi-element chemical compounds.
+   - Berzelius's Alphabetic System (1813):
+     * Swedish chemist Jöns Jacob Berzelius proposed representing elements using letters from their names (chiefly their international Latin names).
+
+B. Modern IUPAC Rules for Chemical Symbols:
+   The International Union of Pure and Applied Chemistry (IUPAC) sets standardized global rules:
+   (i) One or Two Letters: The symbol consists of one or two letters derived from the element's common English, Latin, Greek, or German name.
+   (ii) Capitalization Rule:
+       * The FIRST letter is ALWAYS written in UPPERCASE (capital).
+       * The SECOND letter (if present) is ALWAYS written in LOWERCASE (small).
+       * Crucial Distinction: Cobalt is written as "Co" (capital C, small o). Writing "CO" represents Carbon Monoxide, a compound of carbon and oxygen!
+   (iii) Non-consecutive Letters: In some elements, the symbol combines the first letter and a later distinctive letter from its name: Chlorine = Cl, Zinc = Zn, Magnesium = Mg.
+
+C. Elements with Symbols Derived from Classical (Latin, Greek, German) Names:
+   - Iron: Fe (from Latin "Ferrum")
+   - Sodium: Na (from Latin "Natrium")
+   - Potassium: K (from Latin "Kalium")
+   - Copper: Cu (from Latin "Cuprum")
+   - Silver: Ag (from Latin "Argentum")
+   - Gold: Au (from Latin "Aurum")
+   - Lead: Pb (from Latin "Plumbum")
+   - Mercury: Hg (from Greek "Hydrargyros" - liquid silver)
+   - Tungsten: W (from German "Wolfram")
+
+D. Master Reference: Common Elements & IUPAC Symbols (Table 8.2):
+   - Aluminium (Al), Argon (Ar), Barium (Ba), Boron (B), Bromine (Br), Calcium (Ca), Carbon (C), Chlorine (Cl), Cobalt (Co), Copper (Cu), Fluorine (F), Gold (Au), Hydrogen (H), Iodine (I), Iron (Fe), Lead (Pb), Magnesium (Mg), Neon (Ne), Nitrogen (N), Oxygen (O), Potassium (K), Silicon (Si), Silver (Ag), Sodium (Na), Sulfur (S), Uranium (U), Zinc (Zn).
+
+E. Atomic Number (Z) (Section 8.5):
+   - Definition: The total number of protons present in the nucleus of an atom of an element is called its "atomic number".
+   - Symbol: Designated by the capital letter "Z" (from German "Zahl", meaning number).
+   - Core Principle:
+     * Every element has a unique, characteristic atomic number Z.
+     * The atomic number determines the electronic structure and chemical properties of an element.
+     * In an electrically neutral atom:
+       Atomic Number (Z) = Number of Protons = Number of Electrons.
+
+F. Analysis of In-Text Pause and Ponder Questions (Pages 145 & 149):
+   - Q7 (Assertion-Reason on Page 145):
+     Assertion (A): Rutherford concluded that most of the mass of an atom is concentrated in a small region at the centre called the nucleus. (TRUE)
+     Reason (R): According to Thomson's model, electrons are embedded in a uniformly distributed positive charge sphere. (TRUE)
+     Evaluation: Both A and R are true, but R is NOT the correct explanation of A (A was derived from the α-particle bouncing back from a dense nucleus).
+   - Q8 (Discovering a New Element): Symbol must follow IUPAC: first letter uppercase, second lowercase, distinct from all 118 established symbols.
+   - Q9 (Universal Chemical Symbols Importance): Without international IUPAC symbols, scientists worldwide would face extreme language barriers, conflicting chemical equations, dangerous misidentifications in trade and pharmaceuticals, and inability to collaborate globally.
+
+================================================================================
+PART 3: PAGES 150 - 154 (IMAGES 11 TO 15)
+================================================================================
+
+11. MASS NUMBER & STANDARD ATOMIC NOTATION (SECTION 8.6, PAGE 150)
+--------------------------------------------------------------------------------
+A. Definition & Nucleon Concept:
+   - The total number of protons and neutrons present in the nucleus of an atom is called its "mass number", denoted by the capital letter "A".
+   - Nucleons: Protons and neutrons together reside inside the nucleus and are collectively termed "nucleons".
+   - Governing Formula:
+     Mass Number (A) = Number of Protons (p⁺) + Number of Neutrons (n⁰)
+     Number of Neutrons (n⁰) = Mass Number (A) - Atomic Number (Z)
+
+B. Table 8.3: Mass Numbers of Elements:
+   - Hydrogen: 1 proton, 0 neutrons → Mass number A = 1
+   - Helium: 2 protons, 2 neutrons → Mass number A = 4
+   - Lithium (Fig. 8.10): 3 protons, 4 neutrons → Mass number A = 7
+
+C. Standard International Notation for an Atom:
+   Written as:
+       ᴬ_Z X   (where X = Chemical symbol, A = Mass number as superscript, Z = Atomic number as subscript)
+   Example: Carbon with 6 protons and 6 neutrons is written as ¹²₆C.
+
+D. Solved Pause and Ponder Problems (Page 150):
+   - Q10: An atom with Z = 26 has 56 nucleons.
+     * Number of protons = Z = 26.
+     * In a neutral atom, number of electrons = 26.
+     * Number of neutrons = A - Z = 56 - 26 = 30. (Element is Iron, ⁵⁶₂₆Fe).
+   - Q11: An atom contains 20 protons and mass number A = 41.
+     * Number of neutrons = A - Z = 41 - 20 = 21. (Calcium-41 isotope).
+   - Q12: An atom has 18 neutrons and Z = 17.
+     * Mass number A = Z + n = 17 + 18 = 35. (Chlorine-35, ³⁵₁₇Cl).
+   - Q13: An atom ²³A has 11 electrons.
+     * Since neutral, protons Z = 11.
+     * Number of neutrons = A - Z = 23 - 11 = 12. (Element is Sodium, ²³₁₁Na).
+
+--------------------------------------------------------------------------------
+12. ELECTRONIC CONFIGURATION: BOHR-BURY RULES (SECTION 8.7, PAGES 151 - 152)
+--------------------------------------------------------------------------------
+A. Bohr-Bury Scheme for Distribution of Electrons:
+   1. Maximum Capacity Rule (2n²):
+      The maximum number of electrons that can be accommodated in a shell of principal quantum number n is given by 2n²:
+      - K-shell (n = 1): 2 × (1)² = 2 electrons (duplet)
+      - L-shell (n = 2): 2 × (2)² = 8 electrons (octet)
+      - M-shell (n = 3): 2 × (3)² = 18 electrons
+      - N-shell (n = 4): 2 × (4)² = 32 electrons
+   2. Outermost Shell Rule (Octet Rule):
+      The maximum number of electrons that can be accommodated in the outermost valence shell is strictly 8 (except K-shell, which holds a maximum of 2).
+   3. Stepwise Filling Rule:
+      Electrons fill shells in a stepwise manner from innermost to outermost (K → L → M → N). A higher energy shell begins filling only after inner shells are completely filled.
+
+B. Table 8.4: Master Electronic Configurations of the First 18 Elements:
+   | Element    | Symbol | Atomic No (Z) | Protons | Neutrons | Electrons | K (n=1) | L (n=2) | M (n=3) |
+   |------------|--------|---------------|---------|----------|-----------|---------|---------|---------|
+   | Hydrogen   | H      | 1             | 1       | 0        | 1         | 1       | -       | -       |
+   | Helium     | He     | 2             | 2       | 2        | 2         | 2       | -       | -       |
+   | Lithium    | Li     | 3             | 3       | 4        | 3         | 2       | 1       | -       |
+   | Beryllium  | Be     | 4             | 4       | 5        | 4         | 2       | 2       | -       |
+   | Boron      | B      | 5             | 5       | 6        | 5         | 2       | 3       | -       |
+   | Carbon     | C      | 6             | 6       | 6        | 6         | 2       | 4       | -       |
+   | Nitrogen   | N      | 7             | 7       | 7        | 7         | 2       | 5       | -       |
+   | Oxygen     | O      | 8             | 8       | 8        | 8         | 2       | 6       | -       |
+   | Fluorine   | F      | 9             | 9       | 10       | 9         | 2       | 7       | -       |
+   | Neon       | Ne     | 10            | 10      | 10       | 10        | 2       | 8       | -       |
+   | Sodium     | Na     | 11            | 11      | 12       | 11        | 2       | 8       | 1       |
+   | Magnesium  | Mg     | 12            | 12      | 12       | 12        | 2       | 8       | 2       |
+   | Aluminium  | Al     | 13            | 13      | 14       | 13        | 2       | 8       | 3       |
+   | Silicon    | Si     | 14            | 14      | 14       | 14        | 2       | 8       | 4       |
+   | Phosphorus | P      | 15            | 15      | 16       | 15        | 2       | 8       | 5       |
+   | Sulfur     | S      | 16            | 16      | 16       | 16        | 2       | 8       | 6       |
+   | Chlorine   | Cl     | 17            | 17      | 18       | 17        | 2       | 8       | 7       |
+   | Argon      | Ar     | 18            | 18      | 22       | 18        | 2       | 8       | 8       |
+
+C. Solved In-Text Exercises (Page 152):
+   - Q14 (Outermost Electrons):
+     (i) ¹²₆C: Configuration = 2, 4 → 4 outermost electrons.
+     (ii) ¹⁹₉F: Configuration = 2, 7 → 7 outermost electrons.
+     (iii) ²⁸₁₄Si: Configuration = 2, 8, 4 → 4 outermost electrons.
+   - Q15 (Electronic Configurations):
+     * Z = 12 (Mg): 2, 8, 2
+     * Z = 16 (S): 2, 8, 6
+     * Z = 18 (Ar): 2, 8, 8
+   - Q16 (Riddle):
+     * Atom with A = 23 and 11 protons is Sodium (Na).
+     * Number of neutrons = 23 - 11 = 12 neutrons.
+     * Reacts vigorously with water forming NaOH and H₂ gas.
+
+--------------------------------------------------------------------------------
+13. VALENCY & COMBINING CAPACITY (SECTION 8.8, PAGE 153)
+--------------------------------------------------------------------------------
+A. Definition:
+   - Valency is the combining capacity of an atom of an element to form chemical bonds with other atoms.
+   - Measured as the number of hydrogen atoms or chlorine atoms that one atom of the element can combine with (e.g., in H₂O valency of O is 2; in NH₃ valency of N is 3; in MgCl₂ valency of Mg is 2).
+
+B. Valence Shell & Valence Electrons:
+   - The outermost energy shell is called the "valence shell".
+   - Electrons present in the valence shell are called "valence electrons".
+
+C. The Octet Rule & Chemical Reactivity:
+   - Atoms with 8 electrons in their outermost shell (or 2 for helium) possess a stable octet/duplet and are chemically inert (noble gases: He, Ne, Ar; Valency = 0).
+   - Atoms with incomplete valence shells achieve stability by losing, gaining, or sharing electrons:
+     * Fewer than 4 valence electrons (Metals): Tend to LOSE electrons.
+       Valency = Number of valence electrons.
+       - Sodium (2, 8, 1): loses 1 e⁻ → Valency = 1
+       - Magnesium (2, 8, 2): loses 2 e⁻ → Valency = 2
+       - Aluminium (2, 8, 3): loses 3 e⁻ → Valency = 3
+     * More than 4 valence electrons (Non-metals): Tend to GAIN electrons.
+       Valency = 8 - Number of valence electrons.
+       - Nitrogen (2, 5): gains 3 e⁻ → Valency = 8 - 5 = 3
+       - Oxygen (2, 6): gains 2 e⁻ → Valency = 8 - 6 = 2
+       - Fluorine (2, 7): gains 1 e⁻ → Valency = 8 - 7 = 1
+     * Exactly 4 valence electrons (Metalloids/Non-metals): Tend to SHARE electrons.
+       - Carbon (2, 4) & Silicon (2, 8, 4): share 4 e⁻ → Valency = 4
+
+--------------------------------------------------------------------------------
+14. ISOTOPES & ATOMIC MASS UNITS (SECTION 8.9 & 8.9.1, PAGE 154)
+--------------------------------------------------------------------------------
+A. Definition of Isotopes:
+   - Isotopes are atoms of the SAME element that have the SAME atomic number (Z, same protons) but DIFFERENT mass numbers (A, different neutrons).
+   - Disproved Dalton's assumption that all atoms of an element have identical mass.
+
+B. Isotopes of Hydrogen (Fig. 8.12):
+   (i) Protium (¹₁H): 1 proton, 0 neutrons, 1 electron (~99.98% natural abundance).
+   (ii) Deuterium (²₁H or D): 1 proton, 1 neutron, 1 electron (~0.015%). Heavy water (D₂O).
+   (iii) Tritium (³₁H or T): 1 proton, 2 neutrons, 1 electron (trace radioactive isotope).
+
+C. Isotopes of Carbon (Fig. 8.13):
+   (i) Carbon-12 (¹²₆C): 6 protons, 6 neutrons, 6 electrons (most abundant, standard for atomic mass).
+   (ii) Carbon-13 (¹³₆C): 6 protons, 7 neutrons, 6 electrons.
+   (iii) Carbon-14 (¹⁴₆C): 6 protons, 8 neutrons, 6 electrons (radioactive, used in radiocarbon dating).
+
+D. Chemical vs Physical Properties of Isotopes:
+   - Chemical Properties are IDENTICAL: Because chemical behaviour depends entirely on electronic configuration and valence electrons, which are identical in all isotopes of an element.
+   - Physical Properties are DIFFERENT: Because physical properties (density, boiling point, melting point, diffusion rate) depend on atomic mass, which differs due to different neutron counts.
+
+E. Unified Atomic Mass Unit (u) (Ready to Go Beyond Box):
+   - Defined as exactly 1/12th the mass of one carbon-12 atom.
+   - 1 u ≈ 1.6605 × 10⁻²⁷ kg.
+
+================================================================================
+PART 4: PAGES 155 - 159 (IMAGES 16 TO 20)
+================================================================================
+
+15. PRACTICAL APPLICATIONS OF ISOTOPES (PAGE 155)
+--------------------------------------------------------------------------------
+Certain isotopes possess unique nuclear properties and radiation characteristics that make them indispensable in modern science, medicine, and industry:
+1. Nuclear Power Generation (Fuel):
+   - Uranium-235 (²³⁵₉₂U): Used as the primary fissionable fuel in nuclear reactors to generate electrical energy (Fig. 8.14).
+2. Cancer Radiation Therapy:
+   - Cobalt-60 (⁶⁰₂₇Co): Emits penetrating gamma radiation used to destroy malignant cancerous tumours.
+3. Thyroid Disease Diagnosis & Treatment:
+   - Iodine-131 (¹³¹₅₃I): Concentrates in the thyroid gland; used to diagnose and treat goitre and thyroid cancer.
+4. Radiocarbon Dating in Archaeology & Geology:
+   - Carbon-14 (¹⁴₆C): Radioactive isotope with a known half-life used to determine the age of ancient fossils, wood, bones, and historical artefacts.
+
+--------------------------------------------------------------------------------
+16. AVERAGE ATOMIC MASS & WEIGHTED ABUNDANCE (SECTION 8.9.1 A, PAGES 155 - 156)
+--------------------------------------------------------------------------------
+A. Concept of Weighted Average:
+   - In nature, most elements exist as mixtures of two or more isotopes in fixed natural proportions.
+   - The atomic mass of an element is taken as the "weighted average mass" of all its naturally occurring isotopes, taking relative abundances into account.
+
+B. Derivation for Chlorine (Page 155):
+   - Isotopes: Chlorine-35 (³⁵₁₇Cl) and Chlorine-37 (³⁷₁₇Cl).
+   - Natural Abundance Ratio: 3 : 1 (75% ³⁵Cl and 25% ³⁷Cl).
+   - Arithmetic Mean: (35 + 37) / 2 = 36 u (INCORRECT, fails to reflect natural occurrence).
+   - Weighted Average Calculation:
+     Average Atomic Mass = [35 × (75/100)] + [37 × (25/100)]
+                         = (105 / 4) + (37 / 4)
+                         = 142 / 4 = 35.5 u.
+   - Crucial Physical Interpretation:
+     No single chlorine atom has a fractional mass of 35.5 u. Any natural sample of 1,000,000 chlorine atoms contains 750,000 atoms of mass 35 u and 250,000 atoms of mass 37 u, resulting in a statistical average of 35.5 u.
+
+C. Solved Pause and Ponder Problems (Page 156):
+   - Q17 (Comparing Two Sodium Atoms):
+     Two atoms each have 11 protons. One has 12 neutrons, the other has 13 neutrons:
+     * Atom 1: Z = 11, A = 11 + 12 = 23 (²³₁₁Na).
+     * Atom 2: Z = 11, A = 11 + 13 = 24 (²⁴₁₁Na).
+     * Conclusion: Both have identical atomic number (Z = 11), hence they are isotopes of the SAME element (Sodium).
+   - Q18 (Calculation of Average Atomic Mass of Bromine):
+     * Given: ⁷⁹₃₅Br (49.7%) and ⁸¹₃₅Br (50.3%).
+     * Average mass = [79 × (49.7 / 100)] + [81 × (50.3 / 100)]
+                    = 39.263 + 40.743 = 80.006 u ≈ 80 u.
+
+--------------------------------------------------------------------------------
+17. ISOBARS & ADVANCED ATOMIC STRUCTURE (SECTION 8.9.2, PAGES 156 - 157)
+--------------------------------------------------------------------------------
+A. Definition of Isobars:
+   - Atoms of DIFFERENT chemical elements having DIFFERENT atomic numbers (Z), but the SAME mass number (A) (same total number of nucleons) are called "isobars".
+
+B. Classic Isobaric Triad:
+   - Argon (⁴⁰₁₈Ar): 18 protons, 22 neutrons, Mass number A = 40.
+   - Potassium (⁴⁰₁₉K): 19 protons, 21 neutrons, Mass number A = 40.
+   - Calcium (⁴⁰₂₀Ca): 20 protons, 20 neutrons, Mass number A = 40.
+
+C. Comparison: Isotopes vs Isobars:
+   - Isotopes: Same element, same Z (same chemical properties), different A (different physical properties).
+   - Isobars: Different elements, different Z (completely different chemical properties), same A (similar nuclear masses).
+
+D. Meet a Scientist: Dr. Homi Jehangir Bhabha (1909–1966):
+   - Revered as the "Father of the Indian Nuclear Programme".
+   - Founded TIFR (Tata Institute of Fundamental Research) and BARC (Bhabha Atomic Research Centre).
+   - Pioneered India's three-stage nuclear power strategy and peaceful atomic technologies.
+
+E. Advanced Imaging: STMs & TEMs (Ready to Go Beyond Box):
+   - Scanning Tunnelling Microscopes (STMs, Fig. 8.15) and Transmission Electron Microscopes (TEMs) provide atomic-resolution imaging. STMs map surface atomic topography; TEMs reveal interior atomic lattice columns.
+
+F. Modern View: Beyond Bohr's Model:
+   - Electrons do not follow rigid circular tracks; modern quantum mechanics describes them as 3D probabilistic "electron clouds" (orbitals) around the nucleus.
+
+--------------------------------------------------------------------------------
+18. CHRONOLOGICAL EVOLUTION OF ATOMIC MODELS (FIG. 8.16 & AT A GLANCE, PAGE 157)
+--------------------------------------------------------------------------------
+1. Dalton's Model (1808): Indivisible, featureless solid sphere.
+2. Thomson's Model (1898): Plum pudding/watermelon model — uniform positive sphere with embedded negative electrons.
+3. Rutherford's Nuclear Model (1911): Concentrated positive nucleus with orbiting electrons (planetary model).
+4. Bohr's Quantum Model (1913): Discrete, non-radiating circular orbits / energy levels (K, L, M, N).
+5. Modern Quantum Mechanical Model: Probabilistic 3D electron clouds / orbitals.
+
+--------------------------------------------------------------------------------
+19. EXERCISE QUESTIONS & CONCEPTUAL WORKINGS (PAGES 158 - 159)
+--------------------------------------------------------------------------------
+- Question 1 (Rutherford Gold Foil Analysis):
+  (i) Incorrect (neutrons discovered in 1932 by Chadwick).
+  (ii) Correct (large deflections disproved uniform positive sphere and proved dense nucleus).
+  (iii) Correct (rebounding of ~1/20,000 particles proved mass and charge are in tiny centre).
+  (iv) Incorrect (deflection pattern showed nuclear scattering, not orbital mechanics).
+
+- Question 2 (Bohr's Atomic Model Statements):
+  (i) Incorrect (electrons in fixed orbits DO NOT lose energy).
+  (ii) Incorrect (electrons cannot exist anywhere; only in discrete allowed shells).
+  (iii) Correct (electrons revolve in stationary orbits without radiating energy).
+  (iv) Incorrect (electrons cannot stay between energy levels).
+
+- Question 3 (Nuclear Species X, Y, Z Analysis):
+  Given data:
+  * Species X: 18 protons, 19 neutrons → Z = 18, A = 18 + 19 = 37 (³⁷₁₈X).
+  * Species Y: 17 protons, 18 neutrons → Z = 17, A = 17 + 18 = 35 (³⁵₁₇Y).
+  * Species Z: 17 protons, 20 neutrons → Z = 17, A = 17 + 20 = 37 (³⁷₁₇Z).
+  (i) Relation between Y and Z: Both have 17 protons (same Z), but different mass numbers (35 vs 37) → They are ISOTOPES.
+  (ii) Relation between Z and X: Different atomic numbers (17 vs 18), but identical mass number (A = 37) → They are ISOBARS.
+
+- Question 4 (Rutherford's Conclusions on Nuclear Charge):
+  The positive charge and nearly all the mass of the atom are concentrated in an extraordinarily small, dense region at the centre (the nucleus).
+
+- Question 5 (Chronological Sequence of Atomic Models):
+  (iv) Dalton's indivisible atom → (ii) Thomson's plum pudding → (iii) Rutherford's dense nucleus → (i) Bohr's fixed energy orbits.
+
+- Question 6 (Why Orbiting Electrons Do Not Fly Away):
+  The attractive electrostatic force between the positively charged nucleus and negatively charged electrons acts as the necessary centripetal force holding electrons in orbit.
+
+- Question 7 (Assertion-Reason on Subatomic Particles):
+  Assertion (A): Discovery of subatomic particles helped in understanding atomic structure (TRUE).
+  Reason (R): Number of electrons is equal to number of protons (TRUE).
+  Correct Choice: (ii) Both A and R are true, but R is NOT the correct explanation of A.
+
+- Question 8 (Magnesium Analysis: A = 24, Z = 12):
+  (i) Number of protons = Z = 12.
+  (ii) Number of neutrons = A - Z = 24 - 12 = 12.
+  (iii) Number of electrons = 12.
+  Electronic configuration: K = 2, L = 8, M = 2 (2, 8, 2).
+
+- Question 9 (Fig. 8.17 Atomic Model Identifications):
+  * Diagram (a): 2 shells: K = 2, L = 1.
+    (i) Lithium, (ii) Li, (iii) 3 electrons, (iv) 1 valence electron, (v) Valency = 1, (vi) 3 protons, (vii) Z = 3.
+  * Diagram (b): 2 shells: K = 2, L = 4.
+    (i) Carbon, (ii) C, (iii) 6 electrons, (iv) 4 valence electrons, (v) Valency = 4, (vi) 6 protons, (vii) Z = 6.
+  * Diagram (c): 3 shells: K = 2, L = 8, M = 7.
+    (i) Chlorine, (ii) Cl, (iii) 17 electrons, (iv) 7 valence electrons, (v) Valency = 8 - 7 = 1, (vi) 17 protons, (vii) Z = 17.
+  * Diagram (d): 2 shells: K = 2, L = 6.
+    (i) Oxygen, (ii) O, (iii) 8 electrons, (iv) 6 valence electrons, (v) Valency = 8 - 6 = 2, (vi) 8 protons, (vii) Z = 8.
+
+================================================================================
+PART 5: PAGES 160 - 161 (IMAGES 21 TO 22)
+================================================================================
+
+20. ADVANCED EXERCISE PROBLEMS & CONCEPTUAL INQUIRIES (PAGE 160)
+--------------------------------------------------------------------------------
+- Question 10 (Atomic Stability: Rutherford vs Bohr):
+  * Rutherford's Failure: In classical electrodynamics, an accelerating charged particle (such as an electron in circular orbit) continuously radiates electromagnetic energy. Consequently, the electron should rapidly lose energy, spiral inward along a tightening spiral path, and collapse into the positively charged nucleus within ~10⁻⁸ seconds, rendering atoms fundamentally unstable.
+  * Bohr's Success: Bohr resolved this paradox by postulating that electrons revolve only in discrete, non-radiating circular orbits called "stationary states" or "energy levels". While an electron remains in an allowed shell, it does NOT radiate or lose energy. Energy is emitted or absorbed only when the electron transitions between discrete energy levels, successfully explaining the enduring stability of atoms.
+
+- Question 11 (Gallium Isotope Calculation):
+  * Given: Atom ⁷⁰X has 31 electrons.
+  * In an electrically neutral atom: Atomic number Z = Number of protons = Number of electrons = 31.
+  * Mass number A = 70.
+  * Number of neutrons = A - Z = 70 - 31 = 39 neutrons.
+  * (Element is Gallium, ⁷⁰₃₁Ga).
+
+- Question 12 (Gold Atom Calculation):
+  * Given: Number of protons Z = 79, Mass number A = 197.
+  * (i) Number of neutrons = A - Z = 197 - 79 = 118 neutrons.
+  * (ii) In an electrically neutral atom: Number of electrons = Number of protons = 79 electrons.
+  * (Element is Gold, ¹⁹⁷₇₉Au).
+
+- Question 13 (Table 8.5: Complete Subatomic Characteristics Table):
+  | Atomic Number (Z) | Mass Number (A) | Number of Neutrons (n⁰) | Number of Protons (p⁺) | Number of Electrons (e⁻) | Name of the Element |
+  |-------------------|-----------------|-------------------------|------------------------|--------------------------|---------------------|
+  | 5                 | 11              | 6                       | 5                      | 5                        | Boron (B)           |
+  | 7                 | 14              | 7                       | 7                      | 7                        | Nitrogen (N)        |
+  | 12                | 24              | 12                      | 12                     | 12                       | Magnesium (Mg)      |
+  | 15                | 31              | 16                      | 15                     | 15                       | Phosphorus (P)      |
+  | 1                 | 1               | 0                       | 1                      | 1                        | Hydrogen (H)        |
+
+- Question 14 (Aman's Comprehensive Chlorine Analysis):
+  Given: Element X has mass number A = 35 and 18 neutrons.
+  (i) Protons and Electrons:
+      * Number of protons = A - Neutrons = 35 - 18 = 17 protons.
+      * In a neutral atom, number of electrons = 17 electrons.
+  (ii) Atomic Number:
+      * Z = Number of protons = 17.
+  (iii) Identity of Element X:
+      * Element with Z = 17 is Chlorine (Cl).
+  (iv) Electronic Configuration:
+      * Z = 17 → K = 2, L = 8, M = 7 (written as 2, 8, 7).
+  (v) Valence Electrons:
+      * Outermost shell (M-shell) contains 7 valence electrons.
+  (vi) Mass Number with 2 Additional Neutrons:
+      * New mass number = Original mass number + 2 = 35 + 2 = 37.
+  (vii) Relation of X with the New Atom:
+      * Both atoms have identical atomic number (Z = 17) but different mass numbers (35 and 37).
+      * Therefore, they are ISOTOPES of Chlorine (³⁵₁₇Cl and ³⁷₁₇Cl).
+
+- Question 15 (Hypothetical Particle Thought Experiment):
+  Given: An atom has 12 protons and 12 neutrons (Magnesium, Z = 12, A = 24).
+  Suppose all 12 electrons are replaced with hypothetical particles having the SAME charge (-1) as an electron, but 500 TIMES HEAVIER.
+  (i) Atomic Number:
+      * NO CHANGE (remains 12). Atomic number is defined exclusively by the number of protons in the nucleus.
+  (ii) Atomic Mass:
+      * INCREASES. Normal electrons have negligible mass (m_e ≈ 1/1840 u ≈ 0.00054 u). The hypothetical particles have mass 500 × 0.00054 u ≈ 0.27 u each. For 12 particles, total added mass ≈ 12 × 0.27 u ≈ 3.26 u, increasing the total atomic mass from ~24 u to ~27.26 u.
+  (iii) Mass Number:
+      * NO CHANGE (remains 24). Mass number (A) is an integer defined strictly as the sum of nucleons (protons + neutrons) inside the nucleus: A = 12 + 12 = 24. Extranuclear particles do not alter mass number.
+  (iv) Overall Charge:
+      * REMAINS NEUTRAL (Zero overall charge). Since the hypothetical particles carry the identical unit negative charge (-1) as electrons, the 12 negative charges precisely balance the 12 positive protons in the nucleus (+12 - 12 = 0).
+
+--------------------------------------------------------------------------------
+21. THE JOURNEY BEYOND & FUTURE HORIZONS (PAGE 161)
+--------------------------------------------------------------------------------
+- Interactive Scientific Inquiry:
+  * "Atomic Prediction Board Game": Players deduce unknown elements using atomic clues (Z, A, electrons, valence electrons, valency).
+  * Multidisciplinary Societal Impacts:
+    - Healthcare: Targeted radioisotope therapies (Co-60, I-131), PET/MRI imaging.
+    - Energy: Clean zero-carbon nuclear fission power (U-235, Th-232).
+    - Agriculture: Mutation breeding for drought-resistant crops, food irradiation preservation.
+    - Advanced Technology: Quantum semiconductor chips, solid-state lithium batteries.
+  * Digital PhET Simulations:
+    - Rutherford Alpha-Scattering: Exploring nuclear deflection angles and impact parameters.
+    - Isotopes and Atomic Mass: Simulating weighted isotopic abundances and mass spectra.
+- The Quest Continues... Is it possible to completely understand everything inside an atom?
+  * Scientific Frontier: Subatomic research continues beyond protons, neutrons, and electrons. Protons and neutrons are themselves composed of elementary particles called "quarks" (held together by "gluons"), governed by quantum chromodynamics (QCD) and the Standard Model of Particle Physics.
+================================================================================
